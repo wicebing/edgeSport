@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateResearchItem } from "./lib/research-review.mjs";
-import { REPORT_CONTENT_LEVELS } from "./lib/weekly-report-schema.mjs";
+import { REPORT_CONTENT_LEVELS, validateWeeklyReport } from "./lib/weekly-report-schema.mjs";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const contentPath = resolve(rootDirectory, "content", "issues.json");
@@ -318,6 +318,16 @@ function validateWeeklyReports(reportsData, publishedIssueIds, knownTopicIds) {
 
     if (!Array.isArray(report?.articleDigests) || report.articleDigests.length === 0) {
       errors.push(`${location}.articleDigests must contain at least one article.`);
+    }
+
+    const contractErrors = validateWeeklyReport(report, {
+      sourceRecordIds: [...researchSourceIds],
+      contentLevelByRecord: sourceLevels,
+      courseIdsByRecord: new Map((report?.articleDigests ?? []).map((digest) => [digest.recordId, courseSourceIds])),
+      issueIdsByRecord: new Map((report?.articleDigests ?? []).map((digest) => [digest.recordId, priorIssueSourceIds]))
+    }, { requireApproval: false });
+    for (const contractError of contractErrors) {
+      errors.push(`${location} contract: ${contractError}`);
     }
   }
 }

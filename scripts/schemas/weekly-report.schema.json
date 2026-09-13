@@ -12,11 +12,15 @@
     "summary",
     "question",
     "evidenceStatement",
+    "researchLandscape",
+    "knowledgePrimer",
     "topicIds",
     "sportTags",
     "sourceRecordIds",
     "trend",
     "articleDigests",
+    "practiceGuide",
+    "decisionPathway",
     "comparisonTable",
     "editorReview"
   ],
@@ -30,6 +34,8 @@
     "summary": { "type": "string", "minLength": 1 },
     "question": { "type": "string", "minLength": 1 },
     "evidenceStatement": { "type": "string", "minLength": 1 },
+    "researchLandscape": { "$ref": "#/$defs/researchLandscape" },
+    "knowledgePrimer": { "$ref": "#/$defs/knowledgePrimer" },
     "topicIds": { "$ref": "#/$defs/nonEmptyStringArray" },
     "sportTags": { "$ref": "#/$defs/nonEmptyStringArray" },
     "sourceRecordIds": { "$ref": "#/$defs/nonEmptyStringArray" },
@@ -47,6 +53,8 @@
       "minItems": 1,
       "items": { "$ref": "#/$defs/articleDigest" }
     },
+    "practiceGuide": { "$ref": "#/$defs/practiceGuide" },
+    "decisionPathway": { "$ref": "#/$defs/decisionPathway" },
     "comparisonTable": { "$ref": "#/$defs/table" },
     "editorReview": {
       "type": "object",
@@ -76,6 +84,84 @@
           "items": { "type": "string", "minLength": 1 }
         },
         "summary": { "type": "string", "minLength": 1 }
+      }
+    },
+    "researchLandscape": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "overview", "themes", "keyNumbers"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "overview": { "type": "string", "minLength": 1 },
+        "themes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "articleIds", "signal", "evidenceStrength"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1 },
+              "articleIds": { "$ref": "#/$defs/nonEmptyStringArray" },
+              "signal": { "type": "string", "minLength": 1 },
+              "evidenceStrength": { "type": "string", "enum": ["high", "moderate", "low", "mixed", "uncertain"] }
+            }
+          }
+        },
+        "keyNumbers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["value", "label", "context", "sourceRecordId"],
+            "properties": {
+              "value": { "type": "string", "minLength": 1 },
+              "label": { "type": "string", "minLength": 1 },
+              "context": { "type": "string", "minLength": 1 },
+              "sourceRecordId": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "knowledgePrimer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "overview", "definitions", "mechanisms"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "overview": { "type": "string", "minLength": 1 },
+        "definitions": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["term", "definition", "operationalMeaning", "basis"],
+            "properties": {
+              "term": { "type": "string", "minLength": 1 },
+              "definition": { "type": "string", "minLength": 1 },
+              "operationalMeaning": { "type": "string", "minLength": 1 },
+              "basis": { "type": "string", "enum": ["source-stated", "inclass-supported", "cross-source-synthesis", "edge-sport-proposal"] }
+            }
+          }
+        },
+        "mechanisms": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title", "explanation", "practicalMeaning", "sourceRecordIds"],
+            "properties": {
+              "title": { "type": "string", "minLength": 1 },
+              "explanation": { "type": "string", "minLength": 1 },
+              "practicalMeaning": { "type": "string", "minLength": 1 },
+              "sourceRecordIds": { "$ref": "#/$defs/nonEmptyStringArray" }
+            }
+          }
+        }
       }
     },
     "table": {
@@ -150,12 +236,139 @@
         }
       }
     },
+    "studyProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["design", "population", "interventionOrExposure", "comparator", "outcomes", "followUp"],
+      "properties": {
+        "design": { "type": "string", "minLength": 1 },
+        "population": { "type": "string", "minLength": 1 },
+        "interventionOrExposure": { "type": "string", "minLength": 1 },
+        "comparator": { "type": "string", "minLength": 1 },
+        "outcomes": { "type": "string", "minLength": 1 },
+        "followUp": { "type": "string", "minLength": 1 }
+      }
+    },
+    "quantitativeResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["measure", "result", "context", "sourceLocation"],
+      "properties": {
+        "measure": { "type": "string", "minLength": 1 },
+        "result": { "type": "string", "minLength": 1 },
+        "context": { "type": "string", "minLength": 1 },
+        "sourceLocation": { "type": "string", "minLength": 1 }
+      }
+    },
+    "practiceGuide": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "scope", "targetPopulation", "goal", "assessmentBattery", "phases", "loadManagement", "stopRules", "outcomeTracking", "riskDiscussion", "uncertainties"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "scope": { "type": "string", "minLength": 1 },
+        "targetPopulation": { "type": "string", "minLength": 1 },
+        "goal": { "type": "string", "minLength": 1 },
+        "assessmentBattery": { "$ref": "#/$defs/evidenceTable" },
+        "phases": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["phase", "typicalTiming", "objectives", "entryCriteria", "actions", "dosage", "monitoring", "progressionCriteria", "regressionCriteria", "evidenceBasis"],
+            "properties": {
+              "phase": { "type": "string", "minLength": 1 },
+              "typicalTiming": { "type": "string", "minLength": 1 },
+              "objectives": { "$ref": "#/$defs/nonEmptyStringArray" },
+              "entryCriteria": { "$ref": "#/$defs/nonEmptyStringArray" },
+              "actions": { "$ref": "#/$defs/nonEmptyStringArray" },
+              "dosage": { "type": "string", "minLength": 1 },
+              "monitoring": { "$ref": "#/$defs/nonEmptyStringArray" },
+              "progressionCriteria": { "$ref": "#/$defs/nonEmptyStringArray" },
+              "regressionCriteria": { "$ref": "#/$defs/nonEmptyStringArray" },
+              "evidenceBasis": { "type": "string", "enum": ["source-stated", "inclass-supported", "cross-source-synthesis", "edge-sport-proposal", "mixed"] }
+            }
+          }
+        },
+        "loadManagement": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["baseline", "progression", "monitoring", "weeklyReview"],
+          "properties": {
+            "baseline": { "type": "string", "minLength": 1 },
+            "progression": { "type": "string", "minLength": 1 },
+            "monitoring": { "type": "string", "minLength": 1 },
+            "weeklyReview": { "type": "string", "minLength": 1 }
+          }
+        },
+        "stopRules": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["trigger", "action", "restartCriteria", "urgency", "evidenceBasis"],
+            "properties": {
+              "trigger": { "type": "string", "minLength": 1 },
+              "action": { "type": "string", "minLength": 1 },
+              "restartCriteria": { "type": "string", "minLength": 1 },
+              "urgency": { "type": "string", "enum": ["modify", "stop", "urgent-referral"] },
+              "evidenceBasis": { "type": "string", "enum": ["source-stated", "inclass-supported", "cross-source-synthesis", "edge-sport-proposal", "mixed"] }
+            }
+          }
+        },
+        "outcomeTracking": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["domain", "measure", "frequency", "targetOrInterpretation"],
+            "properties": {
+              "domain": { "type": "string", "minLength": 1 },
+              "measure": { "type": "string", "minLength": 1 },
+              "frequency": { "type": "string", "minLength": 1 },
+              "targetOrInterpretation": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "riskDiscussion": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "uncertainties": { "$ref": "#/$defs/nonEmptyStringArray" }
+      }
+    },
+    "decisionPathway": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "start", "steps", "note"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "start": { "type": "string", "minLength": 1 },
+        "steps": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["question", "ifYes", "ifNo"],
+            "properties": {
+              "question": { "type": "string", "minLength": 1 },
+              "ifYes": { "type": "string", "minLength": 1 },
+              "ifNo": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
     "articleDigest": {
       "type": "object",
       "additionalProperties": false,
       "required": [
         "recordId",
         "contentLevel",
+        "studyProfile",
+        "quantitativeResults",
         "headline",
         "summary",
         "keyFindings",
@@ -170,6 +383,12 @@
       "properties": {
         "recordId": { "type": "string", "minLength": 1 },
         "contentLevel": { "type": "string", "enum": ["full-text-web", "full-text-local", "full-text-open", "full-text-excerpt", "abstract-only"] },
+        "studyProfile": { "$ref": "#/$defs/studyProfile" },
+        "quantitativeResults": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/quantitativeResult" }
+        },
         "headline": { "type": "string", "minLength": 1 },
         "summary": { "type": "string", "minLength": 1 },
         "keyFindings": { "$ref": "#/$defs/nonEmptyStringArray" },

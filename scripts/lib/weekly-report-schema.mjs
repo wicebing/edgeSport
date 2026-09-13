@@ -16,6 +16,8 @@ export function validateWeeklyReport(report, context = {}, options = {}) {
   requireString(report?.summary, "weekly report.summary", errors);
   requireString(report?.question, "weekly report.question", errors);
   requireString(report?.evidenceStatement, "weekly report.evidenceStatement", errors);
+  validateResearchLandscape(report?.researchLandscape, sourceRecordIds, errors);
+  validateKnowledgePrimer(report?.knowledgePrimer, sourceRecordIds, errors);
   requireString(report?.trend?.title, "weekly report.trend.title", errors);
   requireString(report?.trend?.body, "weekly report.trend.body", errors);
   requireStringArray(report?.topicIds, "weekly report.topicIds", 1, errors);
@@ -61,6 +63,8 @@ export function validateWeeklyReport(report, context = {}, options = {}) {
   }
 
   validateComparisonTable(report?.comparisonTable, errors);
+  validatePracticeGuide(report?.practiceGuide, errors);
+  validateDecisionPathway(report?.decisionPathway, errors);
   validateEditorialReview(report?.editorReview, options.requireApproval === true, errors);
   return errors;
 }
@@ -107,6 +111,8 @@ export function buildPublicReport(draft, packet, options = {}) {
 function validateArticleDigest(digest, context, errors) {
   requireString(digest?.recordId, "weekly report.articleDigests[].recordId", errors);
   requireOneOf(digest?.contentLevel, [...REPORT_CONTENT_LEVELS], `weekly report.articleDigests[${digest?.recordId ?? "unknown"}].contentLevel`, errors);
+  validateStudyProfile(digest?.studyProfile, `weekly report.articleDigests[${digest?.recordId ?? "unknown"}].studyProfile`, errors);
+  validateQuantitativeResults(digest?.quantitativeResults, `weekly report.articleDigests[${digest?.recordId ?? "unknown"}].quantitativeResults`, errors);
   requireString(digest?.headline, `weekly report.articleDigests[${digest?.recordId ?? "unknown"}].headline`, errors);
   requireString(digest?.summary, `weekly report.articleDigests[${digest?.recordId ?? "unknown"}].summary`, errors);
   requireString(digest?.whatIsNew, `weekly report.articleDigests[${digest?.recordId ?? "unknown"}].whatIsNew`, errors);
@@ -133,6 +139,144 @@ function validateArticleDigest(digest, context, errors) {
 
   validateKnowledgeComparison(digest?.inClassComparison, "inClassComparison", context.allowedCourseIds, errors);
   validateKnowledgeComparison(digest?.priorWeeklyComparison, "priorWeeklyComparison", context.allowedIssueIds, errors);
+}
+
+function validateResearchLandscape(landscape, allowedRecordIds, errors) {
+  requireString(landscape?.title, "weekly report.researchLandscape.title", errors);
+  requireString(landscape?.overview, "weekly report.researchLandscape.overview", errors);
+  if (!Array.isArray(landscape?.themes) || landscape.themes.length === 0) {
+    errors.push("weekly report.researchLandscape.themes must contain at least one trend theme.");
+  } else {
+    for (const theme of landscape.themes) {
+      requireString(theme?.name, "weekly report.researchLandscape.themes[].name", errors);
+      requireString(theme?.signal, "weekly report.researchLandscape.themes[].signal", errors);
+      requireOneOf(theme?.evidenceStrength, ["high", "moderate", "low", "mixed", "uncertain"], "weekly report.researchLandscape.themes[].evidenceStrength", errors);
+      requireUniqueStringArray(theme?.articleIds, "weekly report.researchLandscape.themes[].articleIds", 1, errors);
+      validateSourceIds(theme?.articleIds, allowedRecordIds, "weekly report.researchLandscape.themes[].articleIds", errors);
+    }
+  }
+  if (!Array.isArray(landscape?.keyNumbers) || landscape.keyNumbers.length === 0) {
+    errors.push("weekly report.researchLandscape.keyNumbers must contain at least one traceable number.");
+  } else {
+    for (const number of landscape.keyNumbers) {
+      requireString(number?.value, "weekly report.researchLandscape.keyNumbers[].value", errors);
+      requireString(number?.label, "weekly report.researchLandscape.keyNumbers[].label", errors);
+      requireString(number?.context, "weekly report.researchLandscape.keyNumbers[].context", errors);
+      requireString(number?.sourceRecordId, "weekly report.researchLandscape.keyNumbers[].sourceRecordId", errors);
+      validateSourceIds([number?.sourceRecordId], allowedRecordIds, "weekly report.researchLandscape.keyNumbers[].sourceRecordId", errors);
+    }
+  }
+}
+
+function validateKnowledgePrimer(primer, allowedRecordIds, errors) {
+  requireString(primer?.title, "weekly report.knowledgePrimer.title", errors);
+  requireString(primer?.overview, "weekly report.knowledgePrimer.overview", errors);
+  if (!Array.isArray(primer?.definitions) || primer.definitions.length < 2) {
+    errors.push("weekly report.knowledgePrimer.definitions must contain at least two operational definitions.");
+  } else {
+    for (const definition of primer.definitions) {
+      requireString(definition?.term, "weekly report.knowledgePrimer.definitions[].term", errors);
+      requireString(definition?.definition, "weekly report.knowledgePrimer.definitions[].definition", errors);
+      requireString(definition?.operationalMeaning, "weekly report.knowledgePrimer.definitions[].operationalMeaning", errors);
+      requireOneOf(definition?.basis, ["source-stated", "inclass-supported", "cross-source-synthesis", "edge-sport-proposal"], "weekly report.knowledgePrimer.definitions[].basis", errors);
+    }
+  }
+  if (!Array.isArray(primer?.mechanisms) || primer.mechanisms.length === 0) {
+    errors.push("weekly report.knowledgePrimer.mechanisms must contain at least one mechanism.");
+  } else {
+    for (const mechanism of primer.mechanisms) {
+      requireString(mechanism?.title, "weekly report.knowledgePrimer.mechanisms[].title", errors);
+      requireString(mechanism?.explanation, "weekly report.knowledgePrimer.mechanisms[].explanation", errors);
+      requireString(mechanism?.practicalMeaning, "weekly report.knowledgePrimer.mechanisms[].practicalMeaning", errors);
+      requireUniqueStringArray(mechanism?.sourceRecordIds, "weekly report.knowledgePrimer.mechanisms[].sourceRecordIds", 1, errors);
+      validateSourceIds(mechanism?.sourceRecordIds, allowedRecordIds, "weekly report.knowledgePrimer.mechanisms[].sourceRecordIds", errors);
+    }
+  }
+}
+
+function validateStudyProfile(profile, location, errors) {
+  for (const field of ["design", "population", "interventionOrExposure", "comparator", "outcomes", "followUp"]) {
+    requireString(profile?.[field], `${location}.${field}`, errors);
+  }
+}
+
+function validateQuantitativeResults(results, location, errors) {
+  if (!Array.isArray(results) || results.length === 0) {
+    errors.push(`${location} must contain at least one source-grounded result.`);
+    return;
+  }
+  for (const result of results) {
+    for (const field of ["measure", "result", "context", "sourceLocation"]) {
+      requireString(result?.[field], `${location}[].${field}`, errors);
+    }
+  }
+}
+
+function validatePracticeGuide(guide, errors) {
+  for (const field of ["title", "scope", "targetPopulation", "goal"]) {
+    requireString(guide?.[field], `weekly report.practiceGuide.${field}`, errors);
+  }
+  validateEvidenceTable(guide?.assessmentBattery, "weekly report.practiceGuide.assessmentBattery", errors);
+  if (!Array.isArray(guide?.phases) || guide.phases.length < 2) {
+    errors.push("weekly report.practiceGuide.phases must contain at least two implementation phases.");
+  } else {
+    for (const phase of guide.phases) {
+      requireString(phase?.phase, "weekly report.practiceGuide.phases[].phase", errors);
+      requireString(phase?.typicalTiming, "weekly report.practiceGuide.phases[].typicalTiming", errors);
+      requireString(phase?.dosage, "weekly report.practiceGuide.phases[].dosage", errors);
+      for (const field of ["objectives", "entryCriteria", "actions", "monitoring", "progressionCriteria", "regressionCriteria"]) {
+        requireStringArray(phase?.[field], `weekly report.practiceGuide.phases[].${field}`, 1, errors);
+      }
+      requireOneOf(phase?.evidenceBasis, ["source-stated", "inclass-supported", "cross-source-synthesis", "edge-sport-proposal", "mixed"], "weekly report.practiceGuide.phases[].evidenceBasis", errors);
+    }
+  }
+  for (const field of ["baseline", "progression", "monitoring", "weeklyReview"]) {
+    requireString(guide?.loadManagement?.[field], `weekly report.practiceGuide.loadManagement.${field}`, errors);
+  }
+  if (!Array.isArray(guide?.stopRules) || guide.stopRules.length < 2) {
+    errors.push("weekly report.practiceGuide.stopRules must contain at least two safety rules.");
+  } else {
+    for (const rule of guide.stopRules) {
+      requireString(rule?.trigger, "weekly report.practiceGuide.stopRules[].trigger", errors);
+      requireString(rule?.action, "weekly report.practiceGuide.stopRules[].action", errors);
+      requireString(rule?.restartCriteria, "weekly report.practiceGuide.stopRules[].restartCriteria", errors);
+      requireOneOf(rule?.urgency, ["modify", "stop", "urgent-referral"], "weekly report.practiceGuide.stopRules[].urgency", errors);
+      requireOneOf(rule?.evidenceBasis, ["source-stated", "inclass-supported", "cross-source-synthesis", "edge-sport-proposal", "mixed"], "weekly report.practiceGuide.stopRules[].evidenceBasis", errors);
+    }
+  }
+  if (!Array.isArray(guide?.outcomeTracking) || guide.outcomeTracking.length < 2) {
+    errors.push("weekly report.practiceGuide.outcomeTracking must contain at least two monitoring outcomes.");
+  } else {
+    for (const outcome of guide.outcomeTracking) {
+      for (const field of ["domain", "measure", "frequency", "targetOrInterpretation"]) {
+        requireString(outcome?.[field], `weekly report.practiceGuide.outcomeTracking[].${field}`, errors);
+      }
+    }
+  }
+  requireStringArray(guide?.riskDiscussion, "weekly report.practiceGuide.riskDiscussion", 1, errors);
+  requireStringArray(guide?.uncertainties, "weekly report.practiceGuide.uncertainties", 1, errors);
+}
+
+function validateDecisionPathway(pathway, errors) {
+  requireString(pathway?.title, "weekly report.decisionPathway.title", errors);
+  requireString(pathway?.start, "weekly report.decisionPathway.start", errors);
+  requireString(pathway?.note, "weekly report.decisionPathway.note", errors);
+  if (!Array.isArray(pathway?.steps) || pathway.steps.length < 2) {
+    errors.push("weekly report.decisionPathway.steps must contain at least two decisions.");
+    return;
+  }
+  for (const step of pathway.steps) {
+    requireString(step?.question, "weekly report.decisionPathway.steps[].question", errors);
+    requireString(step?.ifYes, "weekly report.decisionPathway.steps[].ifYes", errors);
+    requireString(step?.ifNo, "weekly report.decisionPathway.steps[].ifNo", errors);
+  }
+}
+
+function validateSourceIds(sourceIds, allowedRecordIds, location, errors) {
+  if (!(allowedRecordIds instanceof Set) || allowedRecordIds.size === 0) return;
+  for (const sourceId of sourceIds ?? []) {
+    if (sourceId && !allowedRecordIds.has(sourceId)) errors.push(`${location} includes unavailable source ${sourceId}.`);
+  }
 }
 
 function validateKnowledgeComparison(comparison, label, allowedIds, errors) {
