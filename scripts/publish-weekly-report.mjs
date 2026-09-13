@@ -64,6 +64,7 @@ if (previousIndex >= 0) {
 publicReports.schemaVersion = 1;
 publicReports.reports = existingReports.sort((left, right) => right.publishDate.localeCompare(left.publishDate));
 await writeFile(outputPath, `${JSON.stringify(publicReports, null, 2)}\n`, "utf8");
+await import("./build-knowledge-index.mjs");
 console.log(`Published ${reportId} to ${outputPath}.`);
 
 function buildValidationContext(packetData) {

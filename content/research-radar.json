@@ -87,6 +87,22 @@
       "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
     }
   ],
+  "collectionHistory": [
+    {
+      "collectedAt": "2026-09-12T18:16:04.247Z",
+      "coverage": {
+        "from": "2026-09-07",
+        "to": "2026-09-13"
+      },
+      "query": null,
+      "discoveredCount": 94,
+      "totalArchivedCount": 94,
+      "discoveredItemIds": [],
+      "sources": [],
+      "baselineImported": true,
+      "note": "啟用累積式保存時匯入的既有研究雷達基線；後續每次蒐集會保留實際新增 ID 與來源狀態。"
+    }
+  ],
   "items": [
     {
       "id": "pmid-42720250",

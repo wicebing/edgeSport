@@ -123,7 +123,6 @@ if (!argumentsByName.has("skip-monthly") && isFirstWeekOfMonth(publishDate)) {
   if (argumentsByName.get("model")) monthlyArguments.push("--model", argumentsByName.get("model"));
   await runNodeScript("run-monthly.mjs", monthlyArguments);
 }
-await runNodeScript("build-knowledge-index.mjs", []);
 await runNodeScript("validate-content.mjs", []);
 console.log("The report is labeled as Codex/LLM automated and not human reviewed. Commit and push the project to update GitHub Pages.");
 

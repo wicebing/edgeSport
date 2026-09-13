@@ -4,12 +4,14 @@ import { fileURLToPath } from "node:url";
 import { validateResearchItem } from "./lib/research-review.mjs";
 import { REPORT_CONTENT_LEVELS, validateWeeklyReport } from "./lib/weekly-report-schema.mjs";
 import { validateMonthlyTopic } from "./lib/monthly-topic-schema.mjs";
+import { buildKnowledgeIndex } from "./lib/knowledge-index.mjs";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const contentPath = resolve(rootDirectory, "content", "issues.json");
 const radarPath = resolve(rootDirectory, "content", "research-radar.json");
 const sourceRegistryPath = resolve(rootDirectory, "content", "source-registry.json");
 const weeklyReportsPath = resolve(rootDirectory, "content", "weekly-reports.json");
+const knowledgeIndexPath = resolve(rootDirectory, "content", "knowledge-index.json");
 const errors = [];
 
 const requiredString = (value, location) => {
@@ -41,6 +43,7 @@ let content;
 let radar;
 let sourceRegistry;
 let weeklyReports;
+let knowledgeIndex;
 
 try {
   content = JSON.parse(await readFile(contentPath, "utf8"));
@@ -53,6 +56,7 @@ try {
   radar = JSON.parse(await readFile(radarPath, "utf8"));
   sourceRegistry = JSON.parse(await readFile(sourceRegistryPath, "utf8"));
   weeklyReports = JSON.parse(await readFile(weeklyReportsPath, "utf8"));
+  knowledgeIndex = JSON.parse(await readFile(knowledgeIndexPath, "utf8"));
 } catch (error) {
   console.error(`Unable to read research-radar data: ${error.message}`);
   process.exit(1);
@@ -154,6 +158,7 @@ for (const journal of content.journals ?? []) {
 validateSourceRegistry(sourceRegistry);
 validateResearchRadar(radar, issueIds);
 validateWeeklyReports(weeklyReports, issueIds, topicIds);
+validateKnowledgeIndex(knowledgeIndex, content, weeklyReports, radar);
 
 if (errors.length > 0) {
   console.error("Content validation failed:");
@@ -164,7 +169,7 @@ if (errors.length > 0) {
 }
 
 const publishedCount = content.issues.filter((issue) => issue.status === "published").length;
-console.log(`Validated ${publishedCount} published issues, ${weeklyReports.reports.length} integrated weekly reports, ${radar.items.length} radar records, ${content.topics.length} topics, ${sourceRegistry.pubmed.journals.length} indexed journals, ${sourceRegistry.officialOrganizations.length} official organizations, and ${sourceRegistry.rssFeeds.length} verified feeds.`);
+console.log(`Validated ${publishedCount} published issues, ${weeklyReports.reports.length} integrated weekly reports, ${radar.items.length} radar records, ${knowledgeIndex.records.length} cumulative knowledge entries, ${content.topics.length} topics, ${sourceRegistry.pubmed.journals.length} indexed journals, ${sourceRegistry.officialOrganizations.length} official organizations, and ${sourceRegistry.rssFeeds.length} verified feeds.`);
 
 function validateSourceRegistry(registry) {
   requiredArray(registry?.pubmed?.journals, "source-registry.pubmed.journals");
@@ -209,6 +214,21 @@ function validateResearchRadar(researchRadar, publishedIssueIds) {
   }
   if (!Array.isArray(researchRadar?.trendSignals)) {
     errors.push("research-radar.trendSignals must be an array.");
+  }
+  if (!Array.isArray(researchRadar?.collectionHistory) || researchRadar.collectionHistory.length === 0) {
+    errors.push("research-radar.collectionHistory must preserve at least one collection run.");
+  } else {
+    const runIds = new Set();
+    for (const run of researchRadar.collectionHistory) {
+      requiredString(run?.collectedAt, "research-radar.collectionHistory[].collectedAt");
+      requiredString(run?.coverage?.from, "research-radar.collectionHistory[].coverage.from");
+      requiredString(run?.coverage?.to, "research-radar.collectionHistory[].coverage.to");
+      if (!Number.isInteger(run?.discoveredCount) || run.discoveredCount < 0) errors.push("research-radar.collectionHistory[].discoveredCount must be a non-negative integer.");
+      if (!Number.isInteger(run?.totalArchivedCount) || run.totalArchivedCount < 0) errors.push("research-radar.collectionHistory[].totalArchivedCount must be a non-negative integer.");
+      if (!Array.isArray(run?.discoveredItemIds)) errors.push("research-radar.collectionHistory[].discoveredItemIds must be an array.");
+      if (runIds.has(run?.collectedAt)) errors.push(`Duplicate research collection run: ${run.collectedAt}`);
+      runIds.add(run?.collectedAt);
+    }
   }
   if (!Array.isArray(researchRadar?.items)) {
     errors.push("research-radar.items must be an array.");
@@ -347,6 +367,32 @@ function validateWeeklyReports(reportsData, publishedIssueIds, knownTopicIds) {
     for (const contractError of contractErrors) {
       errors.push(`${location} contract: ${contractError}`);
     }
+  }
+}
+
+function validateKnowledgeIndex(index, issueContent, reportsData, researchRadar) {
+  if (index?.schemaVersion !== 1) errors.push("knowledge-index.schemaVersion must be 1.");
+  if (index?.retentionPolicy?.mode !== "cumulative") errors.push("knowledge-index.retentionPolicy.mode must be cumulative.");
+  if (!Array.isArray(index?.records)) {
+    errors.push("knowledge-index.records must be an array.");
+    return;
+  }
+  const expected = buildKnowledgeIndex({ content: issueContent, weeklyReports: reportsData, radar: researchRadar });
+  const expectedIds = expected.records.map((record) => record.id);
+  const actualIds = index.records.map((record) => record.id);
+  if (new Set(actualIds).size !== actualIds.length) errors.push("knowledge-index.records contains duplicate IDs.");
+  if (JSON.stringify(actualIds) !== JSON.stringify(expectedIds)) errors.push("knowledge-index.records is stale or missing archived content; run npm run knowledge:index.");
+  if (JSON.stringify(index.records) !== JSON.stringify(expected.records)) errors.push("knowledge-index searchable content is stale; run npm run knowledge:index.");
+  if (JSON.stringify(index.stats) !== JSON.stringify(expected.stats)) errors.push("knowledge-index.stats does not match the cumulative public archive.");
+  if (index.generatedAt !== expected.generatedAt) errors.push("knowledge-index.generatedAt does not match the latest archived source update.");
+  for (const record of index.records) {
+    requiredString(record?.id, "knowledge-index.records[].id");
+    requiredString(record?.sourceId, `knowledge index ${record?.id ?? "unknown"}.sourceId`);
+    requiredString(record?.type, `knowledge index ${record?.id ?? "unknown"}.type`);
+    requiredString(record?.title, `knowledge index ${record?.id ?? "unknown"}.title`);
+    requiredString(record?.publishDate, `knowledge index ${record?.id ?? "unknown"}.publishDate`);
+    requiredString(record?.href, `knowledge index ${record?.id ?? "unknown"}.href`);
+    requiredString(record?.searchText, `knowledge index ${record?.id ?? "unknown"}.searchText`);
   }
 }
 

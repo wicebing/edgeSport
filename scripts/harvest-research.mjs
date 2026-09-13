@@ -76,6 +76,7 @@ const radar = {
 
 await mkdir(dirname(outputPath), { recursive: true });
 await writeJson(outputPath, radar);
+if (outputPath === defaultRadarPath) await import("./build-knowledge-index.mjs");
 
 if (!argumentsByName.has("no-inbox")) {
   await mkdir(inboxDirectory, { recursive: true });

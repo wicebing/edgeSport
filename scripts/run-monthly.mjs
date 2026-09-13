@@ -27,7 +27,6 @@ if (args.has("draft-only")) {
   process.exit(0);
 }
 await run("publish-monthly-topic.mjs", ["--id", id]);
-await run("build-knowledge-index.mjs", []);
 await run("validate-content.mjs", []);
 console.log(`Monthly Knowledge Index updated: ${id}. Commit and push to update GitHub Pages.`);
 

@@ -54,6 +54,7 @@ if (validationErrors.length > 0) {
 
 radar.items[recordIndex] = reviewedRecord;
 await writeFile(radarPath, `${JSON.stringify(radar, null, 2)}\n`, "utf8");
+await import("./build-knowledge-index.mjs");
 console.log(`Published ${reviewedRecord.id} as ${reviewedRecord.status} in the public research radar.`);
 
 function parseArguments(argumentsList) {

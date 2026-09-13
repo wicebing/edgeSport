@@ -65,6 +65,7 @@ const publicTopic = {
 content.issues = [...(content.issues ?? []).filter((issue) => issue.id !== id), publicTopic]
   .sort((left, right) => right.publishDate.localeCompare(left.publishDate));
 await writeFile(contentPath, `${JSON.stringify(content, null, 2)}\n`, "utf8");
+await import("./build-knowledge-index.mjs");
 console.log(`Published monthly deep-dive ${id} to ${contentPath}.`);
 
 function selectCoverImage(topic) {

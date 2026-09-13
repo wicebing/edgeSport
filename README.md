@@ -75,7 +75,8 @@ npm.cmd run monthly:run -- --month 2026-09
 7. 讓已登入的 Codex CLI 完整閱讀正文，逐篇擷取研究設計、族群、介入／暴露、比較條件、結果與追蹤時間，再產生結構化週報。
 8. 由 Codex CLI 統整本週研究地圖、知識背景與操作定義，並建立評估組合、分期執行、訓練量進退階、停止／轉介條件、結果追蹤及 Yes/No 決策流程。
 9. 通過來源、篇數、內容層級、表格與資料結構驗證後，自動累加到 `content/weekly-reports.json`。
-10. 執行全站內容驗證；接著即可 commit 與 push。
+10. 重建 `content/knowledge-index.json`，讓週報、月度議題、歷史議題與所有研究題錄可由同一個關鍵字索引回查。
+11. 執行全站內容與累積筆數驗證；接著即可 commit 與 push。
 
 自動加入網站的報告會顯示「Codex CLI 自動整理・尚未人工審閱」。它不會冒充人工核准；日後人工核對並執行 `weekly:release`，同一期會更新為「人工審閱完成」。每週新報告是累加到歷史清單，不會清除以前的內容；同一週重跑則更新同一個週次，不會產生重複項目。
 
@@ -84,6 +85,25 @@ npm.cmd run monthly:run -- --month 2026-09
 ```powershell
 npm.cmd run weekly:run -- --allow-abstracts --draft-only
 ```
+
+## 累積式知識庫與改版原則
+
+例行流程採用累積式保存，不設研究題錄總筆數上限，也不會因為只查最近 7 天就刪除更早的資料：
+
+- `content/weekly-reports.json`：永久保存每一期公開週報；同一週重跑只修訂同一 ID。
+- `content/issues.json`：永久保存月度深度議題與歷史知識議題；同一月份重跑只修訂同一 ID。
+- `content/research-radar.json`：合併新題錄與所有舊題錄，並在 `collectionHistory` 留下每次蒐集範圍、數量和新增 ID。
+- `content/knowledge-index.json`：由上述三份公開資料重建，包含全文式關鍵字搜尋文字與研究被哪些週報／議題引用的回溯連結。
+- `research-library/`：保留合法取得的全文、HTML、擷取文字、稽核、Codex packet 與草稿，供之後重新分析；因版權與隱私不部署到 GitHub Pages。
+
+網站改版時，以上四份 `content/*.json` 是公開知識的穩定資料層，不應用空白模板覆蓋。可隨時執行下列指令重建搜尋索引並檢查有沒有遺漏既有 ID：
+
+```powershell
+npm.cmd run knowledge:index
+npm.cmd run validate
+```
+
+Git 儲存公開整理與研究 metadata；`research-library/` 被 `.gitignore` 排除，因此換電腦、清理硬碟或重裝系統前，必須另行備份整個 `research-library/`。這項分離可讓網站長期累積知識，同時避免把訂閱全文或私人存取資料公開上傳。
 
 常用選項：
 
@@ -200,5 +220,6 @@ git push -u origin main
 - `content/research-radar.json`
 - `content/source-registry.json`
 - `content/weekly-reports.json`
+- `content/knowledge-index.json`
 
 `inClass/`、`research-library/`、`content/inbox/` 與任何 PDF 不會進入 GitHub Pages artifact。
