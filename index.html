@@ -16,11 +16,12 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260913-5" />
+    <link rel="stylesheet" href="styles.css?v=20260913-6" />
     <script defer src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
-    <script type="module" src="app.js?v=20260913-5"></script>
+    <script type="module" src="app.js?v=20260913-6"></script>
     <script type="module" src="radar.js?v=20260913-2"></script>
     <script type="module" src="weekly-reports.js?v=20260913-4"></script>
+    <script type="module" src="podcasts.js?v=20260913-1"></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">跳至主要內容</a>
@@ -36,6 +37,7 @@
 
       <nav class="main-nav" aria-label="主要導覽">
         <a href="#reading">本週閱讀</a>
+        <a href="#podcast">Podcast</a>
         <a href="#weekly-reports">本週整合</a>
         <a href="#research-radar">研究資料庫</a>
         <a href="#explore">知識庫搜尋</a>
@@ -86,6 +88,20 @@
         <div class="hero-edge" aria-hidden="true">
           <span>SCROLL TO EVIDENCE</span>
           <i data-lucide="move-down"></i>
+        </div>
+      </section>
+
+      <section id="podcast" class="podcast-section" aria-labelledby="podcast-title">
+        <div class="page-width">
+          <div class="section-heading split-heading podcast-heading">
+            <div>
+              <p class="eyebrow">EDGE SPORT 4 Podcast</p>
+              <h2 id="podcast-title">Listen to the evidence conversation</h2>
+            </div>
+            <p class="section-lead">每週由 Codex 把完整週報改寫成自然的英文雙人對談，以本機建立的 Y 女聲與 B 男聲共同提問、回答、交換觀點，討論研究數據與發現、運動醫學／運動科學知識及可執行建議。</p>
+          </div>
+          <div id="podcast-list" class="podcast-list" aria-label="Podcast 歷史集數"></div>
+          <article id="podcast-detail" class="podcast-detail" aria-live="polite"></article>
         </div>
       </section>
 

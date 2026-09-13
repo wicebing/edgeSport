@@ -1,10 +1,11 @@
-import { readFile } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateResearchItem } from "./lib/research-review.mjs";
 import { REPORT_CONTENT_LEVELS, validateWeeklyReport } from "./lib/weekly-report-schema.mjs";
 import { validateMonthlyTopic } from "./lib/monthly-topic-schema.mjs";
 import { buildKnowledgeIndex } from "./lib/knowledge-index.mjs";
+import { validatePublishedPodcast } from "./lib/podcast-schema.mjs";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const contentPath = resolve(rootDirectory, "content", "issues.json");
@@ -12,6 +13,7 @@ const radarPath = resolve(rootDirectory, "content", "research-radar.json");
 const sourceRegistryPath = resolve(rootDirectory, "content", "source-registry.json");
 const weeklyReportsPath = resolve(rootDirectory, "content", "weekly-reports.json");
 const knowledgeIndexPath = resolve(rootDirectory, "content", "knowledge-index.json");
+const podcastsPath = resolve(rootDirectory, "content", "podcasts.json");
 const errors = [];
 
 const requiredString = (value, location) => {
@@ -44,6 +46,7 @@ let radar;
 let sourceRegistry;
 let weeklyReports;
 let knowledgeIndex;
+let podcasts;
 
 try {
   content = JSON.parse(await readFile(contentPath, "utf8"));
@@ -57,6 +60,7 @@ try {
   sourceRegistry = JSON.parse(await readFile(sourceRegistryPath, "utf8"));
   weeklyReports = JSON.parse(await readFile(weeklyReportsPath, "utf8"));
   knowledgeIndex = JSON.parse(await readFile(knowledgeIndexPath, "utf8"));
+  podcasts = JSON.parse(await readFile(podcastsPath, "utf8"));
 } catch (error) {
   console.error(`Unable to read research-radar data: ${error.message}`);
   process.exit(1);
@@ -158,7 +162,8 @@ for (const journal of content.journals ?? []) {
 validateSourceRegistry(sourceRegistry);
 validateResearchRadar(radar, issueIds);
 validateWeeklyReports(weeklyReports, issueIds, topicIds);
-validateKnowledgeIndex(knowledgeIndex, content, weeklyReports, radar);
+await validatePodcasts(podcasts, weeklyReports);
+validateKnowledgeIndex(knowledgeIndex, content, weeklyReports, radar, podcasts);
 
 if (errors.length > 0) {
   console.error("Content validation failed:");
@@ -169,7 +174,7 @@ if (errors.length > 0) {
 }
 
 const publishedCount = content.issues.filter((issue) => issue.status === "published").length;
-console.log(`Validated ${publishedCount} published issues, ${weeklyReports.reports.length} integrated weekly reports, ${radar.items.length} radar records, ${knowledgeIndex.records.length} cumulative knowledge entries, ${content.topics.length} topics, ${sourceRegistry.pubmed.journals.length} indexed journals, ${sourceRegistry.officialOrganizations.length} official organizations, and ${sourceRegistry.rssFeeds.length} verified feeds.`);
+console.log(`Validated ${publishedCount} published issues, ${weeklyReports.reports.length} integrated weekly reports, ${podcasts.episodes.length} podcast episodes, ${radar.items.length} radar records, ${knowledgeIndex.records.length} cumulative knowledge entries, ${content.topics.length} topics, ${sourceRegistry.pubmed.journals.length} indexed journals, ${sourceRegistry.officialOrganizations.length} official organizations, and ${sourceRegistry.rssFeeds.length} verified feeds.`);
 
 function validateSourceRegistry(registry) {
   requiredArray(registry?.pubmed?.journals, "source-registry.pubmed.journals");
@@ -370,14 +375,47 @@ function validateWeeklyReports(reportsData, publishedIssueIds, knownTopicIds) {
   }
 }
 
-function validateKnowledgeIndex(index, issueContent, reportsData, researchRadar) {
+async function validatePodcasts(podcastData, reportsData) {
+  if (podcastData?.schemaVersion !== 1) errors.push("podcasts.schemaVersion must be 1.");
+  requiredString(podcastData?.show?.name, "podcasts.show.name");
+  if (/speakerWav|reference\.wav|research-library|master\.wav/iu.test(JSON.stringify(podcastData ?? {}))) {
+    errors.push("podcasts public data must not expose private voice samples, masters or research-library paths.");
+  }
+  if (!Array.isArray(podcastData?.episodes)) {
+    errors.push("podcasts.episodes must be an array.");
+    return;
+  }
+  const ids = new Set();
+  for (const episode of podcastData.episodes) {
+    const location = `podcast ${episode?.id ?? "unknown"}`;
+    if (ids.has(episode?.id)) errors.push(`Duplicate podcast episode id: ${episode.id}`);
+    ids.add(episode?.id);
+    const report = reportsData.reports?.find((item) => item.id === episode?.sourceWeeklyReportId && item.status === "published");
+    if (!report) {
+      errors.push(`${location}.sourceWeeklyReportId must reference a published weekly report.`);
+      continue;
+    }
+    const sourceRecordIds = report.researchSources.map((source) => source.recordId);
+    for (const error of validatePublishedPodcast(episode, { sourceRecordIds })) errors.push(`${location}: ${error}`);
+    for (const source of episode.researchSources ?? []) requiredHttpsUrl(source.sourceUrl, `${location}.researchSources[${source.recordId ?? "unknown"}].sourceUrl`);
+    try {
+      const audioPath = resolve(rootDirectory, episode.audio.src);
+      const details = await stat(audioPath);
+      if (details.size !== episode.audio.bytes) errors.push(`${location}.audio.bytes does not match the published MP3.`);
+    } catch {
+      errors.push(`${location}.audio.src does not exist in the public site.`);
+    }
+  }
+}
+
+function validateKnowledgeIndex(index, issueContent, reportsData, researchRadar, podcastData) {
   if (index?.schemaVersion !== 1) errors.push("knowledge-index.schemaVersion must be 1.");
   if (index?.retentionPolicy?.mode !== "cumulative") errors.push("knowledge-index.retentionPolicy.mode must be cumulative.");
   if (!Array.isArray(index?.records)) {
     errors.push("knowledge-index.records must be an array.");
     return;
   }
-  const expected = buildKnowledgeIndex({ content: issueContent, weeklyReports: reportsData, radar: researchRadar });
+  const expected = buildKnowledgeIndex({ content: issueContent, weeklyReports: reportsData, radar: researchRadar, podcasts: podcastData });
   const expectedIds = expected.records.map((record) => record.id);
   const actualIds = index.records.map((record) => record.id);
   if (new Set(actualIds).size !== actualIds.length) errors.push("knowledge-index.records contains duplicate IDs.");

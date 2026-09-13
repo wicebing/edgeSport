@@ -56,18 +56,38 @@ const radar = {
   }]
 };
 
-test("builds one cumulative record for every public issue, report and research item", () => {
-  const index = buildKnowledgeIndex({ content, weeklyReports, radar });
-  assert.equal(index.stats.total, 3);
-  assert.deepEqual(index.records.map((record) => record.id).sort(), ["issue:2026-m09", "report:2026-w36", "research:pmid-1"]);
+const podcasts = {
+  episodes: [{
+    id: "2026-w36",
+    status: "published",
+    publishDate: "2026-09-04",
+    publishedAt: "2026-09-04T12:00:00.000Z",
+    title: "Read the shoulder trend",
+    summary: "An English conversation about individual pitching trends.",
+    durationSeconds: 720,
+    sourceWeeklyReportId: "2026-w36",
+    sourceRecordIds: ["pmid-1"],
+    closingTakeaways: ["Track the trend"],
+    transcript: [{ text: "Connect the change with symptoms and workload." }],
+    editorReview: { approvedForPublish: false }
+  }]
+};
+
+test("builds one cumulative record for every public issue, report, podcast and research item", () => {
+  const index = buildKnowledgeIndex({ content, weeklyReports, radar, podcasts });
+  assert.equal(index.stats.total, 4);
+  assert.equal(index.stats.podcastEpisodes, 1);
+  assert.deepEqual(index.records.map((record) => record.id).sort(), ["issue:2026-m09", "podcast:2026-w36", "report:2026-w36", "research:pmid-1"]);
   assert.equal(index.retentionPolicy.mode, "cumulative");
 });
 
 test("preserves deep searchable report text and research backlinks", () => {
-  const index = buildKnowledgeIndex({ content, weeklyReports, radar });
+  const index = buildKnowledgeIndex({ content, weeklyReports, radar, podcasts });
   const report = index.records.find((record) => record.id === "report:2026-w36");
+  const podcast = index.records.find((record) => record.id === "podcast:2026-w36");
   const research = index.records.find((record) => record.id === "research:pmid-1");
   assert.match(report.searchText, /何時調整投球/u);
-  assert.deepEqual(research.related.referencedBy.map((item) => item.id).sort(), ["2026-m09", "2026-w36"]);
+  assert.match(podcast.searchText, /symptoms and workload/u);
+  assert.deepEqual(research.related.referencedBy.map((item) => `${item.type}:${item.id}`).sort(), ["monthly-topic:2026-m09", "podcast-episode:2026-w36", "weekly-report:2026-w36"]);
   assert.deepEqual(research.topicIds, ["sports-medicine"]);
 });

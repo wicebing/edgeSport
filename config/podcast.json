@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "showName": "EDGE SPORT 4 Podcast",
+  "tagline": "Human conversations about evidence, performance, and sports medicine.",
+  "language": "en",
+  "targetMinutes": {
+    "minimum": 12,
+    "maximum": 18
+  },
+  "hosts": {
+    "host": {
+      "id": "host",
+      "displayName": "Y",
+      "role": "Evidence guide · girl voice",
+      "engine": "xtts-v2",
+      "speakerAudio": "../tts/girl voice.m4a"
+    },
+    "cohost": {
+      "id": "cohost",
+      "displayName": "B",
+      "role": "Analytical partner · man voice",
+      "engine": "xtts-v2",
+      "speakerAudio": "../tts/man voice.m4a"
+    }
+  },
+  "tts": {
+    "root": "../tts",
+    "python": "auto",
+    "device": "auto",
+    "sampleRate": 24000,
+    "mp3Bitrate": "96k",
+    "pauseSameSpeakerSeconds": 0.24,
+    "pauseSpeakerChangeSeconds": 0.38
+  },
+  "disclosure": "This episode uses synthetic speech generated locally from supplied voice samples: Y uses the girl-voice profile and B uses the man-voice profile. The script is prepared by Codex and is educational, not individualized medical advice."
+}

@@ -75,8 +75,8 @@ npm.cmd run monthly:run -- --month 2026-09
 7. 讓已登入的 Codex CLI 完整閱讀正文，逐篇擷取研究設計、族群、介入／暴露、比較條件、結果與追蹤時間，再產生結構化週報。
 8. 由 Codex CLI 統整本週研究地圖、知識背景與操作定義，並建立評估組合、分期執行、訓練量進退階、停止／轉介條件、結果追蹤及 Yes/No 決策流程。
 9. 通過來源、篇數、內容層級、表格與資料結構驗證後，自動累加到 `content/weekly-reports.json`。
-10. 重建 `content/knowledge-index.json`，讓週報、月度議題、歷史議題與所有研究題錄可由同一個關鍵字索引回查。
-11. 執行全站內容與累積筆數驗證；接著即可 commit 與 push。
+10. 重建 `content/knowledge-index.json`，讓週報、月度議題、歷史議題、Podcast 與所有研究題錄可由同一個關鍵字索引回查。
+11. 執行全站內容與累積筆數驗證，並顯示本週 Podcast 的下一個指令。
 
 自動加入網站的報告會顯示「Codex CLI 自動整理・尚未人工審閱」。它不會冒充人工核准；日後人工核對並執行 `weekly:release`，同一期會更新為「人工審閱完成」。每週新報告是累加到歷史清單，不會清除以前的內容；同一週重跑則更新同一個週次，不會產生重複項目。
 
@@ -93,7 +93,8 @@ npm.cmd run weekly:run -- --allow-abstracts --draft-only
 - `content/weekly-reports.json`：永久保存每一期公開週報；同一週重跑只修訂同一 ID。
 - `content/issues.json`：永久保存月度深度議題與歷史知識議題；同一月份重跑只修訂同一 ID。
 - `content/research-radar.json`：合併新題錄與所有舊題錄，並在 `collectionHistory` 留下每次蒐集範圍、數量和新增 ID。
-- `content/knowledge-index.json`：由上述三份公開資料重建，包含全文式關鍵字搜尋文字與研究被哪些週報／議題引用的回溯連結。
+- `content/podcasts.json` 與 `assets/podcasts/`：累積每集英文逐字稿、章節、引用來源與可公開播放的 MP3；同一週重跑只更新同一集。
+- `content/knowledge-index.json`：由上述公開資料重建，包含全文式關鍵字搜尋文字與研究被哪些週報／議題／Podcast 引用的回溯連結。
 - `research-library/`：保留合法取得的全文、HTML、擷取文字、稽核、Codex packet 與草稿，供之後重新分析；因版權與隱私不部署到 GitHub Pages。
 
 網站改版時，以上四份 `content/*.json` 是公開知識的穩定資料層，不應用空白模板覆蓋。可隨時執行下列指令重建搜尋索引並檢查有沒有遺漏既有 ID：
@@ -141,6 +142,45 @@ git push
 ```
 
 GitHub Actions 會驗證並部署新的 `content/weekly-reports.json`。網站會保留歷史週報，並把最新一期排在最前面。
+
+## EDGE SPORT 4 Podcast
+
+本週網頁完成後，執行終端機顯示的指令。例如：
+
+```powershell
+npm.cmd run podcast:run -- --id 2026-w38
+```
+
+這個專案專用流程會先把兩段本機音軌建立成私人 XTTS v2 聲音 profile，再建立內容包、讓已登入的 Codex CLI 依本週完整週報撰寫 12–18 分鐘英文雙人對話、合成 MP3、發布逐字稿與章節，最後重建搜尋索引並驗證全站。預設角色為：
+
+- `Y`（girl）：以 `../tts/girl voice.m4a` 建立的女聲 evidence guide。
+- `B`（man）：以 `../tts/man voice.m4a` 建立的男聲 analytical partner。
+
+這是 zero-shot voice cloning，不會用二十多秒音軌進行容易過擬合的完整模型微調。來源 M4A 會先在本機轉成 mono、24 kHz、音量與頻段標準化的 WAV profile，放在被 Git 排除的 `research-library/podcast-voices/`。可先單獨建立／檢查 profile：
+
+```powershell
+npm.cmd run podcast:voices
+```
+
+兩條聲線會依序載入，降低 8 GB 顯示記憶體同時佔用。第一次執行或重新撰寫整集時可能需要一段時間；快取鍵同時包含講稿與聲音 profile，因此更換來源音軌後一定會重新錄製，不會誤用舊聲線。預設使用可用的 NVIDIA CUDA，必要時可改用 CPU：
+
+```powershell
+npm.cmd run podcast:run -- --id 2026-w38 --device cpu
+```
+
+若只想先檢查 Codex 講稿，不合成聲音：
+
+```powershell
+npm.cmd run podcast:run -- --id 2026-w38 --script-only
+```
+
+私人檔案（聲音 profile、Codex packet、講稿草稿、分段 WAV、時間軸及母帶）保存在 `research-library/podcast-*`；兩個原始 M4A 也只從 `../tts/` 本機讀取，全部不會部署。公開檔案只有 `assets/podcasts/YYYY-wNN-<content-hash>.mp3`、整理後的英文逐字稿、章節、show notes、來源連結與合成語音揭露。內容雜湊檔名可避免重建時被正在播放的舊 MP3 鎖住，也可避免瀏覽器繼續播放快取舊版。因 MP3 會在 GitHub Pages 公開，commit 前請先試聽並確認你有權使用兩段來源聲音且願意發布合成內容。
+
+若本機 Python 不在預設的 `C:\Users\<你>\anaconda3\python.exe`，可指定含有 `../tts/vendor_coqui311` 相容套件的 Python 3.11：
+
+```powershell
+$env:EDGE_SPORT_PODCAST_PYTHON = "C:\Path\To\python.exe"
+```
 
 ### 4. 選用：人工編輯核對
 
@@ -214,12 +254,13 @@ git push -u origin main
 
 ## 公開檔案
 
-- `index.html`, `styles.css`, `app.js`, `radar.js`, `weekly-reports.js`
-- `assets/yabilab-logo.png`
+- `index.html`, `styles.css`, `app.js`, `radar.js`, `weekly-reports.js`, `podcasts.js`
+- `assets/yabilab-logo.png`, `assets/podcasts/*.mp3`
 - `content/issues.json`
 - `content/research-radar.json`
 - `content/source-registry.json`
 - `content/weekly-reports.json`
+- `content/podcasts.json`
 - `content/knowledge-index.json`
 
 `inClass/`、`research-library/`、`content/inbox/` 與任何 PDF 不會進入 GitHub Pages artifact。

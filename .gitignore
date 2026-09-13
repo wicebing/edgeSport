@@ -4,4 +4,6 @@ content/inbox/*.json
 content/inbox/*.md
 content/reviews/
 research-library/
+node_modules/
+assets/podcasts/????-w??.mp3
 .DS_Store

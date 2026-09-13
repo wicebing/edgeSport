@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T06:01:50.031Z",
+  "generatedAt": "2026-09-13T14:06:31.896Z",
   "retentionPolicy": {
     "mode": "cumulative",
-    "statement": "Published issues, weekly reports and harvested research metadata remain indexed. Existing IDs may be revised in place, but are not removed by routine generation.",
+    "statement": "Published issues, weekly reports, podcast episodes and harvested research metadata remain indexed. Existing IDs may be revised in place, but are not removed by routine generation.",
     "privateMaterial": "Licensed full text, source captures and private Codex packets remain in the local research-library and are not deployed to GitHub Pages."
   },
   "stats": {
-    "total": 100,
+    "total": 101,
     "monthlyTopics": 1,
     "knowledgeTopics": 4,
+    "podcastEpisodes": 1,
     "weeklyReports": 1,
     "researchArticles": 94,
     "reviewedArticles": 0,
@@ -49,6 +50,75 @@
         "referencedBy": []
       },
       "searchText": "研究題錄 \n營養與水合 \n技擊運動 \npmid-42702994 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nProbiotic supplementation improves body composition, lipid profiles, and fatty acid metabolism in combat sports athletes during the weight reduction phase. \n2026-12-30 \nYang S \nCheng Z \nShen W \nWang J \nLai M \nYu X \nZuo Q \nJournal Article \nRandomized Controlled Trial \n10.1080/15502783.2026.2726522 \n42702994 \nPMC13552284 \npmc-record-available \n2026-09-12T16:46:37.358Z"
+    },
+    {
+      "id": "podcast:2026-w38",
+      "sourceId": "2026-w38",
+      "type": "podcast-episode",
+      "typeLabel": "English Podcast",
+      "publishDate": "2026-09-19",
+      "updatedAt": "2026-09-13T14:06:31.896Z",
+      "year": "2026",
+      "title": "A Slower Fastball, a Better Question",
+      "summary": "Y and B explore four studies on pitching, walking, lumbar and hamstring diagnoses, and gut microbes and fatigue. They distinguish useful assessment clues from personal prediction, then discuss an explicitly unvalidated EDGE SPORT workflow for responding to persistent performance changes.",
+      "topicIds": [
+        "monitoring",
+        "assessment",
+        "training",
+        "sport-medicine",
+        "performance"
+      ],
+      "topicLabels": [
+        "監測與科技",
+        "身體評估",
+        "訓練設計",
+        "運動醫學",
+        "運動表現"
+      ],
+      "sportTags": [
+        "棒球",
+        "中高齡成人",
+        "阻力訓練",
+        "一般就醫族群"
+      ],
+      "tags": [
+        "監測與科技",
+        "身體評估",
+        "訓練設計",
+        "運動醫學",
+        "運動表現",
+        "棒球",
+        "中高齡成人",
+        "阻力訓練",
+        "一般就醫族群",
+        "Podcast",
+        "English"
+      ],
+      "href": "?podcast=2026-w38#podcast",
+      "sourceUrl": null,
+      "journal": null,
+      "detail": "18 min listen · 4 篇研究",
+      "reviewed": false,
+      "related": {
+        "researchIds": [
+          "pmid-42704785",
+          "pmid-42711120",
+          "pmid-42714926",
+          "pmid-42719368"
+        ],
+        "courseIds": [
+          "course-e9b430b3609f1eb3",
+          "course-3461515dfd6a9362",
+          "course-772dc39152174179",
+          "course-af04922b5e0611e6",
+          "course-ed36f3e0355ef69c"
+        ],
+        "priorIds": [
+          "2026-w38"
+        ],
+        "referencedBy": []
+      },
+      "searchText": "English Podcast \n監測與科技 \n身體評估 \n訓練設計 \n運動醫學 \n運動表現 \n棒球 \n中高齡成人 \n阻力訓練 \n一般就醫族群 \nPodcast \nEnglish \n2026-w38 \npublished \n2026-09-19 \nEDGE SPORT 4 Podcast \nA Slower Fastball, a Better Question \nHow to notice meaningful changes without turning a measurement into a diagnosis \nY and B explore four studies on pitching, walking, lumbar and hamstring diagnoses, and gut microbes and fatigue. They distinguish useful assessment clues from personal prediction, then discuss an explicitly unvalidated EDGE SPORT workflow for responding to persistent performance changes. \nen \nhost \nEvidence guide · girl voice \ncohost \nAnalytical partner · man voice \npmid-42704785 \npmid-42711120 \npmid-42714926 \npmid-42719368 \nDistinguish group associations from individual diagnosis and prediction. \nExplain pitch-specific trends, within-game variability, and between-group slope differences. \nInterpret walking volume and PK30 without converting observational findings into prescriptions. \nRecognize the limits of diagnostic coexistence and predominantly animal-based fatigue research. \nSeparate research findings from the proposed EDGE SPORT monitoring workflow. \nAll research claims derive from the supplied 2026-w38 weekly report. The proposed monitoring workflow has not been validated as an injury-prevention intervention. \nPitching: 27 MLB surgical cases and 54 matched controls; the final-five-appearance analysis included 22 eligible cases. https://doi.org/10.1177/23259671261431839 \nWalking: the all-cause and cardiovascular mortality analyses use different denominators. PK30 averages the highest 30 minute-level cadences, which need not be consecutive. https://doi.org/10.1136/bjsports-2025-111173 \nLumbar and hamstring diagnoses: retrospective medical-record associations do not establish symptom origin or support routine imaging. https://doi.org/10.1097/JSM.0000000000001487 \nNatural products and fatigue: 25 animal studies and one human study; no pooled effect estimate. https://doi.org/10.1080/15502783.2026.2728356 \nConsult the written EDGE SPORT 2026-w38 report for the complete evidence tables, uncertainty statements, proposed workflow, and original-source links. \nWhen a familiar number changes \nThe central question: when should a performance trend prompt assessment? \nWhat the pitching study actually measured \nSmall athlete samples, pitch-specific trends, and the limits of group differences. \nWalking: quantity and intensity \nDefining PK30 and interpreting mortality associations with their reference group. \nKeeping symptom explanations open \nLumbar and hamstring diagnoses coexist more often, without establishing causation. \nGut mechanisms and human evidence \nWhy a largely animal-based review cannot establish an athlete supplement plan. \nA practical response with visible uncertainty \nAn unvalidated proposal for checking data, assessing symptoms, adjusting exposure, and reviewing the response. \nImagine you're watching a pitcher you know well. The fastball looks a little slower again, and afterward they say, 'I'm just not bouncing back the way I usually do.' That leaves a very human question: do we change something now, or are we reading too much into a number? I'm Y, and this is EDGE SPORT 4. \nwarm \nAnd I'm B. I'd want to take that person seriously without making the graph sound like a diagnosis. This week's central question is how a team checks a persistent velocity decline, considers changes to pitching exposure, and starts an assessment. What evidence would actually change the next decision? \ncurious \nWe've got four sources: MLB pitching data, walking and mortality, lumbar and hamstring diagnoses, and a review of natural products, gut microbes, and fatigue. They don't test one shared intervention. Together, they give us different chances to practice the same editorial discipline: say what was measured, then keep the conclusion inside that boundary. \nclear \nAnd let's keep two conversations visible. One is what the studies found. The other is what EDGE SPORT proposes a team could do with that information. A sensible workflow can still be untested. I'd hate for listeners to hear our practical suggestions and assume researchers have already shown that following them prevents shoulder surgery. \ncautious \nThe pitching study looked backward at 27 MLB pitchers who underwent their first shoulder capsulolabral repair, involving the shoulder capsule and labrum, and 54 matched controls. Matching included season, pitching role, throwing side, age, and pitch count. These were selected surgical cases, so this isn't a study of every possible reason a pitcher's shoulder might hurt. \nThe tracking dataset sounds enormous: 161,979 pitches across 3,347 appearances. But those pitches came from a small number of people. Repeated observations help describe each player's pattern; they don't turn the study into one with 161,979 independent athletes. Y, what stood out when the researchers compared the groups over time? \nThere were two different layers. In the previous season, the eventual surgical cases had higher average velocity for some fastballs and higher standardized spin overall. The more consistent velocity declines appeared later in the injury season and before injured-list placement. So a higher-output background and a recent downward trend are separate observations. \nLet's slow down for the number that could easily become a dashboard alarm. In the final five appearances, the primary-fastball slope difference was minus 0.195 miles per hour per appearance, with a 95 percent confidence interval from minus 0.301 to minus 0.090. That analysis included 22 eligible cases and matched controls. What exactly is that difference comparing? \nreflective \nIt's the cases' rate of change minus the controls' rate of change. It isn't a claim that every injured pitcher lost exactly that much velocity each outing. And it isn't a personal removal threshold. The primary breaking ball also showed a more negative slope in cases, but neither result came with a validated individual prediction rule. \nThere's also a timing problem. Injured-list placement gives the researchers a date, but it doesn't tell them when symptoms or tissue changes began. The decline could reflect a developing problem, fatigue, or other influences they couldn't separate. So calling this an early warning requires care: early relative to the list entry isn't necessarily early relative to the injury. \nAnother finding made me pause: cases had lower within-game variability in velocity and arm angle in pooled analyses. Here, variability means the standard deviation of individual pitches of the same type within a game. B, if a coach hears that consistent pitching was associated with surgical cases, should they encourage a less repeatable delivery? \nNo. That would turn an association into a treatment. The authors explicitly don't recommend deliberately increasing movement variability or reducing competitive output because of this finding. Statcast didn't measure tissue stress or muscle activation. Also, lower variation in arm angle doesn't mean a lower average arm angle. Those are different quantities, with different interpretations. \nThat's helpful. A player could have very similar velocities within each outing while their average velocity falls across outings. Consistency within a game and change between games can coexist. For a team, the useful question becomes whether comparable pitches show a persistent change, alongside what the pitcher reports about symptoms and recovery. \nAnd I'd need prospective evidence before trusting an automatic alert: how often does it correctly identify a problem, how often does it miss one, and does acting on it improve outcomes? This study doesn't answer those questions. No decline can't clear a shoulder, either. The direct evidence is from MLB, with uncertain transfer to youth, amateur, or postoperative pitchers. \nLet's leave the mound for a walk. The next study asks about the combination of how much people step and how briskly they step. Its all-cause mortality analysis included 64,743 UK Biobank adults, averaging 61.5 years old, with 1,697 deaths over a median eight years. It followed observed activity; it didn't assign walking plans. \nActivity came from seven days of wrist-worn monitoring. Daily steps describe accumulated stepping volume. The intensity measure, PK30, averages the day's 30 highest minute-level step rates, then averages across valid days. Those minutes don't have to be consecutive. So, Y, someone taking a continuous half-hour walk isn't automatically doing the exact exposure measured here. \nRight. And an ordinary average cadence on a watch isn't automatically PK30. The comparison group matters just as much: fewer than 5,000 daily steps, with PK30 at the overall fifth percentile, about 45 steps a minute. Every hazard ratio we're about to mention is relative to that joint reference, rather than a comparison with everyone else. \nWith fewer than 5,000 steps and PK30 of 80, the all-cause mortality hazard ratio was 0.72, with a 95 percent interval of 0.54 to 0.97. At 5,000 to 7,500 steps and PK30 of 60, it was 0.70, interval 0.58 to 0.86. Different combinations showed lower hazards. Can we call those two routes equally effective? \nWe can't. They weren't directly tested for equivalence, and nobody was randomized to either route. Another combination, 7,500 to 10,000 steps with PK30 around 100, had a hazard ratio of 0.57, interval 0.47 to 0.69. That's a relative hazard association during follow-up, not an individual's probability of dying or a guaranteed benefit from changing their routine. \nThe uncertainty isn't uniform, either. Under 5,000 steps with PK30 of 90 had an estimate of 0.64, but the interval ran from 0.32 to 1.32, crossing one. And an apparent upturn at the high end didn't persist across modeling approaches. We shouldn't turn that curve into a claim that more or faster walking causes harm. \nWhat would you take into a conversation with someone who finds step targets discouraging? I'd want to understand whether the obstacle is time, preference, or walking ability. These results make room to discuss volume and intensity together. But they don't provide a personal starting speed, a safe progression rate, or evidence that one watch's numbers match the research algorithm. \nI'd use that opening, while remembering the measurement was one week representing years of follow-up. Unmeasured differences and undiagnosed illness could still influence the association. Steps also miss activities such as swimming and cycling. The practical gain is a more flexible conversation about activity, with the person's circumstances in view, rather than a newly mandatory number. \nOur third study shifts from activity measurements to medical records. Researchers compared 1,269 people with a hamstring diagnosis with 1,269 demographically matched controls in one healthcare system. Ages ranged from 15 to 94. This was a general healthcare sample, which matters if we're tempted to tell a competitive sprinter that the percentages describe their situation. \nLumbar pathology appeared in 469 records in the hamstring group and 318 controls: reported as 37 percent and 25.1 percent. These were existing diagnostic or imaging records, including conditions such as disc degeneration or herniation. The study didn't establish which came first. Y, is the takeaway simply to look at the back whenever a hamstring hurts? \nI'd phrase it more selectively. When posterior thigh symptoms recur or the local explanation doesn't fit, a clinician can consider lumbar history and assessment. Coexisting records don't establish where pain comes from. The study also didn't confirm every hamstring diagnosis with one uniform procedure, so we can't assume every record represented the same kind of structural injury. \nThe adjusted odds ratio was 1.84, accounting for age and body mass index, and the source didn't provide a confidence interval. Odds aren't the same as probability, so '84 percent more likely to develop lumbar disease' would be wrong. These are coexistence data, without a demonstrated sequence leading from one diagnosis to another. \nThere's a detection issue too: people with hamstring symptoms might receive more lumbar investigations, making lumbar findings easier to discover. Some controls could have received care elsewhere. B, what would change your decision about further assessment here? I don't want the sensible idea of considering another symptom source to quietly become routine imaging for everyone. \nI'd leave the imaging decision with the clinician's individual history and examination. The study didn't test whether routine imaging improves outcomes. It gives a reason to keep an explanation open, especially when the local picture is incomplete. It doesn't prove a lumbar cause, and it doesn't establish a preventive lumbar treatment for people with hamstring diagnoses. \nThat brings us to fatigue, where a compelling explanation can feel especially welcome. The natural-products review included 26 studies: 25 in mice or rats and one in humans. The animal work mainly used exercise-to-exhaustion models. Because the studies differed substantially, the authors didn't pool them into a single effect estimate. \nThe proposed connection is interesting: products might alter gut microbes and their metabolites, including short-chain fatty acids, with possible links to energy regulation, the gut barrier, and inflammation. But seeing microbes and fatigue measures change together doesn't prove that the microbial change produced the performance effect. Did any studies get closer to testing that connection? \nSome animal experiments used antibiotics or fecal microbiota transfer to probe microbial involvement. That adds mechanistic support in those models. It doesn't establish the whole pathway in every study or show that an athlete will benefit. Even the directions of microbial changes weren't consistent enough to define one universal microbiome target. \nThe human study involved matcha alongside resistance training in healthy, untrained young men. The review described lower subjective fatigue in week one, without an effect size or confidence interval. The eight-week leg-strength finding was described as a trend. That sounds like a reason for better human trials. What stops us from making even a modest product recommendation? \nThe thin human evidence, unclear sample-group reporting, and limited transfer to trained athletes all matter. We shouldn't reconstruct a total sample from ambiguous table entries or promote a strength trend into a clear benefit. This review can't rank products reliably, establish an athlete dosing plan, or tell us that a pitcher's persistent fatigue originates in the gut. \nI'd change my confidence with clearer controlled human studies in relevant populations, reporting meaningful effects and uncertainty. For now, the mechanism remains a research question. A nutrition discussion can include any new products someone is using, but microbiome testing or a supplement shouldn't replace assessment of unexplained fatigue and declining performance on the strength of this review. \nLet's return to our pitcher. From here, we're describing the EDGE SPORT workflow proposal in the weekly report, not an intervention the studies validated. First, check whether the signal is comparable: same pitch type, consistent units and measurement process, and a similar role or task. Keep training and game contexts identifiable, and mark missing data. \nI'd put the athlete's account beside that data immediately: symptoms, perceived recovery, pitch counts, and recent training. But I want to challenge the order slightly. If symptoms or worsening function make continued pitching questionable, data cleaning shouldn't delay professional assessment. Under the proposal, stop that session and involve the athletic training or medical team; existing medical restrictions take priority. \nAgreed. The spreadsheet doesn't get first refusal on care. If the team considers continued activity appropriate within limits, it can document an exposure adjustment and its reason. That might involve volume, intensity, density, or role. The report supplies no validated reduction percentage, rest duration, or velocity cutoff, so we shouldn't create one to make the plan look more complete. \nThen make the next review concrete: who records the response, what changed, and what the team will reconsider before adding demands. The report proposes checking symptoms and recovery after activity and the next day. That timing is an operational suggestion. A single rebound in velocity doesn't establish recovery, and keeping good records doesn't prove the process prevents injury. \nSo my practical recap is: compare like with like, listen to the athlete, and use persistent change to open assessment. Keep alternative explanations available without assigning a diagnosis. Walking combinations can broaden an activity conversation; lumbar records can broaden a clinical question; gut mechanisms can guide research. None supplies a shortcut to an individual pitching decision. \nencouraging \nAnd ask what would change the next decision, then record the answer and revisit it. You can find the full numbers, limitations, and original sources in the written EDGE SPORT report. This educational episode uses synthetic speech generated locally: Y from the supplied girl-voice sample, and B from the supplied man-voice sample. Thanks for spending this time with us. \nThe pitching study included 27 MLB pitchers undergoing first capsulolabral repair and 54 matched controls, with 161,979 pitches across 3,347 appearances. \nRetrospective matched case-control data. Pitches are repeated observations from a small athlete sample, not independent participants; subgroup sample sizes differ. \nIn the last-five-appearance analysis with 22 eligible cases and matched controls, the primary-fastball slope difference was −0.195 mph per appearance, 95% CI −0.301 to −0.090. \nCase-minus-control slope difference, not each case's absolute decline or an individual diagnostic cutoff. Injured-list placement does not establish symptom onset. No validated prediction accuracy or intervention benefit was reported. \nCases showed lower within-game velocity and arm-angle variability in pooled analyses. \nVariability refers to within-game, same-pitch-type standard deviations. Lower arm-angle variability does not mean lower mean arm angle. The findings do not justify deliberately increasing movement variability. \nThe walking all-cause mortality analysis included 64,743 adults, mean age 61.5 years, and 1,697 deaths over median follow-up of 8.0 years. \nProspective observational UK Biobank analysis using seven-day baseline wrist monitoring. The separate cardiovascular analysis used 70,075 participants and must not share the all-cause denominator. \nPK30 averages the day's highest 30 minute-level cadences, which need not be consecutive, then averages across valid monitoring days. \nNot continuous brisk walking for 30 minutes, ordinary average cadence, or running-technique cadence. Direct comparison requires compatible measurement definitions. \nAgainst fewer than 5,000 steps/day and PK30 at the overall fifth percentile, approximately 45 steps/minute, fewer than 5,000 steps with PK30 80 had HR 0.72 (95% CI 0.54–0.97); 5,000–7,500 steps with PK30 60 had HR 0.70 (0.58–0.86). \nAll-cause mortality associations against a shared reference, not randomized intervention effects or a direct equivalence test between the combinations. \nAt 7,500–10,000 steps/day and PK30 approximately 100 steps/minute, the all-cause mortality HR was 0.57 (95% CI 0.47–0.69). \nRelative hazard against the specified joint reference; not an individual absolute risk, guaranteed benefit, or optimal personal prescription. \nBelow 5,000 steps/day with PK30 90, the all-cause mortality HR was 0.64 (95% CI 0.32–1.32); high-end curve upturns were not consistent across models. \nThe interval crosses one. Neither this estimate nor model-sensitive curve shapes establishes that more or faster walking causes harm. \nEach lumbar/hamstring comparison group contained 1,269 people, aged 15–94. Lumbar pathology records occurred in 469 hamstring-group participants and 318 controls, reported as 37% versus 25.1%. \nGeneral healthcare records, not an athlete-specific cohort or prospective incidence estimate. Temporal order, uniform diagnostic confirmation, and causal symptom origin were not established. \nThe age- and BMI-adjusted odds ratio linking hamstring diagnosis with lumbar pathology was 1.84; the source did not provide a confidence interval. \nAn odds ratio cannot be restated as an 84% increase in disease probability. Detection bias and incomplete records remain possible; routine imaging benefit was not tested. \nThe natural-products review included 26 studies: 25 animal studies and one human study; heterogeneity prevented meta-analysis. \nPredominantly animal exhaustion models provide limited direct evidence for trained athletes. Some mechanistic experiments probed microbial involvement, but this does not establish clinical efficacy. \nThe human matcha study involved healthy untrained young men undertaking resistance training; lower subjective fatigue was described at week one without an effect size or confidence interval, and the eight-week leg-strength result was described as a trend. \nAmbiguous sample-group reporting does not support reconstructing a total sample. The findings do not establish a supplement prescription, product ranking, or clear strength benefit. \nCheck comparable pitch-specific data alongside symptoms, exposure, and recovery. \nUse persistent changes to prompt assessment; no study supplies an individual injury or clearance threshold. \nInterpret walking volume and intensity together without promising causal benefits. \nKeep alternative symptom sources open without assuming lumbar causation or ordering routine imaging. \nRequire stronger human evidence before converting gut mechanisms into supplement recommendations. \nDocument adjustments and reassessment; the EDGE SPORT workflow remains unvalidated. \nThis episode uses synthetic speech. Y is locally generated from the supplied girl-voice sample, and B is locally generated from the supplied man-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance. \nautomated \ncodex \n2026-09-13T14:06:31.368Z \n2026-09-13T14:06:31.896Z \nassets/podcasts/2026-w38-885c35e7de78.mp3 \naudio/mpeg \n96k \nNatural products alleviate exercise-induced fatigue by modulating gut microbiota: a systematic review. \nJournal of the International Society of Sports Nutrition \n2026-09-07 \nfull-text-web \nCombinations of stepping intensity and daily step counts against all-cause and cardiovascular disease mortality: insights from a device-based prospective study. \nBritish journal of sports medicine \n2026-09-08 \nAssociation of Lumbar Spine Pathology and Hamstring Injury Diagnosis - A Retrospective Matched Cohort Study. \nClinical journal of sport medicine : official journal of the Canadian Academy of Sport Medicine \n2026-09-09 \nPitch-Tracking Risk Factors and Warning Signs for Shoulder Capsulolabral Injuries in Major League Baseball Pitchers. \nOrthopaedic journal of sports medicine \nfull-text-open"
     },
     {
       "id": "report:2026-w38",
@@ -1227,7 +1297,7 @@
       "href": "?radar=pmid-42714926#research-radar",
       "sourceUrl": "https://doi.org/10.1097/JSM.0000000000001487",
       "journal": "Clinical journal of sport medicine : official journal of the Canadian Academy of Sport Medicine",
-      "detail": "Clinical journal of sport medicine : official journal of the Canadian Academy of Sport Medicine · PMID 42714926 · 被 1 份整理引用",
+      "detail": "Clinical journal of sport medicine : official journal of the Canadian Academy of Sport Medicine · PMID 42714926 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -1239,6 +1309,12 @@
             "type": "weekly-report",
             "title": "本週運動科學新知整合",
             "href": "?report=2026-w38#weekly-reports"
+          },
+          {
+            "id": "2026-w38",
+            "type": "podcast-episode",
+            "title": "A Slower Fastball, a Better Question",
+            "href": "?podcast=2026-w38#podcast"
           }
         ]
       },
@@ -1831,7 +1907,7 @@
       "href": "?radar=pmid-42711120#research-radar",
       "sourceUrl": "https://doi.org/10.1136/bjsports-2025-111173",
       "journal": "British journal of sports medicine",
-      "detail": "British journal of sports medicine · PMID 42711120 · 被 1 份整理引用",
+      "detail": "British journal of sports medicine · PMID 42711120 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -1843,6 +1919,12 @@
             "type": "weekly-report",
             "title": "本週運動科學新知整合",
             "href": "?report=2026-w38#weekly-reports"
+          },
+          {
+            "id": "2026-w38",
+            "type": "podcast-episode",
+            "title": "A Slower Fastball, a Better Question",
+            "href": "?podcast=2026-w38#podcast"
           }
         ]
       },
@@ -2134,7 +2216,7 @@
       "href": "?radar=pmid-42719368#research-radar",
       "sourceUrl": "https://doi.org/10.1177/23259671261431839",
       "journal": "Orthopaedic journal of sports medicine",
-      "detail": "Orthopaedic journal of sports medicine · PMID 42719368 · 被 2 份整理引用",
+      "detail": "Orthopaedic journal of sports medicine · PMID 42719368 · 被 3 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -2152,6 +2234,12 @@
             "type": "weekly-report",
             "title": "本週運動科學新知整合",
             "href": "?report=2026-w38#weekly-reports"
+          },
+          {
+            "id": "2026-w38",
+            "type": "podcast-episode",
+            "title": "A Slower Fastball, a Better Question",
+            "href": "?podcast=2026-w38#podcast"
           }
         ]
       },
@@ -2641,7 +2729,7 @@
       "href": "?radar=pmid-42704785#research-radar",
       "sourceUrl": "https://doi.org/10.1080/15502783.2026.2728356",
       "journal": "Journal of the International Society of Sports Nutrition",
-      "detail": "Journal of the International Society of Sports Nutrition · PMID 42704785 · 被 1 份整理引用",
+      "detail": "Journal of the International Society of Sports Nutrition · PMID 42704785 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -2653,6 +2741,12 @@
             "type": "weekly-report",
             "title": "本週運動科學新知整合",
             "href": "?report=2026-w38#weekly-reports"
+          },
+          {
+            "id": "2026-w38",
+            "type": "podcast-episode",
+            "title": "A Slower Fastball, a Better Question",
+            "href": "?podcast=2026-w38#podcast"
           }
         ]
       },

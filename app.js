@@ -207,9 +207,9 @@ function renderIssueGrid() {
   const visibleRecords = matchingRecords.slice(0, state.visibleKnowledgeRecords);
   elements.resultCount.textContent = state.savedOnly
     ? `已收藏 ${matchingRecords.length} 個議題`
-    : `找到 ${matchingRecords.length} 筆知識：${typeCounts.editorial} 份週報／議題、${typeCounts.research} 筆研究`;
+    : `找到 ${matchingRecords.length} 筆知識：${typeCounts.editorial} 份週報／議題／Podcast、${typeCounts.research} 筆研究`;
   elements.activeFilters.innerHTML = filters.map((filter) => `<span class="filter-token">${escapeHtml(filter)}</span>`).join("");
-  elements.archiveRetentionNote.textContent = `知識庫目前累積 ${state.knowledgeIndex.stats.total} 筆；例行更新只新增或更新同一 ID，不會淘汰舊週報、舊議題或研究題錄。`;
+  elements.archiveRetentionNote.textContent = `知識庫目前累積 ${state.knowledgeIndex.stats.total} 筆；例行更新只新增或更新同一 ID，不會淘汰舊週報、舊議題、Podcast 或研究題錄。`;
   elements.showMoreKnowledge.hidden = matchingRecords.length <= visibleRecords.length;
 
   if (matchingRecords.length === 0) {
@@ -637,6 +637,7 @@ function renderFilterOptions() {
 
   const typeOptions = [
     ["monthly-topic", "月度深度議題"],
+    ["podcast-episode", "English Podcast"],
     ["weekly-report", "每週整合週報"],
     ["knowledge-topic", "歷史知識議題"],
     ["research-article", "研究文章與題錄"]
@@ -739,6 +740,7 @@ function getActiveFilterLabels() {
   if (state.filters.type !== "all") {
     const typeLabels = {
       "monthly-topic": "月度深度議題",
+      "podcast-episode": "English Podcast",
       "weekly-report": "每週整合週報",
       "knowledge-topic": "歷史知識議題",
       "research-article": "研究文章與題錄"

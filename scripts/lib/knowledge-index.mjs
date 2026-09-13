@@ -1,15 +1,16 @@
 const TYPE_ORDER = new Map([
   ["monthly-topic", 0],
-  ["weekly-report", 1],
-  ["knowledge-topic", 2],
-  ["research-article", 3]
+  ["podcast-episode", 1],
+  ["weekly-report", 2],
+  ["knowledge-topic", 3],
+  ["research-article", 4]
 ]);
 
-export function buildKnowledgeIndex({ content, weeklyReports, radar }) {
+export function buildKnowledgeIndex({ content, weeklyReports, radar, podcasts = { episodes: [] } }) {
   const topics = content.topics ?? [];
   const topicById = new Map(topics.map((topic) => [topic.id, topic]));
   const topicIdByLabel = new Map(topics.map((topic) => [normalise(topic.label), topic.id]));
-  const referencesByResearchId = buildResearchBacklinks(content.issues ?? [], weeklyReports.reports ?? []);
+  const referencesByResearchId = buildResearchBacklinks(content.issues ?? [], weeklyReports.reports ?? [], podcasts.episodes ?? []);
 
   const issueRecords = (content.issues ?? [])
     .filter((issue) => issue.status === "published")
@@ -17,10 +18,13 @@ export function buildKnowledgeIndex({ content, weeklyReports, radar }) {
   const reportRecords = (weeklyReports.reports ?? [])
     .filter((report) => report.status === "published")
     .map((report) => buildReportRecord(report, topicById));
+  const podcastRecords = (podcasts.episodes ?? [])
+    .filter((episode) => episode.status === "published")
+    .map((episode) => buildPodcastRecord(episode, weeklyReports.reports ?? [], topicById));
   const researchRecords = (radar.items ?? []).map((item) =>
     buildResearchRecord(item, topicIdByLabel, topicById, referencesByResearchId.get(item.id) ?? [])
   );
-  const records = [...issueRecords, ...reportRecords, ...researchRecords]
+  const records = [...issueRecords, ...podcastRecords, ...reportRecords, ...researchRecords]
     .sort((left, right) => right.publishDate.localeCompare(left.publishDate)
       || (TYPE_ORDER.get(left.type) ?? 99) - (TYPE_ORDER.get(right.type) ?? 99)
       || left.title.localeCompare(right.title, "zh-Hant"));
@@ -30,17 +34,19 @@ export function buildKnowledgeIndex({ content, weeklyReports, radar }) {
     generatedAt: latestTimestamp([
       radar.lastCollectedAt,
       ...issueRecords.map((record) => record.updatedAt),
-      ...reportRecords.map((record) => record.updatedAt)
+      ...reportRecords.map((record) => record.updatedAt),
+      ...podcastRecords.map((record) => record.updatedAt)
     ]),
     retentionPolicy: {
       mode: "cumulative",
-      statement: "Published issues, weekly reports and harvested research metadata remain indexed. Existing IDs may be revised in place, but are not removed by routine generation.",
+      statement: "Published issues, weekly reports, podcast episodes and harvested research metadata remain indexed. Existing IDs may be revised in place, but are not removed by routine generation.",
       privateMaterial: "Licensed full text, source captures and private Codex packets remain in the local research-library and are not deployed to GitHub Pages."
     },
     stats: {
       total: records.length,
       monthlyTopics: issueRecords.filter((record) => record.type === "monthly-topic").length,
       knowledgeTopics: issueRecords.filter((record) => record.type === "knowledge-topic").length,
+      podcastEpisodes: podcastRecords.length,
       weeklyReports: reportRecords.length,
       researchArticles: researchRecords.length,
       reviewedArticles: researchRecords.filter((record) => record.reviewed).length,
@@ -48,6 +54,37 @@ export function buildKnowledgeIndex({ content, weeklyReports, radar }) {
     },
     records
   };
+}
+
+function buildPodcastRecord(episode, reports, topicById) {
+  const report = reports.find((item) => item.id === episode.sourceWeeklyReportId);
+  const topicIds = report?.topicIds ?? [];
+  const topicLabels = labelsForIds(topicIds, topicById);
+  const sportTags = report?.sportTags ?? [];
+  return baseRecord({
+    id: `podcast:${episode.id}`,
+    sourceId: episode.id,
+    type: "podcast-episode",
+    typeLabel: "English Podcast",
+    publishDate: episode.publishDate,
+    updatedAt: episode.publishedAt ?? episode.renderedAt ?? episode.publishDate,
+    title: episode.title,
+    summary: episode.summary,
+    topicIds,
+    topicLabels,
+    sportTags,
+    tags: [...topicLabels, ...sportTags, "Podcast", "English"],
+    href: `?podcast=${encodeURIComponent(episode.id)}#podcast`,
+    detail: `${formatDuration(episode.durationSeconds)} · ${(episode.sourceRecordIds ?? []).length} 篇研究`,
+    reviewed: episode.editorReview?.approvedForPublish === true,
+    related: {
+      researchIds: uniqueStrings(episode.sourceRecordIds),
+      courseIds: uniqueStrings((report?.courseSources ?? []).map((source) => source.id)),
+      priorIds: [episode.sourceWeeklyReportId],
+      referencedBy: []
+    },
+    source: episode
+  });
 }
 
 function buildIssueRecord(issue, topicById) {
@@ -173,7 +210,7 @@ function baseRecord(record) {
   };
 }
 
-function buildResearchBacklinks(issues, reports) {
+function buildResearchBacklinks(issues, reports, podcasts) {
   const links = new Map();
   for (const issue of issues.filter((item) => item.status === "published")) {
     const ids = uniqueStrings([...(issue.researchSourceIds ?? []), ...(issue.evidence ?? []).map((source) => source.sourceId)]);
@@ -182,6 +219,9 @@ function buildResearchBacklinks(issues, reports) {
   for (const report of reports.filter((item) => item.status === "published")) {
     const ids = uniqueStrings([...(report.sourceRecordIds ?? []), ...(report.researchSources ?? []).map((source) => source.recordId)]);
     for (const id of ids) addBacklink(links, id, { id: report.id, type: "weekly-report", title: report.title, href: `?report=${encodeURIComponent(report.id)}#weekly-reports` });
+  }
+  for (const episode of podcasts.filter((item) => item.status === "published")) {
+    for (const id of uniqueStrings(episode.sourceRecordIds)) addBacklink(links, id, { id: episode.id, type: "podcast-episode", title: episode.title, href: `?podcast=${encodeURIComponent(episode.id)}#podcast` });
   }
   return links;
 }
@@ -229,4 +269,9 @@ function uniqueStrings(values = []) {
 
 function normalise(value) {
   return String(value ?? "").trim().toLocaleLowerCase("zh-Hant");
+}
+
+function formatDuration(seconds) {
+  const minutes = Math.max(1, Math.round(Number(seconds ?? 0) / 60));
+  return `${minutes} min listen`;
 }

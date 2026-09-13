@@ -59,9 +59,10 @@ jobs:
       - name: Stage public site
         run: |
           mkdir -p _site/content _site/assets
-          cp index.html styles.css app.js radar.js weekly-reports.js _site/
-          cp content/issues.json content/research-radar.json content/source-registry.json content/weekly-reports.json content/knowledge-index.json _site/content/
+          cp index.html styles.css app.js radar.js weekly-reports.js podcasts.js _site/
+          cp content/issues.json content/research-radar.json content/source-registry.json content/weekly-reports.json content/podcasts.json content/knowledge-index.json _site/content/
           cp assets/yabilab-logo.png _site/assets/
+          cp -R assets/podcasts _site/assets/
           touch _site/.nojekyll
 
       - name: Upload Pages artifact
