@@ -34,25 +34,43 @@ const discoveredItems = deduplicateRadarItems([...pubmedResult.articles, ...rssR
 const discoveredIds = new Set(discoveredItems.map((item) => item.id));
 const retainedItems = (existingRadar.items ?? []).filter((item) => !discoveredIds.has(item.id));
 const allItems = [...discoveredItems, ...retainedItems]
-  .sort((left, right) => dateValue(right.discoveredAt) - dateValue(left.discoveredAt))
-  .slice(0, 250);
+  .sort((left, right) => dateValue(right.discoveredAt) - dateValue(left.discoveredAt));
+const sourceStatus = [
+  {
+    id: "pubmed-journal-index",
+    label: registry.pubmed.label,
+    status: "ok",
+    checkedAt: generatedAt,
+    itemCount: pubmedResult.articles.length,
+    detail: query ? `Additional query: ${query}` : "All configured journal sources"
+  },
+  ...rssResult.sourceStatus
+];
+const collectionHistory = [
+  {
+    collectedAt: generatedAt,
+    coverage: range,
+    query: query || null,
+    discoveredCount: discoveredItems.length,
+    totalArchivedCount: allItems.length,
+    discoveredItemIds: [...discoveredIds],
+    sources: sourceStatus.map((source) => ({
+      id: source.id,
+      label: source.label,
+      status: source.status,
+      itemCount: source.itemCount ?? 0
+    }))
+  },
+  ...(existingRadar.collectionHistory ?? [])
+].sort((left, right) => right.collectedAt.localeCompare(left.collectedAt));
 
 const radar = {
   schemaVersion: 1,
   lastCollectedAt: generatedAt,
   coverage: range,
-  sourceStatus: [
-    {
-      id: "pubmed-journal-index",
-      label: registry.pubmed.label,
-      status: "ok",
-      checkedAt: generatedAt,
-      itemCount: pubmedResult.articles.length,
-      detail: query ? `Additional query: ${query}` : "All configured journal sources"
-    },
-    ...rssResult.sourceStatus
-  ],
+  sourceStatus,
   trendSignals: buildTrendSignals(discoveredItems),
+  collectionHistory,
   items: allItems
 };
 
@@ -392,6 +410,7 @@ function createEmptyRadar() {
     coverage: { from: null, to: null },
     sourceStatus: [],
     trendSignals: [],
+    collectionHistory: [],
     items: []
   };
 }

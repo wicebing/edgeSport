@@ -3,6 +3,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateResearchItem } from "./lib/research-review.mjs";
 import { REPORT_CONTENT_LEVELS, validateWeeklyReport } from "./lib/weekly-report-schema.mjs";
+import { validateMonthlyTopic } from "./lib/monthly-topic-schema.mjs";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const contentPath = resolve(rootDirectory, "content", "issues.json");
@@ -117,6 +118,23 @@ for (const issue of content.issues ?? []) {
     if ((issue.evidence?.length ?? 0) < 2) {
       errors.push(`${issueLocation} needs at least two evidence sources before publishing.`);
     }
+  }
+
+  if (issue.kind === "monthly-deep-dive") {
+    if (issue.publicationMode !== "automated" || issue.automationProvider !== "codex") {
+      errors.push(`${issueLocation} monthly publication must identify Codex automated generation.`);
+    }
+    if (issue.editorReview?.approvedForPublish !== false) {
+      errors.push(`${issueLocation}.editorReview.approvedForPublish must remain false until human review.`);
+    }
+    const monthlyErrors = validateMonthlyTopic(issue, {
+      researchSourceIds: (issue.evidence ?? []).map((source) => source.sourceId).filter(Boolean),
+      currentAffairIds: (issue.currentAffairs ?? []).map((source) => source.sourceId).filter(Boolean),
+      courseIds: (issue.courseConnectionsDetailed ?? []).map((source) => source.courseId).filter(Boolean),
+      priorReportIds: (issue.priorReportConnections ?? []).map((source) => source.reportId).filter(Boolean)
+    });
+    for (const monthlyError of monthlyErrors) errors.push(`${issueLocation} contract: ${monthlyError}`);
+    for (const signal of issue.currentAffairs ?? []) requiredHttpsUrl(signal.sourceUrl, `${issueLocation}.currentAffairs[${signal.sourceId}].sourceUrl`);
   }
 
   for (const reference of issue.evidence ?? []) {

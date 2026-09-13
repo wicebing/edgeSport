@@ -16,11 +16,11 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260913-3" />
+    <link rel="stylesheet" href="styles.css?v=20260913-5" />
     <script defer src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
-    <script type="module" src="app.js?v=20260913-2"></script>
+    <script type="module" src="app.js?v=20260913-5"></script>
     <script type="module" src="radar.js?v=20260913-2"></script>
-    <script type="module" src="weekly-reports.js?v=20260913-3"></script>
+    <script type="module" src="weekly-reports.js?v=20260913-4"></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">跳至主要內容</a>
@@ -38,7 +38,7 @@
         <a href="#reading">本週閱讀</a>
         <a href="#weekly-reports">本週整合</a>
         <a href="#research-radar">本週雷達</a>
-        <a href="#explore">議題探索</a>
+        <a href="#explore">知識庫搜尋</a>
         <a href="#journal-watch">期刊雷達</a>
         <a href="#method">編輯方法</a>
       </nav>
@@ -185,17 +185,29 @@
       <section id="explore" class="explore-section page-width" aria-labelledby="explore-title">
         <div class="section-heading split-heading">
           <div>
-            <p class="eyebrow eyebrow-dark">Knowledge index</p>
-            <h2 id="explore-title">以問題，找到證據</h2>
+            <p class="eyebrow eyebrow-dark">Cumulative knowledge archive</p>
+            <h2 id="explore-title">搜尋每一份累積下來的知識</h2>
           </div>
-          <p class="section-lead">從不同運動項目、訓練情境與評估工具切入，保留可被回查的研究脈絡。</p>
+          <p class="section-lead">月度深度議題、每週整合週報、歷史主題與歷次蒐集的研究題錄都永久加入索引；可用關鍵字、內容類型、年份、主題與運動項目回查。</p>
         </div>
 
-        <form id="filter-form" class="filter-bar" role="search">
+        <form id="filter-form" class="filter-bar knowledge-filter-bar" role="search">
           <label class="search-box" for="search-input">
             <i data-lucide="search"></i>
-            <span class="sr-only">搜尋議題</span>
-            <input id="search-input" type="search" placeholder="搜尋運動、問題、測驗或關鍵詞" autocomplete="off" />
+            <span class="sr-only">搜尋整個知識庫</span>
+            <input id="search-input" type="search" placeholder="搜尋週報、議題、研究、數據或關鍵詞" autocomplete="off" />
+          </label>
+          <label class="select-box" for="type-filter">
+            <span class="sr-only">篩選內容類型</span>
+            <select id="type-filter">
+              <option value="all">所有內容類型</option>
+            </select>
+          </label>
+          <label class="select-box" for="year-filter">
+            <span class="sr-only">篩選年份</span>
+            <select id="year-filter">
+              <option value="all">所有年份</option>
+            </select>
           </label>
           <label class="select-box" for="topic-filter">
             <span class="sr-only">篩選主題</span>
@@ -219,13 +231,21 @@
           <div id="active-filters" class="active-filters" aria-label="目前篩選條件"></div>
         </div>
 
+        <p id="archive-retention-note" class="archive-retention-note"></p>
+
         <div id="issue-grid" class="issue-grid" aria-live="polite"></div>
+        <div class="radar-more-row">
+          <button id="show-more-knowledge" class="button button-secondary" type="button" hidden>
+            顯示更多知識紀錄
+            <i data-lucide="arrow-down"></i>
+          </button>
+        </div>
       </section>
 
       <section id="reading" class="reading-band" aria-labelledby="reading-title">
         <div class="page-width reading-layout">
           <aside class="reading-rail">
-            <p class="eyebrow eyebrow-dark">Selected issue</p>
+            <p class="eyebrow eyebrow-dark">Selected deep dive</p>
             <p id="reading-week" class="rail-week"></p>
             <div id="reading-topic-list" class="tag-list"></div>
             <button id="save-reading" class="save-label-button" type="button" aria-pressed="false">

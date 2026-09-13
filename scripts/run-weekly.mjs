@@ -111,6 +111,20 @@ if (argumentsByName.has("draft-only")) {
 await runNodeScript("publish-weekly-report.mjs", ["--id", reportId, "--automated", "--provider", provider]);
 await runNodeScript("validate-content.mjs", []);
 console.log(`Public weekly archive updated: content/weekly-reports.json (${reportId}).`);
+if (!argumentsByName.has("skip-monthly") && isFirstWeekOfMonth(publishDate)) {
+  console.log("First publication week of the month: generating the monthly Knowledge Index deep-dive.");
+  const monthlyArguments = [
+    "--month", publishDate.slice(0, 7),
+    "--date", publishDate,
+    "--skip-index",
+    "--skip-harvest",
+    "--skip-open-intake"
+  ];
+  if (argumentsByName.get("model")) monthlyArguments.push("--model", argumentsByName.get("model"));
+  await runNodeScript("run-monthly.mjs", monthlyArguments);
+}
+await runNodeScript("build-knowledge-index.mjs", []);
+await runNodeScript("validate-content.mjs", []);
 console.log("The report is labeled as Codex/LLM automated and not human reviewed. Commit and push the project to update GitHub Pages.");
 
 function runNodeScript(fileName, scriptArguments) {
@@ -153,6 +167,11 @@ function formatIsoDate(date) {
   const month = String(date.getMonth() + 1).padStart(2, "0");
   const day = String(date.getDate()).padStart(2, "0");
   return `${year}-${month}-${day}`;
+}
+
+function isFirstWeekOfMonth(value) {
+  const day = Number(value.slice(8, 10));
+  return Number.isInteger(day) && day >= 1 && day <= 7;
 }
 
 function parseArguments(argumentsList) {

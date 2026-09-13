@@ -54,6 +54,16 @@ research-library/incoming/
 npm.cmd run weekly:run
 ```
 
+每月第一個發布週（發布日期落在每月 1–7 日）時，`weekly:run` 會在週報完成後自動再產生一篇 Knowledge Index 月度深度專題。月度專題預設同樣使用已登入的 Codex CLI，會從最近 45 天的期刊與學會訊號、已取得的完整正文、`inClass/` 與既有週報中選出一個新主題。選題至少需要兩篇主題一致的完整研究，並必須說明相較舊內容的新進展。
+
+若要在其他日期單獨重建當月專題，可執行：
+
+```powershell
+npm.cmd run monthly:run -- --month 2026-09
+```
+
+月度專題會直接更新 `content/issues.json`；同一月份重跑會替換同一篇，不會產生重複內容。若某週只想產生週報，可加上 `--skip-monthly`。月度公開頁會標示「Codex CLI 自動整理・尚未人工審閱」，並包含運動時事脈絡、學習目標、概念與機轉、逐篇研究方法和量化結果、inClass／歷史內容進展比較、評估表、分期方案、負荷進退階、停止／轉介條件及結果追蹤。
+
 這個指令依序會：
 
 1. 重建 `inClass/` 全文索引。

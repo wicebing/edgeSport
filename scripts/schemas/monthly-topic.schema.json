@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EDGE SPORT monthly deep-dive draft",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion", "id", "kind", "status", "publishDate", "monthLabel", "weekLabel",
+    "title", "summary", "readingMinutes", "topicIds", "sportTags", "question", "evidenceLens",
+    "whyNow", "learningObjectives", "knowledgePrimer", "keyNumbers", "researchSourceIds",
+    "evidenceSynthesis", "visualization", "comparisonTable", "takeaways", "actionProtocol",
+    "decisionPath", "fieldChecklist", "metrics", "currentAffairs", "courseConnectionsDetailed",
+    "priorReportConnections", "trend", "uncertainties", "editorReview"
+  ],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "id": { "type": "string", "pattern": "^[0-9]{4}-m(0[1-9]|1[0-2])$" },
+    "kind": { "type": "string", "const": "monthly-deep-dive" },
+    "status": { "type": "string", "const": "draft" },
+    "publishDate": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "monthLabel": { "type": "string", "minLength": 1 },
+    "weekLabel": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "readingMinutes": { "type": "integer", "minimum": 12, "maximum": 60 },
+    "topicIds": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "sportTags": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "question": { "type": "string", "minLength": 1 },
+    "evidenceLens": { "type": "string", "minLength": 1 },
+    "whyNow": {
+      "type": "object", "additionalProperties": false,
+      "required": ["currentSignal", "knowledgeGap", "decisionNeed"],
+      "properties": {
+        "currentSignal": { "type": "string", "minLength": 1 },
+        "knowledgeGap": { "type": "string", "minLength": 1 },
+        "decisionNeed": { "type": "string", "minLength": 1 }
+      }
+    },
+    "learningObjectives": { "type": "array", "minItems": 3, "items": { "type": "string", "minLength": 1 } },
+    "knowledgePrimer": { "$ref": "#/$defs/knowledgePrimer" },
+    "keyNumbers": { "type": "array", "minItems": 3, "items": { "$ref": "#/$defs/keyNumber" } },
+    "researchSourceIds": { "type": "array", "minItems": 2, "maxItems": 6, "items": { "type": "string" } },
+    "evidenceSynthesis": { "type": "array", "minItems": 2, "maxItems": 6, "items": { "$ref": "#/$defs/evidenceSynthesis" } },
+    "visualization": { "$ref": "#/$defs/visualization" },
+    "comparisonTable": { "$ref": "#/$defs/table" },
+    "takeaways": {
+      "type": "array", "minItems": 3,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["title", "body"],
+        "properties": { "title": { "type": "string", "minLength": 1 }, "body": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "actionProtocol": { "$ref": "#/$defs/actionProtocol" },
+    "decisionPath": {
+      "type": "array", "minItems": 3,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["stage", "question", "signals", "action"],
+        "properties": {
+          "stage": { "type": "string", "minLength": 1 },
+          "question": { "type": "string", "minLength": 1 },
+          "signals": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 1 } },
+          "action": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "fieldChecklist": { "type": "array", "minItems": 5, "items": { "type": "string", "minLength": 1 } },
+    "metrics": {
+      "type": "array", "minItems": 3,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["name", "why", "practice"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "why": { "type": "string", "minLength": 1 },
+          "practice": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "currentAffairs": {
+      "type": "array", "minItems": 1, "maxItems": 6,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["sourceId", "relevance", "evidenceBoundary"],
+        "properties": {
+          "sourceId": { "type": "string", "minLength": 1 },
+          "relevance": { "type": "string", "minLength": 1 },
+          "evidenceBoundary": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "courseConnectionsDetailed": {
+      "type": "array", "minItems": 1, "maxItems": 6,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["courseId", "knowledge", "progression"],
+        "properties": {
+          "courseId": { "type": "string", "minLength": 1 },
+          "knowledge": { "type": "string", "minLength": 1 },
+          "progression": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "priorReportConnections": {
+      "type": "array", "minItems": 1, "maxItems": 6,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["reportId", "knowledge", "progression"],
+        "properties": {
+          "reportId": { "type": "string", "minLength": 1 },
+          "knowledge": { "type": "string", "minLength": 1 },
+          "progression": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "trend": {
+      "type": "object", "additionalProperties": false, "required": ["title", "body"],
+      "properties": { "title": { "type": "string", "minLength": 1 }, "body": { "type": "string", "minLength": 1 } }
+    },
+    "uncertainties": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 1 } },
+    "editorReview": {
+      "type": "object", "additionalProperties": false, "required": ["approvedForPublish", "verifiedBy", "verifiedAt"],
+      "properties": {
+        "approvedForPublish": { "type": "boolean", "const": false },
+        "verifiedBy": { "type": "string" },
+        "verifiedAt": { "type": "string" }
+      }
+    }
+  },
+  "$defs": {
+    "basis": { "type": "string", "enum": ["source-stated", "inclass-supported", "prior-report-supported", "cross-source-synthesis", "edge-sport-proposal", "mixed"] },
+    "knowledgePrimer": {
+      "type": "object", "additionalProperties": false, "required": ["overview", "definitions", "mechanisms"],
+      "properties": {
+        "overview": { "type": "string", "minLength": 1 },
+        "definitions": {
+          "type": "array", "minItems": 3,
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["term", "definition", "distinction", "basis"],
+            "properties": {
+              "term": { "type": "string", "minLength": 1 },
+              "definition": { "type": "string", "minLength": 1 },
+              "distinction": { "type": "string", "minLength": 1 },
+              "basis": { "$ref": "#/$defs/basis" }
+            }
+          }
+        },
+        "mechanisms": {
+          "type": "array", "minItems": 2,
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["title", "explanation", "practicalMeaning", "sourceIds"],
+            "properties": {
+              "title": { "type": "string", "minLength": 1 },
+              "explanation": { "type": "string", "minLength": 1 },
+              "practicalMeaning": { "type": "string", "minLength": 1 },
+              "sourceIds": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "keyNumber": {
+      "type": "object", "additionalProperties": false, "required": ["value", "label", "context", "sourceIds"],
+      "properties": {
+        "value": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "context": { "type": "string", "minLength": 1 },
+        "sourceIds": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+      }
+    },
+    "quantitativeResult": {
+      "type": "object", "additionalProperties": false, "required": ["measure", "result", "context", "sourceLocation"],
+      "properties": {
+        "measure": { "type": "string", "minLength": 1 },
+        "result": { "type": "string", "minLength": 1 },
+        "context": { "type": "string", "minLength": 1 },
+        "sourceLocation": { "type": "string", "minLength": 1 }
+      }
+    },
+    "evidenceSynthesis": {
+      "type": "object", "additionalProperties": false,
+      "required": ["sourceId", "studyDesign", "population", "methods", "quantitativeResults", "interpretation", "limitations", "evidenceLevel"],
+      "properties": {
+        "sourceId": { "type": "string", "minLength": 1 },
+        "studyDesign": { "type": "string", "minLength": 1 },
+        "population": { "type": "string", "minLength": 1 },
+        "methods": { "type": "string", "minLength": 1 },
+        "quantitativeResults": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/quantitativeResult" } },
+        "interpretation": { "type": "string", "minLength": 1 },
+        "limitations": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "evidenceLevel": { "type": "string", "enum": ["high", "moderate", "low", "very-low", "not-graded"] }
+      }
+    },
+    "visualization": {
+      "type": ["object", "null"], "additionalProperties": false, "required": ["type", "title", "caption", "unit", "sourceNote", "data"],
+      "properties": {
+        "type": { "type": "string", "const": "bar" },
+        "title": { "type": "string", "minLength": 1 },
+        "caption": { "type": "string", "minLength": 1 },
+        "unit": { "type": "string", "minLength": 1 },
+        "sourceNote": { "type": "string", "minLength": 1 },
+        "data": {
+          "type": "array", "minItems": 2, "maxItems": 8,
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["label", "value", "detail"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "value": { "type": "number", "minimum": 0 },
+              "detail": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "table": {
+      "type": "object", "additionalProperties": false, "required": ["title", "headers", "rows", "sourceNote"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "headers": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 1 } },
+        "rows": { "type": "array", "minItems": 1, "items": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 1 } } },
+        "sourceNote": { "type": "string", "minLength": 1 }
+      }
+    },
+    "actionProtocol": {
+      "type": "object", "additionalProperties": false,
+      "required": ["title", "scope", "targetPopulation", "goal", "assessmentTable", "phases", "loadManagement", "stopRules", "outcomeTracking"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "scope": { "type": "string", "minLength": 1 },
+        "targetPopulation": { "type": "string", "minLength": 1 },
+        "goal": { "type": "string", "minLength": 1 },
+        "assessmentTable": { "$ref": "#/$defs/table" },
+        "phases": {
+          "type": "array", "minItems": 2,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["phase", "timing", "entryCriteria", "actions", "dosage", "monitoring", "progressionCriteria", "regressionCriteria", "evidenceBasis"],
+            "properties": {
+              "phase": { "type": "string", "minLength": 1 },
+              "timing": { "type": "string", "minLength": 1 },
+              "entryCriteria": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+              "actions": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+              "dosage": { "type": "string", "minLength": 1 },
+              "monitoring": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+              "progressionCriteria": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+              "regressionCriteria": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+              "evidenceBasis": { "$ref": "#/$defs/basis" }
+            }
+          }
+        },
+        "loadManagement": {
+          "type": "object", "additionalProperties": false, "required": ["baseline", "progression", "monitoring", "reviewCadence"],
+          "properties": {
+            "baseline": { "type": "string", "minLength": 1 },
+            "progression": { "type": "string", "minLength": 1 },
+            "monitoring": { "type": "string", "minLength": 1 },
+            "reviewCadence": { "type": "string", "minLength": 1 }
+          }
+        },
+        "stopRules": {
+          "type": "array", "minItems": 2,
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["trigger", "action", "restartCriteria", "urgency", "evidenceBasis"],
+            "properties": {
+              "trigger": { "type": "string", "minLength": 1 },
+              "action": { "type": "string", "minLength": 1 },
+              "restartCriteria": { "type": "string", "minLength": 1 },
+              "urgency": { "type": "string", "enum": ["modify", "stop", "urgent-referral"] },
+              "evidenceBasis": { "$ref": "#/$defs/basis" }
+            }
+          }
+        },
+        "outcomeTracking": {
+          "type": "array", "minItems": 2,
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["domain", "measure", "frequency", "interpretation"],
+            "properties": {
+              "domain": { "type": "string", "minLength": 1 },
+              "measure": { "type": "string", "minLength": 1 },
+              "frequency": { "type": "string", "minLength": 1 },
+              "interpretation": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

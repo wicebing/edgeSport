@@ -36,17 +36,19 @@ jobs:
 
       - name: Refresh weekly research metadata
         if: github.event_name == 'schedule'
-        run: npm run research:harvest -- --days 7 --no-inbox
+        run: |
+          npm run research:harvest -- --days 7 --no-inbox
+          npm run knowledge:index
 
       - name: Commit refreshed research metadata
         if: github.event_name == 'schedule'
         run: |
-          if git diff --quiet -- content/research-radar.json; then
+          if git diff --quiet -- content/research-radar.json content/knowledge-index.json; then
             echo "Research radar is already current."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add content/research-radar.json
+            git add content/research-radar.json content/knowledge-index.json
             git commit -m "chore: refresh weekly research radar"
             git push
           fi
@@ -58,7 +60,7 @@ jobs:
         run: |
           mkdir -p _site/content _site/assets
           cp index.html styles.css app.js radar.js weekly-reports.js _site/
-          cp content/issues.json content/research-radar.json content/source-registry.json content/weekly-reports.json _site/content/
+          cp content/issues.json content/research-radar.json content/source-registry.json content/weekly-reports.json content/knowledge-index.json _site/content/
           cp assets/yabilab-logo.png _site/assets/
           touch _site/.nojekyll
 
