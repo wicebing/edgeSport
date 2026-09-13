@@ -1,0 +1,79 @@
+name: Deploy EDGE SPORT to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  validate-and-stage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install workflow dependencies
+        run: npm ci
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Refresh weekly research metadata
+        if: github.event_name == 'schedule'
+        run: npm run research:harvest -- --days 7 --no-inbox
+
+      - name: Commit refreshed research metadata
+        if: github.event_name == 'schedule'
+        run: |
+          if git diff --quiet -- content/research-radar.json; then
+            echo "Research radar is already current."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add content/research-radar.json
+            git commit -m "chore: refresh weekly research radar"
+            git push
+          fi
+
+      - name: Validate weekly content
+        run: npm run validate
+
+      - name: Stage public site
+        run: |
+          mkdir -p _site/content _site/assets
+          cp index.html styles.css app.js radar.js weekly-reports.js _site/
+          cp content/issues.json content/research-radar.json content/source-registry.json content/weekly-reports.json _site/content/
+          cp assets/yabilab-logo.png _site/assets/
+          touch _site/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: validate-and-stage
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

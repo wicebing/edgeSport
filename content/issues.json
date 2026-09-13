@@ -1,0 +1,490 @@
+{
+  "site": {
+    "name": "EDGE SPORT",
+    "subheading": "Evidence Weekly",
+    "tagline": "每週一份可追溯、可落地的運動醫學與運動科學閱讀。",
+    "lastReviewed": "2026-09-12",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1800&q=85",
+      "alt": "田徑跑道上的跑者",
+      "credit": "Photo source: Unsplash"
+    },
+    "disclaimer": "內容供教育與知識整理使用，不能取代個別醫療、復健、營養或訓練處方。臨床與競技決策應由合格專業人員依個案、運動項目與情境判斷。"
+  },
+  "topics": [
+    {
+      "id": "sport-medicine",
+      "label": "運動醫學",
+      "description": "傷害預防、診斷、復健與回場決策"
+    },
+    {
+      "id": "training",
+      "label": "訓練設計",
+      "description": "肌力、爆發力、技能與週期化"
+    },
+    {
+      "id": "nutrition",
+      "label": "營養與恢復",
+      "description": "能量、水分、電解質與恢復策略"
+    },
+    {
+      "id": "assessment",
+      "label": "身體評估",
+      "description": "測力板、跳躍、肌力與功能測試"
+    },
+    {
+      "id": "monitoring",
+      "label": "監測與科技",
+      "description": "訓練負荷、疲勞、穿戴裝置與資料判讀"
+    },
+    {
+      "id": "performance",
+      "label": "運動表現",
+      "description": "專項需求、比賽準備與能力轉換"
+    }
+  ],
+  "journals": [
+    {
+      "id": "ajsm",
+      "name": "American Journal of Sports Medicine",
+      "abbreviation": "AJSM",
+      "scope": "骨科與臨床運動醫學",
+      "url": "https://journals.sagepub.com/home/ajs"
+    },
+    {
+      "id": "bjsm",
+      "name": "British Journal of Sports Medicine",
+      "abbreviation": "BJSM",
+      "scope": "運動醫學、政策與臨床實作",
+      "url": "https://bjsm.bmj.com/"
+    },
+    {
+      "id": "jospt",
+      "name": "Journal of Orthopaedic & Sports Physical Therapy",
+      "abbreviation": "JOSPT",
+      "scope": "肌骨物理治療與復健科學",
+      "url": "https://www.jospt.org/"
+    },
+    {
+      "id": "sports-medicine",
+      "name": "Sports Medicine",
+      "abbreviation": "Sports Med",
+      "scope": "系統性回顧與運動科學綜述",
+      "url": "https://link.springer.com/journal/40279"
+    },
+    {
+      "id": "msse",
+      "name": "Medicine & Science in Sports & Exercise",
+      "abbreviation": "MSSE",
+      "scope": "運動生理、代謝與表現",
+      "url": "https://journals.lww.com/acsm-msse/pages/default.aspx"
+    },
+    {
+      "id": "ijspp",
+      "name": "International Journal of Sports Physiology and Performance",
+      "abbreviation": "IJSPP",
+      "scope": "運動生理、訓練負荷與表現監測",
+      "url": "https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml"
+    }
+  ],
+  "issues": [
+    {
+      "id": "2026-w37",
+      "status": "published",
+      "publishDate": "2026-09-12",
+      "weekLabel": "2026 Week 37",
+      "title": "ACL 重建後，如何從回場走向回到表現？",
+      "summary": "把回場決策從單一時間點或單一測驗，改為症狀、能力、運動專項暴露與心理準備的連續判讀。",
+      "readingMinutes": 12,
+      "topicIds": ["sport-medicine", "assessment", "training", "performance"],
+      "sportTags": ["足球", "籃球", "手球", "跳躍與變向運動"],
+      "coverImage": {
+        "src": "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=1400&q=85",
+        "alt": "運動員在訓練場上準備動作",
+        "credit": "Photo source: Unsplash"
+      },
+      "question": "當運動員的膝痛與腫脹已控制，還需要什麼證據支持回到完整訓練與比賽？",
+      "evidenceLens": "共識聲明、臨床指引與前瞻性隊列研究",
+      "takeaways": [
+        {
+          "title": "回場是一個持續的過程",
+          "body": "Return to sport 不宜只被視為醫療許可；它涵蓋回到參與、回到運動、回到表現三種不同層次，且每一層都需要重新確認風險與能力。"
+        },
+        {
+          "title": "對稱性是起點，不是終點",
+          "body": "左右側差異可協助發現問題，但仍須放進絕對力量、力量-時間特徵、動作品質與運動專項需求中解讀。"
+        },
+        {
+          "title": "把競技需求逐步放回復健",
+          "body": "從可控制的力量與跳躍任務，逐步銜接減速、變向、不可預期刺激、密集訓練與比賽節奏，才能觀察身體能否承受真實需求。"
+        }
+      ],
+      "decisionPath": [
+        {
+          "stage": "可訓練性",
+          "question": "關節是否能接受當週訓練刺激？",
+          "signals": ["疼痛與積液反應", "關節活動度", "隔日症狀與恢復"],
+          "action": "若症狀對近期負荷反應不佳，先調整劑量與恢復，而非直接堆疊測驗。"
+        },
+        {
+          "stage": "能力重建",
+          "question": "是否具備加速、煞車、推蹬與吸收力量的基礎？",
+          "signals": ["股四頭肌與後側鏈力量", "離心煞車能力", "跳躍力量-時間曲線"],
+          "action": "以重複量測趨勢搭配技術觀察，針對能力缺口安排訓練。"
+        },
+        {
+          "stage": "專項暴露",
+          "question": "能否在所屬運動的速度、複雜度與疲勞下維持功能？",
+          "signals": ["變向與減速品質", "訓練後關節反應", "運動員信心與回避行為"],
+          "action": "以漸進式全隊訓練暴露取代一次性的通過或失敗判斷。"
+        }
+      ],
+      "fieldChecklist": [
+        "把每次測驗連回明確決策：增加、維持或降低哪一種訓練需求。",
+        "同時記錄主觀症狀、客觀能力與訓練暴露，避免只看其中一項。",
+        "與教練、運動防護、復健與營養人員共享當週目標與負荷。"
+      ],
+      "metrics": [
+        {
+          "name": "症狀與關節反應",
+          "why": "它決定後續訓練劑量是否可被組織耐受。",
+          "practice": "在關鍵訓練與隔日以相同方式紀錄疼痛、積液、僵硬與活動度。"
+        },
+        {
+          "name": "力量與力量-時間特徵",
+          "why": "可以分辨完成任務的結果與產生結果的策略。",
+          "practice": "選擇信度足夠且團隊能重複執行的測驗；比較個人歷史資料，不只比較健側。"
+        },
+        {
+          "name": "專項訓練暴露",
+          "why": "比賽需求通常超過單次實驗室測驗。",
+          "practice": "追蹤衝刺、跳躍、變向、對抗與訓練密度的進展，以及其後的生理反應。"
+        }
+      ],
+      "trend": {
+        "title": "期刊趨勢觀察",
+        "body": "回場研究越來越重視『決策品質』與『情境化能力』：絕對表現、動作策略、心理準備與真實運動暴露，通常比單一門檻更能支持跨專業討論。"
+      },
+      "evidence": [
+        {
+          "type": "Consensus statement",
+          "citation": "Ardern CL, et al. 2016 Consensus statement on return to sport from the First World Congress in Sports Physical Therapy, Bern.",
+          "source": "British Journal of Sports Medicine",
+          "url": "https://doi.org/10.1136/bjsports-2016-096278",
+          "note": "提供回到參與、回到運動與回到表現的共同語言。"
+        },
+        {
+          "type": "Prospective cohort",
+          "citation": "Grindem H, et al. Simple decision rules can reduce reinjury risk by 84% after ACL reconstruction: the Delaware-Oslo ACL cohort study.",
+          "source": "British Journal of Sports Medicine",
+          "url": "https://doi.org/10.1136/bjsports-2016-096031",
+          "note": "說明以多項功能與時間條件評估回場的研究脈絡，不應抽離個案背景直接套用。"
+        },
+        {
+          "type": "Clinical practice update",
+          "citation": "van Melick N, et al. Evidence-based clinical practice update: practice guidelines for anterior cruciate ligament rehabilitation.",
+          "source": "British Journal of Sports Medicine",
+          "url": "https://doi.org/10.1136/bjsports-2015-095898",
+          "note": "整合 ACL 復健介入與臨床決策的系統性回顧與共識。"
+        }
+      ],
+      "courseConnections": [
+        "傷後回場跨領域共享決策：以 ACL Reconstruction 為例",
+        "肌力評估：回到表現"
+      ]
+    },
+    {
+      "id": "2026-w36",
+      "status": "published",
+      "publishDate": "2026-09-05",
+      "weekLabel": "2026 Week 36",
+      "title": "熱環境比賽：讓補水與降溫變成可演練的策略",
+      "summary": "把水分、鈉、碳水與降溫策略放進實際賽程和個人流汗特徵，而不是在比賽日臨時猜測。",
+      "readingMinutes": 10,
+      "topicIds": ["nutrition", "monitoring", "performance"],
+      "sportTags": ["馬拉松", "鐵人三項", "足球", "網球", "戶外賽事"],
+      "coverImage": {
+        "src": "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=1400&q=85",
+        "alt": "戶外運動員在陽光下訓練",
+        "credit": "Photo source: Unsplash"
+      },
+      "question": "如何將熱、流汗率、補給耐受度與賽事停頓時間轉換成個人化執行計畫？",
+      "evidenceLens": "立場聲明、環境生理共識與個人監測",
+      "takeaways": [
+        {
+          "title": "先量測，再處方",
+          "body": "運動前後體重、攝入液體與排尿紀錄可用於估算流汗率；應在接近比賽條件下重複觀察，才有助於建立可用範圍。"
+        },
+        {
+          "title": "計畫須經腸胃訓練",
+          "body": "碳水、液體與電解質的攝取策略需要在訓練中反覆演練，並依項目可飲用時機與個人耐受度調整。"
+        },
+        {
+          "title": "降溫是系統，不是單一產品",
+          "body": "預冷、休息區降溫、衣著、賽中飲品溫度與工作人員流程，應配合運動形式和環境限制整合。"
+        }
+      ],
+      "decisionPath": [
+        {
+          "stage": "建立基線",
+          "question": "這位運動員在指定強度與天候下的體重變化和攝入量為何？",
+          "signals": ["運動前後體重", "液體攝入量", "尿量與主觀腸胃耐受"],
+          "action": "重複測量並保留情境資料，避免以單次數值當作固定處方。"
+        },
+        {
+          "stage": "模擬賽事",
+          "question": "補給與降溫能否在賽事規則和停頓時間內真的完成？",
+          "signals": ["可取得補給的時間窗", "裝備與後勤", "腸胃與口感耐受"],
+          "action": "將策略放入關鍵訓練或熱適應課表中測試。"
+        },
+        {
+          "stage": "現場調整",
+          "question": "當溫度、濕度、比賽節奏改變時，哪些指標需要重新判讀？",
+          "signals": ["RPE", "體重趨勢", "核心症狀與環境資訊"],
+          "action": "建立明確的調整與停止運動條件，並遵循賽事醫療流程。"
+        }
+      ],
+      "fieldChecklist": [
+        "訓練前後以相同秤重條件紀錄體重與補充量。",
+        "在熱環境訓練中試用比賽日飲食、飲品溫度和補給容器。",
+        "與隊醫和防護人員確認熱傷害辨識、降溫與緊急處置流程。"
+      ],
+      "metrics": [
+        {
+          "name": "體重變化與流汗率估計",
+          "why": "協助描述個人在特定情境下的液體損失範圍。",
+          "practice": "將體重、液體攝入、運動時間與排尿量合併記錄，避免只憑感覺補水。"
+        },
+        {
+          "name": "腸胃耐受與主觀感受",
+          "why": "可執行性和耐受度是策略成功的條件。",
+          "practice": "記錄飽脹、噁心、口渴、RPE 與實際完成率，作為下一輪調整依據。"
+        }
+      ],
+      "trend": {
+        "title": "期刊趨勢觀察",
+        "body": "熱環境研究正從通用補水建議轉向個人流汗、競賽規則、腸胃耐受與後勤流程的整合；安全決策同樣需要把環境與醫療應變納入。"
+      },
+      "evidence": [
+        {
+          "type": "Position stand",
+          "citation": "Sawka MN, et al. American College of Sports Medicine position stand: Exercise and fluid replacement.",
+          "source": "Medicine & Science in Sports & Exercise",
+          "url": "https://doi.org/10.1249/mss.0b013e31802ca597",
+          "note": "提供運動與液體補充的基礎原則；個人策略仍需依環境與運動型態調整。"
+        },
+        {
+          "type": "Consensus recommendations",
+          "citation": "Racinais S, et al. Consensus recommendations on training and competing in the heat.",
+          "source": "Scandinavian Journal of Medicine & Science in Sports",
+          "url": "https://doi.org/10.1111/sms.12467",
+          "note": "整合熱適應、降溫、補水與比賽環境下的實務考量。"
+        },
+        {
+          "type": "Position statement",
+          "citation": "Casa DJ, et al. National Athletic Trainers' Association position statement: Exertional heat illnesses.",
+          "source": "Journal of Athletic Training",
+          "url": "https://doi.org/10.4085/1062-6050-50.9.07",
+          "note": "可用於團隊熱傷害預防、辨識與現場處置制度的延伸閱讀。"
+        }
+      ],
+      "courseConnections": [
+        "比賽前中後能量、水分及電解質補給策略",
+        "熱急症處置與預防"
+      ]
+    },
+    {
+      "id": "2026-w35",
+      "status": "published",
+      "publishDate": "2026-08-29",
+      "weekLabel": "2026 Week 35",
+      "title": "從 CMJ 到決策：不要只追蹤跳得多高",
+      "summary": "垂直跳高度有用，但若要理解疲勞、訓練適應或傷後策略，還需要看力量-時間特徵、測試條件與個人基線。",
+      "readingMinutes": 11,
+      "topicIds": ["assessment", "monitoring", "training"],
+      "sportTags": ["籃球", "排球", "短跑", "重量訓練", "團隊運動"],
+      "coverImage": {
+        "src": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1400&q=85",
+        "alt": "運動員在室內訓練空間進行體能訓練",
+        "credit": "Photo source: Unsplash"
+      },
+      "question": "同樣的跳躍高度，可能由不同的動作策略產生；團隊該如何避免錯讀資料？",
+      "evidenceLens": "統合分析、監測框架與量測方法學",
+      "takeaways": [
+        {
+          "title": "結果與過程要一起讀",
+          "body": "跳躍高度屬於重要結果指標；若有測力板或可靠的量測流程，離心煞車、向心推進與時間特徵可補足對策略的理解。"
+        },
+        {
+          "title": "先控制測試噪音",
+          "body": "熱身、手部位置、跳躍類型、測試時間、前一日負荷與資料處理規則不同，都可能讓跨週比較失真。"
+        },
+        {
+          "title": "用個人趨勢連回訓練脈絡",
+          "body": "單次下降不等於疲勞或風險上升；它需要與主觀恢復、訓練內容、比賽時間表和個人變異一起判讀。"
+        }
+      ],
+      "decisionPath": [
+        {
+          "stage": "定義問題",
+          "question": "測試是為了描述表現、恢復、傷後能力，還是訓練反應？",
+          "signals": ["決策問題", "可重複的測驗條件", "可用歷史基線"],
+          "action": "先寫下測試結果將觸發的決策，再選擇指標。"
+        },
+        {
+          "stage": "建立可靠流程",
+          "question": "每次測試是否以相同方式執行和處理？",
+          "signals": ["熱身流程", "量測設備", "跳躍指令與資料篩選規則"],
+          "action": "將流程文件化，並定期確認設備與操作者一致性。"
+        },
+        {
+          "stage": "解讀變化",
+          "question": "數值變化是否超過個人正常波動，且與其他資訊一致？",
+          "signals": ["個人歷史範圍", "RPE 與睡眠", "近期訓練與賽程"],
+          "action": "將資料當作對話起點，必要時重測或補充其他量測。"
+        }
+      ],
+      "fieldChecklist": [
+        "固定跳躍協議、鞋款、熱身與測試時段。",
+        "保留原始資料與資料清理規則，讓未來比較可追溯。",
+        "不以單一 CMJ 指標做醫療診斷或單獨決定是否上場。"
+      ],
+      "metrics": [
+        {
+          "name": "跳躍高度與起跳策略",
+          "why": "可提供表現結果和完成方式的不同訊息。",
+          "practice": "選擇與目標一致的跳躍任務，搭配一致的資料收集方式。"
+        },
+        {
+          "name": "力量-時間特徵",
+          "why": "有助於檢視煞車、推進與時間分配是否改變。",
+          "practice": "僅追蹤已完成信度評估、團隊能穩定解讀的衍生指標。"
+        }
+      ],
+      "trend": {
+        "title": "期刊趨勢觀察",
+        "body": "運動科技研究從『收集更多數據』轉向『收集足夠可信、能改變決策的數據』。量測信度、個人基線與資料治理正成為實務重點。"
+      },
+      "evidence": [
+        {
+          "type": "Meta-analysis",
+          "citation": "Claudino JG, et al. The countermovement jump to monitor neuromuscular status: A meta-analysis.",
+          "source": "Journal of Science and Medicine in Sport",
+          "url": "https://doi.org/10.1016/j.jsams.2017.08.011",
+          "note": "整理 CMJ 對急性與慢性神經肌肉狀態監測的研究。"
+        },
+        {
+          "type": "Review",
+          "citation": "Halson SL. Monitoring training load to understand fatigue in athletes.",
+          "source": "Sports Medicine",
+          "url": "https://doi.org/10.1007/s40279-014-0253-z",
+          "note": "提供訓練負荷、疲勞與多模態監測的基礎框架。"
+        }
+      ],
+      "courseConnections": [
+        "肌力評估：回到表現",
+        "生物力學 I-III"
+      ]
+    },
+    {
+      "id": "2026-w34",
+      "status": "published",
+      "publishDate": "2026-08-22",
+      "weekLabel": "2026 Week 34",
+      "title": "訓練負荷監測：用趨勢管理不確定性",
+      "summary": "沒有單一比值能預測所有傷害；真正可用的系統，會把外部負荷、內部反應、可用性與教練情境持續放在一起看。",
+      "readingMinutes": 9,
+      "topicIds": ["monitoring", "training", "sport-medicine"],
+      "sportTags": ["足球", "棒球", "籃球", "耐力運動", "團隊運動"],
+      "coverImage": {
+        "src": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1400&q=85",
+        "alt": "團隊運動員在戶外訓練",
+        "credit": "Photo source: Unsplash"
+      },
+      "question": "在賽程、旅行、傷病與球隊戰術不斷改變時，如何讓負荷資料支持而非取代專業判斷？",
+      "evidenceLens": "國際共識、系統性回顧與方法學批判",
+      "takeaways": [
+        {
+          "title": "把負荷視為脈絡資料",
+          "body": "GPS、訓練分鐘數、重訓量、RPE 與睡眠都只描述問題的一部分；必須連回運動員當週可用性、症狀和訓練目標。"
+        },
+        {
+          "title": "避免只靠單一風險門檻",
+          "body": "急慢性負荷相關方法可協助描述近期變化，但對個別傷害的預測與因果解釋有限，不宜作為孤立的停訓或上場規則。"
+        },
+        {
+          "title": "讓資料回到教練決策節奏",
+          "body": "每週固定的跨專業短會議，比大量無人解讀的圖表更有機會改變課表、輪替、恢復和傷後進階安排。"
+        }
+      ],
+      "decisionPath": [
+        {
+          "stage": "選定最小資料集",
+          "question": "哪些資料足以支援本隊下一週的具體決策？",
+          "signals": ["外部負荷", "RPE 或主觀恢復", "傷病與可用性"],
+          "action": "從能穩定收集與解讀的少量指標開始，再隨需求擴充。"
+        },
+        {
+          "stage": "辨識有意義的改變",
+          "question": "變化來自訓練設計、比賽、量測噪音還是運動員狀態？",
+          "signals": ["週期化目標", "個人變異", "旅行、睡眠與賽程"],
+          "action": "先回看暴露與情境，再討論是否需要調整個人或團隊課表。"
+        },
+        {
+          "stage": "記錄決策結果",
+          "question": "資料促成的調整是否改善可用性與表現準備？",
+          "signals": ["訓練完成率", "症狀趨勢", "下週回饋"],
+          "action": "留下決策理由與結果，逐步建立自己的隊伍知識庫。"
+        }
+      ],
+      "fieldChecklist": [
+        "對每個監測指標寫下它回答的決策問題。",
+        "將球隊日程、比賽分鐘數、重訓和復健暴露放在同一時間軸。",
+        "對異常值先確認資料品質和情境，再考慮改變課表。"
+      ],
+      "metrics": [
+        {
+          "name": "外部訓練負荷",
+          "why": "描述完成的跑動、距離、衝刺、跳躍、重量或技術暴露。",
+          "practice": "選用與項目需求相符且可持續量測的指標，不比較沒有共同定義的數值。"
+        },
+        {
+          "name": "內部反應與可用性",
+          "why": "描述運動員對外部需求的生理與主觀反應。",
+          "practice": "以 RPE、恢復感受、症狀和出勤狀態等少量高依從性資料建立對話。"
+        }
+      ],
+      "trend": {
+        "title": "期刊趨勢觀察",
+        "body": "近期方法學討論提醒實務人員：與其尋找萬用傷害預測器，更應建立能及時發現容量、恢復與暴露不匹配的決策系統。"
+      },
+      "evidence": [
+        {
+          "type": "Consensus statement",
+          "citation": "Bourdon PC, et al. Monitoring athlete training loads: Consensus statement.",
+          "source": "International Journal of Sports Physiology and Performance",
+          "url": "https://doi.org/10.1123/IJSPP.2017-0208",
+          "note": "提供內外部負荷監測的共同定義和團隊實務框架。"
+        },
+        {
+          "type": "Methodological review",
+          "citation": "Impellizzeri FM, et al. Acute:Chronic Workload Ratio: Conceptual Issues and Fundamental Pitfalls.",
+          "source": "International Journal of Sports Physiology and Performance",
+          "url": "https://doi.org/10.1123/ijspp.2018-0934",
+          "note": "說明 ACWR 的概念與統計限制，提醒避免把比值變成單一預測規則。"
+        },
+        {
+          "type": "Review",
+          "citation": "Drew MK, Finch CF. The relationship between training load and injury, illness and soreness: A systematic and literature review.",
+          "source": "Sports Medicine",
+          "url": "https://doi.org/10.1007/s40279-015-0459-8",
+          "note": "整理訓練負荷與傷病關係的證據及研究限制。"
+        }
+      ],
+      "courseConnections": [
+        "運動訓練監控",
+        "傷後回場跨領域共享決策：以 ACL Reconstruction 為例"
+      ]
+    }
+  ]
+}

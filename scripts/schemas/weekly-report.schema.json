@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "status",
+    "publishDate",
+    "weekLabel",
+    "title",
+    "summary",
+    "question",
+    "evidenceStatement",
+    "topicIds",
+    "sportTags",
+    "sourceRecordIds",
+    "trend",
+    "articleDigests",
+    "comparisonTable",
+    "editorReview"
+  ],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "id": { "type": "string", "pattern": "^[0-9]{4}-w[0-9]{2}$" },
+    "status": { "type": "string", "const": "draft" },
+    "publishDate": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "weekLabel": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "question": { "type": "string", "minLength": 1 },
+    "evidenceStatement": { "type": "string", "minLength": 1 },
+    "topicIds": { "$ref": "#/$defs/nonEmptyStringArray" },
+    "sportTags": { "$ref": "#/$defs/nonEmptyStringArray" },
+    "sourceRecordIds": { "$ref": "#/$defs/nonEmptyStringArray" },
+    "trend": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "body"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "body": { "type": "string", "minLength": 1 }
+      }
+    },
+    "articleDigests": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/articleDigest" }
+    },
+    "comparisonTable": { "$ref": "#/$defs/table" },
+    "editorReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["approvedForPublish", "verifiedBy", "verifiedAt"],
+      "properties": {
+        "approvedForPublish": { "type": "boolean", "const": false },
+        "verifiedBy": { "type": "string", "const": "" },
+        "verifiedAt": { "type": "string", "const": "" }
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyStringArray": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "knowledgeComparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["matchStatus", "sourceIds", "summary"],
+      "properties": {
+        "matchStatus": { "type": "string", "enum": ["matched", "no-direct-match"] },
+        "sourceIds": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "summary": { "type": "string", "minLength": 1 }
+      }
+    },
+    "table": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "headers", "rows"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "headers": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "evidenceTable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "headers", "rows", "sourceNote"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "headers": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        }
+        ,
+        "sourceNote": { "type": "string", "minLength": 1 }
+      }
+    },
+    "visualization": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["type", "title", "caption", "unit", "data", "sourceNote"],
+      "properties": {
+        "type": { "type": "string", "const": "bar" },
+        "title": { "type": "string", "minLength": 1 },
+        "caption": { "type": "string", "minLength": 1 },
+        "unit": { "type": "string", "minLength": 1 },
+        "sourceNote": { "type": "string", "minLength": 1 },
+        "data": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "value", "detail"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "value": { "type": "number", "minimum": 0 },
+              "detail": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "articleDigest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "recordId",
+        "contentLevel",
+        "headline",
+        "summary",
+        "keyFindings",
+        "whatIsNew",
+        "inClassComparison",
+        "priorWeeklyComparison",
+        "practicalImplications",
+        "cautions",
+        "evidenceTable",
+        "visualization"
+      ],
+      "properties": {
+        "recordId": { "type": "string", "minLength": 1 },
+        "contentLevel": { "type": "string", "enum": ["full-text-web", "full-text-local", "full-text-open", "full-text-excerpt", "abstract-only"] },
+        "headline": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 },
+        "keyFindings": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "whatIsNew": { "type": "string", "minLength": 1 },
+        "inClassComparison": { "$ref": "#/$defs/knowledgeComparison" },
+        "priorWeeklyComparison": { "$ref": "#/$defs/knowledgeComparison" },
+        "practicalImplications": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "cautions": { "$ref": "#/$defs/nonEmptyStringArray" },
+        "evidenceTable": { "$ref": "#/$defs/evidenceTable" },
+        "visualization": { "$ref": "#/$defs/visualization" }
+      }
+    }
+  }
+}

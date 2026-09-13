@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "pubmed": {
+    "label": "PubMed indexed journals",
+    "journals": [
+      {
+        "id": "ajsm",
+        "name": "American Journal of Sports Medicine",
+        "abbreviation": "AJSM",
+        "pubmedJournal": "Am J Sports Med",
+        "officialUrl": "https://journals.sagepub.com/home/ajs",
+        "focus": "骨科與臨床運動醫學"
+      },
+      {
+        "id": "bjsm",
+        "name": "British Journal of Sports Medicine",
+        "abbreviation": "BJSM",
+        "pubmedJournal": "Br J Sports Med",
+        "officialUrl": "https://bjsm.bmj.com/",
+        "focus": "運動醫學、公共衛生與臨床實作"
+      },
+      {
+        "id": "jospt",
+        "name": "Journal of Orthopaedic & Sports Physical Therapy",
+        "abbreviation": "JOSPT",
+        "pubmedJournal": "J Orthop Sports Phys Ther",
+        "officialUrl": "https://www.jospt.org/",
+        "focus": "肌骨物理治療與復健科學"
+      },
+      {
+        "id": "sports-medicine",
+        "name": "Sports Medicine",
+        "abbreviation": "Sports Med",
+        "pubmedJournal": "Sports Med",
+        "officialUrl": "https://link.springer.com/journal/40279",
+        "focus": "系統性回顧與運動科學綜述"
+      },
+      {
+        "id": "msse",
+        "name": "Medicine & Science in Sports & Exercise",
+        "abbreviation": "MSSE",
+        "pubmedJournal": "Med Sci Sports Exerc",
+        "officialUrl": "https://journals.lww.com/acsm-msse/pages/default.aspx",
+        "focus": "運動生理、代謝與表現"
+      },
+      {
+        "id": "ijspp",
+        "name": "International Journal of Sports Physiology and Performance",
+        "abbreviation": "IJSPP",
+        "pubmedJournal": "Int J Sports Physiol Perform",
+        "officialUrl": "https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml",
+        "focus": "運動生理、訓練負荷與表現監測"
+      },
+      {
+        "id": "jat",
+        "name": "Journal of Athletic Training",
+        "abbreviation": "JAT",
+        "pubmedJournal": "J Athl Train",
+        "officialUrl": "https://meridian.allenpress.com/jat",
+        "focus": "運動防護、傷害預防與臨床照護"
+      },
+      {
+        "id": "ojspm",
+        "name": "Orthopaedic Journal of Sports Medicine",
+        "abbreviation": "OJSM",
+        "pubmedJournal": "Orthop J Sports Med",
+        "officialUrl": "https://journals.sagepub.com/home/ojs",
+        "focus": "開放取用骨科運動醫學"
+      },
+      {
+        "id": "sports-health",
+        "name": "Sports Health",
+        "abbreviation": "Sports Health",
+        "pubmedJournal": "Sports Health",
+        "officialUrl": "https://journals.sagepub.com/home/sph",
+        "focus": "跨專業運動醫學與健康"
+      },
+      {
+        "id": "jsc",
+        "name": "Journal of Strength and Conditioning Research",
+        "abbreviation": "JSCR",
+        "pubmedJournal": "J Strength Cond Res",
+        "officialUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+        "focus": "肌力與體能訓練"
+      },
+      {
+        "id": "jsms",
+        "name": "Journal of Science and Medicine in Sport",
+        "abbreviation": "JSMS",
+        "pubmedJournal": "J Sci Med Sport",
+        "officialUrl": "https://www.sciencedirect.com/journal/journal-of-science-and-medicine-in-sport",
+        "focus": "運動科學與運動醫學"
+      },
+      {
+        "id": "scand-sms",
+        "name": "Scandinavian Journal of Medicine & Science in Sports",
+        "abbreviation": "SJMS",
+        "pubmedJournal": "Scand J Med Sci Sports",
+        "officialUrl": "https://onlinelibrary.wiley.com/journal/16000838",
+        "focus": "運動醫學與運動生理"
+      },
+      {
+        "id": "ijsm",
+        "name": "International Journal of Sports Medicine",
+        "abbreviation": "IJSM",
+        "pubmedJournal": "Int J Sports Med",
+        "officialUrl": "https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000030",
+        "focus": "運動醫學與運動表現"
+      },
+      {
+        "id": "jss",
+        "name": "Journal of Sports Sciences",
+        "abbreviation": "JSS",
+        "pubmedJournal": "J Sports Sci",
+        "officialUrl": "https://www.tandfonline.com/journals/rjsp20",
+        "focus": "運動表現與訓練科學"
+      },
+      {
+        "id": "bmjosem",
+        "name": "BMJ Open Sport & Exercise Medicine",
+        "abbreviation": "BMJ Open SEM",
+        "pubmedJournal": "BMJ Open Sport Exerc Med",
+        "officialUrl": "https://bmjopensem.bmj.com/",
+        "focus": "開放取用運動醫學、運動與公共健康"
+      },
+      {
+        "id": "cjsm",
+        "name": "Clinical Journal of Sport Medicine",
+        "abbreviation": "CJSM",
+        "pubmedJournal": "Clin J Sport Med",
+        "officialUrl": "https://journals.lww.com/cjsportsmed/",
+        "focus": "臨床運動醫學與運動員照護"
+      },
+      {
+        "id": "kssta",
+        "name": "Knee Surgery, Sports Traumatology, Arthroscopy",
+        "abbreviation": "KSSTA",
+        "pubmedJournal": "Knee Surg Sports Traumatol Arthrosc",
+        "officialUrl": "https://link.springer.com/journal/167",
+        "focus": "膝關節、運動創傷與關節鏡"
+      },
+      {
+        "id": "ejss",
+        "name": "European Journal of Sport Science",
+        "abbreviation": "EJSS",
+        "pubmedJournal": "Eur J Sport Sci",
+        "officialUrl": "https://www.tandfonline.com/journals/tejs20",
+        "focus": "跨領域運動科學與運動表現"
+      },
+      {
+        "id": "jissn",
+        "name": "Journal of the International Society of Sports Nutrition",
+        "abbreviation": "JISSN",
+        "pubmedJournal": "J Int Soc Sports Nutr",
+        "officialUrl": "https://jissn.biomedcentral.com/",
+        "focus": "運動營養、補充品與代謝"
+      },
+      {
+        "id": "ijsnem",
+        "name": "International Journal of Sport Nutrition and Exercise Metabolism",
+        "abbreviation": "IJSNEM",
+        "pubmedJournal": "Int J Sport Nutr Exerc Metab",
+        "officialUrl": "https://journals.humankinetics.com/view/journals/ijsnem/ijsnem-overview.xml",
+        "focus": "運動營養、能量可用性與運動代謝"
+      },
+      {
+        "id": "jshs",
+        "name": "Journal of Sport and Health Science",
+        "abbreviation": "JSHS",
+        "pubmedJournal": "J Sport Health Sci",
+        "officialUrl": "https://www.sciencedirect.com/journal/journal-of-sport-and-health-science",
+        "focus": "運動健康、公共衛生與人體表現"
+      },
+      {
+        "id": "essr",
+        "name": "Exercise and Sport Sciences Reviews",
+        "abbreviation": "ESSR",
+        "pubmedJournal": "Exerc Sport Sci Rev",
+        "officialUrl": "https://journals.lww.com/acsm-essr/",
+        "focus": "運動科學機制與敘述性綜述"
+      },
+      {
+        "id": "sports-biomechanics",
+        "name": "Sports Biomechanics",
+        "abbreviation": "Sports Biomech",
+        "pubmedJournal": "Sports Biomech",
+        "officialUrl": "https://www.tandfonline.com/journals/rspb20",
+        "focus": "動作、生物力學與量測方法"
+      },
+      {
+        "id": "pts",
+        "name": "Physical Therapy in Sport",
+        "abbreviation": "PTS",
+        "pubmedJournal": "Phys Ther Sport",
+        "officialUrl": "https://www.sciencedirect.com/journal/physical-therapy-in-sport",
+        "focus": "運動物理治療、復健與回場"
+      },
+      {
+        "id": "jisakos",
+        "name": "Journal of ISAKOS",
+        "abbreviation": "JISAKOS",
+        "pubmedJournal": "J ISAKOS",
+        "officialUrl": "https://www.jisakos.com/",
+        "focus": "關節保存、運動創傷與手術證據"
+      },
+      {
+        "id": "jap",
+        "name": "Journal of Applied Physiology",
+        "abbreviation": "JAP",
+        "pubmedJournal": "J Appl Physiol (1985)",
+        "officialUrl": "https://journals.physiology.org/journal/jappl",
+        "focus": "運動生理、環境與人體適應"
+      }
+    ]
+  },
+  "officialOrganizations": [
+    {
+      "id": "acsm",
+      "name": "American College of Sports Medicine",
+      "abbreviation": "ACSM",
+      "focus": "運動醫學、運動生理與運動處方",
+      "officialUrl": "https://www.acsm.org/"
+    },
+    {
+      "id": "aossm",
+      "name": "American Orthopaedic Society for Sports Medicine",
+      "abbreviation": "AOSSM",
+      "focus": "運動骨科與傷害照護",
+      "officialUrl": "https://www.sportsmed.org/"
+    },
+    {
+      "id": "isakos",
+      "name": "International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine",
+      "abbreviation": "ISAKOS",
+      "focus": "關節鏡、膝關節與運動骨科",
+      "officialUrl": "https://www.isakos.com/"
+    },
+    {
+      "id": "nata",
+      "name": "National Athletic Trainers' Association",
+      "abbreviation": "NATA",
+      "focus": "運動防護與傷害預防",
+      "officialUrl": "https://www.nata.org/"
+    },
+    {
+      "id": "nsca",
+      "name": "National Strength and Conditioning Association",
+      "abbreviation": "NSCA",
+      "focus": "肌力與體能訓練",
+      "officialUrl": "https://www.nsca.com/"
+    },
+    {
+      "id": "ioc",
+      "name": "International Olympic Committee",
+      "abbreviation": "IOC",
+      "focus": "運動員健康、科學與奧運醫學",
+      "officialUrl": "https://olympics.com/ioc"
+    },
+    {
+      "id": "fifa-medical",
+      "name": "FIFA Medical Network",
+      "abbreviation": "FIFA",
+      "focus": "足球醫學、傷害預防與賽事照護",
+      "officialUrl": "https://www.fifamedicalnetwork.com/"
+    },
+    {
+      "id": "gssi",
+      "name": "Gatorade Sports Science Institute",
+      "abbreviation": "GSSI",
+      "focus": "運動營養、水合與環境生理",
+      "officialUrl": "https://www.gssiweb.org/"
+    },
+    {
+      "id": "fims",
+      "name": "International Federation of Sports Medicine",
+      "abbreviation": "FIMS",
+      "focus": "國際運動醫學",
+      "officialUrl": "https://www.fims.org/"
+    },
+    {
+      "id": "bases",
+      "name": "British Association of Sport and Exercise Sciences",
+      "abbreviation": "BASES",
+      "focus": "運動與運動科學",
+      "officialUrl": "https://www.bases.org.uk/"
+    },
+    {
+      "id": "world-athletics",
+      "name": "World Athletics",
+      "abbreviation": "WA",
+      "focus": "田徑健康、科學與賽事醫療",
+      "officialUrl": "https://worldathletics.org/"
+    },
+    {
+      "id": "wada",
+      "name": "World Anti-Doping Agency",
+      "abbreviation": "WADA",
+      "focus": "反禁藥規範、運動員健康與科學研究",
+      "officialUrl": "https://www.wada-ama.org/"
+    },
+    {
+      "id": "ais",
+      "name": "Australian Institute of Sport",
+      "abbreviation": "AIS",
+      "focus": "運動科學、營養、恢復與高效運動科技",
+      "officialUrl": "https://www.ausport.gov.au/"
+    },
+    {
+      "id": "aspetar",
+      "name": "Aspetar Orthopaedic and Sports Medicine Hospital",
+      "abbreviation": "ASPETAR",
+      "focus": "臨床指引、運動員健康、復健與重返運動",
+      "officialUrl": "https://www.aspetar.com/en/home"
+    },
+    {
+      "id": "esska",
+      "name": "European Society of Sports Traumatology, Knee Surgery and Arthroscopy",
+      "abbreviation": "ESSKA",
+      "focus": "運動創傷、膝關節、關節鏡與臨床共識",
+      "officialUrl": "https://www.esska.org/"
+    },
+    {
+      "id": "issn",
+      "name": "International Society of Sports Nutrition",
+      "abbreviation": "ISSN",
+      "focus": "運動營養、補充品、立場聲明與實證應用",
+      "officialUrl": "https://www.sportsnutritionsociety.org/"
+    },
+    {
+      "id": "ecss",
+      "name": "European College of Sport Science",
+      "abbreviation": "ECSS",
+      "focus": "運動生理、訓練科學、生物力學與跨領域研究",
+      "officialUrl": "https://sport-science.org/"
+    },
+    {
+      "id": "amssm",
+      "name": "American Medical Society for Sports Medicine",
+      "abbreviation": "AMSSM",
+      "focus": "基層運動醫學、臨床聲明、超音波與運動員照護",
+      "officialUrl": "https://www.amssm.org/"
+    }
+  ],
+  "rssFeeds": [
+    {
+      "id": "bjsm-current",
+      "label": "British Journal of Sports Medicine current issue",
+      "officialUrl": "https://bjsm.bmj.com/",
+      "feedUrl": "https://bjsm.bmj.com/rss/current.xml",
+      "focus": "BJSM 官方當期文章、社論與實務更新"
+    },
+    {
+      "id": "bmjosem-current",
+      "label": "BMJ Open Sport & Exercise Medicine current issue",
+      "officialUrl": "https://bmjopensem.bmj.com/",
+      "feedUrl": "https://bmjopensem.bmj.com/rss/current.xml",
+      "focus": "BMJ Open SEM 官方當期開放取用文章"
+    },
+    {
+      "id": "jospt-current",
+      "label": "JOSPT current issue",
+      "officialUrl": "https://www.jospt.org/",
+      "feedUrl": "https://www.jospt.org/action/showFeed?type=etoc&feed=rss&jc=jospt",
+      "focus": "JOSPT 官方當期肌骨與運動物理治療文章"
+    },
+    {
+      "id": "acsm-updates",
+      "label": "American College of Sports Medicine updates",
+      "officialUrl": "https://acsm.org/",
+      "feedUrl": "https://acsm.org/feed/",
+      "focus": "ACSM 官方新聞、聲明與專業更新"
+    },
+    {
+      "id": "nata-updates",
+      "label": "National Athletic Trainers' Association updates",
+      "officialUrl": "https://www.nata.org/",
+      "feedUrl": "https://www.nata.org/rss.xml",
+      "focus": "NATA 官方運動防護專業更新"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+inClass/
+_site/
+content/inbox/*.json
+content/inbox/*.md
+content/reviews/
+research-library/
+.DS_Store

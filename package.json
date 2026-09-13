@@ -1,0 +1,32 @@
+{
+  "name": "edge-sport-evidence-weekly",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A static, evidence-led sports science weekly for GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-content.mjs",
+    "new:issue": "node scripts/new-issue.mjs",
+    "journal:watch": "node scripts/harvest-pubmed.mjs",
+    "research:harvest": "node scripts/harvest-research.mjs",
+    "research:fetch-open": "node scripts/fetch-open-access.mjs",
+    "research:fetch-web": "node scripts/fetch-web-full-text.mjs",
+    "research:fetch-institutional": "node scripts/fetch-institutional-pdfs.mjs",
+    "research:ingest": "node scripts/ingest-full-text-folder.mjs",
+    "research:prepare-review": "node scripts/prepare-full-text-review.mjs",
+    "research:publish-review": "node scripts/publish-reviewed-record.mjs",
+    "inclass:index": "node scripts/index-inclass.mjs",
+    "weekly:prepare": "node scripts/prepare-weekly-packet.mjs",
+    "weekly:generate": "node scripts/generate-weekly-draft.mjs",
+    "weekly:publish": "node scripts/publish-weekly-report.mjs",
+    "weekly:run": "node scripts/run-weekly.mjs",
+    "weekly:release": "node scripts/release-weekly-report.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "serve": "python -m http.server 4173"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "fast-xml-parser": "^5.11.1",
+    "pdf-parse": "^2.4.5"
+  }
+}
