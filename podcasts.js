@@ -53,7 +53,7 @@ function render() {
       <div class="podcast-empty">
         <p class="eyebrow eyebrow-dark">Ready for the first episode</p>
         <h3>週報完成後，再產生英文 Podcast</h3>
-        <p>執行 <code>npm.cmd run podcast:run -- --id YYYY-wNN</code>，Codex 會撰寫對談稿，本機 TTS 會建立雙人音軌並加入網站。</p>
+        <p>執行 <code>npm.cmd run podcast:run</code>，Codex 會自動選擇最新週報、撰寫對談稿，再由本機 TTS 建立雙人音軌並加入網站。</p>
       </div>`;
     return;
   }
@@ -109,8 +109,7 @@ function renderEpisodeDetail(episode) {
     <section class="podcast-sources">
       <p class="podcast-label">RESEARCH DISCUSSED</p>
       <ol>${episode.researchSources.map((source) => `<li><span>${escapeHtml(source.journal)} · ${escapeHtml(source.publicationDate)}</span><a href="${safeUrl(source.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(source.title)}</a></li>`).join("")}</ol>
-    </section>
-    <p class="podcast-disclosure"><strong>Synthetic voice disclosure:</strong> ${escapeHtml(episode.disclosure)}</p>`;
+    </section>`;
 }
 
 function selectEpisode(id) {

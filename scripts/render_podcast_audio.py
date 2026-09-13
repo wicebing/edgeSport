@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Render EDGE SPORT 4 Podcast dialogue with local voices.")
+    parser = argparse.ArgumentParser(description="Render edgeSport4Podcast dialogue with local voices.")
     parser.add_argument("--draft", required=True)
     parser.add_argument("--config", required=True)
     parser.add_argument("--master", required=True)
@@ -173,6 +173,7 @@ def render_cohost_turns(turns, rendered, work_dir, config, device, torch, speake
 
 
 def normalize_for_speech(text: str) -> str:
+    text = re.sub(r"\bedgeSport4Podcast\b", "Edge Sport for Podcast", text, flags=re.IGNORECASE)
     replacements = {
         "ACL": "A C L",
         "CMJ": "C M J",

@@ -19,6 +19,8 @@ export function validatePodcastScript(script, context = {}) {
   stringArray(script?.learningGoals, "podcast.learningGoals", 3, errors);
   stringArray(script?.showNotes, "podcast.showNotes", 4, errors);
   validateDialogue(script?.dialogue, availableSources, errors);
+  const openingText = (script?.dialogue ?? []).slice(0, 2).map((turn) => turn?.text ?? "").join(" ");
+  if (script?.showName && !openingText.includes(script.showName)) errors.push("podcast.dialogue must introduce the exact showName in the first two turns.");
   validateChapters(script?.chapters, script?.dialogue?.length ?? 0, errors);
   validateFactCheck(script?.factCheck, availableSources, errors);
   stringArray(script?.closingTakeaways, "podcast.closingTakeaways", 3, errors);

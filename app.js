@@ -368,7 +368,6 @@ function renderMonthlyIssueDetail(issue, topics) {
         <span class="fact">${escapeHtml(issue.monthLabel)}</span>
         <span class="fact">${escapeHtml(String(issue.readingMinutes))} min deep read</span>
         <span class="fact">${escapeHtml(String(issue.evidence.length))} 篇完整研究</span>
-        <span class="fact is-automated">Codex CLI 自動整理・尚未人工審閱</span>
       </div>
     </header>
 

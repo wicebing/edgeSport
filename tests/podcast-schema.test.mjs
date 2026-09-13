@@ -7,7 +7,7 @@ const spokenSentence = "The weekly evidence reminds us to compare individual tre
 const dialogue = Array.from({ length: 26 }, (_, index) => ({
   turn: index + 1,
   speaker: index % 2 === 0 ? "host" : "cohost",
-  text: `${spokenSentence} ${spokenSentence} ${spokenSentence}`,
+  text: `${index === 0 ? "This is edgeSport4Podcast. " : ""}${spokenSentence} ${spokenSentence} ${spokenSentence}`,
   delivery: index % 2 === 0 ? "clear" : "curious",
   evidenceSourceIds: [sourceRecordIds[index % sourceRecordIds.length]]
 }));
@@ -17,15 +17,15 @@ const draft = {
   id: "2026-w38",
   status: "draft",
   publishDate: "2026-09-19",
-  showName: "EDGE SPORT 4 Podcast",
+  showName: "edgeSport4Podcast",
   episodeTitle: "Read the trend, not one number",
   episodeSubtitle: "A careful conversation about this week's evidence",
   summary: "Two hosts connect research methods, important numbers, limitations and practical decisions.",
   language: "en",
   estimatedMinutes: 14,
   hosts: [
-    { id: "host", displayName: "Y", role: "Evidence guide · girl voice" },
-    { id: "cohost", displayName: "B", role: "Analytical partner · man voice" }
+    { id: "host", displayName: "Ying", role: "Evidence guide · female voice" },
+    { id: "cohost", displayName: "Bing", role: "Analytical partner · male voice" }
   ],
   sourceWeeklyReportId: "2026-w38",
   sourceRecordIds,

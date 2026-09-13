@@ -124,8 +124,8 @@ if (!argumentsByName.has("skip-monthly") && isFirstWeekOfMonth(publishDate)) {
   await runNodeScript("run-monthly.mjs", monthlyArguments);
 }
 await runNodeScript("validate-content.mjs", []);
-console.log("The report is labeled as Codex/LLM automated and not human reviewed. Commit and push the project to update GitHub Pages.");
-console.log(`Next, create the English audio episode with your local voices: npm.cmd run podcast:run -- --id ${reportId}`);
+console.log("The report is ready. Its generation and review provenance remains in the data for validation and traceability. Commit and push the project to update GitHub Pages.");
+console.log("Next, create the English audio episode with your local voices: npm.cmd run podcast:run");
 
 function runNodeScript(fileName, scriptArguments) {
   return new Promise((resolvePromise, rejectPromise) => {

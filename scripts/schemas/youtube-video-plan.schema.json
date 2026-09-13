@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion", "status", "episodeId", "showName", "youtubeTitle",
+    "youtubeDescription", "thumbnailHeadline", "visualDirection", "segments",
+    "tags", "pinnedComment", "disclosure"
+  ],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "status": { "type": "string", "const": "draft" },
+    "episodeId": { "type": "string" },
+    "showName": { "type": "string" },
+    "youtubeTitle": { "type": "string", "minLength": 12, "maxLength": 100 },
+    "youtubeDescription": { "type": "string", "minLength": 200, "maxLength": 5000 },
+    "thumbnailHeadline": { "type": "string", "minLength": 8, "maxLength": 70 },
+    "visualDirection": { "type": "string", "minLength": 30, "maxLength": 500 },
+    "segments": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 8,
+      "items": { "$ref": "#/$defs/segment" }
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 15,
+      "items": { "type": "string", "minLength": 2, "maxLength": 40 }
+    },
+    "pinnedComment": { "type": "string", "minLength": 40, "maxLength": 800 },
+    "disclosure": { "type": "string", "minLength": 30, "maxLength": 500 }
+  },
+  "$defs": {
+    "segment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chapterTurnStart", "headline", "supportingLine", "accent"],
+      "properties": {
+        "chapterTurnStart": { "type": "integer", "minimum": 1, "maximum": 50 },
+        "headline": { "type": "string", "minLength": 5, "maxLength": 75 },
+        "supportingLine": { "type": "string", "minLength": 10, "maxLength": 150 },
+        "accent": { "type": "string", "enum": ["lime", "sky", "coral", "mint", "gold", "violet"] }
+      }
+    }
+  }
+}

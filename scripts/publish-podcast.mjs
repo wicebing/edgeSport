@@ -1,5 +1,5 @@
-import { readFile, stat, writeFile } from "node:fs/promises";
-import { dirname, resolve } from "node:path";
+import { readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
+import { basename, dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { validatePodcastScript, validatePublishedPodcast } from "./lib/podcast-schema.mjs";
 
@@ -74,15 +74,35 @@ const episode = {
 };
 const publicErrors = validatePublishedPodcast(episode, { sourceRecordIds });
 if (publicErrors.length) throw new Error(`Published podcast failed validation:\n- ${publicErrors.join("\n- ")}`);
-podcasts.show = podcasts.show ?? { name: draft.showName, tagline: "Human conversations about evidence, performance, and sports medicine.", language: "en" };
+podcasts.show = {
+  ...(podcasts.show ?? {}),
+  name: draft.showName,
+  tagline: podcasts.show?.tagline ?? "Human conversations about evidence, performance, and sports medicine.",
+  language: draft.language
+};
 podcasts.episodes = [...(podcasts.episodes ?? []).filter((item) => item.id !== id), episode]
   .sort((left, right) => right.publishDate.localeCompare(left.publishDate));
 await writeFile(contentPath, `${JSON.stringify(podcasts, null, 2)}\n`, "utf8");
+await pruneUnreferencedAudio(podcasts);
 await import("./build-knowledge-index.mjs");
 console.log(`Published podcast ${id} to ${contentPath}.`);
 
 async function readJson(path) {
   return JSON.parse(await readFile(path, "utf8"));
+}
+
+async function pruneUnreferencedAudio(podcastData) {
+  const directory = resolve(rootDirectory, "assets", "podcasts");
+  const referenced = new Set((podcastData.episodes ?? []).map((item) => basename(item.audio.src)));
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    if (!entry.isFile() || !/^\d{4}-w\d{2}(?:-[a-f0-9]{12})?\.mp3$/u.test(entry.name) || referenced.has(entry.name)) continue;
+    try {
+      await rm(resolve(directory, entry.name));
+      console.log(`Removed superseded local podcast audio: ${entry.name}`);
+    } catch (error) {
+      console.warn(`Could not remove superseded podcast audio ${entry.name}: ${error.code ?? error.message}. It is not referenced by the site.`);
+    }
+  }
 }
 
 function parseArguments(values) {

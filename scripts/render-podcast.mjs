@@ -80,7 +80,7 @@ const renderRecord = {
 };
 const renderRecordPath = resolve(privateDirectory, `${id}-render.json`);
 await writeFile(renderRecordPath, `${JSON.stringify(renderRecord, null, 2)}\n`, "utf8");
-console.log(`Rendered EDGE SPORT 4 Podcast MP3: ${finalPath}`);
+console.log(`Rendered edgeSport4Podcast MP3: ${finalPath}`);
 console.log(`Duration ${(timing.durationSeconds / 60).toFixed(1)} min, ${(temporaryStats.size / 1024 / 1024).toFixed(1)} MB.`);
 
 async function findPython() {

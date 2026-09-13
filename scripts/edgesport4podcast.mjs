@@ -10,9 +10,9 @@ const latestPublishedReport = [...(reports.reports ?? [])]
   .filter((report) => report.status === "published")
   .sort((left, right) => right.publishDate.localeCompare(left.publishDate))[0];
 const id = args.get("id") ?? latestPublishedReport?.id;
-if (!/^\d{4}-w\d{2}$/u.test(id ?? "")) throw new Error("No published weekly report was found. Use --id YYYY-wNN.");
+if (!/^\d{4}-w\d{2}$/u.test(id ?? "")) throw new Error("No published weekly report was found. Run npm.cmd run weekly:run first.");
 
-console.log(`EDGE SPORT 4 Podcast: ${id}`);
+console.log(`edgeSport4Podcast: ${id}`);
 await run("prepare-podcast-voices.mjs", []);
 await run("prepare-podcast-packet.mjs", ["--id", id]);
 const generationArguments = ["--id", id];
@@ -27,7 +27,8 @@ if (args.get("device")) renderArguments.push("--device", args.get("device"));
 await run("render-podcast.mjs", renderArguments);
 await run("publish-podcast.mjs", ["--id", id]);
 await run("validate-content.mjs", []);
-console.log(`EDGE SPORT 4 Podcast ${id} is ready. Preview it, then commit and push the MP3, transcript and public metadata.`);
+console.log(`edgeSport4Podcast ${id} is ready. Preview it, then commit and push the MP3, transcript and public metadata.`);
+console.log("Step 3 — create the replaceable YouTube upload package: npm.cmd run podcast:youtube");
 
 function run(file, childArgs) {
   return new Promise((resolvePromise, rejectPromise) => {

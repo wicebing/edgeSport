@@ -32,10 +32,14 @@
     "podcast:render": "node scripts/render-podcast.mjs",
     "podcast:publish": "node scripts/publish-podcast.mjs",
     "podcast:run": "node scripts/edgesport4podcast.mjs",
+    "podcast:youtube:plan": "node scripts/generate-youtube-video-plan.mjs",
+    "podcast:youtube:render": "node scripts/render-youtube-video.mjs",
+    "podcast:youtube": "node scripts/edgesport4youtube.mjs",
     "test": "node --test tests/*.test.mjs",
     "serve": "python -m http.server 4173"
   },
   "dependencies": {
+    "@napi-rs/canvas": "0.1.80",
     "cheerio": "^1.1.2",
     "fast-xml-parser": "^5.11.1",
     "ffmpeg-static": "5.2.0",

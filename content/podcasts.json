@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "show": {
-    "name": "EDGE SPORT 4 Podcast",
+    "name": "edgeSport4Podcast",
     "tagline": "Human conversations about evidence, performance, and sports medicine.",
     "language": "en"
   },
@@ -11,24 +11,24 @@
       "id": "2026-w38",
       "status": "published",
       "publishDate": "2026-09-19",
-      "showName": "EDGE SPORT 4 Podcast",
+      "showName": "edgeSport4Podcast",
       "title": "A Slower Fastball, a Better Question",
       "episodeSubtitle": "How to notice meaningful changes without turning a measurement into a diagnosis",
-      "summary": "Y and B explore four studies on pitching, walking, lumbar and hamstring diagnoses, and gut microbes and fatigue. They distinguish useful assessment clues from personal prediction, then discuss an explicitly unvalidated EDGE SPORT workflow for responding to persistent performance changes.",
+      "summary": "Ying and Bing explore four studies on pitching, walking, lumbar and hamstring diagnoses, and gut microbes and fatigue. They distinguish useful assessment clues from personal prediction, then discuss an explicitly unvalidated EDGE SPORT workflow for responding to persistent performance changes.",
       "language": "en",
       "estimatedMinutes": 15,
-      "durationSeconds": 1078.457,
-      "wordCount": 2209,
+      "durationSeconds": 1084.751,
+      "wordCount": 2207,
       "hosts": [
         {
           "id": "host",
-          "displayName": "Y",
-          "role": "Evidence guide · girl voice"
+          "displayName": "Ying",
+          "role": "Evidence guide · female voice"
         },
         {
           "id": "cohost",
-          "displayName": "B",
-          "role": "Analytical partner · man voice"
+          "displayName": "Bing",
+          "role": "Analytical partner · male voice"
         }
       ],
       "sourceWeeklyReportId": "2026-w38",
@@ -64,51 +64,51 @@
           "title": "What the pitching study actually measured",
           "summary": "Small athlete samples, pitch-specific trends, and the limits of group differences.",
           "turnStart": 5,
-          "startSeconds": 97.995
+          "startSeconds": 98.23
         },
         {
           "title": "Walking: quantity and intensity",
           "summary": "Defining PK30 and interpreting mortality associations with their reference group.",
           "turnStart": 15,
-          "startSeconds": 371.448
+          "startSeconds": 376.686
         },
         {
           "title": "Keeping symptom explanations open",
           "summary": "Lumbar and hamstring diagnoses coexist more often, without establishing causation.",
           "turnStart": 23,
-          "startSeconds": 597.203
+          "startSeconds": 601.087
         },
         {
           "title": "Gut mechanisms and human evidence",
           "summary": "Why a largely animal-based review cannot establish an athlete supplement plan.",
           "turnStart": 29,
-          "startSeconds": 752.848
+          "startSeconds": 757.478
         },
         {
           "title": "A practical response with visible uncertainty",
           "summary": "An unvalidated proposal for checking data, assessing symptoms, adjusting exposure, and reviewing the response.",
           "turnStart": 35,
-          "startSeconds": 908.636
+          "startSeconds": 913.266
         }
       ],
       "transcript": [
         {
           "turn": 1,
           "speaker": "host",
-          "text": "Imagine you're watching a pitcher you know well. The fastball looks a little slower again, and afterward they say, 'I'm just not bouncing back the way I usually do.' That leaves a very human question: do we change something now, or are we reading too much into a number? I'm Y, and this is EDGE SPORT 4.",
+          "text": "Imagine you're watching a pitcher you know well. The fastball looks a little slower again, and afterward they say, 'I'm just not bouncing back the way I usually do.' That leaves a very human question: do we change something now, or are we reading too much into a number? I'm Ying, and this is edgeSport4Podcast.",
           "delivery": "warm",
           "evidenceSourceIds": [],
           "startSeconds": 1.57,
-          "durationSeconds": 23.139
+          "durationSeconds": 21.944
         },
         {
           "turn": 2,
           "speaker": "cohost",
-          "text": "And I'm B. I'd want to take that person seriously without making the graph sound like a diagnosis. This week's central question is how a team checks a persistent velocity decline, considers changes to pitching exposure, and starts an assessment. What evidence would actually change the next decision?",
+          "text": "And I'm Bing. I'd want to take that person seriously without making the graph sound like a diagnosis. This week's central question is how a team checks a persistent velocity decline, considers changes to pitching exposure, and starts an assessment. What evidence would actually change the next decision?",
           "delivery": "curious",
           "evidenceSourceIds": [],
-          "startSeconds": 24.949,
-          "durationSeconds": 20.002
+          "startSeconds": 23.754,
+          "durationSeconds": 21.432
         },
         {
           "turn": 3,
@@ -121,7 +121,7 @@
             "pmid-42714926",
             "pmid-42719368"
           ],
-          "startSeconds": 45.411,
+          "startSeconds": 45.646,
           "durationSeconds": 26.402
         },
         {
@@ -132,7 +132,7 @@
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 72.193,
+          "startSeconds": 72.428,
           "durationSeconds": 25.422
         },
         {
@@ -143,19 +143,19 @@
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 97.995,
+          "startSeconds": 98.23,
           "durationSeconds": 26.349
         },
         {
           "turn": 6,
           "speaker": "cohost",
-          "text": "The tracking dataset sounds enormous: 161,979 pitches across 3,347 appearances. But those pitches came from a small number of people. Repeated observations help describe each player's pattern; they don't turn the study into one with 161,979 independent athletes. Y, what stood out when the researchers compared the groups over time?",
+          "text": "The tracking dataset sounds enormous: 161,979 pitches across 3,347 appearances. But those pitches came from a small number of people. Repeated observations help describe each player's pattern; they don't turn the study into one with 161,979 independent athletes. Ying, what stood out when the researchers compared the groups over time?",
           "delivery": "curious",
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 124.723,
-          "durationSeconds": 27.096
+          "startSeconds": 124.959,
+          "durationSeconds": 29.965
         },
         {
           "turn": 7,
@@ -165,7 +165,7 @@
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 152.279,
+          "startSeconds": 155.384,
           "durationSeconds": 23.843
         },
         {
@@ -176,7 +176,7 @@
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 176.502,
+          "startSeconds": 179.607,
           "durationSeconds": 35.267
         },
         {
@@ -187,7 +187,7 @@
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 212.229,
+          "startSeconds": 215.333,
           "durationSeconds": 22.776
         },
         {
@@ -198,19 +198,19 @@
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 235.385,
+          "startSeconds": 238.489,
           "durationSeconds": 23.651
         },
         {
           "turn": 11,
           "speaker": "host",
-          "text": "Another finding made me pause: cases had lower within-game variability in velocity and arm angle in pooled analyses. Here, variability means the standard deviation of individual pitches of the same type within a game. B, if a coach hears that consistent pitching was associated with surgical cases, should they encourage a less repeatable delivery?",
+          "text": "Another finding made me pause: cases had lower within-game variability in velocity and arm angle in pooled analyses. Here, variability means the standard deviation of individual pitches of the same type within a game. Bing, if a coach hears that consistent pitching was associated with surgical cases, should they encourage a less repeatable delivery?",
           "delivery": "curious",
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 259.415,
-          "durationSeconds": 24.546
+          "startSeconds": 262.52,
+          "durationSeconds": 26.679
         },
         {
           "turn": 12,
@@ -220,7 +220,7 @@
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 284.421,
+          "startSeconds": 289.659,
           "durationSeconds": 35.588
         },
         {
@@ -231,7 +231,7 @@
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 320.389,
+          "startSeconds": 325.627,
           "durationSeconds": 23.608
         },
         {
@@ -242,7 +242,7 @@
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 344.377,
+          "startSeconds": 349.615,
           "durationSeconds": 26.691
         },
         {
@@ -253,19 +253,19 @@
           "evidenceSourceIds": [
             "pmid-42711120"
           ],
-          "startSeconds": 371.448,
+          "startSeconds": 376.686,
           "durationSeconds": 29.976
         },
         {
           "turn": 16,
           "speaker": "cohost",
-          "text": "Activity came from seven days of wrist-worn monitoring. Daily steps describe accumulated stepping volume. The intensity measure, PK30, averages the day's 30 highest minute-level step rates, then averages across valid days. Those minutes don't have to be consecutive. So, Y, someone taking a continuous half-hour walk isn't automatically doing the exact exposure measured here.",
+          "text": "Activity came from seven days of wrist-worn monitoring. Daily steps describe accumulated stepping volume. The intensity measure, PK30, averages the day's 30 highest minute-level step rates, then averages across valid days. Those minutes don't have to be consecutive. So, Ying, someone taking a continuous half-hour walk isn't automatically doing the exact exposure measured here.",
           "delivery": "clear",
           "evidenceSourceIds": [
             "pmid-42711120"
           ],
-          "startSeconds": 401.804,
-          "durationSeconds": 30.755
+          "startSeconds": 407.042,
+          "durationSeconds": 29.401
         },
         {
           "turn": 17,
@@ -275,7 +275,7 @@
           "evidenceSourceIds": [
             "pmid-42711120"
           ],
-          "startSeconds": 432.939,
+          "startSeconds": 436.823,
           "durationSeconds": 25.603
         },
         {
@@ -286,7 +286,7 @@
           "evidenceSourceIds": [
             "pmid-42711120"
           ],
-          "startSeconds": 458.922,
+          "startSeconds": 462.805,
           "durationSeconds": 31.267
         },
         {
@@ -297,7 +297,7 @@
           "evidenceSourceIds": [
             "pmid-42711120"
           ],
-          "startSeconds": 490.649,
+          "startSeconds": 494.532,
           "durationSeconds": 31.043
         },
         {
@@ -308,7 +308,7 @@
           "evidenceSourceIds": [
             "pmid-42711120"
           ],
-          "startSeconds": 522.071,
+          "startSeconds": 525.955,
           "durationSeconds": 24.547
         },
         {
@@ -319,7 +319,7 @@
           "evidenceSourceIds": [
             "pmid-42711120"
           ],
-          "startSeconds": 546.998,
+          "startSeconds": 550.881,
           "durationSeconds": 24.589
         },
         {
@@ -330,7 +330,7 @@
           "evidenceSourceIds": [
             "pmid-42711120"
           ],
-          "startSeconds": 571.967,
+          "startSeconds": 575.851,
           "durationSeconds": 24.856
         },
         {
@@ -341,19 +341,19 @@
           "evidenceSourceIds": [
             "pmid-42714926"
           ],
-          "startSeconds": 597.203,
+          "startSeconds": 601.087,
           "durationSeconds": 25.923
         },
         {
           "turn": 24,
           "speaker": "cohost",
-          "text": "Lumbar pathology appeared in 469 records in the hamstring group and 318 controls: reported as 37 percent and 25.1 percent. These were existing diagnostic or imaging records, including conditions such as disc degeneration or herniation. The study didn't establish which came first. Y, is the takeaway simply to look at the back whenever a hamstring hurts?",
+          "text": "Lumbar pathology appeared in 469 records in the hamstring group and 318 controls: reported as 37 percent and 25.1 percent. These were existing diagnostic or imaging records, including conditions such as disc degeneration or herniation. The study didn't establish which came first. Ying, is the takeaway simply to look at the back whenever a hamstring hurts?",
           "delivery": "curious",
           "evidenceSourceIds": [
             "pmid-42714926"
           ],
-          "startSeconds": 623.506,
-          "durationSeconds": 29.421
+          "startSeconds": 627.389,
+          "durationSeconds": 27.373
         },
         {
           "turn": 25,
@@ -363,7 +363,7 @@
           "evidenceSourceIds": [
             "pmid-42714926"
           ],
-          "startSeconds": 653.387,
+          "startSeconds": 655.223,
           "durationSeconds": 28.355
         },
         {
@@ -374,19 +374,19 @@
           "evidenceSourceIds": [
             "pmid-42714926"
           ],
-          "startSeconds": 682.122,
+          "startSeconds": 683.957,
           "durationSeconds": 22.498
         },
         {
           "turn": 27,
           "speaker": "host",
-          "text": "There's a detection issue too: people with hamstring symptoms might receive more lumbar investigations, making lumbar findings easier to discover. Some controls could have received care elsewhere. B, what would change your decision about further assessment here? I don't want the sensible idea of considering another symptom source to quietly become routine imaging for everyone.",
+          "text": "There's a detection issue too: people with hamstring symptoms might receive more lumbar investigations, making lumbar findings easier to discover. Some controls could have received care elsewhere. Bing, what would change your decision about further assessment here? I don't want the sensible idea of considering another symptom source to quietly become routine imaging for everyone.",
           "delivery": "curious",
           "evidenceSourceIds": [
             "pmid-42714926"
           ],
-          "startSeconds": 705,
-          "durationSeconds": 25.144
+          "startSeconds": 706.835,
+          "durationSeconds": 27.939
         },
         {
           "turn": 28,
@@ -396,7 +396,7 @@
           "evidenceSourceIds": [
             "pmid-42714926"
           ],
-          "startSeconds": 730.524,
+          "startSeconds": 735.154,
           "durationSeconds": 21.944
         },
         {
@@ -407,7 +407,7 @@
           "evidenceSourceIds": [
             "pmid-42704785"
           ],
-          "startSeconds": 752.848,
+          "startSeconds": 757.478,
           "durationSeconds": 23.512
         },
         {
@@ -418,7 +418,7 @@
           "evidenceSourceIds": [
             "pmid-42704785"
           ],
-          "startSeconds": 776.74,
+          "startSeconds": 781.37,
           "durationSeconds": 26.551
         },
         {
@@ -429,7 +429,7 @@
           "evidenceSourceIds": [
             "pmid-42704785"
           ],
-          "startSeconds": 803.751,
+          "startSeconds": 808.381,
           "durationSeconds": 23.715
         },
         {
@@ -440,7 +440,7 @@
           "evidenceSourceIds": [
             "pmid-42704785"
           ],
-          "startSeconds": 827.846,
+          "startSeconds": 832.476,
           "durationSeconds": 28.846
         },
         {
@@ -451,7 +451,7 @@
           "evidenceSourceIds": [
             "pmid-42704785"
           ],
-          "startSeconds": 857.152,
+          "startSeconds": 861.782,
           "durationSeconds": 25.709
         },
         {
@@ -462,7 +462,7 @@
           "evidenceSourceIds": [
             "pmid-42704785"
           ],
-          "startSeconds": 883.241,
+          "startSeconds": 887.871,
           "durationSeconds": 25.015
         },
         {
@@ -473,7 +473,7 @@
           "evidenceSourceIds": [
             "pmid-42719368"
           ],
-          "startSeconds": 908.636,
+          "startSeconds": 913.266,
           "durationSeconds": 25.379
         },
         {
@@ -482,7 +482,7 @@
           "text": "I'd put the athlete's account beside that data immediately: symptoms, perceived recovery, pitch counts, and recent training. But I want to challenge the order slightly. If symptoms or worsening function make continued pitching questionable, data cleaning shouldn't delay professional assessment. Under the proposal, stop that session and involve the athletic training or medical team; existing medical restrictions take priority.",
           "delivery": "cautious",
           "evidenceSourceIds": [],
-          "startSeconds": 934.395,
+          "startSeconds": 939.025,
           "durationSeconds": 27.384
         },
         {
@@ -491,7 +491,7 @@
           "text": "Agreed. The spreadsheet doesn't get first refusal on care. If the team considers continued activity appropriate within limits, it can document an exposure adjustment and its reason. That might involve volume, intensity, density, or role. The report supplies no validated reduction percentage, rest duration, or velocity cutoff, so we shouldn't create one to make the plan look more complete.",
           "delivery": "clear",
           "evidenceSourceIds": [],
-          "startSeconds": 962.159,
+          "startSeconds": 966.789,
           "durationSeconds": 34.745
         },
         {
@@ -500,7 +500,7 @@
           "text": "Then make the next review concrete: who records the response, what changed, and what the team will reconsider before adding demands. The report proposes checking symptoms and recovery after activity and the next day. That timing is an operational suggestion. A single rebound in velocity doesn't establish recovery, and keeping good records doesn't prove the process prevents injury.",
           "delivery": "clear",
           "evidenceSourceIds": [],
-          "startSeconds": 997.283,
+          "startSeconds": 1001.913,
           "durationSeconds": 26.68
         },
         {
@@ -514,17 +514,17 @@
             "pmid-42714926",
             "pmid-42719368"
           ],
-          "startSeconds": 1024.343,
+          "startSeconds": 1028.973,
           "durationSeconds": 28.44
         },
         {
           "turn": 40,
           "speaker": "cohost",
-          "text": "And ask what would change the next decision, then record the answer and revisit it. You can find the full numbers, limitations, and original sources in the written EDGE SPORT report. This educational episode uses synthetic speech generated locally: Y from the supplied girl-voice sample, and B from the supplied man-voice sample. Thanks for spending this time with us.",
+          "text": "And ask what would change the next decision, then record the answer and revisit it. You can find the full numbers, limitations, and original sources in the written EDGE SPORT report. This educational episode uses synthetic speech generated locally: Ying from the supplied female-voice sample, and Bing from the supplied male-voice sample. Thanks for spending this time with us.",
           "delivery": "warm",
           "evidenceSourceIds": [],
-          "startSeconds": 1053.163,
-          "durationSeconds": 23.384
+          "startSeconds": 1057.793,
+          "durationSeconds": 25.048
         }
       ],
       "factCheck": [
@@ -621,7 +621,7 @@
         "Require stronger human evidence before converting gut mechanisms into supplement recommendations.",
         "Document adjustments and reassessment; the EDGE SPORT workflow remains unvalidated."
       ],
-      "disclosure": "This episode uses synthetic speech. Y is locally generated from the supplied girl-voice sample, and B is locally generated from the supplied man-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance.",
+      "disclosure": "This episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance.",
       "editorReview": {
         "approvedForPublish": false,
         "verifiedBy": "",
@@ -629,12 +629,12 @@
       },
       "publicationMode": "automated",
       "automationProvider": "codex",
-      "renderedAt": "2026-09-13T14:06:31.368Z",
-      "publishedAt": "2026-09-13T14:06:31.896Z",
+      "renderedAt": "2026-09-13T15:12:22.060Z",
+      "publishedAt": "2026-09-13T15:12:28.837Z",
       "audio": {
-        "src": "assets/podcasts/2026-w38-885c35e7de78.mp3",
+        "src": "assets/podcasts/2026-w38-4c3df041fa64.mp3",
         "mimeType": "audio/mpeg",
-        "bytes": 12942476,
+        "bytes": 13017932,
         "bitrate": "96k",
         "sampleRate": 24000
       },

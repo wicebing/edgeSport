@@ -99,12 +99,11 @@ function renderWeeklyReports() {
 }
 
 function renderReportCard(report, isSelected) {
-  const automationLabel = report.publicationMode === "automated" ? ` / ${providerLabel(report)} 自動整理` : " / 人工審閱";
   return `
     <a class="weekly-report-card ${isSelected ? "is-selected" : ""}" href="?report=${escapeAttribute(report.id)}#weekly-reports" data-open-report="${escapeAttribute(report.id)}" aria-current="${isSelected ? "true" : "false"}">
       <span class="weekly-report-card-date">${escapeHtml(report.weekLabel)} / ${escapeHtml(formatDate(report.publishDate))}</span>
       <strong>${escapeHtml(report.title)}</strong>
-      <span>${escapeHtml(report.researchSources.length)} 篇新研究 / ${escapeHtml(String(report.courseSources.length))} 份課程對照${escapeHtml(automationLabel)}</span>
+      <span>${escapeHtml(report.researchSources.length)} 篇新研究 / ${escapeHtml(String(report.courseSources.length))} 份課程對照</span>
     </a>`;
 }
 
@@ -129,9 +128,7 @@ function renderReportDetail(report) {
       <span class="fact">${escapeHtml(String(report.researchSources.length))} 篇新研究</span>
       <span class="fact">${escapeHtml(String(report.courseSources.length))} 份 inClass 對照</span>
       <span class="fact">${escapeHtml(String(report.priorWeeklySources.length))} 份既有週報</span>
-      ${report.publicationMode === "automated"
-        ? `<span class="fact is-automated">${escapeHtml(providerLabel(report))} 自動整理・尚未人工審閱</span>`
-        : `<span class="fact is-reviewed">人工審閱完成</span>`}
+      ${report.publicationMode === "reviewed" ? `<span class="fact is-reviewed">人工審閱完成</span>` : ""}
     </div>
 
     <section class="weekly-report-section" aria-labelledby="weekly-question-title">
@@ -450,12 +447,6 @@ function renderCompactList(items) {
 function renderBasisBadge(basis) {
   if (!basis) return "";
   return `<span class="weekly-basis is-${escapeAttribute(basis)}">${escapeHtml(EVIDENCE_BASIS_LABELS[basis] ?? basis)}</span>`;
-}
-
-function providerLabel(report) {
-  if (report.automationProvider === "codex") return "Codex CLI";
-  if (report.automationProvider === "copilot") return "Copilot CLI";
-  return "LLM";
 }
 
 function renderEvidenceVisuals(digest) {

@@ -43,25 +43,26 @@ function buildPrompt(packetData) {
   const sourceIds = packetData.weeklyReport.researchSources.map((source) => source.recordId);
   const minimum = packetData.show.targetMinutes.minimum;
   const maximum = packetData.show.targetMinutes.maximum;
-  return `# EDGE SPORT 4 Podcast — English dialogue script
+  return `# edgeSport4Podcast — English dialogue script
 
 You are the evidence editor and podcast writer for EDGE SPORT. Return one JSON object only and obey the supplied schema.
 
-Write a relaxed, humane, intellectually honest English conversation between Y (girl-voice evidence guide, schema speaker ID host) and B (man-voice analytical partner, schema speaker ID cohost). The tone is clean, comfortable, curious and evidence-literate—not a lecture, advertisement, radio drama or rapid-fire news roundup.
+Write a relaxed, humane, intellectually honest English conversation between Ying (female-voice evidence guide, schema speaker ID host) and Bing (male-voice analytical partner, schema speaker ID cohost). The tone is clean, comfortable, curious and evidence-literate—not a lecture, advertisement, radio drama or rapid-fire news roundup.
 
 Editorial requirements:
 - Base every research claim only on weeklyReport. Use relatedIssues only for explicitly labeled historical context.
 - Cover all research sources: ${sourceIds.join(", ")}.
 - Aim for ${minimum}-${maximum} spoken minutes and 1,400-2,700 words across 26-50 mostly alternating turns.
 - Each turn must sound natural aloud, use contractions where suitable, and stay under 760 characters for stable TTS.
-- Make this a genuinely mutual discussion. Y and B must both ask substantive questions, answer, explain evidence, introduce viewpoints, challenge overreach and refine the practical conclusion. Do not make B merely interview Y or make Y deliver a continuous lecture.
+- In the first two turns, introduce the show with the exact written brand edgeSport4Podcast. Never shorten it to "EDGE SPORT 4". The digit 4 in the brand means "for" and is spoken as "Edge Sport for Podcast".
+- Make this a genuinely mutual discussion. Ying and Bing must both ask substantive questions, answer, explain evidence, introduce viewpoints, challenge overreach and refine the practical conclusion. Do not make Bing merely interview Ying or make Ying deliver a continuous lecture.
 - Open with a human hook and the week's central question. Explain definitions, methods, important numbers, practical meaning, limitations and what would change a decision.
 - Let the co-host ask the questions an intelligent coach, clinician or athlete would actually ask. Let the host correct overreach gently.
 - Do not invent risk percentages, thresholds, dosages, recovery timelines, diagnoses or return-to-play criteria.
 - Put supporting research IDs in evidenceSourceIds for factual turns. Transitions may use an empty array.
 - factCheck must preserve the main quantitative claims and evidence boundaries.
 - Use the exact host IDs host and cohost. Display names must be ${packetData.show.hosts.host.displayName} and ${packetData.show.hosts.cohost.displayName}.
-- disclosure must clearly say the speech is synthetic, Y is locally generated from the supplied girl-voice sample, B is locally generated from the supplied man-voice sample, and the episode is educational.
+- disclosure must clearly say the speech is synthetic, Ying is locally generated from the supplied female-voice sample, Bing is locally generated from the supplied male-voice sample, and the episode is educational.
 - Keep editorReview unapproved.`;
 }
 

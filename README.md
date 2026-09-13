@@ -26,6 +26,19 @@ codex login
 
 ## 每週標準流程
 
+連好學術網路後，每週只需要依序執行這三個無參數指令。週報 ID 由日期自動產生；Podcast 與 YouTube 上傳包會自動接續最新一期 YABILAB 內容：
+
+```powershell
+# Step 1：建立網站週報
+npm.cmd run weekly:run
+
+# Step 2：建立 Podcast
+npm.cmd run podcast:run
+
+# Step 3：建立 YouTube 上傳包
+npm.cmd run podcast:youtube
+```
+
 ### 1. 連上學術網路
 
 先連接學校／機構提供的校園網路或 VPN，然後直接執行下一節的 `weekly:run`。正常情況下不需要先手動下載 PDF。
@@ -62,7 +75,7 @@ npm.cmd run weekly:run
 npm.cmd run monthly:run -- --month 2026-09
 ```
 
-月度專題會直接更新 `content/issues.json`；同一月份重跑會替換同一篇，不會產生重複內容。若某週只想產生週報，可加上 `--skip-monthly`。月度公開頁會標示「Codex CLI 自動整理・尚未人工審閱」，並包含運動時事脈絡、學習目標、概念與機轉、逐篇研究方法和量化結果、inClass／歷史內容進展比較、評估表、分期方案、負荷進退階、停止／轉介條件及結果追蹤。
+月度專題會直接更新 `content/issues.json`；同一月份重跑會替換同一篇，不會產生重複內容。若某週只想產生週報，可加上 `--skip-monthly`。月度公開頁包含運動時事脈絡、學習目標、概念與機轉、逐篇研究方法和量化結果、inClass／歷史內容進展比較、評估表、分期方案、負荷進退階、停止／轉介條件及結果追蹤。
 
 這個指令依序會：
 
@@ -78,7 +91,7 @@ npm.cmd run monthly:run -- --month 2026-09
 10. 重建 `content/knowledge-index.json`，讓週報、月度議題、歷史議題、Podcast 與所有研究題錄可由同一個關鍵字索引回查。
 11. 執行全站內容與累積筆數驗證，並顯示本週 Podcast 的下一個指令。
 
-自動加入網站的報告會顯示「Codex CLI 自動整理・尚未人工審閱」。它不會冒充人工核准；日後人工核對並執行 `weekly:release`，同一期會更新為「人工審閱完成」。每週新報告是累加到歷史清單，不會清除以前的內容；同一週重跑則更新同一個週次，不會產生重複項目。
+系統仍會在資料欄位保留產生方式與審閱狀態，供驗證及日後追溯，但自動產生的狀態不顯示在公開網站。日後人工核對並執行 `weekly:release`，同一期會更新為「人工審閱完成」。每週新報告是累加到歷史清單，不會清除以前的內容；同一週重跑則更新同一個週次，不會產生重複項目。
 
 預設是「每篇都要有完整全文」模式。若本週沒有任何完整全文，流程會在產生報告前停止，但已蒐集的雷達仍會保留。只有你明確接受摘要層級整理時，才使用：
 
@@ -143,18 +156,18 @@ git push
 
 GitHub Actions 會驗證並部署新的 `content/weekly-reports.json`。網站會保留歷史週報，並把最新一期排在最前面。
 
-## EDGE SPORT 4 Podcast
+## edgeSport4Podcast
 
-本週網頁完成後，執行終端機顯示的指令。例如：
+本週網頁完成後直接執行，不必填寫週次；系統會自動選擇最新一份已發布的 YABILAB 週報：
 
 ```powershell
-npm.cmd run podcast:run -- --id 2026-w38
+npm.cmd run podcast:run
 ```
 
 這個專案專用流程會先把兩段本機音軌建立成私人 XTTS v2 聲音 profile，再建立內容包、讓已登入的 Codex CLI 依本週完整週報撰寫 12–18 分鐘英文雙人對話、合成 MP3、發布逐字稿與章節，最後重建搜尋索引並驗證全站。預設角色為：
 
-- `Y`（girl）：以 `../tts/girl voice.m4a` 建立的女聲 evidence guide。
-- `B`（man）：以 `../tts/man voice.m4a` 建立的男聲 analytical partner。
+- `Ying`（female）：以 `../tts/girl voice.m4a` 建立的女聲 evidence guide。
+- `Bing`（male）：以 `../tts/man voice.m4a` 建立的男聲 analytical partner。
 
 這是 zero-shot voice cloning，不會用二十多秒音軌進行容易過擬合的完整模型微調。來源 M4A 會先在本機轉成 mono、24 kHz、音量與頻段標準化的 WAV profile，放在被 Git 排除的 `research-library/podcast-voices/`。可先單獨建立／檢查 profile：
 
@@ -165,21 +178,46 @@ npm.cmd run podcast:voices
 兩條聲線會依序載入，降低 8 GB 顯示記憶體同時佔用。第一次執行或重新撰寫整集時可能需要一段時間；快取鍵同時包含講稿與聲音 profile，因此更換來源音軌後一定會重新錄製，不會誤用舊聲線。預設使用可用的 NVIDIA CUDA，必要時可改用 CPU：
 
 ```powershell
-npm.cmd run podcast:run -- --id 2026-w38 --device cpu
+npm.cmd run podcast:run -- --device cpu
 ```
 
 若只想先檢查 Codex 講稿，不合成聲音：
 
 ```powershell
-npm.cmd run podcast:run -- --id 2026-w38 --script-only
+npm.cmd run podcast:run -- --script-only
 ```
 
-私人檔案（聲音 profile、Codex packet、講稿草稿、分段 WAV、時間軸及母帶）保存在 `research-library/podcast-*`；兩個原始 M4A 也只從 `../tts/` 本機讀取，全部不會部署。公開檔案只有 `assets/podcasts/YYYY-wNN-<content-hash>.mp3`、整理後的英文逐字稿、章節、show notes、來源連結與合成語音揭露。內容雜湊檔名可避免重建時被正在播放的舊 MP3 鎖住，也可避免瀏覽器繼續播放快取舊版。因 MP3 會在 GitHub Pages 公開，commit 前請先試聽並確認你有權使用兩段來源聲音且願意發布合成內容。
+私人檔案（聲音 profile、Codex packet、講稿草稿、分段 WAV、時間軸及母帶）保存在 `research-library/podcast-*`；兩個原始 M4A 也只從 `../tts/` 本機讀取，全部不會部署。公開檔案包含 `assets/podcasts/YYYY-wNN-<content-hash>.mp3`、整理後的英文逐字稿、章節、show notes 與來源連結；合成語音來源仍保留在結構化資料中供追溯，但網站不另外顯示 disclosure 區塊。內容雜湊檔名可避免重建時被正在播放的舊 MP3 鎖住，也可避免瀏覽器繼續播放快取舊版。因 MP3 會在 GitHub Pages 公開，commit 前請先試聽並確認你有權使用兩段來源聲音且願意發布合成內容。
 
 若本機 Python 不在預設的 `C:\Users\<你>\anaconda3\python.exe`，可指定含有 `../tts/vendor_coqui311` 相容套件的 Python 3.11：
 
 ```powershell
 $env:EDGE_SPORT_PODCAST_PYTHON = "C:\Path\To\python.exe"
+```
+
+### Step 3：建立 YouTube Podcast 上傳影片
+
+`podcast:run` 完成後直接執行；系統會自動選擇最新一集，不必填寫週次：
+
+```powershell
+npm.cmd run podcast:youtube
+```
+
+這個步驟會讓已登入的 Codex CLI 根據已發布 Podcast 規劃 YouTube 標題、說明欄、章節視覺、縮圖文字、標籤及置頂留言，再建立以聲音為主的 1280×720 低畫面更新率影片。影片逐輪顯示 Ying／Bing、章節與完整英文逐字稿，並同時內嵌英文字幕軌及輸出可另外上傳的 `.srt`。
+
+所有成品都放在被 Git 排除的 `youtube-output/`：
+
+- `edgeSport4Podcast-YYYY-wNN.mp4`：可直接上傳 YouTube 的 H.264／AAC 影片。
+- `edgeSport4Podcast-YYYY-wNN.srt`：英文字幕檔。
+- `edgeSport4Podcast-YYYY-wNN-thumbnail.png`：以 YABILAB logo 製作的縮圖。
+- `edgeSport4Podcast-YYYY-wNN-upload.txt`：Codex 擬定的標題、說明、標籤及置頂留言。
+
+影片採靜態章節卡與 5 fps 編碼，重點保留在聲音與字幕，避免沒有意義的高畫面資料量。每次執行 `podcast:youtube` 會先清空舊的 `youtube-output/`，只保留本次上傳包；上傳 YouTube 後可直接刪除整個資料夾，不影響網站、Podcast MP3、逐字稿或歷史知識庫。
+
+若只想先檢查 Codex 影片規劃：
+
+```powershell
+npm.cmd run podcast:youtube -- --plan-only
 ```
 
 ### 4. 選用：人工編輯核對
