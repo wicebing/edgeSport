@@ -8,6 +8,681 @@
   "episodes": [
     {
       "schemaVersion": 1,
+      "id": "2026-w39",
+      "status": "published",
+      "publishDate": "2026-09-26",
+      "showName": "edgeSport4Podcast",
+      "title": "Before You Add More",
+      "episodeSubtitle": "Fuel, training tradeoffs, and what returning to sport actually means",
+      "summary": "Ying and Bing explore a cycling nutrition position statement, a training and protein trial in middle-aged and older women, and a hip surgery case series. They ask what supports the next step in training or participation, separating recommendations from trial findings, assigned targets from actual exposure, and return to activity from restored performance.",
+      "language": "en",
+      "estimatedMinutes": 15,
+      "durationSeconds": 1076.058,
+      "wordCount": 2242,
+      "hosts": [
+        {
+          "id": "host",
+          "displayName": "Ying",
+          "role": "Evidence guide · female voice"
+        },
+        {
+          "id": "cohost",
+          "displayName": "Bing",
+          "role": "Analytical partner · male voice"
+        }
+      ],
+      "sourceWeeklyReportId": "2026-w39",
+      "sourceRecordIds": [
+        "pmid-42744290",
+        "pmid-42735207",
+        "pmid-42746137"
+      ],
+      "learningGoals": [
+        "Distinguish a nutrition position statement, a randomized trial, and a retrospective case series.",
+        "Interpret cycling nutrition recommendations in relation to the task, food access, and tolerance.",
+        "Separate assigned protein targets, actual training exposure, and estimated outcomes.",
+        "Preserve the hip-level denominator and distinguish return to activity from return to performance.",
+        "Identify information that could change a decision without inventing universal progression thresholds."
+      ],
+      "showNotes": [
+        "Brand pronunciation: edgeSport4Podcast is spoken as “Edge Sport for Podcast”; the digit 4 means “for.”",
+        "All research claims are based on the supplied weekly report, 2026-w39. No additional research or historical claims have been introduced.",
+        "Cycling nutrition: UCI Sports Nutrition Project: Position Statement on Nutrition for Cycling. https://doi.org/10.1123/ijsnem.2026-0135",
+        "Training and protein: Resistance versus concurrent training with three assigned protein targets in middle-aged and older women: a randomized 2 × 3 factorial trial. https://doi.org/10.1080/15502783.2026.2720742",
+        "Hip surgery: Combined Periacetabular Osteotomy and Hip Arthroscopy Results in High Return to Sport Rates in Contact and Noncontact Athletes With Hip Dysplasia. https://doi.org/10.1177/23259671261466470",
+        "The closing recording and reassessment workflow is an EDGE SPORT educational proposal, not a validated intervention or clearance protocol.",
+        "Read the written weekly report and original sources for complete methods, numerical results, and limitations."
+      ],
+      "chapters": [
+        {
+          "title": "What would justify doing more?",
+          "summary": "Introduce the central question and the different kinds of evidence.",
+          "turnStart": 1,
+          "startSeconds": 1.57
+        },
+        {
+          "title": "Fuel that fits the ride",
+          "summary": "Discuss cycling nutrition, energy availability, tolerance, and practical delivery.",
+          "turnStart": 5,
+          "startSeconds": 97.889
+        },
+        {
+          "title": "Adding cycling changes the comparison",
+          "summary": "Examine training tradeoffs, estimated outcomes, protein assignments, and missing data.",
+          "turnStart": 15,
+          "startSeconds": 357.455
+        },
+        {
+          "title": "Back to activity, back to what?",
+          "summary": "Interpret the hip surgery series while preserving denominators and uncertainty.",
+          "turnStart": 27,
+          "startSeconds": 709.047
+        },
+        {
+          "title": "A next step you can explain",
+          "summary": "Offer an explicitly unvalidated recording workflow and a concise recap.",
+          "turnStart": 37,
+          "startSeconds": 978.81
+        }
+      ],
+      "transcript": [
+        {
+          "turn": 1,
+          "speaker": "host",
+          "text": "You finish a session feeling encouraged, and the next thought is, could I do a little more? Another ride, a harder block, a return to the sport you've missed. Welcome to edgeSport4Podcast. I'm Ying. This week we're asking: what would tell us that nutrition, actual workload, and functional response can support that next step?",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 1.57,
+          "durationSeconds": 22.958
+        },
+        {
+          "turn": 2,
+          "speaker": "cohost",
+          "text": "And I'm Bing. The 4 in edgeSport4Podcast means 'for'; we say 'Edge Sport for Podcast.' I like that question because enthusiasm and readiness can feel very similar from the inside. We've got three sources with different perspectives: cycling nutrition, training in middle-aged and older women, and return to activity after combined hip surgery.",
+          "delivery": "warm",
+          "evidenceSourceIds": [
+            "pmid-42744290",
+            "pmid-42735207",
+            "pmid-42746137"
+          ],
+          "startSeconds": 24.848,
+          "durationSeconds": 28.248
+        },
+        {
+          "turn": 3,
+          "speaker": "host",
+          "text": "And different methods. The cycling paper is a position statement supported by narrative reviews. The women's study randomly assigned training and protein targets. The hip paper looked backward through a surgical case series. Bing, when you hear those three designs together, what changes about the kind of answer you're willing to take from each?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42744290",
+            "pmid-42735207",
+            "pmid-42746137"
+          ],
+          "startSeconds": 53.476,
+          "durationSeconds": 23.182
+        },
+        {
+          "turn": 4,
+          "speaker": "cohost",
+          "text": "I'd use the statement for a planning framework, the trial for a comparison under its particular conditions, and the case series to describe what happened in that service. I wouldn't combine them into one effectiveness score. Their useful connection is a set of questions: what's the goal, what actually happened, and what did the measurement capture?",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42744290",
+            "pmid-42735207",
+            "pmid-42746137"
+          ],
+          "startSeconds": 77.118,
+          "durationSeconds": 20.311
+        },
+        {
+          "turn": 5,
+          "speaker": "host",
+          "text": "Let's start with the ride. The UCI-supported statement brings together 14 peer-reviewed topic reviews, with 54 researchers involved. It mainly addresses elite competitive cycling; it doesn't recruit a new group of riders or produce one overall treatment effect. Its practical message is that nutrition needs to fit the event, the rider's role, and the opportunities to eat.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "startSeconds": 97.889,
+          "durationSeconds": 25.571
+        },
+        {
+          "turn": 6,
+          "speaker": "cohost",
+          "text": "So a nutrition plan includes whether the food can actually reach the rider. Here's a hypothetical example: someone writes down an hourly carbohydrate target, but the course and carrying capacity make it difficult to follow. Before adjusting the number, I'd want to know where the plan breaks down. What ranges does the statement give us to work with?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "startSeconds": 123.84,
+          "durationSeconds": 22.872
+        },
+        {
+          "turn": 7,
+          "speaker": "host",
+          "text": "For races lasting one to two and a half hours, it recommends 30 to 60 grams of carbohydrate per hour. For races longer than two and a half hours, it's 90 grams per hour, interpreted with tolerance and logistics. These are the statement's recommendations, not fresh trial results showing that every rider benefits equally from those amounts.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "startSeconds": 147.172,
+          "durationSeconds": 22.551
+        },
+        {
+          "turn": 8,
+          "speaker": "cohost",
+          "text": "And seeing professional riders consume 120 grams an hour or more doesn't settle whether that gives an additional performance benefit. The report says that remains uncertain. Above 60 grams an hour, the statement discusses combinations such as glucose and fructose, using different intestinal transport routes. But the gut still has to tolerate the actual food and drink.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "startSeconds": 170.103,
+          "durationSeconds": 25.421
+        },
+        {
+          "turn": 9,
+          "speaker": "host",
+          "text": "Exactly. Practising the intended products and timing matters. Let me push the planning question further, though. If we solve food access during the ride, have we solved nutritional support? I worry that the visible part, bottles and packets on the bike, can take over the conversation while the rest of the day gets very little attention.",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "startSeconds": 195.905,
+          "durationSeconds": 22.062
+        },
+        {
+          "turn": 10,
+          "speaker": "cohost",
+          "text": "We haven't. The statement also discusses energy availability: dietary energy left after exercise expenditure, expressed relative to fat-free mass, for other physiological functions. It suggests roughly 40 to 45 kilocalories per kilogram of fat-free mass per day as a daily target, adjusted for context. That isn't a diagnostic cutoff for relative energy deficiency in sport.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "startSeconds": 218.347,
+          "durationSeconds": 26.211
+        },
+        {
+          "turn": 11,
+          "speaker": "host",
+          "text": "And energy availability and carbohydrate availability answer related but different questions. Enough total energy doesn't automatically tell us that carbohydrate supply matches a key session. The statement also gives a daily protein range of 1.6 to 2.1 grams per kilogram of body weight, spread across the day. Again, that's guidance mainly for competitive cyclists, not a universal prescription.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "startSeconds": 244.937,
+          "durationSeconds": 30.253
+        },
+        {
+          "turn": 12,
+          "speaker": "cohost",
+          "text": "What about a rider who wants technology to settle all this? A glucose trace can look wonderfully precise. But the statement describes delays, accuracy limitations, and uncertainty about how continuous glucose monitoring should guide decisions in healthy athletes. I'd want a clear answer to 'What would this reading change?' before treating the device as the authority on fueling.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "startSeconds": 275.571,
+          "durationSeconds": 27.928
+        },
+        {
+          "turn": 13,
+          "speaker": "host",
+          "text": "That's also useful when discussing menstrual cycles. The statement doesn't support automatically changing everyone's training or diet solely by cycle phase. It favors attention to symptoms and individual responses. Changes in menstruation should prompt consideration of nutrition and workload alongside other possible causes. A phase label can't do that assessment for us, and symptoms shouldn't be brushed aside.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "startSeconds": 303.879,
+          "durationSeconds": 30.211
+        },
+        {
+          "turn": 14,
+          "speaker": "cohost",
+          "text": "So my next decision would depend on whether the rider can obtain and tolerate the planned fuel, and whether daily support matches the task. Raising the hourly number alone wouldn't count as success. That distinction between a written target and what really happens becomes especially interesting in the women's trial, where protein was assigned through dietary counseling.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42744290",
+            "pmid-42735207"
+          ],
+          "startSeconds": 334.47,
+          "durationSeconds": 22.605
+        },
+        {
+          "turn": 15,
+          "speaker": "host",
+          "text": "This was a 12-week randomized trial in 108 women aged 40 to 77. They reported little structured activity, and low baseline protein intake was an entry condition. There were two training conditions and three protein targets, creating six groups. Menopausal status and hormone therapy weren't formally assessed, so we shouldn't relabel it a specifically postmenopausal study.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "startSeconds": 357.455,
+          "durationSeconds": 25.56
+        },
+        {
+          "turn": 16,
+          "speaker": "cohost",
+          "text": "Both training conditions involved supervised resistance work three times a week. Concurrent training, meaning resistance and endurance work in the same program, added cycling immediately afterward. The protein targets were 0.8, 1.6, or 2.2 grams per kilogram per day. Here's the first question I'd ask as a coach: were they comparing equal amounts of training time?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "startSeconds": 383.395,
+          "durationSeconds": 24.44
+        },
+        {
+          "turn": 17,
+          "speaker": "host",
+          "text": "No. Cycling was additional work, so total time and energy expenditure weren't matched. And although the resistance prescription was the same, reporting of completed loads and attendance wasn't sufficient to establish identical resistance exposure. That's why I read this as adding cycling to the program, with everything that addition entails, rather than isolating training mode alone.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "startSeconds": 408.295,
+          "durationSeconds": 27.32
+        },
+        {
+          "turn": 18,
+          "speaker": "cohost",
+          "text": "The outcomes show a tradeoff. At week 12, after baseline adjustment and pooling the protein assignments, concurrent training had a lower estimated leg-press maximum by 6.68 kilograms. The 95 percent confidence interval was minus 8.32 to minus 5.04 kilograms. That's concurrent minus resistance training. It doesn't mean the concurrent group lost that amount of strength.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "startSeconds": 435.995,
+          "durationSeconds": 33.923
+        },
+        {
+          "turn": 19,
+          "speaker": "host",
+          "text": "Meanwhile, estimated maximal oxygen uptake favored concurrent training by 4.53 milliliters per kilogram per minute, with a 95 percent confidence interval from 3.80 to 5.25. That estimate came from heart-rate responses during a submaximal cycling test, without direct respiratory gas measurement. Bing, does that let us say their cardiovascular adaptation was definitely greater?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "startSeconds": 470.298,
+          "durationSeconds": 32.578
+        },
+        {
+          "turn": 20,
+          "speaker": "cohost",
+          "text": "I'd keep the claim closer to the measurement: their cycling-test estimate was higher. They'd also practised cycling, so test familiarity and specific exposure could contribute, alongside physiological adaptation. The study can't separate those explanations. Likewise, the strength result doesn't directly prove a molecular interference mechanism. Fatigue and recovery are possible contributors, not mechanisms established by this trial.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "startSeconds": 503.336,
+          "durationSeconds": 28.526
+        },
+        {
+          "turn": 21,
+          "speaker": "host",
+          "text": "The primary outcome was skeletal muscle mass estimated by bioelectrical impedance, or BIA. That's an electrical measurement interpreted through a model, and hydration can influence it. The adjusted concurrent-minus-resistance difference was minus 0.16 kilograms, with an interval from minus 0.45 to 0.13. No difference was detected; that doesn't establish identical muscle growth in the two conditions.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "startSeconds": 532.242,
+          "durationSeconds": 35.416
+        },
+        {
+          "turn": 22,
+          "speaker": "cohost",
+          "text": "There was also no detected training difference in the 30-second sit-to-stand result. Estimated body fat percentage was lower with concurrent training by 2.04 percentage points after adjustment. But all six groups' raw average body weights increased. A lower adjusted value than another group isn't the same as weight loss. That wording could really change what a participant expects.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "startSeconds": 568.038,
+          "durationSeconds": 28.622
+        },
+        {
+          "turn": 23,
+          "speaker": "host",
+          "text": "Now the tempting protein headline: the main analysis didn't detect an overall difference between assigned targets. Could someone reasonably conclude that the lowest target was enough for everybody? It sounds attractive because it's simple, and it could seem to contradict the cycling statement's higher range. But we'd be asking this trial to answer a much broader question.",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42735207",
+            "pmid-42744290"
+          ],
+          "startSeconds": 597.04,
+          "durationSeconds": 24.675
+        },
+        {
+          "turn": 24,
+          "speaker": "cohost",
+          "text": "They couldn't establish that conclusion here. This wasn't an equivalence test showing the targets were interchangeable. Intake came from self-reported records during free-living dietary counseling; meals weren't controlled and diets weren't matched for energy. Some sensitivity findings also depended on the model. Plus, these participants and tasks differ from elite cycling. Neither a universal minimum nor a contradiction follows.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42735207",
+            "pmid-42744290"
+          ],
+          "startSeconds": 622.095,
+          "durationSeconds": 28.708
+        },
+        {
+          "turn": 25,
+          "speaker": "host",
+          "text": "We also need to keep the missing participants in view. Of 108 randomized women, 83 completed the week-12 assessment: 23.1 percent dropped out. The analysis used complete cases, without filling in missing outcomes, and baseline comparisons with those who left weren't available. There's no non-exercising control either. Those limits matter when interpreting improvement within a group.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "startSeconds": 651.183,
+          "durationSeconds": 32.366
+        },
+        {
+          "turn": 26,
+          "speaker": "cohost",
+          "text": "For a similar person choosing a program, I'd first ask whether strength or cycling-related aerobic fitness is the priority, and how much additional time is realistic. Then I'd track what gets completed and what changes in the chosen outcome. I wouldn't tell her that extra cycling necessarily sabotages strength, or that this trial has settled her protein needs.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "startSeconds": 683.929,
+          "durationSeconds": 24.738
+        },
+        {
+          "turn": 27,
+          "speaker": "host",
+          "text": "Let's move to the hip paper, where the word 'return' needs just as much care. This was a single-center retrospective series of combined periacetabular osteotomy and hip arthroscopy. The bone procedure addresses the socket's coverage or orientation; arthroscopy addresses related problems inside the joint. There was no separate-surgery or nonoperative comparison group.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "startSeconds": 709.047,
+          "durationSeconds": 24.995
+        },
+        {
+          "turn": 28,
+          "speaker": "cohost",
+          "text": "The sample was 84 people contributing 103 hips, with an average age of 20.3 years. Return to the preoperative sport or activity was recorded for 92 of those 103 hips, or 89.3 percent. That's encouraging descriptive information. But before anyone imagines 103 independent athletes, some people contributed both hips. The denominator is doing real work here.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "startSeconds": 734.421,
+          "durationSeconds": 30.755
+        },
+        {
+          "turn": 29,
+          "speaker": "host",
+          "text": "And the report doesn't identify an analysis accounting for the relationship between two hips from the same person. Return was confirmed through records or remote recall. Twenty-six people who couldn't be contacted were excluded, which could affect the picture. Bing, if someone asks when they'll be back, how would you handle the reported average?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "startSeconds": 765.557,
+          "durationSeconds": 21.987
+        },
+        {
+          "turn": 30,
+          "speaker": "cohost",
+          "text": "I'd say that among those who returned, the mean was 297.5 days, with a standard deviation of 181.3 days. That describes substantial spread around an average; it isn't a personal deadline or clearance date. Timing also depended on documentation or memory. The study hasn't established a validated progression schedule that we can hand to the next patient.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "startSeconds": 788.003,
+          "durationSeconds": 26.765
+        },
+        {
+          "turn": 31,
+          "speaker": "host",
+          "text": "And 'returned' leaves an athlete's biggest question partly unanswered: returned at what level? The study didn't adequately quantify competitive level or restoration of previous performance. Mean follow-up was 514.9 days, and long-term competitive outcomes remain unclear. Getting back to an activity can be deeply meaningful while still leaving open whether someone has regained the capacity they care about.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "startSeconds": 815.149,
+          "durationSeconds": 31
+        },
+        {
+          "turn": 32,
+          "speaker": "cohost",
+          "text": "The contact-sport comparison is another place where wording matters. Return was recorded for 33 of 40 hips in contact sports, or 82.5 percent, and 59 of 63 in noncontact sports, or 93.7 percent. The comparison had a p-value of 0.10. Would you accept the sentence, 'Contact and noncontact athletes had equivalent outcomes'?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "startSeconds": 846.529,
+          "durationSeconds": 31.683
+        },
+        {
+          "turn": 33,
+          "speaker": "host",
+          "text": "I'd soften it to 'The study didn't detect a statistically significant difference.' The sample doesn't rule out meaningful differences, and sport classification reflected the surgeon's judgment. Nor does this comparison establish equal risk. It's the same distinction we met with protein: failing to detect a difference and demonstrating equivalence require different evidence.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42746137",
+            "pmid-42735207"
+          ],
+          "startSeconds": 878.671,
+          "durationSeconds": 25.293
+        },
+        {
+          "turn": 34,
+          "speaker": "cohost",
+          "text": "There's another part I'd want included in that conversation: 59 hips underwent removal of painful hardware. Other complications were reported too, using a mixture of hip, patient, and case counts. We can't add those into a single patient-risk percentage. But we can acknowledge that a high return proportion and further treatment can both be true.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "startSeconds": 904.345,
+          "durationSeconds": 24.771
+        },
+        {
+          "turn": 35,
+          "speaker": "host",
+          "text": "The modified Harris Hip Score, a measure weighted toward basic daily function, didn't show a significant association with return status here. That doesn't make it useless. It suggests we still need to ask about sport itself. What extra information would actually move your discussion forward, rather than just adding another number to the chart?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "startSeconds": 929.495,
+          "durationSeconds": 22.083
+        },
+        {
+          "turn": 36,
+          "speaker": "cohost",
+          "text": "I'd want the current medical restrictions, actual activity, symptoms, and whether full training, competition, and prior performance have resumed. That's the report's proposed tracking approach, not a validated clearance battery. For comparing operations, I'd need direct comparative evidence. For the individual next step, the surgical and rehabilitation team still has to judge the relevant demands and limitations.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "startSeconds": 952.038,
+          "durationSeconds": 26.392
+        },
+        {
+          "turn": 37,
+          "speaker": "host",
+          "text": "Across these papers, I keep coming back to how easy it is to substitute the available number for the real goal. Grams consumed, a cycling-test estimate, a recorded return. Each can be useful. Our synthesis is to ask what that number tells us about the task someone wants to do, and what it leaves unresolved.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42744290",
+            "pmid-42735207",
+            "pmid-42746137"
+          ],
+          "startSeconds": 978.81,
+          "durationSeconds": 20.536
+        },
+        {
+          "turn": 38,
+          "speaker": "cohost",
+          "text": "Here's an EDGE SPORT proposal for making that manageable: write down the goal, the planned change, what was actually completed, and the response. Agree who will review it and when. This workflow hasn't been validated by these three sources. Its purpose is to make the reasoning visible, so a team can revise a decision when the experience doesn't match the plan.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [
+            "pmid-42744290",
+            "pmid-42735207",
+            "pmid-42746137"
+          ],
+          "startSeconds": 999.726,
+          "durationSeconds": 23.843
+        },
+        {
+          "turn": 39,
+          "speaker": "host",
+          "text": "And keep the populations separate. Cycling guidance helps frame cycling nutrition; the women's trial describes particular training comparisons; the hip series describes postoperative activity outcomes. None gives us one universal progression rule. Before adding more, check the support for the task, the actual exposure, and an outcome that matters to the person doing the work.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [
+            "pmid-42744290",
+            "pmid-42735207",
+            "pmid-42746137"
+          ],
+          "startSeconds": 1023.949,
+          "durationSeconds": 27.043
+        },
+        {
+          "turn": 40,
+          "speaker": "cohost",
+          "text": "So, for the next conversation: make fueling practical, name the training tradeoff, and ask what 'back to sport' means for that person. Keep uncertainty in the discussion without letting it erase the useful findings. You'll find the full numbers, methods, and original sources in the written weekly report. Thanks for spending this time with us. I'm Bing, with Ying.",
+          "delivery": "warm",
+          "evidenceSourceIds": [
+            "pmid-42744290",
+            "pmid-42735207",
+            "pmid-42746137"
+          ],
+          "startSeconds": 1051.371,
+          "durationSeconds": 22.777
+        }
+      ],
+      "factCheck": [
+        {
+          "claim": "The cycling position statement involved 54 researchers and synthesized 14 peer-reviewed topic narrative reviews.",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "boundary": "It mainly addresses elite competitive cycling, excludes specific para-cycling needs, and has no newly recruited intervention sample or single pooled treatment effect."
+        },
+        {
+          "claim": "The statement recommends 30–60 g/hour carbohydrate for races lasting 1–2.5 hours and 90 g/hour for races longer than 2.5 hours.",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "boundary": "These are contextual recommendations requiring attention to tolerance and access. Additional performance benefits from 120 g/hour or more remain unestablished; higher intake is not a universal goal."
+        },
+        {
+          "claim": "The statement gives daily energy availability guidance of approximately 40–45 kcal/kg fat-free mass/day and protein guidance of 1.6–2.1 g/kg body weight/day.",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "boundary": "Energy availability is dietary intake minus exercise expenditure, normalized to fat-free mass. Its suggested range is not a diagnostic cutoff for REDs. Protein guidance primarily concerns competitive cyclists."
+        },
+        {
+          "claim": "The statement does not support routine training or diet changes based solely on menstrual cycle phase and identifies limitations in continuous glucose monitoring for healthy athletes.",
+          "evidenceSourceIds": [
+            "pmid-42744290"
+          ],
+          "boundary": "Individual symptoms and responses remain relevant. Menstrual changes require consideration of multiple possible causes; glucose traces do not independently establish an appropriate fueling decision."
+        },
+        {
+          "claim": "The trial randomized 108 women aged 40–77 to two training conditions and three protein targets over 12 weeks; 83 completed assessment, with 23.1% attrition.",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "boundary": "Analysis used complete cases, not full intention-to-treat analysis. Menopausal status and hormone therapy were not formally assessed. There was no non-exercising control."
+        },
+        {
+          "claim": "Both training conditions prescribed resistance training three times weekly; concurrent training added immediate cycling. Protein targets were 0.8, 1.6, and 2.2 g/kg/day.",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "boundary": "Training time and energy expenditure were not matched. Actual completed resistance exposure was insufficiently reported. Dietary counseling relied on self-reported intake, without controlled feeding or energy-matched diets."
+        },
+        {
+          "claim": "At week 12, the baseline-adjusted concurrent-minus-resistance difference in estimated leg-press 1-RM was −6.68 kg, with 95% CI −8.32 to −5.04.",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "boundary": "This is a between-group comparison pooled across protein assignments, not a within-group strength loss. Maximum strength was estimated from repetitions; the result does not establish a molecular interference mechanism."
+        },
+        {
+          "claim": "The adjusted concurrent-minus-resistance difference in estimated VO₂max was 4.53 mL/kg/min, with 95% CI 3.80–5.25.",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "boundary": "The estimate came from the Ekblom–Bak submaximal cycling heart-rate test, without direct respiratory gas measurement. Added cycling exposure and test familiarity cannot be separated from adaptation. Confidence intervals were not adjusted for multiple comparisons."
+        },
+        {
+          "claim": "The adjusted BIA skeletal muscle mass difference was −0.16 kg, with 95% CI −0.45 to 0.13; the BIA body fat difference was −2.04 percentage points, with 95% CI −2.94 to −1.14.",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "boundary": "Both comparisons are concurrent minus resistance training at week 12. BIA is model-based and hydration-sensitive. A lower adjusted body fat or body weight value than the comparison group is not a within-group reduction; raw mean body weight increased in all six groups."
+        },
+        {
+          "claim": "The trial did not detect a training-condition difference in 30-second sit-to-stand performance or an overall protein-assignment difference in the main analysis.",
+          "evidenceSourceIds": [
+            "pmid-42735207"
+          ],
+          "boundary": "Absence of a detected difference does not demonstrate equivalence, a universal minimum protein intake, or interchangeability of targets. Some sensitivity findings depended on the model; complete supplementary tables were not supplied."
+        },
+        {
+          "claim": "The surgical series included 84 people and 103 hips, with mean age 20.3 years. Return was recorded for 92/103 hips, or 89.3%.",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "boundary": "The denominator is hips, not independent patients. This was a single-center retrospective series without a direct surgical or nonoperative comparator. Twenty-six unreachable people were excluded, and handling of within-person bilateral correlation was not described."
+        },
+        {
+          "claim": "Among returners, mean return time was 297.5 ± 181.3 days. Mean postoperative follow-up was 514.9 ± 326.5 days.",
+          "evidenceSourceIds": [
+            "pmid-42746137"
+          ],
+          "boundary": "The plus-or-minus values are standard deviations. Return timing depended on records or recall. These descriptive times do not provide an individual deadline, a validated rehabilitation schedule, or evidence of sustained competitive performance."
+        }
+      ],
+      "closingTakeaways": [
+        "Match cycling fuel to the task, access, and tolerance; higher intake alone is not the goal.",
+        "Choose training around the intended outcome and account for the additional cycling exposure.",
+        "Do not turn undetected protein differences into dose equivalence or a universal minimum.",
+        "Read the hip return rate with its hip-level denominator, further procedures, and unknown performance outcomes.",
+        "Record the goal, actual exposure, response, and reassessment plan; this EDGE SPORT workflow is an unvalidated educational proposal.",
+        "Consult the written weekly report and original sources for the full evidence."
+      ],
+      "disclosure": "This episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance.",
+      "editorReview": {
+        "approvedForPublish": false,
+        "verifiedBy": "",
+        "verifiedAt": ""
+      },
+      "publicationMode": "automated",
+      "automationProvider": "codex",
+      "renderedAt": "2026-09-20T04:44:24.117Z",
+      "publishedAt": "2026-09-20T04:44:24.268Z",
+      "audio": {
+        "src": "assets/podcasts/2026-w39-ac8020c5c0b6.mp3",
+        "mimeType": "audio/mpeg",
+        "bytes": 12913676,
+        "bitrate": "96k",
+        "sampleRate": 24000
+      },
+      "researchSources": [
+        {
+          "recordId": "pmid-42744290",
+          "title": "UCI Sports Nutrition Project: Position Statement on Nutrition for Cycling.",
+          "journal": "International journal of sport nutrition and exercise metabolism",
+          "publicationDate": "2026-09-15",
+          "sourceUrl": "https://doi.org/10.1123/ijsnem.2026-0135",
+          "contentLevel": "full-text-web"
+        },
+        {
+          "recordId": "pmid-42735207",
+          "title": "Resistance versus concurrent training with three assigned protein targets in middle-aged and older women: a randomized 2 × 3 factorial trial.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-09-14",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2720742",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42746137",
+          "title": "Combined Periacetabular Osteotomy and Hip Arthroscopy Results in High Return to Sport Rates in Contact and Noncontact Athletes With Hip Dysplasia.",
+          "journal": "Orthopaedic journal of sports medicine",
+          "publicationDate": "2026-09-14",
+          "sourceUrl": "https://doi.org/10.1177/23259671261466470",
+          "contentLevel": "full-text-open"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
       "id": "2026-w38",
       "status": "published",
       "publishDate": "2026-09-19",

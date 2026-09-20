@@ -1,7 +1,8 @@
 import { access, mkdir, readFile, rm, writeFile } from "node:fs/promises";
-import { delimiter, dirname, extname, resolve } from "node:path";
+import { dirname, extname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
+import { findCodexCommand } from "./lib/codex-cli.mjs";
 import { validateWeeklyReport } from "./lib/weekly-report-schema.mjs";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -45,8 +46,9 @@ if (promptOnly) {
 const provider = await resolveProvider(requestedProvider);
 if (!provider) {
   console.log(`Wrote private LLM prompt: ${promptPath}`);
-  throw new Error("No supported signed-in CLI was found. Install/login to Codex CLI or GitHub Copilot CLI, or use --prompt-only.");
+  throw new Error("No supported CLI executable was found. The project checked PATH, the global npm installation, and common OpenAI editor-extension locations. Install Codex CLI or use --prompt-only.");
 }
+if (provider.name === "codex") console.log(`Using Codex CLI from ${provider.command.source}.`);
 
 const attachmentPaths = [packetPath, ...packet.selectedArticles
   .map((article) => article.sourceMaterial.attachmentPath)
@@ -66,7 +68,7 @@ if (result.exitCode !== 0) {
   console.log(`Wrote private LLM prompt: ${promptPath}`);
   const detail = result.stderr.trim() || result.stdout.trim() || `${provider.name} exited with code ${result.exitCode}.`;
   const authenticationHint = /auth|login|sign in|token/i.test(detail)
-    ? "\n\nAuthenticate once with: copilot login"
+    ? `\n\nAuthenticate once with: ${provider.name === "codex" ? "codex login" : "copilot login"}`
     : "";
   throw new Error(`${detail}${authenticationHint}`);
 }
@@ -243,15 +245,6 @@ async function resolveProvider(requested) {
   return copilotCommand ? { name: "copilot", command: copilotCommand } : null;
 }
 
-async function findCodexCommand() {
-  if (process.env.EDGE_SPORT_CODEX_PATH && await fileExists(process.env.EDGE_SPORT_CODEX_PATH)) {
-    return { executable: process.env.EDGE_SPORT_CODEX_PATH, prefixArguments: [] };
-  }
-
-  const executable = await findExecutableOnPath(process.platform === "win32" ? ["codex.exe"] : ["codex"]);
-  return executable ? { executable, prefixArguments: [] } : null;
-}
-
 async function findCopilotCommand() {
   if (process.env.EDGE_SPORT_COPILOT_PATH && await fileExists(process.env.EDGE_SPORT_COPILOT_PATH)) {
     return { executable: process.env.EDGE_SPORT_COPILOT_PATH, prefixArguments: [] };
@@ -277,7 +270,7 @@ async function findCopilotCommand() {
 }
 
 async function findExecutableOnPath(fileNames) {
-  const directories = String(process.env.PATH ?? "").split(delimiter).filter(Boolean);
+  const directories = String(process.env.PATH ?? "").split(process.platform === "win32" ? ";" : ":").filter(Boolean);
   for (const directory of directories) {
     for (const fileName of fileNames) {
       const candidate = resolve(directory, fileName);

@@ -1,7 +1,8 @@
-import { access, mkdir, readFile, rm, writeFile } from "node:fs/promises";
-import { delimiter, dirname, resolve } from "node:path";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
+import { findCodexCommand } from "./lib/codex-cli.mjs";
 import { validateMonthlyTopic } from "./lib/monthly-topic-schema.mjs";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -17,6 +18,7 @@ const packet = JSON.parse(await readFile(packetPath, "utf8"));
 if (packet.id !== id) throw new Error(`Packet belongs to ${packet.id}, not ${id}.`);
 const codex = await findCodexCommand();
 if (!codex) throw new Error("Codex CLI was not found. Install it and sign in before running the monthly workflow.");
+console.log(`Using Codex CLI from ${codex.source}.`);
 
 const schemaPath = await createDynamicSchema(packet);
 const prompt = buildPrompt(packet);
@@ -129,17 +131,6 @@ function validationContext(packetData) {
   };
 }
 
-async function findCodexCommand() {
-  if (process.env.EDGE_SPORT_CODEX_PATH && await exists(process.env.EDGE_SPORT_CODEX_PATH)) {
-    return { executable: process.env.EDGE_SPORT_CODEX_PATH, prefixArguments: [] };
-  }
-  for (const directory of String(process.env.PATH ?? "").split(delimiter).filter(Boolean)) {
-    const path = resolve(directory, process.platform === "win32" ? "codex.exe" : "codex");
-    if (await exists(path)) return { executable: path, prefixArguments: [] };
-  }
-  return null;
-}
-
 function runProcess(command, args, stdinText) {
   return new Promise((resolvePromise, rejectPromise) => {
     const child = spawn(command, args, { cwd: rootDirectory, shell: false, windowsHide: true, stdio: ["pipe", "pipe", "pipe"] });
@@ -173,10 +164,6 @@ function extractJsonObject(value) {
     else if (character === "}" && --depth === 0) return JSON.parse(text.slice(start, index + 1));
   }
   throw new Error("Codex returned incomplete JSON.");
-}
-
-async function exists(path) {
-  try { await access(path); return true; } catch { return false; }
 }
 
 function parseArguments(values) {

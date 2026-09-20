@@ -1,7 +1,8 @@
-import { access, mkdir, readFile, rm, writeFile } from "node:fs/promises";
-import { delimiter, dirname, resolve } from "node:path";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
+import { findCodexCommand } from "./lib/codex-cli.mjs";
 import { validateYouTubeVideoPlan } from "./lib/youtube-video-plan.mjs";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -15,6 +16,7 @@ if (!episode) throw new Error(`Published podcast episode not found: ${id ?? "non
 const reportUrl = buildReportUrl(config, episode);
 const codex = await findCodexCommand();
 if (!codex) throw new Error("Codex CLI was not found. Install it and sign in before planning the YouTube video.");
+console.log(`Using Codex CLI from ${codex.source}.`);
 
 const outputDirectory = resolve(rootDirectory, "youtube-output");
 const outputPath = resolve(outputDirectory, "edgeSport4Podcast-plan.json");
@@ -79,15 +81,6 @@ async function writeDynamicSchema(path, episode) {
   await writeFile(path, `${JSON.stringify(schema, null, 2)}\n`, "utf8");
 }
 
-async function findCodexCommand() {
-  if (process.env.EDGE_SPORT_CODEX_PATH && await exists(process.env.EDGE_SPORT_CODEX_PATH)) return { executable: process.env.EDGE_SPORT_CODEX_PATH, prefixArguments: [] };
-  for (const directory of String(process.env.PATH ?? "").split(delimiter).filter(Boolean)) {
-    const path = resolve(directory, process.platform === "win32" ? "codex.exe" : "codex");
-    if (await exists(path)) return { executable: path, prefixArguments: [] };
-  }
-  return null;
-}
-
 function runProcess(command, commandArgs, stdinText) {
   return new Promise((resolvePromise, rejectPromise) => {
     const child = spawn(command, commandArgs, { cwd: rootDirectory, shell: false, windowsHide: true, stdio: ["pipe", "pipe", "pipe"] });
@@ -121,10 +114,6 @@ function extractJsonObject(value) {
     else if (character === "}" && --depth === 0) return JSON.parse(text.slice(start, index + 1));
   }
   throw new Error("Codex returned incomplete JSON.");
-}
-
-async function exists(path) {
-  try { await access(path); return true; } catch { return false; }
 }
 
 function parseArguments(values) {

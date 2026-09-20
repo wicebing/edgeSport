@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T15:12:28.837Z",
+  "generatedAt": "2026-09-20T04:44:24.268Z",
   "retentionPolicy": {
     "mode": "cumulative",
     "statement": "Published issues, weekly reports, podcast episodes and harvested research metadata remain indexed. Existing IDs may be revised in place, but are not removed by routine generation.",
     "privateMaterial": "Licensed full text, source captures and private Codex packets remain in the local research-library and are not deployed to GitHub Pages."
   },
   "stats": {
-    "total": 101,
+    "total": 178,
     "monthlyTopics": 1,
     "knowledgeTopics": 4,
-    "podcastEpisodes": 1,
-    "weeklyReports": 1,
-    "researchArticles": 94,
+    "podcastEpisodes": 2,
+    "weeklyReports": 2,
+    "researchArticles": 169,
     "reviewedArticles": 0,
     "years": [
       "2026"
@@ -50,6 +50,148 @@
         "referencedBy": []
       },
       "searchText": "研究題錄 \n營養與水合 \n技擊運動 \npmid-42702994 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nProbiotic supplementation improves body composition, lipid profiles, and fatty acid metabolism in combat sports athletes during the weight reduction phase. \n2026-12-30 \nYang S \nCheng Z \nShen W \nWang J \nLai M \nYu X \nZuo Q \nJournal Article \nRandomized Controlled Trial \n10.1080/15502783.2026.2726522 \n42702994 \nPMC13552284 \npmc-record-available \n2026-09-12T16:46:37.358Z"
+    },
+    {
+      "id": "podcast:2026-w39",
+      "sourceId": "2026-w39",
+      "type": "podcast-episode",
+      "typeLabel": "English Podcast",
+      "publishDate": "2026-09-26",
+      "updatedAt": "2026-09-20T04:44:24.268Z",
+      "year": "2026",
+      "title": "Before You Add More",
+      "summary": "Ying and Bing explore a cycling nutrition position statement, a training and protein trial in middle-aged and older women, and a hip surgery case series. They ask what supports the next step in training or participation, separating recommendations from trial findings, assigned targets from actual exposure, and return to activity from restored performance.",
+      "topicIds": [
+        "nutrition",
+        "training",
+        "monitoring",
+        "assessment",
+        "sport-medicine",
+        "performance"
+      ],
+      "topicLabels": [
+        "營養與恢復",
+        "訓練設計",
+        "監測與科技",
+        "身體評估",
+        "運動醫學",
+        "運動表現"
+      ],
+      "sportTags": [
+        "自行車",
+        "中高齡女性",
+        "阻力訓練",
+        "髖部保留手術後運動族群"
+      ],
+      "tags": [
+        "營養與恢復",
+        "訓練設計",
+        "監測與科技",
+        "身體評估",
+        "運動醫學",
+        "運動表現",
+        "自行車",
+        "中高齡女性",
+        "阻力訓練",
+        "髖部保留手術後運動族群",
+        "Podcast",
+        "English"
+      ],
+      "href": "?podcast=2026-w39#podcast",
+      "sourceUrl": null,
+      "journal": null,
+      "detail": "18 min listen · 3 篇研究",
+      "reviewed": false,
+      "related": {
+        "researchIds": [
+          "pmid-42744290",
+          "pmid-42735207",
+          "pmid-42746137"
+        ],
+        "courseIds": [
+          "course-c07b3c2920b5562e",
+          "course-8dbff6b0b0a9f68e",
+          "course-3508b0d2cc8ec57d",
+          "course-4c7247f87374194d",
+          "course-1b4bdacad63581ba"
+        ],
+        "priorIds": [
+          "2026-w39"
+        ],
+        "referencedBy": []
+      },
+      "searchText": "English Podcast \n營養與恢復 \n訓練設計 \n監測與科技 \n身體評估 \n運動醫學 \n運動表現 \n自行車 \n中高齡女性 \n阻力訓練 \n髖部保留手術後運動族群 \nPodcast \nEnglish \n2026-w39 \npublished \n2026-09-26 \nedgeSport4Podcast \nBefore You Add More \nFuel, training tradeoffs, and what returning to sport actually means \nYing and Bing explore a cycling nutrition position statement, a training and protein trial in middle-aged and older women, and a hip surgery case series. They ask what supports the next step in training or participation, separating recommendations from trial findings, assigned targets from actual exposure, and return to activity from restored performance. \nen \nhost \nYing \nEvidence guide · female voice \ncohost \nBing \nAnalytical partner · male voice \npmid-42744290 \npmid-42735207 \npmid-42746137 \nDistinguish a nutrition position statement, a randomized trial, and a retrospective case series. \nInterpret cycling nutrition recommendations in relation to the task, food access, and tolerance. \nSeparate assigned protein targets, actual training exposure, and estimated outcomes. \nPreserve the hip-level denominator and distinguish return to activity from return to performance. \nIdentify information that could change a decision without inventing universal progression thresholds. \nBrand pronunciation: edgeSport4Podcast is spoken as “Edge Sport for Podcast”; the digit 4 means “for.” \nAll research claims are based on the supplied weekly report, 2026-w39. No additional research or historical claims have been introduced. \nCycling nutrition: UCI Sports Nutrition Project: Position Statement on Nutrition for Cycling. https://doi.org/10.1123/ijsnem.2026-0135 \nTraining and protein: Resistance versus concurrent training with three assigned protein targets in middle-aged and older women: a randomized 2 × 3 factorial trial. https://doi.org/10.1080/15502783.2026.2720742 \nHip surgery: Combined Periacetabular Osteotomy and Hip Arthroscopy Results in High Return to Sport Rates in Contact and Noncontact Athletes With Hip Dysplasia. https://doi.org/10.1177/23259671261466470 \nThe closing recording and reassessment workflow is an EDGE SPORT educational proposal, not a validated intervention or clearance protocol. \nRead the written weekly report and original sources for complete methods, numerical results, and limitations. \nWhat would justify doing more? \nIntroduce the central question and the different kinds of evidence. \nFuel that fits the ride \nDiscuss cycling nutrition, energy availability, tolerance, and practical delivery. \nAdding cycling changes the comparison \nExamine training tradeoffs, estimated outcomes, protein assignments, and missing data. \nBack to activity, back to what? \nInterpret the hip surgery series while preserving denominators and uncertainty. \nA next step you can explain \nOffer an explicitly unvalidated recording workflow and a concise recap. \nYou finish a session feeling encouraged, and the next thought is, could I do a little more? Another ride, a harder block, a return to the sport you've missed. Welcome to edgeSport4Podcast. I'm Ying. This week we're asking: what would tell us that nutrition, actual workload, and functional response can support that next step? \nwarm \nAnd I'm Bing. The 4 in edgeSport4Podcast means 'for'; we say 'Edge Sport for Podcast.' I like that question because enthusiasm and readiness can feel very similar from the inside. We've got three sources with different perspectives: cycling nutrition, training in middle-aged and older women, and return to activity after combined hip surgery. \nAnd different methods. The cycling paper is a position statement supported by narrative reviews. The women's study randomly assigned training and protein targets. The hip paper looked backward through a surgical case series. Bing, when you hear those three designs together, what changes about the kind of answer you're willing to take from each? \ncurious \nI'd use the statement for a planning framework, the trial for a comparison under its particular conditions, and the case series to describe what happened in that service. I wouldn't combine them into one effectiveness score. Their useful connection is a set of questions: what's the goal, what actually happened, and what did the measurement capture? \nclear \nLet's start with the ride. The UCI-supported statement brings together 14 peer-reviewed topic reviews, with 54 researchers involved. It mainly addresses elite competitive cycling; it doesn't recruit a new group of riders or produce one overall treatment effect. Its practical message is that nutrition needs to fit the event, the rider's role, and the opportunities to eat. \nSo a nutrition plan includes whether the food can actually reach the rider. Here's a hypothetical example: someone writes down an hourly carbohydrate target, but the course and carrying capacity make it difficult to follow. Before adjusting the number, I'd want to know where the plan breaks down. What ranges does the statement give us to work with? \nFor races lasting one to two and a half hours, it recommends 30 to 60 grams of carbohydrate per hour. For races longer than two and a half hours, it's 90 grams per hour, interpreted with tolerance and logistics. These are the statement's recommendations, not fresh trial results showing that every rider benefits equally from those amounts. \nAnd seeing professional riders consume 120 grams an hour or more doesn't settle whether that gives an additional performance benefit. The report says that remains uncertain. Above 60 grams an hour, the statement discusses combinations such as glucose and fructose, using different intestinal transport routes. But the gut still has to tolerate the actual food and drink. \ncautious \nExactly. Practising the intended products and timing matters. Let me push the planning question further, though. If we solve food access during the ride, have we solved nutritional support? I worry that the visible part, bottles and packets on the bike, can take over the conversation while the rest of the day gets very little attention. \nWe haven't. The statement also discusses energy availability: dietary energy left after exercise expenditure, expressed relative to fat-free mass, for other physiological functions. It suggests roughly 40 to 45 kilocalories per kilogram of fat-free mass per day as a daily target, adjusted for context. That isn't a diagnostic cutoff for relative energy deficiency in sport. \nAnd energy availability and carbohydrate availability answer related but different questions. Enough total energy doesn't automatically tell us that carbohydrate supply matches a key session. The statement also gives a daily protein range of 1.6 to 2.1 grams per kilogram of body weight, spread across the day. Again, that's guidance mainly for competitive cyclists, not a universal prescription. \nWhat about a rider who wants technology to settle all this? A glucose trace can look wonderfully precise. But the statement describes delays, accuracy limitations, and uncertainty about how continuous glucose monitoring should guide decisions in healthy athletes. I'd want a clear answer to 'What would this reading change?' before treating the device as the authority on fueling. \nreflective \nThat's also useful when discussing menstrual cycles. The statement doesn't support automatically changing everyone's training or diet solely by cycle phase. It favors attention to symptoms and individual responses. Changes in menstruation should prompt consideration of nutrition and workload alongside other possible causes. A phase label can't do that assessment for us, and symptoms shouldn't be brushed aside. \nSo my next decision would depend on whether the rider can obtain and tolerate the planned fuel, and whether daily support matches the task. Raising the hourly number alone wouldn't count as success. That distinction between a written target and what really happens becomes especially interesting in the women's trial, where protein was assigned through dietary counseling. \nThis was a 12-week randomized trial in 108 women aged 40 to 77. They reported little structured activity, and low baseline protein intake was an entry condition. There were two training conditions and three protein targets, creating six groups. Menopausal status and hormone therapy weren't formally assessed, so we shouldn't relabel it a specifically postmenopausal study. \nBoth training conditions involved supervised resistance work three times a week. Concurrent training, meaning resistance and endurance work in the same program, added cycling immediately afterward. The protein targets were 0.8, 1.6, or 2.2 grams per kilogram per day. Here's the first question I'd ask as a coach: were they comparing equal amounts of training time? \nNo. Cycling was additional work, so total time and energy expenditure weren't matched. And although the resistance prescription was the same, reporting of completed loads and attendance wasn't sufficient to establish identical resistance exposure. That's why I read this as adding cycling to the program, with everything that addition entails, rather than isolating training mode alone. \nThe outcomes show a tradeoff. At week 12, after baseline adjustment and pooling the protein assignments, concurrent training had a lower estimated leg-press maximum by 6.68 kilograms. The 95 percent confidence interval was minus 8.32 to minus 5.04 kilograms. That's concurrent minus resistance training. It doesn't mean the concurrent group lost that amount of strength. \nMeanwhile, estimated maximal oxygen uptake favored concurrent training by 4.53 milliliters per kilogram per minute, with a 95 percent confidence interval from 3.80 to 5.25. That estimate came from heart-rate responses during a submaximal cycling test, without direct respiratory gas measurement. Bing, does that let us say their cardiovascular adaptation was definitely greater? \nI'd keep the claim closer to the measurement: their cycling-test estimate was higher. They'd also practised cycling, so test familiarity and specific exposure could contribute, alongside physiological adaptation. The study can't separate those explanations. Likewise, the strength result doesn't directly prove a molecular interference mechanism. Fatigue and recovery are possible contributors, not mechanisms established by this trial. \nThe primary outcome was skeletal muscle mass estimated by bioelectrical impedance, or BIA. That's an electrical measurement interpreted through a model, and hydration can influence it. The adjusted concurrent-minus-resistance difference was minus 0.16 kilograms, with an interval from minus 0.45 to 0.13. No difference was detected; that doesn't establish identical muscle growth in the two conditions. \nThere was also no detected training difference in the 30-second sit-to-stand result. Estimated body fat percentage was lower with concurrent training by 2.04 percentage points after adjustment. But all six groups' raw average body weights increased. A lower adjusted value than another group isn't the same as weight loss. That wording could really change what a participant expects. \nNow the tempting protein headline: the main analysis didn't detect an overall difference between assigned targets. Could someone reasonably conclude that the lowest target was enough for everybody? It sounds attractive because it's simple, and it could seem to contradict the cycling statement's higher range. But we'd be asking this trial to answer a much broader question. \nThey couldn't establish that conclusion here. This wasn't an equivalence test showing the targets were interchangeable. Intake came from self-reported records during free-living dietary counseling; meals weren't controlled and diets weren't matched for energy. Some sensitivity findings also depended on the model. Plus, these participants and tasks differ from elite cycling. Neither a universal minimum nor a contradiction follows. \nWe also need to keep the missing participants in view. Of 108 randomized women, 83 completed the week-12 assessment: 23.1 percent dropped out. The analysis used complete cases, without filling in missing outcomes, and baseline comparisons with those who left weren't available. There's no non-exercising control either. Those limits matter when interpreting improvement within a group. \nFor a similar person choosing a program, I'd first ask whether strength or cycling-related aerobic fitness is the priority, and how much additional time is realistic. Then I'd track what gets completed and what changes in the chosen outcome. I wouldn't tell her that extra cycling necessarily sabotages strength, or that this trial has settled her protein needs. \nencouraging \nLet's move to the hip paper, where the word 'return' needs just as much care. This was a single-center retrospective series of combined periacetabular osteotomy and hip arthroscopy. The bone procedure addresses the socket's coverage or orientation; arthroscopy addresses related problems inside the joint. There was no separate-surgery or nonoperative comparison group. \nThe sample was 84 people contributing 103 hips, with an average age of 20.3 years. Return to the preoperative sport or activity was recorded for 92 of those 103 hips, or 89.3 percent. That's encouraging descriptive information. But before anyone imagines 103 independent athletes, some people contributed both hips. The denominator is doing real work here. \nAnd the report doesn't identify an analysis accounting for the relationship between two hips from the same person. Return was confirmed through records or remote recall. Twenty-six people who couldn't be contacted were excluded, which could affect the picture. Bing, if someone asks when they'll be back, how would you handle the reported average? \nI'd say that among those who returned, the mean was 297.5 days, with a standard deviation of 181.3 days. That describes substantial spread around an average; it isn't a personal deadline or clearance date. Timing also depended on documentation or memory. The study hasn't established a validated progression schedule that we can hand to the next patient. \nAnd 'returned' leaves an athlete's biggest question partly unanswered: returned at what level? The study didn't adequately quantify competitive level or restoration of previous performance. Mean follow-up was 514.9 days, and long-term competitive outcomes remain unclear. Getting back to an activity can be deeply meaningful while still leaving open whether someone has regained the capacity they care about. \nThe contact-sport comparison is another place where wording matters. Return was recorded for 33 of 40 hips in contact sports, or 82.5 percent, and 59 of 63 in noncontact sports, or 93.7 percent. The comparison had a p-value of 0.10. Would you accept the sentence, 'Contact and noncontact athletes had equivalent outcomes'? \nI'd soften it to 'The study didn't detect a statistically significant difference.' The sample doesn't rule out meaningful differences, and sport classification reflected the surgeon's judgment. Nor does this comparison establish equal risk. It's the same distinction we met with protein: failing to detect a difference and demonstrating equivalence require different evidence. \nThere's another part I'd want included in that conversation: 59 hips underwent removal of painful hardware. Other complications were reported too, using a mixture of hip, patient, and case counts. We can't add those into a single patient-risk percentage. But we can acknowledge that a high return proportion and further treatment can both be true. \nThe modified Harris Hip Score, a measure weighted toward basic daily function, didn't show a significant association with return status here. That doesn't make it useless. It suggests we still need to ask about sport itself. What extra information would actually move your discussion forward, rather than just adding another number to the chart? \nI'd want the current medical restrictions, actual activity, symptoms, and whether full training, competition, and prior performance have resumed. That's the report's proposed tracking approach, not a validated clearance battery. For comparing operations, I'd need direct comparative evidence. For the individual next step, the surgical and rehabilitation team still has to judge the relevant demands and limitations. \nAcross these papers, I keep coming back to how easy it is to substitute the available number for the real goal. Grams consumed, a cycling-test estimate, a recorded return. Each can be useful. Our synthesis is to ask what that number tells us about the task someone wants to do, and what it leaves unresolved. \nHere's an EDGE SPORT proposal for making that manageable: write down the goal, the planned change, what was actually completed, and the response. Agree who will review it and when. This workflow hasn't been validated by these three sources. Its purpose is to make the reasoning visible, so a team can revise a decision when the experience doesn't match the plan. \nAnd keep the populations separate. Cycling guidance helps frame cycling nutrition; the women's trial describes particular training comparisons; the hip series describes postoperative activity outcomes. None gives us one universal progression rule. Before adding more, check the support for the task, the actual exposure, and an outcome that matters to the person doing the work. \nSo, for the next conversation: make fueling practical, name the training tradeoff, and ask what 'back to sport' means for that person. Keep uncertainty in the discussion without letting it erase the useful findings. You'll find the full numbers, methods, and original sources in the written weekly report. Thanks for spending this time with us. I'm Bing, with Ying. \nThe cycling position statement involved 54 researchers and synthesized 14 peer-reviewed topic narrative reviews. \nIt mainly addresses elite competitive cycling, excludes specific para-cycling needs, and has no newly recruited intervention sample or single pooled treatment effect. \nThe statement recommends 30–60 g/hour carbohydrate for races lasting 1–2.5 hours and 90 g/hour for races longer than 2.5 hours. \nThese are contextual recommendations requiring attention to tolerance and access. Additional performance benefits from 120 g/hour or more remain unestablished; higher intake is not a universal goal. \nThe statement gives daily energy availability guidance of approximately 40–45 kcal/kg fat-free mass/day and protein guidance of 1.6–2.1 g/kg body weight/day. \nEnergy availability is dietary intake minus exercise expenditure, normalized to fat-free mass. Its suggested range is not a diagnostic cutoff for REDs. Protein guidance primarily concerns competitive cyclists. \nThe statement does not support routine training or diet changes based solely on menstrual cycle phase and identifies limitations in continuous glucose monitoring for healthy athletes. \nIndividual symptoms and responses remain relevant. Menstrual changes require consideration of multiple possible causes; glucose traces do not independently establish an appropriate fueling decision. \nThe trial randomized 108 women aged 40–77 to two training conditions and three protein targets over 12 weeks; 83 completed assessment, with 23.1% attrition. \nAnalysis used complete cases, not full intention-to-treat analysis. Menopausal status and hormone therapy were not formally assessed. There was no non-exercising control. \nBoth training conditions prescribed resistance training three times weekly; concurrent training added immediate cycling. Protein targets were 0.8, 1.6, and 2.2 g/kg/day. \nTraining time and energy expenditure were not matched. Actual completed resistance exposure was insufficiently reported. Dietary counseling relied on self-reported intake, without controlled feeding or energy-matched diets. \nAt week 12, the baseline-adjusted concurrent-minus-resistance difference in estimated leg-press 1-RM was −6.68 kg, with 95% CI −8.32 to −5.04. \nThis is a between-group comparison pooled across protein assignments, not a within-group strength loss. Maximum strength was estimated from repetitions; the result does not establish a molecular interference mechanism. \nThe adjusted concurrent-minus-resistance difference in estimated VO₂max was 4.53 mL/kg/min, with 95% CI 3.80–5.25. \nThe estimate came from the Ekblom–Bak submaximal cycling heart-rate test, without direct respiratory gas measurement. Added cycling exposure and test familiarity cannot be separated from adaptation. Confidence intervals were not adjusted for multiple comparisons. \nThe adjusted BIA skeletal muscle mass difference was −0.16 kg, with 95% CI −0.45 to 0.13; the BIA body fat difference was −2.04 percentage points, with 95% CI −2.94 to −1.14. \nBoth comparisons are concurrent minus resistance training at week 12. BIA is model-based and hydration-sensitive. A lower adjusted body fat or body weight value than the comparison group is not a within-group reduction; raw mean body weight increased in all six groups. \nThe trial did not detect a training-condition difference in 30-second sit-to-stand performance or an overall protein-assignment difference in the main analysis. \nAbsence of a detected difference does not demonstrate equivalence, a universal minimum protein intake, or interchangeability of targets. Some sensitivity findings depended on the model; complete supplementary tables were not supplied. \nThe surgical series included 84 people and 103 hips, with mean age 20.3 years. Return was recorded for 92/103 hips, or 89.3%. \nThe denominator is hips, not independent patients. This was a single-center retrospective series without a direct surgical or nonoperative comparator. Twenty-six unreachable people were excluded, and handling of within-person bilateral correlation was not described. \nAmong returners, mean return time was 297.5 ± 181.3 days. Mean postoperative follow-up was 514.9 ± 326.5 days. \nThe plus-or-minus values are standard deviations. Return timing depended on records or recall. These descriptive times do not provide an individual deadline, a validated rehabilitation schedule, or evidence of sustained competitive performance. \nMatch cycling fuel to the task, access, and tolerance; higher intake alone is not the goal. \nChoose training around the intended outcome and account for the additional cycling exposure. \nDo not turn undetected protein differences into dose equivalence or a universal minimum. \nRead the hip return rate with its hip-level denominator, further procedures, and unknown performance outcomes. \nRecord the goal, actual exposure, response, and reassessment plan; this EDGE SPORT workflow is an unvalidated educational proposal. \nConsult the written weekly report and original sources for the full evidence. \nThis episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance. \nautomated \ncodex \n2026-09-20T04:44:24.117Z \n2026-09-20T04:44:24.268Z \nassets/podcasts/2026-w39-ac8020c5c0b6.mp3 \naudio/mpeg \n96k \nUCI Sports Nutrition Project: Position Statement on Nutrition for Cycling. \nInternational journal of sport nutrition and exercise metabolism \n2026-09-15 \nfull-text-web \nResistance versus concurrent training with three assigned protein targets in middle-aged and older women: a randomized 2 × 3 factorial trial. \nJournal of the International Society of Sports Nutrition \n2026-09-14 \nfull-text-open \nCombined Periacetabular Osteotomy and Hip Arthroscopy Results in High Return to Sport Rates in Contact and Noncontact Athletes With Hip Dysplasia. \nOrthopaedic journal of sports medicine"
+    },
+    {
+      "id": "report:2026-w39",
+      "sourceId": "2026-w39",
+      "type": "weekly-report",
+      "typeLabel": "每週整合週報",
+      "publishDate": "2026-09-26",
+      "updatedAt": "2026-09-20T04:21:06.702Z",
+      "year": "2026",
+      "title": "本週運動科學新知整合",
+      "summary": "本週三篇全文共同提醒：營養、訓練與回場決策，必須先界定目標、實際暴露與測量方式。自行車營養立場聲明提供依任務補給的框架；中高齡女性試驗顯示不同訓練組合的結果取捨，但未建立蛋白質劑量等效；髖部聯合手術病例系列則呈現較高回場比例，仍不能代表恢復原有競技表現。",
+      "topicIds": [
+        "nutrition",
+        "training",
+        "monitoring",
+        "assessment",
+        "sport-medicine",
+        "performance"
+      ],
+      "topicLabels": [
+        "營養與恢復",
+        "訓練設計",
+        "監測與科技",
+        "身體評估",
+        "運動醫學",
+        "運動表現"
+      ],
+      "sportTags": [
+        "自行車",
+        "中高齡女性",
+        "阻力訓練",
+        "髖部保留手術後運動族群"
+      ],
+      "tags": [
+        "營養與恢復",
+        "訓練設計",
+        "監測與科技",
+        "身體評估",
+        "運動醫學",
+        "運動表現",
+        "自行車",
+        "中高齡女性",
+        "阻力訓練",
+        "髖部保留手術後運動族群"
+      ],
+      "href": "?report=2026-w39#weekly-reports",
+      "sourceUrl": null,
+      "journal": null,
+      "detail": "3 篇完整研究 · 5 份 inClass 對照",
+      "reviewed": false,
+      "related": {
+        "researchIds": [
+          "pmid-42744290",
+          "pmid-42735207",
+          "pmid-42746137"
+        ],
+        "courseIds": [
+          "course-c07b3c2920b5562e",
+          "course-8dbff6b0b0a9f68e",
+          "course-3508b0d2cc8ec57d",
+          "course-4c7247f87374194d",
+          "course-1b4bdacad63581ba"
+        ],
+        "priorIds": [
+          "2026-w36",
+          "2026-w35",
+          "2026-w37"
+        ],
+        "referencedBy": []
+      },
+      "searchText": "每週整合週報 \n營養與恢復 \n訓練設計 \n監測與科技 \n身體評估 \n運動醫學 \n運動表現 \n自行車 \n中高齡女性 \n阻力訓練 \n髖部保留手術後運動族群 \n2026-w39 \npublished \n2026-09-26 \n2026 年第 39 週 \n本週運動科學新知整合 \n本週三篇全文共同提醒：營養、訓練與回場決策，必須先界定目標、實際暴露與測量方式。自行車營養立場聲明提供依任務補給的框架；中高齡女性試驗顯示不同訓練組合的結果取捨，但未建立蛋白質劑量等效；髖部聯合手術病例系列則呈現較高回場比例，仍不能代表恢復原有競技表現。 \n當準備增加訓練或運動參與時，團隊如何確認營養支持、實際負荷與功能反應足以支撐下一步？ \n本期包含 full-text-web 1 篇、full-text-local 0 篇、full-text-open 2 篇、full-text-excerpt 0 篇及 abstract-only 0 篇，依所附完整文字、表格、圖說及可取得的補充說明整合。三篇分別為敘述性綜述支持的立場聲明、隨機因子試驗與回溯病例系列，不能視為同等強度的介入證據；女性試驗附文提及補充表 S1、S2，但未提供其完整表體，因此相關敏感度結果僅採正文明載內容。 \n本週研究地圖 \n本封包中，International Journal of Sport Nutrition and Exercise Metabolism 將自行車不同項目、補給後勤與健康風險整合成營養框架；Journal of the International Society of Sports Nutrition 增加中高齡未訓練女性的訓練與蛋白質指派比較；Orthopaedic Journal of Sports Medicine 補上髖部聯合手術後的運動參與結果。共同訊號是必須把目標、暴露與結果分開判讀；這是本期選文的整合觀察，並非整個研究領域的量化趨勢。 \n補給應配合任務與耐受度 \npmid-42744290 \n延伸既有熱環境與腸胃演練概念，整合每日能量、賽中碳水、恢復及食物供應；超高碳水攝取的額外效益仍待驗證。 \nmixed \n訓練組合有結果取捨，蛋白質不能只看指派數字 \npmid-42735207 \n兩篇均要求依族群及負荷解讀營養。女性試驗的未檢出蛋白質差異不構成對精英自行車建議的反證，因族群、訓練、飲食控制與結果測量均不同。 \n回到運動與回到表現需要不同證據 \npmid-42746137 \n聯合手術後多數髖部有回場紀錄，但沒有直接手術對照、競技層級分層或長期表現資料，不能推導最佳手術或個人放行時程。 \nlow \n量測的操作定義決定結論邊界 \n連續血糖資訊、BIA 肌肉量、次最大測驗估計攝氧量與病歷回場紀錄，均須與真正要回答的問題對齊。三篇在方法判讀上呼應，沒有共同療效終點可合併。 \nmoderate \n1.6–2.1 g·kg⁻¹·日⁻¹ \n自行車選手日常蛋白質建議範圍 \n立場聲明表 2 的建議，主要面向競技自行車；不是本篇新試驗的效果估計。 \n30–60 g/小時；90 g/小時 \n依賽程長度區分的賽中碳水建議 \n表 3 分別對應 1–2.5 小時與超過 2.5 小時的自行車賽事，仍須考慮補給機會及腸胃耐受。 \n83/108 人；流失 23.1% \n女性試驗完整案例樣本 \n108 人隨機分派，83 人完成第 12 週評估；分析不是完整意向治療分析。 \n−6.68 kg（95% CI −8.32 至 −5.04） \n腿推估計 1-RM 的調整後組間差 \n第 12 週 CT 減 RT，合併三種蛋白質指派；CT 在相同阻力課表後額外騎車。 \n4.53 mL·kg⁻¹·min⁻¹（95% CI 3.80–5.25） \n自行車測驗估計 VO₂max 的調整後組間差 \n第 12 週 CT 減 RT；來自次最大心率反應推估，沒有直接量測呼吸氣體。 \n92/103 髖（89.3%） \n聯合手術後回場比例 \n84 位患者的 103 髖，平均追蹤 514.9 ± 326.5 天；分母為髖部而非 103 位獨立患者。 \n297.5 ± 181.3 天 \n回場者的平均回場時間 \n聯合 PAO 與髖關節鏡術後；病歷或遠端回憶確認，不是建議放行日期。 \n決策前必懂的背景 \n先區分營養是否足以支持任務、訓練實際做了多少，以及結果究竟量到什麼。不同族群可共享查核流程，但不能共享未經驗證的劑量、回場門檻或時間表。 \n能量可用性（EA） \n飲食能量扣除運動能量消耗後，以去脂體重標準化，表示可供其他生理功能使用的能量。 \n計算形式為（能量攝取 − 運動能量消耗）/去脂體重；自行車聲明提出約 40–45 kcal·kg 去脂體重⁻¹·日⁻¹的日常目標，不能當作單次測量即可診斷 REDs 的界線。 \nsource-stated \n碳水化合物可用性 \n當下碳水供應與訓練或比賽燃料需求是否匹配。 \n每日總熱量足夠，仍須檢查關鍵課程前、中、後的碳水安排；低碳水訓練的細胞訊號變化不等於已證實比賽表現提升。 \n指派蛋白質目標與實際攝取 \n指派目標是飲食諮詢希望達成的量；實際攝取是參與者真正吃進的量。 \n女性試驗依自陳紀錄估計攝取，未以控制供餐或客觀標記確認；應解讀為飲食諮詢條件的比較。 \n並行訓練（CT） \n同一訓練計畫結合阻力與耐力訓練；本試驗是在阻力訓練後立即增加騎車。 \n評估新增有氧時須把額外時間與恢復需求一起計入，不能把本研究當作等總量的訓練模式比較。 \n估計值與直接測量 \n估計值以儀器模型或公式推算目標能力，不等同直接測得組織大小或最大攝氧量。 \nBIA 骨骼肌量、重複次數推估 1-RM、Ekblom–Bak 推估 VO₂max，應保留各自的水分、技術與測驗熟悉度限制。 \n回到參與、回到運動、回到表現 \n三者分別追蹤重新參與活動、恢復目標運動，以及恢復原有或目標競技能力；所附回場課程與第 37 週週報支持將回場視為連續過程。 \n髖部研究主要確認是否返回術前運動或活動，沒有充分量化競技層級與表現；實務紀錄應將三個層次分欄。 \ncross-source-synthesis \n未檢出差異與等效 \n未檢出差異表示現有資料未提供足夠統計證據；等效則需要能支持差異落在預定可接受範圍內的設計與分析。 \n不能將蛋白質組間不顯著解讀為劑量可互換，也不能將接觸與非接觸運動差異不顯著解讀為風險相同。 \n燃料供應與腸胃耐受共同限制補給 \n自行車聲明指出，碳水可提供外源燃料、支持肝醣利用及中樞感受；較高攝取量可透過葡萄糖與果糖的不同腸道運輸途徑提高供應，但仍受個人耐受與賽事後勤限制。 \n補給量、產品組成與取得時機需要一起演練；不能只提高標示的每小時克數。 \n額外騎車與測驗特異性可能共同影響結果 \n女性試驗中 CT 增加了騎車暴露，且有氧結果也由騎車測驗推估；疲勞、恢復與熟悉度可能參與組間差異，但研究未直接量測分子干擾或心血管適應。 \n將力量與有氧結果分開追蹤，避免以單一改善推論所有功能均改善。 \n結構矯正不能單獨代表運動能力 \nPAO 與關節鏡分別處理髖部骨性覆蓋及關節內相關問題；本病例系列未找到影像參數或 mHHS 與回場的顯著關聯，不能據此確認結構、症狀與競技能力之間的因果路徑。 \n術後追蹤需另問實際運動參與與表現，影像及日常功能量表不宜獨自承擔回場判斷。 \nnutrition \ntraining \nmonitoring \nassessment \nsport-medicine \nperformance \n把攝取、負荷與回場結果放回同一個決策脈絡 \n本期進展在於更清楚界定每項數字能支持什麼決策：自行車營養需要隨任務與補給機會調整，訓練比較需要核對額外暴露，手術回場比例需要核對分母與回場定義。延續既有週報的個人趨勢與共享決策觀點，本週新增可追溯的營養範圍與研究結果，同時保留族群差異及尚未驗證的操作門檻。 \nfull-text-web \nUCI 支持的營養立場聲明；由 54 位研究者參與、14 篇經同儕審查的主題敘述性綜述整合成 10 個主題，並經作者與 UCI 代表審閱。 \n主要面向精英競技自行車各項目，部分內容可能適用較低競技層級；未納入身障自行車的特殊需求，沒有新招募的受試者樣本。 \n整合訓練、比賽、恢復、能量可用性、體態、健康、科技、補充品與年齡及性別相關營養策略。 \n沒有單一介入對照組；不同建議來自不同主題及情境的既有證據。 \n提供營養實務建議及研究缺口，未產生新的整體療效估計或統一主要終點。 \n非追蹤研究，無統一追蹤期間。 \n日常能量可用性建議 \n約 40–45 kcal·kg 去脂體重⁻¹·日⁻¹ \n依非訓練活動量等因素調整；為建議範圍，不是試驗效果或 REDs 診斷界值。 \nTheme 2，Table 2 \n日常蛋白質建議 \n分散攝取；低能量或低碳水可用性等情境可考慮範圍較高端。 \nTheme 2，Table 2，Protein Requirements \n賽前及賽中碳水建議 \n賽前 1–4 小時攝取 1–4 g/kg；1–2.5 小時賽事為 30–60 g/小時，超過 2.5 小時為 90 g/小時 \n依賽程、任務、個人偏好及耐受調整；120 g/小時或更高的額外效益尚待驗證。 \nTheme 3；Theme 4，Table 3 \n密集賽程的早期恢復補給 \n碳水 1–1.2 g·kg⁻¹·小時⁻¹；蛋白質 0.3–0.4+ g/kg \n用於需要加速兩場或兩站之間恢復的情境；早期補給仍須銜接每日總需求。 \nTable 3，Targeted recovery between stages/races \n水分規劃參考 \n一般目標為淨水分缺損低於體重 2%；較大缺損後，4–6 小時內可能需補充缺損量的 125%–150% \n須考慮熱環境、流汗、鈉補充與耐受；2% 不是每個人的確定表現或醫療界線。 \nTheme 4，Hydration；Table 3 \n自行車補給要配合任務；高攝取量仍須通過耐受與效益檢驗 \n聲明把自行車營養從每日總量延伸到賽程、角色、車上補給機會與食物後勤。其核心是支持關鍵課程與長期健康，並將體重視為需要解讀的指標；超高碳水、低碳水訓練、補充品及新科技的應用，仍各有未解問題。 \n同一運動內的賽程與角色差異很大，沒有適用全部自行車項目的單一最佳營養模式。 \n超過 60 g/小時的碳水目標需考慮多重可運輸碳水與腸胃演練；觀察到職業選手吃得更多，不等於已證明額外表現效益。 \n能量與碳水不足均可能影響健康；體態管理應採季節性彈性範圍，避免長期追逐最低體重。 \n目前不支持只依月經週期階段普遍調整訓練或飲食，宜依症狀與個人反應調整。 \n功率計可協助估計需求；健康運動員的連續血糖監測仍有延遲、準確度及決策用途限制。 \n支持課程對低能量可用性與健康的重視，並將第 36 週的補水及腸胃演練延伸到自行車賽程與每日補給。另一方面，聲明不支持僅依週期分期安排強弱課表，對所附女性課程的概括分期建議構成修正；這不等於否認個別症狀，也不是對 ACL 風險的直接檢驗。 \nmatched \ncourse-c07b3c2920b5562e \ncourse-8dbff6b0b0a9f68e \n在能量不足、骨骼與女性健康方面支持並延伸課程；對女性課程將濾泡期與黃體期直接配對訓練強度的說法，提出更保守的證據界線：依症狀與個人反應，而非僅依週期階段調整。 \n2026-w36 \n2026-w35 \n直接延伸第 36 週的流汗估計、補給耐受及後勤演練，加入自行車賽程別碳水與恢復範圍；對科技效度與可行決策的要求呼應第 35 週，但沒有直接比較不同監測工具的介入效果。 \n【source-stated】依每堂課與賽事的時間、強度、地形及補給機會，安排能量、碳水與水分。 \n【source-stated】先在訓練中練習預定比賽食物與飲品，再逐步調整攝取量；不把 120 g/小時當作普遍目標。 \n【source-stated】月經異常應促使團隊檢視飲食與負荷，並考慮其他婦科或壓力因素；嚴重症狀需醫療協助。 \n【source-stated】醫療營養補充應由適當專業人員監督；第三方批次檢驗只能降低補充品污染風險。 \n這是敘述性綜述支持的立場聲明，不能把所有建議視為具有相同確定性的隨機試驗結論。 \n精英女性、世界級選手及部分新興項目的證據不足，身障自行車未納入。 \n低碳水訓練的訊號或蛋白變化尚未一致轉化為表現改善；膠原蛋白及腦震盪相關補充策略也缺乏足以建立直接處方的人體證據。 \nTheme 6 重點對腦震盪補充品的措辭較正文積極；本報採正文所述臨床證據不足的界線。 \n表 1 越野能量加成的數值與單位值得編輯查核，本報不採其作計算處方。 \n自行車營養：哪些建議可以直接協助規劃 \n面向 \n來源支持的判讀 \n證據形式 \n14 篇主題綜述整合的立場聲明，沒有新的介入樣本或共同效果量。 \n日常支持 \n蛋白質 1.6–2.1 g·kg⁻¹·日⁻¹；能量與碳水依實際任務調整。 \n賽中補給 \n1–2.5 小時為 30–60 g/小時碳水；更長賽事為 90 g/小時，需配合耐受與後勤。 \n實務限制 \n超高攝取、部分補充品及新科技仍需驗證，不能以流行做法替代效益證據。 \n女性管理 \n追蹤症狀與個人反應，不依週期階段自動改課。 \nEDGE SPORT 依 pmid-42744290 全文原創整理；數字為聲明建議，不重製原始表格。 \nfull-text-open \n單中心、12 週、平行組隨機 2 × 3 因子試驗；結果評估者盲化，採基線調整 ANCOVA 與完整案例分析。 \n108 位 40–77 歲女性隨機分派，每組 18 人；83 人完成分析。過去一年自陳結構化活動少於每週 2 小時，基線蛋白質約低於 0.8 g·kg⁻¹·日⁻¹為納入條件；完成者各組平均 BMI 多落在肥胖範圍。未正式評估停經狀態或荷爾蒙治療。 \n每週 3 次監督阻力訓練（RT），或相同阻力訓練後增加騎車（CT）；另指派 0.8、1.6 或 2.2 g·kg⁻¹·日⁻¹蛋白質目標，透過自由生活下的個別飲食諮詢支持。 \nRT 與 CT，以及三種蛋白質指派；没有不運動、僅飲食或原飲食對照。訓練總時間及能量消耗未匹配，飲食亦非等熱量。 \n主要結果為 BIA 推估骨骼肌量；關鍵次要結果為 BIA 體脂率、腿推估計 1-RM、自行車測驗估計 VO₂max、30 秒坐站。其他結果包括胸推、肌耐力、手臂彎舉、體重及 BMI。 \n基線與第 12 週，沒有介入後延長追蹤。 \n完整案例與流失 \n83/108 人完成；25/108 人退出（23.1%） \nCT 三組為 14、15、13 人；RT 三組為 13、14、14 人。退出者資料未補值，無法比較完成者與退出者的基線特徵。 \nResults 3.2；Table 3 \nBIA 骨骼肌量 \nCT − RT：−0.16 kg（95% CI −0.45 至 0.13）；p = 0.273；蛋白質主效應 p = 0.726，交互作用 p = 0.856 \n83 位完成者，第 12 週基線調整分析；未檢出差異不代表等效。 \nResults 3.3.1；Tables 6、7 \nBIA 體脂率 \nCT − RT：−2.04 個百分點（95% CI −2.94 至 −1.14）；Holm 調整後 p < 0.001 \n第 12 週調整後組間差，不能稱為 CT 減脂量；兩訓練條件總暴露不同。 \nResults 3.3.2；Table 7 \n腿推估計 1-RM \nCT − RT：−6.68 kg（95% CI −8.32 至 −5.04）；Holm 調整後 p < 0.001 \n第 12 週調整後比較，合併蛋白質指派；由重複次數公式估計。 \nResults 3.4.1；Table 7 \n自行車測驗估計 VO₂max \nCT − RT：4.53 mL·kg⁻¹·min⁻¹（95% CI 3.80–5.25）；Holm 調整後 p < 0.001 \n第 12 週調整後比較，來自 Ekblom–Bak 次最大測驗；信賴區間未作多重比較調整。 \nResults 3.4.2；Table 7 \n30 秒坐站 \nCT − RT：0.27 次（95% CI −0.13 至 0.67）；Holm 調整後 p = 0.178 \n第 12 週調整後比較，未檢出訓練條件差異。 \nResults 3.4.3；Table 7 \n介入期自陳蛋白質攝取 \nCT：0.86 ± 0.25、1.58 ± 0.40、2.17 ± 0.50；RT：0.85 ± 0.25、1.62 ± 0.40、2.21 ± 0.50 g·kg⁻¹·日⁻¹ \n依序對應 0.8、1.6、2.2 的指派目標；平均值 ± 參與者間標準差，為介入期間紀錄，不是客觀依從性驗證。 \nResults 3.8；Table 8 \n加騎車與單做阻力訓練呈現不同結果，未證實蛋白質目標等效 \n在完成 12 週介入的未訓練女性中，CT 的調整後估計有氧適能較高、體脂率較低，RT 的腿推估計力量較高；骨骼肌量與坐站表現未檢出訓練條件差異。主要分析也未檢出蛋白質指派的整體差異，但飲食自陳、非等熱量、流失與測量限制使結果不能轉成普遍蛋白質最低需求。 \n比較回答的是在阻力課表後增加騎車的整體效果，不能隔離騎車模式、額外時間、疲勞或恢復需求。 \nBIA 肌肉量的小幅原始增加不構成已確認肌肥大；沒有不運動對照，也不能將組內前後變化全部歸因介入。 \n所有六組原始平均體重與 BMI 均數值上升，CT 的調整後數值較低不等於體重下降。 \n主要蛋白質分析未檢出差異；部分 HC3 敏感度結果依模型而變，不能概括為所有分析均顯示完全沒有影響。 \n沒有通報介入相關不良事件，但主動收集及分類程序未充分標準化，不能據此宣稱普遍安全。 \n相較棒球課程的目標導向訓練與既有週報的量測判讀，本篇增加不同族群的隨機介入比較，讓力量、有氧估計值與日常功能之間的取捨更具體。沒有直接驗證棒球體能處方，也沒有反駁自行車選手的蛋白質需求建議。 \ncourse-3508b0d2cc8ec57d \n在依目標安排訓練、監控疲勞及解讀不同能力指標方面可對照；研究對象為未訓練中高齡女性，不能把結果移植為棒球選手的能量系統配置或蛋白質處方。 \n延伸第 35 週先控制測試條件、區分結果與過程的觀點：本篇 BIA、估計力量及自行車心率模型均有特定測量限制。這是方法上的呼應，沒有直接比較 CMJ 或前期介入療效。 \n【source-stated】若主要目標是阻力測驗力量且時間有限，可討論 RT；若重視自行車估計有氧適能且可承擔額外時間與恢復需求，可討論增加騎車。 \n【cross-source-synthesis】先查核實際完成的訓練及飲食，再解讀表現變化，不能只依課表或指派目標判斷暴露。 \n【source-stated】不因未檢出差異而認定 0.8 g·kg⁻¹·日⁻¹對所有人足夠，亦不據此要求所有人提高到 2.2。 \n分析僅涵蓋 83 位完成者，23.1% 流失可能造成偏差；檢定力主要針對中至大型交互作用。 \nBIA 受水分分布影響，未建立本研究的再測信度或最小可偵測變化；VO₂max 與 1-RM 均為估計值。 \nCT 實際完成的負荷、騎車量及出席等資料未充分報告，不能確認兩組達成相同的阻力刺激。 \n停經狀態與荷爾蒙治療未正式評估；不能稱為停經後女性專屬證據。 \n飲食未控制供餐、非等熱量，且以實際體重計算蛋白質；不能解讀為隔離蛋白質本身的劑量反應。 \n正文對補充表敏感度結果已有說明，但完整補充表未附，不能補寫未提供的估計值。 \n女性試驗：以調整後組間比較回答問題 \n設計及樣本 \n108 人隨機分派，83 人完成 12 週；兩種訓練搭配三種蛋白質目標。 \n骨骼肌量 \nCT − RT 為 −0.16 kg，95% CI −0.45 至 0.13；未檢出蛋白質整體差異。 \n力量取捨 \nRT 的腿推估計 1-RM 較高；CT − RT 為 −6.68 kg。 \n有氧取捨 \nCT 的自行車估計 VO₂max 較高；差值 4.53 mL·kg⁻¹·min⁻¹。 \n功能 \n30 秒坐站未檢出訓練條件差異。 \n適用邊界 \n額外騎車、間接測量與自陳飲食限制機轉及劑量推論。 \nEDGE SPORT 依 pmid-42735207 方法、結果及限制原創整理；完整區間與時間點見 quantitativeResults，不重製原表。 \n單一機構回溯病例系列，證據等級 4；同一位醫師執行 PAO，另一位醫師執行髖關節鏡。 \n2016–2023 年接受同次 PAO 與髖關節鏡、年齡至少 14 歲且術前參與運動或活動者；最終為 84 人、103 髖，平均年齡 20.3 ± 6.9 歲，BMI 23.9 ± 4.5 kg/m²。結果表以髖計列男性 11、女性 92。 \n同次髖臼周圍截骨術合併關節鏡，依需要處理關節唇、骨性形態等問題；術後記載 13.6 kg 平足負重並依院內復健流程進展。 \n沒有單獨 PAO、單獨關節鏡或非手術對照；僅比較系列內接觸與非接觸運動及其他特徵。 \n是否回到術前運動或活動、回場時間、mHHS、影像參數及併發症與再次手術；回場由病歷或遠端詢問確認。 \n至少 6 個月；平均術後追蹤 514.9 ± 326.5 天，未充分評估多年後競技表現。 \n整體回場 \n92/103 髖（89.3%）；回場時間 297.5 ± 181.3 天 \n84 位患者的髖部資料；時間依首次相關病歷或患者回憶取得。 \nResults；Table 3 \n接觸與非接觸運動回場 \n接觸：33/40 髖（82.5%）；非接觸：59/63 髖（93.7%）；p = 0.10 \n分類依手術醫師經驗；未提供比例差的信賴區間，未檢出差異不代表等效。 \nResults；Tables 3、4 \n兩類運動回場時間 \n接觸：289.3 ± 178.3 天；非接觸：302.2 ± 184.2 天；p = 0.37 \n各類回場者的描述結果；不是個人復健時程。 \n術後 mHHS 與回場狀態 \n回場組 88.4，未回場組 89.6；p = 0.41 \n表 7 平均值；未檢出關聯，不代表量表或日常功能與回場完全無關。 \nTable 7；Discussion \n再次手術與併發症 \n59 髖移除疼痛內固定物；5 位異位骨化、12 位股外側皮神經暫時性神經損傷、2 位術後感染、1 例恥骨支不癒合 \n作者分別使用髖、患者及病例為單位；事件可能重疊，不能加總成獨立患者風險。 \nResults，complications and reoperations 段落 \n髖部聯合手術後多數髖部回場，競技表現與長期維持仍未知 \n此系列中 92/103 髖有回到運動或活動的紀錄，接觸運動亦有較高回場比例。這可用於討論恢復的可能性與不確定性，但沒有直接手術對照，且回場層級、失訪及重複髖部資料限制了療效與個人預後推論。 \n回場比例以髖部計算，103 髖来自 84 人，不能當作 103 位獨立運動員。 \n接觸與非接觸運動的回場比例及時間未達顯著差異，但小樣本不足以排除重要差異。 \nmHHS 偏向基本日常功能；作者認為它可能不足以反映活躍運動族群的回場需求。 \n較高回場比例與再次處置可同時存在，59 髖曾因疼痛移除內固定物。 \n研究尚未以競技層級或多年後表現區分回場品質。 \n在 ACL 回場課程與第 37 週連續性模型之外，本篇新增不同手術與關節情境的回場描述資料。它支持把實際參與另行追蹤的必要性，但未驗證任何髖部回場測驗組合，也不能移用 ACL 對稱性或心理量表門檻。 \ncourse-4c7247f87374194d \ncourse-1b4bdacad63581ba \n可對照課程的標準導向、多面向及共享回場決策；本篇沒有測試這些流程的效果。ACL 的 LSI 或 ACL-RSI 數值不能作為 PAO 術後放行條件。 \n2026-w37 \n延伸第 37 週區分參與、運動及表現的框架；本篇主要回答是否回到活動，未回答是否恢復原競技程度。這是不同關節及術式的情境延伸，不能直接比較 ACL 與髖部手術成功率。 \n【cross-source-synthesis】討論預期時同時呈現回場比例、时间分散、再次處置與表現未知，避免把平均時間變成承諾。 \n【edge-sport-proposal】追蹤表分列目前活動、完整訓練、比賽參與及原有表現恢復情況，另記症狀及再次治療。 \n【source-stated】本篇僅提供術後初始負重與概括復健說明，具體進階仍須由手術及復健團隊制定。 \n回溯病歷與遠端回憶可能誤估回場時間；26 位無法聯絡者遭排除，可能有失訪選擇偏差。 \n103 髖来自 84 人，未見處理同一患者雙髖相關性的分析說明；表格亦混用患者與髖部稱呼。 \n方法以 LCEA <25°界定發育不良，但結果納入 20 個正常 LCEA 的髖部，多涉及後傾或不穩定，研究樣本並非單一影像定義。 \n方法描述 Tönnis 0 或 1 為 PAO 適應情境，結果另有 2 髖為 Tönnis 2，屬需編輯注意的內部不一致。 \n沒有直接對照，不能沿用討論中的跨研究比較宣稱聯合手術更優或等效。 \n單中心、短期追蹤、少量未回場事件與單一影像評估者限制推論；部分作者揭露產業關係。 \n髖部聯合手術：回場結果與決策限制 \n樣本 \n84 人、103 髖；平均年齡 20.3 歲，單中心回溯資料。 \n92/103 髖回場，平均 297.5 ± 181.3 天。 \n運動分類 \n接觸 33/40 髖、非接觸 59/63 髖；比例比較 p = 0.10。 \n結果品質 \n確認活動回歸，但未充分確認競技層級或長期表現。 \n再次處置 \n59 髖因疼痛移除內固定物；另有感染、神經及骨癒合相關事件。 \n比較限制 \n無其他術式對照，不能據此排序手術或制定通用回場日期。 \nEDGE SPORT 依 pmid-42746137 全文與表 3、4、7 原創整理，不重製原始表格；保留患者與髖部分母的區別。 \n可執行實務方案：增加負荷前，先對齊目標、補給與反應 \n以自行車訓練的營養與負荷規劃為主要操作情境，並提供中高齡女性新增騎車及術後運動參與的分流原則。共同流程是 EDGE SPORT 的教育性決策提案，未由三篇研究共同驗證；不是將精英自行車營養量或女性試驗課表套用於髖部術後患者。 \n規劃自行車訓練與補給的成人及其教練、營養和醫療團隊；中高齡未訓練女性僅在相符條件下參照訓練取捨。髖部術後者須另依手術團隊限制，本方案不提供術後負重、跑跳或接觸放行處方。 \n每次進階前都能指出目標、實際完成量、營養支持、症狀與功能反應，以及下一次複評條件，讓增量決策可以追蹤和修正。 \n評估電池 \n領域 \n指標或工具 \n做法 \n時點或頻率 \n判讀 \n依據 \n目標與適用範圍 \n主要結果、運動背景、醫療限制 \n先選力量、有氧、賽事補給或術後參與目標；記錄不可跨越的醫療限制。 \n開始及每次目標改變時 \n不同目標分開判讀，不以體重或回場單一數字代表全部成功。 \n實際外部負荷 \n騎車時間、功率；阻力負荷、組數與次數 \n記錄完成值及未完成原因，分列原有訓練與新增騎車。 \n每堂課；頻率為操作提案 \n計畫相同不代表實際刺激相同；不設定通用增量百分比。 \n內部反應 \nRPE、疲勞、症狀與恢復紀錄 \n固定方式詢問課後及下一次訓練前反應；量表版本保持一致。 \n每堂課後及下次課前；時點為操作提案 \n與個人可比任務的趨勢連讀，未建立跨族群通用門檻。 \n飲食與補給 \n食物紀錄、碳水 g/小時、蛋白質 g·kg⁻¹·日⁻¹ \n分開記錄目標與實際攝取，註記漏記、產品、食物供應及腸胃症狀。 \n代表性訓練與比賽演練日；由營養師安排複評 \n自陳紀錄用於修正計畫，不視為客觀攝取證明。 \n水分與環境 \n運動前後體重、飲水與排尿、環境紀錄 \n在接近目標賽事的條件下重複觀察，核對補水機會與耐受。 \n代表性騎乘前後 \n自行車聲明以淨水分缺損低於體重 2%為一般規劃目標，並非診斷或保證安全的界線。 \n健康與能量不足線索 \n月經變化、飲食限制、身體意象及恢復問題 \n由適當專業人員檢視低能量可用性風險，必要時使用聲明提及的 REDs CAT2。 \n初評、負荷改變或新問題出現時；未建立通用頻率 \n不能由單一 EA 估計或單一症狀自行診斷；同時考慮其他病因。 \n能力結果 \n與目標相符的力量、功能或自行車測驗 \n重測沿用設備、程序及前置條件；中高齡女性可依專業評估選擇研究中的坐站或估計力量工具。 \n基線與預定複評；女性試驗為第 12 週 \n估計值保留模型限制；不另創肌肉量或力量通關差值。 \n術後分流 \n醫囑、實際參與、症狀、mHHS及再次處置 \n由手術及復健團隊追蹤，另記完整訓練、比賽與表現是否恢復。 \n依醫療追蹤及每次活動層級改變 \n平均回場天數及 mHHS 均不能單獨放行。 \n營養範圍與研究測量來自三篇全文；量測一致性及回場分層呼應所附課程與前期週報。每堂課紀錄、複評安排及跨專業交接屬 EDGE SPORT 操作提案，並非已驗證評估套組。 \n第一階段：界定目標並建立可比較的基線 \n增加訓練或改變補給之前；來源未建立此流程需要的固定天數。 \n【edge-sport-proposal】選定一個主要目標及需同時維持的健康或功能結果。 \n【cross-source-synthesis】確認族群、測驗與醫療限制，避免混用研究處方。 \n【edge-sport-proposal】已提出增加負荷或改變補給的需求。 \n【edge-sport-proposal】有可負責檢視訓練、營養與必要醫療問題的人員。 \n【edge-sport-proposal】完成評估電池，將現行訓練、實際攝取、耐受及恢復寫入同一份紀錄。 \n【source-stated】自行車選手檢視每日能量與蛋白質；聲明的蛋白質參考為 1.6–2.1 g·kg⁻¹·日⁻¹。 \n【cross-source-synthesis】中高齡女性先討論力量或有氧目標與可用時間，不把試驗三種蛋白質指派當作可互換處方。 \n【edge-sport-proposal】術後者先取得目前醫囑及活動限制，再由原醫療團隊決定可評估的任務。 \n【edge-sport-proposal】先觀察目前可完成且已獲允許的課程，不預設新增劑量。來源沒有跨族群通用的基線收集長度。 \n【edge-sport-proposal】資料完整性、主要目標與測驗是否一致。 \n【source-stated】飲食限制、月經異常、腸胃不適及補給取得困難。 \n【edge-sport-proposal】團隊能描述目前可耐受負荷及補給缺口。 \n【edge-sport-proposal】沒有尚未處理且會限制進階的健康問題或醫囑疑義。 \n【edge-sport-proposal】測量條件不一致、攝取紀錄不足或醫療限制不明時，延長基線階段。 \n【edge-sport-proposal】出現新症狀時先評估，不依原定日期進階。 \n第二階段：在可控制的任務中演練 \n基線及限制確認後；腸胃訓練與個別進階的最佳週數未建立。 \n【source-stated】在訓練中確認預定補給的腸胃耐受與可取得性。 \n【edge-sport-proposal】觀察新增負荷是否妨礙原有主要目標及恢復。 \n【edge-sport-proposal】已有可比較基線及明確複評安排。 \n【edge-sport-proposal】擬增加的任務符合目前醫療及訓練限制。 \n【source-stated】自行車補給依任務討論：1–2.5 小時賽事參考 30–60 g/小時碳水，更長賽事參考 90 g/小時。 \n【source-stated】若目標超過 60 g/小時，考慮葡萄糖與果糖組合，並逐步練習實際賽用品。 \n【edge-sport-proposal】每輪優先改動一個可追蹤要素，例如補給量、產品或新增騎車暴露，記錄原因與反應。 \n【source-stated】阻力動作無法維持目標次數、活動範圍或技術時，降低後續組或課程負荷；此為女性試驗採用的調整原則。 \n【mixed】自行車補給範圍來自聲明，但每次增加多少及需要幾次演練未建立。女性試驗採每週 3 次、12 週監督訓練，阻力為估計 1-RM 的 50%–75%、每動作 3–4 組、每組 6–16 次；CT 另加 10–35 分鐘、預測最大心率 50%–75%的騎車。這些是研究暴露範圍，不是所有讀者或術後者的起始處方，亦不要求同時使用各範圍上限。 \n【edge-sport-proposal】計畫與完成的碳水、液體及運動量差距。 \n【mixed】腸胃症狀、RPE、技術完成度、力量目標與恢復反應。 \n【edge-sport-proposal】是否因時間或食物取得問題而無法持續。 \n【edge-sport-proposal】在可比情境可重複完成，且症狀及恢復沒有持續惡化。 \n【edge-sport-proposal】新增騎車或補給沒有妨礙主要目標，團隊能解釋任何取捨。 \n【edge-sport-proposal】腸胃症狀妨礙攝取、技術失控或主要能力持續下降，退回最近可耐受方案。 \n【edge-sport-proposal】實際暴露無法確認時，先補足紀錄再增加。 \n第三階段：接近目標情境並持續複評 \n可控制任務已反覆完成後；來源未建立通用進入週數或回場日期。 \n【edge-sport-proposal】確認策略在接近真實環境、補給機會及連續課程下仍可執行。 \n【cross-source-synthesis】分開追蹤參與、能力與健康，避免單一成功指標掩蓋問題。 \n【edge-sport-proposal】前階段的完成量、耐受與恢復資料支持進一步測試。 \n【edge-sport-proposal】術後活動層級的任何增加均經原醫療團隊確認。 \n【source-stated】自行車演練納入地形、環境、攜帶容量與補給站限制，並安排課後食物供應。 \n【source-stated】若兩場或兩站間需快速恢復，可由營養專業人員採用早期碳水 1–1.2 g·kg⁻¹·小時⁻¹及蛋白質 0.3–0.4+ g/kg 的情境性建議。 \n【edge-sport-proposal】對照主要目標與其他结果，決定維持、調整或撤回新增暴露。 \n【cross-source-synthesis】術後追蹤另列是否恢復完整訓練、比賽及原有表現，不以已回場結束追蹤。 \n【edge-sport-proposal】依現有課表及允許活動安排代表性演練，不新增固定週增量。自行車恢復補給數值只適用相應密集賽程，不能移植為一般短課或術後營養劑量。 \n【mixed】連續課程的完成率、補給可行性、症狀、疲勞與功能趨勢。 \n【edge-sport-proposal】需醫療處理或再次處置的事件及其對活動的影響。 \n【edge-sport-proposal】接近目標情境仍能穩定執行，且主要結果與健康指標支持維持或進一步討論。 \n【edge-sport-proposal】團隊及參與者理解尚存不確定性，並已安排下一次複評。 \n【edge-sport-proposal】環境或賽程改變超出已演練條件，返回第二階段。 \n【edge-sport-proposal】出現持續功能下降、新症狀或新增醫療限制，重新評估基線及方案。 \n【cross-source-synthesis】以實際完成而非計畫負荷建立基線，並配對飲食、腸胃耐受與恢復資料。術後者以醫囑容許的暴露為起點。 \n【edge-sport-proposal】每輪寫明變更項目、目的、觀察結果與複評時點；未建立可通用的每週增加比例，採能否重複完成及反應是否穩定的監測決策。 \n【mixed】外部負荷記錄時間、功率或阻力組次；內部反應記錄 RPE、疲勞與症狀。補給目標與實際攝取分列，避免把額外騎車視為沒有恢復成本的附加項。 \n【edge-sport-proposal】每週由相關人員檢視目標、完成量、攝取、症狀及功能；決定維持、進階、退階或轉介，記錄負責人與原因。每週頻率為編輯流程提案，並非研究驗證的最佳間隔。 \n新增補給引發持續腸胃不適，妨礙進食、飲水或完成訓練。 \n停止增加攝取量，回到已耐受安排，檢查產品、時機、環境與負荷；持續問題交由醫療或營養專業評估。 \n原因已檢視、症狀受控，且在較可控任務能重新耐受；沒有來源支持的固定無症狀天數。 \nmodify \n阻力訓練無法維持規定技術、活動範圍或目標次數。 \n降低後續組或課程的負荷，不強迫以原負荷完成次數。 \n在調整負荷下可維持動作品質，再依監督者判斷逐步進展。 \n執行本文女性試驗所用 Ekblom–Bak 測驗時，Borg 6–20 量表 RPE 達 17 或以上。 \n終止該次測驗；此規則只對應該測驗程序，不套用到 CR10 量表或所有日常訓練。 \n由合格評估者重新確認適測性、工作負荷及測驗安排，來源未提供固定重測間隔。 \nstop \n月經週期延長或停止、飲食限制加劇，或恢復及表現持續不如預期。 \n暫停以減重或增加負荷為目的的進階，安排飲食、負荷及其他可能病因評估。 \n專業團隊已釐清主要問題並提出個別方案；不以單次體重或 EA 估計判定恢復。 \n術後或增加活動時出現新的明顯功能受限，或原醫療團隊懷疑感染、骨癒合或神經血管問題。 \n停止活動並啟動原醫療團隊的即時評估或急症轉介流程。 \n醫療團隊完成評估並重新交代活動限制後，才討論恢復。 \nurgent-referral \nedge-sport-proposal \n執行可行性 \n計畫與實際訓練、補給的差距及原因 \n【edge-sport-proposal】每次演練，週檢視 \n找出可修正的後勤或耐受問題；沒有研究支持的通用完成率門檻。 \n健康與恢復 \n腸胃症狀、疲勞、月經變化及身體意象困擾 \n【mixed】持續紀錄，出現新問題即複評 \n趨勢用於啟動評估，不單獨診斷 REDs 或其他疾病。 \n力量與功能 \n選定的估計力量、坐站或其他相符任務 \n【mixed】基線與預先安排的複評；女性試驗為 12 週 \n維持程序一致，區分估計值與直接測量；本期未建立通用最小改善幅度。 \n自行車任務 \n可比任務的完成情形、功率、RPE與補給耐受 \n【edge-sport-proposal】代表性課程及環境改變後 \n確認策略能支持原定任務，不以提高攝取量本身作為成功。 \n術後運動結果 \n參與、完整訓練、比賽、表現及再次處置分欄 \n【edge-sport-proposal】依醫療複診與活動層級改變 \n回場與回到表現分開；297.5 天不作通關日，89.3%不作個人成功保證。 \n【source-stated】自行車長期能量不足、過度強調低體重及低碳水可用性可能伴隨健康與表現問題；營養無法直接防止跌倒或創傷。 \n【source-stated】較高碳水攝取可能增加腸胃負擔，補充品亦有不良作用與污染風險；第三方檢測不能完全消除風險。 \n【source-stated】女性試驗排除了多項自陳疾病，且不良事件收集不完整，不能將其課表直接當作慢性病或術後族群的安全證明。 \n【cross-source-synthesis】髖部系列較高回場比例不抵銷再次處置及併發症，失訪和雙髖資料也影響風險估計。 \n【edge-sport-proposal】上述緊急轉介項目是保守交接流程；本封包沒有提供經驗證的完整急症症狀清單，應銜接現場既有醫療流程。 \n超過 120 g/小時碳水是否提供一致的額外表現效益，以及誰最適合，尚未確立。 \n三種蛋白質指派是否在控制飲食、較長時間或其他女性族群中呈現差異，仍未知。 \nCT 結果有多少來自新增運動量、疲勞、測驗熟悉度或生理適應，無法分離。 \n髖部聯合手術的最佳回場評估套組、進階時程與長期競技表現未由本研究建立。 \n本方案的分期、週檢視與進退階條件屬可監測流程，尚未證實能改善療效或降低傷害。 \n決策流程 \n準備增加訓練、調整補給或提升運動參與層級時。 \n是否出現新的明顯功能受限，或醫療團隊懷疑急性併發問題？ \n停止活動並進入醫療評估或急症轉介流程，不繼續進階。 \n確認目前目標與適用族群。 \n是否為術後或有既定醫療活動限制者？ \n先由原團隊確認允許的活動；僅採共同紀錄流程，不套用自行車補給或女性試驗訓練劑量。 \n依力量、有氧或自行車賽事目標選擇相符測量與方案。 \n是否已有可比較的實際負荷、攝取及恢復基線？ \n進入可控制任務的演練。 \n維持目前可耐受且獲允許的活動，先補足基線。 \n營養支持、食物取得及腸胃耐受是否足以配合預定任務？ \n小幅度、可追蹤地改變一個要素，事先安排複評。 \n先修正供餐、補給時機或任務安排，必要時轉介營養及醫療評估。 \n新增暴露後能否重複完成，且技術、主要能力與恢復沒有持續惡化？ \n演練更接近目標的情境，持續記錄結果。 \n退回最近可耐受方案，檢查實際負荷、攝取、測量與健康問題。 \n是否已有與真正目標相符的結果，而不只是體重、估計值或回場紀錄改善？ \n共同決定維持或下一步，並保留後續追蹤。 \n補充目標相關的能力及參與評估，不把代理結果當作任務完成。 \n此序列為 EDGE SPORT 的教育性操作提案，營養及測驗數值只在指定來源情境使用；不提供個別醫療診斷、術後放行或經驗證的傷害預測。 \n從課程與前期週報走向本週的決策更新 \n比較焦點 \ninClass 知識 \n既有週報 \n本週研究 \n能量與補給 \n女性健康及運動生理課程強調低能量可用性的影響。 \n2026-w36 強調流汗估計、腸胃演練與後勤。 \n自行車聲明延伸為依賽程、角色及恢復需求安排的補給範圍；不等於所有運動員使用同一劑量。 \n月經與訓練 \n女性課程含依週期分期安排強度的概括建議。 \n本次提供的前期摘要沒有直接相同主題比較。 \n自行車聲明不支持僅依週期階段普遍改課，轉向症狀與個人反應，構成對概括建議的修正。 \n訓練目標與總暴露 \n棒球課程依項目需求安排力量、能量系統及監控。 \n2026-w35 要求以個人趨勢及訓練脈絡解讀結果。 \n女性試驗新增 RT 與 RT 加騎車的結果取捨；族群不同且總暴露不等，不能直接驗證棒球課表或干擾機轉。 \n蛋白質解讀 \n所附可用課程摘錄未提供同族群三種蛋白質目標的直接比較。 \n所列前期週報未提供直接蛋白質劑量試驗。 \n女性試驗未檢出主要整體差異，但未證實等效或最低足量；與自行車聲明屬不同族群和證據問題。 \n回場品質 \nACL 課程重視多面向評估、標準導向及共享決策。 \n2026-w37 區分參與、運動與表現。 \n髖部系列新增回場比例與時間資料，未量化完整競技恢復；不移植 ACL 門檻，也不以平均天數放行。 \nautomated \ncodex \n2026-09-20T03:39:36.301Z \n2026-09-20T04:21:06.702Z \nUCI Sports Nutrition Project: Position Statement on Nutrition for Cycling. \nInternational journal of sport nutrition and exercise metabolism \n2026-09-15 \nResistance versus concurrent training with three assigned protein targets in middle-aged and older women: a randomized 2 × 3 factorial trial. \nJournal of the International Society of Sports Nutrition \n2026-09-14 \nCombined Periacetabular Osteotomy and Hip Arthroscopy Results in High Return to Sport Rates in Contact and Noncontact Athletes With Hip Dysplasia. \nOrthopaedic journal of sports medicine \n0720沈靜茹-特殊族群-女性 \n運動生理學_123 \n0518陳哲修-棒球選手體能檢測,訓練及疲勞監控 \n0315-傷後回場跨領域共享決策：以ACL Reconstruction 為例 \n0518郭亮增-籃球運動常見下肢傷害的醫療處理 \n熱環境比賽：讓補水與降溫變成可演練的策略 \n2026-09-05 \ncurated-issue \n從 CMJ 到決策：不要只追蹤跳得多高 \n2026-08-29 \nACL 重建後，如何從回場走向回到表現？ \n2026-09-12"
     },
     {
       "id": "podcast:2026-w38",
@@ -188,6 +330,2251 @@
         "referencedBy": []
       },
       "searchText": "每週整合週報 \n監測與科技 \n身體評估 \n訓練設計 \n運動醫學 \n運動表現 \n棒球 \n中高齡成人 \n阻力訓練 \n一般就醫族群 \n2026-w38 \npublished \n2026-09-19 \n2026 年第 38 週 \n本週運動科學新知整合 \n本週四篇研究共同提醒：量測到的表現、活動量與病理關聯，需要放回族群、時間趨勢及研究設計中解讀。步數與步行強度提供不同的健康活動路徑；腰椎與腿後肌診斷的共存、投手傷前球速下降，則支持更完整的評估與追蹤。天然產物調節腸道菌相的抗疲勞研究仍以動物為主，本週實務方案因此聚焦於投手表現下降後的監測、負荷調整與臨床討論。 \n當投手球速持續下降或恢復不如預期時，團隊如何核對資料、調整暴露並啟動評估，而不把群體關聯當成個人傷害診斷？ \n本期納入四篇來源：full-text-web 三篇、full-text-open 一篇；full-text-local、full-text-excerpt 與 abstract-only 均為零。已閱讀提供的完整嵌入文字，包括方法、結果、討論、限制、可取得的表格、圖說與附錄；步行研究的部分表格與線上補充材料僅有標題或正文轉述，因此只採用實際提供的數值。全文可讀不等於因果證據充分：本期包含一篇以動物研究為主的描述性系統綜述、一篇前瞻性觀察世代研究及兩篇回溯性比較研究，均未驗證本報提出的監測流程能降低傷害。 \n本週研究地圖 \n本期選文橫跨 JISSN 的腸道菌相與疲勞、BJSM 的步數與死亡率、Clinical Journal of Sport Medicine 的腰椎與腿後肌診斷，以及 OJSM 的投球追蹤與肩部手術。共同進展是把單一指標放進多維情境：活動量搭配強度、局部症狀搭配其他可能來源、平均表現搭配個人時間趨勢。四篇並未測試相同介入或結果，不能合併成統一效應；最明顯的證據落差是天然產物機轉研究豐富，但人體應用資料稀少。 \n量與強度的共同判讀 \npmid-42711120 \npmid-42719368 \n步行研究顯示步數與 PK30 的組合具有不同死亡率關聯；投球研究顯示高輸出背景與後續球速下降是不同層次的訊號。兩者支持多維判讀，但健康步行與職業投球不能互換處方。 \nmixed \n表現下降與症狀來源需要重新評估 \npmid-42714926 \n腿後肌診斷者較常有腰椎病理紀錄；需要肩關節囊盂唇修補的投手，在傷兵名單登錄前出現較明顯球速下降。兩者提供評估線索，尚未建立診斷或預測門檻。 \nlow \n抗疲勞機轉與人體療效之間仍有缺口 \npmid-42704785 \n跨天然產物類別可見菌相、代謝物與疲勞指標的共同變化，但菌群變化方向並非完全一致，且人體研究僅一篇。 \nuncertain \n26 篇：25 篇動物、1 篇人體 \n天然產物綜述的研究組成 \n檢索截至 2026 年 3 月；因研究異質性大，未進行統合分析。 \n64,743 人；1,697 件全因死亡 \n步行研究的全因死亡分析規模 \nUK Biobank，中位追蹤 8.0 年，平均年齡 61.5 歲。 \nHR 0.57；95% CI 0.47–0.69 \n步數與 PK30 組合的全因死亡關聯 \n每日 7,500–10,000 步、PK30 約 100 步／分鐘；共同參照為每日少於 5,000 步且 PK30 位於整體第 5 百分位。 \n469/1,269 與 318/1,269 \n有腰椎病理紀錄的人數 \n腿後肌診斷組與人口特徵配對對照組，分別為來源報告的 37% 與 25.1%。 \n−0.195 mph／出賽；95% CI −0.301 至 −0.090 \n主要速球球速的組間斜率差 \n傷兵名單登錄前最後五次出賽；22 名符合條件的手術病例及配對對照，屬病例減對照的時間趨勢差。 \n決策前必懂的背景 \n本週需區分「量測的是什麼」、「關聯發生在哪個族群」及「是否已驗證可據此採取行動」。實務核心是建立可比較的個人資料，再把變化連回症狀、活動暴露與專業評估；機轉假說與群體統計不能直接成為補充品、停訓或回場處方。 \n每日步數與 PK30 \n每日步數描述步行與跑步的累積量；PK30 是一天中步頻最高、但不必連續的三十分鐘之平均步頻，再跨有效監測日平均。 \nPK30 不是連續快走三十分鐘，也不是跑步技術步頻。只有能取得相同定義的逐分鐘資料，才能直接對照研究暴露。 \nsource-stated \n場內變異與跨場趨勢 \n投球研究的場內變異是同場、同球種逐球數值的標準差；跨場趨勢則是不同出賽之間平均值如何改變。 \n不能把場內球速較一致與跨場球速下降混成同一訊號，也不能因病例變異較低，就要求投手刻意增加動作變異。 \n組間斜率差 \n最後五場投球模型的效應是病例組相對對照組，每次出賽變化速度的差異。 \n−0.195 mph／出賽不是所有病例的固定下降速度，也不是個人換投界線。 \n診斷共存與病因 \n腰椎研究比較病歷中的腿後肌診斷與腰椎病理是否同時存在，沒有確立兩者發生先後或因果方向。 \n腿後肌疼痛可促使臨床人員考慮腰椎來源，但病歷共存不能證明疼痛來自腰椎，也不支持所有人常規接受影像檢查。 \n腸道菌相變化與菌相介導 \n菌相變化是介入後微生物組成改變；菌相介導則需要更直接的實驗證據支持菌相參與效果產生。綜述中部分動物研究使用抗生素或糞菌移植檢驗此問題。 \n菌群與疲勞指標相關，尚不足以選定人體補充品或設定菌相檢測目標。 \n回到參與、回到運動、回到表現 \n所附前期週報將回場分為恢復部分參與、恢復運動活動及恢復原有表現三個層次；本報沿用此概念安排討論。 \n完成調整後的投球活動，不等於已能承受完整比賽，也不代表恢復原有競技表現；本週研究未提供肩部術後各階段的通關門檻。 \ncross-source-synthesis \n腸道代謝物與能量調節 \n天然產物綜述提出，短鏈脂肪酸可能透過 AMPK／PGC-1α 相關訊號、腸道屏障及發炎調節，連結菌相與骨骼肌功能；主要依據來自動物模型，並非每篇都直接測量完整路徑。 \n這是後續人體研究的候選機轉，不能據此把持續球速下降歸因於腸道菌相。 \n腰椎病理可能影響後側大腿症狀 \n腰椎研究討論神經根相關轉移痛與神經性肌力下降的可能性，但本研究未以神經診斷測試確認這條因果鏈。 \n當局部診斷無法充分解釋症狀時，可由臨床人員擴大評估範圍。 \n高輸出、重複負荷與球速下降 \n投球研究提出，高輸出與高度重複的動作可能集中累積組織負荷，而發展中的疼痛、不穩定或神經肌肉抑制可能限制球速。這些是討論中的解釋，Statcast 未直接測量組織應力或肌肉活化。 \n保留球種別球速趨勢的監測價值，同時透過症狀詢問與臨床評估檢查可能原因。 \nmonitoring \nassessment \ntraining \nsport-medicine \nperformance \n從單一數字走向有情境的監測 \n本期研究提供的進展，是讓數據增加評估線索：步數需要搭配強度，腿後肌診斷需要考慮其他症狀來源，投球表現需要觀察球種別的時間趨勢。天然產物研究則提醒，機轉資料增加不代表臨床應用已成熟。延續第 34、35 與 37 週的監測與共享決策概念，本週主張先確認資料可比性及功能反應，再討論負荷調整；尚無跨族群通用的風險門檻。 \nfull-text-web \n依 PRISMA 2020 報告的描述性系統綜述；搜尋四個資料庫，因異質性大未做統合分析。 \n26 篇研究中，25 篇為小鼠或大鼠實驗，主要使用力竭運動模型；一篇人體研究涉及健康、未受訓年輕男性的阻力訓練。人體表格列年齡 22–22.6 歲及樣本欄 8/9/10，但未清楚交代各數字對應分組，不能合併成總樣本。 \n依來源及化學特性分七類天然產物，包括植物多醣、皂苷、多酚與油脂、複方萃取物、海洋、動物及真菌／發酵來源。 \n纳入條件允許安慰劑、空白或陽性對照；部分動物研究另比較成分分離、抗生素處理或糞菌移植。人体抹茶研究使用安慰劑。 \n同時報告菌相或代謝物，以及力竭時間、握力、肝肌糖原、疲勞相關生化指標等；人體研究另觀察主觀疲勞、肌力、肌肉量及唾液皮質醇。 \n搜尋截至 2026 年 3 月；納入動物介入包括 14 天至 7 週，人體研究為 8 或 12 週，沒有統一追蹤時程。 \n證據組成與品質評分 \n26 篇研究：25 篇動物、1 篇人體；18 篇（69.2%）Jadad ≥3 分，8 篇（30.8%）低於 3 分。 \n作者使用 Jadad 評分，主要失分來自盲法；此評分分布不能消除人體轉譯限制。 \n摘要、結果 3.1–3.2 \n紅景天苷動物實驗的負重游泳時間 \n26.2 分鐘對 10.5 分鐘；p<0.01；未提供信賴區間。 \nICR 小鼠，100 mg/kg、4 週，介入對控制組；屬綜述轉述的單一動物實驗。 \n結果 3.3.2 \n人體抹茶研究的介入與結果時點 \n每次 1.5 g、每日兩次，配合 8 或 12 週阻力訓練；第 1 週主觀疲勞較低，但未提供效應量或信賴區間。 \n健康未受訓男性；8 週最大腿部力量增加僅描述為較大趨勢，12 週肌肉量變化較大及皮質醇較低。 \n結果 3.3.3、Table 1 \n腸道抗疲勞機轉值得研究，人體補充建議仍不足 \n綜述把天然產物的菌相調節整理為提供發酵底物、影響生物訊號與多成分互補等路徑，短鏈脂肪酸及能量調節是反覆出現的主題。部分動物實驗使用菌相移除或移植增加機轉支持，但唯一人體研究不足以證明各類天然產物能改善運動員疲勞，更不能建立精準菌相補充處方。 \n證據高度集中於急性力竭動物模型，與運動員長期週期化訓練的情境不同。 \n人體最大腿部力量結果在正文僅為增加趨勢，不能把表格的概括描述升級為明確顯著療效。 \nF/B 比值與個別菌群的變化方向並非所有介入一致，例如蜂膠研究報告 F/B 上升，因此不能訂出一律降低 F/B 的實務目標。 \n萃取方式、劑量及介入時間差異，使不同產品難以直接排名。 \n相較所附棒球課程與前期週報的疲勞監控，本篇增加腸道代謝與宿主訊號的機轉視角；屬不同證據層次的延伸，沒有直接驗證課程使用的握力、垂直跳或負荷流程，也沒有與前期報告形成療效上的支持或矛盾。 \nno-direct-match \n允許的課程摘錄涉及疲勞監控、跑步功能與踝部肌力，未提供天然產物經菌相介導抗疲勞的直接內容；不能以共同出現「疲勞」建立機轉或療效對照。 \n所列前期週報討論跳躍、負荷監測及 ACL 回場，沒有菌相或天然產物介入資料，因此無法作直接效果比較。 \n將天然產物保留為研究與營養專業討論議題，不能用動物 mg/kg 劑量安排運動員補充。 \n持續疲勞或表現下降仍需記錄訓練與恢復脈絡；本篇沒有證據支持以菌相檢測取代臨床或功能評估。 \n25 篇動物與一篇小型人體研究，對女性、受訓運動員及長期競賽情境的外推有限。 \n多數菌相資料来自 16S rRNA，組成改變不能直接證明功能或完整因果路徑。 \n來源表格存在引文編號與正文不一致、人體樣本欄位不清等問題；不據此重建缺失的組別或樣本總數。 \n作者提出未來人體試驗至少 8 週，是研究設計方向，不是經驗證的補充療程；天然來源也不能保證產品安全或競賽合規。 \n天然產物：證據距離人體應用有多遠 \n面向 \n來源支持的判讀 \n證據主體 \n26 篇中僅一篇人體研究，未計算合併效應。 \n人體訊號 \n抹茶搭配阻力訓練有疲勞與適應訊號，但量化效果及分組資訊不足。 \n機轉支持 \n部分動物研究加入抗生素或糞菌移植；多數仍是組成與結果的共同變化。 \n可採取行動 \n不建立補充劑量、菌相門檻或產品優劣排名。 \nEDGE SPORT 根據 pmid-42704785 所附完整文字原創整理，未重製原始表格。 \nUK Biobank 前瞻性世代研究；全因死亡採 Cox 模型，心血管死亡採 Fine–Gray 次分布風險模型，並進行多項敏感度分析。 \n全因死亡分析 64,743 名英國中高齡成人，平均 61.5 歲（SD 7.8），女性 37,497 人；心血管死亡分析 70,075 人。全因死亡分析排除既往心血管疾病或癌症，心血管分析排除既往心血管疾病。 \n2013–2015 年佩戴腕式 Axivity AX3 七天，估計每日步數與 PK30；至少三個有效日，含一個週末日，每有效日佩戴超過 16 小時。 \n共同參照為每日少於 5,000 步且 PK30 位於整體第 5 百分位，約 45 步／分鐘；比较四個步數層與不同 PK30 的組合。 \n全因死亡與心血管疾病死亡；不是運動傷害、步行安全性或體適能介入效果。 \n追蹤至 2022 年 11 月 30 日；全因死亡樣本中位追蹤 8.0 年，排除基線加速規量測後前兩年的事件。 \n死亡事件 \n全因死亡 1,697/64,743 人；心血管死亡 502/70,075 人。 \n兩套分析排除條件不同，不能共用分母。 \n結果：Description of the study sample \n低步數、較高 PK30 的全因死亡關聯 \n少於 5,000 步／日、PK30 80 步／分鐘：HR 0.72，95% CI 0.54–0.97。 \n相對共同參照；觀察性模型估計。 \n摘要 Results \n較多步數、較低 PK30 的全因死亡關聯 \n5,000–7,500 步／日、PK30 60 步／分鐘：HR 0.70，95% CI 0.58–0.86。 \n相對共同參照；與上一組並非直接等效性比較。 \n結果：Joint dose–response association with ACM \n較低全因死亡風險的觀察組合 \n7,500–10,000 步／日、PK30 約 100 步／分鐘：HR 0.57，95% CI 0.47–0.69。 \n相對共同參照；不能視為個人的最佳處方。 \n低步數組較高 PK30 的估計不確定性 \n少於 5,000 步／日、PK30 90 步／分鐘：HR 0.64，95% CI 0.32–1.32。 \n信賴區間跨 1，不能宣稱該組合已確定降低死亡風險。 \n心血管死亡關聯 \n7,500–10,000 步／日、PK30 90 步／分鐘：次分布 HR 0.53，95% CI 0.38–0.75。 \n相對共同參照；每日超過 10,000 步組未觀察到清楚的 PK30 劑量反應。 \n結果：Joint dose–response association with CVD mortality \n步行健康可以同時討論走多少與走多快 \n較低步數搭配較高 PK30，以及較多步數搭配較低 PK30，都出現較低死亡風險的觀察關聯，支持依活動障礙討論不同路徑。研究未隨機分派步數或速度，也未證明兩條路徑等效；高端曲線的上翹在不同模型中不一致，不能據此主張走得更多或更快有害。 \n每日少於 7,500 步的兩組，PK30 與全因死亡大致呈反向關聯，但部分估計區間寬。 \n7,500–10,000 步組呈現最低的整體全因死亡風險訊號，但分類及曲線形狀不代表生理上的明確分界。 \n改用廣義加法模型後，主要方向相近，但 U 形上翹未重現。 \n步數無法完整代表游泳、騎車等活動，腕部動作也可能造成步數誤判。 \n本篇把課程中的穿戴量測與步頻概念延伸到中高齡成人長期死亡結果。與馬拉松課程的跑步技術步頻屬不同操作定義及結果，不能將課程數值套入 PK30；與既有週報則是在監測方法上呼應多指標判讀，沒有直接的疾病或介入比較。 \nmatched \ncourse-e9b430b3609f1eb3 \ncourse-3461515dfd6a9362 \n生物力學課程介紹穿戴感測器走出實驗室，本篇延伸至自由生活活動與長期追蹤。馬拉松課程的步頻指跑步動作，本篇 PK30 是全天最高三十分鐘的平均；屬不同情境的概念比較，不是對課程步頻建議的驗證或反駁。 \n允許的前期週報沒有步數、PK30 與死亡結果資料；雖然多維監測概念相通，不能作直接效果比較。 \n與中高齡成人討論步行活動時，可先辨識限制是可用時間、偏好或步行能力，再討論量與強度的可行調整。 \n若裝置沒有逐分鐘資料，不把一般平均步頻或連續步行段落標成 PK30；研究未建立個人進階速度或週增量。 \n可能仍有未量測混雜及未診斷疾病造成的反向因果；死亡率關聯不等於介入後必然獲益。 \n基線七天活動量測不能完整反映後續多年的活動改變；UK Biobank 的選擇性參與也限制外推。 \n研究演算法自由生活步行驗證的 MAPE 約 10%（95% CI 6%–13%），不可假設所有消費型装置都具有相同誤差。 \n附件部分表格及補充圖未展開，只採正文與圖說已明示的數值；未從圖形估讀數據。 \n步數與步行強度：能說與不能說 \n暴露 \n每日步數與非連續最高三十分鐘平均步頻共同建模。 \n主要訊號 \n低步數快步與較多步數慢步均有較低死亡風險關聯。 \n曲線限制 \n高端 U 形對模型選擇敏感，不能宣稱增加步數或速度造成傷害。 \n應用邊界 \n支持討論不同活動選項，沒有建立個人安全或進階門檻。 \nEDGE SPORT 根據 pmid-42711120 所附完整文字原創整理，未重製原始表格。 \n回溯性配對世代病歷研究，使用邏輯斯迴歸估計腰椎病理的勝算比。 \nCone Health 門診、急診及急症照護資料；腿後肌診斷組及對照組各 1,269 人，年齡 15–94 歲，每組男性 619 人、女性 650 人。不是運動員專屬樣本。 \n2016–2020 年含腿後肌診斷描述的就醫紀錄，排除撕脫及攣縮描述；回查任何時間已有的腰椎診斷或影像。 \n同醫療系統內無腿後肌診斷史的 1,269 人，配對年齡分層、性別及種族／族裔分布。 \n腰椎椎間盤退化、小面關節退化、椎間盤突出及脊椎滑脫的紀錄；依診斷碼或 X 光、CT、MRI 判定。 \n病歷納入窗口為 2016–2020 年；沒有統一的個人前瞻追蹤期，也未確立腰椎病理與腿後肌症狀先後。 \n腰椎病理紀錄 \n腿後肌組 469/1,269（來源報告 37%）；對照組 318/1,269（25.1%）。 \n全樣本的病歷共存比例，不是後續新發腰椎疾病機率。 \nTable 4 \n腿後肌診斷與腰椎病理的關聯 \nOR 1.84；來源未提供信賴區間。 \n邏輯斯迴歸納入年齡及 BMI；參照為無腿後肌診斷。 \nTable 5、Results \nBMI 與腰椎病理的關聯 \nBMI>30 的 OR 1.35；來源未提供信賴區間。 \n表格以 BMI<30 為參照；BMI 恰為 30 的分類界線未清楚交代。 \nTable 5 \n腿後肌診斷伴隨較多腰椎病理，需保留鑑別診斷空間 \n在一般醫療系統中，腿後肌診斷組較常出現腰椎病理紀錄，支持評估後側大腿症狀時不要忽略腰椎相關可能性。由於缺乏統一診斷確認、症狀起始時間與前瞻追蹤，研究不能判定腰椎病理造成腿後肌受傷，也不能據此推導預防治療。 \n整體共存比例為 37% 與 25.1%；迴歸 OR 1.84 表示勝算差異，不能寫成罹病機率增加 84%。 \n樣本涵蓋廣泛年齡及一般就醫情境，50–69 歲的腿後肌診斷人數最多；不能視為特定運動的傷害發生率。 \n神經根影響與轉移痛是作者提出的解釋，未在本研究中以一致的神經診斷程序驗證。 \n本篇在所附軀幹與下肢解剖課程之外，增加一般醫療系統的診斷共存資料。這是臨床情境的延伸，不是對動能鏈機轉的直接驗證；所列前期 ACL 與跳躍週報沒有相同疾病或結果，不能建立直接效果比較。 \ncourse-772dc39152174179 \n課程涵蓋骨盆、腰椎與下肢肌動學，本篇增加腰椎與腿後肌診斷共存的臨床資料。相符處是評估範圍涵蓋軀幹與下肢，延伸處是病歷關聯；未證實課程中的特定解剖機轉造成傷害。 \n所列第 35 週著重跳躍量測，第 37 週著重 ACL 回場；兩者均未提供腰椎病理與腿後肌診斷的直接比較資料。 \n對反覆或局部評估難以解釋的後側大腿症狀，可由臨床人員納入腰背病史與腰椎相關評估。 \n依個別病史及檢查決定是否需要影像；本研究未測試所有腿後肌患者例行腰椎影像的效益。 \n病歷可能誤分腿後肌疼痛來源，對照組也可能曾在其他醫療系統就醫。 \n臨床人員可能較常對腿後肌症狀者安排腰椎檢查，造成偵測偏差。 \n正文稱七個年齡層中的五層顯著，但 Table 4 合併 70 歲以上後列出六層，部分 P 值格式異常；本報不重述該顯著分層數。 \n沒有 OR 信賴區間、統一影像流程或病理發生先後，不能用作個人預測或因果結論。 \n腰椎與腿後肌：共存資料的解讀 \n樣本 \n一般醫療系統兩組各 1,269 人，非競技運動員專屬研究。 \n主要結果 \n腰椎病理紀錄為 469 人對 318 人；調整後 OR 1.84。 \n診斷限制 \n依病歷或既有影像，沒有统一確認所有腿後肌結構損傷。 \n決策意涵 \n提供擴大鑑別評估的理由，未支持常規影像或腰椎預防治療。 \nEDGE SPORT 根據 pmid-42714926 所附完整文字原創整理，未重製原始表格。 \nfull-text-open \n回溯性 1:2 配對病例對照研究，作者列證據等級 3；分析基線特徵、分期變化及最後五次出賽趨勢。 \n2017–2024 年接受初次肩關節囊盂唇修補的 MLB 投手 27 人，平均 28.6±3.4 歲；配對對照 54 人，27.5±2.9 歲。兩組右投比例 77.8%、先發比例 48.1%。 \nStatcast 的球速、轉速、出手延伸、手臂角度及水平／垂直出手位置；共 161,979 球、3,347 次投手出賽，涵蓋七類球種。 \n依球季、先發／後援角色、投球慣用側、年齡及投球數配對；對照在觀察期無已知肩肘傷兵名單紀錄及肩肘手術史。 \n與後續需修補手術的病例身分相關之平均值、場內標準差、早晚期變化及最後五場時間趨勢；未建立個人風險分類器。 \n回溯傷兵名單登錄球季及前一球季；傷季早晚期分析為 19 名病例及 38 名對照，最後五場分析有 22 名病例。手臂角度僅使用 2020 年後可得資料，最多 18 名病例及 36 名對照。 \n前一球季平均球速差 \n四縫線 +1.460 mph（95% CI 0.397–2.523；P=.009）；伸卡球 +1.570 mph（95% CI 0.526–2.613；P=.006）。 \n病例減配對對照平均；四縫線有 22 名病例、38 名對照，伸卡球有 14 名病例、21 名對照。 \nAppendix：Season 1 paired differences \n跨球種合併的場內變異差 \n手臂角度 β=−0.584 SD（95% CI −0.993 至 −0.175；P=.005）；球速 β=−0.370 SD（95% CI −0.637 至 −0.102；P=.007）。 \n以同球種對照分布標準化；負值表示病例的場內變異較小，不是手臂角度本身降低。 \nTable 2 \n跨球種平均轉速差 \nβ=+0.315 SD；95% CI 0.053–0.578；P=.02。 \n前一球季，病例相對對照的標準化平均轉速差。 \n傷季早期至晚期的球速變化差 \n主要速球 −0.68 mph（95% CI −1.18 至 −0.17；P=.009）；主要變化球 −1.07 mph（95% CI −1.75 至 −0.39；P=.003）。 \n19 名病例與 38 名對照，比较各時段最初三次與最後三次合格出賽；效應為時間乘組別交互作用。 \nTables 3–4 \n最後五次出賽的球速斜率差 \n主要速球 −0.195 mph／出賽（95% CI −0.301 至 −0.090）；主要變化球 −0.298 mph／出賽（95% CI −0.445 至 −0.150）；兩者 P<.001。 \n22 名符合條件病例與配對對照，傷兵名單登錄前最後五次出賽；兩者均為病例減對照的斜率差。 \nAnalysis 3、Tables 5–6 \n持續球速下降是評估線索，尚不是肩傷預測門檻 \n後續接受修補的投手在前一球季呈現較高球速與轉速、較低場內變異，而較清楚的球速下降集中在傷季後段及傷兵名單登錄前。這支持把球種別球速趨勢納入監測，但研究無法區分早期病理、疲勞與其他因素，也未證明依球速調整投球能避免手術。 \n前一球季與休季的多數變化不顯著，零星結果沒有形成一致模式。 \n最後五場的主要速球及主要變化球球速下降最清楚，其他平均運動學指標未出現顯著組間趨勢。 \n較低場內變異與病例身分相關，但作者明確不建議為此刻意增加動作變異或降低競技輸出。 \n大量逐球資料來自少數投手，不能把 161,979 球當成同等數量的獨立受試者。 \n相較肩部與投球課程的受力、動能鏈及機轉觀察，本篇新增 MLB 真實比賽的傷前時間訊號。它延伸第 34、35 週的負荷脈絡與個人趨勢觀點；與第 37 週 ACL 回場共享的是持續評估原則，不能直接移用 ACL 通關條件。場內一致性結果也提醒，不能把表現上的重複性直接當作肩部安全證據。 \ncourse-af04922b5e0611e6 \ncourse-ed36f3e0355ef69c \n肩部課程討論投球機轉與肩肘負荷，棒球影像課程介紹動能鏈及傷害機轉。本篇延伸到比賽追蹤與傷前球速趨勢，但未直接量測軀幹時序或內部關節力，不能宣稱驗證特定代償機制。 \n2026-w34 \n2026-w35 \n2026-w37 \n延續第 34 週把負荷連回症狀與課表、第 35 週重視可比性與個人趨勢的做法，新增肩部修補病例的球種別球速訊號。第 37 週的多面向共享決策可作流程參考，但 ACL 術後與投手傷前監測是不同族群及決策階段。 \n依相同球種與量測流程追蹤球速，出現持續下降時同步核對投球數、角色、症狀與恢復情境。 \n把趨勢用於啟動投手、教練、防護與醫療團隊的討論，不把研究斜率當成自動换投或影像檢查門檻。 \n短期未見球速下降不能排除傷害；其他指標未顯著也不能視為無關。 \n病例手術分類依公開報導確認，無法取得手術紀錄、撕裂位置等細節；對照可能存在未診斷病理。 \n傷兵名單日期不等於症狀開始日期，且研究排除休季手術，可能遺漏其他變化路徑。 \n最後五場效應是組間斜率差，不是經驗證的個人診斷切點；沒有敏感度、特異度或介入效果。 \n樣本小、部分分析再縮減，且有多重比較；Statcast 不測量組織應力，結果不能證明高一致性造成傷害。 \n研究族群是 MLB 投手，不能直接外推青少年、業餘投手或肩部术後復健。 \n投球監測：區分背景特徵與近期變化 \n基線背景 \n病例較高輸出、較低部分場內變異；未建立高風險個人界線。 \n近期變化 \n傷季後段及登錄傷兵名單前，球速組間變化最一致。 \n分析單位 \n27 名病例、54 名對照；不同時段及球種的有效樣本不同。 \n行動邊界 \n支持進一步評估及監測討論，尚未證實特定停投方案可預防修補手術。 \nEDGE SPORT 根據 pmid-42719368 所附完整文字及附錄原創整理，未重製原始表格。 \n可執行實務方案：投手表現下降後的監測與負荷決策 \n以球種別球速趨勢為入口，支持資料核對、症狀評估、投球暴露調整與跨專業討論。這是 EDGE SPORT 工作流程提案，並非已驗證的肩傷預測工具、肩部術後療程或個別回場許可；步行及菌相研究僅提供指標與轉譯邊界，不能用來設定投球處方。 \n具備可持續投球追蹤資料與專業支援的成人競技投手；直接研究證據來自 MLB。其他層級可參考資料整理方法，但數值與臨床效果尚未驗證。 \n在持續球速下降或恢復變差時，留下可追蹤的資料、評估、調整及再評估紀錄，避免單一數值直接决定是否繼續投球。 \n評估電池 \n領域 \n指標或工具 \n做法 \n時點或頻率 \n判讀 \n依據 \n資料品質 \n裝置、球種、單位與有效球數 \n核對量測方式及球種標記，分開比賽與訓練情境。 \n每次匯入資料及異常時 \n不可比或缺漏資料先標記；不自行補值。 \nedge-sport-proposal \n球種別表現 \n平均球速、轉速及可用運動學資料 \n固定主要速球與主要變化球的定義，追蹤各次出賽平均值。 \n每次有可靠資料的出賽 \n持續下降啟動評估；無有效個人斜率門檻。 \nmixed：pmid-42719368 的量測架構與本報流程 \n場內變異 \n同場同球種標準差 \n僅在有效球數與量測流程可比較時解讀；保留樣本數。 \n每次合格出賽 \n研究每球種至少四球是分析資格，不是臨床可靠度或安全門檻。 \nmixed：pmid-42719368 與本報提案 \n暴露及恢復 \n投球數、角色、訓練內容、RPE、恢復感受 \n並列外部暴露與內部反應，補記近期課表及比賽情境。 \n活動後及團隊每週回顧 \n比較個人趨勢；本期未提供安全球數或負荷比門檻。 \ncross-source-synthesis：2026-w34、2026-w35 與 pmid-42719368 \n症狀與功能 \n投球症狀、臨床活動度與功能評估 \n由投手描述變化，交由防護及醫療人員按問題選擇檢查。 \n異常當下、調整後及進階前 \n球速與出手位置正常不能代替臨床評估。 \nmixed：課程肩部評估原則與本報提案 \n其他症狀來源 \n腰背及後側大腿病史 \n若出現相关症狀或局部解釋不足，由臨床人員決定是否擴大腰椎評估。 \n症狀出現或反覆時 \n不因診斷共存研究例行安排影像。 \ncross-source-synthesis：pmid-42714926；非投手專屬證據 \n補充品情境 \n近期新增產品、目的及使用紀錄 \n記錄變更並交由營養或醫療專業討論，不用菌相假說解釋未明疲勞。 \n首次評估及使用變更時 \n未建立抗疲勞補充處方或菌相檢測目標。 \n量測定義取自所附來源；頻率、紀錄安排及決策銜接為 EDGE SPORT 提案或跨來源整合。此評估組合尚未經前瞻性驗證。 \n第一階段：確認訊號與建立可比較基線 \n首次建立監測或發現變化時啟動；沒有經驗證的基線天數或固定階段長度。 \n確認球速變化是否可比較。 \n整理個人既有表現、症狀與投球暴露。 \n已有或準備開始規律投球追蹤。 \n若已有醫療限制，先依該限制安排活動。 \n依球種整理既有健康且情境可比的資料，不為建立基線額外安排最大強度投球。 \n標記裝置、球種比例、先發／後援角色及活動情境的改變。 \n同步詢問症狀、恢復感受與近期課表，指定團隊成員負責整理及回報。 \n此階段安排資料與評估，不新增投球劑量；來源未提供建立安全基線所需的場次或球數。 \n資料缺漏與單位一致性。 \n同球種平均值及場內標準差。 \n症狀、恢復與可用性。 \n資料足以區分主要情境差異。 \n團隊已確認是否需要先接受臨床評估，再進入第二階段。 \n資料不可比時回到資料核對。 \n症狀或功能改變使繼續投球的適切性不明時，轉入評估與停訓規則。 \n第二階段：調整暴露並觀察反應 \n確認持續表現變化或恢復問題後；持續多久及需要幾次觀察均未建立。 \n以可追蹤調整檢查負荷與反應。 \n釐清是否存在需醫療處理的症狀或功能問題。 \n已完成資料核對。 \n防護及醫療團隊認為可在限制下繼續活動，或已安排必要評估。 \n由團隊選擇調整投球量、強度、密度或角色，記錄選擇理由。 \n在情況允許時減少同時改變的項目，方便理解後續反應；臨床需要優先。 \n持續下降時重新檢查症狀與可能來源，不要求以補充品或刻意改變動作變異恢復球速。 \n沒有來源支持的固定減量百分比、休息天數或每週增減量；依個人既有暴露、反應及專業評估安排並記錄。 \n調整後活動當次及隔日的症狀與恢復。 \n相同球種球速是否持續偏離個人可比資料。 \n是否能完成已同意的活動內容。 \n已完成安排的活動，反應符合團隊事先議定的個別可接受範圍。 \n症狀與功能沒有持續惡化，且團隊確認可試行下一項需求。 \n相同或較低暴露下仍出現持續惡化。 \n新增症狀、功能問題或資料疑義，回到第一階段核對並重新評估。 \n第三階段：逐步接回原有需求並持續回顧 \n調整後反應可接受且團隊同意進階時；無固定完成週數。 \n區分能參與調整活動、能承受完整運動需求及恢復原有表現。 \n觀察較真實的訓練與比賽密度下是否維持功能。 \n第二階段反應已獲團隊檢視。 \n若曾被醫療限制投球，已有適當專業評估支持下一步活動。 \n逐步放回原先調整的投球需求，每次註明此次增加的是哪一項。 \n合併球速、症狀、功能、恢復與角色需求作決定。 \n保留每週回顧，即使單次球速恢復也繼續追蹤。 \n進階幅度、投球間隔與比賽安排由團隊個別訂定；本週沒有驗證過的復投或回場劑量。 \n增加需求後的當次及隔日反應。 \n同球種跨場趨勢。 \n完整訓練可用性及是否再度需要調整。 \n在目前需求下表現與症狀反應可接受，且團隊同意下一次暴露。 \n恢復完整參與與恢復原有表現分別記錄。 \n球速再度持續下降或症狀惡化，退回最近可接受的安排並重評。 \n出現新的醫療限制時依專業決定停止或修改活動。 \n以同球種、相近角色與可比較量測流程的個人歷史資料為基準，並列投球數、訓練內容與恢復紀錄；沒有最低基線場次的臨床驗證。 \nEDGE SPORT 提案：每次明確記錄調整的暴露及理由，先檢視反應再決定下一步；不套用固定百分比、急慢性負荷比或研究平均斜率作通關條件。 \n外部暴露包含可取得的投球數與活動內容，內部反應包含 RPE、恢復感受及症狀；比賽與訓練資料分別標記。資料缺漏時保留不確定性。 \n延續第 34 週的決策節奏，安排投手、教練、防護及必要醫療人員每週回顧：核對趨勢、檢視前次調整反應，決定維持、修改或轉評估；異常症狀不等每週會議才處理。 \n同球種球速出現持續下降，但資料品質、症狀或暴露原因尚未釐清。 \n暫緩進階，核對資料並啟動團隊評估；由現場人員依情境決定是否修改或終止當次投球。 \n資料疑義已釐清，已檢視症狀與負荷，且團隊訂出下一次可監測的活動安排。 \nmodify \n投球伴隨症狀或功能惡化，使原定活動能否繼續已不明確，或已收到專業停投指示。 \n停止當次投球並交由防護或醫療人員評估；不以出手位置穩定或單次球速恢復取代評估。 \n由適當專業人員確認可恢復的活動範圍，並重新安排症狀及暴露監測。 \nstop \n現場醫療專業人員判定需要急迫處理的症狀、傷害或功能異常。 \n停止活動並立即依既有醫療應變流程轉介；所附資料未提供急症徵象清單，本報不另創診斷規則。 \n急迫問題已完成醫療處置，並依處置團隊的後續活動安排重新評估。 \nurgent-referral \n表現趨勢 \n主要速球與主要變化球的每次出賽平均球速 \n每次取得可靠投球資料後 \n與個人可比資料及當次情境一起判讀；不設定來源未驗證的下降切點。 \n症狀與恢復 \n一致方式記錄投球症狀、恢復感受及專業功能評估 \n活動後、隔日及進階前；此頻率為流程提案 \n辨識是否持續惡化或無法承受已同意的活動，不以單一數值認定痊癒。 \n運動參與 \n實際完成的訓練／比賽內容與受限原因 \n每次活動及每週回顧 \n分別記錄調整參與、完整運動需求與原有表現；本期沒有肩部回場通關標準。 \n流程成效 \n異常發現、資料核對、專業評估與調整後結果的紀錄 \n每次異常及每週回顧 \n檢查決策是否可追溯；流程執行良好不代表已證明降低傷害。 \n球速下降可能是值得注意的訊號，但假警報可能造成不必要限制，漏警報也可能讓傷害未被察覺；研究未提供分類準確度。 \n高輸出與低場內變異的關聯不能證明因果，也不支持刻意增加動作變異或普遍降低球速。 \n腰椎與腿後肌資料來自一般就醫族群，只能在出現相關症狀時作評估參考，不能直接量化投手風險。 \n天然產物證據不足以作為處理未明疲勞的既定方案；新增產品不應取代對症狀與暴露的評估。 \n本流程不能取代既有醫療限制；青少年、業餘投手及術後族群需要另外評估適用性。 \n尚未知道哪種球速下降幅度或持續時間最能支持個人決策。 \n尚未證明監測後減量、休息、換投或其他介入能降低肩部修補手術的發生。 \n研究無法確定球速下降與病理起始的先後，也可能漏掉更早的變化。 \n沒有已驗證的基線長度、負荷增減量、恢復時間或復投通關門檻。 \n本期研究沒有直接支持把菌相指標、步數或腰椎影像加入所有投手的常規傷害篩檢。 \n決策流程 \n成人競技投手出現持續球速下降、恢復變差或新的投球症狀。 \n是否已由現場醫療人員判定有急迫處理需求？ \n停止活動並立即依既有醫療流程轉介；後續活動由處置團隊決定。 \n檢查是否有症狀、功能惡化或既有停投指示。 \n症狀或功能變化是否使繼續投球的適切性不明，或已有停投指示？ \n停止當次投球並接受專業評估，再決定可恢復的範圍。 \n進入球種、裝置及情境的資料核對。 \n目前資料能否與個人既有資料作同球種、相近情境的比較？ \n檢查是否存在持續趨勢，並與投球暴露及恢復紀錄並讀。 \n標記缺漏或量測差異，先修正紀錄；不為補資料額外增加高強度投球。 \n是否存在持續球速下降或恢復變差，值得調整或進一步評估？ \n由團隊安排臨床討論及可追蹤的暴露調整，進入第二階段。 \n維持監測與例行回顧；沒有下降不能排除傷害。 \n調整後症狀、功能及活動反應是否符合團隊議定的個別可接受範圍？ \n逐步接回下一項需求，持續記錄當次與隔日反應。 \n退回最近可接受的安排或停止投球，重新評估資料、症狀及可能來源。 \n是否已能承受完整需求，且團隊同意目前活動安排？ \n分別記錄完整參與與表現恢復狀態，繼續每週回顧。 \n維持分階段安排，不以單次球速回升作完整回場依據。 \n此流程為教育性決策支持，整合來源與 EDGE SPORT 工作流程提案，未經臨床驗證，也不構成個別醫療許可。來源未提供急症徵象清單或數值停投門檻，急迫判斷及活動限制依醫療專業處理。 \n本週知識進展與適用邊界 \n比較焦點 \ninClass 知識 \n前期週報 \n本週新研究 \n疲勞與恢復 \n棒球課程介紹握力、跳躍等疲勞監測。 \n第 34、35 週重視恢復情境與個人趨勢。 \n天然產物綜述加入菌相機轉，但缺乏直接人體及監測流程驗證。 \n活動量與強度 \n穿戴科技課程提供量測背景；跑步步頻屬技術情境。 \n沒有步數與死亡率的直接對照。 \n步數與 PK30 的組合與死亡風險相關，不能移用跑步技術門檻。 \n局部症狀與其他來源 \n軀幹及下肢解剖課程提供評估背景。 \n沒有腰椎與腿後肌診斷的直接資料。 \n一般就醫族群有診斷共存訊號，但未確立因果或影像篩檢效益。 \n投球機轉與表現變化 \n肩部及棒球課程關注機轉、動能鏈與負荷。 \n第 34、35 週支持負荷脈絡、量測品質及個人趨勢。 \nMLB 病例資料新增傷前球速下降訊號；低場內變異不能直接解讀為安全。 \n進階與共享決策 \nACL 課程介紹多因子及共享決策背景。 \n第 37 週區分參與、運動與表現。 \n可延伸為投手監測工作流程，但本週未驗證復投或回場標準。 \nautomated \ncodex \n2026-09-12T18:27:56.715Z \n2026-09-13T03:58:27.051Z \nNatural products alleviate exercise-induced fatigue by modulating gut microbiota: a systematic review. \nJournal of the International Society of Sports Nutrition \n2026-09-07 \nCombinations of stepping intensity and daily step counts against all-cause and cardiovascular disease mortality: insights from a device-based prospective study. \nBritish journal of sports medicine \n2026-09-08 \nAssociation of Lumbar Spine Pathology and Hamstring Injury Diagnosis - A Retrospective Matched Cohort Study. \nClinical journal of sport medicine : official journal of the Canadian Academy of Sport Medicine \n2026-09-09 \nPitch-Tracking Risk Factors and Warning Signs for Shoulder Capsulolabral Injuries in Major League Baseball Pitchers. \nOrthopaedic journal of sports medicine \n0817林世奇-馬拉松常見運動傷害 \n0818-生物力學 I-III \n0719傅士豪-上肢、下肢及軀幹解剖與肌動學 \n(8)0921周伯禧-手術治療-肩關節 \n0518周文毅-棒球選手運動傷害機轉及醫學影像判讀 \n訓練負荷監測：用趨勢管理不確定性 \n2026-08-22 \ncurated-issue \n從 CMJ 到決策：不要只追蹤跳得多高 \n2026-08-29 \nACL 重建後，如何從回場走向回到表現？ \n2026-09-12"
+    },
+    {
+      "id": "research:pmid-42760819",
+      "sourceId": "pmid-42760819",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-18",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Agreement and repeatability between manual anthropometry and mobile 3D digital anthropometry in young adults.",
+      "summary": "Journal of the International Society of Sports Nutrition收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "營養與水合"
+      ],
+      "href": "?radar=pmid-42760819#research-radar",
+      "sourceUrl": "https://doi.org/10.1080/15502783.2026.2724094",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "detail": "Journal of the International Society of Sports Nutrition · PMID 42760819",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n營養與水合 \npmid-42760819 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nAgreement and repeatability between manual anthropometry and mobile 3D digital anthropometry in young adults. \n2026-09-18 \n2026-12-30 \nNácher-Fernández B \nVaquero-Cristóbal R \nAlbaladejo-Saura M \nValero-Zorraquino J \nBallester A \nBaglietto N \nMecherques M \nEsparza-Ros F \nJournal Article \n10.1080/15502783.2026.2724094 \n42760819 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42758003",
+      "sourceId": "pmid-42758003",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-18",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Assessing Inter-rater Reliability and Intra-rater Reliability During the 2-Minute Hand-Release Push-Up Event in the Army Fitness Test.",
+      "summary": "Journal of strength and conditioning research收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "肌力與爆發力"
+      ],
+      "href": "?radar=pmid-42758003#research-radar",
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005673",
+      "journal": "Journal of strength and conditioning research",
+      "detail": "Journal of strength and conditioning research · PMID 42758003",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \npmid-42758003 \ndiscovered \njournal-article \njsc \nJournal of strength and conditioning research \nJ Strength Cond Res \nAssessing Inter-rater Reliability and Intra-rater Reliability During the 2-Minute Hand-Release Push-Up Event in the Army Fitness Test. \n2026-09-18 \nVan Dam D \nGidaro R \nFerreira S \nMorogiello J \nJaffe D \nSemmel A \nJournal Article \n10.1519/JSC.0000000000005673 \n42758003 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42759564",
+      "sourceId": "pmid-42759564",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-18",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Effects of concurrent high-intensity interval training and strength training on muscle function and aerobic capacity.",
+      "summary": "International journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "肌力與體能"
+      ],
+      "tags": [
+        "肌力與爆發力",
+        "肌力與體能"
+      ],
+      "href": "?radar=pmid-42759564#research-radar",
+      "sourceUrl": "https://doi.org/10.1055/a-2943-8779",
+      "journal": "International journal of sports medicine",
+      "detail": "International journal of sports medicine · PMID 42759564",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \n肌力與體能 \npmid-42759564 \ndiscovered \njournal-article \nijsm \nInternational journal of sports medicine \nInt J Sports Med \nEffects of concurrent high-intensity interval training and strength training on muscle function and aerobic capacity. \n2026-09-18 \nKikuchi S \nZempo H \nKamiya-Saito M \nInoguchi T \nOyabe S \nHomma H \nShinchi K \nMochizuki Y \nKikuchi N \nJournal Article \n10.1055/a-2943-8779 \n42759564 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42757658",
+      "sourceId": "pmid-42757658",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-18",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Improving anterior cruciate ligament reconstruction outcomes using a unified return-to-sport communication framework.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節",
+        "回場與復健"
+      ],
+      "href": "?radar=pmid-42757658#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70619",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42757658",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \n回場與復健 \npmid-42757658 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nImproving anterior cruciate ligament reconstruction outcomes using a unified return-to-sport communication framework. \n2026-09-18 \nKorkmaz T \nInce Y \nJournal Article \n10.1002/ksa.70619 \n42757658 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42759563",
+      "sourceId": "pmid-42759563",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-18",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Less Deviation of Shoulder Elevation Is Associated with Ball Velocity in National Collegiate Athletic Association Division I.",
+      "summary": "International journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "肩與上肢"
+      ],
+      "href": "?radar=pmid-42759563#research-radar",
+      "sourceUrl": "https://doi.org/10.1055/a-2951-0697",
+      "journal": "International journal of sports medicine",
+      "detail": "International journal of sports medicine · PMID 42759563",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肩與上肢 \npmid-42759563 \ndiscovered \njournal-article \nijsm \nInternational journal of sports medicine \nInt J Sports Med \nLess Deviation of Shoulder Elevation Is Associated with Ball Velocity in National Collegiate Athletic Association Division I. \n2026-09-18 \nCheng KJ \nZappa RM \nJump IP \nPfund GN \nKlubertanz MR \nOliver GD \nJournal Article \n10.1055/a-2951-0697 \n42759563 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42757672",
+      "sourceId": "pmid-42757672",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-18",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "The right measure for the right question: A framework for domain-matched patient-reported outcome measure selection in knee arthroplasty research.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42757672#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70620",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42757672",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42757672 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nThe right measure for the right question: A framework for domain-matched patient-reported outcome measure selection in knee arthroplasty research. \n2026-09-18 \nPichler L \nEl Kayali MKD \nvon Eisenhart-Rothe R \nLustig S \nTandogan R \nCampi S \nLeal-Blanquet J \nArnold MP \nPrice AJ \nHirschmann MT \nBurger JA \nEditorial \n10.1002/ksa.70620 \n42757672 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42750653",
+      "sourceId": "pmid-42750653",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "A Novel Preclinical Mouse Model of Voluntary Active Stretching Suppresses Mammary Tumor Progression.",
+      "summary": "Medicine and science in sports and exercise收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42750653#research-radar",
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004150",
+      "journal": "Medicine and science in sports and exercise",
+      "detail": "Medicine and science in sports and exercise · PMID 42750653",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42750653 \ndiscovered \njournal-article \nmsse \nMedicine and science in sports and exercise \nMed Sci Sports Exerc \nA Novel Preclinical Mouse Model of Voluntary Active Stretching Suppresses Mammary Tumor Progression. \n2026-09-17 \nHe Y \nBerrueta L \nWang Y \nBadger GJ \nLangevin HM \nJournal Article \n10.1249/MSS.0000000000004150 \n42750653 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42753248",
+      "sourceId": "pmid-42753248",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Comparable functional outcomes after total hip arthroplasty in patients with and without prior ipsilateral hip arthroscopy: A comparative cohort study.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42753248#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70590",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42753248",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42753248 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nComparable functional outcomes after total hip arthroplasty in patients with and without prior ipsilateral hip arthroscopy: A comparative cohort study. \n2026-09-17 \nKrautter J \nFeil S \nThorey F \nJournal Article \n10.1002/ksa.70590 \n42753248 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42692805",
+      "sourceId": "pmid-42692805",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Digital therapeutic combining exercise and cognitive-behavioural therapy reduces pain in patients with chronic patellofemoral pain: a multicentre randomised controlled trial.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "心理與神經認知"
+      ],
+      "href": "?radar=pmid-42692805#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2025-110863",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42692805",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n心理與神經認知 \npmid-42692805 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nDigital therapeutic combining exercise and cognitive-behavioural therapy reduces pain in patients with chronic patellofemoral pain: a multicentre randomised controlled trial. \n2026-09-17 \nPark JY \nLee S \nKim JM \nLee SH \nChang MJ \nChung KS \nKim MS \nKim SH \nRyu DJ \nPark TH \nChoi CH \nYoon C \nChang CB \nKim JG \nJournal Article \n10.1136/bjsports-2025-110863 \n42692805 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42750645",
+      "sourceId": "pmid-42750645",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Does Training Status Influence Myokine Levels and Cancer Cell Survival In Vitro? Effects of a Single Bout of Exercise in Breast Cancer Survivors.",
+      "summary": "Medicine and science in sports and exercise收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42750645#research-radar",
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004149",
+      "journal": "Medicine and science in sports and exercise",
+      "detail": "Medicine and science in sports and exercise · PMID 42750645",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42750645 \ndiscovered \njournal-article \nmsse \nMedicine and science in sports and exercise \nMed Sci Sports Exerc \nDoes Training Status Influence Myokine Levels and Cancer Cell Survival In Vitro? Effects of a Single Bout of Exercise in Breast Cancer Survivors. \n2026-09-17 \nBettariga F \nTaaffe DR \nCrespo-Garcia C \nMarkarian AM \nClay TD \nCampbell JP \nAdhikari S \nGray ES \nHart NH \nGalvão DA \nNewton RU \nJournal Article \n10.1249/MSS.0000000000004149 \n42750645 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42752819",
+      "sourceId": "pmid-42752819",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Effects of Resistance Training on Muscle Hypertrophy in Children and Adolescents: A Systematic Review and Meta-Analysis.",
+      "summary": "Sports medicine (Auckland, N.Z.)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "肌力與體能"
+      ],
+      "tags": [
+        "肌力與爆發力",
+        "兒童與青少年",
+        "肌力與體能"
+      ],
+      "href": "?radar=pmid-42752819#research-radar",
+      "sourceUrl": "https://doi.org/10.1007/s40279-026-02499-0",
+      "journal": "Sports medicine (Auckland, N.Z.)",
+      "detail": "Sports medicine (Auckland, N.Z.) · PMID 42752819",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \n兒童與青少年 \n肌力與體能 \npmid-42752819 \ndiscovered \njournal-article \nsports-medicine \nSports medicine (Auckland, N.Z.) \nSports Med \nEffects of Resistance Training on Muscle Hypertrophy in Children and Adolescents: A Systematic Review and Meta-Analysis. \n2026-09-17 \nKomm Y \nZeiler L \nHeld S \nComfort P \nFaigenbaum A \nGeisler S \nAugste C \nJournal Article \nSystematic Review \n10.1007/s40279-026-02499-0 \n42752819 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754377",
+      "sourceId": "pmid-42754377",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Examining the pregnancy and postpartum experiences of Para athletes in elite sport: a qualitative description study.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "女性運動員健康"
+      ],
+      "href": "?radar=pmid-42754377#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2025-111432",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42754377",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n女性運動員健康 \npmid-42754377 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nExamining the pregnancy and postpartum experiences of Para athletes in elite sport: a qualitative description study. \n2026-09-17 \nGavel-Pinos EH \nMcHugh TL \nDavenport MH \nJournal Article \n10.1136/bjsports-2025-111432 \n42754377 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42692802",
+      "sourceId": "pmid-42692802",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Expanding the picture of driver performance in motorsport: a more in-depth look at the cognitive demands of racing.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "心理與神經認知"
+      ],
+      "href": "?radar=pmid-42692802#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-111885",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42692802",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n心理與神經認知 \npmid-42692802 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nExpanding the picture of driver performance in motorsport: a more in-depth look at the cognitive demands of racing. \n2026-09-17 \nLe Viennesse C \nLoiseau Taupin M \nDeschamps T \nJournal Article \n10.1136/bjsports-2026-111885 \n42692802 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754381",
+      "sourceId": "pmid-42754381",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Hamstring recovery after repeated-sprints, football match play and flywheel eccentric loading: 72 hours may not be enough (PhD Academy Award).",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "足踝",
+        "恢復與睡眠"
+      ],
+      "href": "?radar=pmid-42754381#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-112417",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42754381",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n足踝 \n恢復與睡眠 \npmid-42754381 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nHamstring recovery after repeated-sprints, football match play and flywheel eccentric loading: 72 hours may not be enough (PhD Academy Award). \n2026-09-17 \nCosio PL \nJournal Article \n10.1136/bjsports-2026-112417 \n42754381 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42759112",
+      "sourceId": "pmid-42759112",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Immediate and fatigue-related effects of subtalar sling taping in individuals with chronic ankle instability.",
+      "summary": "Physical therapy in sport : official journal of the Association of Chartered Physiotherapists in Sports Medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "足踝",
+        "恢復與睡眠"
+      ],
+      "href": "?radar=pmid-42759112#research-radar",
+      "sourceUrl": "https://doi.org/10.1016/j.ptsp.2026.101996",
+      "journal": "Physical therapy in sport : official journal of the Association of Chartered Physiotherapists in Sports Medicine",
+      "detail": "Physical therapy in sport : official journal of the Association of Chartered Physiotherapists in Sports Medicine · PMID 42759112",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n足踝 \n恢復與睡眠 \npmid-42759112 \ndiscovered \njournal-article \npts \nPhysical therapy in sport : official journal of the Association of Chartered Physiotherapists in Sports Medicine \nPhys Ther Sport \nImmediate and fatigue-related effects of subtalar sling taping in individuals with chronic ankle instability. \n2026-09-17 \nSekibağ OA \nBadıllı Hantal FŞ \nJournal Article \n10.1016/j.ptsp.2026.101996 \n42759112 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754383",
+      "sourceId": "pmid-42754383",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Maternal and fetal cardiovascular response to moderate-to-vigorous intensity exercise in singleton and twin pregnancies.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "女性運動員健康",
+        "運動心臟與健康"
+      ],
+      "href": "?radar=pmid-42754383#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-111977",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42754383",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n女性運動員健康 \n運動心臟與健康 \npmid-42754383 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nMaternal and fetal cardiovascular response to moderate-to-vigorous intensity exercise in singleton and twin pregnancies. \n2026-09-17 \nSteinback CD \nMeah VL \nHornberger LK \nTrakulmungkichkarn T \nWowdzia JB \nBrislane A \nKhurana R \nHowse R \nJames M \nOsachoff L \nCulliford-Semmens N \nDavenport MH \nJournal Article \n10.1136/bjsports-2026-111977 \n42754383 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754146",
+      "sourceId": "pmid-42754146",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Methylome-transcriptome integration reveals molecular signatures of intrinsic aerobic capacity in aged skeletal muscle.",
+      "summary": "Journal of sport and health science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42754146#research-radar",
+      "sourceUrl": "https://doi.org/10.1016/j.jshs.2026.101178",
+      "journal": "Journal of sport and health science",
+      "detail": "Journal of sport and health science · PMID 42754146",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42754146 \ndiscovered \njournal-article \njshs \nJournal of sport and health science \nJ Sport Health Sci \nMethylome-transcriptome integration reveals molecular signatures of intrinsic aerobic capacity in aged skeletal muscle. \n2026-09-17 \nZhou L \nMozaffaritabar S \nTorma F \nKoltai E \nKawamura T \nHiguchi M \nZhong Z \nKoch LG \nBritton SL \nRadák Z \nJournal Article \n10.1016/j.jshs.2026.101178 \n42754146 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754145",
+      "sourceId": "pmid-42754145",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Neural and computational mechanisms of embodied learning: From brain-body interaction to translational applications.",
+      "summary": "Journal of sport and health science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42754145#research-radar",
+      "sourceUrl": "https://doi.org/10.1016/j.jshs.2026.101177",
+      "journal": "Journal of sport and health science",
+      "detail": "Journal of sport and health science · PMID 42754145",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42754145 \ndiscovered \njournal-article \njshs \nJournal of sport and health science \nJ Sport Health Sci \nNeural and computational mechanisms of embodied learning: From brain-body interaction to translational applications. \n2026-09-17 \nYu Q \nZhang Z \nWang P \nRaab M \nHerold F \nHeath M \nMavilidi M \nPaas F \nZou L \nJournal Article \nReview \n10.1016/j.jshs.2026.101177 \n42754145 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754144",
+      "sourceId": "pmid-42754144",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Participation in an exercise program after primary glioblastoma diagnosis is associated with attenuated tumor volume, performance status decline, and development of sarcopenic adiposity at recurrence.",
+      "summary": "Journal of sport and health science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42754144#research-radar",
+      "sourceUrl": "https://doi.org/10.1016/j.jshs.2026.101176",
+      "journal": "Journal of sport and health science",
+      "detail": "Journal of sport and health science · PMID 42754144",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42754144 \ndiscovered \njournal-article \njshs \nJournal of sport and health science \nJ Sport Health Sci \nParticipation in an exercise program after primary glioblastoma diagnosis is associated with attenuated tumor volume, performance status decline, and development of sarcopenic adiposity at recurrence. \n2026-09-17 \nTroschel FM \nEngl J \nTroschel BO \nPotthoff R \nPepper NB \nBrandt R \nKloss M \nWiewrodt R \nStummer W \nWiewrodt D \nEich HT \nJournal Article \n10.1016/j.jshs.2026.101176 \n42754144 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42753234",
+      "sourceId": "pmid-42753234",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Peroneus longus tendon autograft for anterior cruciate ligament reconstruction: Current evidence, donor-site complications and patient selection.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42753234#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70616",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42753234",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42753234 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nPeroneus longus tendon autograft for anterior cruciate ligament reconstruction: Current evidence, donor-site complications and patient selection. \n2026-09-17 \nOkutan AE \nBudhiparama N \nHerbort M \nKöse Ö \nPetersen W \nWierer G \nErden T \nHerbst E \nTischer T \nHirschmann MT \nSeil R \nTurhan AU \nKayaalp ME \nEditorial \n10.1002/ksa.70616 \n42753234 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754376",
+      "sourceId": "pmid-42754376",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "POWER: Unlocking the potential of wearables for population health research in low-resource settings.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "肌力與爆發力",
+        "量測與科技"
+      ],
+      "href": "?radar=pmid-42754376#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-111894",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42754376",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \n量測與科技 \npmid-42754376 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nPOWER: Unlocking the potential of wearables for population health research in low-resource settings. \n2026-09-17 \nAtkin AJ \nAmornsriwatanakul A \nBello-Chavolla OY \nDoherty A \nFlorindo AA \nJamal R \nKabudula C \nMilton K \nDel Pozo Cruz B \nRennie KL \nSherar LB \nWright CY \nMicklesfield LK \nEditorial \n10.1136/bjsports-2026-111894 \n42754376 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754380",
+      "sourceId": "pmid-42754380",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Precision exercise prescription for substance use disorders: a sports medicine framework for tailoring therapeutic protocols to substance type and psychological phenotype.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "運動心臟與健康",
+        "心理與神經認知"
+      ],
+      "href": "?radar=pmid-42754380#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-111818",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42754380",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n運動心臟與健康 \n心理與神經認知 \npmid-42754380 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nPrecision exercise prescription for substance use disorders: a sports medicine framework for tailoring therapeutic protocols to substance type and psychological phenotype. \n2026-09-17 \nChamari K \nDhahbi W \nIbrahim I \nAl Ali H \nAl Kuwari K \nToufiq J \nEditorial \n10.1136/bjsports-2026-111818 \n42754380 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42753236",
+      "sourceId": "pmid-42753236",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Preserved anterolateral ligament graft continuity on MRI and lower knee laxity after ACL graft failure than before index combined ACL-ALL reconstruction: A retrospective case series.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42753236#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70618",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42753236",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42753236 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nPreserved anterolateral ligament graft continuity on MRI and lower knee laxity after ACL graft failure than before index combined ACL-ALL reconstruction: A retrospective case series. \n2026-09-17 \nLeão RV \nTakamune DM \nda Silva AGM \nCamerin GR \nAriel de Lima D \nHelito CP \nJournal Article \n10.1002/ksa.70618 \n42753236 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754379",
+      "sourceId": "pmid-42754379",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Prevalence and significance of anterior T-wave inversion in elite football players in the United Kingdom.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "足球"
+      ],
+      "tags": [
+        "足踝",
+        "足球"
+      ],
+      "href": "?radar=pmid-42754379#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-112060",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42754379",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n足踝 \n足球 \npmid-42754379 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nPrevalence and significance of anterior T-wave inversion in elite football players in the United Kingdom. \n2026-09-17 \nYamagata K \nCastelletti S \nYeo TJ \nFinocchiaro G \nMarwaha S \nBhatia RT \nAugustine D \nBowes M \nClift P \nCooper RM \nKenny A \nKeteepe-Arachi T \nOxborough D \nPatel K \nRakhit D \nRipley D \nRamcharan T \nStebbings GK \nVarnava AM \nWalsh J \nYousef Z \nCowie CM \nMcPhee JS \nDrezner JA \nSharma S \nMalhotra A \nJournal Article \n10.1136/bjsports-2026-112060 \n42754379 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42753252",
+      "sourceId": "pmid-42753252",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Robotic total knee arthroplasty: Have technological advances translated into clinical value?",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42753252#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70627",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42753252",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42753252 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nRobotic total knee arthroplasty: Have technological advances translated into clinical value? \n2026-09-17 \nAbul MS \nYılmaz H \nTuncay İ \nEditorial \n10.1002/ksa.70627 \n42753252 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754382",
+      "sourceId": "pmid-42754382",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Strategy over output: Why how an athlete moves matters as much as what they achieve in return-to-play decision making.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42754382#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-111763",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42754382",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42754382 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nStrategy over output: Why how an athlete moves matters as much as what they achieve in return-to-play decision making. \n2026-09-17 \nvan der Horst N \nJournal Article \n10.1136/bjsports-2026-111763 \n42754382 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42750656",
+      "sourceId": "pmid-42750656",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "The Impact of Air Temperature, Relative Humidity, and Solar Irradiance on Ultramarathon Running Speed in Women and Men.",
+      "summary": "Medicine and science in sports and exercise收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "跑步與田徑"
+      ],
+      "tags": [
+        "跑步與田徑"
+      ],
+      "href": "?radar=pmid-42750656#research-radar",
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004148",
+      "journal": "Medicine and science in sports and exercise",
+      "detail": "Medicine and science in sports and exercise · PMID 42750656",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n跑步與田徑 \npmid-42750656 \ndiscovered \njournal-article \nmsse \nMedicine and science in sports and exercise \nMed Sci Sports Exerc \nThe Impact of Air Temperature, Relative Humidity, and Solar Irradiance on Ultramarathon Running Speed in Women and Men. \n2026-09-17 \nStruška M \nHora M \nWall-Scheffler C \nSládek V \nJournal Article \n10.1249/MSS.0000000000004148 \n42750656 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754374",
+      "sourceId": "pmid-42754374",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "The iron triangle of elite sport: acknowledging the trade-offs between health, performance and availability.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42754374#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-112592",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42754374",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42754374 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nThe iron triangle of elite sport: acknowledging the trade-offs between health, performance and availability. \n2026-09-17 \nChia L \nStamatakis E \nYung KK \nPappas E \nEditorial \n10.1136/bjsports-2026-112592 \n42754374 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754375",
+      "sourceId": "pmid-42754375",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "The strength-risk continuum: reframing muscular weakness as a clinically relevant risk marker.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "肌力與爆發力"
+      ],
+      "href": "?radar=pmid-42754375#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-112013",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42754375",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \npmid-42754375 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nThe strength-risk continuum: reframing muscular weakness as a clinically relevant risk marker. \n2026-09-17 \nFaigenbaum AD \nMacDonald JP \nMortatti A \nVilla-González E \nRial Rebullido T \nEditorial \n10.1136/bjsports-2026-112013 \n42754375 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42754378",
+      "sourceId": "pmid-42754378",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-17",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Ultrasound-guided surgery in musculoskeletal care: a framework for responsible integration.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42754378#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-112612",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42754378",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42754378 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nUltrasound-guided surgery in musculoskeletal care: a framework for responsible integration. \n2026-09-17 \nLavigne A \nBoettcher BJ \nKhadavi M \nNazarian LN \nMarès O \nBoudier-Revéret M \nOmodani T \nSussman WI \nEditorial \n10.1136/bjsports-2026-112612 \n42754378 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42747830",
+      "sourceId": "pmid-42747830",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "A Practical Approach to Assess the Load-Velocity Profile in Sprint Swimming: Reliability of a Portable Resistance Device.",
+      "summary": "Journal of strength and conditioning research收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "游泳與水上運動"
+      ],
+      "tags": [
+        "肌力與爆發力",
+        "游泳與水上運動"
+      ],
+      "href": "?radar=pmid-42747830#research-radar",
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005678",
+      "journal": "Journal of strength and conditioning research",
+      "detail": "Journal of strength and conditioning research · PMID 42747830",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \n游泳與水上運動 \npmid-42747830 \ndiscovered \njournal-article \njsc \nJournal of strength and conditioning research \nJ Strength Cond Res \nA Practical Approach to Assess the Load-Velocity Profile in Sprint Swimming: Reliability of a Portable Resistance Device. \n2026-09-16 \nSalerno P \nFassone M \nBove M \nBisio A \nJournal Article \n10.1519/JSC.0000000000005678 \n42747830 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748360",
+      "sourceId": "pmid-42748360",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "ACL injury mechanism in elite and recreational handball players.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42748360#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70595",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42748360",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42748360 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nACL injury mechanism in elite and recreational handball players. \n2026-09-16 \nMayntzhusen TW \nBarfod KW \nAndersen FF \nHölmich P \nKaldau NC \nJournal Article \n10.1002/ksa.70595 \n42748360 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748970",
+      "sourceId": "pmid-42748970",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Assessing Shoulder Joint Kinematics During the Bench Press Exercise in Competitive Powerlifters With Markerless Motion Capture.",
+      "summary": "Journal of strength and conditioning research收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "肩與上肢",
+        "肌力與爆發力"
+      ],
+      "href": "?radar=pmid-42748970#research-radar",
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005593",
+      "journal": "Journal of strength and conditioning research",
+      "detail": "Journal of strength and conditioning research · PMID 42748970",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肩與上肢 \n肌力與爆發力 \npmid-42748970 \ndiscovered \njournal-article \njsc \nJournal of strength and conditioning research \nJ Strength Cond Res \nAssessing Shoulder Joint Kinematics During the Bench Press Exercise in Competitive Powerlifters With Markerless Motion Capture. \n2026-09-16 \nMotlagh JG \nLipps DB \nJournal Article \n10.1519/JSC.0000000000005593 \n42748970 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42747786",
+      "sourceId": "pmid-42747786",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Association between motor unit remodeling and inter-individual variability in muscle strength of older adults.",
+      "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "肌力與爆發力"
+      ],
+      "href": "?radar=pmid-42747786#research-radar",
+      "sourceUrl": "https://doi.org/10.1152/japplphysiol.90002.2026",
+      "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+      "detail": "Journal of applied physiology (Bethesda, Md. : 1985) · PMID 42747786",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \npmid-42747786 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nAssociation between motor unit remodeling and inter-individual variability in muscle strength of older adults. \n2026-09-16 \nKuniki M \nIgawa K \nNoto YI \nTakeda R \nWatanabe K \nJournal Article \n10.1152/japplphysiol.90002.2026 \n42747786 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42747199",
+      "sourceId": "pmid-42747199",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Comparative efficacy of exercise and nutritional interventions on serum IGF-1 levels in older adults with frailty and/or sarcopenia: A systematic review and network meta-analysis.",
+      "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "營養與水合"
+      ],
+      "href": "?radar=pmid-42747199#research-radar",
+      "sourceUrl": "https://doi.org/10.1080/02640414.2026.2732603",
+      "journal": "Journal of sports sciences",
+      "detail": "Journal of sports sciences · PMID 42747199",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n營養與水合 \npmid-42747199 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nComparative efficacy of exercise and nutritional interventions on serum IGF-1 levels in older adults with frailty and/or sarcopenia: A systematic review and network meta-analysis. \n2026-09-16 \nChu R \nLi M \nXie Y \nDu Y \nNi T \nJournal Article \nReview \n10.1080/02640414.2026.2732603 \n42747199 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:rss-acsm-updates-0d363bfb5fd5149b",
+      "sourceId": "rss-acsm-updates-0d363bfb5fd5149b",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Congress Averts Shutdown with Short-Term Funding Deal",
+      "summary": "American College of Sports Medicine updates收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=rss-acsm-updates-0d363bfb5fd5149b#research-radar",
+      "sourceUrl": "https://acsm.org/advocacy-updates-september-2026/",
+      "journal": "American College of Sports Medicine updates",
+      "detail": "American College of Sports Medicine updates · 官方來源",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nrss-acsm-updates-0d363bfb5fd5149b \ndiscovered \nofficial-update \nacsm-updates \nAmerican College of Sports Medicine updates \nCongress Averts Shutdown with Short-Term Funding Deal \n2026-09-16 \nckinser@acsm.org \nofficial-source \nAdvocacy; H.R. 6500; Public Health Policy; uniform grants regulation; uniform guidance \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748362",
+      "sourceId": "pmid-42748362",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Current concepts in isolated and combined injuries of the medial collateral ligament complex-Part I: Anatomy, biomechanics, clinical and radiological examination of the medial collateral ligament of the knee.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節",
+        "量測與科技"
+      ],
+      "href": "?radar=pmid-42748362#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70588",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42748362",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \n量測與科技 \npmid-42748362 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nCurrent concepts in isolated and combined injuries of the medial collateral ligament complex-Part I: Anatomy, biomechanics, clinical and radiological examination of the medial collateral ligament of the knee. \n2026-09-16 \nRuner A \nAmis A \nSmigielski R \nHerbst E \nKittl C \nWierer G \nBouguennec N \nCristiani R \nHoser C \nAbermann E \nWillinger L \nD'Ambrosi R \nSenorski EH \nGetgood A \nMusahl V \nBall S \nWilliams A \nMoatshe G \nSiebenlist S \nStrauss M \nLind M \nHerbort M \nSamuelsson K \nFink C \nRobinson J \nJournal Article \nReview \n10.1002/ksa.70588 \n42748362 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42750176",
+      "sourceId": "pmid-42750176",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Effect of blood flow restricted walking on cardiovascular fitness, muscular development, and functional performance in adults: A systematic review with meta-analysis.",
+      "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "運動心臟與健康"
+      ],
+      "href": "?radar=pmid-42750176#research-radar",
+      "sourceUrl": "https://doi.org/10.1080/02640414.2026.2732595",
+      "journal": "Journal of sports sciences",
+      "detail": "Journal of sports sciences · PMID 42750176",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n運動心臟與健康 \npmid-42750176 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nEffect of blood flow restricted walking on cardiovascular fitness, muscular development, and functional performance in adults: A systematic review with meta-analysis. \n2026-09-16 \nBeere M \nMckee JR \nSelva Raj I \nMarston KJ \nDe Marco K \nGalna B \nPeiffer JJ \nBrown B \nHill KD \nEdwards P \nScott BR \nJournal Article \nReview \n10.1080/02640414.2026.2732595 \n42750176 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748364",
+      "sourceId": "pmid-42748364",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Formal consensus on fast-track hip and knee arthroplasty: ESSKA/EKA, EHS and APAS recommendations for optimised recovery pathways in joint replacement surgeries.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節",
+        "恢復與睡眠"
+      ],
+      "href": "?radar=pmid-42748364#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70594",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42748364",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \n恢復與睡眠 \npmid-42748364 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nFormal consensus on fast-track hip and knee arthroplasty: ESSKA/EKA, EHS and APAS recommendations for optimised recovery pathways in joint replacement surgeries. \n2026-09-16 \nTotlis T \nKort N \nKort R \nBudhiparama NC \nCarulli C \nClarius M \nCoden G \nGamie Z \nGomberg B \nGrant A \nGuenther D \nHaddad FS \nKayani B \nKenanidis E \nKrólikowska A \nLiu D \nLumban-Gaol I \nMachado L \nNandi S \nPérez-Prieto D \nPrill R \nSmith E \nTandogan R \nTsiridis E \nBeek RV \nJournal Article \n10.1002/ksa.70594 \n42748364 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42753270",
+      "sourceId": "pmid-42753270",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Identification of Key Power Predictors of Bat Swing Speed in Youth Baseball Hitters Using PLS-SEM: Implications for Training Design.",
+      "summary": "Journal of strength and conditioning research收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "棒球"
+      ],
+      "tags": [
+        "肌力與爆發力",
+        "兒童與青少年",
+        "棒球"
+      ],
+      "href": "?radar=pmid-42753270#research-radar",
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005599",
+      "journal": "Journal of strength and conditioning research",
+      "detail": "Journal of strength and conditioning research · PMID 42753270",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \n兒童與青少年 \n棒球 \npmid-42753270 \ndiscovered \njournal-article \njsc \nJournal of strength and conditioning research \nJ Strength Cond Res \nIdentification of Key Power Predictors of Bat Swing Speed in Youth Baseball Hitters Using PLS-SEM: Implications for Training Design. \n2026-09-16 \nPark HS \nSong KJ \nLim YE \nKim JY \nYoon JH \nJournal Article \n10.1519/JSC.0000000000005599 \n42753270 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748358",
+      "sourceId": "pmid-42748358",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Increased medial posterior tibial slope is associated with greater postoperative anterior tibial translation over time after anterior cruciate ligament reconstruction.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42748358#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70597",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42748358",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42748358 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nIncreased medial posterior tibial slope is associated with greater postoperative anterior tibial translation over time after anterior cruciate ligament reconstruction. \n2026-09-16 \nPaul S \nGhandour M \nJacquet C \nKley K \nSammartino F \nOllivier M \nJournal Article \n10.1002/ksa.70597 \n42748358 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42749275",
+      "sourceId": "pmid-42749275",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Maximal Fat Oxidation Is Associated With Moderate- and High-Speed Running Performance During Competitive Matches in Youth National-Level Football Players: A Retrospective In-Season Study.",
+      "summary": "International journal of sports physiology and performance收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "足球",
+        "跑步與田徑"
+      ],
+      "tags": [
+        "足踝",
+        "兒童與青少年",
+        "足球",
+        "跑步與田徑"
+      ],
+      "href": "?radar=pmid-42749275#research-radar",
+      "sourceUrl": "https://doi.org/10.1123/ijspp.2026-0143",
+      "journal": "International journal of sports physiology and performance",
+      "detail": "International journal of sports physiology and performance · PMID 42749275",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n足踝 \n兒童與青少年 \n足球 \n跑步與田徑 \npmid-42749275 \ndiscovered \njournal-article \nijspp \nInternational journal of sports physiology and performance \nInt J Sports Physiol Perform \nMaximal Fat Oxidation Is Associated With Moderate- and High-Speed Running Performance During Competitive Matches in Youth National-Level Football Players: A Retrospective In-Season Study. \n2026-09-16 \nHernot P \nGuillotel A \nHoreau M \nBoumpoutou R \nBessière L \nSangnier S \nMartin D \nDerbré F \nJournal Article \n10.1123/ijspp.2026-0143 \n42749275 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748352",
+      "sourceId": "pmid-42748352",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Multidisciplinary perspectives on biologic augmentation in meniscal repair: Integrating surgical, radiological and rehabilitative insights.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42748352#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70609",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42748352",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42748352 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nMultidisciplinary perspectives on biologic augmentation in meniscal repair: Integrating surgical, radiological and rehabilitative insights. \n2026-09-16 \nDiril SK \nKoçak S \nOzyigit E \nAkcali A \nEkinci S \nJournal Article \n10.1002/ksa.70609 \n42748352 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748371",
+      "sourceId": "pmid-42748371",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Reframing knee injury and osteoarthritis outcome score-quality of life-defined 'subjective failure' after primary and revision posterior cruciate ligament reconstruction.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42748371#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70610",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42748371",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42748371 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nReframing knee injury and osteoarthritis outcome score-quality of life-defined 'subjective failure' after primary and revision posterior cruciate ligament reconstruction. \n2026-09-16 \nQu X \nTang X \nYang D \nChen B \nJournal Article \n10.1002/ksa.70610 \n42748371 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42749309",
+      "sourceId": "pmid-42749309",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Tendon investment framework: a new communication model for navigating load, symptoms and behaviour in tendinopathy.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42749309#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-112023",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42749309",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42749309 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nTendon investment framework: a new communication model for navigating load, symptoms and behaviour in tendinopathy. \n2026-09-16 \nNasser AM \nHopes ME \nGrimaldi A \nEditorial \n10.1136/bjsports-2026-112023 \n42749309 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748328",
+      "sourceId": "pmid-42748328",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "The clinical purpose of the scientific anterior cruciate ligament network international classification of arthrogenic muscle inhibition.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42748328#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70613",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42748328",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42748328 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nThe clinical purpose of the scientific anterior cruciate ligament network international classification of arthrogenic muscle inhibition. \n2026-09-16 \nCavaignac E \nLe Guen A \nMaffiuletti NA \nSonnery-Cottet B \nJournal Article \n10.1002/ksa.70613 \n42748328 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748368",
+      "sourceId": "pmid-42748368",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "The mechanism of injury's role in jump landing mechanics after anterior cruciate ligament reconstruction.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42748368#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70605",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42748368",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42748368 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nThe mechanism of injury's role in jump landing mechanics after anterior cruciate ligament reconstruction. \n2026-09-16 \nHopper HM \nBruce-Leicht AS \nHart JM \nThompson XD \nJournal Article \n10.1002/ksa.70605 \n42748368 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748367",
+      "sourceId": "pmid-42748367",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "The tibial slope-meniscal coupling index after ACL reconstruction: A promising rule-out marker, not yet a surgical trigger.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42748367#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70580",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42748367",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42748367 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nThe tibial slope-meniscal coupling index after ACL reconstruction: A promising rule-out marker, not yet a surgical trigger. \n2026-09-16 \nZhang R \nLu S \nJournal Article \n10.1002/ksa.70580 \n42748367 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42749310",
+      "sourceId": "pmid-42749310",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Treatable traits: expanding our approach to the assessment of breathlessness in athletes.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42749310#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-112128",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42749310",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42749310 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nTreatable traits: expanding our approach to the assessment of breathlessness in athletes. \n2026-09-16 \nHull JH \nClemm H \nEditorial \n10.1136/bjsports-2026-112128 \n42749310 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42748370",
+      "sourceId": "pmid-42748370",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-16",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Youth athlete development and the burden of musculoskeletal injuries: Implications of early sport specialisation.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節",
+        "兒童與青少年"
+      ],
+      "href": "?radar=pmid-42748370#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70601",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42748370",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \n兒童與青少年 \npmid-42748370 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nYouth athlete development and the burden of musculoskeletal injuries: Implications of early sport specialisation. \n2026-09-16 \nMaricot A \nTooth C \nNührenbörger C \nSeil R \nEditorial \n10.1002/ksa.70601 \n42748370 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42742980",
+      "sourceId": "pmid-42742980",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Cycle-to-cycle kinematic variability management in short course 100 m breaststroke.",
+      "summary": "Sports biomechanics收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "量測與科技"
+      ],
+      "href": "?radar=pmid-42742980#research-radar",
+      "sourceUrl": "https://doi.org/10.1080/14763141.2026.2733968",
+      "journal": "Sports biomechanics",
+      "detail": "Sports biomechanics · PMID 42742980",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n量測與科技 \npmid-42742980 \ndiscovered \njournal-article \nsports-biomechanics \nSports biomechanics \nSports Biomech \nCycle-to-cycle kinematic variability management in short course 100 m breaststroke. \n2026-09-15 \nLoisel C \nOlstad BH \nGuignard B \nLjødal I \nGonjo T \nSeifert L \nJournal Article \n10.1080/14763141.2026.2733968 \n42742980 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42744289",
+      "sourceId": "pmid-42744289",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Effect of Caffeine Intake on Fat Oxidation During and After Aerobic Exercise in Women Using Oral Contraceptives: A Randomized, Double-Blind, Crossover Trial.",
+      "summary": "International journal of sport nutrition and exercise metabolism收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "營養與水合"
+      ],
+      "href": "?radar=pmid-42744289#research-radar",
+      "sourceUrl": "https://doi.org/10.1123/ijsnem.2026-0081",
+      "journal": "International journal of sport nutrition and exercise metabolism",
+      "detail": "International journal of sport nutrition and exercise metabolism · PMID 42744289",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n營養與水合 \npmid-42744289 \ndiscovered \njournal-article \nijsnem \nInternational journal of sport nutrition and exercise metabolism \nInt J Sport Nutr Exerc Metab \nEffect of Caffeine Intake on Fat Oxidation During and After Aerobic Exercise in Women Using Oral Contraceptives: A Randomized, Double-Blind, Crossover Trial. \n2026-09-15 \nWanifuchi M \nMiyaguchi A \nHiramatsu J \nYamase H \nKamemoto K \nMatsuda T \nYamada M \nSakamaki-Sunaga M \nJournal Article \n10.1123/ijsnem.2026-0081 \n42744289 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42743001",
+      "sourceId": "pmid-42743001",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Exploring the associations of femoral neck anteversion and alpha angle with dynamic muscle function patterns in soccer players: a functional principal component analysis.",
+      "summary": "Sports biomechanics收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "足球"
+      ],
+      "tags": [
+        "量測與科技",
+        "足球"
+      ],
+      "href": "?radar=pmid-42743001#research-radar",
+      "sourceUrl": "https://doi.org/10.1080/14763141.2026.2733974",
+      "journal": "Sports biomechanics",
+      "detail": "Sports biomechanics · PMID 42743001",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n量測與科技 \n足球 \npmid-42743001 \ndiscovered \njournal-article \nsports-biomechanics \nSports biomechanics \nSports Biomech \nExploring the associations of femoral neck anteversion and alpha angle with dynamic muscle function patterns in soccer players: a functional principal component analysis. \n2026-09-15 \nSugano T \nKuboshita R \nTanabe T \nAzuma N \nNomura T \nHayashi S \nHitosugi M \nJournal Article \n10.1080/14763141.2026.2733974 \n42743001 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42743000",
+      "sourceId": "pmid-42743000",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Ground reaction force and joint force of the blocking leg in javelin throwing correlate with peak throwing shoulder velocity.",
+      "summary": "Sports biomechanics收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "游泳與水上運動"
+      ],
+      "tags": [
+        "肩與上肢",
+        "量測與科技",
+        "游泳與水上運動"
+      ],
+      "href": "?radar=pmid-42743000#research-radar",
+      "sourceUrl": "https://doi.org/10.1080/14763141.2026.2733971",
+      "journal": "Sports biomechanics",
+      "detail": "Sports biomechanics · PMID 42743000",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肩與上肢 \n量測與科技 \n游泳與水上運動 \npmid-42743000 \ndiscovered \njournal-article \nsports-biomechanics \nSports biomechanics \nSports Biomech \nGround reaction force and joint force of the blocking leg in javelin throwing correlate with peak throwing shoulder velocity. \n2026-09-15 \nMakino M \nTakigawa H \nTauchi K \nJournal Article \n10.1080/14763141.2026.2733971 \n42743000 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42744120",
+      "sourceId": "pmid-42744120",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "High tibial osteotomy reduces tensile force at the repair site in medial meniscus posterior segment radial tears at 90° of knee flexion: A porcine biomechanical study.",
+      "summary": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節",
+        "量測與科技"
+      ],
+      "href": "?radar=pmid-42744120#research-radar",
+      "sourceUrl": "https://doi.org/10.1016/j.jisako.2026.101216",
+      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
+      "detail": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine · PMID 42744120",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \n量測與科技 \npmid-42744120 \ndiscovered \njournal-article \njisakos \nJournal of ISAKOS : joint disorders & orthopaedic sports medicine \nJ ISAKOS \nHigh tibial osteotomy reduces tensile force at the repair site in medial meniscus posterior segment radial tears at 90° of knee flexion: A porcine biomechanical study. \n2026-09-15 \nHamaoka K \nKamiya T \nShiwaku K \nHorita K \nIkeda Y \nOkada Y \nEmori M \nTeramoto A \nJournal Article \n10.1016/j.jisako.2026.101216 \n42744120 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42745409",
+      "sourceId": "pmid-42745409",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Labral Repair With Concomitant Endoscopic Gluteus Medius and/or Minimus Repair: Outcomes at a Minimum 5-Year Follow-up Relative to a Propensity Score-Matched Control Group.",
+      "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42745409#research-radar",
+      "sourceUrl": "https://doi.org/10.1177/03635465261479917",
+      "journal": "The American journal of sports medicine",
+      "detail": "The American journal of sports medicine · PMID 42745409",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42745409 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nLabral Repair With Concomitant Endoscopic Gluteus Medius and/or Minimus Repair: Outcomes at a Minimum 5-Year Follow-up Relative to a Propensity Score-Matched Control Group. \n2026-09-15 \nSparks CA \nBrinkman JC \nMonty TL \nNho SJ \nJournal Article \n10.1177/03635465261479917 \n42745409 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42745400",
+      "sourceId": "pmid-42745400",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "More Horizontal ACL Posterolateral Bundle Position in Osteochondritis Dissecans of the Lateral Femoral Condyle.",
+      "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42745400#research-radar",
+      "sourceUrl": "https://doi.org/10.1177/03635465261479922",
+      "journal": "The American journal of sports medicine",
+      "detail": "The American journal of sports medicine · PMID 42745400",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42745400 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nMore Horizontal ACL Posterolateral Bundle Position in Osteochondritis Dissecans of the Lateral Femoral Condyle. \n2026-09-15 \nLehoczky G \nKhoo B \nLin Z \nShea KG \nJournal Article \n10.1177/03635465261479922 \n42745400 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42745412",
+      "sourceId": "pmid-42745412",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Outcomes and Return-to-Sport Rates of Competitive Athletes Treated for Femoroacetabular Impingement Syndrome With Contemporary Hip Arthroscopy Techniques: A Matched Comparison to Early Techniques.",
+      "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "回場與復健"
+      ],
+      "href": "?radar=pmid-42745412#research-radar",
+      "sourceUrl": "https://doi.org/10.1177/03635465261479923",
+      "journal": "The American journal of sports medicine",
+      "detail": "The American journal of sports medicine · PMID 42745412",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n回場與復健 \npmid-42745412 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nOutcomes and Return-to-Sport Rates of Competitive Athletes Treated for Femoroacetabular Impingement Syndrome With Contemporary Hip Arthroscopy Techniques: A Matched Comparison to Early Techniques. \n2026-09-15 \nSchab AR \nRana K \nWallace I \nQuesada-Jimenez R \nJimenez AE \nKuhns BD \nDomb BG \nJournal Article \n10.1177/03635465261479923 \n42745412 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42744121",
+      "sourceId": "pmid-42744121",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Platelet-Rich Plasma Provides Greater Pain Relief and Functional Improvement Than Hyaluronic Acid for Knee Osteoarthritis: A Systematic Review and Meta-analysis of Randomized Controlled Trials.",
+      "summary": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42744121#research-radar",
+      "sourceUrl": "https://doi.org/10.1016/j.jisako.2026.101218",
+      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
+      "detail": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine · PMID 42744121",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42744121 \ndiscovered \njournal-article \njisakos \nJournal of ISAKOS : joint disorders & orthopaedic sports medicine \nJ ISAKOS \nPlatelet-Rich Plasma Provides Greater Pain Relief and Functional Improvement Than Hyaluronic Acid for Knee Osteoarthritis: A Systematic Review and Meta-analysis of Randomized Controlled Trials. \n2026-09-15 \nAlshehri D \nSharaf RM \nAlmokhtar AA \nAlamri MK \nJournal Article \nReview \n10.1016/j.jisako.2026.101218 \n42744121 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42744658",
+      "sourceId": "pmid-42744658",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Structured exercise interventions and survival outcomes in patients with cancer: systematic review and meta-analysis of randomised controlled trials.",
+      "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42744658#research-radar",
+      "sourceUrl": "https://doi.org/10.1136/bjsports-2026-111664",
+      "journal": "British journal of sports medicine",
+      "detail": "British journal of sports medicine · PMID 42744658",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42744658 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nStructured exercise interventions and survival outcomes in patients with cancer: systematic review and meta-analysis of randomised controlled trials. \n2026-09-15 \nTzang CC \nLuo CA \nKuo VF \nHuang ES \nKang YF \nSu WY \nChen YL \nLin WL \nLin WC \nTzang BS \nHsu TC \nJournal Article \n10.1136/bjsports-2026-111664 \n42744658 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42742930",
+      "sourceId": "pmid-42742930",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "The Effects of Intermittent Hypoxic Training Strategies on Maximal Oxygen Uptake in Healthy Humans: A Meta-analysis with Meta-regression.",
+      "summary": "Sports medicine (Auckland, N.Z.)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42742930#research-radar",
+      "sourceUrl": "https://doi.org/10.1007/s40279-026-02482-9",
+      "journal": "Sports medicine (Auckland, N.Z.)",
+      "detail": "Sports medicine (Auckland, N.Z.) · PMID 42742930",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42742930 \ndiscovered \njournal-article \nsports-medicine \nSports medicine (Auckland, N.Z.) \nSports Med \nThe Effects of Intermittent Hypoxic Training Strategies on Maximal Oxygen Uptake in Healthy Humans: A Meta-analysis with Meta-regression. \n2026-09-15 \nKohlbrenner D \nGhaith A \nFournier J \nKhouri C \nBordas A \nChacaroun S \nMendelson M \nFlore P \nMarillier M \nBrugniaux J \nPépin JL \nTamisier R \nVerges S \nJournal Article \nSystematic Review \n10.1007/s40279-026-02482-9 \n42742930 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42744290",
+      "sourceId": "pmid-42744290",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-15",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "UCI Sports Nutrition Project: Position Statement on Nutrition for Cycling.",
+      "summary": "International journal of sport nutrition and exercise metabolism收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "自行車"
+      ],
+      "tags": [
+        "營養與水合",
+        "自行車"
+      ],
+      "href": "?radar=pmid-42744290#research-radar",
+      "sourceUrl": "https://doi.org/10.1123/ijsnem.2026-0135",
+      "journal": "International journal of sport nutrition and exercise metabolism",
+      "detail": "International journal of sport nutrition and exercise metabolism · PMID 42744290 · 被 2 份整理引用",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": [
+          {
+            "id": "2026-w39",
+            "type": "weekly-report",
+            "title": "本週運動科學新知整合",
+            "href": "?report=2026-w39#weekly-reports"
+          },
+          {
+            "id": "2026-w39",
+            "type": "podcast-episode",
+            "title": "Before You Add More",
+            "href": "?podcast=2026-w39#podcast"
+          }
+        ]
+      },
+      "searchText": "研究題錄 \n營養與水合 \n自行車 \npmid-42744290 \ndiscovered \njournal-article \nijsnem \nInternational journal of sport nutrition and exercise metabolism \nInt J Sport Nutr Exerc Metab \nUCI Sports Nutrition Project: Position Statement on Nutrition for Cycling. \n2026-09-15 \nBurke LM \nDolan E \nGonzalez JT \nMujika I \nJeukendrup AE \nRedegeld M \nMartins G \nValenzuela PL \nLeo P \nMateo-March M \nGallo G \nSeiler S \nMorton JP \nHearris M \nFell MJ \nOwens DJ \nHalson S \nTrommelen J \nStanley J \nHaakonssen E \nLeckey JJ \nHogan K \nO'Bryan K \nOosthuyse T \nMuros JJ \nZabala M \nHillkens L \nvan Dijk JW \nAreta JL \nKuikman MA \nCoates AM \nBailey DM \nMoran J \nWilson PB \nPyne DB \nRotunno A \nEgan B \nDel Coso J \nDerave W \nSaunders B \nHelleputte S \nvan Erp T \nGreen D \nPodlogar T \nCheung SS \nNybo L \nGirard O \nStellingwerff T \nLis DM \nStrobel N \nBigard X \nWhitfield J \nConsensus Statement \nJournal Article \n10.1123/ijsnem.2026-0135 \n42744290 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735362",
+      "sourceId": "pmid-42735362",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Altered Central Motor Control After ACL Reconstruction: A Muscle Synergy Analysis During High-Risk Landing.",
+      "summary": "Medicine and science in sports and exercise收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42735362#research-radar",
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004147",
+      "journal": "Medicine and science in sports and exercise",
+      "detail": "Medicine and science in sports and exercise · PMID 42735362",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42735362 \ndiscovered \njournal-article \nmsse \nMedicine and science in sports and exercise \nMed Sci Sports Exerc \nAltered Central Motor Control After ACL Reconstruction: A Muscle Synergy Analysis During High-Risk Landing. \n2026-09-14 \nGong Z \nHan Y \nLi T \nLi Y \nZhang M \nLi L \nAo D \nJournal Article \n10.1249/MSS.0000000000004147 \n42735362 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735029",
+      "sourceId": "pmid-42735029",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Arthrogenic muscle inhibition and quadriceps activation failure: Reconciling terminology and clinical perspectives across recovery phases.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節",
+        "恢復與睡眠"
+      ],
+      "href": "?radar=pmid-42735029#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70614",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42735029",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \n恢復與睡眠 \npmid-42735029 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nArthrogenic muscle inhibition and quadriceps activation failure: Reconciling terminology and clinical perspectives across recovery phases. \n2026-09-14 \nMaffiuletti NA \nJournal Article \n10.1002/ksa.70614 \n42735029 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42746137",
+      "sourceId": "pmid-42746137",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Combined Periacetabular Osteotomy and Hip Arthroscopy Results in High Return to Sport Rates in Contact and Noncontact Athletes With Hip Dysplasia.",
+      "summary": "Orthopaedic journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "回場與復健"
+      ],
+      "href": "?radar=pmid-42746137#research-radar",
+      "sourceUrl": "https://doi.org/10.1177/23259671261466470",
+      "journal": "Orthopaedic journal of sports medicine",
+      "detail": "Orthopaedic journal of sports medicine · PMID 42746137 · 被 2 份整理引用",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": [
+          {
+            "id": "2026-w39",
+            "type": "weekly-report",
+            "title": "本週運動科學新知整合",
+            "href": "?report=2026-w39#weekly-reports"
+          },
+          {
+            "id": "2026-w39",
+            "type": "podcast-episode",
+            "title": "Before You Add More",
+            "href": "?podcast=2026-w39#podcast"
+          }
+        ]
+      },
+      "searchText": "研究題錄 \n回場與復健 \npmid-42746137 \ndiscovered \njournal-article \nojspm \nOrthopaedic journal of sports medicine \nOrthop J Sports Med \nCombined Periacetabular Osteotomy and Hip Arthroscopy Results in High Return to Sport Rates in Contact and Noncontact Athletes With Hip Dysplasia. \n2026-09-14 \n2026-09-01 \nWhiting Z \nMaheshwer B \nBrown M \nSalata M \nWetzel R \nJournal Article \n10.1177/23259671261466470 \n42746137 \nPMC13575358 \npmc-record-available \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735299",
+      "sourceId": "pmid-42735299",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Endocrine, Skeletal, and Circadian Biomarker Profiles Across Operational Phases in Elite Special Forces Operators.",
+      "summary": "Journal of strength and conditioning research收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "肌力與爆發力"
+      ],
+      "href": "?radar=pmid-42735299#research-radar",
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005679",
+      "journal": "Journal of strength and conditioning research",
+      "detail": "Journal of strength and conditioning research · PMID 42735299",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \npmid-42735299 \ndiscovered \njournal-article \njsc \nJournal of strength and conditioning research \nJ Strength Cond Res \nEndocrine, Skeletal, and Circadian Biomarker Profiles Across Operational Phases in Elite Special Forces Operators. \n2026-09-14 \nKraemer WJ \nVolek JS \nStephenson MD \nSzivak TK \nSaenz C \nBuga A \nLee EC \nRatamess NA \nPost EM \nCaldwell LK \nHagen JA \nMaresh CM \nJournal Article \n10.1519/JSC.0000000000005679 \n42735299 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735372",
+      "sourceId": "pmid-42735372",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Exploring Neuromuscular and Biomechanical Factors Associated with Improvements in Running Economy Following Plyometric Training in Male Master Endurance Runners.",
+      "summary": "Medicine and science in sports and exercise收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "跑步與田徑"
+      ],
+      "tags": [
+        "肌力與爆發力",
+        "量測與科技",
+        "心理與神經認知",
+        "跑步與田徑"
+      ],
+      "href": "?radar=pmid-42735372#research-radar",
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004145",
+      "journal": "Medicine and science in sports and exercise",
+      "detail": "Medicine and science in sports and exercise · PMID 42735372",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \n量測與科技 \n心理與神經認知 \n跑步與田徑 \npmid-42735372 \ndiscovered \njournal-article \nmsse \nMedicine and science in sports and exercise \nMed Sci Sports Exerc \nExploring Neuromuscular and Biomechanical Factors Associated with Improvements in Running Economy Following Plyometric Training in Male Master Endurance Runners. \n2026-09-14 \nEihara Y \nMaeo S \nTakao K \nKanehisa H \nIsaka T \nJournal Article \n10.1249/MSS.0000000000004145 \n42735372 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735213",
+      "sourceId": "pmid-42735213",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Exploring the Placental Lipidome in Physically Active vs. Inactive Pregnancies.",
+      "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "女性運動員健康"
+      ],
+      "href": "?radar=pmid-42735213#research-radar",
+      "sourceUrl": "https://doi.org/10.1152/japplphysiol.00357.2026",
+      "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+      "detail": "Journal of applied physiology (Bethesda, Md. : 1985) · PMID 42735213",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n女性運動員健康 \npmid-42735213 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nExploring the Placental Lipidome in Physically Active vs. Inactive Pregnancies. \n2026-09-14 \nMacDonald ML \nYadegari A \nChittaro JT \nDantas A \nWasslen K \nRosales CA \nShearer J \nRedman LM \nSmith J \nAdamo KB \nJournal Article \n10.1152/japplphysiol.00357.2026 \n42735213 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735359",
+      "sourceId": "pmid-42735359",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Fractal Correlation Properties of Heart Rate Variability Differentiates Training Intensity During and After Energy-Matched Cycling Sessions.",
+      "summary": "Medicine and science in sports and exercise收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "自行車"
+      ],
+      "tags": [
+        "運動心臟與健康",
+        "自行車"
+      ],
+      "href": "?radar=pmid-42735359#research-radar",
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004146",
+      "journal": "Medicine and science in sports and exercise",
+      "detail": "Medicine and science in sports and exercise · PMID 42735359",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n運動心臟與健康 \n自行車 \npmid-42735359 \ndiscovered \njournal-article \nmsse \nMedicine and science in sports and exercise \nMed Sci Sports Exerc \nFractal Correlation Properties of Heart Rate Variability Differentiates Training Intensity During and After Energy-Matched Cycling Sessions. \n2026-09-14 \nOlieslagers A \nMüller-Jabusch Y \nDe Maeseneer J \nSeynaeve M \nde Beukelaar TT \nJournal Article \n10.1249/MSS.0000000000004146 \n42735359 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735209",
+      "sourceId": "pmid-42735209",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Neuromechanical Determinants of Muscle-Specific Hamstring Damage and Hypertrophy across Exercises: An EMG-Informed Modeling Approach.",
+      "summary": "Medicine and science in sports and exercise收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "心理與神經認知"
+      ],
+      "href": "?radar=pmid-42735209#research-radar",
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004142",
+      "journal": "Medicine and science in sports and exercise",
+      "detail": "Medicine and science in sports and exercise · PMID 42735209",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n心理與神經認知 \npmid-42735209 \ndiscovered \njournal-article \nmsse \nMedicine and science in sports and exercise \nMed Sci Sports Exerc \nNeuromechanical Determinants of Muscle-Specific Hamstring Damage and Hypertrophy across Exercises: An EMG-Informed Modeling Approach. \n2026-09-14 \nMorin T \nDoguet V \nMauget A \nPanhelleux B \nBrossard T \nNordez A \nCaillet A \nLacourpaille L \nJournal Article \n10.1249/MSS.0000000000004142 \n42735209 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735046",
+      "sourceId": "pmid-42735046",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Not all previous surgeries are the same: Procedure-specific infection risk in total knee arthroplasty patients with a history of previous knee surgery.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42735046#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70599",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42735046",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42735046 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nNot all previous surgeries are the same: Procedure-specific infection risk in total knee arthroplasty patients with a history of previous knee surgery. \n2026-09-14 \nElsheikh R \nAmsler F \nBrand C \nChristen B \nHirschmann MT \nJournal Article \n10.1002/ksa.70599 \n42735046 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735208",
+      "sourceId": "pmid-42735208",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Physical Capacities are Differentially Altered in Anorexia Nervosa and Constitutional Thinness.",
+      "summary": "Medicine and science in sports and exercise收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42735208#research-radar",
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004143",
+      "journal": "Medicine and science in sports and exercise",
+      "detail": "Medicine and science in sports and exercise · PMID 42735208",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42735208 \ndiscovered \njournal-article \nmsse \nMedicine and science in sports and exercise \nMed Sci Sports Exerc \nPhysical Capacities are Differentially Altered in Anorexia Nervosa and Constitutional Thinness. \n2026-09-14 \nGermain N \nLeboulleux M \nExbrayat C \nNoureddine A \nFeasson L \nGay A \nRavey B \nMassoubre C \nMillet GY \nGalusca B \nHupin D \nJournal Article \n10.1249/MSS.0000000000004143 \n42735208 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735053",
+      "sourceId": "pmid-42735053",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Psychological readiness is associated with long-term joint awareness after isolated anterior cruciate ligament reconstruction: A within-patient comparison with the contralateral healthy knee.",
+      "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節",
+        "恢復與睡眠",
+        "心理與神經認知"
+      ],
+      "href": "?radar=pmid-42735053#research-radar",
+      "sourceUrl": "https://doi.org/10.1002/ksa.70604",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "detail": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · PMID 42735053",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \n恢復與睡眠 \n心理與神經認知 \npmid-42735053 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nPsychological readiness is associated with long-term joint awareness after isolated anterior cruciate ligament reconstruction: A within-patient comparison with the contralateral healthy knee. \n2026-09-14 \nUslu MB \nErgişi Y \nGökalp B \nÇömez O \nAltun O \nDaşar U \nJournal Article \n10.1002/ksa.70604 \n42735053 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735207",
+      "sourceId": "pmid-42735207",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Resistance versus concurrent training with three assigned protein targets in middle-aged and older women: a randomized 2 × 3 factorial trial.",
+      "summary": "Journal of the International Society of Sports Nutrition收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "營養與水合"
+      ],
+      "href": "?radar=pmid-42735207#research-radar",
+      "sourceUrl": "https://doi.org/10.1080/15502783.2026.2720742",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "detail": "Journal of the International Society of Sports Nutrition · PMID 42735207 · 被 2 份整理引用",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": [
+          {
+            "id": "2026-w39",
+            "type": "weekly-report",
+            "title": "本週運動科學新知整合",
+            "href": "?report=2026-w39#weekly-reports"
+          },
+          {
+            "id": "2026-w39",
+            "type": "podcast-episode",
+            "title": "Before You Add More",
+            "href": "?podcast=2026-w39#podcast"
+          }
+        ]
+      },
+      "searchText": "研究題錄 \n營養與水合 \npmid-42735207 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nResistance versus concurrent training with three assigned protein targets in middle-aged and older women: a randomized 2 × 3 factorial trial. \n2026-09-14 \n2026-12-30 \nBagheri R \nGhobadi H \nMansordehghan M \nM Camera D \nKargarfard M \nJournal Article \nRandomized Controlled Trial \n10.1080/15502783.2026.2720742 \n42735207 \nPMC13577256 \npmc-record-available \n2026-09-20T03:38:58.936Z"
+    },
+    {
+      "id": "research:pmid-42735211",
+      "sourceId": "pmid-42735211",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-14",
+      "updatedAt": "2026-09-20T03:38:58.936Z",
+      "year": "2026",
+      "title": "Strength Training Exercises to Minimize Late Effects of Childhood Leukemia or Lymphoma Among Adolescents: A Multicenter Randomized Controlled Trial.",
+      "summary": "Medicine and science in sports and exercise收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [
+        "肌力與體能"
+      ],
+      "tags": [
+        "肌力與爆發力",
+        "兒童與青少年",
+        "肌力與體能"
+      ],
+      "href": "?radar=pmid-42735211#research-radar",
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004144",
+      "journal": "Medicine and science in sports and exercise",
+      "detail": "Medicine and science in sports and exercise · PMID 42735211",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \n兒童與青少年 \n肌力與體能 \npmid-42735211 \ndiscovered \njournal-article \nmsse \nMedicine and science in sports and exercise \nMed Sci Sports Exerc \nStrength Training Exercises to Minimize Late Effects of Childhood Leukemia or Lymphoma Among Adolescents: A Multicenter Randomized Controlled Trial. \n2026-09-14 \nRiel H \nKristiansen M \nAlbertsen BK \nFridh MK \nJensen CF \nLarsen HB \nRathe M \nSvilshave S \nTuckuviene R \nVad C \nWiskemann J \nMadeleine P \nJournal Article \n10.1249/MSS.0000000000004144 \n42735211 \ncheck-publisher-or-institution \n2026-09-20T03:38:58.936Z"
     },
     {
       "id": "issue:2026-m09",

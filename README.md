@@ -24,6 +24,8 @@ codex login
 
 預設是 `--provider codex`；若 Codex CLI 尚未登入或不可用，流程會直接停止，不會默默換成其他模型。只有明確加入 `--provider copilot` 時才改用 Copilot。未指定 `--model` 時沿用 Codex CLI 的預設模型，避免把會過期的模型名稱寫死。
 
+Windows 上不需要另外填入 Codex 路徑。專案會依序檢查 `EDGE_SPORT_CODEX_PATH`、`PATH`、全域 npm 安裝，以及 VS Code、VS Code Insiders、Cursor 的 OpenAI 擴充套件；因此從一般 `cmd.exe` 或 PowerShell 執行也能使用既有的 ChatGPT 登入狀態。
+
 ## 每週標準流程
 
 連好學術網路後，每週只需要依序執行這三個無參數指令。週報 ID 由日期自動產生；Podcast 與 YouTube 上傳包會自動接續最新一期 YABILAB 內容：
