@@ -35,6 +35,8 @@ const temporaryVideoPath = resolve(outputDirectory, `${baseName}.tmp.mp4`);
 const subtitlePath = resolve(outputDirectory, `${baseName}.srt`);
 const thumbnailPath = resolve(outputDirectory, `${baseName}-thumbnail.png`);
 const metadataPath = resolve(outputDirectory, `${baseName}-upload.txt`);
+const titlePath = resolve(outputDirectory, `${baseName}-title.txt`);
+const descriptionPath = resolve(outputDirectory, `${baseName}-description.txt`);
 const manifestPath = resolve(outputDirectory, `${baseName}-manifest.json`);
 const concatPath = resolve(outputDirectory, "frames.ffconcat");
 const audioPath = resolve(rootDirectory, episode.audio.src);
@@ -83,7 +85,11 @@ const videoStats = await stat(temporaryVideoPath);
 if (videoStats.size < 100_000 || videoStats.size > 200 * 1024 * 1024) throw new Error(`YouTube video size is unexpected: ${videoStats.size} bytes.`);
 await rename(temporaryVideoPath, videoPath);
 
-await writeFile(metadataPath, renderUploadText(plan, episode, videoPath, subtitlePath, thumbnailPath), "utf8");
+await Promise.all([
+  writeFile(metadataPath, renderUploadText(plan, episode, videoPath, subtitlePath, thumbnailPath), "utf8"),
+  writeFile(titlePath, `${plan.youtubeTitle.trim()}\n`, "utf8"),
+  writeFile(descriptionPath, `${plan.youtubeDescription.trim()}\n`, "utf8")
+]);
 const manifest = {
   schemaVersion: 1,
   generatedAt: new Date().toISOString(),
@@ -97,13 +103,18 @@ const manifest = {
     video: relative(rootDirectory, videoPath).replaceAll("\\", "/"),
     subtitles: relative(rootDirectory, subtitlePath).replaceAll("\\", "/"),
     thumbnail: relative(rootDirectory, thumbnailPath).replaceAll("\\", "/"),
-    uploadText: relative(rootDirectory, metadataPath).replaceAll("\\", "/")
+    uploadText: relative(rootDirectory, metadataPath).replaceAll("\\", "/"),
+    title: relative(rootDirectory, titlePath).replaceAll("\\", "/"),
+    description: relative(rootDirectory, descriptionPath).replaceAll("\\", "/")
   }
 };
 await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
 console.log(`YouTube upload video ready: ${videoPath}`);
 console.log(`Duration ${(episode.durationSeconds / 60).toFixed(1)} min, ${(videoStats.size / 1024 / 1024).toFixed(1)} MB, 1280x720 at 5 fps.`);
-console.log(`Subtitles, thumbnail and upload copy are in ${outputDirectory}.`);
+console.log(`YouTube title: ${plan.youtubeTitle}`);
+console.log(`Title file: ${titlePath}`);
+console.log(`Description file: ${descriptionPath}`);
+console.log(`Subtitles, thumbnail and complete upload copy are in ${outputDirectory}.`);
 
 function renderCover({ episode: item, plan: videoPlan, logo: logoImage, thumbnail = false }) {
   const canvas = createCanvas(WIDTH, HEIGHT);

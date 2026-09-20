@@ -69,7 +69,9 @@ research-library/incoming/
 npm.cmd run weekly:run
 ```
 
-每月第一個發布週（發布日期落在每月 1–7 日）時，`weekly:run` 會在週報完成後自動再產生一篇 Knowledge Index 月度深度專題。月度專題預設同樣使用已登入的 Codex CLI，會從最近 45 天的期刊與學會訊號、已取得的完整正文、`inClass/` 與既有週報中選出一個新主題。選題至少需要兩篇主題一致的完整研究，並必須說明相較舊內容的新進展。
+每個新週次會新增一筆週報並永久保留在累積式知識庫；同一週內重跑只會更新相同 `YYYY-wNN`，不會製造重複週報。週報標題由 Codex 依當週證據產生具體題名，方便之後用關鍵字辨識與回溯。
+
+每個月第一次成功執行 `weekly:run` 時，系統會先檢查該月份是否已有 Knowledge Index 月度深度專題；若沒有，就在週報完成後自動新增一篇。這讓月報維持「每月第一個發布週」的節奏，同時在當月第一週未執行時，能於下一次成功執行自動補上，不會整月漏刊，也不會重複產生。月度專題預設同樣使用已登入的 Codex CLI，會從最近 45 天的期刊與學會訊號、已取得的完整正文、`inClass/` 與既有週報中選出一個新主題。選題至少需要兩篇主題一致的完整研究，並必須說明相較舊內容的新進展。
 
 若要在其他日期單獨重建當月專題，可執行：
 
@@ -212,6 +214,8 @@ npm.cmd run podcast:youtube
 - `edgeSport4Podcast-YYYY-wNN.mp4`：可直接上傳 YouTube 的 H.264／AAC 影片。
 - `edgeSport4Podcast-YYYY-wNN.srt`：英文字幕檔。
 - `edgeSport4Podcast-YYYY-wNN-thumbnail.png`：以 YABILAB logo 製作的縮圖。
+- `edgeSport4Podcast-YYYY-wNN-title.txt`：可直接貼到 YouTube 的影片標題。
+- `edgeSport4Podcast-YYYY-wNN-description.txt`：可直接貼到 YouTube 的完整影片說明。
 - `edgeSport4Podcast-YYYY-wNN-upload.txt`：Codex 擬定的標題、說明、標籤及置頂留言。
 
 影片採靜態章節卡與 5 fps 編碼，重點保留在聲音與字幕，避免沒有意義的高畫面資料量。每次執行 `podcast:youtube` 會先清空舊的 `youtube-output/`，只保留本次上傳包；上傳 YouTube 後可直接刪除整個資料夾，不影響網站、Podcast MP3、逐字稿或歷史知識庫。

@@ -11,7 +11,7 @@ const weeklyReportsPath = resolve(rootDirectory, "content", "weekly-reports.json
 const inClassIndexPath = resolve(rootDirectory, "research-library", "inclass-index.json");
 const argumentsByName = parseArguments(process.argv.slice(2));
 const reportId = argumentsByName.get("id");
-const requestedTitle = argumentsByName.get("title") ?? "本週運動科學整合";
+const requestedTitle = argumentsByName.get("title")?.trim() || null;
 const publishDate = argumentsByName.get("date") ?? formatIsoDate(new Date());
 const maximumArticles = parsePositiveInteger(argumentsByName.get("max-articles") ?? "8", "--max-articles", 1, 52);
 const maximumCourseMatches = parsePositiveInteger(argumentsByName.get("max-course-matches") ?? "3", "--max-course-matches", 1, 6);
@@ -58,6 +58,7 @@ const packet = {
   schemaVersion: 1,
   id: reportId,
   title: requestedTitle,
+  titleMode: requestedTitle ? "fixed" : "generated",
   publishDate,
   weekLabel: formatWeekLabel(reportId),
   generatedAt: new Date().toISOString(),
@@ -480,7 +481,7 @@ function renderPacketMarkdown(packet) {
   const output = [
     `# Private Weekly Evidence Packet: ${packet.id}`,
     "",
-    `- Target title: ${packet.title}`,
+    `- Target title: ${packet.titleMode === "fixed" ? packet.title : "Codex must create a concise, evidence-specific Traditional Chinese title"}`,
     `- Publication date: ${packet.publishDate}`,
     `- Prepared at: ${packet.generatedAt}`,
     "",

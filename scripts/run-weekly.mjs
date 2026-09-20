@@ -1,12 +1,13 @@
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
+import { readFile } from "node:fs/promises";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const argumentsByName = parseArguments(process.argv.slice(2));
 const publishDate = argumentsByName.get("date") ?? formatIsoDate(nextSaturday(new Date()));
 const reportId = argumentsByName.get("id") ?? isoWeekId(new Date(`${publishDate}T12:00:00Z`));
-const title = argumentsByName.get("title") ?? "本週運動科學新知整合";
+const title = argumentsByName.get("title")?.trim() || null;
 const days = argumentsByName.get("days") ?? "7";
 const maximumArticles = argumentsByName.get("max-articles") ?? "8";
 const provider = argumentsByName.get("provider") ?? "codex";
@@ -30,9 +31,9 @@ console.log(argumentsByName.has("allow-abstracts")
 const packetArguments = [
   "--id", reportId,
   "--date", publishDate,
-  "--title", title,
   "--max-articles", maximumArticles
 ];
+if (title) packetArguments.push("--title", title);
 if (argumentsByName.get("articles")) {
   packetArguments.push("--articles", argumentsByName.get("articles"));
 } else if (argumentsByName.get("theme")) {
@@ -111,17 +112,23 @@ if (argumentsByName.has("draft-only")) {
 await runNodeScript("publish-weekly-report.mjs", ["--id", reportId, "--automated", "--provider", provider]);
 await runNodeScript("validate-content.mjs", []);
 console.log(`Public weekly archive updated: content/weekly-reports.json (${reportId}).`);
-if (!argumentsByName.has("skip-monthly") && isFirstWeekOfMonth(publishDate)) {
-  console.log("First publication week of the month: generating the monthly Knowledge Index deep-dive.");
-  const monthlyArguments = [
-    "--month", publishDate.slice(0, 7),
-    "--date", publishDate,
-    "--skip-index",
-    "--skip-harvest",
-    "--skip-open-intake"
-  ];
-  if (argumentsByName.get("model")) monthlyArguments.push("--model", argumentsByName.get("model"));
-  await runNodeScript("run-monthly.mjs", monthlyArguments);
+if (!argumentsByName.has("skip-monthly")) {
+  const month = publishDate.slice(0, 7);
+  const monthlyId = `${month.slice(0, 4)}-m${month.slice(5, 7)}`;
+  if (await monthlyTopicExists(monthlyId)) {
+    console.log(`Monthly Knowledge Index deep-dive already exists: ${monthlyId}.`);
+  } else {
+    console.log(`No monthly deep-dive exists for ${month}; generating it with this month's first successful weekly publication.`);
+    const monthlyArguments = [
+      "--month", month,
+      "--date", publishDate,
+      "--skip-index",
+      "--skip-harvest",
+      "--skip-open-intake"
+    ];
+    if (argumentsByName.get("model")) monthlyArguments.push("--model", argumentsByName.get("model"));
+    await runNodeScript("run-monthly.mjs", monthlyArguments);
+  }
 }
 await runNodeScript("validate-content.mjs", []);
 console.log("The report is ready. Its generation and review provenance remains in the data for validation and traceability. Commit and push the project to update GitHub Pages.");
@@ -169,9 +176,14 @@ function formatIsoDate(date) {
   return `${year}-${month}-${day}`;
 }
 
-function isFirstWeekOfMonth(value) {
-  const day = Number(value.slice(8, 10));
-  return Number.isInteger(day) && day >= 1 && day <= 7;
+async function monthlyTopicExists(monthlyId) {
+  try {
+    const issues = JSON.parse(await readFile(resolve(rootDirectory, "content", "issues.json"), "utf8"));
+    return (issues.issues ?? []).some((issue) => issue.id === monthlyId && issue.kind === "monthly-deep-dive");
+  } catch (error) {
+    if (error.code === "ENOENT") return false;
+    throw error;
+  }
 }
 
 function parseArguments(argumentsList) {

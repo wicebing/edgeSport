@@ -48,7 +48,7 @@ initializeWeeklyReports().catch((error) => {
 });
 
 async function initializeWeeklyReports() {
-  const response = await fetch(WEEKLY_REPORTS_URL);
+  const response = await fetch(WEEKLY_REPORTS_URL, { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`Weekly reports request failed with ${response.status}.`);
   }
@@ -93,15 +93,15 @@ function renderWeeklyReports() {
   }
 
   const selectedReport = getSelectedReport();
-  elements.list.innerHTML = state.reports.map((report) => renderReportCard(report, report.id === selectedReport.id)).join("");
+  elements.list.innerHTML = state.reports.map((report, index) => renderReportCard(report, report.id === selectedReport.id, index === 0)).join("");
   elements.detail.innerHTML = renderReportDetail(selectedReport);
   refreshIcons();
 }
 
-function renderReportCard(report, isSelected) {
+function renderReportCard(report, isSelected, isLatest) {
   return `
     <a class="weekly-report-card ${isSelected ? "is-selected" : ""}" href="?report=${escapeAttribute(report.id)}#weekly-reports" data-open-report="${escapeAttribute(report.id)}" aria-current="${isSelected ? "true" : "false"}">
-      <span class="weekly-report-card-date">${escapeHtml(report.weekLabel)} / ${escapeHtml(formatDate(report.publishDate))}</span>
+      <span class="weekly-report-card-date">${escapeHtml(report.weekLabel)} / ${escapeHtml(formatDate(report.publishDate))}${isLatest ? `<b class="weekly-report-card-latest">最新一期</b>` : ""}</span>
       <strong>${escapeHtml(report.title)}</strong>
       <span>${escapeHtml(report.researchSources.length)} 篇新研究 / ${escapeHtml(String(report.courseSources.length))} 份課程對照</span>
     </a>`;
