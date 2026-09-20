@@ -52,8 +52,8 @@
     },
     "dialogue": {
       "type": "array",
-      "minItems": 26,
-      "maxItems": 50,
+      "minItems": 34,
+      "maxItems": 60,
       "items": { "$ref": "#/$defs/dialogueTurn" }
     },
     "factCheck": {
@@ -89,7 +89,7 @@
       "properties": {
         "title": { "type": "string" },
         "summary": { "type": "string" },
-        "turnStart": { "type": "integer", "minimum": 1, "maximum": 50 }
+        "turnStart": { "type": "integer", "minimum": 1, "maximum": 60 }
       }
     },
     "dialogueTurn": {
@@ -97,9 +97,9 @@
       "additionalProperties": false,
       "required": ["turn", "speaker", "text", "delivery", "evidenceSourceIds"],
       "properties": {
-        "turn": { "type": "integer", "minimum": 1, "maximum": 50 },
+        "turn": { "type": "integer", "minimum": 1, "maximum": 60 },
         "speaker": { "type": "string", "enum": ["host", "cohost"] },
-        "text": { "type": "string", "minLength": 20, "maxLength": 760 },
+        "text": { "type": "string", "minLength": 20, "maxLength": 520 },
         "delivery": { "type": "string", "enum": ["warm", "curious", "reflective", "clear", "light", "cautious", "encouraging"] },
         "evidenceSourceIds": {
           "type": "array",

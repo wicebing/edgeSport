@@ -168,7 +168,7 @@ GitHub Actions 會驗證並部署新的 `content/weekly-reports.json`。網站�
 npm.cmd run podcast:run
 ```
 
-這個專案專用流程會先把兩段本機音軌建立成私人 XTTS v2 聲音 profile，再建立內容包、讓已登入的 Codex CLI 依本週完整週報撰寫 12–18 分鐘英文雙人對話、合成 MP3、發布逐字稿與章節，最後重建搜尋索引並驗證全站。預設角色為：
+這個專案專用流程會先把兩段本機音軌建立成私人 XTTS v2 聲音 profile，再建立內容包、讓已登入的 Codex CLI 依本週完整週報撰寫 12–18 分鐘英文雙人對話、合成 MP3、發布逐字稿與章節，最後重建搜尋索引並驗證全站。講稿會以較多的短回合呈現，Ying 與 Bing 都必須提問、回答、補充及修正彼此觀點；程式也會限制長段獨白、保留短回應，並把超過語音模型安全長度的句子依自然語意分段。合成時會裁掉各段多餘首尾靜音、縮短人工停頓，並把容易造成異常讀法的括號、破折號、比例與縮寫轉為口語形式。預設角色為：
 
 - `Ying`（female）：以 `../tts/girl voice.m4a` 建立的女聲 evidence guide。
 - `Bing`（male）：以 `../tts/man voice.m4a` 建立的男聲 analytical partner。
@@ -207,7 +207,7 @@ $env:EDGE_SPORT_PODCAST_PYTHON = "C:\Path\To\python.exe"
 npm.cmd run podcast:youtube
 ```
 
-這個步驟會讓已登入的 Codex CLI 根據已發布 Podcast 規劃 YouTube 標題、說明欄、章節視覺、縮圖文字、標籤及置頂留言，再建立以聲音為主的 1280×720 低畫面更新率影片。影片逐輪顯示 Ying／Bing、章節與完整英文逐字稿，並同時內嵌英文字幕軌及輸出可另外上傳的 `.srt`。
+這個步驟會讓已登入的 Codex CLI 根據已發布 Podcast 規劃 YouTube 標題、說明欄、章節視覺、縮圖文字、標籤及置頂留言，再建立以聲音為主的 1280×720 低畫面更新率影片。影片逐輪顯示 Ying／Bing、章節與完整英文逐字稿；當該輪引用研究時，右側會自動呈現週報中已驗證的數值卡，或依論文明載數值製作的 EDGE SPORT 原創重繪圖表，並標示 PMID 與資料性質。系統不直接複製期刊原圖或原始表格，以維持可追溯性與合理的版權邊界。影片同時內嵌英文字幕軌並輸出可另外上傳的 `.srt`。
 
 所有成品都放在被 Git 排除的 `youtube-output/`：
 

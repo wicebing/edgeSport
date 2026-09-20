@@ -16,7 +16,7 @@ const report = reports.reports.find((item) => item.id === id && item.status === 
 if (!report) throw new Error(`Published weekly report not found: ${id}.`);
 if (draft.id !== id || render.id !== id) throw new Error("Podcast draft and render IDs must match --id.");
 const sourceRecordIds = report.researchSources.map((source) => source.recordId);
-const errors = validatePodcastScript(draft, { sourceRecordIds });
+const errors = validatePodcastScript(draft, { sourceRecordIds, requireNaturalDialogue: true });
 if (errors.length) throw new Error(`Podcast draft failed validation:\n- ${errors.join("\n- ")}`);
 
 const audioPath = resolve(rootDirectory, render.audioPath);
@@ -72,7 +72,7 @@ const episode = {
     contentLevel: source.contentLevel
   }))
 };
-const publicErrors = validatePublishedPodcast(episode, { sourceRecordIds });
+const publicErrors = validatePublishedPodcast(episode, { sourceRecordIds, requireNaturalDialogue: true });
 if (publicErrors.length) throw new Error(`Published podcast failed validation:\n- ${publicErrors.join("\n- ")}`);
 podcasts.show = {
   ...(podcasts.show ?? {}),

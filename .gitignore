@@ -7,4 +7,6 @@ research-library/
 node_modules/
 assets/podcasts/????-w??.mp3
 youtube-output/
+__pycache__/
+*.pyc
 .DS_Store

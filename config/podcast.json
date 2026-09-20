@@ -32,8 +32,8 @@
     "device": "auto",
     "sampleRate": 24000,
     "mp3Bitrate": "96k",
-    "pauseSameSpeakerSeconds": 0.24,
-    "pauseSpeakerChangeSeconds": 0.38
+    "pauseSameSpeakerSeconds": 0.12,
+    "pauseSpeakerChangeSeconds": 0.2
   },
   "disclosure": "This episode uses synthetic speech generated locally from supplied voice samples: Ying uses the female-voice profile and Bing uses the male-voice profile. The script is prepared by Codex and is educational, not individualized medical advice."
 }

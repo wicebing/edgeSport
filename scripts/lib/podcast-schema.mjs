@@ -18,7 +18,7 @@ export function validatePodcastScript(script, context = {}) {
   if (availableSources.size > 0 && !sameSet(script?.sourceRecordIds ?? [], [...availableSources])) errors.push("podcast.sourceRecordIds must include every research source from the weekly report.");
   stringArray(script?.learningGoals, "podcast.learningGoals", 3, errors);
   stringArray(script?.showNotes, "podcast.showNotes", 4, errors);
-  validateDialogue(script?.dialogue, availableSources, errors);
+  validateDialogue(script?.dialogue, availableSources, errors, context.requireNaturalDialogue === true);
   const openingText = (script?.dialogue ?? []).slice(0, 2).map((turn) => turn?.text ?? "").join(" ");
   if (script?.showName && !openingText.includes(script.showName)) errors.push("podcast.dialogue must introduce the exact showName in the first two turns.");
   validateChapters(script?.chapters, script?.dialogue?.length ?? 0, errors);
@@ -62,22 +62,30 @@ function validateHosts(hosts, errors) {
   if (ids.size !== 2) errors.push("podcast.hosts must contain one host and one cohost.");
 }
 
-function validateDialogue(turns, availableSources, errors) {
-  if (!Array.isArray(turns) || turns.length < 26 || turns.length > 50) {
-    errors.push("podcast.dialogue must contain 26-50 turns.");
+function validateDialogue(turns, availableSources, errors, requireNaturalDialogue) {
+  if (!Array.isArray(turns) || turns.length < 34 || turns.length > 60) {
+    errors.push("podcast.dialogue must contain 34-60 turns.");
     return;
   }
   let alternations = 0;
   const speakerCounts = { host: 0, cohost: 0 };
+  const speakerQuestions = { host: 0, cohost: 0 };
   let wordCount = 0;
+  let conciseTurns = 0;
+  let shortTurns = 0;
   for (let index = 0; index < turns.length; index += 1) {
     const turn = turns[index];
     if (turn?.turn !== index + 1) errors.push(`podcast.dialogue[${index}].turn must be ${index + 1}.`);
     if (!SPEAKERS.has(turn?.speaker)) errors.push(`podcast.dialogue[${index}].speaker is invalid.`);
     else speakerCounts[turn.speaker] += 1;
     text(turn?.text, `podcast.dialogue[${index}].text`, errors);
-    if (String(turn?.text ?? "").length > 760) errors.push(`podcast.dialogue[${index}].text is too long for stable TTS.`);
-    wordCount += String(turn?.text ?? "").trim().split(/\s+/u).filter(Boolean).length;
+    if (String(turn?.text ?? "").length > 520) errors.push(`podcast.dialogue[${index}].text is too long for stable TTS.`);
+    const turnWordCount = String(turn?.text ?? "").trim().split(/\s+/u).filter(Boolean).length;
+    wordCount += turnWordCount;
+    if (turnWordCount <= 55) conciseTurns += 1;
+    if (turnWordCount <= 28) shortTurns += 1;
+    if (turnWordCount > 80) errors.push(`podcast.dialogue[${index}].text is too long for natural conversation.`);
+    if (SPEAKERS.has(turn?.speaker) && String(turn?.text ?? "").includes("?")) speakerQuestions[turn.speaker] += 1;
     if (!DELIVERIES.has(turn?.delivery)) errors.push(`podcast.dialogue[${index}].delivery is invalid.`);
     if (!Array.isArray(turn?.evidenceSourceIds)) errors.push(`podcast.dialogue[${index}].evidenceSourceIds must be an array.`);
     else allowedIds(turn.evidenceSourceIds, availableSources, `podcast.dialogue[${index}].evidenceSourceIds`, errors);
@@ -85,7 +93,10 @@ function validateDialogue(turns, availableSources, errors) {
   }
   if (alternations / (turns.length - 1) < 0.8) errors.push("podcast.dialogue must read as a balanced conversation with at least 80% speaker alternation.");
   if (Math.abs(speakerCounts.host - speakerCounts.cohost) > 3) errors.push("podcast.dialogue speaker turns are not balanced.");
-  if (wordCount < 1400 || wordCount > 2700) errors.push(`podcast.dialogue must contain 1400-2700 English words; found ${wordCount}.`);
+  if (wordCount < 1400 || wordCount > 2300) errors.push(`podcast.dialogue must contain 1400-2300 English words; found ${wordCount}.`);
+  if (requireNaturalDialogue && conciseTurns / turns.length < 0.75) errors.push("podcast.dialogue must keep at least 75% of turns to 55 words or fewer.");
+  if (requireNaturalDialogue && shortTurns / turns.length < 0.15) errors.push("podcast.dialogue needs occasional short responses of 28 words or fewer.");
+  if (requireNaturalDialogue && (speakerQuestions.host < 2 || speakerQuestions.cohost < 2)) errors.push("Ying and Bing must each ask at least two genuine questions.");
 }
 
 function validateChapters(chapters, turnCount, errors) {

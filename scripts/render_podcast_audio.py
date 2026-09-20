@@ -10,6 +10,8 @@ import sys
 from math import gcd
 from pathlib import Path
 
+SPEECH_NORMALIZATION_VERSION = "natural-dialogue-v3"
+
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Render edgeSport4Podcast dialogue with local voices.")
@@ -53,9 +55,9 @@ def main() -> None:
     rendered: dict[int, Path] = {}
     host_turns = [turn for turn in draft["dialogue"] if turn["speaker"] == "host"]
     cohost_turns = [turn for turn in draft["dialogue"] if turn["speaker"] == "cohost"]
-    render_host_turns(host_turns, rendered, work_dir, config, device, torch, Path(args.host_wav).resolve())
+    render_host_turns(host_turns, rendered, work_dir, config, device, torch, np, sf, Path(args.host_wav).resolve())
     release_gpu(torch)
-    render_cohost_turns(cohost_turns, rendered, work_dir, config, device, torch, Path(args.cohost_wav).resolve())
+    render_cohost_turns(cohost_turns, rendered, work_dir, config, device, torch, np, sf, Path(args.cohost_wav).resolve())
     release_gpu(torch)
 
     audio_parts: list[np.ndarray] = [make_chime(np, sample_rate, ascending=True), np.zeros(int(sample_rate * 0.32), dtype=np.float32)]
@@ -81,7 +83,7 @@ def main() -> None:
             0.36,
         ))
         if turn["text"].rstrip().endswith(("?", "!")):
-            pause += 0.08
+            pause += 0.04
         silence = np.zeros(int(sample_rate * pause), dtype=np.float32)
         audio_parts.append(silence)
         elapsed_samples += len(silence)
@@ -110,7 +112,7 @@ def main() -> None:
     print(f"Duration: {metadata['durationSeconds']:.1f} seconds", flush=True)
 
 
-def render_host_turns(turns, rendered, work_dir, config, device, torch, speaker_path: Path) -> None:
+def render_host_turns(turns, rendered, work_dir, config, device, torch, np, sf, speaker_path: Path) -> None:
     if not speaker_path.exists():
         raise FileNotFoundError(f"Y girl-voice profile not found: {speaker_path}")
     voice_digest = file_digest(speaker_path)
@@ -131,17 +133,11 @@ def render_host_turns(turns, rendered, work_dir, config, device, torch, speaker_
     model.to(device)
     for position, (turn, path) in enumerate(missing, start=1):
         print(f"Y [{position}/{len(missing)}] turn {turn['turn']}", flush=True)
-        model.tts_to_file(
-            text=normalize_for_speech(turn["text"]),
-            speaker_wav=str(speaker_path),
-            language="en",
-            file_path=str(path),
-            split_sentences=True,
-        )
+        synthesize_natural_turn(model, normalize_for_speech(turn["text"]), speaker_path, path, np, sf)
     del model
 
 
-def render_cohost_turns(turns, rendered, work_dir, config, device, torch, speaker_path: Path) -> None:
+def render_cohost_turns(turns, rendered, work_dir, config, device, torch, np, sf, speaker_path: Path) -> None:
     if not speaker_path.exists():
         raise FileNotFoundError(f"B man-voice profile not found: {speaker_path}")
     voice_digest = file_digest(speaker_path)
@@ -162,14 +158,72 @@ def render_cohost_turns(turns, rendered, work_dir, config, device, torch, speake
     model.to(device)
     for position, (turn, path) in enumerate(missing, start=1):
         print(f"B [{position}/{len(missing)}] turn {turn['turn']}", flush=True)
-        model.tts_to_file(
-            text=normalize_for_speech(turn["text"]),
+        synthesize_natural_turn(model, normalize_for_speech(turn["text"]), speaker_path, path, np, sf)
+    del model
+
+
+def synthesize_natural_turn(model, text: str, speaker_path: Path, output_path: Path, np, sf) -> None:
+    chunks = split_speech_chunks(text)
+    sample_rate = int(model.synthesizer.output_sample_rate)
+    pieces = []
+    for index, chunk in enumerate(chunks):
+        audio = np.asarray(model.tts(
+            text=chunk,
             speaker_wav=str(speaker_path),
             language="en",
-            file_path=str(path),
-            split_sentences=True,
-        )
-    del model
+            split_sentences=False,
+        ), dtype=np.float32)
+        audible = np.flatnonzero(np.abs(audio) > 0.004)
+        if len(audible):
+            leading_pad = int(sample_rate * 0.02)
+            trailing_pad = int(sample_rate * 0.03)
+            audio = audio[max(0, int(audible[0]) - leading_pad):min(len(audio), int(audible[-1]) + trailing_pad + 1)]
+        pieces.append(audio)
+        if index < len(chunks) - 1:
+            pieces.append(np.zeros(int(sample_rate * 0.055), dtype=np.float32))
+    combined = np.concatenate(pieces).astype(np.float32) if pieces else np.zeros(1, dtype=np.float32)
+    sf.write(output_path, combined, sample_rate, subtype="PCM_16")
+
+
+def split_speech_chunks(text: str, character_limit: int = 225) -> list[str]:
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    chunks: list[str] = []
+    for sentence in sentences:
+        sentence = sentence.strip()
+        if not sentence:
+            continue
+        if len(sentence) <= character_limit:
+            chunks.append(sentence)
+            continue
+        clauses = re.split(r"(?<=,)\s+", sentence)
+        current = ""
+        for clause in clauses:
+            candidate = f"{current} {clause}".strip()
+            if current and len(candidate) > character_limit:
+                chunks.extend(split_by_words(current, character_limit))
+                current = clause
+            else:
+                current = candidate
+        if current:
+            chunks.extend(split_by_words(current, character_limit))
+    return chunks
+
+
+def split_by_words(text: str, character_limit: int) -> list[str]:
+    if len(text) <= character_limit:
+        return [text]
+    chunks: list[str] = []
+    current = ""
+    for word in text.split():
+        candidate = f"{current} {word}".strip()
+        if current and len(candidate) > character_limit:
+            chunks.append(current.rstrip(","))
+            current = word
+        else:
+            current = candidate
+    if current:
+        chunks.append(current)
+    return chunks
 
 
 def normalize_for_speech(text: str) -> str:
@@ -183,11 +237,29 @@ def normalize_for_speech(text: str) -> str:
         "HRV": "H R V",
         "RPE": "R P E",
         "PMID": "P M I D",
+        "UCI": "U C I",
+        "PAO": "P A O",
+        "RT": "R T",
+        "CT": "C T",
+        "CI": "confidence interval",
+        "mHHS": "modified Harris Hip Score",
+        "1-RM": "one rep max",
     }
     for source, target in replacements.items():
         text = re.sub(rf"\b{re.escape(source)}\b", target, text)
-    text = text.replace("—", ", ").replace("–", " to ").replace("%", " percent")
-    return re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"(?<=\d)\s*[–-]\s*(?=\d)", " to ", text)
+    text = re.sub(r"(?<=\d)\s*/\s*(?=\d)", " out of ", text)
+    text = text.replace("VO₂max", "V O two max").replace("VO2max", "V O two max")
+    text = text.replace("±", " plus or minus ").replace("−", " minus ").replace("%", " percent")
+    text = text.replace("—", ", ").replace("–", ", ").replace("…", ", ")
+    text = text.replace(";", ". ").replace(":", ", ").replace("&", " and ")
+    text = re.sub(r"[\(\)\[\]{}]", ", ", text)
+    text = re.sub(r"[\"“”‘’]", "", text)
+    text = re.sub(r"\s*/\s*", " or ", text)
+    text = re.sub(r"\.{2,}", ".", text)
+    text = re.sub(r",\s*,+", ", ", text)
+    text = re.sub(r"\s+([,.?!])", r"\1", text)
+    return re.sub(r"\s+", " ", text).strip(" ,")
 
 
 def file_digest(path: Path) -> str:
@@ -195,7 +267,7 @@ def file_digest(path: Path) -> str:
 
 
 def chunk_path(work_dir: Path, turn: dict, voice_digest: str) -> Path:
-    payload = f"{voice_digest}\0{turn['text']}".encode("utf-8")
+    payload = f"{SPEECH_NORMALIZATION_VERSION}\0{voice_digest}\0{turn['text']}".encode("utf-8")
     digest = hashlib.sha256(payload).hexdigest()[:12]
     return work_dir / f"turn_{turn['turn']:03d}_{turn['speaker']}_{digest}.wav"
 
@@ -215,6 +287,14 @@ def resample(np, resample_poly, wav, source_rate: int, target_rate: int):
 def clean_segment(np, wav, sample_rate: int):
     if not len(wav):
         return wav
+    audible = np.flatnonzero(np.abs(wav) > 0.006)
+    if len(audible):
+        leading_pad = int(sample_rate * 0.035)
+        trailing_pad = int(sample_rate * 0.055)
+        start = max(0, int(audible[0]) - leading_pad)
+        end = min(len(wav), int(audible[-1]) + trailing_pad + 1)
+        wav = wav[start:end]
+    wav = shorten_internal_silences(np, wav, sample_rate)
     wav = wav - float(np.mean(wav))
     active = np.abs(wav) > 0.012
     rms = float(np.sqrt(np.mean(np.square(wav[active])))) if np.any(active) else float(np.sqrt(np.mean(np.square(wav))))
@@ -230,6 +310,38 @@ def clean_segment(np, wav, sample_rate: int):
         wav[:fade] *= ramp
         wav[-fade:] *= ramp[::-1]
     return wav.astype(np.float32)
+
+
+def shorten_internal_silences(np, wav, sample_rate: int):
+    frame_samples = max(1, int(sample_rate * 0.01))
+    frame_count = len(wav) // frame_samples
+    if frame_count < 3:
+        return wav
+    framed = wav[:frame_count * frame_samples].reshape(frame_count, frame_samples)
+    frame_rms = np.sqrt(np.mean(np.square(framed), axis=1))
+    silent = frame_rms < 0.007
+    minimum_frames = max(1, int(0.45 / 0.01))
+    replacement_samples = int(sample_rate * 0.18)
+    long_runs = []
+    run_start = None
+    for index, is_silent in enumerate(silent):
+        if is_silent and run_start is None:
+            run_start = index
+        if (not is_silent or index == len(silent) - 1) and run_start is not None:
+            run_end = index if not is_silent else index + 1
+            if run_end - run_start >= minimum_frames and run_start > 0 and run_end < len(silent):
+                long_runs.append((run_start * frame_samples, run_end * frame_samples))
+            run_start = None
+    if not long_runs:
+        return wav
+    parts = []
+    cursor = 0
+    for start, end in long_runs:
+        parts.append(wav[cursor:start])
+        parts.append(np.zeros(replacement_samples, dtype=np.float32))
+        cursor = end
+    parts.append(wav[cursor:])
+    return np.concatenate(parts).astype(np.float32)
 
 
 def make_chime(np, sample_rate: int, ascending: bool):

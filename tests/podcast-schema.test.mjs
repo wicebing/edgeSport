@@ -4,10 +4,10 @@ import { validatePodcastScript, validatePublishedPodcast } from "../scripts/lib/
 
 const sourceRecordIds = ["pmid-101", "pmid-202"];
 const spokenSentence = "The weekly evidence reminds us to compare individual trends with symptoms, workload context, measurement error, and study limits before changing practice.";
-const dialogue = Array.from({ length: 26 }, (_, index) => ({
+const dialogue = Array.from({ length: 40 }, (_, index) => ({
   turn: index + 1,
   speaker: index % 2 === 0 ? "host" : "cohost",
-  text: `${index === 0 ? "This is edgeSport4Podcast. " : ""}${spokenSentence} ${spokenSentence} ${spokenSentence}`,
+  text: `${index === 0 ? "This is edgeSport4Podcast. " : ""}${index % 4 < 2 ? "What would change your decision? " : "How would you explain that limit? "}${spokenSentence}${index % 6 === 0 ? "" : ` ${spokenSentence}`}`,
   delivery: index % 2 === 0 ? "clear" : "curious",
   evidenceSourceIds: [sourceRecordIds[index % sourceRecordIds.length]]
 }));
@@ -35,7 +35,7 @@ const draft = {
     { title: "Opening", summary: "Set the central question.", turnStart: 1 },
     { title: "Evidence", summary: "Examine the studies.", turnStart: 7 },
     { title: "Practice", summary: "Translate the findings.", turnStart: 15 },
-    { title: "Close", summary: "Name the takeaways.", turnStart: 23 }
+    { title: "Close", summary: "Name the takeaways.", turnStart: 31 }
   ],
   dialogue,
   factCheck: Array.from({ length: 5 }, (_, index) => ({
@@ -49,7 +49,7 @@ const draft = {
 };
 
 test("accepts a balanced, source-complete podcast script", () => {
-  assert.deepEqual(validatePodcastScript(draft, { sourceRecordIds }), []);
+  assert.deepEqual(validatePodcastScript(draft, { sourceRecordIds, requireNaturalDialogue: true }), []);
 });
 
 test("rejects a script that omits a weekly-report source", () => {

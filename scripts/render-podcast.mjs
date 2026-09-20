@@ -21,7 +21,7 @@ const config = JSON.parse(await readFile(configPath, "utf8"));
 if (!ffmpegPath) throw new Error("The bundled ffmpeg executable is unavailable. Reinstall dependencies with npm install.");
 const voiceProfiles = await preparePodcastVoices({ rootDirectory, config, ffmpegPath });
 const sourceRecordIds = report.researchSources.map((source) => source.recordId);
-const validationErrors = validatePodcastScript(draft, { sourceRecordIds });
+const validationErrors = validatePodcastScript(draft, { sourceRecordIds, requireNaturalDialogue: true });
 if (validationErrors.length) throw new Error(`Podcast script is not renderable:\n- ${validationErrors.join("\n- ")}`);
 
 const privateDirectory = resolve(rootDirectory, "research-library", "podcast-audio", id);

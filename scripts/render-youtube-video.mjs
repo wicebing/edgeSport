@@ -1,21 +1,28 @@
 import { mkdir, readFile, rename, rm, stat, writeFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { dirname, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
-import { createCanvas, loadImage } from "@napi-rs/canvas";
+import { createCanvas, GlobalFonts, loadImage } from "@napi-rs/canvas";
 import ffmpegPath from "ffmpeg-static";
 import { validateYouTubeVideoPlan } from "./lib/youtube-video-plan.mjs";
 
 const WIDTH = 1280;
 const HEIGHT = 720;
+const evidenceFontFamily = "EdgeSport CJK";
+const evidenceFontPath = "C:/Windows/Fonts/msjh.ttc";
+if (process.platform === "win32" && existsSync(evidenceFontPath)) GlobalFonts.registerFromPath(evidenceFontPath, evidenceFontFamily);
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = parseArguments(process.argv.slice(2));
 const podcasts = JSON.parse(await readFile(resolve(rootDirectory, "content", "podcasts.json"), "utf8"));
+const weeklyReports = JSON.parse(await readFile(resolve(rootDirectory, "content", "weekly-reports.json"), "utf8"));
 const config = JSON.parse(await readFile(resolve(rootDirectory, "config", "podcast.json"), "utf8"));
 const latestEpisode = [...(podcasts.episodes ?? [])].sort((left, right) => right.publishDate.localeCompare(left.publishDate))[0];
 const id = args.get("id") ?? latestEpisode?.id;
 const episode = podcasts.episodes?.find((item) => item.id === id && item.status === "published");
 if (!episode) throw new Error(`Published podcast episode not found: ${id ?? "none"}.`);
+const weeklyReport = weeklyReports.reports?.find((item) => item.id === episode.sourceWeeklyReportId && item.status === "published");
+if (!weeklyReport) throw new Error(`Published weekly report not found: ${episode.sourceWeeklyReportId}.`);
 if (!ffmpegPath) throw new Error("The bundled ffmpeg executable is unavailable. Reinstall dependencies with npm install.");
 
 const outputDirectory = resolve(rootDirectory, "youtube-output");
@@ -43,6 +50,7 @@ const audioPath = resolve(rootDirectory, episode.audio.src);
 const logo = await loadImage(resolve(rootDirectory, "assets", "yabilab-logo.png"));
 const hosts = new Map(episode.hosts.map((host) => [host.id, host]));
 const segmentByStart = new Map(plan.segments.map((segment) => [segment.chapterTurnStart, segment]));
+const evidenceVisuals = buildEvidenceVisuals(weeklyReport);
 
 const coverPath = resolve(framesDirectory, "frame-000-cover.png");
 await writeFile(coverPath, renderCover({ episode, plan, logo }));
@@ -55,7 +63,8 @@ for (let index = 0; index < episode.transcript.length; index += 1) {
   const nextStart = episode.transcript[index + 1]?.startSeconds ?? episode.durationSeconds;
   const duration = Math.max(0.2, nextStart - turn.startSeconds);
   const framePath = resolve(framesDirectory, `frame-${String(turn.turn).padStart(3, "0")}.png`);
-  await writeFile(framePath, renderTurn({ episode, plan, turn, host: hosts.get(turn.speaker), segment: activeSegment, logo, progress: (index + 1) / episode.transcript.length }));
+  const evidenceVisual = selectEvidenceVisual(turn, evidenceVisuals, index);
+  await writeFile(framePath, renderTurn({ episode, plan, turn, host: hosts.get(turn.speaker), segment: activeSegment, evidenceVisual, logo, progress: (index + 1) / episode.transcript.length }));
   visualFrames.push({ path: framePath, duration });
 }
 
@@ -136,7 +145,7 @@ function renderCover({ episode: item, plan: videoPlan, logo: logoImage, thumbnai
   return canvas.toBuffer("image/png");
 }
 
-function renderTurn({ episode: item, turn, host, segment, logo: logoImage, progress }) {
+function renderTurn({ episode: item, turn, host, segment, evidenceVisual, logo: logoImage, progress }) {
   const canvas = createCanvas(WIDTH, HEIGHT);
   const context = canvas.getContext("2d");
   const palette = accentPalette(segment?.accent);
@@ -160,8 +169,10 @@ function renderTurn({ episode: item, turn, host, segment, logo: logoImage, progr
   context.fillStyle = "rgba(255,255,255,0.55)";
   context.font = "500 15px Arial";
   context.fillText(formatClock(turn.startSeconds), 145, 194);
-  const fitted = fitText(context, turn.text, 1080, 10);
+  const transcriptWidth = evidenceVisual ? 600 : 1080;
+  const fitted = fitText(context, turn.text, transcriptWidth, evidenceVisual ? 8 : 10);
   drawLines(context, fitted.lines, 60, 276, fitted.lineHeight, "#ffffff", fitted.fontSize, 600);
+  if (evidenceVisual) renderEvidencePanel(context, evidenceVisual, palette);
   context.fillStyle = "rgba(255,255,255,0.07)";
   context.fillRect(60, 661, 1160, 6);
   context.fillStyle = palette.accent;
@@ -170,6 +181,131 @@ function renderTurn({ episode: item, turn, host, segment, logo: logoImage, progr
   context.font = "500 13px Arial";
   context.fillText("Educational discussion · See the written report and original sources", 60, 695);
   return canvas.toBuffer("image/png");
+}
+
+function buildEvidenceVisuals(report) {
+  const sources = new Map((report.researchSources ?? []).map((source) => [source.recordId, source]));
+  const keyNumbers = report.researchLandscape?.keyNumbers ?? [];
+  const visuals = new Map();
+  for (const digest of report.articleDigests ?? []) {
+    const source = sources.get(digest.recordId);
+    const chart = digest.visualization;
+    if (chart?.type === "bar" && Array.isArray(chart.data) && chart.data.length >= 2) {
+      visuals.set(digest.recordId, {
+        kind: "bar",
+        sourceRecordId: digest.recordId,
+        sourceTitle: source?.title ?? digest.recordId,
+        title: chart.title,
+        unit: chart.unit ?? "",
+        data: chart.data.slice(0, 4),
+        provenance: "EDGE SPORT redraw from source-reported values"
+      });
+      continue;
+    }
+    const sourceMetrics = keyNumbers
+      .filter((item) => item.sourceRecordId === digest.recordId)
+      .slice(0, 3)
+      .map((item) => ({ value: item.value, label: item.label }));
+    const fallbackMetrics = (digest.quantitativeResults ?? []).slice(0, 3).map((item) => ({
+      value: item.result,
+      label: item.measure
+    }));
+    const metrics = sourceMetrics.length ? sourceMetrics : fallbackMetrics;
+    if (metrics.length) {
+      visuals.set(digest.recordId, {
+        kind: "metrics",
+        sourceRecordId: digest.recordId,
+        sourceTitle: source?.title ?? digest.recordId,
+        title: "Source-reported evidence snapshot",
+        data: metrics,
+        provenance: "Values transcribed in the verified weekly report"
+      });
+    }
+  }
+  return visuals;
+}
+
+function selectEvidenceVisual(turn, visuals, turnIndex) {
+  const candidates = (turn.evidenceSourceIds ?? []).map((sourceId) => visuals.get(sourceId)).filter(Boolean);
+  if (!candidates.length) return null;
+  const chart = candidates.find((candidate) => candidate.kind === "bar");
+  return chart ?? candidates[turnIndex % candidates.length];
+}
+
+function renderEvidencePanel(context, visual, palette) {
+  const x = 715;
+  const y = 132;
+  const width = 505;
+  const height = 476;
+  context.fillStyle = "rgba(255,255,255,0.94)";
+  context.fillRect(x, y, width, height);
+  context.fillStyle = palette.accent;
+  context.fillRect(x, y, 7, height);
+  label(context, visual.kind === "bar" ? "ORIGINAL DATA REDRAW" : "EVIDENCE SNAPSHOT", x + 28, y + 34, "#285448", 13);
+  const sourceLines = wrapLinesWithLimit(context, visual.sourceTitle, width - 56, 2, `700 16px "${evidenceFontFamily}"`);
+  drawLines(context, sourceLines, x + 28, y + 65, 21, "#14362f", 16, 700, evidenceFontFamily);
+  const contentTop = y + 65 + sourceLines.length * 21 + 19;
+  if (visual.kind === "bar") renderBarVisual(context, visual, palette, x + 28, contentTop, width - 56);
+  else renderMetricVisual(context, visual, palette, x + 28, contentTop, width - 56);
+  context.fillStyle = "#586760";
+  context.font = "600 11px Arial";
+  context.fillText(`${visual.provenance} · ${visual.sourceRecordId}`, x + 28, y + height - 20, width - 56);
+}
+
+function renderBarVisual(context, visual, palette, x, y, width) {
+  const titleLines = wrapLinesWithLimit(context, visual.title, width, 2, `700 18px "${evidenceFontFamily}"`);
+  drawLines(context, titleLines, x, y, 23, "#14362f", 18, 700, evidenceFontFamily);
+  const chartTop = y + titleLines.length * 23 + 20;
+  const maximum = Math.max(...visual.data.map((item) => Number(item.value) || 0), 1);
+  visual.data.forEach((item, index) => {
+    const rowY = chartTop + index * 104;
+    const labelLines = wrapLinesWithLimit(context, item.label, width, 2, `600 14px "${evidenceFontFamily}"`);
+    drawLines(context, labelLines, x, rowY, 18, "#285448", 14, 600, evidenceFontFamily);
+    const barY = rowY + labelLines.length * 18 + 8;
+    context.fillStyle = "#dce8e2";
+    context.fillRect(x, barY, width - 88, 18);
+    context.fillStyle = palette.accent;
+    context.fillRect(x, barY, (width - 88) * ((Number(item.value) || 0) / maximum), 18);
+    context.fillStyle = "#14362f";
+    context.font = "800 17px Arial";
+    context.fillText(`${item.value}${visual.unit}`, x + width - 78, barY + 16, 75);
+  });
+}
+
+function renderMetricVisual(context, visual, palette, x, y, width) {
+  visual.data.slice(0, 3).forEach((item, index) => {
+    const rowY = y + index * 112;
+    context.fillStyle = index % 2 === 0 ? "rgba(220,232,226,0.64)" : "rgba(184,217,77,0.12)";
+    context.fillRect(x, rowY, width, 96);
+    const valueLines = wrapLinesWithLimit(context, item.value, width - 28, 2, `800 20px "${evidenceFontFamily}"`);
+    drawLines(context, valueLines, x + 14, rowY + 27, 23, "#14362f", 20, 800, evidenceFontFamily);
+    const labelY = rowY + 31 + valueLines.length * 23;
+    const labelLines = wrapLinesWithLimit(context, item.label, width - 28, 2, `600 13px "${evidenceFontFamily}"`);
+    drawLines(context, labelLines, x + 14, labelY, 16, "#586760", 13, 600, evidenceFontFamily);
+    context.fillStyle = palette.accent;
+    context.fillRect(x, rowY, 5, 96);
+  });
+}
+
+function wrapLinesWithLimit(context, text, maxWidth, maxLines, font) {
+  context.font = font;
+  const lines = wrapLines(context, normalizeVisualText(text), maxWidth);
+  if (lines.length <= maxLines) return lines;
+  const limited = lines.slice(0, maxLines);
+  limited[maxLines - 1] = `${limited[maxLines - 1].replace(/[.,;:]?$/u, "")}…`;
+  return limited;
+}
+
+function normalizeVisualText(value) {
+  return String(value ?? "")
+    .replaceAll("⁻¹", "-1")
+    .replaceAll("⁻²", "-2")
+    .replaceAll("⁻³", "-3")
+    .replaceAll("⁻", "-")
+    .replaceAll("¹", "1")
+    .replaceAll("²", "2")
+    .replaceAll("³", "3")
+    .replaceAll("₂", "2");
 }
 
 function paintBackground(context, start, end, logoImage) {
@@ -201,9 +337,9 @@ function drawTextBlock(context, text, x, y, maxWidth, fontSize, lineMultiplier, 
   drawLines(context, lines, x, y, Math.round(fontSize * lineMultiplier), color, fontSize, weight);
 }
 
-function drawLines(context, lines, x, y, lineHeight, color, fontSize, weight) {
+function drawLines(context, lines, x, y, lineHeight, color, fontSize, weight, fontFamily = "Arial") {
   context.fillStyle = color;
-  context.font = `${weight} ${fontSize}px Arial`;
+  context.font = `${weight} ${fontSize}px "${fontFamily}"`;
   lines.forEach((line, index) => context.fillText(line, x, y + index * lineHeight));
 }
 
