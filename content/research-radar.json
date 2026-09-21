@@ -1,56 +1,56 @@
 {
   "schemaVersion": 1,
-  "lastCollectedAt": "2026-09-20T03:38:58.936Z",
+  "lastCollectedAt": "2026-09-21T08:00:58.438Z",
   "coverage": {
-    "from": "2026-09-14",
-    "to": "2026-09-20"
+    "from": "2026-09-15",
+    "to": "2026-09-21"
   },
   "sourceStatus": [
     {
       "id": "pubmed-journal-index",
       "label": "PubMed indexed journals",
       "status": "ok",
-      "checkedAt": "2026-09-20T03:38:58.936Z",
+      "checkedAt": "2026-09-21T08:00:58.438Z",
       "itemCount": 74,
       "detail": "All configured journal sources"
     },
     {
       "id": "bjsm-current",
       "label": "British Journal of Sports Medicine current issue",
-      "status": "ok",
-      "checkedAt": "2026-09-20T03:39:01.443Z",
+      "status": "error",
+      "checkedAt": "2026-09-21T08:00:59.388Z",
       "itemCount": 0,
-      "detail": "BJSM 官方當期文章、社論與實務更新"
+      "detail": "Could not read this official feed: Request failed with 429 Too Many Requests"
     },
     {
       "id": "bmjosem-current",
       "label": "BMJ Open Sport & Exercise Medicine current issue",
       "status": "ok",
-      "checkedAt": "2026-09-20T03:39:01.810Z",
+      "checkedAt": "2026-09-21T08:00:59.564Z",
       "itemCount": 0,
       "detail": "BMJ Open SEM 官方當期開放取用文章"
     },
     {
       "id": "jospt-current",
       "label": "JOSPT current issue",
-      "status": "ok",
-      "checkedAt": "2026-09-20T03:39:02.367Z",
+      "status": "error",
+      "checkedAt": "2026-09-21T08:00:59.605Z",
       "itemCount": 0,
-      "detail": "JOSPT 官方當期肌骨與運動物理治療文章"
+      "detail": "Could not read this official feed: Request failed with 403 Forbidden"
     },
     {
       "id": "acsm-updates",
       "label": "American College of Sports Medicine updates",
-      "status": "ok",
-      "checkedAt": "2026-09-20T03:39:03.342Z",
-      "itemCount": 1,
-      "detail": "ACSM 官方新聞、聲明與專業更新"
+      "status": "error",
+      "checkedAt": "2026-09-21T08:01:00.305Z",
+      "itemCount": 0,
+      "detail": "Could not read this official feed: Request failed with 500 Internal Server Error"
     },
     {
       "id": "nata-updates",
       "label": "National Athletic Trainers' Association updates",
       "status": "ok",
-      "checkedAt": "2026-09-20T03:39:03.845Z",
+      "checkedAt": "2026-09-21T08:01:00.438Z",
       "itemCount": 0,
       "detail": "NATA 官方運動防護專業更新"
     }
@@ -58,12 +58,12 @@
   "trendSignals": [
     {
       "label": "ACL / 膝關節",
-      "count": 23,
+      "count": 26,
       "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
     },
     {
       "label": "肌力與爆發力",
-      "count": 12,
+      "count": 11,
       "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
     },
     {
@@ -72,22 +72,146 @@
       "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
     },
     {
-      "label": "心理與神經認知",
+      "label": "足踝",
       "count": 6,
       "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
     },
     {
-      "label": "兒童與青少年",
+      "label": "營養與水合",
       "count": 5,
       "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
     },
     {
-      "label": "恢復與睡眠",
-      "count": 5,
+      "label": "兒童與青少年",
+      "count": 4,
       "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
     }
   ],
   "collectionHistory": [
+    {
+      "collectedAt": "2026-09-21T08:00:58.438Z",
+      "coverage": {
+        "from": "2026-09-15",
+        "to": "2026-09-21"
+      },
+      "query": null,
+      "discoveredCount": 74,
+      "totalArchivedCount": 204,
+      "discoveredItemIds": [
+        "pmid-42763810",
+        "pmid-42760819",
+        "pmid-42342242",
+        "pmid-42763417",
+        "pmid-42762953",
+        "pmid-42762952",
+        "pmid-42762162",
+        "pmid-42762159",
+        "pmid-42762158",
+        "pmid-42762157",
+        "pmid-42762156",
+        "pmid-42762155",
+        "pmid-42759564",
+        "pmid-42759563",
+        "pmid-42758003",
+        "pmid-42757672",
+        "pmid-42757658",
+        "pmid-42764020",
+        "pmid-42762482",
+        "pmid-42759112",
+        "pmid-42754383",
+        "pmid-42754382",
+        "pmid-42754381",
+        "pmid-42754380",
+        "pmid-42754379",
+        "pmid-42754378",
+        "pmid-42754377",
+        "pmid-42754376",
+        "pmid-42754375",
+        "pmid-42754374",
+        "pmid-42754146",
+        "pmid-42754145",
+        "pmid-42754144",
+        "pmid-42753252",
+        "pmid-42753248",
+        "pmid-42753236",
+        "pmid-42753234",
+        "pmid-42752819",
+        "pmid-42750656",
+        "pmid-42750653",
+        "pmid-42750645",
+        "pmid-42692805",
+        "pmid-42692802",
+        "pmid-42753270",
+        "pmid-42750176",
+        "pmid-42749310",
+        "pmid-42749309",
+        "pmid-42749275",
+        "pmid-42748970",
+        "pmid-42748371",
+        "pmid-42748370",
+        "pmid-42748368",
+        "pmid-42748367",
+        "pmid-42748364",
+        "pmid-42748362",
+        "pmid-42748360",
+        "pmid-42748358",
+        "pmid-42748352",
+        "pmid-42748328",
+        "pmid-42747830",
+        "pmid-42747786",
+        "pmid-42747199",
+        "pmid-42745412",
+        "pmid-42745409",
+        "pmid-42745400",
+        "pmid-42744658",
+        "pmid-42744290",
+        "pmid-42744289",
+        "pmid-42744121",
+        "pmid-42744120",
+        "pmid-42743001",
+        "pmid-42743000",
+        "pmid-42742980",
+        "pmid-42742930"
+      ],
+      "sources": [
+        {
+          "id": "pubmed-journal-index",
+          "label": "PubMed indexed journals",
+          "status": "ok",
+          "itemCount": 74
+        },
+        {
+          "id": "bjsm-current",
+          "label": "British Journal of Sports Medicine current issue",
+          "status": "error",
+          "itemCount": 0
+        },
+        {
+          "id": "bmjosem-current",
+          "label": "BMJ Open Sport & Exercise Medicine current issue",
+          "status": "ok",
+          "itemCount": 0
+        },
+        {
+          "id": "jospt-current",
+          "label": "JOSPT current issue",
+          "status": "error",
+          "itemCount": 0
+        },
+        {
+          "id": "acsm-updates",
+          "label": "American College of Sports Medicine updates",
+          "status": "error",
+          "itemCount": 0
+        },
+        {
+          "id": "nata-updates",
+          "label": "National Athletic Trainers' Association updates",
+          "status": "ok",
+          "itemCount": 0
+        }
+      ]
+    },
     {
       "collectedAt": "2026-09-20T03:38:58.936Z",
       "coverage": {
@@ -367,6 +491,479 @@
   ],
   "items": [
     {
+      "id": "pmid-42763810",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jissn",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "journalAbbreviation": "J Int Soc Sports Nutr",
+      "journalUrl": "https://jissn.biomedcentral.com/",
+      "title": "Correction.",
+      "publicationDate": "2026-09-20",
+      "issueDate": "2026-12-30",
+      "authors": [],
+      "publicationTypes": [
+        "Journal Article",
+        "Published Erratum"
+      ],
+      "doi": "10.1080/15502783.2026.2732598",
+      "pmid": "42763810",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/15502783.2026.2732598",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "營養與水合"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42342242",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Squat Performance in Elite Powerlifters: Biomechanical Analyses of Maximal and Near Maximal Lifts.",
+      "publicationDate": "2026-09-21",
+      "issueDate": null,
+      "authors": [
+        "Andersen V",
+        "Petushek EJ",
+        "Saeterbakken AH",
+        "Paulsen G",
+        "Krosshaug T"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005532",
+      "pmid": "42342242",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005532",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力",
+        "量測與科技"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42763417",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jss",
+      "journal": "Journal of sports sciences",
+      "journalAbbreviation": "J Sports Sci",
+      "journalUrl": "https://www.tandfonline.com/journals/rjsp20",
+      "title": "Effects of an 8-week long-step start training programme intervention on relay performance in collegiate male swimmers: A single-arm study.",
+      "publicationDate": "2026-09-19",
+      "issueDate": null,
+      "authors": [
+        "Shimojo H",
+        "Hoshikawa S",
+        "Yamashiro S",
+        "Nara R",
+        "Shimoyama Y"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1080/02640414.2026.2735689",
+      "pmid": "42763417",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/02640414.2026.2735689",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [
+        "游泳與水上運動"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42762953",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jisakos",
+      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
+      "journalAbbreviation": "J ISAKOS",
+      "journalUrl": "https://www.jisakos.com/",
+      "title": "Quality-of-life outcomes and osteoarthritis development at 10-years after anterior cruciate ligament reconstruction: A large randomized clinical trial comparing patellar tendon, hamstring tendon and double-bundle grafts.",
+      "publicationDate": "2026-09-19",
+      "issueDate": null,
+      "authors": [
+        "Mohtadi N",
+        "Chan D",
+        "Hunter D",
+        "Bertiche P",
+        "Marmura H",
+        "Bryant D"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.jisako.2026.101220",
+      "pmid": "42762953",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.jisako.2026.101220",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42762952",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jisakos",
+      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
+      "journalAbbreviation": "J ISAKOS",
+      "journalUrl": "https://www.jisakos.com/",
+      "title": "Short-Term Outcomes Following Stand-Alone Extracorporeal Shockwave Therapy Differ Between Bony and Soft Tissue Pathologies of the Foot and Ankle.",
+      "publicationDate": "2026-09-19",
+      "issueDate": null,
+      "authors": [
+        "Austin WP",
+        "Saggar R",
+        "Mullen JP",
+        "Olawin AO",
+        "Hattori S",
+        "Lewis LK",
+        "Hogan MV"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.jisako.2026.101221",
+      "pmid": "42762952",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.jisako.2026.101221",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "足踝"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42762162",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "kssta",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "journalAbbreviation": "Knee Surg Sports Traumatol Arthrosc",
+      "journalUrl": "https://link.springer.com/journal/167",
+      "title": "Isolated lateral compartment cartilage changes on preoperative magnetic resonance imaging should not automatically preclude medial unicompartmental knee arthroplasty: A cohort study of 100 magnetic resonance imaging scans.",
+      "publicationDate": "2026-09-19",
+      "issueDate": null,
+      "authors": [
+        "Bunyoz KI",
+        "Troelsen A",
+        "Jackson W",
+        "Bottomley N",
+        "Alvand A",
+        "Price A"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/ksa.70629",
+      "pmid": "42762162",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1002/ksa.70629",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42762159",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "kssta",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "journalAbbreviation": "Knee Surg Sports Traumatol Arthrosc",
+      "journalUrl": "https://link.springer.com/journal/167",
+      "title": "Limited predictive value of preseason isokinetic strength testing for noncontact lower extremity injuries in elite female football players: A 5-year prospective cohort study.",
+      "publicationDate": "2026-09-19",
+      "issueDate": null,
+      "authors": [
+        "Seiler J",
+        "Haas A",
+        "Gnädinger D",
+        "Bode G",
+        "Rosa M",
+        "Prill R",
+        "Schmal H",
+        "Bode L"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/ksa.70623",
+      "pmid": "42762159",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1002/ksa.70623",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節",
+        "足踝",
+        "肌力與爆發力"
+      ],
+      "sportTags": [
+        "足球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42762158",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "kssta",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "journalAbbreviation": "Knee Surg Sports Traumatol Arthrosc",
+      "journalUrl": "https://link.springer.com/journal/167",
+      "title": "Higher prearthritic activity is associated with higher long-term activity after medial unicompartmental knee arthroplasty.",
+      "publicationDate": "2026-09-19",
+      "issueDate": null,
+      "authors": [
+        "Cerasoli T",
+        "Tabanelli B",
+        "Scagnol D",
+        "Di Maio L",
+        "Neri MP",
+        "Rinaldi VG",
+        "Zaffagnini S",
+        "Marcheggiani Muccioli GM"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/ksa.70624",
+      "pmid": "42762158",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1002/ksa.70624",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42762157",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "kssta",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "journalAbbreviation": "Knee Surg Sports Traumatol Arthrosc",
+      "journalUrl": "https://link.springer.com/journal/167",
+      "title": "Static Coronal Plane Alignment of the Knee phenotypes are associated with distinct dynamic knee kinematics in advanced knee osteoarthritis.",
+      "publicationDate": "2026-09-19",
+      "issueDate": null,
+      "authors": [
+        "Tian D",
+        "Wang H",
+        "Chen Z",
+        "Zhang J",
+        "Yao S",
+        "Zhang W",
+        "Ma J"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/ksa.70603",
+      "pmid": "42762157",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1002/ksa.70603",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42762156",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "kssta",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "journalAbbreviation": "Knee Surg Sports Traumatol Arthrosc",
+      "journalUrl": "https://link.springer.com/journal/167",
+      "title": "Beyond clinical grading: rethinking arthrogenic muscle inhibition after anterior cruciate ligament reconstruction.",
+      "publicationDate": "2026-09-19",
+      "issueDate": null,
+      "authors": [
+        "Qu X",
+        "Tang X",
+        "Yang D",
+        "Chen B"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/ksa.70612",
+      "pmid": "42762156",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1002/ksa.70612",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42762155",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "kssta",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "journalAbbreviation": "Knee Surg Sports Traumatol Arthrosc",
+      "journalUrl": "https://link.springer.com/journal/167",
+      "title": "Beyond graft integrity: Magnetic resonance imaging should define the revision roadmap in failed anterior cruciate ligament reconstruction.",
+      "publicationDate": "2026-09-19",
+      "issueDate": null,
+      "authors": [
+        "Bermúdez IAB",
+        "Echavarría DMA",
+        "Duarte Vallejo A",
+        "Páez Rueda HD"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/ksa.70602",
+      "pmid": "42762155",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1002/ksa.70602",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42764020",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jap",
+      "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+      "journalAbbreviation": "J Appl Physiol (1985)",
+      "journalUrl": "https://journals.physiology.org/journal/jappl",
+      "title": "Sex Difference in Orthostatic Tolerance During Simulated Partial Gravity Head-Up Tilts and Efficacy of a Lower Body Compression Garment Countermeasure.",
+      "publicationDate": "2026-09-17",
+      "issueDate": null,
+      "authors": [
+        "Lytle JR",
+        "Carter KJ",
+        "Pickering SK",
+        "O'Grady CS",
+        "Moestl S",
+        "Tank J",
+        "Diedrich A",
+        "Young M",
+        "Macias BR",
+        "Laurie SS",
+        "Lee SMC"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1152/japplphysiol.01130.2025",
+      "pmid": "42764020",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1152/japplphysiol.01130.2025",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
+      "id": "pmid-42762482",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jap",
+      "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+      "journalAbbreviation": "J Appl Physiol (1985)",
+      "journalUrl": "https://journals.physiology.org/journal/jappl",
+      "title": "Diminished sympathoinhibition during the onset of low-intensity leg cycling in young Black males.",
+      "publicationDate": "2026-09-17",
+      "issueDate": null,
+      "authors": [
+        "Katayama K",
+        "Oldham ZR",
+        "Taherzadeh Z",
+        "Alhalimi TA",
+        "Champagne PT",
+        "Wang T",
+        "Young BE",
+        "Ogoh S",
+        "Fadel PJ"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1152/japplphysiol.00368.2026",
+      "pmid": "42762482",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1152/japplphysiol.00368.2026",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [
+        "自行車"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-21T08:00:58.438Z"
+    },
+    {
       "id": "pmid-42760819",
       "status": "discovered",
       "sourceType": "journal-article",
@@ -402,43 +999,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
-    },
-    {
-      "id": "pmid-42735207",
-      "status": "discovered",
-      "sourceType": "journal-article",
-      "sourceId": "jissn",
-      "journal": "Journal of the International Society of Sports Nutrition",
-      "journalAbbreviation": "J Int Soc Sports Nutr",
-      "journalUrl": "https://jissn.biomedcentral.com/",
-      "title": "Resistance versus concurrent training with three assigned protein targets in middle-aged and older women: a randomized 2 × 3 factorial trial.",
-      "publicationDate": "2026-09-14",
-      "issueDate": "2026-12-30",
-      "authors": [
-        "Bagheri R",
-        "Ghobadi H",
-        "Mansordehghan M",
-        "M Camera D",
-        "Kargarfard M"
-      ],
-      "publicationTypes": [
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "doi": "10.1080/15502783.2026.2720742",
-      "pmid": "42735207",
-      "pmcId": "PMC13577256",
-      "sourceUrl": "https://doi.org/10.1080/15502783.2026.2720742",
-      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13577256/",
-      "access": "pmc-record-available",
-      "themes": [
-        "營養與水合"
-      ],
-      "sportTags": [],
-      "review": null,
-      "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42759564",
@@ -479,7 +1041,8 @@
       ],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42759563",
@@ -515,7 +1078,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42758003",
@@ -551,7 +1115,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42757672",
@@ -592,7 +1157,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42757658",
@@ -625,7 +1191,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42759112",
@@ -658,7 +1225,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754383",
@@ -701,7 +1269,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754382",
@@ -730,7 +1299,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754381",
@@ -762,7 +1332,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754380",
@@ -799,7 +1370,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754379",
@@ -857,7 +1429,8 @@
       ],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754378",
@@ -893,7 +1466,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754377",
@@ -926,7 +1500,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754376",
@@ -970,7 +1545,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754375",
@@ -1005,7 +1581,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754374",
@@ -1037,7 +1614,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754146",
@@ -1075,7 +1653,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754145",
@@ -1113,7 +1692,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42754144",
@@ -1152,7 +1732,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42753252",
@@ -1185,7 +1766,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42753248",
@@ -1218,7 +1800,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42753236",
@@ -1254,7 +1837,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42753234",
@@ -1297,7 +1881,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42752819",
@@ -1338,7 +1923,8 @@
       ],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42750656",
@@ -1372,7 +1958,8 @@
       ],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42750653",
@@ -1405,7 +1992,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42750645",
@@ -1444,7 +2032,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42692805",
@@ -1488,7 +2077,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42692802",
@@ -1521,7 +2111,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42753270",
@@ -1559,7 +2150,8 @@
       ],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42750176",
@@ -1601,7 +2193,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42749310",
@@ -1631,7 +2224,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42749309",
@@ -1662,7 +2256,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42749275",
@@ -1704,7 +2299,8 @@
       ],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748970",
@@ -1737,7 +2333,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748371",
@@ -1771,7 +2368,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748370",
@@ -1806,7 +2404,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748368",
@@ -1840,7 +2439,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748367",
@@ -1872,7 +2472,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748364",
@@ -1928,7 +2529,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748362",
@@ -1985,7 +2587,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748360",
@@ -2020,7 +2623,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748358",
@@ -2056,7 +2660,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748352",
@@ -2091,7 +2696,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42748328",
@@ -2125,7 +2731,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42747830",
@@ -2161,7 +2768,8 @@
       ],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42747786",
@@ -2196,7 +2804,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42747199",
@@ -2232,7 +2841,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42745412",
@@ -2269,7 +2879,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42745409",
@@ -2301,7 +2912,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42745400",
@@ -2335,7 +2947,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42744658",
@@ -2374,7 +2987,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42744290",
@@ -2459,7 +3073,8 @@
       ],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42744289",
@@ -2497,7 +3112,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42744121",
@@ -2532,7 +3148,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42744120",
@@ -2571,7 +3188,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42743001",
@@ -2610,7 +3228,8 @@
       ],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42743000",
@@ -2646,7 +3265,8 @@
       ],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42742980",
@@ -2682,7 +3302,8 @@
       "sportTags": [],
       "review": null,
       "visualization": null,
-      "discoveredAt": "2026-09-20T03:38:58.936Z"
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42742930",
@@ -2721,6 +3342,43 @@
       "fullTextUrl": null,
       "access": "check-publisher-or-institution",
       "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-09-20T03:38:58.936Z",
+      "featuredInIssueId": null
+    },
+    {
+      "id": "pmid-42735207",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jissn",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "journalAbbreviation": "J Int Soc Sports Nutr",
+      "journalUrl": "https://jissn.biomedcentral.com/",
+      "title": "Resistance versus concurrent training with three assigned protein targets in middle-aged and older women: a randomized 2 × 3 factorial trial.",
+      "publicationDate": "2026-09-14",
+      "issueDate": "2026-12-30",
+      "authors": [
+        "Bagheri R",
+        "Ghobadi H",
+        "Mansordehghan M",
+        "M Camera D",
+        "Kargarfard M"
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "doi": "10.1080/15502783.2026.2720742",
+      "pmid": "42735207",
+      "pmcId": "PMC13577256",
+      "sourceUrl": "https://doi.org/10.1080/15502783.2026.2720742",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13577256/",
+      "access": "pmc-record-available",
+      "themes": [
+        "營養與水合"
+      ],
       "sportTags": [],
       "review": null,
       "visualization": null,
