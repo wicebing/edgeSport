@@ -6,6 +6,7 @@ import { spawn } from "node:child_process";
 import ffmpegPath from "ffmpeg-static";
 import { validatePodcastScript } from "./lib/podcast-schema.mjs";
 import { preparePodcastVoices } from "./lib/podcast-voices.mjs";
+import { isRetryableNativeExitCode } from "./lib/process-retry.mjs";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = parseArguments(process.argv.slice(2));
@@ -45,7 +46,7 @@ const pythonArguments = [
   "--cohost-wav", voiceProfiles.cohost.speakerWav,
   "--device", args.get("device") ?? config.tts.device ?? "auto"
 ];
-await run(python.command, pythonArguments);
+await runPodcastRendererWithRetry(python.command, pythonArguments);
 await rm(temporaryPath, { force: true });
 await run(ffmpegPath, [
   "-hide_banner", "-loglevel", "warning", "-y",
@@ -101,8 +102,34 @@ function run(command, commandArgs) {
   return new Promise((resolvePromise, rejectPromise) => {
     const child = spawn(command, commandArgs, { cwd: rootDirectory, shell: false, windowsHide: true, stdio: "inherit" });
     child.on("error", rejectPromise);
-    child.on("close", (code) => code === 0 ? resolvePromise() : rejectPromise(new Error(`${command} exited with ${code ?? 1}.`)));
+    child.on("close", (code) => {
+      if (code === 0) {
+        resolvePromise();
+        return;
+      }
+      const error = new Error(`${command} exited with ${code ?? 1}.`);
+      error.exitCode = code ?? 1;
+      rejectPromise(error);
+    });
   });
+}
+
+async function runPodcastRendererWithRetry(command, commandArgs) {
+  try {
+    await run(command, commandArgs);
+  } catch (error) {
+    if (!isRetryableNativeExitCode(error.exitCode)) throw error;
+    const hexadecimalCode = `0x${(error.exitCode >>> 0).toString(16).toUpperCase().padStart(8, "0")}`;
+    console.warn(`Podcast renderer ended with transient Windows native code ${hexadecimalCode}; retrying once with the same device and reusable audio chunks.`);
+    try {
+      await run(command, commandArgs);
+    } catch (retryError) {
+      if (isRetryableNativeExitCode(retryError.exitCode)) {
+        retryError.message += " The automatic retry also failed. Close other GPU applications and rerun, or use npm.cmd run podcast:run -- --device cpu.";
+      }
+      throw retryError;
+    }
+  }
 }
 
 async function pathExists(path) {

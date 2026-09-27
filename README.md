@@ -181,6 +181,8 @@ npm.cmd run podcast:voices
 
 兩條聲線會依序載入，降低 8 GB 顯示記憶體同時佔用。第一次執行或重新撰寫整集時可能需要一段時間；快取鍵同時包含講稿與聲音 profile，因此更換來源音軌後一定會重新錄製，不會誤用舊聲線。預設使用可用的 NVIDIA CUDA，必要時可改用 CPU：
 
+Windows 上若 XTTS／CUDA 以 `0xC0000005` 或 `0xC0000409` 原生錯誤意外終止，渲染器會以相同裝置自動重試一次並沿用已完成的私人 WAV 分段。只有自動重試也失敗時，才需要關閉其他 GPU 程式或改用 CPU。
+
 ```powershell
 npm.cmd run podcast:run -- --device cpu
 ```

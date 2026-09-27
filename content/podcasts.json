@@ -8,6 +8,787 @@
   "episodes": [
     {
       "schemaVersion": 1,
+      "id": "2026-w40",
+      "status": "published",
+      "publishDate": "2026-10-03",
+      "showName": "edgeSport4Podcast",
+      "title": "A Change Worth Acting On?",
+      "episodeSubtitle": "Creatine, confidence after ACL reconstruction, and what a spine screening score can tell us",
+      "summary": "Ying and Bing explore when a measurement should change a training decision. They discuss adult creatine trials, physiotherapists' experiences of psychological support after ACL reconstruction, and spine screening in adolescent rhythmic gymnasts, keeping average effects, professional experience, and screening associations distinct.",
+      "language": "en",
+      "estimatedMinutes": 14,
+      "durationSeconds": 728.807,
+      "wordCount": 1808,
+      "hosts": [
+        {
+          "id": "host",
+          "displayName": "Ying",
+          "role": "Evidence guide · female voice"
+        },
+        {
+          "id": "cohost",
+          "displayName": "Bing",
+          "role": "Analytical partner · male voice"
+        }
+      ],
+      "sourceWeeklyReportId": "2026-w40",
+      "sourceRecordIds": [
+        "pmid-42765482",
+        "pmid-42781749",
+        "pmid-42781740"
+      ],
+      "learningGoals": [
+        "Interpret standardized strength effects without converting them into personal guarantees.",
+        "Distinguish lean mass, fat mass, and body fat percentage.",
+        "Explain what physiotherapist focus groups can contribute to ACL rehabilitation decisions.",
+        "Distinguish spine screening categories from diagnoses and causal evidence.",
+        "Identify what additional information could support maintaining training, progressing a task, or arranging professional assessment."
+      ],
+      "showNotes": [
+        "Pronounce edgeSport4Podcast as Edge Sport for Podcast. The digit 4 means for.",
+        "All research content comes from weeklyReport 2026-w40. No relatedIssues evidence is used.",
+        "Creatine source: Resistance training combined with creatine supplementation: a three-level meta-analysis of multidimensional outcomes from strength enhancement to body composition remodeling. https://doi.org/10.1080/15502783.2026.2718316",
+        "ACL source: From Fear to Function: How Physiotherapists Navigate Psychological Challenges in Patients Undergoing Rehabilitation After ACL Reconstruction. https://doi.org/10.1177/19417381261471381",
+        "Gymnastics source: Risk of Scoliosis in Adolescent Female Rhythmic Gymnasts Compared with Healthy Peers: A Cross-Sectional Study Using the Scoliosis Tele-Screening Test. https://doi.org/10.1177/19417381261485714",
+        "The creatine appendix was unavailable in the supplied evidence. Outcome-specific GRADE details and individual study characteristics require verification.",
+        "The gymnastics paper contains inconsistencies in category percentages, the precise STS-Test P value, and BMI reporting. This script retains reported counts and means.",
+        "The closing decision workflow is an EDGE SPORT operational proposal. The three studies did not validate it as a combined intervention."
+      ],
+      "chapters": [
+        {
+          "title": "When a number asks for a decision",
+          "summary": "The week's central question and the different kinds of evidence available.",
+          "turnStart": 1,
+          "startSeconds": 1.57
+        },
+        {
+          "title": "Creatine and the meaning of improvement",
+          "summary": "Average strength effects, uncertainty, body composition, and individual relevance.",
+          "turnStart": 5,
+          "startSeconds": 51.549
+        },
+        {
+          "title": "Making room for fear in rehabilitation",
+          "summary": "What experienced physiotherapists describe and what remains untested.",
+          "turnStart": 23,
+          "startSeconds": 291.521
+        },
+        {
+          "title": "A screening result needs interpretation",
+          "summary": "Rhythmic gymnastics findings without diagnostic or causal overreach.",
+          "turnStart": 35,
+          "startSeconds": 465.142
+        },
+        {
+          "title": "What would change the next step?",
+          "summary": "An explicitly unvalidated proposal for documenting decisions and follow-up.",
+          "turnStart": 49,
+          "startSeconds": 662.266
+        }
+      ],
+      "transcript": [
+        {
+          "turn": 1,
+          "speaker": "host",
+          "text": "Welcome to edgeSport4Podcast. I'm Ying, and imagine sitting with your coffee and a training report that looks better than last month's. Before you celebrate or change the plan, what does that improvement actually give you permission to do?",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 1.57,
+          "durationSeconds": 15.062
+        },
+        {
+          "turn": 2,
+          "speaker": "cohost",
+          "text": "I'm Bing, and here on edgeSport4Podcast we're asking when a change is enough to act on. This week's report brings together strength gains, confidence after knee reconstruction, and spine screening, with very different evidence behind each.",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42765482",
+            "pmid-42781749",
+            "pmid-42781740"
+          ],
+          "startSeconds": 16.792,
+          "durationSeconds": 14.775
+        },
+        {
+          "turn": 3,
+          "speaker": "host",
+          "text": "And the person looking at that report may want a simple answer. Should I keep going, try the next task, or get something checked? Our job today is to see which parts of those questions the research can actually answer.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [],
+          "startSeconds": 31.767,
+          "durationSeconds": 12.118
+        },
+        {
+          "turn": 4,
+          "speaker": "cohost",
+          "text": "Let's keep asking what was measured and whose experience it represents. That should make the practical answers more useful.",
+          "delivery": "clear",
+          "evidenceSourceIds": [],
+          "startSeconds": 44.085,
+          "durationSeconds": 7.264
+        },
+        {
+          "turn": 5,
+          "speaker": "host",
+          "text": "The creatine paper gives us an actual intervention comparison. It pooled randomized trials of adults doing resistance training with creatine against adults doing resistance training with a placebo, so training was part of both sides of the comparison.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 51.549,
+          "durationSeconds": 16.73
+        },
+        {
+          "turn": 6,
+          "speaker": "cohost",
+          "text": "That matters when someone credits everything to the supplement. The authors reported 63 trials and 1,489 adults overall, but different outcomes used different subsets of studies, so we shouldn't add the outcome sample sizes together.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 68.48,
+          "durationSeconds": 14.608
+        },
+        {
+          "turn": 7,
+          "speaker": "host",
+          "text": "Before we give the strength result, what does the effect number mean for someone who usually thinks in kilograms?",
+          "delivery": "curious",
+          "evidenceSourceIds": [],
+          "startSeconds": 83.287,
+          "durationSeconds": 6.368
+        },
+        {
+          "turn": 8,
+          "speaker": "cohost",
+          "text": "They used Hedges' g, which puts the difference in the groups' changes onto a standardized scale. That lets researchers combine different strength measurements, but a value of point five doesn't mean half a kilogram or a fifty percent improvement.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 89.895,
+          "durationSeconds": 14.997
+        },
+        {
+          "turn": 9,
+          "speaker": "host",
+          "text": "On that scale, the upper body strength effect was point five four in favor of creatine. For lower body strength, the estimate was point five five after removing one outlying effect value, while the complete analysis gave point six six.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 105.093,
+          "durationSeconds": 14.468
+        },
+        {
+          "turn": 10,
+          "speaker": "cohost",
+          "text": "So the average favors adding creatine, and removing that unusual value made the lower body estimate smaller. How certain is that average?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 119.761,
+          "durationSeconds": 8.969
+        },
+        {
+          "turn": 11,
+          "speaker": "host",
+          "text": "For that lower body estimate, the ninety five percent confidence interval ran from point three eight to point seven one. That's uncertainty around the estimated average effect, but a coach also needs to ask how much results might vary across study settings.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 128.97,
+          "durationSeconds": 13.72
+        },
+        {
+          "turn": 12,
+          "speaker": "cohost",
+          "text": "That's where the prediction interval helps. After removing the outlier, it ranged from minus point zero four to one point one four, crossing zero and leaving room for a future study setting with little or no benefit.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 142.889,
+          "durationSeconds": 14.189
+        },
+        {
+          "turn": 13,
+          "speaker": "host",
+          "text": "And that interval describes possible study effects, rather than giving an individual athlete their own predicted range of strength gains.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 157.278,
+          "durationSeconds": 9.35
+        },
+        {
+          "turn": 14,
+          "speaker": "cohost",
+          "text": "Exactly, and publication bias is another reason to stay measured. A sensitivity analysis that modeled potentially missing effects reduced both strength estimates, although they remained positive. Those modeled effects weren't additional trials that researchers had actually conducted.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 166.828,
+          "durationSeconds": 15.653
+        },
+        {
+          "turn": 15,
+          "speaker": "host",
+          "text": "I still find the average strength signal useful for a nutrition discussion. But suppose someone says their scan shows more lean mass and less body fat percentage, so creatine must have built muscle and burned fat. Would you accept both claims?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 182.681,
+          "durationSeconds": 16.756
+        },
+        {
+          "turn": 16,
+          "speaker": "cohost",
+          "text": "I'd separate them. Lean mass increased on average, but lean mass includes water as well as other nonfat tissue, and this analysis couldn't separate those contributions. Calling all of that increase new muscle would go beyond the measurements.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 199.677,
+          "durationSeconds": 14.391
+        },
+        {
+          "turn": 17,
+          "speaker": "host",
+          "text": "And a smaller fat percentage can happen when the total changes, even without a clear reduction in the amount of fat?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 214.268,
+          "durationSeconds": 5.67
+        },
+        {
+          "turn": 18,
+          "speaker": "cohost",
+          "text": "Yes, that's the denominator changing. The analysis found a small decrease in body fat percentage but didn't detect a significant difference in fat mass, so it doesn't establish a fat loss benefit from adding creatine to training.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 220.178,
+          "durationSeconds": 13.91
+        },
+        {
+          "turn": 19,
+          "speaker": "host",
+          "text": "Then I'd want to know whether the person is getting stronger in a way they value and how they feel about any weight change. Can this paper at least tell us which supplement schedule is most likely to deliver that?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 234.288,
+          "durationSeconds": 13.924
+        },
+        {
+          "turn": 20,
+          "speaker": "cohost",
+          "text": "It didn't identify consistent effects of dose or supplementation schedule on the results. That leaves the best prescription unresolved, and it doesn't establish that all schedules work equally well. The authors rated overall evidence certainty from low to moderate.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 248.452,
+          "durationSeconds": 17.402
+        },
+        {
+          "turn": 21,
+          "speaker": "host",
+          "text": "So there's enough to discuss a possible addition, but not enough to promise a particular person's response.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 266.054,
+          "durationSeconds": 5.969
+        },
+        {
+          "turn": 22,
+          "speaker": "cohost",
+          "text": "And that discussion needs context. Women were less represented, diet and hydration reporting were incomplete, and the appendix wasn't available in the supplied evidence. For an individual decision, I'd want their training record, nutrition context, strength changes, and priorities alongside the average result.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "startSeconds": 272.223,
+          "durationSeconds": 19.098
+        },
+        {
+          "turn": 23,
+          "speaker": "host",
+          "text": "Those priorities become especially visible when someone is rebuilding confidence after anterior cruciate ligament reconstruction, usually called ACL reconstruction. Our next paper asks how physiotherapists handle psychological challenges during rehabilitation, which is a different question from whether a treatment improves outcomes.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 291.521,
+          "durationSeconds": 21.736
+        },
+        {
+          "turn": 24,
+          "speaker": "cohost",
+          "text": "Different because we're listening to therapists describe their work, rather than following patients through a tested intervention?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 313.458,
+          "durationSeconds": 6.825
+        },
+        {
+          "turn": 25,
+          "speaker": "host",
+          "text": "Yes, there were 21 physiotherapists across six focus groups, with 11 from the Netherlands and 10 from Norway. Researchers analyzed the discussions for themes, and there was no intervention comparison or patient follow-up measuring return to sport or reinjury.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 320.523,
+          "durationSeconds": 16.328
+        },
+        {
+          "turn": 26,
+          "speaker": "cohost",
+          "text": "What I found useful was their description of a therapeutic alliance, meaning cooperation built around shared goals, agreed tasks, and trust. They described small achievable goals and gradually approaching feared movements as ways to connect physical progress with confidence.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 337.051,
+          "durationSeconds": 15.358
+        },
+        {
+          "turn": 27,
+          "speaker": "host",
+          "text": "Would you call those strategies effective based on these interviews, or would that skip a step in the evidence?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 352.609,
+          "durationSeconds": 6.242
+        },
+        {
+          "turn": 28,
+          "speaker": "cohost",
+          "text": "It would skip the patient's experience and the outcome testing. These are strategies therapists described using, not demonstrated improvements in return rates, though they give us concrete questions about which task feels frightening and whether the athlete feels supported.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 359.091,
+          "durationSeconds": 16.252
+        },
+        {
+          "turn": 29,
+          "speaker": "host",
+          "text": "That last question feels easy to miss if the team believes it's already being supportive. The therapists also described group training as potentially helpful, but comparison with someone progressing faster could add pressure, so the same setting may be experienced differently.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 375.543,
+          "durationSeconds": 15.239
+        },
+        {
+          "turn": 30,
+          "speaker": "cohost",
+          "text": "Then a better confidence score wouldn't settle everything. What would you still want to hear from the athlete?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 390.982,
+          "durationSeconds": 7.763
+        },
+        {
+          "turn": 31,
+          "speaker": "host",
+          "text": "I'd ask which activity now feels manageable and which still doesn't, as a practical application of the report. The therapists used psychological questionnaires inconsistently, and some relied more on conversation, so this study gives us no universal score that clears someone to progress.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 398.985,
+          "durationSeconds": 18.713
+        },
+        {
+          "turn": 32,
+          "speaker": "cohost",
+          "text": "I'd also ask whose timetable they're trying to meet. The interviews highlighted expectations from coaches, family, and teammates, along with limits in therapists' psychological training and access to referral services. Good intentions don't tell us whether needed support was actually available.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 417.898,
+          "durationSeconds": 16.406
+        },
+        {
+          "turn": 33,
+          "speaker": "host",
+          "text": "And we should resist turning every interview example into homework. Some therapists mentioned injury footage or returning to the injury location, but the study didn't establish when those approaches are appropriate or whether they're safe and effective.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 434.505,
+          "durationSeconds": 13.808
+        },
+        {
+          "turn": 34,
+          "speaker": "cohost",
+          "text": "Agreed. I'd use these findings to improve the conversation and clarify support needs, while keeping progression within the person's rehabilitation plan. I'd be more confident about prescribing a particular strategy if research included patient perspectives and measured patient outcomes.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "startSeconds": 448.513,
+          "durationSeconds": 16.43
+        },
+        {
+          "turn": 35,
+          "speaker": "host",
+          "text": "That wish for information we don't yet have carries into the gymnastics paper. It compared spine screening results in 56 female rhythmic gymnasts and 302 girls of similar age who didn't participate in sport, using a single assessment rather than following changes over time.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 465.142,
+          "durationSeconds": 19.986
+        },
+        {
+          "turn": 36,
+          "speaker": "cohost",
+          "text": "Before the numbers, does a higher score mean more diagnosed scoliosis, or does it identify something that needs interpretation?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 485.328,
+          "durationSeconds": 7.939
+        },
+        {
+          "turn": 37,
+          "speaker": "host",
+          "text": "It identifies screening risk. The Scoliosis Tele-Screening Test, or STS-Test, combines information such as family history, maturation, and visible asymmetry, so the total isn't simply a measure of spinal shape. This study didn't confirm scoliosis with imaging.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 493.507,
+          "durationSeconds": 18.744
+        },
+        {
+          "turn": 38,
+          "speaker": "cohost",
+          "text": "With that distinction in place, the gymnasts averaged five point three four points, compared with three point four one in the comparison group. Those are points on the screening tool, and the group averages don't tell us each girl's classification.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 512.451,
+          "durationSeconds": 14.621
+        },
+        {
+          "turn": 39,
+          "speaker": "host",
+          "text": "Where did the difference show up when they looked at the categories instead of just the average score?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 527.273,
+          "durationSeconds": 6.147
+        },
+        {
+          "turn": 40,
+          "speaker": "cohost",
+          "text": "Mainly in the middle category. There were 35 gymnasts classified as medium risk out of 56, compared with 60 out of 302 in the comparison group. Keeping those denominators attached matters because the two groups were very different in size.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 533.66,
+          "durationSeconds": 16.643
+        },
+        {
+          "turn": 41,
+          "speaker": "host",
+          "text": "And the high risk category didn't show a statistically significant group difference, which doesn't establish that the groups were equal. It also means we shouldn't describe every risk category as elevated or turn the medium risk counts into numbers of diagnosed cases.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 550.503,
+          "durationSeconds": 16.491
+        },
+        {
+          "turn": 42,
+          "speaker": "cohost",
+          "text": "The training hours result is where I can imagine a coach wanting an immediate rule. Within the gymnast group, weekly hours and screening scores had a positive correlation of point four five six, meaning they tended to rise together.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 567.195,
+          "durationSeconds": 12.654
+        },
+        {
+          "turn": 43,
+          "speaker": "host",
+          "text": "But we can't turn that association into an hourly ceiling, or assume reducing hours would lower the screening score.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 580.049,
+          "durationSeconds": 7.852
+        },
+        {
+          "turn": 44,
+          "speaker": "cohost",
+          "text": "Right, the study can't establish what came first or separate training from selection and other influences. The girls had at least five years of gymnastics experience and were in competitive tiers three and four, so this isn't a sample of everyone attending a gymnastics class.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 588.101,
+          "durationSeconds": 15.595
+        },
+        {
+          "turn": 45,
+          "speaker": "host",
+          "text": "Suppose a parent brings in a medium risk result and asks whether their daughter should stop training. I'd explain that the category needs clinical interpretation and isn't itself a stopping rule. What would help you make the next decision more concrete?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 603.896,
+          "durationSeconds": 14.327
+        },
+        {
+          "turn": 46,
+          "speaker": "cohost",
+          "text": "I'd want the components behind the score, the maturation and training context, and a clinician's assessment of what follow-up is appropriate. The authors suggested screening every six months during growth, but their study didn't test that interval or show that it prevents progression.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 618.463,
+          "durationSeconds": 15.753
+        },
+        {
+          "turn": 47,
+          "speaker": "host",
+          "text": "There's also some editorial checking still needed. The paper's percentages don't fully match its category counts, and there are inconsistencies in statistical reporting, so we've retained the reported counts and means without quietly correcting the source.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 634.416,
+          "durationSeconds": 15.411
+        },
+        {
+          "turn": 48,
+          "speaker": "cohost",
+          "text": "That leaves a useful observation with a clear limit. To make stronger prevention decisions, we'd need follow-up connecting these screening results with later clinical outcomes, and evidence testing whether changes in training improve those outcomes.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "startSeconds": 650.027,
+          "durationSeconds": 12.039
+        },
+        {
+          "turn": 49,
+          "speaker": "host",
+          "text": "So here's our practical proposal from EDGE SPORT, and these studies haven't validated it as a combined process. Before changing training, write down what changed, what the measurement represents, what the athlete wants, and what unanswered question could change the decision.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [],
+          "startSeconds": 662.266,
+          "durationSeconds": 17.131
+        },
+        {
+          "turn": 50,
+          "speaker": "cohost",
+          "text": "I'd add a named person and a date for reviewing the next step. That makes maintaining training, trying an agreed task, or arranging assessment something the team can revisit, without pretending we've discovered a universal progression threshold.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [],
+          "startSeconds": 679.597,
+          "durationSeconds": 13.146
+        },
+        {
+          "turn": 51,
+          "speaker": "host",
+          "text": "For this week, discuss creatine through actual strength goals and body changes, ask about specific fears during ACL rehabilitation, and take spine screening concerns to clinical interpretation. Each asks for a different kind of follow-up, and none supplies an automatic personal clearance.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42765482",
+            "pmid-42781749",
+            "pmid-42781740"
+          ],
+          "startSeconds": 692.943,
+          "durationSeconds": 18.796
+        },
+        {
+          "turn": 52,
+          "speaker": "cohost",
+          "text": "And leave room for the athlete's answer to change the plan. You'll find the methods, numbers, and remaining uncertainties in the written weekly report and original sources. Thanks for joining us on edgeSport4Podcast, and we'll talk again next week.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 711.939,
+          "durationSeconds": 15.138
+        }
+      ],
+      "factCheck": [
+        {
+          "claim": "The creatine review reported 63 randomized trials and 1,489 adults, comparing resistance training plus creatine with resistance training plus placebo.",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "boundary": "Outcome analyses use different study subsets with overlapping participants. Their sample sizes must not be added together. This is adult evidence, not an adolescent or ACL-specific supplementation protocol."
+        },
+        {
+          "claim": "Upper body strength favored creatine with Hedges' g = 0.54, 95% CI 0.37–0.71. Lower body strength was g = 0.66 in the full analysis and g = 0.55 after excluding one outlying effect value.",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "boundary": "Hedges' g expresses standardized between-group differences in change, not kilograms or percentage improvement. Full and outlier-excluded estimates must remain distinguished."
+        },
+        {
+          "claim": "The outlier-excluded lower body strength estimate had a 95% confidence interval of 0.38–0.71 and a 95% prediction interval of −0.04–1.14.",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "boundary": "The confidence interval concerns uncertainty in the average effect. The prediction interval concerns effects in future study settings and is not an individual prediction interval. Both upper and lower body strength prediction intervals crossed zero."
+        },
+        {
+          "claim": "Publication-bias sensitivity analyses reduced strength estimates to g = 0.36 for upper body and g = 0.35 for lower body strength, with confidence intervals remaining above zero.",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "boundary": "Trim-and-fill models hypothetical missing effects rather than adding observed trials. This sensitivity analysis used a two-level method treating effects as independent."
+        },
+        {
+          "claim": "Lean mass increased with g = 0.30, 95% CI 0.18–0.41. Fat mass showed no statistically significant difference, g = −0.10, 95% CI −0.23–0.03, while body fat percentage decreased slightly, g = −0.14, 95% CI −0.26–−0.02.",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "boundary": "Lean mass includes water, and the analysis could not separate water from tissue contributions. A reduced fat percentage does not establish fat loss. Standardized effects are not kilograms or percentage points."
+        },
+        {
+          "claim": "The review did not identify consistent dose or supplementation-schedule moderation, and the authors rated overall certainty as low to moderate.",
+          "evidenceSourceIds": [
+            "pmid-42765482"
+          ],
+          "boundary": "Failure to detect moderation does not establish equivalent regimens or an optimal dose. Women were less represented, contextual reporting was incomplete, and the missing appendix prevents independent verification of detailed outcome-level GRADE assessments."
+        },
+        {
+          "claim": "The ACL study involved 21 physiotherapists in six focus groups, including 11 from the Netherlands and 10 from Norway.",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "boundary": "Participants were therapists recruited through professional networks, not patients. There was no intervention comparator or longitudinal patient outcome assessment."
+        },
+        {
+          "claim": "Therapists described trust, shared goals, small milestones, gradual exposure to feared movements, mixed experiences of group training, external pressure, and referral barriers.",
+          "evidenceSourceIds": [
+            "pmid-42781749"
+          ],
+          "boundary": "These are professional accounts, not demonstrated improvements in return to sport, reinjury, or patient experience. The study validates no psychological clearance threshold and does not establish injury footage or injury-site visits as safe required tasks."
+        },
+        {
+          "claim": "The gymnastics study compared 56 female rhythmic gymnasts with 302 similarly aged girls who did not participate in sport. Mean STS-Test scores were 5.34 ± 2.70 versus 3.41 ± 3.39 points.",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "boundary": "This was a single cross-sectional assessment without imaging-confirmed scoliosis. Gymnasts had at least five years of experience and were in tiers 3 and 4. Findings should not be generalized to all gymnastics participants."
+        },
+        {
+          "claim": "Medium risk counts were 35 of 56 gymnasts and 60 of 302 controls. High risk counts were 2 and 16, respectively, with no statistically significant high risk category difference.",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "boundary": "Counts describe screening categories, not diagnosed cases. A nonsignificant difference does not establish equality. Reported gymnast percentages conflict with counts, so the script uses counts without deriving replacement percentages."
+        },
+        {
+          "claim": "Weekly training hours correlated with STS-Test scores within the gymnast group, Spearman r = 0.456, P = 0.01.",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "boundary": "The association establishes neither causation nor a safe hourly limit. It does not show that reducing hours lowers scores or prevents disease."
+        },
+        {
+          "claim": "The gymnastics authors suggested screening every six months during growth.",
+          "evidenceSourceIds": [
+            "pmid-42781740"
+          ],
+          "boundary": "The study did not test that interval, longitudinal progression, or the effectiveness of screening-linked interventions. Clinical interpretation is required rather than automatic training cessation based on a category."
+        }
+      ],
+      "closingTakeaways": [
+        "Interpret creatine benefits alongside actual training, strength goals, and body changes.",
+        "Ask about specific feared tasks and perceived support during ACL rehabilitation.",
+        "Treat STS-Test results as screening information requiring interpretation, not diagnoses or automatic stopping rules.",
+        "Record the next step, responsible person, and review date as an explicitly unvalidated EDGE SPORT proposal.",
+        "Consult the written weekly report and original sources for full methods and limitations."
+      ],
+      "disclosure": "The speech is synthetic. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. This episode is educational and does not provide individualized medical advice or return-to-play clearance.",
+      "editorReview": {
+        "approvedForPublish": false,
+        "verifiedBy": "",
+        "verifiedAt": ""
+      },
+      "publicationMode": "automated",
+      "automationProvider": "codex",
+      "renderedAt": "2026-09-27T02:02:35.842Z",
+      "publishedAt": "2026-09-27T02:03:15.306Z",
+      "audio": {
+        "src": "assets/podcasts/2026-w40-62dfd112dbd2.mp3",
+        "mimeType": "audio/mpeg",
+        "bytes": 8746604,
+        "bitrate": "96k",
+        "sampleRate": 24000
+      },
+      "researchSources": [
+        {
+          "recordId": "pmid-42765482",
+          "title": "Resistance training combined with creatine supplementation: a three-level meta-analysis of multidimensional outcomes from strength enhancement to body composition remodeling.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-09-21",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2718316",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42781749",
+          "title": "From Fear to Function: How Physiotherapists Navigate Psychological Challenges in Patients Undergoing Rehabilitation After ACL Reconstruction.",
+          "journal": "Sports health",
+          "publicationDate": "2026-09-24",
+          "sourceUrl": "https://doi.org/10.1177/19417381261471381",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42781740",
+          "title": "Risk of Scoliosis in Adolescent Female Rhythmic Gymnasts Compared with Healthy Peers: A Cross-Sectional Study Using the Scoliosis Tele-Screening Test.",
+          "journal": "Sports health",
+          "publicationDate": "2026-09-24",
+          "sourceUrl": "https://doi.org/10.1177/19417381261485714",
+          "contentLevel": "full-text-open"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
       "id": "2026-w39",
       "status": "published",
       "publishDate": "2026-09-26",

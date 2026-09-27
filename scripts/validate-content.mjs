@@ -272,6 +272,9 @@ function validateWeeklyReports(reportsData, publishedIssueIds, knownTopicIds) {
   }
 
   const reportIds = new Set();
+  const publishedReportsById = new Map((reportsData.reports ?? [])
+    .filter((report) => report?.status === "published" && typeof report?.id === "string")
+    .map((report) => [report.id, report]));
   for (const report of reportsData.reports) {
     const location = `weekly report ${report?.id ?? "unknown"}`;
     requiredString(report?.id, `${location}.id`);
@@ -336,8 +339,23 @@ function validateWeeklyReports(reportsData, publishedIssueIds, knownTopicIds) {
     const courseSourceIds = new Set((report?.courseSources ?? []).map((source) => source.id));
     const priorIssueSourceIds = new Set((report?.priorWeeklySources ?? []).map((source) => source.id));
     for (const source of report?.priorWeeklySources ?? []) {
-      if (!publishedIssueIds.has(source?.id)) {
-        errors.push(`${location}.priorWeeklySources includes unknown published issue ${source?.id}.`);
+      const referencedIntegratedReport = publishedReportsById.get(source?.id);
+      const referencesCuratedIssue = publishedIssueIds.has(source?.id);
+      if (!referencesCuratedIssue && !referencedIntegratedReport) {
+        errors.push(`${location}.priorWeeklySources includes unknown published prior report ${source?.id}.`);
+        continue;
+      }
+      if (referencedIntegratedReport && referencedIntegratedReport.id === report?.id) {
+        errors.push(`${location}.priorWeeklySources cannot reference itself.`);
+      }
+      if (referencedIntegratedReport && referencedIntegratedReport.publishDate >= report?.publishDate) {
+        errors.push(`${location}.priorWeeklySources must reference an earlier integrated report: ${source?.id}.`);
+      }
+      if (referencedIntegratedReport && source?.kind !== "integrated-report") {
+        errors.push(`${location}.priorWeeklySources[${source?.id}].kind must be integrated-report.`);
+      }
+      if (!referencedIntegratedReport && referencesCuratedIssue && source?.kind !== "curated-issue" && source?.kind !== "monthly-deep-dive") {
+        errors.push(`${location}.priorWeeklySources[${source?.id}].kind must identify a curated issue.`);
       }
     }
 
