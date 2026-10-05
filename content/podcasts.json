@@ -8,6 +8,801 @@
   "episodes": [
     {
       "schemaVersion": 1,
+      "id": "2026-w41",
+      "status": "published",
+      "publishDate": "2026-10-10",
+      "showName": "edgeSport4Podcast",
+      "title": "Twelve Watts, and a Better Question",
+      "episodeSubtitle": "Does a promising change help the task, the gut, and the person?",
+      "summary": "Ying and Bing examine a small cycling trial of bicarbonate gel after prolonged riding, then connect its promise and limits with gastrointestinal measurement, supplement uncertainty, hypoxic sprinting, recovery therapy, sleep, school exercise, and alcohol craving. Their central question is what evidence would justify keeping a new strategy.",
+      "language": "en",
+      "estimatedMinutes": 14,
+      "durationSeconds": 775.708,
+      "wordCount": 1753,
+      "hosts": [
+        {
+          "id": "host",
+          "displayName": "Ying",
+          "role": "Evidence guide · female voice"
+        },
+        {
+          "id": "cohost",
+          "displayName": "Bing",
+          "role": "Analytical partner · male voice"
+        }
+      ],
+      "sourceWeeklyReportId": "2026-w41",
+      "sourceRecordIds": [
+        "pmid-42811668",
+        "pmid-42806437",
+        "pmid-42813573",
+        "pmid-42816054",
+        "pmid-42788859",
+        "pmid-42754832",
+        "pmid-42733310",
+        "pmid-42723148"
+      ],
+      "learningGoals": [
+        "Interpret the cycling gel result within its population, comparison, task order, and uncertainty.",
+        "Separate symptom scores and physiological markers from meaningful functional outcomes.",
+        "Distinguish acute responses, long-term adaptations, exploratory findings, and mixed-design pooled estimates.",
+        "Describe a practical comparison process while recognizing that the EDGE SPORT workflow is unvalidated."
+      ],
+      "showNotes": [
+        "The written weekly report is the evidence source for this episode. Research findings and EDGE SPORT operational proposals are distinguished in the conversation.",
+        "Cycling bicarbonate gel trial: https://doi.org/10.1111/sms.70373",
+        "Exercise gastrointestinal measurement review: https://doi.org/10.1080/15502783.2026.2735563",
+        "Capsaicin analogue meta-analysis: https://doi.org/10.1080/15502783.2026.2733576",
+        "Hypoxic repeated sprint trial: https://doi.org/10.1002/ejsc.70244",
+        "CRET recovery crossover trial: https://doi.org/10.1002/ejsc.70246",
+        "Sleep and mental fatigue exploratory analysis: https://doi.org/10.1002/ejsc.70247",
+        "FIT FIRST 20 school trial: https://doi.org/10.1111/sms.70374 Links are provided for methods and limitations rather than individual exercise prescriptions."
+      ],
+      "chapters": [
+        {
+          "title": "A finish worth measuring",
+          "summary": "The cycling comparison, its 12-watt result, and the limits of individual interpretation.",
+          "turnStart": 1,
+          "startSeconds": 1.57
+        },
+        {
+          "title": "What does a gut score mean?",
+          "summary": "Symptom definitions, measurement consistency, and functional interference.",
+          "turnStart": 13,
+          "startSeconds": 172.76
+        },
+        {
+          "title": "More stimulus, better outcome?",
+          "summary": "Capsaicin uncertainty and the distinction between sprint output and physiological burden.",
+          "turnStart": 19,
+          "startSeconds": 256.869
+        },
+        {
+          "title": "Recovery and readiness",
+          "summary": "CRET markers and exploratory sleep findings need separate functional interpretation.",
+          "turnStart": 29,
+          "startSeconds": 413.56
+        },
+        {
+          "title": "Different people, different endpoints",
+          "summary": "School fitness and short-term alcohol craving illustrate outcome and population specificity.",
+          "turnStart": 37,
+          "startSeconds": 551.415
+        },
+        {
+          "title": "A decision you can revisit",
+          "summary": "An explicitly unvalidated comparison process and a concise practical recap.",
+          "turnStart": 45,
+          "startSeconds": 693.172
+        }
+      ],
+      "transcript": [
+        {
+          "turn": 1,
+          "speaker": "host",
+          "text": "Welcome to edgeSport4Podcast. I'm Ying, and I keep imagining a rider who's done everything carefully but still fades near the finish, wondering whether one more gel would help. This week we're asking what would make an added strategy worth keeping.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 1.57,
+          "durationSeconds": 15.901
+        },
+        {
+          "turn": 2,
+          "speaker": "cohost",
+          "text": "I'm Bing, and you're listening to edgeSport4Podcast, spoken as Edge Sport for Podcast. That rider's question feels familiar because a promising average can sound very personal, especially when the headline offers twelve extra watts after a long ride.",
+          "delivery": "warm",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 17.591,
+          "durationSeconds": 15.401
+        },
+        {
+          "turn": 3,
+          "speaker": "host",
+          "text": "Exactly. But extra compared with what, and during which part of the ride?",
+          "delivery": "curious",
+          "evidenceSourceIds": [],
+          "startSeconds": 33.192,
+          "durationSeconds": 5.766
+        },
+        {
+          "turn": 4,
+          "speaker": "cohost",
+          "text": "Compared with the same carbohydrate intake without bicarbonate. Eleven trained cyclists completed both conditions in a randomized crossover experiment, so each person supplied their own comparison, and they were already accustomed to substantial carbohydrate intake during exercise.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 39.199,
+          "durationSeconds": 17.19
+        },
+        {
+          "turn": 5,
+          "speaker": "host",
+          "text": "That background matters. Both conditions provided eighty grams of carbohydrate per hour during three hours of riding, and the added gel supplied a specific bicarbonate formulation, so this tested an addition to established fueling rather than a rescue for inadequate carbohydrate.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 56.588,
+          "durationSeconds": 16.562
+        },
+        {
+          "turn": 6,
+          "speaker": "cohost",
+          "text": "And the performance test came after that riding, some short sprints, and a two minute effort. In the twelve minute test, average power was 239 watts with carbohydrate alone and 251 with the added bicarbonate, which sounds like a useful finish.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 73.35,
+          "durationSeconds": 16.56
+        },
+        {
+          "turn": 7,
+          "speaker": "host",
+          "text": "The paired difference was twelve watts, with a confidence interval from three to twenty two watts. That's encouraging for this particular test, although both conditions remained below the unfatigued reference, so the gel didn't erase the effect of the preceding work.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 90.111,
+          "durationSeconds": 15.089
+        },
+        {
+          "turn": 8,
+          "speaker": "cohost",
+          "text": "So it helped one finish. Did the shorter efforts improve too?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 105.4,
+          "durationSeconds": 4.728
+        },
+        {
+          "turn": 9,
+          "speaker": "host",
+          "text": "They didn't show a clear additional advantage. That keeps me from calling this a general power boost, and the fixed test order leaves another question open, because we can't separate prolonged riding tolerance from recovery after those preceding hard efforts or changes in pacing.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 110.368,
+          "durationSeconds": 15.891
+        },
+        {
+          "turn": 10,
+          "speaker": "cohost",
+          "text": "That's also where durability needs a careful definition. It's how well output holds up after accumulated exercise, while physiological resilience concerns things like efficiency and maximal oxygen uptake, so a better power result doesn't establish that every underlying physiological determinant was protected.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 126.458,
+          "durationSeconds": 17.083
+        },
+        {
+          "turn": 11,
+          "speaker": "host",
+          "text": "Right, and the blood buffering response doesn't give us a personal success threshold either. Bicarbonate and blood pH increased, but the bicarbonate increase wasn't significantly related to the performance gain, so would you call someone a nonresponder after one unsuccessful trial?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 143.741,
+          "durationSeconds": 20.527
+        },
+        {
+          "turn": 12,
+          "speaker": "cohost",
+          "text": "I wouldn't. Three of eleven didn't improve, but without repeatability data that isn't a stable personal label.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 164.508,
+          "durationSeconds": 8.052
+        },
+        {
+          "turn": 13,
+          "speaker": "host",
+          "text": "And even a real gain has to coexist with being able to eat and finish the task. Nobody reported severe or extreme gut symptoms under this study's definition, but these were familiarized riders with controlled diets, so how much reassurance should that give someone else?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "startSeconds": 172.76,
+          "durationSeconds": 16.797
+        },
+        {
+          "turn": 14,
+          "speaker": "cohost",
+          "text": "Some reassurance about those conditions, not a general safety promise. The gut measurement review makes the wording especially important because it found fifty different scales across 126 studies, and ninety two percent of studies didn't explain why they chose their tool.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42788859",
+            "pmid-42811668"
+          ],
+          "startSeconds": 189.797,
+          "durationSeconds": 16.152
+        },
+        {
+          "turn": 15,
+          "speaker": "host",
+          "text": "Those are study counts, not the percentage of athletes who had symptoms.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42811668"
+          ],
+          "startSeconds": 206.149,
+          "durationSeconds": 4.036
+        },
+        {
+          "turn": 16,
+          "speaker": "cohost",
+          "text": "Yes, and two scales numbered zero to ten can still measure different things. Choosing a numbered category differs from marking a position on a continuous line, while changing the wording can shift the question from symptom severity to comfort, frequency, or interference.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42811668"
+          ],
+          "startSeconds": 210.386,
+          "durationSeconds": 15.378
+        },
+        {
+          "turn": 17,
+          "speaker": "host",
+          "text": "Which means I'd want to hear what actually happened alongside the score. Did nausea appear at a particular feeding point, did the rider skip food, or did they slow down, because a combined total can hide those differences and lose the timing?",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42811668"
+          ],
+          "startSeconds": 225.964,
+          "durationSeconds": 14.132
+        },
+        {
+          "turn": 18,
+          "speaker": "cohost",
+          "text": "I'd keep the symptom names, anchors, and recording times consistent. The review isn't a formal systematic assessment of measurement properties, and limited reliability evidence doesn't amount to full validation, so it doesn't establish a universal score that tells everyone when symptoms become unacceptable.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42811668"
+          ],
+          "startSeconds": 240.336,
+          "durationSeconds": 16.333
+        },
+        {
+          "turn": 19,
+          "speaker": "host",
+          "text": "That makes a supplement ranking feel premature. How does the capsaicin review fit here?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42816054"
+          ],
+          "startSeconds": 256.869,
+          "durationSeconds": 6.238
+        },
+        {
+          "turn": 20,
+          "speaker": "cohost",
+          "text": "It asks a different question about single doses of capsaicin analogues, compounds related to capsaicin. The analysis combined twenty one crossover trials involving 348 adults across several performance domains, and its overall standardized effect was 0.20, with a confidence interval from 0.07 to 0.33.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42816054"
+          ],
+          "startSeconds": 263.346,
+          "durationSeconds": 21.818
+        },
+        {
+          "turn": 21,
+          "speaker": "host",
+          "text": "So that's a small average expressed on a common statistical scale, rather than watts or seconds. The prediction interval ran from negative 0.36 to positive 0.77, which allows quite different results across study settings, including settings without benefit despite that positive average.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42816054"
+          ],
+          "startSeconds": 285.364,
+          "durationSeconds": 21.55
+        },
+        {
+          "turn": 22,
+          "speaker": "cohost",
+          "text": "And the authors rated overall certainty very low. Would a plausible mechanism change your recommendation?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42816054"
+          ],
+          "startSeconds": 307.115,
+          "durationSeconds": 7.755
+        },
+        {
+          "turn": 23,
+          "speaker": "host",
+          "text": "It would make the question interesting, but it wouldn't repair the evidence. Proposed pathways involving a receptor called TRPV1, calcium handling, and discomfort weren't directly tested in most trials, and adverse effects weren't assessed systematically enough to turn a dose curve into a safety guide.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42816054"
+          ],
+          "startSeconds": 315.109,
+          "durationSeconds": 18.253
+        },
+        {
+          "turn": 24,
+          "speaker": "cohost",
+          "text": "Then I'd want stronger task specific trials and better tolerance reporting before routine use. The predominantly male samples also limit interpretation for women, and different compounds can't be assumed equivalent, so this review and the cycling trial don't let us choose a winning supplement.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42816054",
+            "pmid-42788859"
+          ],
+          "startSeconds": 333.563,
+          "durationSeconds": 15.894
+        },
+        {
+          "turn": 25,
+          "speaker": "host",
+          "text": "Agreed. The same temptation appears in training when a bigger stimulus sounds automatically better.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [],
+          "startSeconds": 349.657,
+          "durationSeconds": 6.384
+        },
+        {
+          "turn": 26,
+          "speaker": "cohost",
+          "text": "The low oxygen sprint study gives that temptation something concrete to work against. Sixteen highly trained sprinters completed seven cycling sprints lasting either ten or fifteen seconds, with thirty seconds of rest in both conditions, and the longer sprints produced lower average power.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42754832"
+          ],
+          "startSeconds": 356.241,
+          "durationSeconds": 19.087
+        },
+        {
+          "turn": 27,
+          "speaker": "host",
+          "text": "Across the seven sprints, average power was 6.85 watts per kilogram for ten seconds and 6.30 for fifteen seconds. That tells us about output rate rather than proving lower total mechanical work, and the longer condition also showed a greater decline across repetitions.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42754832"
+          ],
+          "startSeconds": 375.528,
+          "durationSeconds": 19.953
+        },
+        {
+          "turn": 28,
+          "speaker": "cohost",
+          "text": "Yet average heart rate wasn't clearly different, while oxygen saturation measured shortly after each sprint was lower in the longer condition. So heart rate alone misses part of this comparison, and without a normal oxygen condition or long-term follow-up we can't declare the better training program.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42754832"
+          ],
+          "startSeconds": 395.681,
+          "durationSeconds": 17.68
+        },
+        {
+          "turn": 29,
+          "speaker": "host",
+          "text": "Exactly. And a recovery marker can miss the outcome we care about too.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [],
+          "startSeconds": 413.56,
+          "durationSeconds": 5.861
+        },
+        {
+          "turn": 30,
+          "speaker": "cohost",
+          "text": "You're thinking of CRET, the capacitive resistive electric transfer treatment added to massage. Twenty five athletes completed active and sham conditions after repeated hard cycling efforts, and because both conditions included massage, the comparison isolates the addition of active treatment rather than the value of massage itself.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42733310"
+          ],
+          "startSeconds": 419.621,
+          "durationSeconds": 20.098
+        },
+        {
+          "turn": 31,
+          "speaker": "host",
+          "text": "Yes. At sixty minutes, lactate was lower with active treatment by 0.70 millimoles per liter, with a reported confidence interval from 0.05 to 1.50, but does that justify saying the athletes had recovered faster or were ready for more work?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42733310"
+          ],
+          "startSeconds": 439.919,
+          "durationSeconds": 20.031
+        },
+        {
+          "turn": 32,
+          "speaker": "cohost",
+          "text": "No. Strength, perceived fatigue, and next day's cycling performance didn't show clear advantages.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42733310"
+          ],
+          "startSeconds": 460.19,
+          "durationSeconds": 12.853
+        },
+        {
+          "turn": 33,
+          "speaker": "host",
+          "text": "There were some ultrasound differences too, but those didn't directly measure tissue repair or glycogen restoration. I find the contrast with the gel trial helpful because better twelve minute output there accompanied higher postexercise lactate, so the direction of lactate alone doesn't settle performance or recovery.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42733310",
+            "pmid-42788859"
+          ],
+          "startSeconds": 473.243,
+          "durationSeconds": 21.093
+        },
+        {
+          "turn": 34,
+          "speaker": "cohost",
+          "text": "That makes me cautious about another shortcut, using a sleep questionnaire as a readiness verdict. In the exploratory analysis of 104 healthy adults, participants completed a demanding cognitive task or watched a neutral documentary before testing, while sleep quality and chronotype were examined as possible modifiers.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42723148"
+          ],
+          "startSeconds": 494.536,
+          "durationSeconds": 19.774
+        },
+        {
+          "turn": 35,
+          "speaker": "host",
+          "text": "And chronotype means someone's tendency toward earlier or later timing. There were some general differences in reported mental fatigue and sleepiness, but those aren't the same as differences in the response to the cognitive task, so did the analysis establish that sleep doesn't matter?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42723148"
+          ],
+          "startSeconds": 514.51,
+          "durationSeconds": 15.594
+        },
+        {
+          "turn": 36,
+          "speaker": "cohost",
+          "text": "It didn't. Most analyses found no clear modifying effect, but a continuous sleep score analysis showed a small cognitive signal, and testing conditions may have limited sleep differences, so I'd record sleep, mental fatigue, and sleepiness separately rather than dismissing what someone reports.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42723148"
+          ],
+          "startSeconds": 530.344,
+          "durationSeconds": 20.871
+        },
+        {
+          "turn": 37,
+          "speaker": "host",
+          "text": "That separation matters beyond adult testing. Can school fitness gains tell us how children feel?",
+          "delivery": "curious",
+          "evidenceSourceIds": [],
+          "startSeconds": 551.415,
+          "durationSeconds": 6.413
+        },
+        {
+          "turn": 38,
+          "speaker": "cohost",
+          "text": "Not automatically. The Danish FIT FIRST 20 trial randomized thirty schools and followed a high intensity multisport program for about forty weeks, but the denominators deserve care because 1652 children were randomized while 1195 with parental consent entered the analysis.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42813573"
+          ],
+          "startSeconds": 558.067,
+          "durationSeconds": 18.739
+        },
+        {
+          "turn": 39,
+          "speaker": "host",
+          "text": "The program involved three forty minute sessions each week compared with usual physical education. The adjusted additional gain on a repeated shuttle running test was 54.90 meters, with a confidence interval from 8.35 to 101.40, so that's an advantage over the comparison group's change.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42813573"
+          ],
+          "startSeconds": 577.006,
+          "durationSeconds": 22.836
+        },
+        {
+          "turn": 40,
+          "speaker": "cohost",
+          "text": "Exactly, rather than simply how far the program group improved. Jumping and agility also favored the program, but psychological outcomes didn't show a distinctive benefit, and frequency, content, and intensity changed together, so schools can't identify one winning ingredient or assume fitness gains establish psychological gains.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42813573"
+          ],
+          "startSeconds": 600.042,
+          "durationSeconds": 22.695
+        },
+        {
+          "turn": 41,
+          "speaker": "host",
+          "text": "Which brings us to a study where the reported endpoint actually was subjective, alcohol craving after brief exercise. Six articles suggested a short-term reduction, but the review combined controlled comparisons, before and after results, and natural activity observations, so what should we make of its pooled number?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42806437"
+          ],
+          "startSeconds": 622.936,
+          "durationSeconds": 22.963
+        },
+        {
+          "turn": 42,
+          "speaker": "cohost",
+          "text": "Carefully. It reported an approximate standardized effect of 0.55, with an approximate confidence interval from 0.40 to 0.80, but that's neither a percentage reduction in drinking nor a clean estimate from comparable randomized trials, and the claimed young adult focus doesn't match several middle-aged samples.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42806437"
+          ],
+          "startSeconds": 646.139,
+          "durationSeconds": 18.584
+        },
+        {
+          "turn": 43,
+          "speaker": "host",
+          "text": "So a short-term craving signal doesn't establish sustained drinking reduction or relapse prevention.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42806437"
+          ],
+          "startSeconds": 664.923,
+          "durationSeconds": 8.975
+        },
+        {
+          "turn": 44,
+          "speaker": "cohost",
+          "text": "Right, and it doesn't establish exercise as a way to manage withdrawal. It could inform discussion of an activity option within professional care, but I'd want clearer populations, consistent comparisons, and actual drinking outcomes before making a stronger claim about who benefits or for how long.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42806437"
+          ],
+          "startSeconds": 674.098,
+          "durationSeconds": 18.874
+        },
+        {
+          "turn": 45,
+          "speaker": "host",
+          "text": "That returns us to our rider, because the useful question is what would change a decision. Our EDGE SPORT proposal is to choose the relevant fatigued task beforehand, keep the existing fueling background comparable, and record output alongside individual symptoms, actual intake, and willingness to continue.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [
+            "pmid-42788859",
+            "pmid-42811668"
+          ],
+          "startSeconds": 693.172,
+          "durationSeconds": 20.705
+        },
+        {
+          "turn": 46,
+          "speaker": "cohost",
+          "text": "I'd add repeated observations and the inconvenient results too, including trials with no gain or more discomfort. That's an unvalidated operational proposal rather than a tested package, but it makes the next discussion more concrete, especially if equipment, prior work, timing, or expectations differed.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42788859",
+            "pmid-42811668"
+          ],
+          "startSeconds": 714.077,
+          "durationSeconds": 22.413
+        },
+        {
+          "turn": 47,
+          "speaker": "host",
+          "text": "Then keep a strategy only when comparable observations support the person's goal and its burden is acceptable. If symptoms interfere with fueling or completion, pause the addition and review it with the team, because these studies don't supply a universal dose, success margin, or symptom cutoff.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [
+            "pmid-42788859",
+            "pmid-42811668"
+          ],
+          "startSeconds": 736.69,
+          "durationSeconds": 18.357
+        },
+        {
+          "turn": 48,
+          "speaker": "cohost",
+          "text": "And don't let a reassuring heart rate, lower lactate, or better image make that decision alone. Read the written weekly report and original sources for methods and limitations, then bring the specific task and your actual experience into the conversation, because twelve watts is an invitation to investigate.",
+          "delivery": "warm",
+          "evidenceSourceIds": [
+            "pmid-42754832",
+            "pmid-42733310",
+            "pmid-42788859"
+          ],
+          "startSeconds": 755.246,
+          "durationSeconds": 18.732
+        }
+      ],
+      "factCheck": [
+        {
+          "claim": "Eleven trained cyclists compared the same 80 g/h carbohydrate background with and without a specific bicarbonate gel during 180 minutes of riding.",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "boundary": "Randomized crossover experiment with incomplete blinding. Participants were accustomed to high carbohydrate intake. The exposure is a study protocol, not a universal prescription."
+        },
+        {
+          "claim": "Fatigued twelve minute power averaged 239 W with carbohydrate and 251 W with added bicarbonate. The paired difference was 12 W with 95% CI 3–22 W.",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "boundary": "Testing followed three hours of riding and preceding short high intensity tasks. Both conditions remained below the unfatigued reference. Shorter tasks did not show a clear additional advantage."
+        },
+        {
+          "claim": "Three of eleven cyclists did not improve twelve minute performance. Bicarbonate increases were not significantly correlated with performance improvement.",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "boundary": "No protocol-specific repeatability evidence establishes stable individual responder classifications or a biochemical success threshold."
+        },
+        {
+          "claim": "No participant reported severe or extreme gastrointestinal symptoms under the cycling trial's definition.",
+          "evidenceSourceIds": [
+            "pmid-42788859"
+          ],
+          "boundary": "Small familiarized sample with controlled diets and limited symptom-tool validation. This does not establish general safety or superiority over other formulations."
+        },
+        {
+          "claim": "The gastrointestinal review included 126 studies using 50 scales. Ninety two percent did not explain tool selection.",
+          "evidenceSourceIds": [
+            "pmid-42811668"
+          ],
+          "boundary": "These are study-level descriptions, not symptom prevalence. The review was not a formal systematic assessment of measurement properties and established no universal severity cutoff."
+        },
+        {
+          "claim": "The capsaicin analogue analysis included 21 crossover trials and 348 adults. Overall g was 0.20 with 95% CI 0.07–0.33 and prediction interval −0.36 to 0.77.",
+          "evidenceSourceIds": [
+            "pmid-42816054"
+          ],
+          "boundary": "Overall certainty was very low. Predominantly male samples, heterogeneous compounds and tasks, and incomplete adverse-effect assessment prevent routine recommendations, dose equivalence, or supplement rankings."
+        },
+        {
+          "claim": "Sixteen highly trained sprinters completed seven ten or fifteen second cycling sprints in hypoxia with thirty seconds of rest. Average power was 6.85 and 6.30 W/kg respectively.",
+          "evidenceSourceIds": [
+            "pmid-42754832"
+          ],
+          "boundary": "Lower average power does not establish lower total mechanical work. The acute pilot study had no normoxic comparison or long-term adaptation follow-up."
+        },
+        {
+          "claim": "Longer hypoxic sprints produced lower sampled post-sprint oxygen saturation without a clear average heart-rate difference.",
+          "evidenceSourceIds": [
+            "pmid-42754832"
+          ],
+          "boundary": "Oxygen saturation was sampled about ten seconds after each sprint, not continuously. The result establishes neither a universal stopping threshold nor an optimal training program."
+        },
+        {
+          "claim": "In 25 athletes, active CRET added to massage lowered sixty minute lactate by a reported 0.70 mmol/L compared with sham plus massage, with 95% CI 0.05–1.50.",
+          "evidenceSourceIds": [
+            "pmid-42733310"
+          ],
+          "boundary": "Difference direction is sham minus active. Strength, perceived fatigue, and next-day Wingate performance showed no clear advantage. Absence of significance does not establish equivalence. Table and inference labels require editorial review."
+        },
+        {
+          "claim": "The exploratory sleep analysis involved 104 healthy adults. Most analyses did not detect clear modification of the mental fatigue response, while continuous sleep scores showed a small cognitive signal.",
+          "evidenceSourceIds": [
+            "pmid-42723148"
+          ],
+          "boundary": "Secondary hypotheses were not preregistered and exploratory multiplicity was uncontrolled. General subjective differences differ from response interactions. Findings do not establish that sleep is unimportant."
+        },
+        {
+          "claim": "The school trial randomized 1652 children across thirty schools and analyzed 1195 with parental consent. After about forty weeks, the adjusted additional shuttle-test gain was 54.90 m with 95% CI 8.35–101.40 m.",
+          "evidenceSourceIds": [
+            "pmid-42813573"
+          ],
+          "boundary": "The estimate is a group-by-time difference, not an intervention group's raw gain. Frequency, content, and intensity changed together. Psychological outcomes showed no intervention-specific advantage."
+        },
+        {
+          "claim": "Six articles on brief exercise and alcohol craving reported approximate g 0.55 with approximate 95% CI 0.40–0.80.",
+          "evidenceSourceIds": [
+            "pmid-42806437"
+          ],
+          "boundary": "Mixed comparison structures and age inconsistencies limit interpretation. This is not a drinking reduction percentage or proof of withdrawal safety, sustained drinking reduction, or relapse prevention."
+        }
+      ],
+      "closingTakeaways": [
+        "Match an added strategy to a specific task and a comparable existing fueling background.",
+        "Record individual symptoms, their timing, and interference with feeding or task completion.",
+        "Interpret heart rate, lactate, imaging, and questionnaires alongside actual function.",
+        "Repeated comparisons and joint review are an unvalidated EDGE SPORT proposal, without universal doses or decision thresholds.",
+        "Consult the written weekly report and original sources for methods and limitations."
+      ],
+      "disclosure": "This episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice.",
+      "editorReview": {
+        "approvedForPublish": false,
+        "verifiedBy": "",
+        "verifiedAt": ""
+      },
+      "publicationMode": "automated",
+      "automationProvider": "codex",
+      "renderedAt": "2026-10-05T10:49:47.154Z",
+      "publishedAt": "2026-10-05T10:49:47.343Z",
+      "audio": {
+        "src": "assets/podcasts/2026-w41-5868d881a6d2.mp3",
+        "mimeType": "audio/mpeg",
+        "bytes": 9309644,
+        "bitrate": "96k",
+        "sampleRate": 24000
+      },
+      "researchSources": [
+        {
+          "recordId": "pmid-42811668",
+          "title": "A systematic and critical review of measurement scales for evaluating gastrointestinal symptoms during exercise.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-09-29",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2735563",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42806437",
+          "title": "Acute Effects of Brief Exercise on Alcohol Craving Among Young Adults With Problematic Alcohol Use: A Systematic Review.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-10-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70258",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42813573",
+          "title": "One-Year Effects of the FIT FIRST 20 High-Intensity and Multisport Physical Education Program on Physical Fitness and Psychological Outcomes in Early Adolescents: A Cluster-Randomized Controlled Trial.",
+          "journal": "Scandinavian journal of medicine & science in sports",
+          "publicationDate": "2026-10-01",
+          "sourceUrl": "https://doi.org/10.1111/sms.70374",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42816054",
+          "title": "Effects of acute Capsaicin analogue intake on athletic performance: a three-level meta-analysis.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-09-30",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2733576",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42788859",
+          "title": "Bicarbonate and Carbohydrate Co-Ingestion During Exercise in a Novel Gel Format Improves Time-Trial Performance After 3 h of Moderate-Intensity Exercise in Trained Cyclists.",
+          "journal": "Scandinavian journal of medicine & science in sports",
+          "publicationDate": "2026-10-01",
+          "sourceUrl": "https://doi.org/10.1111/sms.70373",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42754832",
+          "title": "Impact of Sprint Duration With Fixed Recovery on Acute Physiological and Performance Responses to Repeated Cycle Sprints in Hypoxia in Male and Female Sprinters.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-10-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70244",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42733310",
+          "title": "Muscle Massage Adding Capacitive Resistive Electric Transfer Therapy in Active or Sham Condition for Post-Exercise Recovery in Athletes: A Crossover Clinical Trial.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-10-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70246",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42723148",
+          "title": "No Influence of Sleep Quality and Chronotype on the Effects of Mental Fatigue: Evidence From an Exploratory Analysis.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-10-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70247",
+          "contentLevel": "full-text-open"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
       "id": "2026-w40",
       "status": "published",
       "publishDate": "2026-10-03",
