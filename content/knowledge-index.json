@@ -1,18 +1,31 @@
 {
   "schemaVersion": 1,
+<<<<<<< HEAD
   "generatedAt": "2026-10-05T10:49:47.343Z",
+=======
+  "generatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
   "retentionPolicy": {
     "mode": "cumulative",
     "statement": "Published issues, weekly reports, podcast episodes and harvested research metadata remain indexed. Existing IDs may be revised in place, but are not removed by routine generation.",
     "privateMaterial": "Licensed full text, source captures and private Codex packets remain in the local research-library and are not deployed to GitHub Pages."
   },
   "stats": {
+<<<<<<< HEAD
     "total": 395,
     "monthlyTopics": 2,
     "knowledgeTopics": 4,
     "podcastEpisodes": 4,
     "weeklyReports": 4,
     "researchArticles": 381,
+=======
+    "total": 399,
+    "monthlyTopics": 2,
+    "knowledgeTopics": 4,
+    "podcastEpisodes": 3,
+    "weeklyReports": 3,
+    "researchArticles": 387,
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     "reviewedArticles": 0,
     "years": [
       "2026"
@@ -52,6 +65,7 @@
       "searchText": "研究題錄 \n營養與水合 \n技擊運動 \npmid-42702994 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nProbiotic supplementation improves body composition, lipid profiles, and fatty acid metabolism in combat sports athletes during the weight reduction phase. \n2026-12-30 \nYang S \nCheng Z \nShen W \nWang J \nLai M \nYu X \nZuo Q \nJournal Article \nRandomized Controlled Trial \n10.1080/15502783.2026.2726522 \n42702994 \nPMC13552284 \npmc-record-available \n2026-09-12T16:46:37.358Z"
     },
     {
+<<<<<<< HEAD
       "id": "podcast:2026-w41",
       "sourceId": "2026-w41",
       "type": "podcast-episode",
@@ -263,12 +277,18 @@
       "searchText": "研究題錄 \npmid-42830686 \ndiscovered \njournal-article \nsports-health \nSports health \nSports Health \nMusculoskeletal Injury Incidence Among US Military Academy and Reserve Officer Training Corps Cadets: A Scoping Review. \n2026-10-05 \nYoung MA \nWestrick RB \nGrist SM \nCameron KL \nAdams B \nJournal Article \nReview \n10.1177/19417381261478739 \n42830686 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
     },
     {
+=======
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "id": "research:pmid-42829965",
       "sourceId": "pmid-42829965",
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-04",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "An applied framework for multi-domain player evaluation in professional football: Ranking agreement between traditional and expected-goals-derived metrics.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -289,7 +309,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n足踝 \npmid-42829965 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nAn applied framework for multi-domain player evaluation in professional football: Ranking agreement between traditional and expected-goals-derived metrics. \n2026-10-04 \nKim J \nJournal Article \n10.1080/02640414.2026.2743324 \n42829965 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n足踝 \npmid-42829965 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nAn applied framework for multi-domain player evaluation in professional football: Ranking agreement between traditional and expected-goals-derived metrics. \n2026-10-04 \nKim J \nJournal Article \n10.1080/02640414.2026.2743324 \n42829965 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42829958",
@@ -297,7 +321,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-04",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Biomechanical predictors of patellofemoral and tibiofemoral joint loads during running: A cross-sectional study.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -321,7 +349,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n量測與科技 \n跑步與田徑 \npmid-42829958 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nBiomechanical predictors of patellofemoral and tibiofemoral joint loads during running: A cross-sectional study. \n2026-10-04 \nBruneau MM \nTenforde AS \nHuey N \nDoutt A \nWilly RW \nJournal Article \n10.1080/02640414.2026.2741753 \n42829958 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n量測與科技 \n跑步與田徑 \npmid-42829958 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nBiomechanical predictors of patellofemoral and tibiofemoral joint loads during running: A cross-sectional study. \n2026-10-04 \nBruneau MM \nTenforde AS \nHuey N \nDoutt A \nWilly RW \nJournal Article \n10.1080/02640414.2026.2741753 \n42829958 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42829982",
@@ -329,7 +361,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-04",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Exercise-specific preferential hypertrophy of individual elbow flexor muscles after incline versus preacher dumbbell curl training.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -350,7 +386,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肩與上肢 \npmid-42829982 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nExercise-specific preferential hypertrophy of individual elbow flexor muscles after incline versus preacher dumbbell curl training. \n2026-10-04 \nKobayashi Y \nMaeo S \nEihara Y \nOno M \nSato M \nSugiyama T \nKanehisa H \nIsaka T \nJournal Article \n10.1080/02640414.2026.2741751 \n42829982 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肩與上肢 \npmid-42829982 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nExercise-specific preferential hypertrophy of individual elbow flexor muscles after incline versus preacher dumbbell curl training. \n2026-10-04 \nKobayashi Y \nMaeo S \nEihara Y \nOno M \nSato M \nSugiyama T \nKanehisa H \nIsaka T \nJournal Article \n10.1080/02640414.2026.2741751 \n42829982 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42829962",
@@ -358,7 +398,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-04",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Foot-strike angle affects performance and injury risk during cutting in soccer athletes.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -382,7 +426,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n足踝 \n足球 \npmid-42829962 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nFoot-strike angle affects performance and injury risk during cutting in soccer athletes. \n2026-10-04 \nDenton AN \nKarolidis E \nHahn ME \nJournal Article \n10.1080/02640414.2026.2741752 \n42829962 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n足踝 \n足球 \npmid-42829962 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nFoot-strike angle affects performance and injury risk during cutting in soccer athletes. \n2026-10-04 \nDenton AN \nKarolidis E \nHahn ME \nJournal Article \n10.1080/02640414.2026.2741752 \n42829962 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42829953",
@@ -390,7 +438,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-04",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Kinetic and kinematic characteristics of two-way ballistic exercise across different load conditions: An exploratory impulse-velocity equilibrium analysis.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -409,7 +461,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42829953 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nKinetic and kinematic characteristics of two-way ballistic exercise across different load conditions: An exploratory impulse-velocity equilibrium analysis. \n2026-10-04 \nZeng Y \nLin J \nYang Z \nLi G \nJia X \nLi W \nRipley N \nGirard O \nGranacher U \nJournal Article \n10.1080/02640414.2026.2741475 \n42829953 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42829953 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nKinetic and kinematic characteristics of two-way ballistic exercise across different load conditions: An exploratory impulse-velocity equilibrium analysis. \n2026-10-04 \nZeng Y \nLin J \nYang Z \nLi G \nJia X \nLi W \nRipley N \nGirard O \nGranacher U \nJournal Article \n10.1080/02640414.2026.2741475 \n42829953 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42829807",
@@ -417,7 +473,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-04",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Modulating stress and sleep through a multi-compound dietary supplement: a randomized, double-blind, placebo-controlled trial.",
       "summary": "Journal of the International Society of Sports Nutrition收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -439,7 +499,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n營養與水合 \n恢復與睡眠 \npmid-42829807 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nModulating stress and sleep through a multi-compound dietary supplement: a randomized, double-blind, placebo-controlled trial. \n2026-10-04 \n2026-12-30 \nMastrofini GF \nRomersi RF \nLombardi MG \nPersaud KT \nRyan MM \nHirsch KR \nFraley AL \nDawes JJ \nStray-Gundersen SO \nHardin JW \nArent SM \nJournal Article \nRandomized Controlled Trial \n10.1080/15502783.2026.2740227 \n42829807 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n營養與水合 \n恢復與睡眠 \npmid-42829807 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nModulating stress and sleep through a multi-compound dietary supplement: a randomized, double-blind, placebo-controlled trial. \n2026-10-04 \n2026-12-30 \nMastrofini GF \nRomersi RF \nLombardi MG \nPersaud KT \nRyan MM \nHirsch KR \nFraley AL \nDawes JJ \nStray-Gundersen SO \nHardin JW \nArent SM \nJournal Article \nRandomized Controlled Trial \n10.1080/15502783.2026.2740227 \n42829807 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42829952",
@@ -447,7 +511,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-04",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Perceptual-motor processes in cycling: A scoping review.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -470,7 +538,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n自行車 \npmid-42829952 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nPerceptual-motor processes in cycling: A scoping review. \n2026-10-04 \nVauclin P \nWheat J \nSeifert L \nJournal Article \nReview \n10.1080/02640414.2026.2741439 \n42829952 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n自行車 \npmid-42829952 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nPerceptual-motor processes in cycling: A scoping review. \n2026-10-04 \nVauclin P \nWheat J \nSeifert L \nJournal Article \nReview \n10.1080/02640414.2026.2741439 \n42829952 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "issue:2026-m10",
@@ -671,7 +743,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-03",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Effects of a chickpea protein hydrolysate on exercise-induced biomarkers of muscle damage and inflammation in federated road cyclists.",
       "summary": "Journal of the International Society of Sports Nutrition收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -695,7 +771,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n營養與水合 \n自行車 \npmid-42828502 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nEffects of a chickpea protein hydrolysate on exercise-induced biomarkers of muscle damage and inflammation in federated road cyclists. \n2026-10-03 \n2026-12-30 \nGarcía-Durán J \nSánchez-Oliver AJ \nRodríguez-Martín NM \nFernández-Pachón MS \nPedroche J \nMillán F \nGonzález-Jurado JA \nJournal Article \nRandomized Controlled Trial \n10.1080/15502783.2026.2723237 \n42828502 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n營養與水合 \n自行車 \npmid-42828502 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nEffects of a chickpea protein hydrolysate on exercise-induced biomarkers of muscle damage and inflammation in federated road cyclists. \n2026-10-03 \n2026-12-30 \nGarcía-Durán J \nSánchez-Oliver AJ \nRodríguez-Martín NM \nFernández-Pachón MS \nPedroche J \nMillán F \nGonzález-Jurado JA \nJournal Article \nRandomized Controlled Trial \n10.1080/15502783.2026.2723237 \n42828502 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42828991",
@@ -703,7 +783,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-03",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Exercise, Glucose and Lactate Metabolism in Mild Cognitive Impairment: A Narrative Review.",
       "summary": "International journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -724,7 +808,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n心理與神經認知 \npmid-42828991 \ndiscovered \njournal-article \nijsm \nInternational journal of sports medicine \nInt J Sports Med \nExercise, Glucose and Lactate Metabolism in Mild Cognitive Impairment: A Narrative Review. \n2026-10-03 \nKim D \nMoon HY \nLee M \nJournal Article \n10.1055/a-2972-5240 \n42828991 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n心理與神經認知 \npmid-42828991 \ndiscovered \njournal-article \nijsm \nInternational journal of sports medicine \nInt J Sports Med \nExercise, Glucose and Lactate Metabolism in Mild Cognitive Impairment: A Narrative Review. \n2026-10-03 \nKim D \nMoon HY \nLee M \nJournal Article \n10.1055/a-2972-5240 \n42828991 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42829203",
@@ -732,7 +820,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-03",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Increased Medial Posterior Tibial Slope Is Associated with Patellofemoral Cartilage Lesions: A Matched-Pair Case-Control Study.",
       "summary": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -751,7 +843,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42829203 \ndiscovered \njournal-article \njisakos \nJournal of ISAKOS : joint disorders & orthopaedic sports medicine \nJ ISAKOS \nIncreased Medial Posterior Tibial Slope Is Associated with Patellofemoral Cartilage Lesions: A Matched-Pair Case-Control Study. \n2026-10-03 \nOehme S \nArteaga J \nEl-Kayali M \nWolf F \nBartek B \nGwinner C \nWinkler T \nJung T \nMilinkovic DD \nJournal Article \n10.1016/j.jisako.2026.101228 \n42829203 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42829203 \ndiscovered \njournal-article \njisakos \nJournal of ISAKOS : joint disorders & orthopaedic sports medicine \nJ ISAKOS \nIncreased Medial Posterior Tibial Slope Is Associated with Patellofemoral Cartilage Lesions: A Matched-Pair Case-Control Study. \n2026-10-03 \nOehme S \nArteaga J \nEl-Kayali M \nWolf F \nBartek B \nGwinner C \nWinkler T \nJung T \nMilinkovic DD \nJournal Article \n10.1016/j.jisako.2026.101228 \n42829203 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42828435",
@@ -759,7 +855,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-03",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Navicular fractures in elite athletes: Clarifying the evidence base of the 2025 International Foot and Ankle Sports Consensus.",
       "summary": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -781,7 +881,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \nACL / 膝關節 \n足踝 \npmid-42828435 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nNavicular fractures in elite athletes: Clarifying the evidence base of the 2025 International Foot and Ankle Sports Consensus. \n2026-10-03 \nZimmermann FJ \nAmling M \nSimon A \nJournal Article \n10.1002/ksa.70632 \n42828435 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \nACL / 膝關節 \n足踝 \npmid-42828435 \ndiscovered \njournal-article \nkssta \nKnee surgery, sports traumatology, arthroscopy : official journal of the ESSKA \nKnee Surg Sports Traumatol Arthrosc \nNavicular fractures in elite athletes: Clarifying the evidence base of the 2025 International Foot and Ankle Sports Consensus. \n2026-10-03 \nZimmermann FJ \nAmling M \nSimon A \nJournal Article \n10.1002/ksa.70632 \n42828435 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42827230",
@@ -789,7 +893,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-02",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Biological Motion Perception for Accelerating Sport Performance and Injury Prevention: A Scoping Review.",
       "summary": "Sports medicine (Auckland, N.Z.)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -810,7 +918,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n運動傷害預防 \npmid-42827230 \ndiscovered \njournal-article \nsports-medicine \nSports medicine (Auckland, N.Z.) \nSports Med \nBiological Motion Perception for Accelerating Sport Performance and Injury Prevention: A Scoping Review. \n2026-10-02 \nMalan J \nMüller S \nPert D \nBrenton J \nZoghi M \nJournal Article \nSystematic Review \n10.1007/s40279-026-02546-w \n42827230 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n運動傷害預防 \npmid-42827230 \ndiscovered \njournal-article \nsports-medicine \nSports medicine (Auckland, N.Z.) \nSports Med \nBiological Motion Perception for Accelerating Sport Performance and Injury Prevention: A Scoping Review. \n2026-10-02 \nMalan J \nMüller S \nPert D \nBrenton J \nZoghi M \nJournal Article \nSystematic Review \n10.1007/s40279-026-02546-w \n42827230 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42826085",
@@ -818,7 +930,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-02",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Creatine supplementation in soccer players: a systematic review.",
       "summary": "Journal of the International Society of Sports Nutrition收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -842,7 +958,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n營養與水合 \n足球 \npmid-42826085 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nCreatine supplementation in soccer players: a systematic review. \n2026-10-02 \n2026-12-31 \nAshtary-Larky D \nCandow DG \nAntonio J \nQuiceno C \nAngelini F \nForbes SC \nMoradi S \nKazeminasab F \nBagheri R \nSystematic Review \nJournal Article \nReview \n10.1080/15502783.2026.2735569 \n42826085 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n營養與水合 \n足球 \npmid-42826085 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nCreatine supplementation in soccer players: a systematic review. \n2026-10-02 \n2026-12-31 \nAshtary-Larky D \nCandow DG \nAntonio J \nQuiceno C \nAngelini F \nForbes SC \nMoradi S \nKazeminasab F \nBagheri R \nSystematic Review \nJournal Article \nReview \n10.1080/15502783.2026.2735569 \n42826085 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42827018",
@@ -850,7 +970,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "A new risk factor for non-contact lower-limb injuries?",
       "summary": "Journal of science and medicine in sport收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -871,7 +995,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n運動傷害預防 \npmid-42827018 \ndiscovered \njournal-article \njsms \nJournal of science and medicine in sport \nJ Sci Med Sport \nA new risk factor for non-contact lower-limb injuries? \n2026-10-01 \nMeyer T \nEditorial \n10.1016/j.jsams.2026.09.015 \n42827018 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n運動傷害預防 \npmid-42827018 \ndiscovered \njournal-article \njsms \nJournal of science and medicine in sport \nJ Sci Med Sport \nA new risk factor for non-contact lower-limb injuries? \n2026-10-01 \nMeyer T \nEditorial \n10.1016/j.jsams.2026.09.015 \n42827018 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42806437",
@@ -879,7 +1007,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Acute Effects of Brief Exercise on Alcohol Craving Among Young Adults With Problematic Alcohol Use: A Systematic Review.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -890,12 +1022,17 @@
       "href": "?radar=pmid-42806437#research-radar",
       "sourceUrl": "https://doi.org/10.1002/ejsc.70258",
       "journal": "European journal of sport science",
+<<<<<<< HEAD
       "detail": "European journal of sport science · PMID 42806437 · 被 2 份整理引用",
+=======
+      "detail": "European journal of sport science · PMID 42806437",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "reviewed": false,
       "related": {
         "researchIds": [],
         "courseIds": [],
         "priorIds": [],
+<<<<<<< HEAD
         "referencedBy": [
           {
             "id": "2026-w41",
@@ -912,6 +1049,11 @@
         ]
       },
       "searchText": "研究題錄 \npmid-42806437 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nAcute Effects of Brief Exercise on Alcohol Craving Among Young Adults With Problematic Alcohol Use: A Systematic Review. \n2026-10-01 \nSampedro-Piquero P \nCordellat-Marzal A \nDragotti M \nMandolesi L \nGigliotta O \nMoreno-Fernández RD \nJournal Article \nMeta-Analysis \nSystematic Review \n10.1002/ejsc.70258 \n42806437 \nPMC13620218 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42806437 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nAcute Effects of Brief Exercise on Alcohol Craving Among Young Adults With Problematic Alcohol Use: A Systematic Review. \n2026-10-01 \nSampedro-Piquero P \nCordellat-Marzal A \nDragotti M \nMandolesi L \nGigliotta O \nMoreno-Fernández RD \nJournal Article \nMeta-Analysis \nSystematic Review \n10.1002/ejsc.70258 \n42806437 \nPMC13620218 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42820848",
@@ -919,7 +1061,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Acute Systolic and Diastolic Blood Pressure Responses to Resistance Exercise Followed by Manual Massage or Pneumatic Compression in Women.",
       "summary": "Journal of strength and conditioning research收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -940,7 +1086,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肌力與爆發力 \npmid-42820848 \ndiscovered \njournal-article \njsc \nJournal of strength and conditioning research \nJ Strength Cond Res \nAcute Systolic and Diastolic Blood Pressure Responses to Resistance Exercise Followed by Manual Massage or Pneumatic Compression in Women. \n2026-10-01 \nde Oliveira F \nReis BML \nCorrêa Neto VG \nReis LFDF \nVingren JL \nMarchetti PH \nNovaes JDS \nMonteiro ER \nJournal Article \n10.1519/JSC.0000000000005681 \n42820848 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肌力與爆發力 \npmid-42820848 \ndiscovered \njournal-article \njsc \nJournal of strength and conditioning research \nJ Strength Cond Res \nAcute Systolic and Diastolic Blood Pressure Responses to Resistance Exercise Followed by Manual Massage or Pneumatic Compression in Women. \n2026-10-01 \nde Oliveira F \nReis BML \nCorrêa Neto VG \nReis LFDF \nVingren JL \nMarchetti PH \nNovaes JDS \nMonteiro ER \nJournal Article \n10.1519/JSC.0000000000005681 \n42820848 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42821561",
@@ -948,7 +1098,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Beyond minutes played: A two-season stint-based characterisation of competitive exposure in elite basketball players.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -971,7 +1125,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n籃球 \npmid-42821561 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nBeyond minutes played: A two-season stint-based characterisation of competitive exposure in elite basketball players. \n2026-10-01 \nSampaio J \nWang X \nGómez MÁ \nCuzzolin F \nCalleja-González J \nJournal Article \n10.1080/02640414.2026.2741767 \n42821561 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n籃球 \npmid-42821561 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nBeyond minutes played: A two-season stint-based characterisation of competitive exposure in elite basketball players. \n2026-10-01 \nSampaio J \nWang X \nGómez MÁ \nCuzzolin F \nCalleja-González J \nJournal Article \n10.1080/02640414.2026.2741767 \n42821561 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42788859",
@@ -979,7 +1137,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Bicarbonate and Carbohydrate Co-Ingestion During Exercise in a Novel Gel Format Improves Time-Trial Performance After 3 h of Moderate-Intensity Exercise in Trained Cyclists.",
       "summary": "Scandinavian journal of medicine & science in sports收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -995,12 +1157,17 @@
       "href": "?radar=pmid-42788859#research-radar",
       "sourceUrl": "https://doi.org/10.1111/sms.70373",
       "journal": "Scandinavian journal of medicine & science in sports",
+<<<<<<< HEAD
       "detail": "Scandinavian journal of medicine & science in sports · PMID 42788859 · 被 2 份整理引用",
+=======
+      "detail": "Scandinavian journal of medicine & science in sports · PMID 42788859",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "reviewed": false,
       "related": {
         "researchIds": [],
         "courseIds": [],
         "priorIds": [],
+<<<<<<< HEAD
         "referencedBy": [
           {
             "id": "2026-w41",
@@ -1017,6 +1184,11 @@
         ]
       },
       "searchText": "研究題錄 \n營養與水合 \n自行車 \npmid-42788859 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nBicarbonate and Carbohydrate Co-Ingestion During Exercise in a Novel Gel Format Improves Time-Trial Performance After 3 h of Moderate-Intensity Exercise in Trained Cyclists. \n2026-10-01 \nNorte BR \nHickman A \nMegias AM \nMosquera-Lopez E \nBermon S \nGarrandes F \nAdami PE \nJohnson KO \nMahon E \nShepherd SO \nStrauss JA \nLouis JB \nJournal Article \nRandomized Controlled Trial \n10.1111/sms.70373 \n42788859 \nPMC13614109 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n營養與水合 \n自行車 \npmid-42788859 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nBicarbonate and Carbohydrate Co-Ingestion During Exercise in a Novel Gel Format Improves Time-Trial Performance After 3 h of Moderate-Intensity Exercise in Trained Cyclists. \n2026-10-01 \nNorte BR \nHickman A \nMegias AM \nMosquera-Lopez E \nBermon S \nGarrandes F \nAdami PE \nJohnson KO \nMahon E \nShepherd SO \nStrauss JA \nLouis JB \nJournal Article \nRandomized Controlled Trial \n10.1111/sms.70373 \n42788859 \nPMC13614109 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42821594",
@@ -1024,7 +1196,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Biomechanical differences across pubertal maturation stages and sexes in a single-leg drop-land and a single-leg drop-land-and-cut task.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1045,7 +1221,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n量測與科技 \npmid-42821594 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nBiomechanical differences across pubertal maturation stages and sexes in a single-leg drop-land and a single-leg drop-land-and-cut task. \n2026-10-01 \nButcher AJ \nWard S \nClissold T \nRichards J \nHébert-Losier K \nJournal Article \n10.1080/02640414.2026.2741489 \n42821594 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n量測與科技 \npmid-42821594 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nBiomechanical differences across pubertal maturation stages and sexes in a single-leg drop-land and a single-leg drop-land-and-cut task. \n2026-10-01 \nButcher AJ \nWard S \nClissold T \nRichards J \nHébert-Losier K \nJournal Article \n10.1080/02640414.2026.2741489 \n42821594 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42749908",
@@ -1053,7 +1233,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Context is Queen: The Good, the Bad and the Rugby: Understanding Engagement With Injury Surveillance in Women's Rugby Union.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1077,7 +1261,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n運動傷害預防 \n橄欖球與美式足球 \npmid-42749908 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nContext is Queen: The Good, the Bad and the Rugby: Understanding Engagement With Injury Surveillance in Women's Rugby Union. \n2026-10-01 \nMcCarthy-Ryan MF \nJames E \nMellalieu SD \nRobinson GM \nRoberts S \nPalmer D \nMoore IS \nJournal Article \n10.1002/ejsc.70230 \n42749908 \nPMC13582287 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n運動傷害預防 \n橄欖球與美式足球 \npmid-42749908 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nContext is Queen: The Good, the Bad and the Rugby: Understanding Engagement With Injury Surveillance in Women's Rugby Union. \n2026-10-01 \nMcCarthy-Ryan MF \nJames E \nMellalieu SD \nRobinson GM \nRoberts S \nPalmer D \nMoore IS \nJournal Article \n10.1002/ejsc.70230 \n42749908 \nPMC13582287 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42804613",
@@ -1085,7 +1273,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Correction for Kistemaker et al., volume 134, 2023, p. 980-991.",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1104,7 +1296,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42804613 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nCorrection for Kistemaker et al., volume 134, 2023, p. 980-991. \n2026-10-01 \nPublished Erratum \n10.1152/japplphysiol.00733.2021_COR2 \n42804613 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42804613 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nCorrection for Kistemaker et al., volume 134, 2023, p. 980-991. \n2026-10-01 \nPublished Erratum \n10.1152/japplphysiol.00733.2021_COR2 \n42804613 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42808292",
@@ -1112,7 +1308,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Correction to \"Exercise Snacks Improve Cognitive Processing Efficiency: Evidence From Behavioral and fNIRS Studies\".",
       "summary": "Scandinavian journal of medicine & science in sports收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1133,7 +1333,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n心理與神經認知 \npmid-42808292 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nCorrection to \"Exercise Snacks Improve Cognitive Processing Efficiency: Evidence From Behavioral and fNIRS Studies\". \n2026-10-01 \nPublished Erratum \n10.1111/sms.70372 \n42808292 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n心理與神經認知 \npmid-42808292 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nCorrection to \"Exercise Snacks Improve Cognitive Processing Efficiency: Evidence From Behavioral and fNIRS Studies\". \n2026-10-01 \nPublished Erratum \n10.1111/sms.70372 \n42808292 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42828472",
@@ -1141,7 +1345,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Dietary Carbohydrate Intake and Skeletal Muscle Glycogen: A Systematic Review and Meta-Analysis to Determine Optimal Carbohydrate Loading Strategies.",
       "summary": "Scandinavian journal of medicine & science in sports收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1162,7 +1370,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n營養與水合 \npmid-42828472 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nDietary Carbohydrate Intake and Skeletal Muscle Glycogen: A Systematic Review and Meta-Analysis to Determine Optimal Carbohydrate Loading Strategies. \n2026-10-01 \nJones RO \nAreta JL \nFortis HO \nPugh J \nLouis JB \nJournal Article \nSystematic Review \nMeta-Analysis \nReview \n10.1111/sms.70379 \n42828472 \nPMC13633599 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n營養與水合 \npmid-42828472 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nDietary Carbohydrate Intake and Skeletal Muscle Glycogen: A Systematic Review and Meta-Analysis to Determine Optimal Carbohydrate Loading Strategies. \n2026-10-01 \nJones RO \nAreta JL \nFortis HO \nPugh J \nLouis JB \nJournal Article \nSystematic Review \nMeta-Analysis \nReview \n10.1111/sms.70379 \n42828472 \nPMC13633599 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42823647",
@@ -1170,7 +1382,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Effectiveness of Neuromuscular Training and Training Load Management Interventions for Reducing Injury and Attrition in Tactical Recruits: A Systematic Review With Meta-Analysis.",
       "summary": "The Journal of orthopaedic and sports physical therapy收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1192,7 +1408,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n訓練負荷 \n心理與神經認知 \npmid-42823647 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nEffectiveness of Neuromuscular Training and Training Load Management Interventions for Reducing Injury and Attrition in Tactical Recruits: A Systematic Review With Meta-Analysis. \n2026-10-01 \nMckee JR \nTessarin BM \nSutton V \nVerhagen E \nNimphius S \nKemp JL \nHodgson JM \nHill K \nHägglund M \nEmery CA \nBruder AM \nArdern CL \nMosler A \nMurphy MC \nJournal Article \nSystematic Review \nMeta-Analysis \nReview \n10.2519/jospt.2026.14272 \n42823647 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n訓練負荷 \n心理與神經認知 \npmid-42823647 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nEffectiveness of Neuromuscular Training and Training Load Management Interventions for Reducing Injury and Attrition in Tactical Recruits: A Systematic Review With Meta-Analysis. \n2026-10-01 \nMckee JR \nTessarin BM \nSutton V \nVerhagen E \nNimphius S \nKemp JL \nHodgson JM \nHill K \nHägglund M \nEmery CA \nBruder AM \nArdern CL \nMosler A \nMurphy MC \nJournal Article \nSystematic Review \nMeta-Analysis \nReview \n10.2519/jospt.2026.14272 \n42823647 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42821497",
@@ -1200,7 +1420,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Effects of coronary sinus reducer on oxygen transport in myocardial ischemia.",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1219,7 +1443,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42821497 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nEffects of coronary sinus reducer on oxygen transport in myocardial ischemia. \n2026-10-01 \nGooty MT \nWang H \nChoy JS \nVajire SL \nKassab GS \nLee LC \nJournal Article \n10.1152/japplphysiol.90262.2026 \n42821497 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42821497 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nEffects of coronary sinus reducer on oxygen transport in myocardial ischemia. \n2026-10-01 \nGooty MT \nWang H \nChoy JS \nVajire SL \nKassab GS \nLee LC \nJournal Article \n10.1152/japplphysiol.90262.2026 \n42821497 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42821324",
@@ -1227,7 +1455,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Effects of dietary supplements on lower-limb power and jump performance in physically active individuals and athletes: a systematic review and Bayesian network meta-analysis.",
       "summary": "Journal of the International Society of Sports Nutrition收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1249,7 +1481,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肌力與爆發力 \n營養與水合 \npmid-42821324 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nEffects of dietary supplements on lower-limb power and jump performance in physically active individuals and athletes: a systematic review and Bayesian network meta-analysis. \n2026-10-01 \n2026-12-30 \nSun R \nSu M \nXu X \nWang N \nLi Z \nSun X \nLin W \nWang H \nJournal Article \nSystematic Review \nNetwork Meta-Analysis \nReview \n10.1080/15502783.2026.2740221 \n42821324 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肌力與爆發力 \n營養與水合 \npmid-42821324 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nEffects of dietary supplements on lower-limb power and jump performance in physically active individuals and athletes: a systematic review and Bayesian network meta-analysis. \n2026-10-01 \n2026-12-30 \nSun R \nSu M \nXu X \nWang N \nLi Z \nSun X \nLin W \nWang H \nJournal Article \nSystematic Review \nNetwork Meta-Analysis \nReview \n10.1080/15502783.2026.2740221 \n42821324 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42822004",
@@ -1257,7 +1493,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Effects of different sedentary interruption strategies on blood glucose, insulin, and triglycerides: A network meta-analysis.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1276,7 +1516,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42822004 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nEffects of different sedentary interruption strategies on blood glucose, insulin, and triglycerides: A network meta-analysis. \n2026-10-01 \nMeng Y \nYang W \nLu S \nAn Y \nZheng X \nSun T \nYou H \nXue Y \nZhang X \nJournal Article \nReview \n10.1080/02640414.2026.2740976 \n42822004 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42822004 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nEffects of different sedentary interruption strategies on blood glucose, insulin, and triglycerides: A network meta-analysis. \n2026-10-01 \nMeng Y \nYang W \nLu S \nAn Y \nZheng X \nSun T \nYou H \nXue Y \nZhang X \nJournal Article \nReview \n10.1080/02640414.2026.2740976 \n42822004 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42751881",
@@ -1284,7 +1528,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Effects of Maximal Concentric Contractions on Myotendinous Mechanical Properties in Prepubertal Boys.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1303,7 +1551,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42751881 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nEffects of Maximal Concentric Contractions on Myotendinous Mechanical Properties in Prepubertal Boys. \n2026-10-01 \nChanel B \nBabault N \nCometti C \nJournal Article \n10.1002/ejsc.70212 \n42751881 \nPMC13584094 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42751881 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nEffects of Maximal Concentric Contractions on Myotendinous Mechanical Properties in Prepubertal Boys. \n2026-10-01 \nChanel B \nBabault N \nCometti C \nJournal Article \n10.1002/ejsc.70212 \n42751881 \nPMC13584094 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42820852",
@@ -1311,7 +1563,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Effects of sprint interval training on markers of metabolic health: A three-level meta-analysis of randomised controlled trials.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1330,7 +1586,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42820852 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nEffects of sprint interval training on markers of metabolic health: A three-level meta-analysis of randomised controlled trials. \n2026-10-01 \nLi Y \nYin M \nZheng H \nTang Z \nYan H \nVollaard NBJ \nLiu Q \nJournal Article \nReview \n10.1080/02640414.2026.2735681 \n42820852 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42820852 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nEffects of sprint interval training on markers of metabolic health: A three-level meta-analysis of randomised controlled trials. \n2026-10-01 \nLi Y \nYin M \nZheng H \nTang Z \nYan H \nVollaard NBJ \nLiu Q \nJournal Article \nReview \n10.1080/02640414.2026.2735681 \n42820852 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42817611",
@@ -1338,7 +1598,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Efficacy of Inferior Extensor Retinaculum Reinforcement in Arthroscopic Ankle Lateral Ligament Repair: Letter to the Editor.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1359,7 +1623,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n足踝 \npmid-42817611 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nEfficacy of Inferior Extensor Retinaculum Reinforcement in Arthroscopic Ankle Lateral Ligament Repair: Letter to the Editor. \n2026-10-01 \nMaffulli N \nSpiezia F \nOliva F \nFeng SM \nLetter \n10.1177/03635465261470347 \n42817611 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n足踝 \npmid-42817611 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nEfficacy of Inferior Extensor Retinaculum Reinforcement in Arthroscopic Ankle Lateral Ligament Repair: Letter to the Editor. \n2026-10-01 \nMaffulli N \nSpiezia F \nOliva F \nFeng SM \nLetter \n10.1177/03635465261470347 \n42817611 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42817609",
@@ -1367,7 +1635,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Efficacy of Inferior Extensor Retinaculum Reinforcement in Arthroscopic Ankle Lateral Ligament Repair: Response.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1388,7 +1660,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n足踝 \npmid-42817609 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nEfficacy of Inferior Extensor Retinaculum Reinforcement in Arthroscopic Ankle Lateral Ligament Repair: Response. \n2026-10-01 \nLee SH \nLim GH \nKang HT \nKim YE \nJournal Article \n10.1177/03635465261470332 \n42817609 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n足踝 \npmid-42817609 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nEfficacy of Inferior Extensor Retinaculum Reinforcement in Arthroscopic Ankle Lateral Ligament Repair: Response. \n2026-10-01 \nLee SH \nLim GH \nKang HT \nKim YE \nJournal Article \n10.1177/03635465261470332 \n42817609 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42817050",
@@ -1396,7 +1672,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Enhancing the Interpretation of Competition Performance and Physical Characteristics in Male Youth Track and Field Athletes.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1420,7 +1700,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n兒童與青少年 \n跑步與田徑 \npmid-42817050 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nEnhancing the Interpretation of Competition Performance and Physical Characteristics in Male Youth Track and Field Athletes. \n2026-10-01 \nBaker J \nRead P \nGraham-Smith P \nMonaco M \nCardinale M \nJones TW \nJournal Article \n10.1002/ejsc.70259 \n42817050 \nPMC13627884 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n兒童與青少年 \n跑步與田徑 \npmid-42817050 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nEnhancing the Interpretation of Competition Performance and Physical Characteristics in Male Youth Track and Field Athletes. \n2026-10-01 \nBaker J \nRead P \nGraham-Smith P \nMonaco M \nCardinale M \nJones TW \nJournal Article \n10.1002/ejsc.70259 \n42817050 \nPMC13627884 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42808562",
@@ -1428,7 +1712,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Examining the Impact of Supramaximal Eccentric and Long-Lever Isometric Training Protocols on Isometric Hamstring Strength, Nordic Hamstring Performance, and Sprint Speed.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1449,7 +1737,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肌力與爆發力 \npmid-42808562 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nExamining the Impact of Supramaximal Eccentric and Long-Lever Isometric Training Protocols on Isometric Hamstring Strength, Nordic Hamstring Performance, and Sprint Speed. \n2026-10-01 \nSundh AE \nVerVoort DS \nRipley NJ \nLamb AJ \nComfort P \nJournal Article \n10.1002/ejsc.70257 \n42808562 \nPMC13621811 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肌力與爆發力 \npmid-42808562 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nExamining the Impact of Supramaximal Eccentric and Long-Lever Isometric Training Protocols on Isometric Hamstring Strength, Nordic Hamstring Performance, and Sprint Speed. \n2026-10-01 \nSundh AE \nVerVoort DS \nRipley NJ \nLamb AJ \nComfort P \nJournal Article \n10.1002/ejsc.70257 \n42808562 \nPMC13621811 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42823643",
@@ -1457,7 +1749,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Female Soccer Players at High Risk of Injury Maintained Improved Knee Abduction Load 6 Months After Neuromuscular Training Program.",
       "summary": "The Journal of orthopaedic and sports physical therapy收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1482,7 +1778,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \nACL / 膝關節 \n心理與神經認知 \n足球 \npmid-42823643 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nFemale Soccer Players at High Risk of Injury Maintained Improved Knee Abduction Load 6 Months After Neuromuscular Training Program. \n2026-10-01 \nTaylor JB \nHockenjos TJ \nNguyen AD \nWestbrook AE \nPaterno MV \nPexa BS \nFord KR \nJournal Article \nRandomized Controlled Trial \n10.2519/jospt.2026.14125 \n42823643 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \nACL / 膝關節 \n心理與神經認知 \n足球 \npmid-42823643 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nFemale Soccer Players at High Risk of Injury Maintained Improved Knee Abduction Load 6 Months After Neuromuscular Training Program. \n2026-10-01 \nTaylor JB \nHockenjos TJ \nNguyen AD \nWestbrook AE \nPaterno MV \nPexa BS \nFord KR \nJournal Article \nRandomized Controlled Trial \n10.2519/jospt.2026.14125 \n42823643 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42817606",
@@ -1490,7 +1790,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Further Considerations Regarding Return to Sports After Robotic-Assisted Patellofemoral Arthroplasty in Young Patients: Letter to the Editor.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1511,7 +1815,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n回場與復健 \npmid-42817606 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nFurther Considerations Regarding Return to Sports After Robotic-Assisted Patellofemoral Arthroplasty in Young Patients: Letter to the Editor. \n2026-10-01 \nLiu Y \nBian J \nLetter \n10.1177/03635465261480097 \n42817606 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n回場與復健 \npmid-42817606 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nFurther Considerations Regarding Return to Sports After Robotic-Assisted Patellofemoral Arthroplasty in Young Patients: Letter to the Editor. \n2026-10-01 \nLiu Y \nBian J \nLetter \n10.1177/03635465261480097 \n42817606 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42817608",
@@ -1519,7 +1827,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Further Considerations Regarding Return to Sports After Robotic-Assisted Patellofemoral Arthroplasty in Young Patients: Response.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1540,7 +1852,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n回場與復健 \npmid-42817608 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nFurther Considerations Regarding Return to Sports After Robotic-Assisted Patellofemoral Arthroplasty in Young Patients: Response. \n2026-10-01 \nNoyes FR \nFleckenstein CM \nNolan J \nJournal Article \n10.1177/03635465261480092 \n42817608 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n回場與復健 \npmid-42817608 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nFurther Considerations Regarding Return to Sports After Robotic-Assisted Patellofemoral Arthroplasty in Young Patients: Response. \n2026-10-01 \nNoyes FR \nFleckenstein CM \nNolan J \nJournal Article \n10.1177/03635465261480092 \n42817608 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42823324",
@@ -1548,7 +1864,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "George's Gymnastics Program: scaling an inclusive, school-based gymnastics service for children with intellectual disability through an Olympic training centre partnership.",
       "summary": "British journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1569,7 +1889,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n兒童與青少年 \npmid-42823324 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nGeorge's Gymnastics Program: scaling an inclusive, school-based gymnastics service for children with intellectual disability through an Olympic training centre partnership. \n2026-10-01 \nJederstrom M \nEkegren CL \nMüssener U \nBrusco N \nEditorial \n10.1136/bjsports-2026-112014 \n42823324 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n兒童與青少年 \npmid-42823324 \ndiscovered \njournal-article \nbjsm \nBritish journal of sports medicine \nBr J Sports Med \nGeorge's Gymnastics Program: scaling an inclusive, school-based gymnastics service for children with intellectual disability through an Olympic training centre partnership. \n2026-10-01 \nJederstrom M \nEkegren CL \nMüssener U \nBrusco N \nEditorial \n10.1136/bjsports-2026-112014 \n42823324 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42754832",
@@ -1577,7 +1901,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Impact of Sprint Duration With Fixed Recovery on Acute Physiological and Performance Responses to Repeated Cycle Sprints in Hypoxia in Male and Female Sprinters.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1593,12 +1921,17 @@
       "href": "?radar=pmid-42754832#research-radar",
       "sourceUrl": "https://doi.org/10.1002/ejsc.70244",
       "journal": "European journal of sport science",
+<<<<<<< HEAD
       "detail": "European journal of sport science · PMID 42754832 · 被 2 份整理引用",
+=======
+      "detail": "European journal of sport science · PMID 42754832",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "reviewed": false,
       "related": {
         "researchIds": [],
         "courseIds": [],
         "priorIds": [],
+<<<<<<< HEAD
         "referencedBy": [
           {
             "id": "2026-w41",
@@ -1615,6 +1948,11 @@
         ]
       },
       "searchText": "研究題錄 \n恢復與睡眠 \n跑步與田徑 \npmid-42754832 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nImpact of Sprint Duration With Fixed Recovery on Acute Physiological and Performance Responses to Repeated Cycle Sprints in Hypoxia in Male and Female Sprinters. \n2026-10-01 \nTakei N \nMuraki R \nGirard O \nHatta H \nTakahashi Y \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70244 \n42754832 \nPMC13585992 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n恢復與睡眠 \n跑步與田徑 \npmid-42754832 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nImpact of Sprint Duration With Fixed Recovery on Acute Physiological and Performance Responses to Repeated Cycle Sprints in Hypoxia in Male and Female Sprinters. \n2026-10-01 \nTakei N \nMuraki R \nGirard O \nHatta H \nTakahashi Y \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70244 \n42754832 \nPMC13585992 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42821478",
@@ -1622,7 +1960,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Intra-Breath Oscillometry Reveals Phase-Dependent Resistive Abnormalities in Respiratory Mechanics After Severe Covid-19.",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1641,7 +1983,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42821478 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nIntra-Breath Oscillometry Reveals Phase-Dependent Resistive Abnormalities in Respiratory Mechanics After Severe Covid-19. \n2026-10-01 \nPeták F \nBalogh ÁL \nSchulcz D \nZöllei É \nTolnai J \nFodor GH \nBabik B \nJournal Article \n10.1152/japplphysiol.00287.2026 \n42821478 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42821478 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nIntra-Breath Oscillometry Reveals Phase-Dependent Resistive Abnormalities in Respiratory Mechanics After Severe Covid-19. \n2026-10-01 \nPeták F \nBalogh ÁL \nSchulcz D \nZöllei É \nTolnai J \nFodor GH \nBabik B \nJournal Article \n10.1152/japplphysiol.00287.2026 \n42821478 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42823645",
@@ -1649,7 +1995,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Is Reduced Spinal Range of Motion a Prognostic Factor for Pain Intensity, Disability, and Global Recovery in People With Specific or Nonspecific Spinal Pain? A Systematic Review.",
       "summary": "The Journal of orthopaedic and sports physical therapy收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1670,7 +2020,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n恢復與睡眠 \npmid-42823645 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nIs Reduced Spinal Range of Motion a Prognostic Factor for Pain Intensity, Disability, and Global Recovery in People With Specific or Nonspecific Spinal Pain? A Systematic Review. \n2026-10-01 \nFeller D \nBortoli M \nRigo A \nMaini I \nHayden JA \nChiarotto A \nJournal Article \nSystematic Review \nReview \n10.2519/jospt.2026.13872 \n42823645 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n恢復與睡眠 \npmid-42823645 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nIs Reduced Spinal Range of Motion a Prognostic Factor for Pain Intensity, Disability, and Global Recovery in People With Specific or Nonspecific Spinal Pain? A Systematic Review. \n2026-10-01 \nFeller D \nBortoli M \nRigo A \nMaini I \nHayden JA \nChiarotto A \nJournal Article \nSystematic Review \nReview \n10.2519/jospt.2026.13872 \n42823645 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42820357",
@@ -1678,7 +2032,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Is Training Transfer Uniform? A Systematic Review and Three-Level Meta-Analysis of Resisted Sprint Training Effects on Acceleration, Jumping, and Change of Direction Performance in Athletes.",
       "summary": "Scandinavian journal of medicine & science in sports收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1701,7 +2059,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n跑步與田徑 \npmid-42820357 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nIs Training Transfer Uniform? A Systematic Review and Three-Level Meta-Analysis of Resisted Sprint Training Effects on Acceleration, Jumping, and Change of Direction Performance in Athletes. \n2026-10-01 \nLi C \nChen L \nZhang Q \nXin X \nLi X \nJournal Article \nSystematic Review \nMeta-Analysis \nReview \n10.1111/sms.70375 \n42820357 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n跑步與田徑 \npmid-42820357 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nIs Training Transfer Uniform? A Systematic Review and Three-Level Meta-Analysis of Resisted Sprint Training Effects on Acceleration, Jumping, and Change of Direction Performance in Athletes. \n2026-10-01 \nLi C \nChen L \nZhang Q \nXin X \nLi X \nJournal Article \nSystematic Review \nMeta-Analysis \nReview \n10.1111/sms.70375 \n42820357 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42757670",
@@ -1709,7 +2071,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Measurement Agreement and Reliability of the 6-m Gait Speed Test in Adult Population: The ADULT-FIT Project.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1728,7 +2094,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42757670 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nMeasurement Agreement and Reliability of the 6-m Gait Speed Test in Adult Population: The ADULT-FIT Project. \n2026-10-01 \nCastro-Piñero J \nMarín-Jiménez N \nCruz-León C \nCies Valleras FJ \nBorges-Cosic M \nCamiletti-Moirón D \nCuenca-Garcia M \nJournal Article \n10.1002/ejsc.70207 \n42757670 \nPMC13587142 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42757670 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nMeasurement Agreement and Reliability of the 6-m Gait Speed Test in Adult Population: The ADULT-FIT Project. \n2026-10-01 \nCastro-Piñero J \nMarín-Jiménez N \nCruz-León C \nCies Valleras FJ \nBorges-Cosic M \nCamiletti-Moirón D \nCuenca-Garcia M \nJournal Article \n10.1002/ejsc.70207 \n42757670 \nPMC13587142 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42817613",
@@ -1736,7 +2106,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Microfragmented Adipose Tissue as an Alternative to Platelet-Rich Plasma for Intra-articular Injection in Knee Osteoarthritis: Letter to the Editor.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1757,7 +2131,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \nACL / 膝關節 \npmid-42817613 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nMicrofragmented Adipose Tissue as an Alternative to Platelet-Rich Plasma for Intra-articular Injection in Knee Osteoarthritis: Letter to the Editor. \n2026-10-01 \nBaria MR \nBarker T \nLetter \n10.1177/03635465261472883 \n42817613 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42817613 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nMicrofragmented Adipose Tissue as an Alternative to Platelet-Rich Plasma for Intra-articular Injection in Knee Osteoarthritis: Letter to the Editor. \n2026-10-01 \nBaria MR \nBarker T \nLetter \n10.1177/03635465261472883 \n42817613 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42817612",
@@ -1765,7 +2143,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Microfragmented Adipose Tissue as an Alternative to Platelet-Rich Plasma for Intra-articular Injection in Knee Osteoarthritis: Response.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1786,7 +2168,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \nACL / 膝關節 \npmid-42817612 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nMicrofragmented Adipose Tissue as an Alternative to Platelet-Rich Plasma for Intra-articular Injection in Knee Osteoarthritis: Response. \n2026-10-01 \nPark YB \nKim JH \nJournal Article \n10.1177/03635465261472884 \n42817612 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42817612 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nMicrofragmented Adipose Tissue as an Alternative to Platelet-Rich Plasma for Intra-articular Injection in Knee Osteoarthritis: Response. \n2026-10-01 \nPark YB \nKim JH \nJournal Article \n10.1177/03635465261472884 \n42817612 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42817607",
@@ -1794,7 +2180,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "More Than a Decade of Data: The Maturation of Hip Preservation Through the Sports Medicine Lens.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1813,7 +2203,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42817607 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nMore Than a Decade of Data: The Maturation of Hip Preservation Through the Sports Medicine Lens. \n2026-10-01 \nSpiker AM \nEditorial \n10.1177/03635465261487440 \n42817607 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42817607 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nMore Than a Decade of Data: The Maturation of Hip Preservation Through the Sports Medicine Lens. \n2026-10-01 \nSpiker AM \nEditorial \n10.1177/03635465261487440 \n42817607 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42733310",
@@ -1821,7 +2215,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Muscle Massage Adding Capacitive Resistive Electric Transfer Therapy in Active or Sham Condition for Post-Exercise Recovery in Athletes: A Crossover Clinical Trial.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1834,12 +2232,17 @@
       "href": "?radar=pmid-42733310#research-radar",
       "sourceUrl": "https://doi.org/10.1002/ejsc.70246",
       "journal": "European journal of sport science",
+<<<<<<< HEAD
       "detail": "European journal of sport science · PMID 42733310 · 被 2 份整理引用",
+=======
+      "detail": "European journal of sport science · PMID 42733310",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "reviewed": false,
       "related": {
         "researchIds": [],
         "courseIds": [],
         "priorIds": [],
+<<<<<<< HEAD
         "referencedBy": [
           {
             "id": "2026-w41",
@@ -1856,6 +2259,11 @@
         ]
       },
       "searchText": "研究題錄 \n恢復與睡眠 \npmid-42733310 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nMuscle Massage Adding Capacitive Resistive Electric Transfer Therapy in Active or Sham Condition for Post-Exercise Recovery in Athletes: A Crossover Clinical Trial. \n2026-10-01 \nCanet-Vintró M \nOviedo GR \nLópez-de-Celis C \nBeltrame T \nMuñiz-Pardos B \nMengual I \nRodríguez-Sanz J \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70246 \n42733310 \nPMC13572906 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n恢復與睡眠 \npmid-42733310 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nMuscle Massage Adding Capacitive Resistive Electric Transfer Therapy in Active or Sham Condition for Post-Exercise Recovery in Athletes: A Crossover Clinical Trial. \n2026-10-01 \nCanet-Vintró M \nOviedo GR \nLópez-de-Celis C \nBeltrame T \nMuñiz-Pardos B \nMengual I \nRodríguez-Sanz J \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70246 \n42733310 \nPMC13572906 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42723148",
@@ -1863,7 +2271,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "No Influence of Sleep Quality and Chronotype on the Effects of Mental Fatigue: Evidence From an Exploratory Analysis.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1876,12 +2288,17 @@
       "href": "?radar=pmid-42723148#research-radar",
       "sourceUrl": "https://doi.org/10.1002/ejsc.70247",
       "journal": "European journal of sport science",
+<<<<<<< HEAD
       "detail": "European journal of sport science · PMID 42723148 · 被 2 份整理引用",
+=======
+      "detail": "European journal of sport science · PMID 42723148",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "reviewed": false,
       "related": {
         "researchIds": [],
         "courseIds": [],
         "priorIds": [],
+<<<<<<< HEAD
         "referencedBy": [
           {
             "id": "2026-w41",
@@ -1898,6 +2315,11 @@
         ]
       },
       "searchText": "研究題錄 \n恢復與睡眠 \npmid-42723148 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nNo Influence of Sleep Quality and Chronotype on the Effects of Mental Fatigue: Evidence From an Exploratory Analysis. \n2026-10-01 \nHabay J \nEzzy Q \nArauz YLA \nProost M \nRussell S \nDe Pauw K \nVan Cutsem J \nRoelands B \nPattyn N \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70247 \n42723148 \nPMC13562610 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n恢復與睡眠 \npmid-42723148 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nNo Influence of Sleep Quality and Chronotype on the Effects of Mental Fatigue: Evidence From an Exploratory Analysis. \n2026-10-01 \nHabay J \nEzzy Q \nArauz YLA \nProost M \nRussell S \nDe Pauw K \nVan Cutsem J \nRoelands B \nPattyn N \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70247 \n42723148 \nPMC13562610 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42823644",
@@ -1905,7 +2327,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Not Just Faster Horses: Telerehabilitation as a Necessary Evolution in Physical Therapy.",
       "summary": "The Journal of orthopaedic and sports physical therapy收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1926,7 +2352,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n回場與復健 \npmid-42823644 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nNot Just Faster Horses: Telerehabilitation as a Necessary Evolution in Physical Therapy. \n2026-10-01 \nFarraj M \nLebleu J \nBonnechère B \nVan Cant J \nEditorial \n10.2519/jospt.2026.14510 \n42823644 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n回場與復健 \npmid-42823644 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nNot Just Faster Horses: Telerehabilitation as a Necessary Evolution in Physical Therapy. \n2026-10-01 \nFarraj M \nLebleu J \nBonnechère B \nVan Cant J \nEditorial \n10.2519/jospt.2026.14510 \n42823644 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42813573",
@@ -1934,7 +2364,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "One-Year Effects of the FIT FIRST 20 High-Intensity and Multisport Physical Education Program on Physical Fitness and Psychological Outcomes in Early Adolescents: A Cluster-Randomized Controlled Trial.",
       "summary": "Scandinavian journal of medicine & science in sports收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -1948,12 +2382,17 @@
       "href": "?radar=pmid-42813573#research-radar",
       "sourceUrl": "https://doi.org/10.1111/sms.70374",
       "journal": "Scandinavian journal of medicine & science in sports",
+<<<<<<< HEAD
       "detail": "Scandinavian journal of medicine & science in sports · PMID 42813573 · 被 2 份整理引用",
+=======
+      "detail": "Scandinavian journal of medicine & science in sports · PMID 42813573",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "reviewed": false,
       "related": {
         "researchIds": [],
         "courseIds": [],
         "priorIds": [],
+<<<<<<< HEAD
         "referencedBy": [
           {
             "id": "2026-w41",
@@ -1970,6 +2409,11 @@
         ]
       },
       "searchText": "研究題錄 \n兒童與青少年 \n心理與神經認知 \npmid-42813573 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nOne-Year Effects of the FIT FIRST 20 High-Intensity and Multisport Physical Education Program on Physical Fitness and Psychological Outcomes in Early Adolescents: A Cluster-Randomized Controlled Trial. \n2026-10-01 \nCimenti C \nThøgersen-Ntoumani C \nLarsen MN \nTarantino G \nKoch S \nEckert C \nMeiner CB \nPrisak C \nKrustrup P \nNtoumanis N \nJournal Article \nMulticenter Study \nRandomized Controlled Trial \n10.1111/sms.70374 \n42813573 \nPMC13625196 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n兒童與青少年 \n心理與神經認知 \npmid-42813573 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nOne-Year Effects of the FIT FIRST 20 High-Intensity and Multisport Physical Education Program on Physical Fitness and Psychological Outcomes in Early Adolescents: A Cluster-Randomized Controlled Trial. \n2026-10-01 \nCimenti C \nThøgersen-Ntoumani C \nLarsen MN \nTarantino G \nKoch S \nEckert C \nMeiner CB \nPrisak C \nKrustrup P \nNtoumanis N \nJournal Article \nMulticenter Study \nRandomized Controlled Trial \n10.1111/sms.70374 \n42813573 \nPMC13625196 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42742340",
@@ -1977,7 +2421,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Optimising Wheelchair Sprint Power Output Through Standardised and Individualised Force-Velocity Profiling.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2001,7 +2449,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肌力與爆發力 \n帕拉運動 \npmid-42742340 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nOptimising Wheelchair Sprint Power Output Through Standardised and Individualised Force-Velocity Profiling. \n2026-10-01 \nRietveld T \nJanssen RJF \nO'Brien TJ \nBailey P \nGoosey-Tolfrey VL \nJournal Article \n10.1002/ejsc.70252 \n42742340 \nPMC13576628 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肌力與爆發力 \n帕拉運動 \npmid-42742340 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nOptimising Wheelchair Sprint Power Output Through Standardised and Individualised Force-Velocity Profiling. \n2026-10-01 \nRietveld T \nJanssen RJF \nO'Brien TJ \nBailey P \nGoosey-Tolfrey VL \nJournal Article \n10.1002/ejsc.70252 \n42742340 \nPMC13576628 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42742276",
@@ -2009,7 +2461,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Performances and Fatigue Responses to Weighted Vest Training in Parkour Novices.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2030,7 +2486,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n恢復與睡眠 \npmid-42742276 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nPerformances and Fatigue Responses to Weighted Vest Training in Parkour Novices. \n2026-10-01 \nGrosprêtre S \nMarcel-Millet P \nEon P \nGarbellotto L \nRoelands B \nPauw K \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70243 \n42742276 \nPMC13576638 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n恢復與睡眠 \npmid-42742276 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nPerformances and Fatigue Responses to Weighted Vest Training in Parkour Novices. \n2026-10-01 \nGrosprêtre S \nMarcel-Millet P \nEon P \nGarbellotto L \nRoelands B \nPauw K \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70243 \n42742276 \nPMC13576638 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42823646",
@@ -2038,7 +2498,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Portable Dynamometry Is Reliable for Measuring Knee and Ankle Strength in Daily Practice: Results From a Systematic Review With Meta-analysis and Evidence Gap Map Using the COSMIN Methodology.",
       "summary": "The Journal of orthopaedic and sports physical therapy收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2061,7 +2525,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \nACL / 膝關節 \n足踝 \n肌力與爆發力 \npmid-42823646 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nPortable Dynamometry Is Reliable for Measuring Knee and Ankle Strength in Daily Practice: Results From a Systematic Review With Meta-analysis and Evidence Gap Map Using the COSMIN Methodology. \n2026-10-01 \nGajardo-Burgos R \nJaque de la Barra T \nRamírez-Campillo R \nWaiteman MC \nSáez de Villarreal E \nJournal Article \nSystematic Review \nMeta-Analysis \nReview \n10.2519/jospt.2026.14091 \n42823646 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \nACL / 膝關節 \n足踝 \n肌力與爆發力 \npmid-42823646 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nPortable Dynamometry Is Reliable for Measuring Knee and Ankle Strength in Daily Practice: Results From a Systematic Review With Meta-analysis and Evidence Gap Map Using the COSMIN Methodology. \n2026-10-01 \nGajardo-Burgos R \nJaque de la Barra T \nRamírez-Campillo R \nWaiteman MC \nSáez de Villarreal E \nJournal Article \nSystematic Review \nMeta-Analysis \nReview \n10.2519/jospt.2026.14091 \n42823646 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42717272",
@@ -2069,7 +2537,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Potential Links Between Physiological and Perceptual Strain in High Heat Stress.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2090,7 +2562,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n熱環境 \npmid-42717272 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nPotential Links Between Physiological and Perceptual Strain in High Heat Stress. \n2026-10-01 \nZhao X \nMcDermott BP \nLo WJ \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70226 \n42717272 \nPMC13558656 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n熱環境 \npmid-42717272 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nPotential Links Between Physiological and Perceptual Strain in High Heat Stress. \n2026-10-01 \nZhao X \nMcDermott BP \nLo WJ \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70226 \n42717272 \nPMC13558656 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42717268",
@@ -2098,7 +2574,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Ramadan Intermittent Fasting and Injury Epidemiology in Mid and Late Adolescent Elite Male Football Players: A Prospective Cohort Study of Incidence, Burden, Training Load, and Psychophysiological Well-Being.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2124,7 +2604,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n足踝 \n訓練負荷 \n兒童與青少年 \n足球 \npmid-42717268 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nRamadan Intermittent Fasting and Injury Epidemiology in Mid and Late Adolescent Elite Male Football Players: A Prospective Cohort Study of Incidence, Burden, Training Load, and Psychophysiological Well-Being. \n2026-10-01 \nRejab N \nChaari F \nNabli MA \nSahli S \nRebai H \nJournal Article \nObservational Study \n10.1002/ejsc.70249 \n42717268 \nPMC13558659 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n足踝 \n訓練負荷 \n兒童與青少年 \n足球 \npmid-42717268 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nRamadan Intermittent Fasting and Injury Epidemiology in Mid and Late Adolescent Elite Male Football Players: A Prospective Cohort Study of Incidence, Burden, Training Load, and Psychophysiological Well-Being. \n2026-10-01 \nRejab N \nChaari F \nNabli MA \nSahli S \nRebai H \nJournal Article \nObservational Study \n10.1002/ejsc.70249 \n42717268 \nPMC13558659 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42823642",
@@ -2132,7 +2616,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Rehabilitation of Athletes With Hamstring Strain Injury: SONAFE-Brazil Clinical Practice Guideline.",
       "summary": "The Journal of orthopaedic and sports physical therapy收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2153,7 +2641,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n回場與復健 \npmid-42823642 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nRehabilitation of Athletes With Hamstring Strain Injury: SONAFE-Brazil Clinical Practice Guideline. \n2026-10-01 \nBaroni BM \nRibeiro de Oliveira R \nPereira ALA \nMeira FC \nDos Reis FA \nBryk FF \nHespanhol L \nFranco KFM \nPinheiro LSP \nBittencourt NFN \nCarvalho ACA \nLobato DFM \nLucas de Oliveira FC \nParreira RB \nColpani V \nAraújo CGA \nJournal Article \nPractice Guideline \n10.2519/jospt.2026.14372 \n42823642 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n回場與復健 \npmid-42823642 \ndiscovered \njournal-article \njospt \nThe Journal of orthopaedic and sports physical therapy \nJ Orthop Sports Phys Ther \nRehabilitation of Athletes With Hamstring Strain Injury: SONAFE-Brazil Clinical Practice Guideline. \n2026-10-01 \nBaroni BM \nRibeiro de Oliveira R \nPereira ALA \nMeira FC \nDos Reis FA \nBryk FF \nHespanhol L \nFranco KFM \nPinheiro LSP \nBittencourt NFN \nCarvalho ACA \nLobato DFM \nLucas de Oliveira FC \nParreira RB \nColpani V \nAraújo CGA \nJournal Article \nPractice Guideline \n10.2519/jospt.2026.14372 \n42823642 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42828469",
@@ -2161,7 +2653,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Resistance Training for Cyclists: Scientific Evidence and Practical Recommendations.",
       "summary": "Scandinavian journal of medicine & science in sports收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2187,7 +2683,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肌力與爆發力 \n自行車 \n肌力與體能 \npmid-42828469 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nResistance Training for Cyclists: Scientific Evidence and Practical Recommendations. \n2026-10-01 \nde Pablos R \nSánchez-Redondo IR \nAlejo LB \nPallarés JG \nBarranco-Gil D \nValenzuela PL \nJournal Article \nReview \n10.1111/sms.70377 \n42828469 \nPMC13633594 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肌力與爆發力 \n自行車 \n肌力與體能 \npmid-42828469 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nResistance Training for Cyclists: Scientific Evidence and Practical Recommendations. \n2026-10-01 \nde Pablos R \nSánchez-Redondo IR \nAlejo LB \nPallarés JG \nBarranco-Gil D \nValenzuela PL \nJournal Article \nReview \n10.1111/sms.70377 \n42828469 \nPMC13633594 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42817605",
@@ -2195,7 +2695,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Rethinking Obesity-Driven Urgency in Rotator Cuff Repair: Letter to the Editor.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2216,7 +2720,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肩與上肢 \npmid-42817605 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nRethinking Obesity-Driven Urgency in Rotator Cuff Repair: Letter to the Editor. \n2026-10-01 \nQu X \nYang D \nTang X \nChen B \nLetter \n10.1177/03635465261478574 \n42817605 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肩與上肢 \npmid-42817605 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nRethinking Obesity-Driven Urgency in Rotator Cuff Repair: Letter to the Editor. \n2026-10-01 \nQu X \nYang D \nTang X \nChen B \nLetter \n10.1177/03635465261478574 \n42817605 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42817610",
@@ -2224,7 +2732,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Rethinking Obesity-Driven Urgency in Rotator Cuff Repair: Response.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2245,7 +2757,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肩與上肢 \npmid-42817610 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nRethinking Obesity-Driven Urgency in Rotator Cuff Repair: Response. \n2026-10-01 \nWu Y \nLiu Q \nZhang J \nYin Z \nBai L \nJournal Article \n10.1177/03635465261478581 \n42817610 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肩與上肢 \npmid-42817610 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nRethinking Obesity-Driven Urgency in Rotator Cuff Repair: Response. \n2026-10-01 \nWu Y \nLiu Q \nZhang J \nYin Z \nBai L \nJournal Article \n10.1177/03635465261478581 \n42817610 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42757668",
@@ -2253,7 +2769,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Sodium Bicarbonate Supplementation Enhances Repeated High-Intensity Interval Training Performance and Time Above 90% of V˙O2 max in Well-Trained Cyclists.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2276,7 +2796,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n自行車 \npmid-42757668 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nSodium Bicarbonate Supplementation Enhances Repeated High-Intensity Interval Training Performance and Time Above 90% of V˙O2 max in Well-Trained Cyclists. \n2026-10-01 \nFeuerbacher JF \nBjerkeset M \nMølmen KS \nSchumann M \nRønnestad BR \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70253 \n42757668 \nPMC13587146 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n自行車 \npmid-42757668 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nSodium Bicarbonate Supplementation Enhances Repeated High-Intensity Interval Training Performance and Time Above 90% of V˙O2 max in Well-Trained Cyclists. \n2026-10-01 \nFeuerbacher JF \nBjerkeset M \nMølmen KS \nSchumann M \nRønnestad BR \nJournal Article \nRandomized Controlled Trial \n10.1002/ejsc.70253 \n42757668 \nPMC13587146 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42803768",
@@ -2284,7 +2808,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Standing Up to Dysglycemia: Textile Electromyography Identifies Hamstring Muscle Activity Benefits.",
       "summary": "Scandinavian journal of medicine & science in sports收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2303,7 +2831,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42803768 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nStanding Up to Dysglycemia: Textile Electromyography Identifies Hamstring Muscle Activity Benefits. \n2026-10-01 \nLi Q \nBrakenridge CJ \nQin J \nLi X \nLamberg S \nFinni T \nOwen N \nPesola AJ \nGao Y \nJournal Article \n10.1111/sms.70371 \n42803768 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42803768 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nStanding Up to Dysglycemia: Textile Electromyography Identifies Hamstring Muscle Activity Benefits. \n2026-10-01 \nLi Q \nBrakenridge CJ \nQin J \nLi X \nLamberg S \nFinni T \nOwen N \nPesola AJ \nGao Y \nJournal Article \n10.1111/sms.70371 \n42803768 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42820728",
@@ -2311,7 +2843,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "The Effect of a Novel 8-Week Strengthening Program on Isometric, Multidirectional Cervical Strength in Adolescent Male Rugby Players.",
       "summary": "Journal of strength and conditioning research收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2336,7 +2872,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肌力與爆發力 \n兒童與青少年 \n橄欖球與美式足球 \npmid-42820728 \ndiscovered \njournal-article \njsc \nJournal of strength and conditioning research \nJ Strength Cond Res \nThe Effect of a Novel 8-Week Strengthening Program on Isometric, Multidirectional Cervical Strength in Adolescent Male Rugby Players. \n2026-10-01 \nPryce R \nO'Brien R \nDillon J \nFleming N \nJournal Article \n10.1519/JSC.0000000000005667 \n42820728 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肌力與爆發力 \n兒童與青少年 \n橄欖球與美式足球 \npmid-42820728 \ndiscovered \njournal-article \njsc \nJournal of strength and conditioning research \nJ Strength Cond Res \nThe Effect of a Novel 8-Week Strengthening Program on Isometric, Multidirectional Cervical Strength in Adolescent Male Rugby Players. \n2026-10-01 \nPryce R \nO'Brien R \nDillon J \nFleming N \nJournal Article \n10.1519/JSC.0000000000005667 \n42820728 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42828474",
@@ -2344,7 +2884,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "The Football Association Injury and Illness Surveillance Programme: The Incidence, Burden, and Severity of Injuries in English Men's Domestic Football.",
       "summary": "Scandinavian journal of medicine & science in sports收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2366,7 +2910,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n足踝 \n運動傷害預防 \npmid-42828474 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nThe Football Association Injury and Illness Surveillance Programme: The Incidence, Burden, and Severity of Injuries in English Men's Domestic Football. \n2026-10-01 \nSprouse B \nChandran A \nHennis P \nMorris J \nCooper S \nCowie C \nBasu S \nVarley I \nJournal Article \n10.1111/sms.70378 \n42828474 \nPMC13633597 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n足踝 \n運動傷害預防 \npmid-42828474 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nThe Football Association Injury and Illness Surveillance Programme: The Incidence, Burden, and Severity of Injuries in English Men's Domestic Football. \n2026-10-01 \nSprouse B \nChandran A \nHennis P \nMorris J \nCooper S \nCowie C \nBasu S \nVarley I \nJournal Article \n10.1111/sms.70378 \n42828474 \nPMC13633597 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42773613",
@@ -2374,7 +2922,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "The Influence of Running Cadence Manipulation on Acute Cartilage Response in Distance Runners.",
       "summary": "Scandinavian journal of medicine & science in sports收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2397,7 +2949,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n跑步與田徑 \npmid-42773613 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nThe Influence of Running Cadence Manipulation on Acute Cartilage Response in Distance Runners. \n2026-10-01 \nEvans RJ \nBattersby HS \nBoers T \nWilly RW \nPamukoff DN \nJournal Article \n10.1111/sms.70370 \n42773613 \nPMC13598354 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n跑步與田徑 \npmid-42773613 \ndiscovered \njournal-article \nscand-sms \nScandinavian journal of medicine & science in sports \nScand J Med Sci Sports \nThe Influence of Running Cadence Manipulation on Acute Cartilage Response in Distance Runners. \n2026-10-01 \nEvans RJ \nBattersby HS \nBoers T \nWilly RW \nPamukoff DN \nJournal Article \n10.1111/sms.70370 \n42773613 \nPMC13598354 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42728229",
@@ -2405,7 +2961,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-10-01",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Velocity-Dependent Transitions in Forward and Backward Running Mechanics in Female International Rugby Players.",
       "summary": "European journal of sport science收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2430,7 +2990,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n跑步與田徑 \n橄欖球與美式足球 \npmid-42728229 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nVelocity-Dependent Transitions in Forward and Backward Running Mechanics in Female International Rugby Players. \n2026-10-01 \nBrennan TR \nWeakley J \nDuthie G \nMoresi M \nCowley N \nSilverthorne K \nHebron I \nStarc L \nManiar N \nCreaby MW \nJournal Article \n10.1002/ejsc.70255 \n42728229 \nPMC13569467 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n跑步與田徑 \n橄欖球與美式足球 \npmid-42728229 \ndiscovered \njournal-article \nejss \nEuropean journal of sport science \nEur J Sport Sci \nVelocity-Dependent Transitions in Forward and Backward Running Mechanics in Female International Rugby Players. \n2026-10-01 \nBrennan TR \nWeakley J \nDuthie G \nMoresi M \nCowley N \nSilverthorne K \nHebron I \nStarc L \nManiar N \nCreaby MW \nJournal Article \n10.1002/ejsc.70255 \n42728229 \nPMC13569467 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42816054",
@@ -2438,7 +3002,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-09-30",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Effects of acute Capsaicin analogue intake on athletic performance: a three-level meta-analysis.",
       "summary": "Journal of the International Society of Sports Nutrition收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2451,12 +3019,17 @@
       "href": "?radar=pmid-42816054#research-radar",
       "sourceUrl": "https://doi.org/10.1080/15502783.2026.2733576",
       "journal": "Journal of the International Society of Sports Nutrition",
+<<<<<<< HEAD
       "detail": "Journal of the International Society of Sports Nutrition · PMID 42816054 · 被 2 份整理引用",
+=======
+      "detail": "Journal of the International Society of Sports Nutrition · PMID 42816054",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "reviewed": false,
       "related": {
         "researchIds": [],
         "courseIds": [],
         "priorIds": [],
+<<<<<<< HEAD
         "referencedBy": [
           {
             "id": "2026-w41",
@@ -2473,6 +3046,11 @@
         ]
       },
       "searchText": "研究題錄 \n營養與水合 \npmid-42816054 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nEffects of acute Capsaicin analogue intake on athletic performance: a three-level meta-analysis. \n2026-09-30 \n2026-12-30 \nHuang Z \nDeng H \nTan S \nJournal Article \nMeta-Analysis \n10.1080/15502783.2026.2733576 \n42816054 \nPMC13629781 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n營養與水合 \npmid-42816054 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nEffects of acute Capsaicin analogue intake on athletic performance: a three-level meta-analysis. \n2026-09-30 \n2026-12-30 \nHuang Z \nDeng H \nTan S \nJournal Article \nMeta-Analysis \n10.1080/15502783.2026.2733576 \n42816054 \nPMC13629781 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42811668",
@@ -2480,7 +3058,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-09-29",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "A systematic and critical review of measurement scales for evaluating gastrointestinal symptoms during exercise.",
       "summary": "Journal of the International Society of Sports Nutrition收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2493,12 +3075,17 @@
       "href": "?radar=pmid-42811668#research-radar",
       "sourceUrl": "https://doi.org/10.1080/15502783.2026.2735563",
       "journal": "Journal of the International Society of Sports Nutrition",
+<<<<<<< HEAD
       "detail": "Journal of the International Society of Sports Nutrition · PMID 42811668 · 被 2 份整理引用",
+=======
+      "detail": "Journal of the International Society of Sports Nutrition · PMID 42811668",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "reviewed": false,
       "related": {
         "researchIds": [],
         "courseIds": [],
         "priorIds": [],
+<<<<<<< HEAD
         "referencedBy": [
           {
             "id": "2026-w41",
@@ -2515,6 +3102,11 @@
         ]
       },
       "searchText": "研究題錄 \n營養與水合 \npmid-42811668 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nA systematic and critical review of measurement scales for evaluating gastrointestinal symptoms during exercise. \n2026-09-29 \n2026-12-30 \nAitkenhead R \nWaldron M \nConway GE \nHorner K \nHeffernan SM \nJournal Article \nSystematic Review \n10.1080/15502783.2026.2735563 \n42811668 \nPMC13629788 \npmc-record-available \n2026-10-05T10:16:14.924Z"
+=======
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n營養與水合 \npmid-42811668 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nA systematic and critical review of measurement scales for evaluating gastrointestinal symptoms during exercise. \n2026-09-29 \n2026-12-30 \nAitkenhead R \nWaldron M \nConway GE \nHorner K \nHeffernan SM \nJournal Article \nSystematic Review \n10.1080/15502783.2026.2735563 \n42811668 \nPMC13629788 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:rss-bmjosem-current-b6682ffcbd31f1b5",
@@ -2522,7 +3114,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-09-29",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Isometric exercise training and blood pressure control: exploring the dose-response to training frequency in a randomised controlled trial; Isometric exercise training and blood pressure control: exploring the dose-response to training frequency in a randomised controlled trial",
       "summary": "BMJ Open Sport & Exercise Medicine current issue收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -2541,7 +3137,126 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \nrss-bmjosem-current-b6682ffcbd31f1b5 \ndiscovered \nofficial-update \nbmjosem-current \nBMJ Open Sport & Exercise Medicine current issue \nIsometric exercise training and blood pressure control: exploring the dose-response to training frequency in a randomised controlled trial; Isometric exercise training and blood pressure control: exploring the dose-response to training frequency in a randomised controlled trial \n2026-09-29 \nSwift, H. T., Pedlar, C., Coleman, D. A., Buckley, J. P., Wiles, J. D. \n10.1136/bmjsem-2025-003172 \nofficial-source \nOriginal research \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \nrss-bmjosem-current-b6682ffcbd31f1b5 \ndiscovered \nofficial-update \nbmjosem-current \nBMJ Open Sport & Exercise Medicine current issue \nIsometric exercise training and blood pressure control: exploring the dose-response to training frequency in a randomised controlled trial; Isometric exercise training and blood pressure control: exploring the dose-response to training frequency in a randomised controlled trial \n2026-09-29 \nSwift, H. T., Pedlar, C., Coleman, D. A., Buckley, J. P., Wiles, J. D. \n10.1136/bmjsem-2025-003172 \nofficial-source \nOriginal research \n2026-10-05T09:12:25.844Z"
+    },
+    {
+      "id": "research:pmid-42801272",
+      "sourceId": "pmid-42801272",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-27",
+      "updatedAt": "2026-09-28T08:46:21.945Z",
+      "year": "2026",
+      "title": "ACL Graft Type Effects on Outcomes Were Not Significantly Modified by Medial Collateral Ligament Status in Combined ACL-MCL Injuries: A Multicenter Registry Study From the French Arthroscopic Society.",
+      "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42801272#research-radar",
+      "sourceUrl": "https://doi.org/10.1177/03635465261487325",
+      "journal": "The American journal of sports medicine",
+      "detail": "The American journal of sports medicine · PMID 42801272",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42801272 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nACL Graft Type Effects on Outcomes Were Not Significantly Modified by Medial Collateral Ligament Status in Combined ACL-MCL Injuries: A Multicenter Registry Study From the French Arthroscopic Society. \n2026-09-27 \nBouguennec N \nNeri T \nCarrozzo A \nFreychet B \nHardy A \nHerce C \nKajetanek C \nOllivier M \nLutz C \nCavaignac E \nJournal Article \n10.1177/03635465261487325 \n42801272 \ncheck-publisher-or-institution \n2026-09-28T08:46:21.945Z"
+    },
+    {
+      "id": "research:pmid-42801270",
+      "sourceId": "pmid-42801270",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-27",
+      "updatedAt": "2026-09-28T08:46:21.945Z",
+      "year": "2026",
+      "title": "Assessing the Impact of Myofascial Release Versus Dry Needling for Chondromalacia in Adult Females: A Randomized Controlled Trial.",
+      "summary": "Sports health收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42801270#research-radar",
+      "sourceUrl": "https://doi.org/10.1177/19417381261486230",
+      "journal": "Sports health",
+      "detail": "Sports health · PMID 42801270",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42801270 \ndiscovered \njournal-article \nsports-health \nSports health \nSports Health \nAssessing the Impact of Myofascial Release Versus Dry Needling for Chondromalacia in Adult Females: A Randomized Controlled Trial. \n2026-09-27 \nAmeen FH \nEssa MMM \nSaeed D \nWahba MM \nEl-Sherbini AEIEM \nLobbos BS \nSaid SM \nJournal Article \n10.1177/19417381261486230 \n42801270 \ncheck-publisher-or-institution \n2026-09-28T08:46:21.945Z"
+    },
+    {
+      "id": "research:pmid-42801271",
+      "sourceId": "pmid-42801271",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-27",
+      "updatedAt": "2026-09-28T08:46:21.945Z",
+      "year": "2026",
+      "title": "Hangboard Training as a Preventive Strategy for Upper Extremity Pathologies in Rock Climbers.",
+      "summary": "Sports health收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "肩與上肢"
+      ],
+      "href": "?radar=pmid-42801271#research-radar",
+      "sourceUrl": "https://doi.org/10.1177/19417381261486277",
+      "journal": "Sports health",
+      "detail": "Sports health · PMID 42801271",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肩與上肢 \npmid-42801271 \ndiscovered \njournal-article \nsports-health \nSports health \nSports Health \nHangboard Training as a Preventive Strategy for Upper Extremity Pathologies in Rock Climbers. \n2026-09-27 \nKornienko K \nTorkieh J \nShah K \nWoodruff D \nRaymond C \nChung M \nKatt B \nEditorial \n10.1177/19417381261486277 \n42801271 \ncheck-publisher-or-institution \n2026-09-28T08:46:21.945Z"
+    },
+    {
+      "id": "research:pmid-42801726",
+      "sourceId": "pmid-42801726",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-27",
+      "updatedAt": "2026-09-28T08:46:21.945Z",
+      "year": "2026",
+      "title": "Physiological responses to 10 days of heart rate-clamped heat acclimation in hot-dry and hot-humid environments.",
+      "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "熱環境",
+        "運動心臟與健康"
+      ],
+      "href": "?radar=pmid-42801726#research-radar",
+      "sourceUrl": "https://doi.org/10.1080/02640414.2026.2733957",
+      "journal": "Journal of sports sciences",
+      "detail": "Journal of sports sciences · PMID 42801726",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n熱環境 \n運動心臟與健康 \npmid-42801726 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nPhysiological responses to 10 days of heart rate-clamped heat acclimation in hot-dry and hot-humid environments. \n2026-09-27 \nAnbalagan P \nPeeling P \nIhsan M \nRacinais S \nWallman K \nShaykevich A \nGirard O \nJournal Article \n10.1080/02640414.2026.2733957 \n42801726 \ncheck-publisher-or-institution \n2026-09-28T08:46:21.945Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "podcast:2026-w39",
@@ -2684,6 +3399,62 @@
         "referencedBy": []
       },
       "searchText": "每週整合週報 \n營養與恢復 \n訓練設計 \n監測與科技 \n身體評估 \n運動醫學 \n運動表現 \n自行車 \n中高齡女性 \n阻力訓練 \n髖部保留手術後運動族群 \n2026-w39 \npublished \n2026-09-26 \n2026 年第 39 週 \n增加負荷之前：營養、訓練與回場能力如何對齊？ \n本週三篇全文共同提醒：營養、訓練與回場決策，必須先界定目標、實際暴露與測量方式。自行車營養立場聲明提供依任務補給的框架；中高齡女性試驗顯示不同訓練組合的結果取捨，但未建立蛋白質劑量等效；髖部聯合手術病例系列則呈現較高回場比例，仍不能代表恢復原有競技表現。 \n當準備增加訓練或運動參與時，團隊如何確認營養支持、實際負荷與功能反應足以支撐下一步？ \n本期包含 full-text-web 1 篇、full-text-local 0 篇、full-text-open 2 篇、full-text-excerpt 0 篇及 abstract-only 0 篇，依所附完整文字、表格、圖說及可取得的補充說明整合。三篇分別為敘述性綜述支持的立場聲明、隨機因子試驗與回溯病例系列，不能視為同等強度的介入證據；女性試驗附文提及補充表 S1、S2，但未提供其完整表體，因此相關敏感度結果僅採正文明載內容。 \n本週研究地圖 \n本封包中，International Journal of Sport Nutrition and Exercise Metabolism 將自行車不同項目、補給後勤與健康風險整合成營養框架；Journal of the International Society of Sports Nutrition 增加中高齡未訓練女性的訓練與蛋白質指派比較；Orthopaedic Journal of Sports Medicine 補上髖部聯合手術後的運動參與結果。共同訊號是必須把目標、暴露與結果分開判讀；這是本期選文的整合觀察，並非整個研究領域的量化趨勢。 \n補給應配合任務與耐受度 \npmid-42744290 \n延伸既有熱環境與腸胃演練概念，整合每日能量、賽中碳水、恢復及食物供應；超高碳水攝取的額外效益仍待驗證。 \nmixed \n訓練組合有結果取捨，蛋白質不能只看指派數字 \npmid-42735207 \n兩篇均要求依族群及負荷解讀營養。女性試驗的未檢出蛋白質差異不構成對精英自行車建議的反證，因族群、訓練、飲食控制與結果測量均不同。 \n回到運動與回到表現需要不同證據 \npmid-42746137 \n聯合手術後多數髖部有回場紀錄，但沒有直接手術對照、競技層級分層或長期表現資料，不能推導最佳手術或個人放行時程。 \nlow \n量測的操作定義決定結論邊界 \n連續血糖資訊、BIA 肌肉量、次最大測驗估計攝氧量與病歷回場紀錄，均須與真正要回答的問題對齊。三篇在方法判讀上呼應，沒有共同療效終點可合併。 \nmoderate \n1.6–2.1 g·kg⁻¹·日⁻¹ \n自行車選手日常蛋白質建議範圍 \n立場聲明表 2 的建議，主要面向競技自行車；不是本篇新試驗的效果估計。 \n30–60 g/小時；90 g/小時 \n依賽程長度區分的賽中碳水建議 \n表 3 分別對應 1–2.5 小時與超過 2.5 小時的自行車賽事，仍須考慮補給機會及腸胃耐受。 \n83/108 人；流失 23.1% \n女性試驗完整案例樣本 \n108 人隨機分派，83 人完成第 12 週評估；分析不是完整意向治療分析。 \n−6.68 kg（95% CI −8.32 至 −5.04） \n腿推估計 1-RM 的調整後組間差 \n第 12 週 CT 減 RT，合併三種蛋白質指派；CT 在相同阻力課表後額外騎車。 \n4.53 mL·kg⁻¹·min⁻¹（95% CI 3.80–5.25） \n自行車測驗估計 VO₂max 的調整後組間差 \n第 12 週 CT 減 RT；來自次最大心率反應推估，沒有直接量測呼吸氣體。 \n92/103 髖（89.3%） \n聯合手術後回場比例 \n84 位患者的 103 髖，平均追蹤 514.9 ± 326.5 天；分母為髖部而非 103 位獨立患者。 \n297.5 ± 181.3 天 \n回場者的平均回場時間 \n聯合 PAO 與髖關節鏡術後；病歷或遠端回憶確認，不是建議放行日期。 \n決策前必懂的背景 \n先區分營養是否足以支持任務、訓練實際做了多少，以及結果究竟量到什麼。不同族群可共享查核流程，但不能共享未經驗證的劑量、回場門檻或時間表。 \n能量可用性（EA） \n飲食能量扣除運動能量消耗後，以去脂體重標準化，表示可供其他生理功能使用的能量。 \n計算形式為（能量攝取 − 運動能量消耗）/去脂體重；自行車聲明提出約 40–45 kcal·kg 去脂體重⁻¹·日⁻¹的日常目標，不能當作單次測量即可診斷 REDs 的界線。 \nsource-stated \n碳水化合物可用性 \n當下碳水供應與訓練或比賽燃料需求是否匹配。 \n每日總熱量足夠，仍須檢查關鍵課程前、中、後的碳水安排；低碳水訓練的細胞訊號變化不等於已證實比賽表現提升。 \n指派蛋白質目標與實際攝取 \n指派目標是飲食諮詢希望達成的量；實際攝取是參與者真正吃進的量。 \n女性試驗依自陳紀錄估計攝取，未以控制供餐或客觀標記確認；應解讀為飲食諮詢條件的比較。 \n並行訓練（CT） \n同一訓練計畫結合阻力與耐力訓練；本試驗是在阻力訓練後立即增加騎車。 \n評估新增有氧時須把額外時間與恢復需求一起計入，不能把本研究當作等總量的訓練模式比較。 \n估計值與直接測量 \n估計值以儀器模型或公式推算目標能力，不等同直接測得組織大小或最大攝氧量。 \nBIA 骨骼肌量、重複次數推估 1-RM、Ekblom–Bak 推估 VO₂max，應保留各自的水分、技術與測驗熟悉度限制。 \n回到參與、回到運動、回到表現 \n三者分別追蹤重新參與活動、恢復目標運動，以及恢復原有或目標競技能力；所附回場課程與第 37 週週報支持將回場視為連續過程。 \n髖部研究主要確認是否返回術前運動或活動，沒有充分量化競技層級與表現；實務紀錄應將三個層次分欄。 \ncross-source-synthesis \n未檢出差異與等效 \n未檢出差異表示現有資料未提供足夠統計證據；等效則需要能支持差異落在預定可接受範圍內的設計與分析。 \n不能將蛋白質組間不顯著解讀為劑量可互換，也不能將接觸與非接觸運動差異不顯著解讀為風險相同。 \n燃料供應與腸胃耐受共同限制補給 \n自行車聲明指出，碳水可提供外源燃料、支持肝醣利用及中樞感受；較高攝取量可透過葡萄糖與果糖的不同腸道運輸途徑提高供應，但仍受個人耐受與賽事後勤限制。 \n補給量、產品組成與取得時機需要一起演練；不能只提高標示的每小時克數。 \n額外騎車與測驗特異性可能共同影響結果 \n女性試驗中 CT 增加了騎車暴露，且有氧結果也由騎車測驗推估；疲勞、恢復與熟悉度可能參與組間差異，但研究未直接量測分子干擾或心血管適應。 \n將力量與有氧結果分開追蹤，避免以單一改善推論所有功能均改善。 \n結構矯正不能單獨代表運動能力 \nPAO 與關節鏡分別處理髖部骨性覆蓋及關節內相關問題；本病例系列未找到影像參數或 mHHS 與回場的顯著關聯，不能據此確認結構、症狀與競技能力之間的因果路徑。 \n術後追蹤需另問實際運動參與與表現，影像及日常功能量表不宜獨自承擔回場判斷。 \nnutrition \ntraining \nmonitoring \nassessment \nsport-medicine \nperformance \n把攝取、負荷與回場結果放回同一個決策脈絡 \n本期進展在於更清楚界定每項數字能支持什麼決策：自行車營養需要隨任務與補給機會調整，訓練比較需要核對額外暴露，手術回場比例需要核對分母與回場定義。延續既有週報的個人趨勢與共享決策觀點，本週新增可追溯的營養範圍與研究結果，同時保留族群差異及尚未驗證的操作門檻。 \nfull-text-web \nUCI 支持的營養立場聲明；由 54 位研究者參與、14 篇經同儕審查的主題敘述性綜述整合成 10 個主題，並經作者與 UCI 代表審閱。 \n主要面向精英競技自行車各項目，部分內容可能適用較低競技層級；未納入身障自行車的特殊需求，沒有新招募的受試者樣本。 \n整合訓練、比賽、恢復、能量可用性、體態、健康、科技、補充品與年齡及性別相關營養策略。 \n沒有單一介入對照組；不同建議來自不同主題及情境的既有證據。 \n提供營養實務建議及研究缺口，未產生新的整體療效估計或統一主要終點。 \n非追蹤研究，無統一追蹤期間。 \n日常能量可用性建議 \n約 40–45 kcal·kg 去脂體重⁻¹·日⁻¹ \n依非訓練活動量等因素調整；為建議範圍，不是試驗效果或 REDs 診斷界值。 \nTheme 2，Table 2 \n日常蛋白質建議 \n分散攝取；低能量或低碳水可用性等情境可考慮範圍較高端。 \nTheme 2，Table 2，Protein Requirements \n賽前及賽中碳水建議 \n賽前 1–4 小時攝取 1–4 g/kg；1–2.5 小時賽事為 30–60 g/小時，超過 2.5 小時為 90 g/小時 \n依賽程、任務、個人偏好及耐受調整；120 g/小時或更高的額外效益尚待驗證。 \nTheme 3；Theme 4，Table 3 \n密集賽程的早期恢復補給 \n碳水 1–1.2 g·kg⁻¹·小時⁻¹；蛋白質 0.3–0.4+ g/kg \n用於需要加速兩場或兩站之間恢復的情境；早期補給仍須銜接每日總需求。 \nTable 3，Targeted recovery between stages/races \n水分規劃參考 \n一般目標為淨水分缺損低於體重 2%；較大缺損後，4–6 小時內可能需補充缺損量的 125%–150% \n須考慮熱環境、流汗、鈉補充與耐受；2% 不是每個人的確定表現或醫療界線。 \nTheme 4，Hydration；Table 3 \n自行車補給要配合任務；高攝取量仍須通過耐受與效益檢驗 \n聲明把自行車營養從每日總量延伸到賽程、角色、車上補給機會與食物後勤。其核心是支持關鍵課程與長期健康，並將體重視為需要解讀的指標；超高碳水、低碳水訓練、補充品及新科技的應用，仍各有未解問題。 \n同一運動內的賽程與角色差異很大，沒有適用全部自行車項目的單一最佳營養模式。 \n超過 60 g/小時的碳水目標需考慮多重可運輸碳水與腸胃演練；觀察到職業選手吃得更多，不等於已證明額外表現效益。 \n能量與碳水不足均可能影響健康；體態管理應採季節性彈性範圍，避免長期追逐最低體重。 \n目前不支持只依月經週期階段普遍調整訓練或飲食，宜依症狀與個人反應調整。 \n功率計可協助估計需求；健康運動員的連續血糖監測仍有延遲、準確度及決策用途限制。 \n支持課程對低能量可用性與健康的重視，並將第 36 週的補水及腸胃演練延伸到自行車賽程與每日補給。另一方面，聲明不支持僅依週期分期安排強弱課表，對所附女性課程的概括分期建議構成修正；這不等於否認個別症狀，也不是對 ACL 風險的直接檢驗。 \nmatched \ncourse-c07b3c2920b5562e \ncourse-8dbff6b0b0a9f68e \n在能量不足、骨骼與女性健康方面支持並延伸課程；對女性課程將濾泡期與黃體期直接配對訓練強度的說法，提出更保守的證據界線：依症狀與個人反應，而非僅依週期階段調整。 \n2026-w36 \n2026-w35 \n直接延伸第 36 週的流汗估計、補給耐受及後勤演練，加入自行車賽程別碳水與恢復範圍；對科技效度與可行決策的要求呼應第 35 週，但沒有直接比較不同監測工具的介入效果。 \n【source-stated】依每堂課與賽事的時間、強度、地形及補給機會，安排能量、碳水與水分。 \n【source-stated】先在訓練中練習預定比賽食物與飲品，再逐步調整攝取量；不把 120 g/小時當作普遍目標。 \n【source-stated】月經異常應促使團隊檢視飲食與負荷，並考慮其他婦科或壓力因素；嚴重症狀需醫療協助。 \n【source-stated】醫療營養補充應由適當專業人員監督；第三方批次檢驗只能降低補充品污染風險。 \n這是敘述性綜述支持的立場聲明，不能把所有建議視為具有相同確定性的隨機試驗結論。 \n精英女性、世界級選手及部分新興項目的證據不足，身障自行車未納入。 \n低碳水訓練的訊號或蛋白變化尚未一致轉化為表現改善；膠原蛋白及腦震盪相關補充策略也缺乏足以建立直接處方的人體證據。 \nTheme 6 重點對腦震盪補充品的措辭較正文積極；本報採正文所述臨床證據不足的界線。 \n表 1 越野能量加成的數值與單位值得編輯查核，本報不採其作計算處方。 \n自行車營養：哪些建議可以直接協助規劃 \n面向 \n來源支持的判讀 \n證據形式 \n14 篇主題綜述整合的立場聲明，沒有新的介入樣本或共同效果量。 \n日常支持 \n蛋白質 1.6–2.1 g·kg⁻¹·日⁻¹；能量與碳水依實際任務調整。 \n賽中補給 \n1–2.5 小時為 30–60 g/小時碳水；更長賽事為 90 g/小時，需配合耐受與後勤。 \n實務限制 \n超高攝取、部分補充品及新科技仍需驗證，不能以流行做法替代效益證據。 \n女性管理 \n追蹤症狀與個人反應，不依週期階段自動改課。 \nEDGE SPORT 依 pmid-42744290 全文原創整理；數字為聲明建議，不重製原始表格。 \nfull-text-open \n單中心、12 週、平行組隨機 2 × 3 因子試驗；結果評估者盲化，採基線調整 ANCOVA 與完整案例分析。 \n108 位 40–77 歲女性隨機分派，每組 18 人；83 人完成分析。過去一年自陳結構化活動少於每週 2 小時，基線蛋白質約低於 0.8 g·kg⁻¹·日⁻¹為納入條件；完成者各組平均 BMI 多落在肥胖範圍。未正式評估停經狀態或荷爾蒙治療。 \n每週 3 次監督阻力訓練（RT），或相同阻力訓練後增加騎車（CT）；另指派 0.8、1.6 或 2.2 g·kg⁻¹·日⁻¹蛋白質目標，透過自由生活下的個別飲食諮詢支持。 \nRT 與 CT，以及三種蛋白質指派；没有不運動、僅飲食或原飲食對照。訓練總時間及能量消耗未匹配，飲食亦非等熱量。 \n主要結果為 BIA 推估骨骼肌量；關鍵次要結果為 BIA 體脂率、腿推估計 1-RM、自行車測驗估計 VO₂max、30 秒坐站。其他結果包括胸推、肌耐力、手臂彎舉、體重及 BMI。 \n基線與第 12 週，沒有介入後延長追蹤。 \n完整案例與流失 \n83/108 人完成；25/108 人退出（23.1%） \nCT 三組為 14、15、13 人；RT 三組為 13、14、14 人。退出者資料未補值，無法比較完成者與退出者的基線特徵。 \nResults 3.2；Table 3 \nBIA 骨骼肌量 \nCT − RT：−0.16 kg（95% CI −0.45 至 0.13）；p = 0.273；蛋白質主效應 p = 0.726，交互作用 p = 0.856 \n83 位完成者，第 12 週基線調整分析；未檢出差異不代表等效。 \nResults 3.3.1；Tables 6、7 \nBIA 體脂率 \nCT − RT：−2.04 個百分點（95% CI −2.94 至 −1.14）；Holm 調整後 p < 0.001 \n第 12 週調整後組間差，不能稱為 CT 減脂量；兩訓練條件總暴露不同。 \nResults 3.3.2；Table 7 \n腿推估計 1-RM \nCT − RT：−6.68 kg（95% CI −8.32 至 −5.04）；Holm 調整後 p < 0.001 \n第 12 週調整後比較，合併蛋白質指派；由重複次數公式估計。 \nResults 3.4.1；Table 7 \n自行車測驗估計 VO₂max \nCT − RT：4.53 mL·kg⁻¹·min⁻¹（95% CI 3.80–5.25）；Holm 調整後 p < 0.001 \n第 12 週調整後比較，來自 Ekblom–Bak 次最大測驗；信賴區間未作多重比較調整。 \nResults 3.4.2；Table 7 \n30 秒坐站 \nCT − RT：0.27 次（95% CI −0.13 至 0.67）；Holm 調整後 p = 0.178 \n第 12 週調整後比較，未檢出訓練條件差異。 \nResults 3.4.3；Table 7 \n介入期自陳蛋白質攝取 \nCT：0.86 ± 0.25、1.58 ± 0.40、2.17 ± 0.50；RT：0.85 ± 0.25、1.62 ± 0.40、2.21 ± 0.50 g·kg⁻¹·日⁻¹ \n依序對應 0.8、1.6、2.2 的指派目標；平均值 ± 參與者間標準差，為介入期間紀錄，不是客觀依從性驗證。 \nResults 3.8；Table 8 \n加騎車與單做阻力訓練呈現不同結果，未證實蛋白質目標等效 \n在完成 12 週介入的未訓練女性中，CT 的調整後估計有氧適能較高、體脂率較低，RT 的腿推估計力量較高；骨骼肌量與坐站表現未檢出訓練條件差異。主要分析也未檢出蛋白質指派的整體差異，但飲食自陳、非等熱量、流失與測量限制使結果不能轉成普遍蛋白質最低需求。 \n比較回答的是在阻力課表後增加騎車的整體效果，不能隔離騎車模式、額外時間、疲勞或恢復需求。 \nBIA 肌肉量的小幅原始增加不構成已確認肌肥大；沒有不運動對照，也不能將組內前後變化全部歸因介入。 \n所有六組原始平均體重與 BMI 均數值上升，CT 的調整後數值較低不等於體重下降。 \n主要蛋白質分析未檢出差異；部分 HC3 敏感度結果依模型而變，不能概括為所有分析均顯示完全沒有影響。 \n沒有通報介入相關不良事件，但主動收集及分類程序未充分標準化，不能據此宣稱普遍安全。 \n相較棒球課程的目標導向訓練與既有週報的量測判讀，本篇增加不同族群的隨機介入比較，讓力量、有氧估計值與日常功能之間的取捨更具體。沒有直接驗證棒球體能處方，也沒有反駁自行車選手的蛋白質需求建議。 \ncourse-3508b0d2cc8ec57d \n在依目標安排訓練、監控疲勞及解讀不同能力指標方面可對照；研究對象為未訓練中高齡女性，不能把結果移植為棒球選手的能量系統配置或蛋白質處方。 \n延伸第 35 週先控制測試條件、區分結果與過程的觀點：本篇 BIA、估計力量及自行車心率模型均有特定測量限制。這是方法上的呼應，沒有直接比較 CMJ 或前期介入療效。 \n【source-stated】若主要目標是阻力測驗力量且時間有限，可討論 RT；若重視自行車估計有氧適能且可承擔額外時間與恢復需求，可討論增加騎車。 \n【cross-source-synthesis】先查核實際完成的訓練及飲食，再解讀表現變化，不能只依課表或指派目標判斷暴露。 \n【source-stated】不因未檢出差異而認定 0.8 g·kg⁻¹·日⁻¹對所有人足夠，亦不據此要求所有人提高到 2.2。 \n分析僅涵蓋 83 位完成者，23.1% 流失可能造成偏差；檢定力主要針對中至大型交互作用。 \nBIA 受水分分布影響，未建立本研究的再測信度或最小可偵測變化；VO₂max 與 1-RM 均為估計值。 \nCT 實際完成的負荷、騎車量及出席等資料未充分報告，不能確認兩組達成相同的阻力刺激。 \n停經狀態與荷爾蒙治療未正式評估；不能稱為停經後女性專屬證據。 \n飲食未控制供餐、非等熱量，且以實際體重計算蛋白質；不能解讀為隔離蛋白質本身的劑量反應。 \n正文對補充表敏感度結果已有說明，但完整補充表未附，不能補寫未提供的估計值。 \n女性試驗：以調整後組間比較回答問題 \n設計及樣本 \n108 人隨機分派，83 人完成 12 週；兩種訓練搭配三種蛋白質目標。 \n骨骼肌量 \nCT − RT 為 −0.16 kg，95% CI −0.45 至 0.13；未檢出蛋白質整體差異。 \n力量取捨 \nRT 的腿推估計 1-RM 較高；CT − RT 為 −6.68 kg。 \n有氧取捨 \nCT 的自行車估計 VO₂max 較高；差值 4.53 mL·kg⁻¹·min⁻¹。 \n功能 \n30 秒坐站未檢出訓練條件差異。 \n適用邊界 \n額外騎車、間接測量與自陳飲食限制機轉及劑量推論。 \nEDGE SPORT 依 pmid-42735207 方法、結果及限制原創整理；完整區間與時間點見 quantitativeResults，不重製原表。 \n單一機構回溯病例系列，證據等級 4；同一位醫師執行 PAO，另一位醫師執行髖關節鏡。 \n2016–2023 年接受同次 PAO 與髖關節鏡、年齡至少 14 歲且術前參與運動或活動者；最終為 84 人、103 髖，平均年齡 20.3 ± 6.9 歲，BMI 23.9 ± 4.5 kg/m²。結果表以髖計列男性 11、女性 92。 \n同次髖臼周圍截骨術合併關節鏡，依需要處理關節唇、骨性形態等問題；術後記載 13.6 kg 平足負重並依院內復健流程進展。 \n沒有單獨 PAO、單獨關節鏡或非手術對照；僅比較系列內接觸與非接觸運動及其他特徵。 \n是否回到術前運動或活動、回場時間、mHHS、影像參數及併發症與再次手術；回場由病歷或遠端詢問確認。 \n至少 6 個月；平均術後追蹤 514.9 ± 326.5 天，未充分評估多年後競技表現。 \n整體回場 \n92/103 髖（89.3%）；回場時間 297.5 ± 181.3 天 \n84 位患者的髖部資料；時間依首次相關病歷或患者回憶取得。 \nResults；Table 3 \n接觸與非接觸運動回場 \n接觸：33/40 髖（82.5%）；非接觸：59/63 髖（93.7%）；p = 0.10 \n分類依手術醫師經驗；未提供比例差的信賴區間，未檢出差異不代表等效。 \nResults；Tables 3、4 \n兩類運動回場時間 \n接觸：289.3 ± 178.3 天；非接觸：302.2 ± 184.2 天；p = 0.37 \n各類回場者的描述結果；不是個人復健時程。 \n術後 mHHS 與回場狀態 \n回場組 88.4，未回場組 89.6；p = 0.41 \n表 7 平均值；未檢出關聯，不代表量表或日常功能與回場完全無關。 \nTable 7；Discussion \n再次手術與併發症 \n59 髖移除疼痛內固定物；5 位異位骨化、12 位股外側皮神經暫時性神經損傷、2 位術後感染、1 例恥骨支不癒合 \n作者分別使用髖、患者及病例為單位；事件可能重疊，不能加總成獨立患者風險。 \nResults，complications and reoperations 段落 \n髖部聯合手術後多數髖部回場，競技表現與長期維持仍未知 \n此系列中 92/103 髖有回到運動或活動的紀錄，接觸運動亦有較高回場比例。這可用於討論恢復的可能性與不確定性，但沒有直接手術對照，且回場層級、失訪及重複髖部資料限制了療效與個人預後推論。 \n回場比例以髖部計算，103 髖来自 84 人，不能當作 103 位獨立運動員。 \n接觸與非接觸運動的回場比例及時間未達顯著差異，但小樣本不足以排除重要差異。 \nmHHS 偏向基本日常功能；作者認為它可能不足以反映活躍運動族群的回場需求。 \n較高回場比例與再次處置可同時存在，59 髖曾因疼痛移除內固定物。 \n研究尚未以競技層級或多年後表現區分回場品質。 \n在 ACL 回場課程與第 37 週連續性模型之外，本篇新增不同手術與關節情境的回場描述資料。它支持把實際參與另行追蹤的必要性，但未驗證任何髖部回場測驗組合，也不能移用 ACL 對稱性或心理量表門檻。 \ncourse-4c7247f87374194d \ncourse-1b4bdacad63581ba \n可對照課程的標準導向、多面向及共享回場決策；本篇沒有測試這些流程的效果。ACL 的 LSI 或 ACL-RSI 數值不能作為 PAO 術後放行條件。 \n2026-w37 \n延伸第 37 週區分參與、運動及表現的框架；本篇主要回答是否回到活動，未回答是否恢復原競技程度。這是不同關節及術式的情境延伸，不能直接比較 ACL 與髖部手術成功率。 \n【cross-source-synthesis】討論預期時同時呈現回場比例、时间分散、再次處置與表現未知，避免把平均時間變成承諾。 \n【edge-sport-proposal】追蹤表分列目前活動、完整訓練、比賽參與及原有表現恢復情況，另記症狀及再次治療。 \n【source-stated】本篇僅提供術後初始負重與概括復健說明，具體進階仍須由手術及復健團隊制定。 \n回溯病歷與遠端回憶可能誤估回場時間；26 位無法聯絡者遭排除，可能有失訪選擇偏差。 \n103 髖来自 84 人，未見處理同一患者雙髖相關性的分析說明；表格亦混用患者與髖部稱呼。 \n方法以 LCEA <25°界定發育不良，但結果納入 20 個正常 LCEA 的髖部，多涉及後傾或不穩定，研究樣本並非單一影像定義。 \n方法描述 Tönnis 0 或 1 為 PAO 適應情境，結果另有 2 髖為 Tönnis 2，屬需編輯注意的內部不一致。 \n沒有直接對照，不能沿用討論中的跨研究比較宣稱聯合手術更優或等效。 \n單中心、短期追蹤、少量未回場事件與單一影像評估者限制推論；部分作者揭露產業關係。 \n髖部聯合手術：回場結果與決策限制 \n樣本 \n84 人、103 髖；平均年齡 20.3 歲，單中心回溯資料。 \n92/103 髖回場，平均 297.5 ± 181.3 天。 \n運動分類 \n接觸 33/40 髖、非接觸 59/63 髖；比例比較 p = 0.10。 \n結果品質 \n確認活動回歸，但未充分確認競技層級或長期表現。 \n再次處置 \n59 髖因疼痛移除內固定物；另有感染、神經及骨癒合相關事件。 \n比較限制 \n無其他術式對照，不能據此排序手術或制定通用回場日期。 \nEDGE SPORT 依 pmid-42746137 全文與表 3、4、7 原創整理，不重製原始表格；保留患者與髖部分母的區別。 \n可執行實務方案：增加負荷前，先對齊目標、補給與反應 \n以自行車訓練的營養與負荷規劃為主要操作情境，並提供中高齡女性新增騎車及術後運動參與的分流原則。共同流程是 EDGE SPORT 的教育性決策提案，未由三篇研究共同驗證；不是將精英自行車營養量或女性試驗課表套用於髖部術後患者。 \n規劃自行車訓練與補給的成人及其教練、營養和醫療團隊；中高齡未訓練女性僅在相符條件下參照訓練取捨。髖部術後者須另依手術團隊限制，本方案不提供術後負重、跑跳或接觸放行處方。 \n每次進階前都能指出目標、實際完成量、營養支持、症狀與功能反應，以及下一次複評條件，讓增量決策可以追蹤和修正。 \n評估電池 \n領域 \n指標或工具 \n做法 \n時點或頻率 \n判讀 \n依據 \n目標與適用範圍 \n主要結果、運動背景、醫療限制 \n先選力量、有氧、賽事補給或術後參與目標；記錄不可跨越的醫療限制。 \n開始及每次目標改變時 \n不同目標分開判讀，不以體重或回場單一數字代表全部成功。 \n實際外部負荷 \n騎車時間、功率；阻力負荷、組數與次數 \n記錄完成值及未完成原因，分列原有訓練與新增騎車。 \n每堂課；頻率為操作提案 \n計畫相同不代表實際刺激相同；不設定通用增量百分比。 \n內部反應 \nRPE、疲勞、症狀與恢復紀錄 \n固定方式詢問課後及下一次訓練前反應；量表版本保持一致。 \n每堂課後及下次課前；時點為操作提案 \n與個人可比任務的趨勢連讀，未建立跨族群通用門檻。 \n飲食與補給 \n食物紀錄、碳水 g/小時、蛋白質 g·kg⁻¹·日⁻¹ \n分開記錄目標與實際攝取，註記漏記、產品、食物供應及腸胃症狀。 \n代表性訓練與比賽演練日；由營養師安排複評 \n自陳紀錄用於修正計畫，不視為客觀攝取證明。 \n水分與環境 \n運動前後體重、飲水與排尿、環境紀錄 \n在接近目標賽事的條件下重複觀察，核對補水機會與耐受。 \n代表性騎乘前後 \n自行車聲明以淨水分缺損低於體重 2%為一般規劃目標，並非診斷或保證安全的界線。 \n健康與能量不足線索 \n月經變化、飲食限制、身體意象及恢復問題 \n由適當專業人員檢視低能量可用性風險，必要時使用聲明提及的 REDs CAT2。 \n初評、負荷改變或新問題出現時；未建立通用頻率 \n不能由單一 EA 估計或單一症狀自行診斷；同時考慮其他病因。 \n能力結果 \n與目標相符的力量、功能或自行車測驗 \n重測沿用設備、程序及前置條件；中高齡女性可依專業評估選擇研究中的坐站或估計力量工具。 \n基線與預定複評；女性試驗為第 12 週 \n估計值保留模型限制；不另創肌肉量或力量通關差值。 \n術後分流 \n醫囑、實際參與、症狀、mHHS及再次處置 \n由手術及復健團隊追蹤，另記完整訓練、比賽與表現是否恢復。 \n依醫療追蹤及每次活動層級改變 \n平均回場天數及 mHHS 均不能單獨放行。 \n營養範圍與研究測量來自三篇全文；量測一致性及回場分層呼應所附課程與前期週報。每堂課紀錄、複評安排及跨專業交接屬 EDGE SPORT 操作提案，並非已驗證評估套組。 \n第一階段：界定目標並建立可比較的基線 \n增加訓練或改變補給之前；來源未建立此流程需要的固定天數。 \n【edge-sport-proposal】選定一個主要目標及需同時維持的健康或功能結果。 \n【cross-source-synthesis】確認族群、測驗與醫療限制，避免混用研究處方。 \n【edge-sport-proposal】已提出增加負荷或改變補給的需求。 \n【edge-sport-proposal】有可負責檢視訓練、營養與必要醫療問題的人員。 \n【edge-sport-proposal】完成評估電池，將現行訓練、實際攝取、耐受及恢復寫入同一份紀錄。 \n【source-stated】自行車選手檢視每日能量與蛋白質；聲明的蛋白質參考為 1.6–2.1 g·kg⁻¹·日⁻¹。 \n【cross-source-synthesis】中高齡女性先討論力量或有氧目標與可用時間，不把試驗三種蛋白質指派當作可互換處方。 \n【edge-sport-proposal】術後者先取得目前醫囑及活動限制，再由原醫療團隊決定可評估的任務。 \n【edge-sport-proposal】先觀察目前可完成且已獲允許的課程，不預設新增劑量。來源沒有跨族群通用的基線收集長度。 \n【edge-sport-proposal】資料完整性、主要目標與測驗是否一致。 \n【source-stated】飲食限制、月經異常、腸胃不適及補給取得困難。 \n【edge-sport-proposal】團隊能描述目前可耐受負荷及補給缺口。 \n【edge-sport-proposal】沒有尚未處理且會限制進階的健康問題或醫囑疑義。 \n【edge-sport-proposal】測量條件不一致、攝取紀錄不足或醫療限制不明時，延長基線階段。 \n【edge-sport-proposal】出現新症狀時先評估，不依原定日期進階。 \n第二階段：在可控制的任務中演練 \n基線及限制確認後；腸胃訓練與個別進階的最佳週數未建立。 \n【source-stated】在訓練中確認預定補給的腸胃耐受與可取得性。 \n【edge-sport-proposal】觀察新增負荷是否妨礙原有主要目標及恢復。 \n【edge-sport-proposal】已有可比較基線及明確複評安排。 \n【edge-sport-proposal】擬增加的任務符合目前醫療及訓練限制。 \n【source-stated】自行車補給依任務討論：1–2.5 小時賽事參考 30–60 g/小時碳水，更長賽事參考 90 g/小時。 \n【source-stated】若目標超過 60 g/小時，考慮葡萄糖與果糖組合，並逐步練習實際賽用品。 \n【edge-sport-proposal】每輪優先改動一個可追蹤要素，例如補給量、產品或新增騎車暴露，記錄原因與反應。 \n【source-stated】阻力動作無法維持目標次數、活動範圍或技術時，降低後續組或課程負荷；此為女性試驗採用的調整原則。 \n【mixed】自行車補給範圍來自聲明，但每次增加多少及需要幾次演練未建立。女性試驗採每週 3 次、12 週監督訓練，阻力為估計 1-RM 的 50%–75%、每動作 3–4 組、每組 6–16 次；CT 另加 10–35 分鐘、預測最大心率 50%–75%的騎車。這些是研究暴露範圍，不是所有讀者或術後者的起始處方，亦不要求同時使用各範圍上限。 \n【edge-sport-proposal】計畫與完成的碳水、液體及運動量差距。 \n【mixed】腸胃症狀、RPE、技術完成度、力量目標與恢復反應。 \n【edge-sport-proposal】是否因時間或食物取得問題而無法持續。 \n【edge-sport-proposal】在可比情境可重複完成，且症狀及恢復沒有持續惡化。 \n【edge-sport-proposal】新增騎車或補給沒有妨礙主要目標，團隊能解釋任何取捨。 \n【edge-sport-proposal】腸胃症狀妨礙攝取、技術失控或主要能力持續下降，退回最近可耐受方案。 \n【edge-sport-proposal】實際暴露無法確認時，先補足紀錄再增加。 \n第三階段：接近目標情境並持續複評 \n可控制任務已反覆完成後；來源未建立通用進入週數或回場日期。 \n【edge-sport-proposal】確認策略在接近真實環境、補給機會及連續課程下仍可執行。 \n【cross-source-synthesis】分開追蹤參與、能力與健康，避免單一成功指標掩蓋問題。 \n【edge-sport-proposal】前階段的完成量、耐受與恢復資料支持進一步測試。 \n【edge-sport-proposal】術後活動層級的任何增加均經原醫療團隊確認。 \n【source-stated】自行車演練納入地形、環境、攜帶容量與補給站限制，並安排課後食物供應。 \n【source-stated】若兩場或兩站間需快速恢復，可由營養專業人員採用早期碳水 1–1.2 g·kg⁻¹·小時⁻¹及蛋白質 0.3–0.4+ g/kg 的情境性建議。 \n【edge-sport-proposal】對照主要目標與其他结果，決定維持、調整或撤回新增暴露。 \n【cross-source-synthesis】術後追蹤另列是否恢復完整訓練、比賽及原有表現，不以已回場結束追蹤。 \n【edge-sport-proposal】依現有課表及允許活動安排代表性演練，不新增固定週增量。自行車恢復補給數值只適用相應密集賽程，不能移植為一般短課或術後營養劑量。 \n【mixed】連續課程的完成率、補給可行性、症狀、疲勞與功能趨勢。 \n【edge-sport-proposal】需醫療處理或再次處置的事件及其對活動的影響。 \n【edge-sport-proposal】接近目標情境仍能穩定執行，且主要結果與健康指標支持維持或進一步討論。 \n【edge-sport-proposal】團隊及參與者理解尚存不確定性，並已安排下一次複評。 \n【edge-sport-proposal】環境或賽程改變超出已演練條件，返回第二階段。 \n【edge-sport-proposal】出現持續功能下降、新症狀或新增醫療限制，重新評估基線及方案。 \n【cross-source-synthesis】以實際完成而非計畫負荷建立基線，並配對飲食、腸胃耐受與恢復資料。術後者以醫囑容許的暴露為起點。 \n【edge-sport-proposal】每輪寫明變更項目、目的、觀察結果與複評時點；未建立可通用的每週增加比例，採能否重複完成及反應是否穩定的監測決策。 \n【mixed】外部負荷記錄時間、功率或阻力組次；內部反應記錄 RPE、疲勞與症狀。補給目標與實際攝取分列，避免把額外騎車視為沒有恢復成本的附加項。 \n【edge-sport-proposal】每週由相關人員檢視目標、完成量、攝取、症狀及功能；決定維持、進階、退階或轉介，記錄負責人與原因。每週頻率為編輯流程提案，並非研究驗證的最佳間隔。 \n新增補給引發持續腸胃不適，妨礙進食、飲水或完成訓練。 \n停止增加攝取量，回到已耐受安排，檢查產品、時機、環境與負荷；持續問題交由醫療或營養專業評估。 \n原因已檢視、症狀受控，且在較可控任務能重新耐受；沒有來源支持的固定無症狀天數。 \nmodify \n阻力訓練無法維持規定技術、活動範圍或目標次數。 \n降低後續組或課程的負荷，不強迫以原負荷完成次數。 \n在調整負荷下可維持動作品質，再依監督者判斷逐步進展。 \n執行本文女性試驗所用 Ekblom–Bak 測驗時，Borg 6–20 量表 RPE 達 17 或以上。 \n終止該次測驗；此規則只對應該測驗程序，不套用到 CR10 量表或所有日常訓練。 \n由合格評估者重新確認適測性、工作負荷及測驗安排，來源未提供固定重測間隔。 \nstop \n月經週期延長或停止、飲食限制加劇，或恢復及表現持續不如預期。 \n暫停以減重或增加負荷為目的的進階，安排飲食、負荷及其他可能病因評估。 \n專業團隊已釐清主要問題並提出個別方案；不以單次體重或 EA 估計判定恢復。 \n術後或增加活動時出現新的明顯功能受限，或原醫療團隊懷疑感染、骨癒合或神經血管問題。 \n停止活動並啟動原醫療團隊的即時評估或急症轉介流程。 \n醫療團隊完成評估並重新交代活動限制後，才討論恢復。 \nurgent-referral \nedge-sport-proposal \n執行可行性 \n計畫與實際訓練、補給的差距及原因 \n【edge-sport-proposal】每次演練，週檢視 \n找出可修正的後勤或耐受問題；沒有研究支持的通用完成率門檻。 \n健康與恢復 \n腸胃症狀、疲勞、月經變化及身體意象困擾 \n【mixed】持續紀錄，出現新問題即複評 \n趨勢用於啟動評估，不單獨診斷 REDs 或其他疾病。 \n力量與功能 \n選定的估計力量、坐站或其他相符任務 \n【mixed】基線與預先安排的複評；女性試驗為 12 週 \n維持程序一致，區分估計值與直接測量；本期未建立通用最小改善幅度。 \n自行車任務 \n可比任務的完成情形、功率、RPE與補給耐受 \n【edge-sport-proposal】代表性課程及環境改變後 \n確認策略能支持原定任務，不以提高攝取量本身作為成功。 \n術後運動結果 \n參與、完整訓練、比賽、表現及再次處置分欄 \n【edge-sport-proposal】依醫療複診與活動層級改變 \n回場與回到表現分開；297.5 天不作通關日，89.3%不作個人成功保證。 \n【source-stated】自行車長期能量不足、過度強調低體重及低碳水可用性可能伴隨健康與表現問題；營養無法直接防止跌倒或創傷。 \n【source-stated】較高碳水攝取可能增加腸胃負擔，補充品亦有不良作用與污染風險；第三方檢測不能完全消除風險。 \n【source-stated】女性試驗排除了多項自陳疾病，且不良事件收集不完整，不能將其課表直接當作慢性病或術後族群的安全證明。 \n【cross-source-synthesis】髖部系列較高回場比例不抵銷再次處置及併發症，失訪和雙髖資料也影響風險估計。 \n【edge-sport-proposal】上述緊急轉介項目是保守交接流程；本封包沒有提供經驗證的完整急症症狀清單，應銜接現場既有醫療流程。 \n超過 120 g/小時碳水是否提供一致的額外表現效益，以及誰最適合，尚未確立。 \n三種蛋白質指派是否在控制飲食、較長時間或其他女性族群中呈現差異，仍未知。 \nCT 結果有多少來自新增運動量、疲勞、測驗熟悉度或生理適應，無法分離。 \n髖部聯合手術的最佳回場評估套組、進階時程與長期競技表現未由本研究建立。 \n本方案的分期、週檢視與進退階條件屬可監測流程，尚未證實能改善療效或降低傷害。 \n決策流程 \n準備增加訓練、調整補給或提升運動參與層級時。 \n是否出現新的明顯功能受限，或醫療團隊懷疑急性併發問題？ \n停止活動並進入醫療評估或急症轉介流程，不繼續進階。 \n確認目前目標與適用族群。 \n是否為術後或有既定醫療活動限制者？ \n先由原團隊確認允許的活動；僅採共同紀錄流程，不套用自行車補給或女性試驗訓練劑量。 \n依力量、有氧或自行車賽事目標選擇相符測量與方案。 \n是否已有可比較的實際負荷、攝取及恢復基線？ \n進入可控制任務的演練。 \n維持目前可耐受且獲允許的活動，先補足基線。 \n營養支持、食物取得及腸胃耐受是否足以配合預定任務？ \n小幅度、可追蹤地改變一個要素，事先安排複評。 \n先修正供餐、補給時機或任務安排，必要時轉介營養及醫療評估。 \n新增暴露後能否重複完成，且技術、主要能力與恢復沒有持續惡化？ \n演練更接近目標的情境，持續記錄結果。 \n退回最近可耐受方案，檢查實際負荷、攝取、測量與健康問題。 \n是否已有與真正目標相符的結果，而不只是體重、估計值或回場紀錄改善？ \n共同決定維持或下一步，並保留後續追蹤。 \n補充目標相關的能力及參與評估，不把代理結果當作任務完成。 \n此序列為 EDGE SPORT 的教育性操作提案，營養及測驗數值只在指定來源情境使用；不提供個別醫療診斷、術後放行或經驗證的傷害預測。 \n從課程與前期週報走向本週的決策更新 \n比較焦點 \ninClass 知識 \n既有週報 \n本週研究 \n能量與補給 \n女性健康及運動生理課程強調低能量可用性的影響。 \n2026-w36 強調流汗估計、腸胃演練與後勤。 \n自行車聲明延伸為依賽程、角色及恢復需求安排的補給範圍；不等於所有運動員使用同一劑量。 \n月經與訓練 \n女性課程含依週期分期安排強度的概括建議。 \n本次提供的前期摘要沒有直接相同主題比較。 \n自行車聲明不支持僅依週期階段普遍改課，轉向症狀與個人反應，構成對概括建議的修正。 \n訓練目標與總暴露 \n棒球課程依項目需求安排力量、能量系統及監控。 \n2026-w35 要求以個人趨勢及訓練脈絡解讀結果。 \n女性試驗新增 RT 與 RT 加騎車的結果取捨；族群不同且總暴露不等，不能直接驗證棒球課表或干擾機轉。 \n蛋白質解讀 \n所附可用課程摘錄未提供同族群三種蛋白質目標的直接比較。 \n所列前期週報未提供直接蛋白質劑量試驗。 \n女性試驗未檢出主要整體差異，但未證實等效或最低足量；與自行車聲明屬不同族群和證據問題。 \n回場品質 \nACL 課程重視多面向評估、標準導向及共享決策。 \n2026-w37 區分參與、運動與表現。 \n髖部系列新增回場比例與時間資料，未量化完整競技恢復；不移植 ACL 門檻，也不以平均天數放行。 \nautomated \ncodex \n2026-09-20T03:39:36.301Z \n2026-09-20T04:21:06.702Z \nUCI Sports Nutrition Project: Position Statement on Nutrition for Cycling. \nInternational journal of sport nutrition and exercise metabolism \n2026-09-15 \nResistance versus concurrent training with three assigned protein targets in middle-aged and older women: a randomized 2 × 3 factorial trial. \nJournal of the International Society of Sports Nutrition \n2026-09-14 \nCombined Periacetabular Osteotomy and Hip Arthroscopy Results in High Return to Sport Rates in Contact and Noncontact Athletes With Hip Dysplasia. \nOrthopaedic journal of sports medicine \n0720沈靜茹-特殊族群-女性 \n運動生理學_123 \n0518陳哲修-棒球選手體能檢測,訓練及疲勞監控 \n0315-傷後回場跨領域共享決策：以ACL Reconstruction 為例 \n0518郭亮增-籃球運動常見下肢傷害的醫療處理 \n熱環境比賽：讓補水與降溫變成可演練的策略 \n2026-09-05 \ncurated-issue \n從 CMJ 到決策：不要只追蹤跳得多高 \n2026-08-29 \nACL 重建後，如何從回場走向回到表現？ \n2026-09-12"
+    },
+    {
+      "id": "research:pmid-42800675",
+      "sourceId": "pmid-42800675",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-26",
+      "updatedAt": "2026-09-28T08:46:21.945Z",
+      "year": "2026",
+      "title": "A Diagnostic Model Integrating Clinical, Magnetic Resonance Imaging, and Arthroscopic Findings Accurately Identified Hypermobile Lateral Meniscus: Development and Internal Validation.",
+      "summary": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42800675#research-radar",
+      "sourceUrl": "https://doi.org/10.1016/j.jisako.2026.101227",
+      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
+      "detail": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine · PMID 42800675",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42800675 \ndiscovered \njournal-article \njisakos \nJournal of ISAKOS : joint disorders & orthopaedic sports medicine \nJ ISAKOS \nA Diagnostic Model Integrating Clinical, Magnetic Resonance Imaging, and Arthroscopic Findings Accurately Identified Hypermobile Lateral Meniscus: Development and Internal Validation. \n2026-09-26 \nRivarola H \nCollazo C \nPalanconi M \nMeninato M \nBarros Castro A \nPeñaherrera-Carrillo C \nEndara Urresta F \nJournal Article \n10.1016/j.jisako.2026.101227 \n42800675 \ncheck-publisher-or-institution \n2026-09-28T08:46:21.945Z"
+    },
+    {
+      "id": "research:pmid-42800674",
+      "sourceId": "pmid-42800674",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-09-26",
+      "updatedAt": "2026-09-28T08:46:21.945Z",
+      "year": "2026",
+      "title": "Lateral Extra-Articular Augmentation Is Associated With Improved Graft Survival After Revision Anterior Cruciate Ligament Reconstruction.",
+      "summary": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "ACL / 膝關節"
+      ],
+      "href": "?radar=pmid-42800674#research-radar",
+      "sourceUrl": "https://doi.org/10.1016/j.jisako.2026.101224",
+      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
+      "detail": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine · PMID 42800674",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42800674 \ndiscovered \njournal-article \njisakos \nJournal of ISAKOS : joint disorders & orthopaedic sports medicine \nJ ISAKOS \nLateral Extra-Articular Augmentation Is Associated With Improved Graft Survival After Revision Anterior Cruciate Ligament Reconstruction. \n2026-09-26 \nCollazo C \nRivarola H \nPalanconi M \nMeninato M \nPeñaherrera-Carrillo C \nBarros Castro A \nEndara Urresta F \nJournal Article \n10.1016/j.jisako.2026.101224 \n42800674 \ncheck-publisher-or-institution \n2026-09-28T08:46:21.945Z"
     },
     {
       "id": "research:pmid-42788310",
@@ -11776,7 +12547,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-09-05",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "The Lark-Loop Technique for Onlay Biceps Tenodesis: A Biomechanical, Histological, and Radiological Study in a Rabbit Model.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -11797,7 +12572,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n量測與科技 \npmid-42699998 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nThe Lark-Loop Technique for Onlay Biceps Tenodesis: A Biomechanical, Histological, and Radiological Study in a Rabbit Model. \n2026-09-05 \n2026-10-01 \nZhou M \nLi X \nZhang J \nDeng X \nWang Z \nHou J \nYan Y \nLong Y \nYang R \nJournal Article \n10.1177/03635465261469680 \n42699998 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n量測與科技 \npmid-42699998 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nThe Lark-Loop Technique for Onlay Biceps Tenodesis: A Biomechanical, Histological, and Radiological Study in a Rabbit Model. \n2026-09-05 \n2026-10-01 \nZhou M \nLi X \nZhang J \nDeng X \nWang Z \nHou J \nYan Y \nLong Y \nYang R \nJournal Article \n10.1177/03635465261469680 \n42699998 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42697692",
@@ -11805,7 +12584,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-09-04",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Limited reproducibility of endurance training adaptations: could measurement error play a major role?",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -11824,7 +12607,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42697692 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nLimited reproducibility of endurance training adaptations: could measurement error play a major role? \n2026-09-04 \n2026-10-01 \nMatomäki P \nMalinen T \nJournal Article \n10.1152/japplphysiol.90156.2026 \n42697692 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42697692 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nLimited reproducibility of endurance training adaptations: could measurement error play a major role? \n2026-09-04 \n2026-10-01 \nMatomäki P \nMalinen T \nJournal Article \n10.1152/japplphysiol.90156.2026 \n42697692 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42697243",
@@ -11832,7 +12619,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-09-04",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Longitudinal changes in competitive performance in elite 46,XY DSD runners during prolonged testosterone suppression.",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -11855,7 +12646,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n跑步與田徑 \npmid-42697243 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nLongitudinal changes in competitive performance in elite 46,XY DSD runners during prolonged testosterone suppression. \n2026-09-04 \n2026-10-01 \nBermon S \nJournal Article \n10.1152/japplphysiol.90031.2026 \n42697243 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n跑步與田徑 \npmid-42697243 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nLongitudinal changes in competitive performance in elite 46,XY DSD runners during prolonged testosterone suppression. \n2026-09-04 \n2026-10-01 \nBermon S \nJournal Article \n10.1152/japplphysiol.90031.2026 \n42697243 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42684798",
@@ -11863,7 +12658,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-09-02",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Elevations in blood lactate by exogenous infusion blunts exercise-stimulated whole body lipolysis in healthy individuals: a randomized controlled trial.",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -11882,7 +12681,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42684798 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nElevations in blood lactate by exogenous infusion blunts exercise-stimulated whole body lipolysis in healthy individuals: a randomized controlled trial. \n2026-09-02 \n2026-10-01 \nMora-Rodriguez R \nMora-Gonzalez D \nMoreno-Cabañas A \nMorales-Palomo F \nGonzalez-García L \nMartin-Gomez L \nOrtega-Alcalde C \nMora-Gonzalez M \nPallares JG \nJournal Article \nRandomized Controlled Trial \n10.1152/japplphysiol.00361.2026 \n42684798 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42684798 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nElevations in blood lactate by exogenous infusion blunts exercise-stimulated whole body lipolysis in healthy individuals: a randomized controlled trial. \n2026-09-02 \n2026-10-01 \nMora-Rodriguez R \nMora-Gonzalez D \nMoreno-Cabañas A \nMorales-Palomo F \nGonzalez-García L \nMartin-Gomez L \nOrtega-Alcalde C \nMora-Gonzalez M \nPallares JG \nJournal Article \nRandomized Controlled Trial \n10.1152/japplphysiol.00361.2026 \n42684798 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42684802",
@@ -11890,7 +12693,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-09-02",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Neuronal and inducible nitric oxide synthase inhibitor for cerebral protection during deep hypothermic circulatory arrest in porcine hippocampus.",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -11911,7 +12718,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n心理與神經認知 \npmid-42684802 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nNeuronal and inducible nitric oxide synthase inhibitor for cerebral protection during deep hypothermic circulatory arrest in porcine hippocampus. \n2026-09-02 \n2026-10-01 \nKajimoto M \nLawrence CD \nBilodeau KS \nDiBlasi RM \nPerfette B \nCharette KA \nPortman MA \nJournal Article \n10.1152/japplphysiol.01155.2025 \n42684802 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n心理與神經認知 \npmid-42684802 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nNeuronal and inducible nitric oxide synthase inhibitor for cerebral protection during deep hypothermic circulatory arrest in porcine hippocampus. \n2026-09-02 \n2026-10-01 \nKajimoto M \nLawrence CD \nBilodeau KS \nDiBlasi RM \nPerfette B \nCharette KA \nPortman MA \nJournal Article \n10.1152/japplphysiol.01155.2025 \n42684802 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42683675",
@@ -11919,7 +12730,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-09-02",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Quadriceps Tendon Autograft Harvest Technique Affects Both Graft Strength and Cross-sectional Area.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -11940,7 +12755,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肌力與爆發力 \npmid-42683675 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nQuadriceps Tendon Autograft Harvest Technique Affects Both Graft Strength and Cross-sectional Area. \n2026-09-02 \n2026-10-01 \nBi AS \nAugustin EJ \nSmelley CC \nAngotti ML \nAcheampong KK \nSachdev D \nShewman E \nYanke AB \nJournal Article \nComparative Study \n10.1177/03635465261478369 \n42683675 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肌力與爆發力 \npmid-42683675 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nQuadriceps Tendon Autograft Harvest Technique Affects Both Graft Strength and Cross-sectional Area. \n2026-09-02 \n2026-10-01 \nBi AS \nAugustin EJ \nSmelley CC \nAngotti ML \nAcheampong KK \nSachdev D \nShewman E \nYanke AB \nJournal Article \nComparative Study \n10.1177/03635465261478369 \n42683675 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42684716",
@@ -11948,7 +12767,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-09-02",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Staying in the saddle: a case study of an elite cyclist during pregnancy.",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -11972,7 +12795,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n女性運動員健康 \n自行車 \npmid-42684716 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nStaying in the saddle: a case study of an elite cyclist during pregnancy. \n2026-09-02 \n2026-10-01 \nJones PAT \nLowden J \nde Jong J \nParker Simpson L \nDavenport MH \nJournal Article \nCase Reports \n10.1152/japplphysiol.00110.2026 \n42684716 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n女性運動員健康 \n自行車 \npmid-42684716 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nStaying in the saddle: a case study of an elite cyclist during pregnancy. \n2026-09-02 \n2026-10-01 \nJones PAT \nLowden J \nde Jong J \nParker Simpson L \nDavenport MH \nJournal Article \nCase Reports \n10.1152/japplphysiol.00110.2026 \n42684716 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42670611",
@@ -11980,7 +12807,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-31",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Biomechanical Effect of Medial Collateral Ligament Repair With and Without Suture Augmentation on Knee Laxity and Anterior Cruciate Ligament Force.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12002,7 +12833,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \nACL / 膝關節 \n量測與科技 \npmid-42670611 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nBiomechanical Effect of Medial Collateral Ligament Repair With and Without Suture Augmentation on Knee Laxity and Anterior Cruciate Ligament Force. \n2026-08-31 \n2026-10-01 \nvon Rehlingen-Prinz F \nShamritsky DZ \nRilk S \nKunze KN \nMueller MM \nDemopoulos B \nImhauser CW \nDiFelice GS \nJournal Article \n10.1177/03635465261476766 \n42670611 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \nACL / 膝關節 \n量測與科技 \npmid-42670611 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nBiomechanical Effect of Medial Collateral Ligament Repair With and Without Suture Augmentation on Knee Laxity and Anterior Cruciate Ligament Force. \n2026-08-31 \n2026-10-01 \nvon Rehlingen-Prinz F \nShamritsky DZ \nRilk S \nKunze KN \nMueller MM \nDemopoulos B \nImhauser CW \nDiFelice GS \nJournal Article \n10.1177/03635465261476766 \n42670611 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "issue:2026-w35",
@@ -12060,7 +12895,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-28",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Acetazolamide mitigates opioid-associated sleep-disordered breathing.",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12081,7 +12920,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n恢復與睡眠 \npmid-42663258 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nAcetazolamide mitigates opioid-associated sleep-disordered breathing. \n2026-08-28 \n2026-10-01 \nGreig D \nRastogi R \nMiryala CSJ \nMorgan BJ \nZhao L \nBadr MS \nChowdhuri S \nJournal Article \nRandomized Controlled Trial \n10.1152/japplphysiol.00444.2026 \n42663258 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n恢復與睡眠 \npmid-42663258 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nAcetazolamide mitigates opioid-associated sleep-disordered breathing. \n2026-08-28 \n2026-10-01 \nGreig D \nRastogi R \nMiryala CSJ \nMorgan BJ \nZhao L \nBadr MS \nChowdhuri S \nJournal Article \nRandomized Controlled Trial \n10.1152/japplphysiol.00444.2026 \n42663258 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42661291",
@@ -12089,7 +12932,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-27",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Effect of Multiple Centralization Sutures on Meniscal Extrusion and Contact Pressures in a Cadaveric Model of Medial Meniscus Root Repair.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12108,7 +12955,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42661291 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nEffect of Multiple Centralization Sutures on Meniscal Extrusion and Contact Pressures in a Cadaveric Model of Medial Meniscus Root Repair. \n2026-08-27 \n2026-10-01 \nAndersen M \nTollefson LV \nNgobi J \nCarlson MR \nLaPrade CM \nFladberg B \nFrihagen F \nInderhaug E \nLaPrade RF \nJournal Article \n10.1177/03635465261475396 \n42661291 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42661291 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nEffect of Multiple Centralization Sutures on Meniscal Extrusion and Contact Pressures in a Cadaveric Model of Medial Meniscus Root Repair. \n2026-08-27 \n2026-10-01 \nAndersen M \nTollefson LV \nNgobi J \nCarlson MR \nLaPrade CM \nFladberg B \nFrihagen F \nInderhaug E \nLaPrade RF \nJournal Article \n10.1177/03635465261475396 \n42661291 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42644343",
@@ -12116,7 +12967,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-26",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Reliability, accuracy, and responsiveness of the five-repetition sit-to-stand estimated power for detecting menopausal status and monitoring intervention effects in women.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12138,7 +12993,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肌力與爆發力 \n量測與科技 \npmid-42644343 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nReliability, accuracy, and responsiveness of the five-repetition sit-to-stand estimated power for detecting menopausal status and monitoring intervention effects in women. \n2026-08-26 \n2026-10-01 \nda Silva MBR \nAssis Silva SH \nLuíza de Lima M \nSouza MVC \nOrsatti FL \nJournal Article \n10.1080/02640414.2026.2722769 \n42644343 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肌力與爆發力 \n量測與科技 \npmid-42644343 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nReliability, accuracy, and responsiveness of the five-repetition sit-to-stand estimated power for detecting menopausal status and monitoring intervention effects in women. \n2026-08-26 \n2026-10-01 \nda Silva MBR \nAssis Silva SH \nLuíza de Lima M \nSouza MVC \nOrsatti FL \nJournal Article \n10.1080/02640414.2026.2722769 \n42644343 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42640141",
@@ -12146,7 +13005,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-25",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Sex-specific knee joint strength and muscular endurance profiles in healthy adolescents.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12169,7 +13032,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \nACL / 膝關節 \n肌力與爆發力 \n兒童與青少年 \npmid-42640141 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nSex-specific knee joint strength and muscular endurance profiles in healthy adolescents. \n2026-08-25 \n2026-10-01 \nMiller BS \nRomanchuk NJ \nRyan N \nDel Bel MJ \nCarsen S \nBenoit DL \nJournal Article \n10.1080/02640414.2026.2713896 \n42640141 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \nACL / 膝關節 \n肌力與爆發力 \n兒童與青少年 \npmid-42640141 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nSex-specific knee joint strength and muscular endurance profiles in healthy adolescents. \n2026-08-25 \n2026-10-01 \nMiller BS \nRomanchuk NJ \nRyan N \nDel Bel MJ \nCarsen S \nBenoit DL \nJournal Article \n10.1080/02640414.2026.2713896 \n42640141 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42635423",
@@ -12177,7 +13044,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-24",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "A scoping review of muscle excitation in resistance training across key training parameters.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12201,7 +13072,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n肌力與爆發力 \n肌力與體能 \npmid-42635423 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nA scoping review of muscle excitation in resistance training across key training parameters. \n2026-08-24 \n2026-10-01 \nFischer J \nBurger C \nPlöschberger G \nKonrad A \nJournal Article \nScoping Review \n10.1080/02640414.2026.2722765 \n42635423 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n肌力與爆發力 \n肌力與體能 \npmid-42635423 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nA scoping review of muscle excitation in resistance training across key training parameters. \n2026-08-24 \n2026-10-01 \nFischer J \nBurger C \nPlöschberger G \nKonrad A \nJournal Article \nScoping Review \n10.1080/02640414.2026.2722765 \n42635423 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42633555",
@@ -12209,7 +13084,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-23",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Changing playing surfaces is associated with increased injury incidence and burden rates in men's elite rugby union.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12232,7 +13111,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n橄欖球與美式足球 \npmid-42633555 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nChanging playing surfaces is associated with increased injury incidence and burden rates in men's elite rugby union. \n2026-08-23 \n2026-10-01 \nRobertson CM \nWilliams S \nWest SW \nKemp S \nCross M \nStokes KA \nJournal Article \n10.1080/02640414.2026.2713871 \n42633555 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n橄欖球與美式足球 \npmid-42633555 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nChanging playing surfaces is associated with increased injury incidence and burden rates in men's elite rugby union. \n2026-08-23 \n2026-10-01 \nRobertson CM \nWilliams S \nWest SW \nKemp S \nCross M \nStokes KA \nJournal Article \n10.1080/02640414.2026.2713871 \n42633555 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "issue:2026-w34",
@@ -12290,7 +13173,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-22",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Increasing humidity progressively reduces sweating efficiency similarly in males and females during exercise-heat stress.",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12311,7 +13198,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n熱環境 \npmid-42632044 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nIncreasing humidity progressively reduces sweating efficiency similarly in males and females during exercise-heat stress. \n2026-08-22 \n2026-10-01 \nHarker KS \nHeenan LJ \nHugard S \nJay O \nCheuvront SN \nSimmons GH \nJournal Article \n10.1152/japplphysiol.90043.2026 \n42632044 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n熱環境 \npmid-42632044 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nIncreasing humidity progressively reduces sweating efficiency similarly in males and females during exercise-heat stress. \n2026-08-22 \n2026-10-01 \nHarker KS \nHeenan LJ \nHugard S \nJay O \nCheuvront SN \nSimmons GH \nJournal Article \n10.1152/japplphysiol.90043.2026 \n42632044 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42632039",
@@ -12319,7 +13210,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-22",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Partitioning secreted sweat in the measure of sweating efficiency during exercise.",
       "summary": "Journal of applied physiology (Bethesda, Md. : 1985)收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12338,7 +13233,11 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \npmid-42632039 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nPartitioning secreted sweat in the measure of sweating efficiency during exercise. \n2026-08-22 \n2026-10-01 \nSimmons GH \nHeenan LJ \nHugard S \nSmith BJ \nLucernoni KM \nJay O \nCheuvront SN \nHarker KS \nJournal Article \n10.1152/japplphysiol.90044.2026 \n42632039 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \npmid-42632039 \ndiscovered \njournal-article \njap \nJournal of applied physiology (Bethesda, Md. : 1985) \nJ Appl Physiol (1985) \nPartitioning secreted sweat in the measure of sweating efficiency during exercise. \n2026-08-22 \n2026-10-01 \nSimmons GH \nHeenan LJ \nHugard S \nSmith BJ \nLucernoni KM \nJay O \nCheuvront SN \nHarker KS \nJournal Article \n10.1152/japplphysiol.90044.2026 \n42632039 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42626975",
@@ -12346,7 +13245,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-21",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Exploring the associations between low energy availability and mental health among university athletes: A systematic literature review.",
       "summary": "Journal of sports sciences收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12367,7 +13270,40 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \n心理與神經認知 \npmid-42626975 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nExploring the associations between low energy availability and mental health among university athletes: A systematic literature review. \n2026-08-21 \n2026-10-01 \nHegarty S \nOvin F \nKeay N \nHirsch C \nMeeten F \nJournal Article \nSystematic Review \n10.1080/02640414.2026.2717966 \n42626975 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \n心理與神經認知 \npmid-42626975 \ndiscovered \njournal-article \njss \nJournal of sports sciences \nJ Sports Sci \nExploring the associations between low energy availability and mental health among university athletes: A systematic literature review. \n2026-08-21 \n2026-10-01 \nHegarty S \nOvin F \nKeay N \nHirsch C \nMeeten F \nJournal Article \nSystematic Review \n10.1080/02640414.2026.2717966 \n42626975 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+    },
+    {
+      "id": "research:pmid-42617172",
+      "sourceId": "pmid-42617172",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-08-19",
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+      "year": "2026",
+      "title": "Comparative Adaptations to Different Leg Extension Set-termination Strategies in Trained Men and Women: A Unilateral Within-Participant Study.",
+      "summary": "Journal of strength and conditioning research收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [
+        "肌力與爆發力"
+      ],
+      "href": "?radar=pmid-42617172#research-radar",
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005494",
+      "journal": "Journal of strength and conditioning research",
+      "detail": "Journal of strength and conditioning research · PMID 42617172",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \n肌力與爆發力 \npmid-42617172 \ndiscovered \njournal-article \njsc \nJournal of strength and conditioning research \nJ Strength Cond Res \nComparative Adaptations to Different Leg Extension Set-termination Strategies in Trained Men and Women: A Unilateral Within-Participant Study. \n2026-08-19 \n2026-10-01 \nVasconcelos T \nRuivo A \nRefalo MC \nChaves Lucas G \nVasconcelos PR \nBrito JP \nVilaça-Alves J \nOliveira R \nJournal Article \nComparative Study \n10.1519/JSC.0000000000005494 \n42617172 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     },
     {
       "id": "research:pmid-42619022",
@@ -12375,7 +13311,11 @@
       "type": "research-article",
       "typeLabel": "研究題錄",
       "publishDate": "2026-08-19",
+<<<<<<< HEAD
       "updatedAt": "2026-10-05T10:16:14.924Z",
+=======
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
       "year": "2026",
       "title": "Increased Posterior Tibial Slope and Lateral Extra-articular Tenodesis Are Independently Associated With Revision ACL Reconstruction in a Young High-Risk Population.",
       "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
@@ -12396,7 +13336,38 @@
         "priorIds": [],
         "referencedBy": []
       },
+<<<<<<< HEAD
       "searchText": "研究題錄 \nACL / 膝關節 \npmid-42619022 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nIncreased Posterior Tibial Slope and Lateral Extra-articular Tenodesis Are Independently Associated With Revision ACL Reconstruction in a Young High-Risk Population. \n2026-08-19 \n2026-10-01 \nvan der Wal WA \nde Groot TM \nTamana L \nTsoulgkounidis N \nVeraart JT \nHoogeslag RAG \nvan der Hoeven H \nEngelsma Y \nCusters RJH \nSaris DBF \nJournal Article \n10.1177/03635465261473931 \n42619022 \ncheck-publisher-or-institution \n2026-10-05T10:16:14.924Z"
+=======
+      "searchText": "研究題錄 \nACL / 膝關節 \npmid-42619022 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nIncreased Posterior Tibial Slope and Lateral Extra-articular Tenodesis Are Independently Associated With Revision ACL Reconstruction in a Young High-Risk Population. \n2026-08-19 \n2026-10-01 \nvan der Wal WA \nde Groot TM \nTamana L \nTsoulgkounidis N \nVeraart JT \nHoogeslag RAG \nvan der Hoeven H \nEngelsma Y \nCusters RJH \nSaris DBF \nJournal Article \n10.1177/03635465261473931 \n42619022 \ncheck-publisher-or-institution \n2026-10-05T09:12:25.844Z"
+    },
+    {
+      "id": "research:pmid-42613937",
+      "sourceId": "pmid-42613937",
+      "type": "research-article",
+      "typeLabel": "研究題錄",
+      "publishDate": "2026-08-18",
+      "updatedAt": "2026-10-05T09:12:25.844Z",
+      "year": "2026",
+      "title": "Minimum 5-Year Follow-up After Arthroscopic Latarjet: Outcomes and Complications.",
+      "summary": "The American journal of sports medicine收錄的研究題錄；完成全文整理前僅作為可回查的研究訊號。",
+      "topicIds": [],
+      "topicLabels": [],
+      "sportTags": [],
+      "tags": [],
+      "href": "?radar=pmid-42613937#research-radar",
+      "sourceUrl": "https://doi.org/10.1177/03635465261475810",
+      "journal": "The American journal of sports medicine",
+      "detail": "The American journal of sports medicine · PMID 42613937",
+      "reviewed": false,
+      "related": {
+        "researchIds": [],
+        "courseIds": [],
+        "priorIds": [],
+        "referencedBy": []
+      },
+      "searchText": "研究題錄 \npmid-42613937 \ndiscovered \njournal-article \najsm \nThe American journal of sports medicine \nAm J Sports Med \nMinimum 5-Year Follow-up After Arthroscopic Latarjet: Outcomes and Complications. \n2026-08-18 \n2026-10-01 \nBerge T \nGarratt AM \nMoatshe G \nØines AG \nBlich I \nStøen R \nLudvigsen TC \nVuletić F \nBøe B \nJournal Article \n10.1177/03635465261475810 \n42613937 \nPMC13620246 \npmc-record-available \n2026-10-05T09:12:25.844Z"
+>>>>>>> 89c2454329bfce498c37b41ff3921fc0c7a323ff
     }
   ]
 }
