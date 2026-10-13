@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T14:15:51.112Z",
+  "generatedAt": "2026-10-13T14:39:33.865Z",
   "retentionPolicy": {
     "mode": "cumulative",
     "statement": "Published issues, weekly reports, podcast episodes and harvested research metadata remain indexed. Existing IDs may be revised in place, but are not removed by routine generation.",
     "privateMaterial": "Licensed full text, source captures and private Codex packets remain in the local research-library and are not deployed to GitHub Pages."
   },
   "stats": {
-    "total": 501,
+    "total": 502,
     "monthlyTopics": 2,
     "knowledgeTopics": 4,
-    "podcastEpisodes": 4,
+    "podcastEpisodes": 5,
     "weeklyReports": 5,
     "researchArticles": 486,
     "reviewedArticles": 0,
@@ -50,6 +50,81 @@
         "referencedBy": []
       },
       "searchText": "研究題錄 \n營養與水合 \n技擊運動 \npmid-42702994 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nProbiotic supplementation improves body composition, lipid profiles, and fatty acid metabolism in combat sports athletes during the weight reduction phase. \n2026-12-30 \nYang S \nCheng Z \nShen W \nWang J \nLai M \nYu X \nZuo Q \nJournal Article \nRandomized Controlled Trial \n10.1080/15502783.2026.2726522 \n42702994 \nPMC13552284 \npmc-record-available \n2026-09-12T16:46:37.358Z"
+    },
+    {
+      "id": "podcast:2026-w42",
+      "sourceId": "2026-w42",
+      "type": "podcast-episode",
+      "typeLabel": "English Podcast",
+      "publishDate": "2026-10-17",
+      "updatedAt": "2026-10-13T14:39:33.865Z",
+      "year": "2026",
+      "title": "Better Numbers, Better Decisions?",
+      "summary": "Ying and Bing discuss caffeine in male boxers, tangeretin in female combat athletes, cinnamon and functional training in military cadets, a Canadian dietary questionnaire, and concussion surveillance in community rugby. They ask what would justify keeping a strategy while separating measured changes from competition benefits and medical clearance.",
+      "topicIds": [
+        "nutrition",
+        "training",
+        "assessment",
+        "monitoring",
+        "performance",
+        "sport-medicine"
+      ],
+      "topicLabels": [
+        "營養與恢復",
+        "訓練設計",
+        "身體評估",
+        "監測與科技",
+        "運動表現",
+        "運動醫學"
+      ],
+      "sportTags": [
+        "拳擊",
+        "女性技擊運動員",
+        "男性軍校生",
+        "社區橄欖球",
+        "加拿大競技運動員"
+      ],
+      "tags": [
+        "營養與恢復",
+        "訓練設計",
+        "身體評估",
+        "監測與科技",
+        "運動表現",
+        "運動醫學",
+        "拳擊",
+        "女性技擊運動員",
+        "男性軍校生",
+        "社區橄欖球",
+        "加拿大競技運動員",
+        "Podcast",
+        "English"
+      ],
+      "href": "?podcast=2026-w42#podcast",
+      "sourceUrl": null,
+      "journal": null,
+      "detail": "13 min listen · 5 篇研究",
+      "reviewed": false,
+      "related": {
+        "researchIds": [
+          "pmid-42841357",
+          "pmid-42842640",
+          "pmid-42841334",
+          "pmid-42841356",
+          "pmid-42841348"
+        ],
+        "courseIds": [
+          "course-3508b0d2cc8ec57d",
+          "course-14b5b9155e337de4",
+          "course-4c7247f87374194d",
+          "course-c07b3c2920b5562e",
+          "course-8dbff6b0b0a9f68e"
+        ],
+        "priorIds": [
+          "2026-w42"
+        ],
+        "referencedBy": []
+      },
+      "searchText": "English Podcast \n營養與恢復 \n訓練設計 \n身體評估 \n監測與科技 \n運動表現 \n運動醫學 \n拳擊 \n女性技擊運動員 \n男性軍校生 \n社區橄欖球 \n加拿大競技運動員 \nPodcast \nEnglish \n2026-w42 \npublished \n2026-10-17 \nedgeSport4Podcast \nBetter Numbers, Better Decisions? \nSupplements, useful measurements, and the distance between improvement and readiness. \nYing and Bing discuss caffeine in male boxers, tangeretin in female combat athletes, cinnamon and functional training in military cadets, a Canadian dietary questionnaire, and concussion surveillance in community rugby. They ask what would justify keeping a strategy while separating measured changes from competition benefits and medical clearance. \nen \nhost \nYing \nEvidence guide · female voice \ncohost \nBing \nAnalytical partner · male voice \npmid-42841357 \npmid-42842640 \npmid-42841334 \npmid-42841356 \npmid-42841348 \nDistinguish laboratory improvements, body changes, and absence records from competition benefits and clearance. \nExplain why improvement within one group does not establish superiority over a comparator. \nInterpret supplement findings with their populations, task comparisons, measurement limits, and reporting inconsistencies. \nDistinguish questionnaire relevance and comprehension from accuracy and reliability. \nDescribe an explicitly unvalidated EDGE SPORT approach to reviewing a new strategy. \nThe supplied weeklyReport is the sole source for research claims. No additional research or historical evidence is introduced. \nCaffeine in male boxers: https://doi.org/10.1080/15502783.2026.2743368 \nTangeretin in female combat athletes: https://doi.org/10.1080/15502783.2026.2740800 \nFunctional training and cinnamon in military cadets: https://doi.org/10.1080/15502783.2026.2743157 \nCanadian adaptation of the Athlete Diet Index: https://doi.org/10.1080/15502783.2026.2741897 \nCommunity rugby concussion surveillance: https://doi.org/10.1177/19417381261474860 \nResearch doses and follow-up periods describe study exposures. They are not listener prescriptions. \nThe weekly report flags inconsistencies in the tangeretin, cinnamon, and rugby papers. Interpretations remain conservative pending editorial verification. \nWhat would make a change worth keeping? \nA better number needs a clearly defined task and comparison. \nCaffeine and the task being tested \nDose comparisons in boxers support selected laboratory outcomes without establishing punching benefits. \nWeight change and functional benefit \nTangeretin findings illustrate the difference between body composition signals and intervention-specific performance gains. \nTraining, cinnamon, and uncertain attribution \nMilitary fitness changes deserve attention alongside design and reporting limitations. \nA questionnaire people can understand \nCanadian dietary tool adaptation supports relevance and comprehension while leaving other measurement properties unverified. \nAbsence, recovery, and the next decision \nRugby surveillance describes care burden without supplying personal clearance dates. The conversation closes with an explicitly unvalidated review proposal. \nWelcome to edgeSport4Podcast. I'm Ying, and I can imagine the relief of seeing a better test result after trying something new. This week's question is what that improvement actually gives us permission to change. \nwarm \nAnd I'm Bing. We say edgeSport4Podcast as Edge Sport for Podcast. Over coffee I'd probably ask the awkward follow-up. Did the athlete get better at the thing they care about, or did one number get better? \ncurious \nThat's the thread through all five papers. We've got three supplement studies, a dietary questionnaire, and rugby concussion records. They measure very different things, so we need to decide what each result can reasonably support before we act. \nclear \nCould we start with the athlete's question before opening the spreadsheet? What change would actually make their training or competition better? \nYes, and the boxer study makes that concrete. Fifteen trained male boxers each completed placebo, three milligrams of caffeine per kilogram, and six milligrams per kilogram. The randomized crossover design let researchers compare conditions in the same people. \nThat comparison is useful because we're less dependent on differences between athletes. But were they punching, or testing capacities that might matter for punching? I'd want that distinction settled before calling the result a boxing benefit. \nThey tested jumping, explosive push-off performance, and joint torque at fixed movement speeds. They didn't measure punches or competition. In the later testing block, the lower caffeine dose increased countermovement jump height by 0.039 meters compared with placebo. \nSo that's 3.9 centimeters on a jump test. What happened with the higher dose, and was its advantage actually established? \nThe higher dose was 0.051 meters above placebo. The confidence intervals were 0.019 to 0.059 meters for the lower dose and 0.032 to 0.071 for the higher dose. They didn't detect a significant difference between doses. \nThen the larger average doesn't establish that more is better for jumping. It also doesn't establish the doses are equivalent. Did any task give a clearer direct comparison between the two caffeine doses? \nreflective \nKnee extension torque did. In that later block, the higher dose exceeded placebo by 41.36 newton meters and the lower dose by 25.98 newton meters. That's a specific finding at the tested movement speed, rather than a general dose advantage. \nSpecific is doing a lot of work there. What about the explosive push-off test, where measurement noise could change the interpretation? \nHigher-dose average power exceeded placebo by 137.3 watts, but baseline typical error was 104.20 watts. That error describes repeat measurement fluctuation. The direct dose comparison wasn't significant, and one exposure per dose couldn't establish a stable individual response. \ncautious \nI'd want repeated task benefits and tolerability before keeping it. The later block began around sixty minutes, but tests continued afterward. We can't call that everyone's precise peak, especially when caffeine concentration wasn't measured and side effects were only asked about verbally. \nThat same need to name the benefit carries into weight management. What would persuade you that a supplement helped a combat athlete? A lower scale reading, making a weight category, or preserving the ability to train and compete? \nI'd want those questions kept separate. Making weight matters to eligibility, but it doesn't by itself tell me how the athlete performs or feels. \nThe tangeretin trial enrolled thirty female combat athletes, fifteen per group. For thirty days, one group received four hundred milligrams daily alongside whey protein, while the comparator received whey. This happened during winter training with centralized meals and normal drinking. \nSo it wasn't a rapid dehydration experiment. The supplemented group's mean weight went from 61.58 to 60.86 kilograms, while the comparator went from 60.96 to 61.26. Was there evidence that those patterns differed beyond a descriptive contrast? \nYes, the group by time interaction for weight was significant. That asks whether the groups changed differently over time. Body fat percentage also showed an interaction, with the supplemented group's mean falling from 23.92 to 22.92 percent. \nThat's about one percentage point in body fat. Do the individual weight-loss counts tell us anything beyond those average changes? \nTwelve of fifteen supplemented athletes lost weight, compared with six of fifteen controls. Those are descriptive counts without a reported statistical comparison of the proportions. And the report flags body composition totals that don't clearly reconcile with body weight. \nThat makes me cautious about treating the body composition table as a settled explanation. There's also a performance trap here. If aerobic capacity improves significantly in one group but not the other, have we proved the supplement helped? \nNo, we still need the comparison between changes. The aerobic capacity interaction had a p value of 0.445, and time to exhaustion had 0.166. Neither established an intervention-specific improvement, despite favorable changes within the supplemented group. \nThen there's a preliminary body change signal, with reporting questions, rather than demonstrated competition benefit. Thirty days in a small mixed-sport sample also leaves long-term safety unresolved. Weight loss can't clear concerns about low energy availability or justify rapid weight cutting. \nAgreed. Now suppose someone says the military study is stronger because it measured a functional fitness test. Would that make you more willing to consider the cinnamon addition, or would you still start with how the groups were compared? \nI'd welcome a functional outcome, then inspect the comparison. What did the training group do, and what did cinnamon add to it? \nThe four groups received Tabata-style functional training, cinnamon, both, or usual military activity. Forty-eight male cadets were randomized and forty-five completed the six weeks. The cinnamon exposure was 1.5 grams daily, and supplementation had no placebo. \nThe combined group's Army Combat Fitness Test score rose from 443.6 to 497.2 points, among thirteen completers. That's a visible change, but a before-and-after increase doesn't isolate cinnamon. What happened against training alone? \nThe thirteen training-only completers went from 429.6 to 466.8 points. The paper reports the combined group outperforming training alone after accounting for baseline. That deserves attention, although starting scores differed and the analysis included only people who finished. \nSo we shouldn't erase the positive comparison. But without a supplement placebo, and with inconsistent reporting, confidence in the extra benefit is limited. \nExactly. Three sessions weekly over six weeks conflicts with a reported twenty-four sessions. The lean mass increase is also described inconsistently. How would you handle the reported rise in irisin, a blood marker discussed as a possible link to adaptation? \nAs something that changed alongside function, without proof it caused the improvement. I'd want clearer reporting and a stronger replication before routine cinnamon use. Even the six fitness components weren't uniformly superior, since the leg tuck comparison wasn't significant. \nThat caution about what a measure establishes also applies to the Canadian Athlete Diet Index. Researchers adapted an Australian tool through expert review, English and French translation, and athlete testing. The question here was whether its content and language fit. \nFit is useful. But if athletes understand the questions, have we learned whether their answers accurately describe what they're eating? \nNot from this study. Of forty-nine athletes, forty-four found it relevant or very relevant and thirty-nine found it easy or very easy to understand. Those results support acceptability and comprehension, rather than accuracy against a dietary reference measure. \nAnd the final tool has ninety-eight questions, with thirty-six scored and sixty-two unscored. That suggests the surrounding context deserves attention too. Would you explain the kinds of validity they supported, without making them sound interchangeable? \nFace validity asks whether a tool seems understandable and sensible to users. Content validity asks whether it covers the intended material. The Canadian adaptation supports those, while accuracy against a suitable reference and reliability still need study. \nThen I'd use its adaptation process as a useful example when checking local foods, language, and training circumstances. I'd avoid borrowing its score as a Taiwan diagnostic threshold. The sample covered only triathlon, hockey, and athletics, so broader fit also remains open. \nThat leaves the rugby study, where the measured outcome was absence after concussion. Across six seasons of Irish community rugby, researchers recorded 456 events in 369 players. The surveillance covered 5,740 player-seasons, which includes repeated seasonal participation rather than that many unique people. \nSo both players and events matter to the denominator. What did the absence records show, and how much was shaped by policy? \nAbsence data were available for 454 of 456 events. Men's median absence was twenty-four days and women's was twenty-eight. The middle half ranged from twenty-one to thirty-three days for men and twenty-one to forty-two for women. \nAnd the local adult policy required at least twenty-one days before return. Those distributions therefore include a policy floor. We can't read the medians as pure biological recovery times, or book an individual athlete's return from them. \nRight. Nor did the study measure return to previous performance. More recorded match events occurred in the second half, but that doesn't prove fatigue caused them. Would you treat that pattern as a reason to change prevention training? \nI'd keep recognition and reporting attentive throughout play, but this study didn't test a prevention program. Position counts weren't adjusted for exposure either. The longer female absences are a care burden signal, without identifying one biological cause or an individual's recovery date. \nThat's a useful place to bring the week together. A higher jump, a lighter body, a fitness score, an understandable questionnaire, and fewer absent days each answer a different question. None supplies a universal permission slip for competition or the next intervention. \nOur EDGE SPORT proposal is to write down the target task and comparison before trying a change. Then review repeatable task results alongside diet, discomfort, sleep, and recovery. That combined workflow hasn't been validated by these studies, and it provides no universal cutoff. \nencouraging \nAnd write down what would change your mind. We'd reconsider when benefits don't repeat, conditions can't be compared, or health costs emerge. Suspected concussion needs professional assessment, while participation, competition, and previous performance deserve separate records. That's our operational proposal, not individual medical clearance. \nI like leaving room to revise the decision without blaming the athlete for an uncertain result. Pick the question, check the comparison, and keep the person's experience beside the numbers. The written weekly report and original sources have the methods and unresolved reporting details. \nFifteen male boxers completed placebo, 3 mg/kg caffeine, and 6 mg/kg caffeine in a randomized double-blind crossover trial. \nSmall male-only sample. Each dose was tested once. Research exposures do not establish a preferred competition dose or stable individual response. \nIn the later testing block, jump height differences versus placebo were 0.039 m for 3 mg/kg, with 95% CI 0.019–0.059, and 0.051 m for 6 mg/kg, with 95% CI 0.032–0.071. \nThe doses did not differ significantly for this outcome. Nonsignificance does not establish equivalence. The block began at 60 minutes and tests extended approximately to 75 minutes. Punching and competition were not measured. \nHigher-dose caffeine increased knee extension peak torque by 41.36 N·m versus placebo and 25.98 N·m versus lower-dose caffeine. \nThis was a task-specific result in the later block at a tested speed of 60 degrees per second. It does not establish a general higher-dose advantage. \nHigher-dose caffeine increased explosive push-off mean power by 137.3 W versus placebo. Baseline typical error was 104.20 W. \nThe direct dose comparison was not significant. Typical error informs repeat measurement variability and is not a universal benefit threshold. Adverse effects were collected only through verbal questioning. \nThirty female combat athletes were randomized into two groups of fifteen for 30 days of tangeretin plus whey versus whey alone. The tangeretin exposure was 400 mg daily. \nThe study used centralized meals and normal drinking during winter training. It did not test rapid dehydration, different tangeretin doses, actual competition, or long-term safety. \nMean weight changed from 61.58 to 60.86 kg with tangeretin and from 60.96 to 61.26 kg in controls. The weight interaction p value was 0.018. Supplemented-group body fat changed from 23.92% to 22.92%, with interaction p = 0.008. \nThe body fat change is approximately one percentage point. Reported body composition totals and definitions require verification. These changes do not establish competition benefit or absence of low energy availability. \nWeight loss occurred in 12/15 supplemented athletes and 6/15 controls. Aerobic capacity and time-to-exhaustion interaction p values were 0.445 and 0.166. \nThe individual weight-loss counts were descriptive without a reported between-group proportion test. Aerobic results did not establish intervention-specific improvements. Significant change within one group alone does not demonstrate superiority. \nThe military cadet trial randomized 48 men and analyzed 45 completers across training, cinnamon, combined, and usual-activity groups over six weeks. Cinnamon exposure was 1.5 g daily. \nSupplementation lacked a placebo. Completer-only analysis, baseline differences, and reporting inconsistencies limit attribution and generalizability. \nCombined-group fitness scores increased from 443.6 to 497.2 points and training-only scores from 429.6 to 466.8 points, with thirteen completers in each group. The paper reports a baseline-adjusted combined-group advantage. \nRaw within-group increases do not isolate cinnamon's effect. The reported combined-versus-training comparison deserves conservative consideration. Leg tuck did not show a significant between-group result, with p = 0.152. \nThe military paper reports three weekly sessions over six weeks but also twenty-four sessions, and describes lean mass changes inconsistently. \nTraining dose should not be copied before verification. BIA hydration control was limited. Concurrent irisin and functional changes do not establish mediation, synergy, or injury prevention. \nThe final Canadian Athlete Diet Index has 98 questions, including 36 scored and 62 unscored. In athlete testing, 44/49 found it relevant and 39/49 found it easy to understand. \nThese findings support content and face validity, comprehension, and acceptability. Canadian construct validity, criterion validity, and reliability remain to be studied. Australian validation cannot be transferred automatically. \nThe dietary tool trial sample represented triathlon, hockey, and athletics. \nThe convenience sample does not establish universal sport applicability, a Taiwan version, diagnostic thresholds, or RED-S diagnosis. \nDefine the task and comparison before interpreting an improvement. \nKeep weight, laboratory capacity, biomarkers, and competition outcomes distinct. \nCheck reporting consistency and measurement suitability before adopting a strategy. \nTreat concussion absence records as group context. They do not supply individual clearance dates or demonstrate restored performance. \nRecording repeatable benefits, tolerability, and reasons to revise a decision is an unvalidated EDGE SPORT proposal. \nConsult the written weekly report and original sources for methods, limitations, and unresolved discrepancies. \nThis episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance. \nautomated \ncodex \n2026-10-13T14:39:33.312Z \n2026-10-13T14:39:33.865Z \nassets/podcasts/2026-w42-78851feca8ce.mp3 \naudio/mpeg \n96k \nAcute effects of 3 and 6 mg·Kg(-1) caffeine on strength-power performance and isokinetic peak torque in competitive male boxers: a randomized, double-blind, placebo-controlled crossover trial. \nJournal of the International Society of Sports Nutrition \n2026-10-07 \nfull-text-open \nSport-related Concussion Characteristics and Time-loss Among Male and Female Community Rugby Union Players Across 6 Seasons. \nSports health \nEffect of tangeretin supplements on simulated precompetition weight loss in female combat sports athletes. \nEffects of Tabata-style functional training and cinnamon supplementation on army combat fitness test performance, serum irisin, and body composition in military cadets: a randomized controlled trial. \nCross-cultural adaptation of the Athlete Diet Index, a web-based dietary assessment tool for athletes."
     },
     {
       "id": "report:2026-w42",
@@ -2536,7 +2611,7 @@
       "href": "?radar=pmid-42841357#research-radar",
       "sourceUrl": "https://doi.org/10.1080/15502783.2026.2743368",
       "journal": "Journal of the International Society of Sports Nutrition",
-      "detail": "Journal of the International Society of Sports Nutrition · PMID 42841357 · 被 1 份整理引用",
+      "detail": "Journal of the International Society of Sports Nutrition · PMID 42841357 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -2548,6 +2623,12 @@
             "type": "weekly-report",
             "title": "補充品有效就能上場？拳擊劑量、減重與功能驗證",
             "href": "?report=2026-w42#weekly-reports"
+          },
+          {
+            "id": "2026-w42",
+            "type": "podcast-episode",
+            "title": "Better Numbers, Better Decisions?",
+            "href": "?podcast=2026-w42#podcast"
           }
         ]
       },
@@ -2692,7 +2773,7 @@
       "href": "?radar=pmid-42841348#research-radar",
       "sourceUrl": "https://doi.org/10.1080/15502783.2026.2741897",
       "journal": "Journal of the International Society of Sports Nutrition",
-      "detail": "Journal of the International Society of Sports Nutrition · PMID 42841348 · 被 1 份整理引用",
+      "detail": "Journal of the International Society of Sports Nutrition · PMID 42841348 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -2704,6 +2785,12 @@
             "type": "weekly-report",
             "title": "補充品有效就能上場？拳擊劑量、減重與功能驗證",
             "href": "?report=2026-w42#weekly-reports"
+          },
+          {
+            "id": "2026-w42",
+            "type": "podcast-episode",
+            "title": "Better Numbers, Better Decisions?",
+            "href": "?podcast=2026-w42#podcast"
           }
         ]
       },
@@ -2790,7 +2877,7 @@
       "href": "?radar=pmid-42841334#research-radar",
       "sourceUrl": "https://doi.org/10.1080/15502783.2026.2740800",
       "journal": "Journal of the International Society of Sports Nutrition",
-      "detail": "Journal of the International Society of Sports Nutrition · PMID 42841334 · 被 1 份整理引用",
+      "detail": "Journal of the International Society of Sports Nutrition · PMID 42841334 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -2802,6 +2889,12 @@
             "type": "weekly-report",
             "title": "補充品有效就能上場？拳擊劑量、減重與功能驗證",
             "href": "?report=2026-w42#weekly-reports"
+          },
+          {
+            "id": "2026-w42",
+            "type": "podcast-episode",
+            "title": "Better Numbers, Better Decisions?",
+            "href": "?podcast=2026-w42#podcast"
           }
         ]
       },
@@ -2886,7 +2979,7 @@
       "href": "?radar=pmid-42841356#research-radar",
       "sourceUrl": "https://doi.org/10.1080/15502783.2026.2743157",
       "journal": "Journal of the International Society of Sports Nutrition",
-      "detail": "Journal of the International Society of Sports Nutrition · PMID 42841356 · 被 1 份整理引用",
+      "detail": "Journal of the International Society of Sports Nutrition · PMID 42841356 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -2898,6 +2991,12 @@
             "type": "weekly-report",
             "title": "補充品有效就能上場？拳擊劑量、減重與功能驗證",
             "href": "?report=2026-w42#weekly-reports"
+          },
+          {
+            "id": "2026-w42",
+            "type": "podcast-episode",
+            "title": "Better Numbers, Better Decisions?",
+            "href": "?podcast=2026-w42#podcast"
           }
         ]
       },
@@ -3286,7 +3385,7 @@
       "href": "?radar=pmid-42842640#research-radar",
       "sourceUrl": "https://doi.org/10.1177/19417381261474860",
       "journal": "Sports health",
-      "detail": "Sports health · PMID 42842640 · 被 1 份整理引用",
+      "detail": "Sports health · PMID 42842640 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -3298,6 +3397,12 @@
             "type": "weekly-report",
             "title": "補充品有效就能上場？拳擊劑量、減重與功能驗證",
             "href": "?report=2026-w42#weekly-reports"
+          },
+          {
+            "id": "2026-w42",
+            "type": "podcast-episode",
+            "title": "Better Numbers, Better Decisions?",
+            "href": "?podcast=2026-w42#podcast"
           }
         ]
       },

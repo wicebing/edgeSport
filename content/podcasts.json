@@ -8,6 +8,772 @@
   "episodes": [
     {
       "schemaVersion": 1,
+      "id": "2026-w42",
+      "status": "published",
+      "publishDate": "2026-10-17",
+      "showName": "edgeSport4Podcast",
+      "title": "Better Numbers, Better Decisions?",
+      "episodeSubtitle": "Supplements, useful measurements, and the distance between improvement and readiness.",
+      "summary": "Ying and Bing discuss caffeine in male boxers, tangeretin in female combat athletes, cinnamon and functional training in military cadets, a Canadian dietary questionnaire, and concussion surveillance in community rugby. They ask what would justify keeping a strategy while separating measured changes from competition benefits and medical clearance.",
+      "language": "en",
+      "estimatedMinutes": 14,
+      "durationSeconds": 784.496,
+      "wordCount": 1694,
+      "hosts": [
+        {
+          "id": "host",
+          "displayName": "Ying",
+          "role": "Evidence guide · female voice"
+        },
+        {
+          "id": "cohost",
+          "displayName": "Bing",
+          "role": "Analytical partner · male voice"
+        }
+      ],
+      "sourceWeeklyReportId": "2026-w42",
+      "sourceRecordIds": [
+        "pmid-42841357",
+        "pmid-42842640",
+        "pmid-42841334",
+        "pmid-42841356",
+        "pmid-42841348"
+      ],
+      "learningGoals": [
+        "Distinguish laboratory improvements, body changes, and absence records from competition benefits and clearance.",
+        "Explain why improvement within one group does not establish superiority over a comparator.",
+        "Interpret supplement findings with their populations, task comparisons, measurement limits, and reporting inconsistencies.",
+        "Distinguish questionnaire relevance and comprehension from accuracy and reliability.",
+        "Describe an explicitly unvalidated EDGE SPORT approach to reviewing a new strategy."
+      ],
+      "showNotes": [
+        "The supplied weeklyReport is the sole source for research claims. No additional research or historical evidence is introduced.",
+        "Caffeine in male boxers: https://doi.org/10.1080/15502783.2026.2743368",
+        "Tangeretin in female combat athletes: https://doi.org/10.1080/15502783.2026.2740800",
+        "Functional training and cinnamon in military cadets: https://doi.org/10.1080/15502783.2026.2743157",
+        "Canadian adaptation of the Athlete Diet Index: https://doi.org/10.1080/15502783.2026.2741897",
+        "Community rugby concussion surveillance: https://doi.org/10.1177/19417381261474860",
+        "Research doses and follow-up periods describe study exposures. They are not listener prescriptions.",
+        "The weekly report flags inconsistencies in the tangeretin, cinnamon, and rugby papers. Interpretations remain conservative pending editorial verification."
+      ],
+      "chapters": [
+        {
+          "title": "What would make a change worth keeping?",
+          "summary": "A better number needs a clearly defined task and comparison.",
+          "turnStart": 1,
+          "startSeconds": 1.57
+        },
+        {
+          "title": "Caffeine and the task being tested",
+          "summary": "Dose comparisons in boxers support selected laboratory outcomes without establishing punching benefits.",
+          "turnStart": 5,
+          "startSeconds": 52.623
+        },
+        {
+          "title": "Weight change and functional benefit",
+          "summary": "Tangeretin findings illustrate the difference between body composition signals and intervention-specific performance gains.",
+          "turnStart": 15,
+          "startSeconds": 231.9
+        },
+        {
+          "title": "Training, cinnamon, and uncertain attribution",
+          "summary": "Military fitness changes deserve attention alongside design and reporting limitations.",
+          "turnStart": 25,
+          "startSeconds": 392.579
+        },
+        {
+          "title": "A questionnaire people can understand",
+          "summary": "Canadian dietary tool adaptation supports relevance and comprehension while leaving other measurement properties unverified.",
+          "turnStart": 33,
+          "startSeconds": 516.236
+        },
+        {
+          "title": "Absence, recovery, and the next decision",
+          "summary": "Rugby surveillance describes care burden without supplying personal clearance dates. The conversation closes with an explicitly unvalidated review proposal.",
+          "turnStart": 39,
+          "startSeconds": 613.227
+        }
+      ],
+      "transcript": [
+        {
+          "turn": 1,
+          "speaker": "host",
+          "text": "Welcome to edgeSport4Podcast. I'm Ying, and I can imagine the relief of seeing a better test result after trying something new. This week's question is what that improvement actually gives us permission to change.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 1.57,
+          "durationSeconds": 12.267
+        },
+        {
+          "turn": 2,
+          "speaker": "cohost",
+          "text": "And I'm Bing. We say edgeSport4Podcast as Edge Sport for Podcast. Over coffee I'd probably ask the awkward follow-up. Did the athlete get better at the thing they care about, or did one number get better?",
+          "delivery": "curious",
+          "evidenceSourceIds": [],
+          "startSeconds": 13.957,
+          "durationSeconds": 14.687
+        },
+        {
+          "turn": 3,
+          "speaker": "host",
+          "text": "That's the thread through all five papers. We've got three supplement studies, a dietary questionnaire, and rugby concussion records. They measure very different things, so we need to decide what each result can reasonably support before we act.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841357",
+            "pmid-42841334",
+            "pmid-42841356",
+            "pmid-42841348"
+          ],
+          "startSeconds": 28.885,
+          "durationSeconds": 14.712
+        },
+        {
+          "turn": 4,
+          "speaker": "cohost",
+          "text": "Could we start with the athlete's question before opening the spreadsheet? What change would actually make their training or competition better?",
+          "delivery": "curious",
+          "evidenceSourceIds": [],
+          "startSeconds": 43.797,
+          "durationSeconds": 8.586
+        },
+        {
+          "turn": 5,
+          "speaker": "host",
+          "text": "Yes, and the boxer study makes that concrete. Fifteen trained male boxers each completed placebo, three milligrams of caffeine per kilogram, and six milligrams per kilogram. The randomized crossover design let researchers compare conditions in the same people.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "startSeconds": 52.623,
+          "durationSeconds": 18.681
+        },
+        {
+          "turn": 6,
+          "speaker": "cohost",
+          "text": "That comparison is useful because we're less dependent on differences between athletes. But were they punching, or testing capacities that might matter for punching? I'd want that distinction settled before calling the result a boxing benefit.",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "startSeconds": 71.504,
+          "durationSeconds": 16.351
+        },
+        {
+          "turn": 7,
+          "speaker": "host",
+          "text": "They tested jumping, explosive push-off performance, and joint torque at fixed movement speeds. They didn't measure punches or competition. In the later testing block, the lower caffeine dose increased countermovement jump height by 0.039 meters compared with placebo.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "startSeconds": 88.055,
+          "durationSeconds": 19.329
+        },
+        {
+          "turn": 8,
+          "speaker": "cohost",
+          "text": "So that's 3.9 centimeters on a jump test. What happened with the higher dose, and was its advantage actually established?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "startSeconds": 107.583,
+          "durationSeconds": 10.966
+        },
+        {
+          "turn": 9,
+          "speaker": "host",
+          "text": "The higher dose was 0.051 meters above placebo. The confidence intervals were 0.019 to 0.059 meters for the lower dose and 0.032 to 0.071 for the higher dose. They didn't detect a significant difference between doses.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "startSeconds": 118.79,
+          "durationSeconds": 22.816
+        },
+        {
+          "turn": 10,
+          "speaker": "cohost",
+          "text": "Then the larger average doesn't establish that more is better for jumping. It also doesn't establish the doses are equivalent. Did any task give a clearer direct comparison between the two caffeine doses?",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "startSeconds": 141.806,
+          "durationSeconds": 13.864
+        },
+        {
+          "turn": 11,
+          "speaker": "host",
+          "text": "Knee extension torque did. In that later block, the higher dose exceeded placebo by 41.36 newton meters and the lower dose by 25.98 newton meters. That's a specific finding at the tested movement speed, rather than a general dose advantage.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "startSeconds": 155.909,
+          "durationSeconds": 16.149
+        },
+        {
+          "turn": 12,
+          "speaker": "cohost",
+          "text": "Specific is doing a lot of work there. What about the explosive push-off test, where measurement noise could change the interpretation?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "startSeconds": 172.259,
+          "durationSeconds": 7.152
+        },
+        {
+          "turn": 13,
+          "speaker": "host",
+          "text": "Higher-dose average power exceeded placebo by 137.3 watts, but baseline typical error was 104.20 watts. That error describes repeat measurement fluctuation. The direct dose comparison wasn't significant, and one exposure per dose couldn't establish a stable individual response.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "startSeconds": 179.651,
+          "durationSeconds": 35.462
+        },
+        {
+          "turn": 14,
+          "speaker": "cohost",
+          "text": "I'd want repeated task benefits and tolerability before keeping it. The later block began around sixty minutes, but tests continued afterward. We can't call that everyone's precise peak, especially when caffeine concentration wasn't measured and side effects were only asked about verbally.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "startSeconds": 215.313,
+          "durationSeconds": 16.387
+        },
+        {
+          "turn": 15,
+          "speaker": "host",
+          "text": "That same need to name the benefit carries into weight management. What would persuade you that a supplement helped a combat athlete? A lower scale reading, making a weight category, or preserving the ability to train and compete?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "startSeconds": 231.9,
+          "durationSeconds": 15.057
+        },
+        {
+          "turn": 16,
+          "speaker": "cohost",
+          "text": "I'd want those questions kept separate. Making weight matters to eligibility, but it doesn't by itself tell me how the athlete performs or feels.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "startSeconds": 247.197,
+          "durationSeconds": 8.993
+        },
+        {
+          "turn": 17,
+          "speaker": "host",
+          "text": "The tangeretin trial enrolled thirty female combat athletes, fifteen per group. For thirty days, one group received four hundred milligrams daily alongside whey protein, while the comparator received whey. This happened during winter training with centralized meals and normal drinking.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "startSeconds": 256.39,
+          "durationSeconds": 17.488
+        },
+        {
+          "turn": 18,
+          "speaker": "cohost",
+          "text": "So it wasn't a rapid dehydration experiment. The supplemented group's mean weight went from 61.58 to 60.86 kilograms, while the comparator went from 60.96 to 61.26. Was there evidence that those patterns differed beyond a descriptive contrast?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "startSeconds": 274.078,
+          "durationSeconds": 20.822
+        },
+        {
+          "turn": 19,
+          "speaker": "host",
+          "text": "Yes, the group by time interaction for weight was significant. That asks whether the groups changed differently over time. Body fat percentage also showed an interaction, with the supplemented group's mean falling from 23.92 to 22.92 percent.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "startSeconds": 295.14,
+          "durationSeconds": 16.946
+        },
+        {
+          "turn": 20,
+          "speaker": "cohost",
+          "text": "That's about one percentage point in body fat. Do the individual weight-loss counts tell us anything beyond those average changes?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "startSeconds": 312.286,
+          "durationSeconds": 8.757
+        },
+        {
+          "turn": 21,
+          "speaker": "host",
+          "text": "Twelve of fifteen supplemented athletes lost weight, compared with six of fifteen controls. Those are descriptive counts without a reported statistical comparison of the proportions. And the report flags body composition totals that don't clearly reconcile with body weight.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "startSeconds": 321.284,
+          "durationSeconds": 17.728
+        },
+        {
+          "turn": 22,
+          "speaker": "cohost",
+          "text": "That makes me cautious about treating the body composition table as a settled explanation. There's also a performance trap here. If aerobic capacity improves significantly in one group but not the other, have we proved the supplement helped?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "startSeconds": 339.212,
+          "durationSeconds": 14.643
+        },
+        {
+          "turn": 23,
+          "speaker": "host",
+          "text": "No, we still need the comparison between changes. The aerobic capacity interaction had a p value of 0.445, and time to exhaustion had 0.166. Neither established an intervention-specific improvement, despite favorable changes within the supplemented group.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "startSeconds": 354.095,
+          "durationSeconds": 20.233
+        },
+        {
+          "turn": 24,
+          "speaker": "cohost",
+          "text": "Then there's a preliminary body change signal, with reporting questions, rather than demonstrated competition benefit. Thirty days in a small mixed-sport sample also leaves long-term safety unresolved. Weight loss can't clear concerns about low energy availability or justify rapid weight cutting.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "startSeconds": 374.528,
+          "durationSeconds": 17.851
+        },
+        {
+          "turn": 25,
+          "speaker": "host",
+          "text": "Agreed. Now suppose someone says the military study is stronger because it measured a functional fitness test. Would that make you more willing to consider the cinnamon addition, or would you still start with how the groups were compared?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "startSeconds": 392.579,
+          "durationSeconds": 12.366
+        },
+        {
+          "turn": 26,
+          "speaker": "cohost",
+          "text": "I'd welcome a functional outcome, then inspect the comparison. What did the training group do, and what did cinnamon add to it?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "startSeconds": 405.185,
+          "durationSeconds": 8.229
+        },
+        {
+          "turn": 27,
+          "speaker": "host",
+          "text": "The four groups received Tabata-style functional training, cinnamon, both, or usual military activity. Forty-eight male cadets were randomized and forty-five completed the six weeks. The cinnamon exposure was 1.5 grams daily, and supplementation had no placebo.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "startSeconds": 413.654,
+          "durationSeconds": 17.645
+        },
+        {
+          "turn": 28,
+          "speaker": "cohost",
+          "text": "The combined group's Army Combat Fitness Test score rose from 443.6 to 497.2 points, among thirteen completers. That's a visible change, but a before-and-after increase doesn't isolate cinnamon. What happened against training alone?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "startSeconds": 431.499,
+          "durationSeconds": 16.069
+        },
+        {
+          "turn": 29,
+          "speaker": "host",
+          "text": "The thirteen training-only completers went from 429.6 to 466.8 points. The paper reports the combined group outperforming training alone after accounting for baseline. That deserves attention, although starting scores differed and the analysis included only people who finished.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "startSeconds": 447.808,
+          "durationSeconds": 20.158
+        },
+        {
+          "turn": 30,
+          "speaker": "cohost",
+          "text": "So we shouldn't erase the positive comparison. But without a supplement placebo, and with inconsistent reporting, confidence in the extra benefit is limited.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "startSeconds": 468.167,
+          "durationSeconds": 11.474
+        },
+        {
+          "turn": 31,
+          "speaker": "host",
+          "text": "Exactly. Three sessions weekly over six weeks conflicts with a reported twenty-four sessions. The lean mass increase is also described inconsistently. How would you handle the reported rise in irisin, a blood marker discussed as a possible link to adaptation?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "startSeconds": 479.84,
+          "durationSeconds": 18.856
+        },
+        {
+          "turn": 32,
+          "speaker": "cohost",
+          "text": "As something that changed alongside function, without proof it caused the improvement. I'd want clearer reporting and a stronger replication before routine cinnamon use. Even the six fitness components weren't uniformly superior, since the leg tuck comparison wasn't significant.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "startSeconds": 498.937,
+          "durationSeconds": 17.1
+        },
+        {
+          "turn": 33,
+          "speaker": "host",
+          "text": "That caution about what a measure establishes also applies to the Canadian Athlete Diet Index. Researchers adapted an Australian tool through expert review, English and French translation, and athlete testing. The question here was whether its content and language fit.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841348"
+          ],
+          "startSeconds": 516.236,
+          "durationSeconds": 16.076
+        },
+        {
+          "turn": 34,
+          "speaker": "cohost",
+          "text": "Fit is useful. But if athletes understand the questions, have we learned whether their answers accurately describe what they're eating?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841348"
+          ],
+          "startSeconds": 532.512,
+          "durationSeconds": 9.1
+        },
+        {
+          "turn": 35,
+          "speaker": "host",
+          "text": "Not from this study. Of forty-nine athletes, forty-four found it relevant or very relevant and thirty-nine found it easy or very easy to understand. Those results support acceptability and comprehension, rather than accuracy against a dietary reference measure.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841348"
+          ],
+          "startSeconds": 541.852,
+          "durationSeconds": 20.685
+        },
+        {
+          "turn": 36,
+          "speaker": "cohost",
+          "text": "And the final tool has ninety-eight questions, with thirty-six scored and sixty-two unscored. That suggests the surrounding context deserves attention too. Would you explain the kinds of validity they supported, without making them sound interchangeable?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42841348"
+          ],
+          "startSeconds": 562.737,
+          "durationSeconds": 16.104
+        },
+        {
+          "turn": 37,
+          "speaker": "host",
+          "text": "Face validity asks whether a tool seems understandable and sensible to users. Content validity asks whether it covers the intended material. The Canadian adaptation supports those, while accuracy against a suitable reference and reliability still need study.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42841348"
+          ],
+          "startSeconds": 579.081,
+          "durationSeconds": 17.038
+        },
+        {
+          "turn": 38,
+          "speaker": "cohost",
+          "text": "Then I'd use its adaptation process as a useful example when checking local foods, language, and training circumstances. I'd avoid borrowing its score as a Taiwan diagnostic threshold. The sample covered only triathlon, hockey, and athletics, so broader fit also remains open.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42841348"
+          ],
+          "startSeconds": 596.319,
+          "durationSeconds": 16.708
+        },
+        {
+          "turn": 39,
+          "speaker": "host",
+          "text": "That leaves the rugby study, where the measured outcome was absence after concussion. Across six seasons of Irish community rugby, researchers recorded 456 events in 369 players. The surveillance covered 5,740 player-seasons, which includes repeated seasonal participation rather than that many unique people.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42842640"
+          ],
+          "startSeconds": 613.227,
+          "durationSeconds": 23.055
+        },
+        {
+          "turn": 40,
+          "speaker": "cohost",
+          "text": "So both players and events matter to the denominator. What did the absence records show, and how much was shaped by policy?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42842640"
+          ],
+          "startSeconds": 636.483,
+          "durationSeconds": 7.916
+        },
+        {
+          "turn": 41,
+          "speaker": "host",
+          "text": "Absence data were available for 454 of 456 events. Men's median absence was twenty-four days and women's was twenty-eight. The middle half ranged from twenty-one to thirty-three days for men and twenty-one to forty-two for women.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42842640"
+          ],
+          "startSeconds": 644.639,
+          "durationSeconds": 17.911
+        },
+        {
+          "turn": 42,
+          "speaker": "cohost",
+          "text": "And the local adult policy required at least twenty-one days before return. Those distributions therefore include a policy floor. We can't read the medians as pure biological recovery times, or book an individual athlete's return from them.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42842640"
+          ],
+          "startSeconds": 662.75,
+          "durationSeconds": 18.079
+        },
+        {
+          "turn": 43,
+          "speaker": "host",
+          "text": "Right. Nor did the study measure return to previous performance. More recorded match events occurred in the second half, but that doesn't prove fatigue caused them. Would you treat that pattern as a reason to change prevention training?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42842640"
+          ],
+          "startSeconds": 681.029,
+          "durationSeconds": 13.368
+        },
+        {
+          "turn": 44,
+          "speaker": "cohost",
+          "text": "I'd keep recognition and reporting attentive throughout play, but this study didn't test a prevention program. Position counts weren't adjusted for exposure either. The longer female absences are a care burden signal, without identifying one biological cause or an individual's recovery date.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42842640"
+          ],
+          "startSeconds": 694.636,
+          "durationSeconds": 16.77
+        },
+        {
+          "turn": 45,
+          "speaker": "host",
+          "text": "That's a useful place to bring the week together. A higher jump, a lighter body, a fitness score, an understandable questionnaire, and fewer absent days each answer a different question. None supplies a universal permission slip for competition or the next intervention.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42841357",
+            "pmid-42841334",
+            "pmid-42841356",
+            "pmid-42841348"
+          ],
+          "startSeconds": 711.606,
+          "durationSeconds": 17.314
+        },
+        {
+          "turn": 46,
+          "speaker": "cohost",
+          "text": "Our EDGE SPORT proposal is to write down the target task and comparison before trying a change. Then review repeatable task results alongside diet, discomfort, sleep, and recovery. That combined workflow hasn't been validated by these studies, and it provides no universal cutoff.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [],
+          "startSeconds": 729.12,
+          "durationSeconds": 17.413
+        },
+        {
+          "turn": 47,
+          "speaker": "host",
+          "text": "And write down what would change your mind. We'd reconsider when benefits don't repeat, conditions can't be compared, or health costs emerge. Suspected concussion needs professional assessment, while participation, competition, and previous performance deserve separate records. That's our operational proposal, not individual medical clearance.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [],
+          "startSeconds": 746.732,
+          "durationSeconds": 19.831
+        },
+        {
+          "turn": 48,
+          "speaker": "cohost",
+          "text": "I like leaving room to revise the decision without blaming the athlete for an uncertain result. Pick the question, check the comparison, and keep the person's experience beside the numbers. The written weekly report and original sources have the methods and unresolved reporting details.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 766.764,
+          "durationSeconds": 16.003
+        }
+      ],
+      "factCheck": [
+        {
+          "claim": "Fifteen male boxers completed placebo, 3 mg/kg caffeine, and 6 mg/kg caffeine in a randomized double-blind crossover trial.",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "boundary": "Small male-only sample. Each dose was tested once. Research exposures do not establish a preferred competition dose or stable individual response."
+        },
+        {
+          "claim": "In the later testing block, jump height differences versus placebo were 0.039 m for 3 mg/kg, with 95% CI 0.019–0.059, and 0.051 m for 6 mg/kg, with 95% CI 0.032–0.071.",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "boundary": "The doses did not differ significantly for this outcome. Nonsignificance does not establish equivalence. The block began at 60 minutes and tests extended approximately to 75 minutes. Punching and competition were not measured."
+        },
+        {
+          "claim": "Higher-dose caffeine increased knee extension peak torque by 41.36 N·m versus placebo and 25.98 N·m versus lower-dose caffeine.",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "boundary": "This was a task-specific result in the later block at a tested speed of 60 degrees per second. It does not establish a general higher-dose advantage."
+        },
+        {
+          "claim": "Higher-dose caffeine increased explosive push-off mean power by 137.3 W versus placebo. Baseline typical error was 104.20 W.",
+          "evidenceSourceIds": [
+            "pmid-42841357"
+          ],
+          "boundary": "The direct dose comparison was not significant. Typical error informs repeat measurement variability and is not a universal benefit threshold. Adverse effects were collected only through verbal questioning."
+        },
+        {
+          "claim": "Thirty female combat athletes were randomized into two groups of fifteen for 30 days of tangeretin plus whey versus whey alone. The tangeretin exposure was 400 mg daily.",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "boundary": "The study used centralized meals and normal drinking during winter training. It did not test rapid dehydration, different tangeretin doses, actual competition, or long-term safety."
+        },
+        {
+          "claim": "Mean weight changed from 61.58 to 60.86 kg with tangeretin and from 60.96 to 61.26 kg in controls. The weight interaction p value was 0.018. Supplemented-group body fat changed from 23.92% to 22.92%, with interaction p = 0.008.",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "boundary": "The body fat change is approximately one percentage point. Reported body composition totals and definitions require verification. These changes do not establish competition benefit or absence of low energy availability."
+        },
+        {
+          "claim": "Weight loss occurred in 12/15 supplemented athletes and 6/15 controls. Aerobic capacity and time-to-exhaustion interaction p values were 0.445 and 0.166.",
+          "evidenceSourceIds": [
+            "pmid-42841334"
+          ],
+          "boundary": "The individual weight-loss counts were descriptive without a reported between-group proportion test. Aerobic results did not establish intervention-specific improvements. Significant change within one group alone does not demonstrate superiority."
+        },
+        {
+          "claim": "The military cadet trial randomized 48 men and analyzed 45 completers across training, cinnamon, combined, and usual-activity groups over six weeks. Cinnamon exposure was 1.5 g daily.",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "boundary": "Supplementation lacked a placebo. Completer-only analysis, baseline differences, and reporting inconsistencies limit attribution and generalizability."
+        },
+        {
+          "claim": "Combined-group fitness scores increased from 443.6 to 497.2 points and training-only scores from 429.6 to 466.8 points, with thirteen completers in each group. The paper reports a baseline-adjusted combined-group advantage.",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "boundary": "Raw within-group increases do not isolate cinnamon's effect. The reported combined-versus-training comparison deserves conservative consideration. Leg tuck did not show a significant between-group result, with p = 0.152."
+        },
+        {
+          "claim": "The military paper reports three weekly sessions over six weeks but also twenty-four sessions, and describes lean mass changes inconsistently.",
+          "evidenceSourceIds": [
+            "pmid-42841356"
+          ],
+          "boundary": "Training dose should not be copied before verification. BIA hydration control was limited. Concurrent irisin and functional changes do not establish mediation, synergy, or injury prevention."
+        },
+        {
+          "claim": "The final Canadian Athlete Diet Index has 98 questions, including 36 scored and 62 unscored. In athlete testing, 44/49 found it relevant and 39/49 found it easy to understand.",
+          "evidenceSourceIds": [
+            "pmid-42841348"
+          ],
+          "boundary": "These findings support content and face validity, comprehension, and acceptability. Canadian construct validity, criterion validity, and reliability remain to be studied. Australian validation cannot be transferred automatically."
+        },
+        {
+          "claim": "The dietary tool trial sample represented triathlon, hockey, and athletics.",
+          "evidenceSourceIds": [
+            "pmid-42841348"
+          ],
+          "boundary": "The convenience sample does not establish universal sport applicability, a Taiwan version, diagnostic thresholds, or RED-S diagnosis."
+        }
+      ],
+      "closingTakeaways": [
+        "Define the task and comparison before interpreting an improvement.",
+        "Keep weight, laboratory capacity, biomarkers, and competition outcomes distinct.",
+        "Check reporting consistency and measurement suitability before adopting a strategy.",
+        "Treat concussion absence records as group context. They do not supply individual clearance dates or demonstrate restored performance.",
+        "Recording repeatable benefits, tolerability, and reasons to revise a decision is an unvalidated EDGE SPORT proposal.",
+        "Consult the written weekly report and original sources for methods, limitations, and unresolved discrepancies."
+      ],
+      "disclosure": "This episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance.",
+      "editorReview": {
+        "approvedForPublish": false,
+        "verifiedBy": "",
+        "verifiedAt": ""
+      },
+      "publicationMode": "automated",
+      "automationProvider": "codex",
+      "renderedAt": "2026-10-13T14:39:33.312Z",
+      "publishedAt": "2026-10-13T14:39:33.865Z",
+      "audio": {
+        "src": "assets/podcasts/2026-w42-78851feca8ce.mp3",
+        "mimeType": "audio/mpeg",
+        "bytes": 9415052,
+        "bitrate": "96k",
+        "sampleRate": 24000
+      },
+      "researchSources": [
+        {
+          "recordId": "pmid-42841357",
+          "title": "Acute effects of 3 and 6 mg·Kg(-1) caffeine on strength-power performance and isokinetic peak torque in competitive male boxers: a randomized, double-blind, placebo-controlled crossover trial.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-07",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2743368",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42842640",
+          "title": "Sport-related Concussion Characteristics and Time-loss Among Male and Female Community Rugby Union Players Across 6 Seasons.",
+          "journal": "Sports health",
+          "publicationDate": "2026-10-07",
+          "sourceUrl": "https://doi.org/10.1177/19417381261474860",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42841334",
+          "title": "Effect of tangeretin supplements on simulated precompetition weight loss in female combat sports athletes.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-07",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2740800",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42841356",
+          "title": "Effects of Tabata-style functional training and cinnamon supplementation on army combat fitness test performance, serum irisin, and body composition in military cadets: a randomized controlled trial.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-07",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2743157",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42841348",
+          "title": "Cross-cultural adaptation of the Athlete Diet Index, a web-based dietary assessment tool for athletes.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-07",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2741897",
+          "contentLevel": "full-text-open"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
       "id": "2026-w41",
       "status": "published",
       "publishDate": "2026-10-10",
