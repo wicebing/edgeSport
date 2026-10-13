@@ -1,7 +1,7 @@
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
-import { readFile } from "node:fs/promises";
+import { readFile, readdir } from "node:fs/promises";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const argumentsByName = parseArguments(process.argv.slice(2));
@@ -12,6 +12,8 @@ const days = argumentsByName.get("days") ?? "7";
 const maximumArticles = argumentsByName.get("max-articles") ?? "8";
 const provider = argumentsByName.get("provider") ?? "codex";
 const reviewer = argumentsByName.get("reviewer") ?? "";
+
+await assertContentHasNoMergeMarkers();
 
 if (!/^\d{4}-\d{2}-\d{2}$/u.test(publishDate)) {
   throw new Error("--date must use YYYY-MM-DD.");
@@ -183,6 +185,23 @@ async function monthlyTopicExists(monthlyId) {
   } catch (error) {
     if (error.code === "ENOENT") return false;
     throw error;
+  }
+}
+
+async function assertContentHasNoMergeMarkers() {
+  const contentDirectory = resolve(rootDirectory, "content");
+  const fileNames = (await readdir(contentDirectory)).filter((fileName) => fileName.endsWith(".json"));
+  const conflictedFiles = [];
+
+  for (const fileName of fileNames) {
+    const text = await readFile(resolve(contentDirectory, fileName), "utf8");
+    if (/^(?:<<<<<<<|=======|>>>>>>>)(?: .*)?$/mu.test(text)) conflictedFiles.push(fileName);
+  }
+
+  if (conflictedFiles.length > 0) {
+    throw new Error(
+      `Git merge markers remain in content/${conflictedFiles.join(", content/")}. Resolve the merge before running the weekly workflow.`
+    );
   }
 }
 

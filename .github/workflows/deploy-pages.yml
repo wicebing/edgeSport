@@ -3,12 +3,10 @@ name: Deploy EDGE SPORT to GitHub Pages
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "17 2 * * 1"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -33,25 +31,6 @@ jobs:
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-
-      - name: Refresh weekly research metadata
-        if: github.event_name == 'schedule'
-        run: |
-          npm run research:harvest -- --days 7 --no-inbox
-          npm run knowledge:index
-
-      - name: Commit refreshed research metadata
-        if: github.event_name == 'schedule'
-        run: |
-          if git diff --quiet -- content/research-radar.json content/knowledge-index.json; then
-            echo "Research radar is already current."
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add content/research-radar.json content/knowledge-index.json
-            git commit -m "chore: refresh weekly research radar"
-            git push
-          fi
 
       - name: Validate weekly content
         run: npm run validate
