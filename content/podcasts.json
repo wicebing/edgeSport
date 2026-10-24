@@ -8,6 +8,824 @@
   "episodes": [
     {
       "schemaVersion": 1,
+      "id": "2026-w43",
+      "status": "published",
+      "publishDate": "2026-10-24",
+      "showName": "edgeSport4Podcast",
+      "title": "Feeling Better, Ready for What?",
+      "episodeSubtitle": "Recovery, nutrition, strength and the next task",
+      "summary": "Ying and Bing explore eight sources on cold water, elastic bands, protein, recreational sports nutrition, weight reduction, creatine, ACL return outcomes and injection safety. They ask when an improved measurement actually supports the next task, while keeping study findings, clinical decisions and editorial proposals distinct.",
+      "language": "en",
+      "estimatedMinutes": 14,
+      "durationSeconds": 794.157,
+      "wordCount": 1880,
+      "hosts": [
+        {
+          "id": "host",
+          "displayName": "Ying",
+          "role": "Evidence guide · female voice"
+        },
+        {
+          "id": "cohost",
+          "displayName": "Bing",
+          "role": "Analytical partner · male voice"
+        }
+      ],
+      "sourceWeeklyReportId": "2026-w43",
+      "sourceRecordIds": [
+        "pmid-42873185",
+        "pmid-42862730",
+        "pmid-42887879",
+        "pmid-42865090",
+        "pmid-42877127",
+        "pmid-42868132",
+        "pmid-42865115",
+        "pmid-42867412"
+      ],
+      "learningGoals": [
+        "Distinguish feeling recovered from performance on a specific task at a specific time.",
+        "Separate acute protein synthesis, daily nutrition needs and weight reduction guidance.",
+        "Explain why analysis populations, outcome definitions and denominators change interpretation.",
+        "Recognize the limits of laboratory safety signals and observational return-to-sport associations.",
+        "Describe an explicitly unvalidated approach to reviewing a strategy with the athlete."
+      ],
+      "showNotes": [
+        "Brand pronunciation: edgeSport4Podcast is spoken as Edge Sport for Podcast.",
+        "All research discussion comes from the supplied 2026-w43 weekly report. No relatedIssues research is used.",
+        "Cold water: a 15-person crossover trial compared two combined temperature and duration protocols with seated rest.",
+        "Elastic bands: the female soccer trial found selected strength signals without clear additional jump or change-of-direction benefits.",
+        "Protein synthesis: the network meta-analysis measured responses over hours, rather than long-term muscle growth.",
+        "Sports nutrition: the ten-expert session is a narrative meeting summary. Its marathon carbohydrate figures are model estimates.",
+        "Weight reduction: the ISSN position statement combines evidence from different populations and does not supply universal athlete targets.",
+        "Creatine: the breath-hold cycling performance signal depended on the analysis population and did not establish underwater benefit or safety-based progression criteria for underwater training based on this trial's findings and limitations as reported in the weekly report."
+      ],
+      "chapters": [
+        {
+          "title": "Feeling better before the next task",
+          "summary": "Cold water illustrates why timing and the selected performance test matter.",
+          "turnStart": 1,
+          "startSeconds": 1.57
+        },
+        {
+          "title": "When strength does and doesn't transfer",
+          "summary": "Elastic band training improves selected measures without establishing broader performance or injury benefits.",
+          "turnStart": 11,
+          "startSeconds": 149.514
+        },
+        {
+          "title": "Protein over hours and nutrition over days",
+          "summary": "Acute synthesis rankings, recreational fueling and weight reduction answer different questions.",
+          "turnStart": 17,
+          "startSeconds": 226.589
+        },
+        {
+          "title": "A result that changes with the analysis",
+          "summary": "The creatine breath-hold trial offers a tentative laboratory signal.",
+          "turnStart": 31,
+          "startSeconds": 446.738
+        },
+        {
+          "title": "What counts as returning?",
+          "summary": "ACL outcomes depend on sport, level and available denominators.",
+          "turnStart": 37,
+          "startSeconds": 554.566
+        },
+        {
+          "title": "Pain relief, tissue safety and a reviewable decision",
+          "summary": "Injection evidence requires careful denominators, followed by a practical editorial proposal.",
+          "turnStart": 43,
+          "startSeconds": 648.599
+        }
+      ],
+      "transcript": [
+        {
+          "turn": 1,
+          "speaker": "host",
+          "text": "You've finished training and someone asks whether you feel ready to go again. I'd want to ask what we're doing next. Welcome to edgeSport4Podcast. I'm Ying, and this week's question is when feeling better actually supports the next task.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 1.57,
+          "durationSeconds": 14.971
+        },
+        {
+          "turn": 2,
+          "speaker": "cohost",
+          "text": "I'm Bing. That question gets awkward when the athlete feels better but the test looks worse. We've got eight sources today that make us separate comfort, strength, nutrition signals and actual participation. What would make us change the plan rather than just admire a number?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42873185",
+            "pmid-42865090",
+            "pmid-42862730",
+            "pmid-42865115"
+          ],
+          "startSeconds": 16.661,
+          "durationSeconds": 16.344
+        },
+        {
+          "turn": 3,
+          "speaker": "host",
+          "text": "Cold water gives us a concrete example. Fifteen male university soccer players completed all three conditions after bodyweight squats to exhaustion. Each player tried water at fifteen degrees Celsius for eleven minutes, ten degrees for two and a half minutes, and seated rest.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42873185"
+          ],
+          "startSeconds": 33.245,
+          "durationSeconds": 18.801
+        },
+        {
+          "turn": 4,
+          "speaker": "cohost",
+          "text": "So this compares two packages of temperature and time. It doesn't tell us what colder water alone would do.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42873185"
+          ],
+          "startSeconds": 52.246,
+          "durationSeconds": 6.568
+        },
+        {
+          "turn": 5,
+          "speaker": "host",
+          "text": "Exactly, and their immediate tests happened at different elapsed times. After the longer immersion, the average twenty metre sprint took 3.47 seconds. After the shorter immersion it took 3.26 seconds, with a statistically significant difference between those two conditions.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42873185"
+          ],
+          "startSeconds": 59.014,
+          "durationSeconds": 16.759
+        },
+        {
+          "turn": 6,
+          "speaker": "cohost",
+          "text": "Lower is faster, so the shorter package looked better there. Rest averaged 3.32 seconds, but that doesn't establish every possible pairwise difference. What happened when they jumped rather than sprinted? That's where I'd worry about calling someone generally recovered.",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42873185"
+          ],
+          "startSeconds": 75.972,
+          "durationSeconds": 17.187
+        },
+        {
+          "turn": 7,
+          "speaker": "host",
+          "text": "The countermovement jump, a downward movement followed by a vertical jump, was lower immediately after the longer immersion than after either alternative. Average heights were about thirty five centimetres after the longer immersion, thirty eight after the shorter one and thirty nine after rest.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42873185"
+          ],
+          "startSeconds": 93.359,
+          "durationSeconds": 17.035
+        },
+        {
+          "turn": 8,
+          "speaker": "cohost",
+          "text": "That makes the next task matter. Did the picture change when the players had a day to recover?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42873185"
+          ],
+          "startSeconds": 110.594,
+          "durationSeconds": 6.708
+        },
+        {
+          "turn": 9,
+          "speaker": "host",
+          "text": "At twenty four hours, both cold water conditions had faster sprints than rest. That doesn't establish that the longer protocol was better than the shorter one the next day, and the study didn't show a consistent soreness or intermittent endurance advantage.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42873185"
+          ],
+          "startSeconds": 117.542,
+          "durationSeconds": 15.053
+        },
+        {
+          "turn": 10,
+          "speaker": "cohost",
+          "text": "I'd keep that fairly narrow. These were young men with cold water experience, using a squat fatigue model rather than a match. Reduced fatigue feelings alongside poorer immediate jumping are useful evidence against letting one reassuring answer settle the whole decision.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42873185"
+          ],
+          "startSeconds": 132.796,
+          "durationSeconds": 16.518
+        },
+        {
+          "turn": 11,
+          "speaker": "host",
+          "text": "The same question comes up with training. If a team gets stronger, what else has improved? The female soccer trial added supervised elastic band work twice a week for nine weeks to normal training and matches across three age groups.",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42865090"
+          ],
+          "startSeconds": 149.514,
+          "durationSeconds": 15
+        },
+        {
+          "turn": 12,
+          "speaker": "cohost",
+          "text": "There were seventy four players after the intervention and sixty six at follow-up. The clearest strength signal was in the under nineteen group, but extra training time wasn't matched in the control group. I'd hesitate before attributing everything specifically to the bands.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42865090"
+          ],
+          "startSeconds": 164.714,
+          "durationSeconds": 14.463
+        },
+        {
+          "turn": 13,
+          "speaker": "host",
+          "text": "Would that hesitation stop you trying it with a similar team that has limited access to equipment?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42865090"
+          ],
+          "startSeconds": 179.376,
+          "durationSeconds": 5.893
+        },
+        {
+          "turn": 14,
+          "speaker": "cohost",
+          "text": "It wouldn't automatically stop a supervised trial. I'd explain that selected knee strength measures improved, while jumps and change of direction showed no clear additional benefit. If the coach wants faster cutting, we'd still need to measure that rather than substitute a strength result.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42865090"
+          ],
+          "startSeconds": 185.51,
+          "durationSeconds": 15.189
+        },
+        {
+          "turn": 15,
+          "speaker": "host",
+          "text": "And we couldn't sell it as injury prevention. The trial didn't measure injury reduction, and strength estimates falling after three weeks without the bands weren't statistically significant changes. That leaves uncertainty about maintenance, rather than proof that everyone quickly loses the gains.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42865090"
+          ],
+          "startSeconds": 200.899,
+          "durationSeconds": 17.411
+        },
+        {
+          "turn": 16,
+          "speaker": "cohost",
+          "text": "Useful equipment, potentially useful strength changes, and still a separate question about football performance. I can work with that.",
+          "delivery": "warm",
+          "evidenceSourceIds": [
+            "pmid-42865090"
+          ],
+          "startSeconds": 218.51,
+          "durationSeconds": 7.879
+        },
+        {
+          "turn": 17,
+          "speaker": "host",
+          "text": "That separation gets harder when a supplement comes with a ranking. Our protein review combined fifty one studies of single protein sources after resistance exercise. Its main outcome was muscle protein synthesis, meaning the rate of making new muscle protein over the measured hours.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42862730"
+          ],
+          "startSeconds": 226.589,
+          "durationSeconds": 18.367
+        },
+        {
+          "turn": 18,
+          "speaker": "cohost",
+          "text": "Measured with amino acid tracers and muscle biopsies, rather than watching muscle size change over months. In the primary network analysis, only whey had a statistically significant advantage over control. How large was that difference in the actual unit?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42862730"
+          ],
+          "startSeconds": 245.156,
+          "durationSeconds": 15.421
+        },
+        {
+          "turn": 19,
+          "speaker": "host",
+          "text": "The mean difference was 0.02 percentage points per hour, with a confidence interval from 0.01 to 0.04. It's an acute synthesis measurement, so we can't multiply it through the calendar and promise a particular amount of extra muscle.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42862730"
+          ],
+          "startSeconds": 260.817,
+          "durationSeconds": 16.586
+        },
+        {
+          "turn": 20,
+          "speaker": "cohost",
+          "text": "What about a source near the top of the ranking? Wouldn't that still be our best bet?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42862730"
+          ],
+          "startSeconds": 277.603,
+          "durationSeconds": 5.906
+        },
+        {
+          "turn": 21,
+          "speaker": "host",
+          "text": "Only with considerable caution. Native whey and pea protein had sparse evidence, with just one and two study arms respectively. The network also had substantial heterogeneity and inconsistency, so rank alone is a shaky reason to change someone's shopping or claim equivalence.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42862730"
+          ],
+          "startSeconds": 283.749,
+          "durationSeconds": 17.571
+        },
+        {
+          "turn": 22,
+          "speaker": "cohost",
+          "text": "Then I'd ask about the daily diet before choosing a winner. The ten-expert sports nutrition session helps with that broader question, though it's a narrative meeting summary. It isn't a new trial or a systematic comparison of every recommendation.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42862730",
+            "pmid-42887879"
+          ],
+          "startSeconds": 301.52,
+          "durationSeconds": 13.454
+        },
+        {
+          "turn": 23,
+          "speaker": "host",
+          "text": "It also challenges the idea that all nutrition guidance comes from elite athletes. The summary cites an audit in which only eighty one of eighteen hundred and sixty seven supplement studies included the highest athlete tiers, about four percent. That's a cited audit, not new recruitment here.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42887879"
+          ],
+          "startSeconds": 315.174,
+          "durationSeconds": 19.266
+        },
+        {
+          "turn": 24,
+          "speaker": "cohost",
+          "text": "So being recreational doesn't make guidance irrelevant. Which details would you need before translating it to an actual session?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42887879"
+          ],
+          "startSeconds": 334.64,
+          "durationSeconds": 9.789
+        },
+        {
+          "turn": 25,
+          "speaker": "host",
+          "text": "Duration, intensity, total intake and tolerance. Its marathon model estimated lower carbohydrate per hour for a four hour runner than a two hour runner, yet a higher total over the race. Those were model estimates, but they show why hourly and total amounts answer different questions.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42887879"
+          ],
+          "startSeconds": 344.669,
+          "durationSeconds": 19.789
+        },
+        {
+          "turn": 26,
+          "speaker": "cohost",
+          "text": "And a practical protein target isn't a minimum admission ticket for exercise benefits. The session treats 1.6 grams per kilogram per day as useful for many people, rather than a line below which training stops helping. Does weight reduction change the context again?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42887879",
+            "pmid-42867412"
+          ],
+          "startSeconds": 364.658,
+          "durationSeconds": 14.738
+        },
+        {
+          "turn": 27,
+          "speaker": "host",
+          "text": "Yes. The weight reduction position statement distinguishes general adults, people doing resistance training, and lean resistance-trained adults in an energy deficit. Its higher protein ranges for that last situation are contextual recommendations, rather than competing answers to the same experiment.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42867412"
+          ],
+          "startSeconds": 379.636,
+          "durationSeconds": 19.976
+        },
+        {
+          "turn": 28,
+          "speaker": "cohost",
+          "text": "I'd be more interested in preserving function than winning a weekly weigh-in. Does the statement support that priority?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42867412"
+          ],
+          "startSeconds": 399.812,
+          "durationSeconds": 6.949
+        },
+        {
+          "turn": 29,
+          "speaker": "host",
+          "text": "It puts adequate protein, resistance training and a sustainable energy deficit together. Much of the longer-term evidence comes from overweight or obese adults, so applying it to very lean athletes needs care, and it doesn't cover adolescent weight reduction or acute dehydration cuts.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42867412"
+          ],
+          "startSeconds": 407.001,
+          "durationSeconds": 22.068
+        },
+        {
+          "turn": 30,
+          "speaker": "cohost",
+          "text": "That also changes how I'd read a plateau. The statement doesn't let us diagnose metabolic damage from stable weight, and short-term fat-free mass changes can include water and glycogen. If strength or training quality keeps falling, I'd reopen the plan rather than deepen restriction automatically.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42867412"
+          ],
+          "startSeconds": 429.268,
+          "durationSeconds": 17.27
+        },
+        {
+          "turn": 31,
+          "speaker": "host",
+          "text": "Water also complicates the creatine study, where short-term fat-free mass changes can't simply be called new muscle. Twenty trained breath-hold divers were randomized to creatine or placebo for seven days, then tested during breath-hold cycling in a laboratory.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42868132"
+          ],
+          "startSeconds": 446.738,
+          "durationSeconds": 17.023
+        },
+        {
+          "turn": 32,
+          "speaker": "cohost",
+          "text": "And this one makes the analysis population unusually important. What changed when everyone randomized was kept in the analysis?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42868132"
+          ],
+          "startSeconds": 463.961,
+          "durationSeconds": 7.138
+        },
+        {
+          "turn": 33,
+          "speaker": "host",
+          "text": "The analysis excluding one creatine participant found significant differences in changes in cycling distance and breath-hold duration. The intention-to-treat analysis, which retained all twenty randomized participants, didn't confirm those performance differences, with interaction p values of 0.121 and 0.093.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42868132"
+          ],
+          "startSeconds": 471.339,
+          "durationSeconds": 28.278
+        },
+        {
+          "turn": 34,
+          "speaker": "cohost",
+          "text": "That doesn't prove there was no effect, but it makes the apparent benefit less robust. With a small sample, baseline differences and possible learning effects, I'd describe a finding worth checking rather than a reliable performance gain. Did any other signal remain?",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42868132"
+          ],
+          "startSeconds": 499.818,
+          "durationSeconds": 15.878
+        },
+        {
+          "turn": 35,
+          "speaker": "host",
+          "text": "The lactate accumulation difference remained significant in the intention-to-treat analysis. But lower peripheral lactate doesn't establish delayed acidosis or safer oxygen deprivation, and the device distance reported in metres isn't a measurement of mechanical work in joules.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42868132"
+          ],
+          "startSeconds": 515.935,
+          "durationSeconds": 23.502
+        },
+        {
+          "turn": 36,
+          "speaker": "cohost",
+          "text": "So nothing here supports extending a maximal breath hold or assuming less underwater risk. They didn't test post-supplement underwater performance at all. That's a clear example of a laboratory result that can't carry the practical conclusion someone might most want from it.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42868132"
+          ],
+          "startSeconds": 539.637,
+          "durationSeconds": 14.728
+        },
+        {
+          "turn": 37,
+          "speaker": "host",
+          "text": "Return after ACL reconstruction has its own version of that gap. This secondary analysis involved five hundred young people who had played cutting, jumping or pivoting sports. What would you want a study to mean when it says they returned?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42865115"
+          ],
+          "startSeconds": 554.566,
+          "durationSeconds": 15.611
+        },
+        {
+          "turn": 38,
+          "speaker": "cohost",
+          "text": "I'd want to know whether they resumed any sport, a high-risk sport, or their original sport at their old level. Within two years, four hundred and thirty of four hundred and ninety seven returned to any sport, about eighty seven percent.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42865115"
+          ],
+          "startSeconds": 570.417,
+          "durationSeconds": 11.96
+        },
+        {
+          "turn": 39,
+          "speaker": "host",
+          "text": "But original sport and level was two hundred and twenty five of four hundred and ninety four, about forty six percent. Different available denominators, and a substantially different outcome. Returning to high-risk sport at any level sat between them, at three hundred and eighty of four hundred and ninety seven.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42865115"
+          ],
+          "startSeconds": 582.576,
+          "durationSeconds": 20.282
+        },
+        {
+          "turn": 40,
+          "speaker": "cohost",
+          "text": "That makes the word returned feel incomplete. How should we explain the sex difference without overstating it?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42865115"
+          ],
+          "startSeconds": 603.058,
+          "durationSeconds": 12.71
+        },
+        {
+          "turn": 41,
+          "speaker": "host",
+          "text": "Women had lower adjusted odds of returning to high-risk sport, with an odds ratio of 0.47 in the sensitivity model. Odds compare returning with not returning, so that isn't a statement that women's probability was forty seven percent of men's.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42865115"
+          ],
+          "startSeconds": 616.009,
+          "durationSeconds": 17.701
+        },
+        {
+          "turn": 42,
+          "speaker": "cohost",
+          "text": "And sex wasn't randomized, even though the parent study randomized surgery. These associations can't establish individual clearance rules or prove that changing confidence causes return, and choosing a lower-risk activity needn't be treated as failure if it fits the person's goals.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42865115"
+          ],
+          "startSeconds": 633.909,
+          "durationSeconds": 14.49
+        },
+        {
+          "turn": 43,
+          "speaker": "host",
+          "text": "That respect for the person's goals belongs in treatment conversations too. The local anaesthetic review mapped thirty nine sources on musculoskeletal injections, mixing clinical descriptions with laboratory evidence. All twelve experimental studies were outside the body, and there was no formal risk-of-bias assessment.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42877127"
+          ],
+          "startSeconds": 648.599,
+          "durationSeconds": 22.021
+        },
+        {
+          "turn": 44,
+          "speaker": "cohost",
+          "text": "Its striking number is twenty nine of thirty nine sources mentioning cell toxicity. That denominator is papers, not injected patients, so seventy four point three percent isn't a patient's chance of harm. What concern can we responsibly carry into a clinical discussion?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42877127"
+          ],
+          "startSeconds": 670.82,
+          "durationSeconds": 18.163
+        },
+        {
+          "turn": 45,
+          "speaker": "host",
+          "text": "The review repeatedly raises concentration, exposure time and continuous infusion into a joint, particularly around cartilage toxicity. Those patterns warrant discussion, but they don't establish a safe concentration or a fixed harm rate for a single injection, and pain relief can't establish tissue safety.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42877127"
+          ],
+          "startSeconds": 689.224,
+          "durationSeconds": 21.866
+        },
+        {
+          "turn": 46,
+          "speaker": "cohost",
+          "text": "I'd ask the treating clinician what the anaesthetic is intended to achieve, what alternatives exist and how it'll be given. That keeps the concern useful without turning a mixed evidence map into instructions for choosing a drug or changing its dose ourselves.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42877127"
+          ],
+          "startSeconds": 711.289,
+          "durationSeconds": 14.058
+        },
+        {
+          "turn": 47,
+          "speaker": "host",
+          "text": "Across these examples, I want a modest decision record. Write down the task, the timing, what changed and what would make us reconsider. That's our EDGE SPORT proposal for organizing a discussion, and these eight sources haven't jointly validated it.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [],
+          "startSeconds": 725.547,
+          "durationSeconds": 14.911
+        },
+        {
+          "turn": 48,
+          "speaker": "cohost",
+          "text": "I'd add the athlete's experience beside the functional result. Keep the comparison as consistent as practical and look for a benefit we can reproduce without an unacceptable cost. That remains our editorial approach, with no universal improvement threshold or permission to bypass medical assessment.",
+          "delivery": "clear",
+          "evidenceSourceIds": [],
+          "startSeconds": 740.658,
+          "durationSeconds": 18.252
+        },
+        {
+          "turn": 49,
+          "speaker": "host",
+          "text": "And I'd leave room for the goal to change. Someone may value comfort, another person may need jumping performance, and someone returning after surgery may choose a different sport. We can ask what matters without pretending those are the same outcome.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 759.111,
+          "durationSeconds": 14.449
+        },
+        {
+          "turn": 50,
+          "speaker": "cohost",
+          "text": "That's a useful conversation to take into the next session. Name the task before judging the strategy, and keep the limits beside the result. For the full methods, numbers and unresolved reporting issues, visit the written weekly report and its original sources. Thanks for joining us.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 773.759,
+          "durationSeconds": 18.667
+        }
+      ],
+      "factCheck": [
+        {
+          "claim": "Fifteen male university soccer players completed a crossover comparison of 15°C for 11 minutes, 10°C for 2.5 minutes and seated rest. Immediate mean sprint times were 3.47, 3.26 and 3.32 seconds respectively.",
+          "evidenceSourceIds": [
+            "pmid-42873185"
+          ],
+          "boundary": "The two immersion protocols differed significantly from each other. Temperature and duration changed together, and immediate tests occurred at different elapsed times. The values do not establish that every pairwise comparison was significant."
+        },
+        {
+          "claim": "Immediate mean countermovement jump heights were 34.67, 37.67 and 38.76 centimetres for longer immersion, shorter immersion and rest. The longer immersion was lower than both alternatives. Both immersion conditions produced faster sprints than rest at 24 hours.",
+          "evidenceSourceIds": [
+            "pmid-42873185"
+          ],
+          "boundary": "Dialogue rounds jump heights for listening. The trial did not establish longer immersion superiority the next day or consistent soreness and intermittent endurance benefits."
+        },
+        {
+          "claim": "The female soccer trial added elastic band training twice weekly for nine weeks. There were 74 participants after intervention and 66 at follow-up, with selected strength signals but no clear additional jump or change-of-direction benefits.",
+          "evidenceSourceIds": [
+            "pmid-42865090"
+          ],
+          "boundary": "The control did not match additional training time or attention. Injury prevention was not measured, and detraining-period changes were not statistically significant. The packet flags inconsistencies between abstract and body strength statistics."
+        },
+        {
+          "claim": "The protein network meta-analysis included 51 studies. In its primary model, whey versus control increased acute muscle protein synthesis by 0.02 percentage points per hour, with a 95% confidence interval of 0.01 to 0.04.",
+          "evidenceSourceIds": [
+            "pmid-42862730"
+          ],
+          "boundary": "This concerns responses over hours after exercise. It does not establish long-term hypertrophy, optimal doses or plant versus animal equivalence. Native whey and pea estimates came from only one and two study arms, with substantial network heterogeneity and inconsistency."
+        },
+        {
+          "claim": "The ten-expert session cites an audit in which 81 of 1867 supplement studies, about 4%, included Tier 4–5 athletes. It presents 1.6 grams of protein per kilogram per day as a practical target for many people rather than a necessary threshold for exercise benefit.",
+          "evidenceSourceIds": [
+            "pmid-42887879"
+          ],
+          "boundary": "This is a narrative expert-session summary. The audit is cited background rather than a new analysis. Marathon carbohydrate comparisons are model estimates rather than tested prescriptions."
+        },
+        {
+          "claim": "The weight reduction position statement combines sustainable energy restriction, sufficient protein and resistance training, with recommendations that vary by population and energy context.",
+          "evidenceSourceIds": [
+            "pmid-42867412"
+          ],
+          "boundary": "It is a qualitative position statement without formal GRADE assessment. Much long-term evidence comes from overweight or obese adults. It does not cover adolescent weight reduction or acute dehydration cuts, and stable weight alone cannot diagnose metabolic damage."
+        },
+        {
+          "claim": "The creatine trial randomized 20 trained breath-hold divers for seven days. The 19-person per-protocol analysis found significant distance and duration interactions, while the 20-person intention-to-treat analysis yielded p=0.121 and p=0.093 respectively.",
+          "evidenceSourceIds": [
+            "pmid-42868132"
+          ],
+          "boundary": "Non-significance does not prove absence of effect. Results were sensitive to analysis population, and the report flags internal exclusion-count inconsistencies. The task was laboratory cycling, not post-supplement underwater performance."
+        },
+        {
+          "claim": "The creatine trial retained a lactate accumulation interaction in intention-to-treat analysis, p=0.001.",
+          "evidenceSourceIds": [
+            "pmid-42868132"
+          ],
+          "boundary": "Peripheral lactate cannot establish delayed acidosis or improved hypoxia safety. Device distance in metres is not mechanical work in joules, and short-term fat-free mass change is not established muscle growth."
+        },
+        {
+          "claim": "Within two years after ACL reconstruction, return to any sport was 430/497, 86.5%; return to high-risk sport was 380/497, 76.5%; and return to original high-risk sport and level was 225/494, 45.5%.",
+          "evidenceSourceIds": [
+            "pmid-42865115"
+          ],
+          "boundary": "Dialogue rounds the any-sport and original-level percentages. Outcomes have different available denominators. This is a selected young high-risk population, excluding graft ruptures before six months, rather than all reconstruction patients."
+        },
+        {
+          "claim": "Women had lower adjusted odds of returning to high-risk sport in a sensitivity model, OR 0.47, 95% CI 0.29–0.76, model n=454.",
+          "evidenceSourceIds": [
+            "pmid-42865115"
+          ],
+          "boundary": "An odds ratio is not a probability ratio. Sex associations are observational despite the randomized surgical parent trial. These models do not establish causal confidence interventions or individual clearance criteria."
+        },
+        {
+          "claim": "The injection scoping review included 39 sources, with 29/39, 74.3%, mentioning cell toxicity. All 12 experimental studies were in vitro.",
+          "evidenceSourceIds": [
+            "pmid-42877127"
+          ],
+          "boundary": "The percentage describes sources, not patient incidence. Evidence categories may overlap. No formal risk-of-bias assessment was conducted, and the review does not establish absolute clinical risk or safe concentrations."
+        },
+        {
+          "claim": "Recording the task, timing, comparison, response and reasons to reconsider is an EDGE SPORT editorial proposal.",
+          "evidenceSourceIds": [
+            "pmid-42873185",
+            "pmid-42865090",
+            "pmid-42867412",
+            "pmid-42865115"
+          ],
+          "boundary": "The integrated workflow was not jointly validated by these studies. It supplies no universal change threshold, treatment prescription or medical clearance rule."
+        }
+      ],
+      "closingTakeaways": [
+        "Define the next task and its timing before interpreting an improvement.",
+        "Keep comfort, strength, acute synthesis, tissue safety and actual participation distinct.",
+        "Check the analysis population, denominator and uncertainty beside every headline number.",
+        "Review repeatable benefits and costs with the athlete. This integrated EDGE SPORT approach remains unvalidated.",
+        "Consult the written weekly report and original sources for full methods and unresolved reporting issues."
+      ],
+      "disclosure": "This episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice.",
+      "editorReview": {
+        "approvedForPublish": false,
+        "verifiedBy": "",
+        "verifiedAt": ""
+      },
+      "publicationMode": "automated",
+      "automationProvider": "codex",
+      "renderedAt": "2026-10-18T10:44:23.959Z",
+      "publishedAt": "2026-10-18T10:44:24.139Z",
+      "audio": {
+        "src": "assets/podcasts/2026-w43-1ffeff26e0d5.mp3",
+        "mimeType": "audio/mpeg",
+        "bytes": 9530828,
+        "bitrate": "96k",
+        "sampleRate": 24000
+      },
+      "researchSources": [
+        {
+          "recordId": "pmid-42873185",
+          "title": "Efficacy of a Meta-Analysis-Recommended Immersion Protocol vs. Field-Practical Cold-Water Immersion Protocol for Performance Recovery: A Randomized Crossover Trial.",
+          "journal": "Journal of strength and conditioning research",
+          "publicationDate": "2026-10-14",
+          "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005706",
+          "contentLevel": "full-text-web"
+        },
+        {
+          "recordId": "pmid-42862730",
+          "title": "Impact of different protein sources on acute muscle protein synthesis following resistance training: a systematic review with standard and dose-response network meta-analyses.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-12",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2740224",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42887879",
+          "title": "Summary of the 2026 Professionals in Nutrition for Exercise and Sport \"10 Questions/10 Experts\" Session-Are Sports Nutrition Guidelines Too Elite Focused for Recreational Athletes?",
+          "journal": "International journal of sport nutrition and exercise metabolism",
+          "publicationDate": "2026-10-15",
+          "sourceUrl": "https://doi.org/10.1123/ijsnem.2026-0168",
+          "contentLevel": "full-text-web"
+        },
+        {
+          "recordId": "pmid-42865090",
+          "title": "Elastic Band Training Across Competitive Levels in Female Soccer: A Randomized Controlled Trial With Follow-up.",
+          "journal": "Sports health",
+          "publicationDate": "2026-10-12",
+          "sourceUrl": "https://doi.org/10.1177/19417381261490002",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42877127",
+          "title": "Adverse events associated with local anaesthetic use in musculoskeletal injection therapy: a scoping review.",
+          "journal": "BMJ open sport & exercise medicine",
+          "publicationDate": "2026-10-12",
+          "sourceUrl": "https://doi.org/10.1136/bmjsem-2026-003351",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42868132",
+          "title": "Load and breath-hold: impact of 7-day creatine monohydrate loading on breath-hold exercise performance - a double-blind randomized controlled trial.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-13",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2732743",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42865115",
+          "title": "Female Athletes Are Half as Likely to Return to High-Risk Sports Compared With Male Athletes After Anterior Cruciate Ligament Reconstruction: An Exploration of Return-to-Sport Outcomes Between Sexes.",
+          "journal": "Sports health",
+          "publicationDate": "2026-10-12",
+          "sourceUrl": "https://doi.org/10.1177/19417381261491843",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42867412",
+          "title": "International Society of Sports Nutrition position stand: diets for body weight reduction.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-13",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2740266",
+          "contentLevel": "full-text-open"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
       "id": "2026-w42",
       "status": "published",
       "publishDate": "2026-10-17",
