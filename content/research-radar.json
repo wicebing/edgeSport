@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "lastCollectedAt": "2026-10-18T09:00:03.575Z",
+  "lastCollectedAt": "2026-10-26T02:12:57.623Z",
   "coverage": {
-    "from": "2026-10-12",
-    "to": "2026-10-18"
+    "from": "2026-10-20",
+    "to": "2026-10-26"
   },
   "sourceStatus": [
     {
       "id": "pubmed-journal-index",
       "label": "PubMed indexed journals",
       "status": "ok",
-      "checkedAt": "2026-10-18T09:00:03.575Z",
-      "itemCount": 90,
+      "checkedAt": "2026-10-26T02:12:57.623Z",
+      "itemCount": 57,
       "detail": "All configured journal sources"
     },
     {
       "id": "bjsm-current",
       "label": "British Journal of Sports Medicine current issue",
       "status": "ok",
-      "checkedAt": "2026-10-18T09:00:19.161Z",
-      "itemCount": 16,
+      "checkedAt": "2026-10-26T02:13:02.044Z",
+      "itemCount": 0,
       "detail": "BJSM 官方當期文章、社論與實務更新"
     },
     {
       "id": "bmjosem-current",
       "label": "BMJ Open Sport & Exercise Medicine current issue",
       "status": "ok",
-      "checkedAt": "2026-10-18T09:00:23.871Z",
+      "checkedAt": "2026-10-26T02:13:02.348Z",
       "itemCount": 1,
       "detail": "BMJ Open SEM 官方當期開放取用文章"
     },
@@ -34,7 +34,7 @@
       "id": "jospt-current",
       "label": "JOSPT current issue",
       "status": "ok",
-      "checkedAt": "2026-10-18T09:00:25.266Z",
+      "checkedAt": "2026-10-26T02:13:03.066Z",
       "itemCount": 0,
       "detail": "JOSPT 官方當期肌骨與運動物理治療文章"
     },
@@ -42,25 +42,20 @@
       "id": "acsm-updates",
       "label": "American College of Sports Medicine updates",
       "status": "ok",
-      "checkedAt": "2026-10-18T09:00:26.587Z",
-      "itemCount": 2,
+      "checkedAt": "2026-10-26T02:13:05.164Z",
+      "itemCount": 6,
       "detail": "ACSM 官方新聞、聲明與專業更新"
     },
     {
       "id": "nata-updates",
       "label": "National Athletic Trainers' Association updates",
       "status": "ok",
-      "checkedAt": "2026-10-18T09:00:28.095Z",
+      "checkedAt": "2026-10-26T02:13:05.858Z",
       "itemCount": 0,
       "detail": "NATA 官方運動防護專業更新"
     }
   ],
   "trendSignals": [
-    {
-      "label": "ACL / 膝關節",
-      "count": 16,
-      "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
-    },
     {
       "label": "肌力與爆發力",
       "count": 14,
@@ -68,26 +63,144 @@
     },
     {
       "label": "恢復與睡眠",
-      "count": 12,
-      "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
-    },
-    {
-      "label": "營養與水合",
-      "count": 9,
-      "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
-    },
-    {
-      "label": "回場與復健",
-      "count": 6,
+      "count": 10,
       "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
     },
     {
       "label": "量測與科技",
       "count": 6,
       "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
+    },
+    {
+      "label": "營養與水合",
+      "count": 6,
+      "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
+    },
+    {
+      "label": "足踝",
+      "count": 5,
+      "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
+    },
+    {
+      "label": "運動心臟與健康",
+      "count": 5,
+      "basis": "題名與期刊 metadata 的受控關鍵詞訊號；不代表療效、證據品質或臨床建議。"
     }
   ],
   "collectionHistory": [
+    {
+      "collectedAt": "2026-10-26T02:12:57.623Z",
+      "coverage": {
+        "from": "2026-10-20",
+        "to": "2026-10-26"
+      },
+      "query": null,
+      "discoveredCount": 63,
+      "totalArchivedCount": 603,
+      "discoveredItemIds": [
+        "pmid-42924484",
+        "pmid-42908119",
+        "pmid-42899516",
+        "pmid-42897977",
+        "pmid-42897966",
+        "pmid-42901151",
+        "pmid-42927465",
+        "pmid-42926256",
+        "pmid-42926133",
+        "pmid-42926129",
+        "pmid-42926124",
+        "pmid-42926123",
+        "pmid-42926134",
+        "pmid-42926128",
+        "pmid-42925088",
+        "pmid-42925023",
+        "pmid-42925020",
+        "pmid-42924869",
+        "pmid-42924570",
+        "pmid-42914580",
+        "pmid-42912420",
+        "pmid-42912416",
+        "pmid-42909850",
+        "pmid-42843799",
+        "pmid-42814900",
+        "pmid-42921932",
+        "pmid-42920964",
+        "pmid-42918672",
+        "pmid-42913787",
+        "pmid-42913786",
+        "pmid-42911853",
+        "pmid-42911671",
+        "pmid-42843800",
+        "pmid-42474333",
+        "pmid-42908103",
+        "pmid-42906896",
+        "pmid-42906744",
+        "pmid-42906120",
+        "pmid-42904765",
+        "pmid-42902901",
+        "pmid-42829203",
+        "pmid-42913286",
+        "pmid-42906892",
+        "pmid-42906886",
+        "pmid-42902495",
+        "pmid-42901171",
+        "pmid-42900961",
+        "pmid-42900791",
+        "pmid-42899831",
+        "pmid-42899830",
+        "pmid-42899828",
+        "pmid-42899805",
+        "pmid-42899379",
+        "pmid-42810622",
+        "pmid-42805559",
+        "pmid-42627171",
+        "pmid-42302193",
+        "rss-acsm-updates-dffdfe225fc3e310",
+        "rss-acsm-updates-a8e961005646fc10",
+        "rss-acsm-updates-33083d0cf82810e3",
+        "rss-acsm-updates-b06dd5a4e5c94d53",
+        "rss-acsm-updates-494552b9229acb19",
+        "rss-acsm-updates-af26d8377707438b"
+      ],
+      "sources": [
+        {
+          "id": "pubmed-journal-index",
+          "label": "PubMed indexed journals",
+          "status": "ok",
+          "itemCount": 57
+        },
+        {
+          "id": "bjsm-current",
+          "label": "British Journal of Sports Medicine current issue",
+          "status": "ok",
+          "itemCount": 0
+        },
+        {
+          "id": "bmjosem-current",
+          "label": "BMJ Open Sport & Exercise Medicine current issue",
+          "status": "ok",
+          "itemCount": 1
+        },
+        {
+          "id": "jospt-current",
+          "label": "JOSPT current issue",
+          "status": "ok",
+          "itemCount": 0
+        },
+        {
+          "id": "acsm-updates",
+          "label": "American College of Sports Medicine updates",
+          "status": "ok",
+          "itemCount": 6
+        },
+        {
+          "id": "nata-updates",
+          "label": "National Athletic Trainers' Association updates",
+          "status": "ok",
+          "itemCount": 0
+        }
+      ]
+    },
     {
       "collectedAt": "2026-10-18T09:00:03.575Z",
       "coverage": {
@@ -1348,6 +1461,2166 @@
     }
   ],
   "items": [
+    {
+      "id": "pmid-42924484",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jissn",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "journalAbbreviation": "J Int Soc Sports Nutr",
+      "journalUrl": "https://jissn.biomedcentral.com/",
+      "title": "Hematological and biochemical responses to three doses of caffeine during the CrossFit® workout: a randomized, double-blind, crossover trial.",
+      "publicationDate": "2026-10-23",
+      "issueDate": "2026-12-30",
+      "authors": [
+        "Główka N",
+        "Podgórski T",
+        "Malik J",
+        "Nowaczyk PM",
+        "Durkalec-Michalski K"
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "doi": "10.1080/15502783.2026.2740805",
+      "pmid": "42924484",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/15502783.2026.2740805",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "營養與水合"
+      ],
+      "sportTags": [
+        "肌力與體能"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42908119",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jissn",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "journalAbbreviation": "J Int Soc Sports Nutr",
+      "journalUrl": "https://jissn.biomedcentral.com/",
+      "title": "Acute caffeine and carbohydrate strategies for fatigue-related sport-specific performance in team-sport athletes: a systematic review and multilevel meta-analysis.",
+      "publicationDate": "2026-10-21",
+      "issueDate": "2026-12-30",
+      "authors": [
+        "Xie S",
+        "Wen X"
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis",
+        "Review"
+      ],
+      "doi": "10.1080/15502783.2026.2731524",
+      "pmid": "42908119",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/15502783.2026.2731524",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "營養與水合",
+        "恢復與睡眠"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42899516",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jissn",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "journalAbbreviation": "J Int Soc Sports Nutr",
+      "journalUrl": "https://jissn.biomedcentral.com/",
+      "title": "Selective recovery effects of short-term beetroot juice supplementation after exercise-induced muscle damage in trained female volleyball players.",
+      "publicationDate": "2026-10-20",
+      "issueDate": "2026-12-30",
+      "authors": [
+        "Zhang S",
+        "Yang X",
+        "Xu H",
+        "Liu Q",
+        "Quan H"
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "doi": "10.1080/15502783.2026.2751785",
+      "pmid": "42899516",
+      "pmcId": "PMC13686210",
+      "sourceUrl": "https://doi.org/10.1080/15502783.2026.2751785",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13686210/",
+      "access": "pmc-record-available",
+      "themes": [
+        "營養與水合",
+        "恢復與睡眠"
+      ],
+      "sportTags": [
+        "排球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42897977",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jissn",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "journalAbbreviation": "J Int Soc Sports Nutr",
+      "journalUrl": "https://jissn.biomedcentral.com/",
+      "title": "Pre-sleep milk-derived proteins do not impair sleep or recovery in elite female athletes.",
+      "publicationDate": "2026-10-20",
+      "issueDate": "2026-12-30",
+      "authors": [
+        "Paterson KGP",
+        "Griest TD",
+        "Angeles E",
+        "Fenner SP",
+        "Eberhardt HK",
+        "McKay CR",
+        "Helms KLW",
+        "Calderon A",
+        "Vukovich MD",
+        "Ormsbee MJ"
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "doi": "10.1080/15502783.2026.2746899",
+      "pmid": "42897977",
+      "pmcId": "PMC13686207",
+      "sourceUrl": "https://doi.org/10.1080/15502783.2026.2746899",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13686207/",
+      "access": "pmc-record-available",
+      "themes": [
+        "營養與水合",
+        "恢復與睡眠",
+        "女性運動員健康"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42897966",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jissn",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "journalAbbreviation": "J Int Soc Sports Nutr",
+      "journalUrl": "https://jissn.biomedcentral.com/",
+      "title": "Placebo effects of caffeine on sport performance: a systematic review and meta-analysis.",
+      "publicationDate": "2026-10-20",
+      "issueDate": "2026-12-30",
+      "authors": [
+        "Hurst P",
+        "Hanssen J",
+        "Marticorena F",
+        "Schiphof-Godart L",
+        "Souza HLR",
+        "Marocolo M",
+        "Saunders B"
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis",
+        "Review"
+      ],
+      "doi": "10.1080/15502783.2026.2747142",
+      "pmid": "42897966",
+      "pmcId": "PMC13686187",
+      "sourceUrl": "https://doi.org/10.1080/15502783.2026.2747142",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13686187/",
+      "access": "pmc-record-available",
+      "themes": [
+        "營養與水合"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42901151",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijsm",
+      "journal": "International journal of sports medicine",
+      "journalAbbreviation": "Int J Sports Med",
+      "journalUrl": "https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000030",
+      "title": "Correction: Effects of a Mindfulness Intervention on Volleyball-Specific Performance: A Randomized Trial.",
+      "publicationDate": "2026-10-20",
+      "issueDate": "2026-11-01",
+      "authors": [
+        "Yaman MS",
+        "Üzgü MA",
+        "Barak R",
+        "Barak İ",
+        "Birsen MT"
+      ],
+      "publicationTypes": [
+        "Published Erratum"
+      ],
+      "doi": "10.1055/a-2977-3983",
+      "pmid": "42901151",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1055/a-2977-3983",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [
+        "排球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42927465",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jss",
+      "journal": "Journal of sports sciences",
+      "journalAbbreviation": "J Sports Sci",
+      "journalUrl": "https://www.tandfonline.com/journals/rjsp20",
+      "title": "Triangulating lower-extremity neuromuscular function in soccer players: The incremental value of twitch kinetics and neural activation over muscle architecture in performance testing.",
+      "publicationDate": "2026-10-25",
+      "issueDate": null,
+      "authors": [
+        "Terbalyan A",
+        "Skotniczny K",
+        "Matuszczyk F",
+        "Roczniok R",
+        "Żak M"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1080/02640414.2026.2750650",
+      "pmid": "42927465",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/02640414.2026.2750650",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "心理與神經認知"
+      ],
+      "sportTags": [
+        "足球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42926256",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "sports-medicine",
+      "journal": "Sports medicine (Auckland, N.Z.)",
+      "journalAbbreviation": "Sports Med",
+      "journalUrl": "https://link.springer.com/journal/40279",
+      "title": "Characterising the Internal and External Load During Warm-Up, Match Play and Training in Soccer Substitutes: A Systematic Scoping Review.",
+      "publicationDate": "2026-10-24",
+      "issueDate": null,
+      "authors": [
+        "Curtis C",
+        "Russell M",
+        "Hills SP",
+        "Filter A",
+        "Requena B",
+        "Lopez Bascon S",
+        "Ortega H",
+        "Asián J",
+        "Bogdanis GC"
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1007/s40279-026-02520-6",
+      "pmid": "42926256",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1007/s40279-026-02520-6",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [
+        "足球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42926133",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijspp",
+      "journal": "International journal of sports physiology and performance",
+      "journalAbbreviation": "Int J Sports Physiol Perform",
+      "journalUrl": "https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml",
+      "title": "Conceptual Frameworks and Assessment of Readiness to Train in Endurance Exercise: A Systematic Review.",
+      "publicationDate": "2026-10-24",
+      "issueDate": null,
+      "authors": [
+        "Micheli L",
+        "Greco F",
+        "Grossi T",
+        "Marini CF",
+        "Brink M",
+        "Lazzer S",
+        "Beato M",
+        "Lucertini F",
+        "D'Alleva M"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1123/ijspp.2025-0699",
+      "pmid": "42926133",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1123/ijspp.2025-0699",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "恢復與睡眠"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42926129",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijspp",
+      "journal": "International journal of sports physiology and performance",
+      "journalAbbreviation": "Int J Sports Physiol Perform",
+      "journalUrl": "https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml",
+      "title": "An Examination of the Relationship Between Isometric Midthigh Pull Force-Time Characteristics and Golf Drive Performance in Collegiate Golfers.",
+      "publicationDate": "2026-10-24",
+      "issueDate": null,
+      "authors": [
+        "Adams HS",
+        "Willardson JM",
+        "Shafer AB"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1123/ijspp.2026-0340",
+      "pmid": "42926129",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1123/ijspp.2026-0340",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [
+        "高爾夫"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42926124",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijspp",
+      "journal": "International journal of sports physiology and performance",
+      "journalAbbreviation": "Int J Sports Physiol Perform",
+      "journalUrl": "https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml",
+      "title": "Influence of Sex and Fatigue on Velocity Loss as a Set Termination Criterion in the Bench Press.",
+      "publicationDate": "2026-10-24",
+      "issueDate": null,
+      "authors": [
+        "Rodiles-Guerrero L",
+        "Sánchez-Moreno M",
+        "Pareja-Blanco F",
+        "Bachero-Mena B"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1123/ijspp.2025-0606",
+      "pmid": "42926124",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1123/ijspp.2025-0606",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "恢復與睡眠"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42926123",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijspp",
+      "journal": "International journal of sports physiology and performance",
+      "journalAbbreviation": "Int J Sports Physiol Perform",
+      "journalUrl": "https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml",
+      "title": "The Influence of Humidity, Ambient, and Apparent Temperature on Match-Running Performance in International Men's Soccer.",
+      "publicationDate": "2026-10-24",
+      "issueDate": null,
+      "authors": [
+        "Cormier P",
+        "Manuel MK",
+        "Howitt S"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1123/ijspp.2026-0057",
+      "pmid": "42926123",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1123/ijspp.2026-0057",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [
+        "足球",
+        "跑步與田徑"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42926134",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijspp",
+      "journal": "International journal of sports physiology and performance",
+      "journalAbbreviation": "Int J Sports Physiol Perform",
+      "journalUrl": "https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml",
+      "title": "I Am Not a Writer. . . or Am I?",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Mujika I"
+      ],
+      "publicationTypes": [
+        "Editorial"
+      ],
+      "doi": "10.1123/ijspp.2026-0419",
+      "pmid": "42926134",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1123/ijspp.2026-0419",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42926128",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijsnem",
+      "journal": "International journal of sport nutrition and exercise metabolism",
+      "journalAbbreviation": "Int J Sport Nutr Exerc Metab",
+      "journalUrl": "https://journals.humankinetics.com/view/journals/ijsnem/ijsnem-overview.xml",
+      "title": "Acute Sodium Bicarbonate Supplementation Enhances 10-km Outdoor Track Running Performance in Recreational Female Runners.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Aktitiz S",
+        "Güzel Y",
+        "Atakan MM",
+        "Bulut S",
+        "Karanfil Y",
+        "Jones AM",
+        "Turnagöl HH"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1123/ijsnem.2026-0041",
+      "pmid": "42926128",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1123/ijsnem.2026-0041",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "營養與水合"
+      ],
+      "sportTags": [
+        "跑步與田徑"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42925088",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "cjsm",
+      "journal": "Clinical journal of sport medicine : official journal of the Canadian Academy of Sport Medicine",
+      "journalAbbreviation": "Clin J Sport Med",
+      "journalUrl": "https://journals.lww.com/cjsportsmed/",
+      "title": "Conservative Management of a Displaced Iliopsoas Avulsion in an Adolescent: A Case Report and Systematic Review.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Rosenkranz T",
+        "Weber M",
+        "Demmer T",
+        "Bartz C",
+        "Müller LP",
+        "Wegmann S"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1097/JSM.0000000000001520",
+      "pmid": "42925088",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1097/JSM.0000000000001520",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "兒童與青少年"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42925023",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ajsm",
+      "journal": "The American journal of sports medicine",
+      "journalAbbreviation": "Am J Sports Med",
+      "journalUrl": "https://journals.sagepub.com/home/ajs",
+      "title": "Association of Changes in Game Pitch Count, Pitching Velocity, and Arm Injuries in Collegiate Pitchers.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Salamh P",
+        "Plisky P",
+        "Beiting J",
+        "Martin C",
+        "Losciale JM",
+        "Shanley E",
+        "Thigpen CA",
+        "Pinkoski AM",
+        "Fernandez G",
+        "Ward P",
+        "Morrison S",
+        "Prats-Uribe A",
+        "Butler R",
+        "West S",
+        "Bullock G"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1177/03635465261489882",
+      "pmid": "42925023",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1177/03635465261489882",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [
+        "棒球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42925020",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ajsm",
+      "journal": "The American journal of sports medicine",
+      "journalAbbreviation": "Am J Sports Med",
+      "journalUrl": "https://journals.sagepub.com/home/ajs",
+      "title": "The Critical-Size Osteochondral Defect for Single-Hole Microfracture Repair in Rats: A Center-Initiated, Perforation-Anchored Healing Pattern With Limited Spatial Coverage.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Lu J",
+        "Yuan Y",
+        "Zhang W",
+        "Wang Y",
+        "Zhou Y",
+        "Sun Y"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1177/03635465261489886",
+      "pmid": "42925020",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1177/03635465261489886",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42924869",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jss",
+      "journal": "Journal of sports sciences",
+      "journalAbbreviation": "J Sports Sci",
+      "journalUrl": "https://www.tandfonline.com/journals/rjsp20",
+      "title": "A two-factor framework to assess international male field hockey movement characteristics: Implications for performance preparation.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Goods PSR",
+        "Appleby BB",
+        "Scott BR",
+        "Peeling P",
+        "Galna B"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1080/02640414.2026.2753833",
+      "pmid": "42924869",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/02640414.2026.2753833",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42924570",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "msse",
+      "journal": "Medicine and science in sports and exercise",
+      "journalAbbreviation": "Med Sci Sports Exerc",
+      "journalUrl": "https://journals.lww.com/acsm-msse/pages/default.aspx",
+      "title": "Neuromuscular Fatigue and Recovery: Are Marathon and Trail Running Different?",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Metra M",
+        "Féasson L",
+        "Ravel A",
+        "Espeit L",
+        "Rossi J",
+        "Blagrove RC",
+        "Millet GY"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1249/MSS.0000000000004200",
+      "pmid": "42924570",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004200",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "恢復與睡眠",
+        "心理與神經認知"
+      ],
+      "sportTags": [
+        "跑步與田徑"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42914580",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "pts",
+      "journal": "Physical therapy in sport : official journal of the Association of Chartered Physiotherapists in Sports Medicine",
+      "journalAbbreviation": "Phys Ther Sport",
+      "journalUrl": "https://www.sciencedirect.com/journal/physical-therapy-in-sport",
+      "title": "Pain-stratified differences in lower-limb mechanics and neuromuscular activation during single-leg drop landing in male athletes with chronic ankle instability.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Wang Z",
+        "Zheng W",
+        "Zhou Z",
+        "Wang X"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.ptsp.2026.102003",
+      "pmid": "42914580",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.ptsp.2026.102003",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "足踝",
+        "心理與神經認知"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42912420",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "sports-biomechanics",
+      "journal": "Sports biomechanics",
+      "journalAbbreviation": "Sports Biomech",
+      "journalUrl": "https://www.tandfonline.com/journals/rspb20",
+      "title": "Maximal strength training effects on dry-land force-velocity characteristics, swimming load-velocity profiles and drag parameters.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Raineteau Y",
+        "Pla R",
+        "Bideau B",
+        "Bideau N",
+        "Nicolas G"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1080/14763141.2026.2752011",
+      "pmid": "42912420",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/14763141.2026.2752011",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力",
+        "量測與科技"
+      ],
+      "sportTags": [
+        "游泳與水上運動",
+        "肌力與體能"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42912416",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "sports-biomechanics",
+      "journal": "Sports biomechanics",
+      "journalAbbreviation": "Sports Biomech",
+      "journalUrl": "https://www.tandfonline.com/journals/rspb20",
+      "title": "The 'road to gold' in open-water swimming: insights on performance and stroke mechanics regulation from longitudinal race analysis of the 5-km 2024 world champion.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Bouvet A",
+        "Bideau N",
+        "Pla R"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1080/14763141.2026.2752005",
+      "pmid": "42912416",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/14763141.2026.2752005",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "量測與科技"
+      ],
+      "sportTags": [
+        "游泳與水上運動"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42909850",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "sports-biomechanics",
+      "journal": "Sports biomechanics",
+      "journalAbbreviation": "Sports Biomech",
+      "journalUrl": "https://www.tandfonline.com/journals/rspb20",
+      "title": "Standing-start biomechanics in elite track cycling: inertial launch dynamics at the 2022 UCI World Championships.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Giraud S",
+        "Rousseau Q",
+        "Carmigniani R",
+        "Sachet I",
+        "Brunet E",
+        "Clanet C"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1080/14763141.2026.2750448",
+      "pmid": "42909850",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/14763141.2026.2750448",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "量測與科技"
+      ],
+      "sportTags": [
+        "自行車"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42814900",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Erratum: Smartphone IMU-Based Prediction of Vertical Ground Reaction Force During Countermovement Jumps: A Deep Learning Approach.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Kim H",
+        "Kong T",
+        "Han H",
+        "Ha D",
+        "Kipp K"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005699",
+      "pmid": "42814900",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005699",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42921932",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jss",
+      "journal": "Journal of sports sciences",
+      "journalAbbreviation": "J Sports Sci",
+      "journalUrl": "https://www.tandfonline.com/journals/rjsp20",
+      "title": "Senior elite swimmers were top-10% youths: A Swedish population cohort study.",
+      "publicationDate": "2026-10-22",
+      "issueDate": null,
+      "authors": [
+        "Jakobsson N",
+        "Gustafsson H"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1080/02640414.2026.2753823",
+      "pmid": "42921932",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/02640414.2026.2753823",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "兒童與青少年"
+      ],
+      "sportTags": [
+        "游泳與水上運動"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42920964",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "bmjosem",
+      "journal": "BMJ open sport & exercise medicine",
+      "journalAbbreviation": "BMJ Open Sport Exerc Med",
+      "journalUrl": "https://bmjopensem.bmj.com/",
+      "title": "'ACL epidemic in women's football': the epidemiological evidence does not support the narrative.",
+      "publicationDate": "2026-10-22",
+      "issueDate": "2026-01-01",
+      "authors": [
+        "Okholm Kryger K",
+        "Pape M",
+        "Nimphius S",
+        "Lewin C",
+        "Lewin G",
+        "Bahtijarevic Z",
+        "Verhagen E"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1136/bmjsem-2026-003416",
+      "pmid": "42920964",
+      "pmcId": "PMC13691837",
+      "sourceUrl": "https://doi.org/10.1136/bmjsem-2026-003416",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13691837/",
+      "access": "pmc-record-available",
+      "themes": [
+        "ACL / 膝關節",
+        "足踝"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42918672",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "pts",
+      "journal": "Physical therapy in sport : official journal of the Association of Chartered Physiotherapists in Sports Medicine",
+      "journalAbbreviation": "Phys Ther Sport",
+      "journalUrl": "https://www.sciencedirect.com/journal/physical-therapy-in-sport",
+      "title": "Corrigendum to \"The lateral jump-landing test: A novel dynamic postural control test with dual-task in athletes with an anterior cruciate ligament reconstruction at return-to-sport\" [Physical Therapy in Sport (2026) 101974].",
+      "publicationDate": "2026-10-22",
+      "issueDate": null,
+      "authors": [
+        "Chloe Carpentier MV",
+        "Beckw D",
+        "Corthouts R",
+        "Vanlauwe J",
+        "Buyl R",
+        "Van Loock A",
+        "Van Melick N",
+        "Eechaute C"
+      ],
+      "publicationTypes": [
+        "Published Erratum"
+      ],
+      "doi": "10.1016/j.ptsp.2026.101977",
+      "pmid": "42918672",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.ptsp.2026.101977",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節",
+        "回場與復健"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42913787",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jshs",
+      "journal": "Journal of sport and health science",
+      "journalAbbreviation": "J Sport Health Sci",
+      "journalUrl": "https://www.sciencedirect.com/journal/journal-of-sport-and-health-science",
+      "title": "Robot-assisted vs. conventional gait training for balance and gait speed after stroke: An updated systematic review and meta-analysis of randomized controlled trials.",
+      "publicationDate": "2026-10-22",
+      "issueDate": null,
+      "authors": [
+        "Wang Y",
+        "Wang W",
+        "Si D",
+        "Wei B",
+        "Rong J",
+        "Xu D",
+        "Wang L",
+        "Zhou J",
+        "Feng X",
+        "Liu Y"
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1016/j.jshs.2026.101186",
+      "pmid": "42913787",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.jshs.2026.101186",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42913786",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jshs",
+      "journal": "Journal of sport and health science",
+      "journalAbbreviation": "J Sport Health Sci",
+      "journalUrl": "https://www.sciencedirect.com/journal/journal-of-sport-and-health-science",
+      "title": "Effects of GLP-1 medications on skeletal muscle and exercise as a countermeasure.",
+      "publicationDate": "2026-10-22",
+      "issueDate": null,
+      "authors": [
+        "Hendrickse P",
+        "Xiao J",
+        "Bowen TS"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.jshs.2026.101185",
+      "pmid": "42913786",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.jshs.2026.101185",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42911853",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Relationship Between Objective Measures of Sleep and Nocturnal Cardiovascular Physiology and Swimming Performance in Collegiate Female Athletes: A Bayesian Analysis.",
+      "publicationDate": "2026-10-22",
+      "issueDate": null,
+      "authors": [
+        "Vatne EA",
+        "Cencer D Jr",
+        "Vatne M",
+        "Pulvermacher K",
+        "Saenz C",
+        "Kraemer WJ",
+        "Robinson B",
+        "Jones P",
+        "Quebedeaux N",
+        "Sprague R",
+        "Dial M",
+        "Carpenter T",
+        "Hagen J"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005630",
+      "pmid": "42911853",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005630",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力",
+        "恢復與睡眠",
+        "女性運動員健康",
+        "運動心臟與健康"
+      ],
+      "sportTags": [
+        "游泳與水上運動"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42911671",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "An Automated Blood Flow Restriction Device Is Reliable, but Not Valid, for Determining Lower Limb Occlusion Pressure in Resistance-trained Adults.",
+      "publicationDate": "2026-10-22",
+      "issueDate": null,
+      "authors": [
+        "Lang D",
+        "Fallo X",
+        "Bennett H"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005691",
+      "pmid": "42911671",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005691",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42474333",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Training-Induced Adaptations in Skeletal Muscle Oxygenation in Athletes and Healthy Individuals: A Systematic Review and Network Meta-Analysis.",
+      "publicationDate": "2026-10-22",
+      "issueDate": null,
+      "authors": [
+        "Liu J",
+        "Guo J",
+        "Than MT",
+        "Bleakney AW",
+        "Elliott JR",
+        "Jan YK"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005600",
+      "pmid": "42474333",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005600",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42908103",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jss",
+      "journal": "Journal of sports sciences",
+      "journalAbbreviation": "J Sports Sci",
+      "journalUrl": "https://www.tandfonline.com/journals/rjsp20",
+      "title": "Attention allocation in team sports: A systematic review and meta-analysis based on eye-tracking.",
+      "publicationDate": "2026-10-21",
+      "issueDate": null,
+      "authors": [
+        "Ma Y",
+        "He A",
+        "Huang Z",
+        "Finlay MJ",
+        "Simpson T",
+        "Gao D",
+        "Song X",
+        "Chen C",
+        "Wang D"
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1080/02640414.2026.2750668",
+      "pmid": "42908103",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/02640414.2026.2750668",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42906896",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijspp",
+      "journal": "International journal of sports physiology and performance",
+      "journalAbbreviation": "Int J Sports Physiol Perform",
+      "journalUrl": "https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml",
+      "title": "The Relationship Between Training Load Metrics and Mental Fatigue in Competitive Male Basketball Players During the In-Season Phase.",
+      "publicationDate": "2026-10-21",
+      "issueDate": null,
+      "authors": [
+        "Sansone P",
+        "Scanlan AT",
+        "Longo C",
+        "Polverari D",
+        "García-Calvo T"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1123/ijspp.2026-0042",
+      "pmid": "42906896",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1123/ijspp.2026-0042",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "訓練負荷",
+        "恢復與睡眠"
+      ],
+      "sportTags": [
+        "籃球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42906744",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jshs",
+      "journal": "Journal of sport and health science",
+      "journalAbbreviation": "J Sport Health Sci",
+      "journalUrl": "https://www.sciencedirect.com/journal/journal-of-sport-and-health-science",
+      "title": "Authors reply: Reframing exercise training \"Non-response\" as dose vulnerability in AI-guided cardiac rehabilitation.",
+      "publicationDate": "2026-10-21",
+      "issueDate": null,
+      "authors": [
+        "Mooren FC",
+        "Schäfer H",
+        "Garbsch R",
+        "Schmitz B"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.jshs.2026.101184",
+      "pmid": "42906744",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.jshs.2026.101184",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "運動心臟與健康",
+        "回場與復健"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42906120",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Multiple Sessions of Transcranial Direct Current Stimulation Combined With Squat Training Improve Lower-Limb Maximum Strength in Healthy Adult Men.",
+      "publicationDate": "2026-10-21",
+      "issueDate": null,
+      "authors": [
+        "Yan X",
+        "Zuo Z",
+        "Nitsche MA",
+        "Zhang X",
+        "Qi F"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005626",
+      "pmid": "42906120",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005626",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42904765",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Relationships Between Isometric Belt Squat Force and Vertical Jump Performance Across Knee Joint Angles.",
+      "publicationDate": "2026-10-21",
+      "issueDate": null,
+      "authors": [
+        "Rebelo A",
+        "Ripley N",
+        "Weakley J",
+        "Comfort P"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005695",
+      "pmid": "42904765",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005695",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節",
+        "肌力與爆發力"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42902901",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "sports-health",
+      "journal": "Sports health",
+      "journalAbbreviation": "Sports Health",
+      "journalUrl": "https://journals.sagepub.com/home/sph",
+      "title": "Athletes and Medical Staff in Elite Contact Sports: a Quantitative Analysis of Use, Knowledge, and Attitudes Regarding Cannabinoids.",
+      "publicationDate": "2026-10-21",
+      "issueDate": null,
+      "authors": [
+        "Thompson ES",
+        "Alcorn J",
+        "Laprairie R",
+        "Rohatinsky N",
+        "Dehghani P",
+        "Neary JP"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1177/19417381261495512",
+      "pmid": "42902901",
+      "pmcId": "PMC13687462",
+      "sourceUrl": "https://doi.org/10.1177/19417381261495512",
+      "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13687462/",
+      "access": "pmc-record-available",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42913286",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "pts",
+      "journal": "Physical therapy in sport : official journal of the Association of Chartered Physiotherapists in Sports Medicine",
+      "journalAbbreviation": "Phys Ther Sport",
+      "journalUrl": "https://www.sciencedirect.com/journal/physical-therapy-in-sport",
+      "title": "Comparison of short-foot and toe-curl exercises on movement control during single-leg landing after ACL reconstruction: An exploratory randomized controlled trial.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Suzuki M",
+        "Kuruma H",
+        "Kato K",
+        "Saito M",
+        "Tsuchiya K",
+        "Kase H",
+        "Nagashima R",
+        "Kanayama D",
+        "Sato K",
+        "Shinohara R",
+        "Hayato F"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.ptsp.2026.102002",
+      "pmid": "42913286",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.ptsp.2026.102002",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節",
+        "足踝"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42906892",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijspp",
+      "journal": "International journal of sports physiology and performance",
+      "journalAbbreviation": "Int J Sports Physiol Perform",
+      "journalUrl": "https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml",
+      "title": "Sleep Characteristics of Elite Female Soccer Players Competing in the National Women's Soccer League Across a Competitive Season.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Munro OM",
+        "Mutuwa AG",
+        "Greenwalt CE",
+        "Thomas K",
+        "Ansdell P",
+        "Howatson G",
+        "Hicks KM"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1123/ijspp.2026-0094",
+      "pmid": "42906892",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1123/ijspp.2026-0094",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "恢復與睡眠"
+      ],
+      "sportTags": [
+        "足球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42906886",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijspp",
+      "journal": "International journal of sports physiology and performance",
+      "journalAbbreviation": "Int J Sports Physiol Perform",
+      "journalUrl": "https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml",
+      "title": "Sleeping in Extreme Conditions: A Case Study of a 2024 Vendée Globe Skipper.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Le Deuff A",
+        "Chauvineau M",
+        "Nédélec M",
+        "Duforez F"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1123/ijspp.2026-0055",
+      "pmid": "42906886",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1123/ijspp.2026-0055",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "恢復與睡眠"
+      ],
+      "sportTags": [
+        "冬季運動"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42902495",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jss",
+      "journal": "Journal of sports sciences",
+      "journalAbbreviation": "J Sports Sci",
+      "journalUrl": "https://www.tandfonline.com/journals/rjsp20",
+      "title": "Using 360-video to investigate visual exploratory activity in 7v7 and 9v9 sided games in women's soccer.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Feist J",
+        "Datson N",
+        "Runswick OR",
+        "Pocock C"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1080/02640414.2026.2750619",
+      "pmid": "42902495",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1080/02640414.2026.2750619",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [
+        "足球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42901171",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijsm",
+      "journal": "International journal of sports medicine",
+      "journalAbbreviation": "Int J Sports Med",
+      "journalUrl": "https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000030",
+      "title": "Comparing Dual X-Ray Absorptiometry to Anthropometry to Determine the Lean Mass-to-Bone Ratio.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Dengel DR",
+        "Westerberg HE",
+        "Sydykova B",
+        "Dooley JS"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1055/a-2986-8752",
+      "pmid": "42901171",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1055/a-2986-8752",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42900961",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Effects of Target Heart Rate Attainment Method on Metabolic, Perceptual, and Performance Responses During Heart Rate-Clamp Exercise in Recreationally Active Female Subjects.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Mitchinson CJ",
+        "Benitez B",
+        "Kwak M",
+        "Snell E",
+        "Kuhn AN",
+        "Bergstrom HC"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005686",
+      "pmid": "42900961",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005686",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力",
+        "運動心臟與健康"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42900791",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "msse",
+      "journal": "Medicine and science in sports and exercise",
+      "journalAbbreviation": "Med Sci Sports Exerc",
+      "journalUrl": "https://journals.lww.com/acsm-msse/pages/default.aspx",
+      "title": "Surgical Profiles of Elite Female Athletes and Their Association with Long-Term Musculoskeletal Health: Findings from the Women's Soccer Health Study.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Law KL",
+        "de Mille P",
+        "Prather H",
+        "Skolnik H",
+        "Chiaia TA",
+        "Lewis CL",
+        "Casey E",
+        "Hannafin JA",
+        "Ling DI"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1249/MSS.0000000000004196",
+      "pmid": "42900791",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1249/MSS.0000000000004196",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "女性運動員健康"
+      ],
+      "sportTags": [
+        "足球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42899831",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Do Athletes Lose Soleus Strength Over the Course of a Season? Longitudinal Monitoring of Seated Plantar Flexion Maximum Voluntary Contraction Strength and Factors That Affect It in Australian Football Players.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Green B",
+        "Pizzari T",
+        "Schache AG",
+        "Rio EK",
+        "Evans SCS",
+        "Cooper S",
+        "Murphy MC"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005705",
+      "pmid": "42899831",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005705",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "足踝",
+        "肌力與爆發力",
+        "量測與科技"
+      ],
+      "sportTags": [
+        "足球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42899830",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Comparison of Functional and Traditional Strength and Power Training on U19 Soccer Players During Offseason in Norway: A Randomized Controlled Trial.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Engberg Treu Lassen L",
+        "Kersting UG",
+        "Pessoto Hirata R"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005676",
+      "pmid": "42899830",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005676",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力"
+      ],
+      "sportTags": [
+        "足球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42899828",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "On Equal Footing? Sex-Moderated Post-Activation Performance Enhancement in Trained Individuals.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Piñero A",
+        "Mohan AE",
+        "Burke R",
+        "Babault N",
+        "Swinton PA",
+        "Schoenfeld BJ"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005674",
+      "pmid": "42899828",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005674",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "足踝",
+        "肌力與爆發力"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42899805",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Vertical Jump Performance as a Functional Indicator of Bone Health in Older Adults.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Huang H",
+        "Liu Z",
+        "Leng B",
+        "Ge X",
+        "Tang C",
+        "He Y",
+        "Sun J",
+        "Zhang C"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005650",
+      "pmid": "42899805",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005650",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42899379",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ajsm",
+      "journal": "The American journal of sports medicine",
+      "journalAbbreviation": "Am J Sports Med",
+      "journalUrl": "https://journals.sagepub.com/home/ajs",
+      "title": "Concomitant Centralization Procedure With Medial Meniscus Posterior Root Repair May Have Zone-Specific Effects on the Medial Femoral Condyle and Enhance Repair Healing Compared With Isolated Root Repair: An In Vivo Experimental Study in Rabbit Knees.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Dzidzishvili L",
+        "Nelson B",
+        "Santangelo K",
+        "Sikes KJ",
+        "Burton L",
+        "Del Águila López-Pintor Ó",
+        "Fernández-Valle ME",
+        "Goodrich L",
+        "Cole BJ",
+        "LaPrade RF",
+        "Chahla J"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1177/03635465261492230",
+      "pmid": "42899379",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1177/03635465261492230",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "ACL / 膝關節"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42810622",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jisakos",
+      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
+      "journalAbbreviation": "J ISAKOS",
+      "journalUrl": "https://www.jisakos.com/",
+      "title": "Adductor sling and anatomic femoral tunnel fixation both yield high postoperative functional scores after medial patellofemoral ligament reconstruction: A retrospective multicenter study.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Guiloff Krauss R",
+        "Arteaga Correa JT",
+        "Isla Villanueva J",
+        "Prado García JL",
+        "Figueroa Berríos F",
+        "Vaisman Burucker A",
+        "Calvo Rodriguez R",
+        "Figueroa Poblete D"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.jisako.2026.101225",
+      "pmid": "42810622",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.jisako.2026.101225",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42805559",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jisakos",
+      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
+      "journalAbbreviation": "J ISAKOS",
+      "journalUrl": "https://www.jisakos.com/",
+      "title": "Hip arthroscopy with comprehensive capsular closure following longitudinal outside-in capsulotomy showed improved clinical outcomes in symptomatic borderline hip dysplasia: A retrospective study with minimum 2-year follow-up.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Sha S",
+        "Liu Y",
+        "Li H",
+        "Shen L",
+        "Li W",
+        "Liu W",
+        "Li H",
+        "Yin Q"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.jisako.2026.101226",
+      "pmid": "42805559",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.jisako.2026.101226",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42627171",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Impact of Weekly Workload Distribution on Performance in Male Soccer Players Across Competitive Levels-Scientific Hypothesis or Empirical Evidence: A Systematic Review.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Lafrance G",
+        "Dupont G",
+        "Ahmaidi S",
+        "Abaïdia AE"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005627",
+      "pmid": "42627171",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005627",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "訓練負荷",
+        "肌力與爆發力"
+      ],
+      "sportTags": [
+        "足球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "pmid-42302193",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jsc",
+      "journal": "Journal of strength and conditioning research",
+      "journalAbbreviation": "J Strength Cond Res",
+      "journalUrl": "https://journals.lww.com/nsca-jscr/pages/default.aspx",
+      "title": "Individualized Z -Score Classification of Jump Load and Its Association With Countermovement Jump Performance Throughout a Division I Volleyball Season.",
+      "publicationDate": "2026-10-20",
+      "issueDate": null,
+      "authors": [
+        "Sanders GJ",
+        "Stampley J",
+        "Parker B",
+        "Skodinski S",
+        "Peacock CA"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1519/JSC.0000000000005560",
+      "pmid": "42302193",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005560",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "肌力與爆發力"
+      ],
+      "sportTags": [
+        "排球"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "rss-acsm-updates-dffdfe225fc3e310",
+      "status": "discovered",
+      "sourceType": "official-update",
+      "sourceId": "acsm-updates",
+      "journal": "American College of Sports Medicine updates",
+      "journalAbbreviation": "",
+      "journalUrl": "https://acsm.org/",
+      "title": "CCRB Call for Nominations: 2027 ACSM Certification Board Leadership and Subject Matter Expert Positions",
+      "publicationDate": "2026-10-23",
+      "authors": [
+        "ckinser@acsm.org"
+      ],
+      "doi": null,
+      "pmid": null,
+      "pmcId": null,
+      "sourceUrl": "https://acsm.org/call-for-acsm-certification-board-committee-members/",
+      "fullTextUrl": null,
+      "access": "official-source",
+      "contentKind": "ACSM Programs; Certification Blog; Faculty/Educator Resource; News Release",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "rss-acsm-updates-a8e961005646fc10",
+      "status": "discovered",
+      "sourceType": "official-update",
+      "sourceId": "acsm-updates",
+      "journal": "American College of Sports Medicine updates",
+      "journalAbbreviation": "",
+      "journalUrl": "https://acsm.org/",
+      "title": "Clinical Highlights from Current Sports Medicine Reports &#124; Q3 2026",
+      "publicationDate": "2026-10-23",
+      "authors": [
+        "ckinser@acsm.org"
+      ],
+      "doi": null,
+      "pmid": null,
+      "pmcId": null,
+      "sourceUrl": "https://acsm.org/clinical-highlights-from-current-sports-medicine-reports-q3-2026/",
+      "fullTextUrl": null,
+      "access": "official-source",
+      "contentKind": "Athlete Care & Clinical Medicine; Clinician Resource; CSMR; Current Sports Medicine Reports",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "rss-acsm-updates-33083d0cf82810e3",
+      "status": "discovered",
+      "sourceType": "official-update",
+      "sourceId": "acsm-updates",
+      "journal": "American College of Sports Medicine updates",
+      "journalAbbreviation": "",
+      "journalUrl": "https://acsm.org/",
+      "title": "Hot Topic &#124; Three Years Later: Obesity Medications Have Changed – Has the Exercise Profession?",
+      "publicationDate": "2026-10-21",
+      "authors": [
+        "Connor Grootenhuis"
+      ],
+      "doi": null,
+      "pmid": null,
+      "pmcId": null,
+      "sourceUrl": "https://acsm.org/hot-topic-three-years-later-obesity-medications-have-changed-has-the-exercise-profession/",
+      "fullTextUrl": null,
+      "access": "official-source",
+      "contentKind": "Hot Topic; Member Exclusive; Physical Activity Guidelines; Sport/Athletic Performance; athlete development; atrophy; Exercise; physical activity guidelines",
+      "themes": [
+        "運動心臟與健康"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "rss-acsm-updates-b06dd5a4e5c94d53",
+      "status": "discovered",
+      "sourceType": "official-update",
+      "sourceId": "acsm-updates",
+      "journal": "American College of Sports Medicine updates",
+      "journalAbbreviation": "",
+      "journalUrl": "https://acsm.org/",
+      "title": "Science Spotlight &#124; Deadline Approaching for ACSM Foundation Research Grants",
+      "publicationDate": "2026-10-21",
+      "authors": [
+        "Connor Grootenhuis"
+      ],
+      "doi": null,
+      "pmid": null,
+      "pmcId": null,
+      "sourceUrl": "https://acsm.org/science-spotlight-deadline-approaching-for-acsm-foundation-research-grants/",
+      "fullTextUrl": null,
+      "access": "official-source",
+      "contentKind": "Member Exclusive; Science Spotlight; physical activity; physical activity guidelines; physical education",
+      "themes": [
+        "運動心臟與健康"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "rss-acsm-updates-494552b9229acb19",
+      "status": "discovered",
+      "sourceType": "official-update",
+      "sourceId": "acsm-updates",
+      "journal": "American College of Sports Medicine updates",
+      "journalAbbreviation": "",
+      "journalUrl": "https://acsm.org/",
+      "title": "Policy Corner &#124; Policies on Women&#8217;s Sports, Surgeon General Nominee, TBI Act Reauthorization",
+      "publicationDate": "2026-10-21",
+      "authors": [
+        "ckinser@acsm.org"
+      ],
+      "doi": null,
+      "pmid": null,
+      "pmcId": null,
+      "sourceUrl": "https://acsm.org/policy-corner-october-2026/",
+      "fullTextUrl": null,
+      "access": "official-source",
+      "contentKind": "Advocacy; Public Health Policy; Surgeon General; TBI Act; women's sports",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
+    {
+      "id": "rss-acsm-updates-af26d8377707438b",
+      "status": "discovered",
+      "sourceType": "official-update",
+      "sourceId": "acsm-updates",
+      "journal": "American College of Sports Medicine updates",
+      "journalAbbreviation": "",
+      "journalUrl": "https://acsm.org/",
+      "title": "Wearables Hold Top Spot in ACSM’s 2027 Fitness Trends",
+      "publicationDate": "2026-10-20",
+      "authors": [
+        "ckinser@acsm.org"
+      ],
+      "doi": null,
+      "pmid": null,
+      "pmcId": null,
+      "sourceUrl": "https://acsm.org/2027-fitness-trends/",
+      "fullTextUrl": null,
+      "access": "official-source",
+      "contentKind": "Exercise Professional Resource; Fitness Trends; News Release; Technology; 2027 fitness trends; fitness trends; wearable technology",
+      "themes": [
+        "量測與科技"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-26T02:12:57.623Z"
+    },
     {
       "id": "pmid-42868132",
       "status": "discovered",
@@ -3488,6 +5761,80 @@
       "review": null,
       "visualization": null,
       "discoveredAt": "2026-10-18T09:00:03.575Z"
+    },
+    {
+      "id": "pmid-42843799",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijsm",
+      "journal": "International journal of sports medicine",
+      "journalAbbreviation": "Int J Sports Med",
+      "journalUrl": "https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000030",
+      "title": "Medial Ulnar Collateral Ligament Reconstruction Using Internal Bracing: A Meta-Analysis of Biomechanical Studies.",
+      "publicationDate": "2026-10-23",
+      "issueDate": null,
+      "authors": [
+        "Reyes N",
+        "Dhaliwal A",
+        "Hatter MJ",
+        "Huang M",
+        "Isaev A",
+        "Huish E",
+        "Pettegrew J"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1055/a-2975-4474",
+      "pmid": "42843799",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1055/a-2975-4474",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [
+        "量測與科技"
+      ],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-13T14:06:53.262Z",
+      "featuredInIssueId": null
+    },
+    {
+      "id": "pmid-42843800",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "ijsm",
+      "journal": "International journal of sports medicine",
+      "journalAbbreviation": "Int J Sports Med",
+      "journalUrl": "https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000030",
+      "title": "Relationship Between Critical Speed and Long-Distance Swimming Performance: An Exploratory Study.",
+      "publicationDate": "2026-10-22",
+      "issueDate": null,
+      "authors": [
+        "Zwetsloot THM",
+        "Micheli L",
+        "van Diepen W",
+        "Elferink-Gemser MT",
+        "Ferri Marini C"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1055/a-2974-6165",
+      "pmid": "42843800",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1055/a-2974-6165",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [
+        "游泳與水上運動"
+      ],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-13T14:06:53.262Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42862730",
@@ -6339,78 +8686,6 @@
       "discoveredAt": "2026-10-13T14:06:53.262Z"
     },
     {
-      "id": "pmid-42843800",
-      "status": "discovered",
-      "sourceType": "journal-article",
-      "sourceId": "ijsm",
-      "journal": "International journal of sports medicine",
-      "journalAbbreviation": "Int J Sports Med",
-      "journalUrl": "https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000030",
-      "title": "Relation between critical speed and long-distance swimming performance: exploratory study.",
-      "publicationDate": "2026-10-07",
-      "issueDate": null,
-      "authors": [
-        "Zwetsloot THM",
-        "Micheli L",
-        "van Diepen W",
-        "Elferink-Gemser MT",
-        "Ferri Marini C"
-      ],
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1055/a-2974-6165",
-      "pmid": "42843800",
-      "pmcId": null,
-      "sourceUrl": "https://doi.org/10.1055/a-2974-6165",
-      "fullTextUrl": null,
-      "access": "check-publisher-or-institution",
-      "themes": [],
-      "sportTags": [
-        "游泳與水上運動"
-      ],
-      "review": null,
-      "visualization": null,
-      "discoveredAt": "2026-10-13T14:06:53.262Z"
-    },
-    {
-      "id": "pmid-42843799",
-      "status": "discovered",
-      "sourceType": "journal-article",
-      "sourceId": "ijsm",
-      "journal": "International journal of sports medicine",
-      "journalAbbreviation": "Int J Sports Med",
-      "journalUrl": "https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000030",
-      "title": "MUCL Reconstruction using Internal Bracing: A Meta-Analysis of Biomechanical Studies.",
-      "publicationDate": "2026-10-07",
-      "issueDate": null,
-      "authors": [
-        "Reyes N",
-        "Dhaliwal A",
-        "Hatter MJ",
-        "Huang M",
-        "Isaev A",
-        "Huish E",
-        "Pettegrew J"
-      ],
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1055/a-2975-4474",
-      "pmid": "42843799",
-      "pmcId": null,
-      "sourceUrl": "https://doi.org/10.1055/a-2975-4474",
-      "fullTextUrl": null,
-      "access": "check-publisher-or-institution",
-      "themes": [
-        "量測與科技"
-      ],
-      "sportTags": [],
-      "review": null,
-      "visualization": null,
-      "discoveredAt": "2026-10-13T14:06:53.262Z"
-    },
-    {
       "id": "pmid-42843762",
       "status": "discovered",
       "sourceType": "journal-article",
@@ -6990,6 +9265,44 @@
       "review": null,
       "visualization": null,
       "discoveredAt": "2026-10-13T14:06:53.262Z"
+    },
+    {
+      "id": "pmid-42829203",
+      "status": "discovered",
+      "sourceType": "journal-article",
+      "sourceId": "jisakos",
+      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
+      "journalAbbreviation": "J ISAKOS",
+      "journalUrl": "https://www.jisakos.com/",
+      "title": "Increased medial posterior tibial slope is associated with patellofemoral cartilage lesions: A matched-pair case-control study.",
+      "publicationDate": "2026-10-21",
+      "issueDate": null,
+      "authors": [
+        "Oehme S",
+        "Arteaga J",
+        "El Kayali MK",
+        "Wolf F",
+        "Bartek B",
+        "Gwinner C",
+        "Winkler T",
+        "Jung T",
+        "Milinkovic DD"
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.jisako.2026.101228",
+      "pmid": "42829203",
+      "pmcId": null,
+      "sourceUrl": "https://doi.org/10.1016/j.jisako.2026.101228",
+      "fullTextUrl": null,
+      "access": "check-publisher-or-institution",
+      "themes": [],
+      "sportTags": [],
+      "review": null,
+      "visualization": null,
+      "discoveredAt": "2026-10-05T10:16:14.924Z",
+      "featuredInIssueId": null
     },
     {
       "id": "pmid-42823324",
@@ -9768,43 +12081,6 @@
       "themes": [
         "心理與神經認知"
       ],
-      "sportTags": [],
-      "review": null,
-      "visualization": null,
-      "discoveredAt": "2026-10-05T10:16:14.924Z"
-    },
-    {
-      "id": "pmid-42829203",
-      "status": "discovered",
-      "sourceType": "journal-article",
-      "sourceId": "jisakos",
-      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
-      "journalAbbreviation": "J ISAKOS",
-      "journalUrl": "https://www.jisakos.com/",
-      "title": "Increased Medial Posterior Tibial Slope Is Associated with Patellofemoral Cartilage Lesions: A Matched-Pair Case-Control Study.",
-      "publicationDate": "2026-10-03",
-      "issueDate": null,
-      "authors": [
-        "Oehme S",
-        "Arteaga J",
-        "El-Kayali M",
-        "Wolf F",
-        "Bartek B",
-        "Gwinner C",
-        "Winkler T",
-        "Jung T",
-        "Milinkovic DD"
-      ],
-      "publicationTypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.jisako.2026.101228",
-      "pmid": "42829203",
-      "pmcId": null,
-      "sourceUrl": "https://doi.org/10.1016/j.jisako.2026.101228",
-      "fullTextUrl": null,
-      "access": "check-publisher-or-institution",
-      "themes": [],
       "sportTags": [],
       "review": null,
       "visualization": null,

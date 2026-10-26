@@ -8,6 +8,772 @@
   "episodes": [
     {
       "schemaVersion": 1,
+      "id": "2026-w44",
+      "status": "published",
+      "publishDate": "2026-10-31",
+      "showName": "edgeSport4Podcast",
+      "title": "A Green Score, and Then What?",
+      "episodeSubtitle": "Turning training plans and recovery signals into decisions worth checking",
+      "summary": "Ying and Bing examine eight sources on weekly soccer workloads, endurance readiness, caffeine expectations, pre-sleep nutrition, beetroot juice, adolescent hip injury, women's soccer ACL surveillance and cannabinoid communication. They ask what would actually justify changing the next session while keeping measured outcomes, clinical decisions and an unvalidated EDGE SPORT monitoring proposal distinct.",
+      "language": "en",
+      "estimatedMinutes": 14,
+      "durationSeconds": 725.182,
+      "wordCount": 1688,
+      "hosts": [
+        {
+          "id": "host",
+          "displayName": "Ying",
+          "role": "Evidence guide · female voice"
+        },
+        {
+          "id": "cohost",
+          "displayName": "Bing",
+          "role": "Analytical partner · male voice"
+        }
+      ],
+      "sourceWeeklyReportId": "2026-w44",
+      "sourceRecordIds": [
+        "pmid-42897966",
+        "pmid-42627171",
+        "pmid-42926133",
+        "pmid-42925088",
+        "pmid-42920964",
+        "pmid-42902901",
+        "pmid-42897977",
+        "pmid-42899516"
+      ],
+      "learningGoals": [
+        "Distinguish workload descriptions and fatigue monitoring from evidence predicting the next task.",
+        "Interpret nutrition and expectation findings using their actual comparisons, outcomes and analysis populations.",
+        "Keep clinical assessment, exposure-adjusted injury surveillance and product communication within their evidence boundaries.",
+        "Describe a traceable training decision without inventing universal scores, progression percentages or clearance rules."
+      ],
+      "showNotes": [
+        "The written brand edgeSport4Podcast is spoken as Edge Sport for Podcast.",
+        "All research claims derive from the supplied 2026-w44 weekly report. No additional research or historical issue claims are introduced.",
+        "Male soccer workload review: pmid-42627171. Only 2 of 43 studies used dedicated performance tests.",
+        "Endurance readiness review: pmid-42926133. Reported 14 studies and 418 participants with inconsistent age eligibility and tool counts.",
+        "Caffeine expectation meta-analysis: pmid-42897966. Deceptive caffeine-free treatments were compared with baseline, not actual caffeine.",
+        "Pre-sleep nutrition crossover trial: pmid-42897977. Twenty-one female collegiate athletes completed four conditions with three nights per condition.",
+        "Beetroot juice crossover trial: pmid-42899516. Principal inference used 13 female volleyball players who completed both periods.",
+        "Adolescent iliopsoas avulsion report and review: pmid-42925088. Case-level evidence cannot establish treatment superiority or personal clearance dates. The written report flags unresolved reporting discrepancies including injury side and rehabilitation chronology to unrestricted return at three months, so that return date is not presented here as a recovery target or clearance rule. The six-month imaging finding is retained only as a separate case observation about imaging and function, not as validation of the reported return chronology or of individual clearance criteria. Source claims about return timing and clearance remain unverified pending editorial review, and editorReview remains unapproved until those issues are resolved against the original source material. Other discrepancies include youth soccer sample counts and cannabinoid survey collection dates; consult the written report and original sources before publication or implementation. The supplied report records full-text access, but this script does not independently resolve these discrepancies, verify the original sources, or constitute publication approval; the episode remains an unapproved draft pending editorial verification. No clinical recommendation should be inferred from the unresolved chronology or from the isolated imaging observation, and no universal return timeline is supplied by this episode. The clinical action discussed is assessment of concerning symptoms, with activity decisions reserved for the treating team rather than a podcast, readiness score or case-report date. The monitoring workflow is likewise an educational proposal that has not been validated as a complete system, an injury predictor or a medical clearance process. No automatic threshold, dose, progression percentage or recovery deadline is endorsed. Nutrition exposures and follow-up times are study descriptions only. Read the report and original sources for complete methods and limitations before interpreting any quantitative result outside the conversation. The dialogue deliberately separates the meaning of a measurement from the decision it might inform, and repeated local observation is described as reviewable practice rather than proof of causality or established predictive accuracy. No external evidence, current regulatory guidance or personalized advice is added. Synthetic speech disclosure is provided in the episode metadata. Publication approval requires a human evidence review and resolution of material source inconsistencies; the empty verification fields are intentional and should remain empty until that review occurs. This draft is educational and does not diagnose listeners or clear athletes to return to play. All eight research sources are included with claim-level evidence IDs. Quantitative findings retain the source population, comparison and relevant uncertainty where discussed, and the fact-check section preserves the main evidence boundaries. The case's reported unrestricted return date is omitted from the spoken dialogue because the report explicitly identifies a chronology issue. The episode does not infer that symptom resolution alone establishes readiness, nor that persistent imaging findings alone determine restriction. Those questions require individualized clinical interpretation. The same distinction applies to the nutrition and readiness sources, where better scores, comfort or a single functional result do not establish universal capacity for the next task. The practical proposal asks teams to record what they intended, what they changed and what followed, while preserving uncertainty and the athlete's account. This proposal should not be advertised as proven prevention or a validated algorithm. The written report remains the sole source of truth for this draft."
+      ],
+      "chapters": [
+        {
+          "title": "The score and the session",
+          "summary": "A familiar morning dilemma leads to the distinction between workload patterns, fatigue and readiness for a specific task.",
+          "turnStart": 1,
+          "startSeconds": 1.57
+        },
+        {
+          "title": "Expectations and bedtime nutrition",
+          "summary": "The speakers unpack baseline comparisons, low-certainty expectation effects and a short nutrition trial without detected sleep differences.",
+          "turnStart": 13,
+          "startSeconds": 173.869
+        },
+        {
+          "title": "A better jump means what?",
+          "summary": "Selective beetroot juice findings show why timing, task and analysis population matter.",
+          "turnStart": 23,
+          "startSeconds": 320.432
+        },
+        {
+          "title": "Symptoms, images and denominators",
+          "summary": "A rare adolescent hip injury and women's soccer ACL surveillance require different kinds of interpretation.",
+          "turnStart": 31,
+          "startSeconds": 440.685
+        },
+        {
+          "title": "The conversation behind the data",
+          "summary": "Cannabinoid survey findings lead into a practical, explicitly unvalidated approach to recording and reviewing decisions.",
+          "turnStart": 39,
+          "startSeconds": 566.136
+        }
+      ],
+      "transcript": [
+        {
+          "turn": 1,
+          "speaker": "host",
+          "text": "You've slept badly, your watch looks cheerful, and tomorrow's hard session is already on the board. Welcome to edgeSport4Podcast, I'm Ying, and this week's question is what would actually justify keeping that session, changing it, or asking for an assessment?",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 1.57,
+          "durationSeconds": 17.554
+        },
+        {
+          "turn": 2,
+          "speaker": "cohost",
+          "text": "And I'm Bing, here on edgeSport4Podcast with a coffee and some sympathy for whoever has to make that call. I'd want to know what tomorrow asks of the athlete before deciding how much authority to give today's score.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 19.284,
+          "durationSeconds": 12.313
+        },
+        {
+          "turn": 3,
+          "speaker": "host",
+          "text": "That gives us somewhere concrete to begin. The male soccer review found a familiar pattern of recovery after matches, heavier work around the middle of the week and less work before the next match, but familiarity doesn't establish the best arrangement.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42627171"
+          ],
+          "startSeconds": 31.797,
+          "durationSeconds": 17.722
+        },
+        {
+          "turn": 4,
+          "speaker": "cohost",
+          "text": "How often did those studies actually test whether players performed better, rather than simply describe what the week looked like?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42627171"
+          ],
+          "startSeconds": 49.719,
+          "durationSeconds": 6.916
+        },
+        {
+          "turn": 5,
+          "speaker": "host",
+          "text": "Only two of the 43 studies used dedicated performance tests. Most of this literature tells us how training was distributed, so it gives a useful map of practice with much less direct evidence about which arrangement improves performance.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42627171"
+          ],
+          "startSeconds": 56.874,
+          "durationSeconds": 13.645
+        },
+        {
+          "turn": 6,
+          "speaker": "cohost",
+          "text": "Then I'd keep the map but loosen my attachment to it. If a team wins after a lighter week, the opponent and tactical plan still matter, and coaches might already have changed training because of the opponent they expected.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42627171"
+          ],
+          "startSeconds": 70.719,
+          "durationSeconds": 13.61
+        },
+        {
+          "turn": 7,
+          "speaker": "host",
+          "text": "Exactly, and we need to separate the work from the response. External load is what someone does, such as distance or accelerations, while internal load is their physiological or perceived response, so the same distance doesn't tell the whole story.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42627171"
+          ],
+          "startSeconds": 84.529,
+          "durationSeconds": 17.027
+        },
+        {
+          "turn": 8,
+          "speaker": "cohost",
+          "text": "That makes the morning score more interesting, but also more demanding. Is it describing yesterday's cost or tomorrow's capability?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42926133"
+          ],
+          "startSeconds": 101.757,
+          "durationSeconds": 8.522
+        },
+        {
+          "turn": 9,
+          "speaker": "host",
+          "text": "The endurance readiness review asks essentially that question across a reported 14 studies and 418 participants. Many tools came from fatigue, recovery or adaptation monitoring, and being sensitive to those states doesn't establish that they predict the quality of the next session.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42926133"
+          ],
+          "startSeconds": 110.519,
+          "durationSeconds": 23.165
+        },
+        {
+          "turn": 10,
+          "speaker": "cohost",
+          "text": "And that total needs care because the review includes an adolescent swimming subgroup despite adult eligibility criteria, alongside inconsistent tool counts. Ying, how would you explain readiness without making it sound like a quality someone either possesses or lacks?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42926133"
+          ],
+          "startSeconds": 133.884,
+          "durationSeconds": 16.221
+        },
+        {
+          "turn": 11,
+          "speaker": "host",
+          "text": "I'd describe it as a temporary capacity to handle and effectively complete the next physical and cognitive task. That keeps the task in view, and the authors' framework for combining subjective, physiological, functional and contextual information still needs prospective validation.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42926133"
+          ],
+          "startSeconds": 150.345,
+          "durationSeconds": 16.078
+        },
+        {
+          "turn": 12,
+          "speaker": "cohost",
+          "text": "So a useful question becomes whether the information helps us judge a specified session, with its actual quality checked afterward.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42926133"
+          ],
+          "startSeconds": 166.623,
+          "durationSeconds": 7.045
+        },
+        {
+          "turn": 13,
+          "speaker": "host",
+          "text": "Yes, and perceived readiness brings us to expectations. The caffeine review pooled studies where people received something caffeine-free but were told it contained caffeine, comparing their performance with baseline conditions rather than directly comparing the treatment with real caffeine.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42897966"
+          ],
+          "startSeconds": 173.869,
+          "durationSeconds": 17.343
+        },
+        {
+          "turn": 14,
+          "speaker": "cohost",
+          "text": "That comparison matters before any number arrives. What was the average signal, and how much confidence should we place in it?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42897966"
+          ],
+          "startSeconds": 191.411,
+          "durationSeconds": 8.15
+        },
+        {
+          "turn": 15,
+          "speaker": "host",
+          "text": "Across 17 studies and 257 people, the pooled standardized effect was 0.49, with a confidence interval from 0.28 to 0.69. That's a result expressed on a common statistical scale across different tasks, rather than a percentage improvement.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42897966"
+          ],
+          "startSeconds": 199.801,
+          "durationSeconds": 19.507
+        },
+        {
+          "turn": 16,
+          "speaker": "cohost",
+          "text": "And it doesn't tell us how much of real caffeine's effect comes from expectation. The certainty was low, none of the studies had low risk of bias, and particular outcomes such as power didn't show a consistent benefit.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42897966"
+          ],
+          "startSeconds": 219.508,
+          "durationSeconds": 14.813
+        },
+        {
+          "turn": 17,
+          "speaker": "host",
+          "text": "Given that uncertainty, would you still ask an athlete what they expect a recovery strategy to do for them?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42897966"
+          ],
+          "startSeconds": 234.521,
+          "durationSeconds": 6.063
+        },
+        {
+          "turn": 18,
+          "speaker": "cohost",
+          "text": "I would, because it helps us interpret their experience while keeping our explanation honest. The review explicitly opposes deceptive administration in practice, so we can record expectations and use consistent encouragement without pretending a product contains something it doesn't.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42897966"
+          ],
+          "startSeconds": 240.824,
+          "durationSeconds": 17.312
+        },
+        {
+          "turn": 19,
+          "speaker": "host",
+          "text": "That honesty also matters at bedtime, when someone wants reassurance about eating late. In a randomized, blinded crossover trial, 21 female collegiate athletes completed four conditions, receiving casein, an alpha-lactalbumin formula, carbohydrate or placebo for three nights each.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42897977"
+          ],
+          "startSeconds": 258.336,
+          "durationSeconds": 20.188
+        },
+        {
+          "turn": 20,
+          "speaker": "cohost",
+          "text": "They didn't detect differences in sleep or perceived recovery between conditions. Does that give us reassurance without establishing a special sleep benefit?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42897977"
+          ],
+          "startSeconds": 278.724,
+          "durationSeconds": 9.298
+        },
+        {
+          "turn": 21,
+          "speaker": "host",
+          "text": "That's a fair reading within this short study of supported collegiate athletes. It wasn't designed to establish equivalence, sleep was assessed with a wearable, and the findings don't establish long-term effects or treatment benefits for people with insomnia.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42897977"
+          ],
+          "startSeconds": 288.262,
+          "durationSeconds": 16.503
+        },
+        {
+          "turn": 22,
+          "speaker": "cohost",
+          "text": "Then the starting question is whether evening food serves an actual nutritional need, with sleep and tolerance followed individually. Those three-night conditions don't supply a universal bedtime prescription, and the study didn't directly measure muscle protein synthesis or competition performance.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42897977"
+          ],
+          "startSeconds": 304.965,
+          "durationSeconds": 15.267
+        },
+        {
+          "turn": 23,
+          "speaker": "host",
+          "text": "Following the outcome you actually want becomes especially useful with the beetroot juice trial. Female volleyball players completed a demanding jumping protocol, then received beetroot juice or a sea buckthorn control drink in a crossover design, with follow-up through 72 hours.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42899516"
+          ],
+          "startSeconds": 320.432,
+          "durationSeconds": 16.98
+        },
+        {
+          "turn": 24,
+          "speaker": "cohost",
+          "text": "Before we call that recovery, which capability improved, and which athletes actually contributed to the main statistical comparison?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42899516"
+          ],
+          "startSeconds": 337.612,
+          "durationSeconds": 8.201
+        },
+        {
+          "turn": 25,
+          "speaker": "host",
+          "text": "The main model used 13 players who completed both periods. At 72 hours, the estimated advantage in countermovement jump height was 1.5 centimeters, with a confidence interval from 0.05 to 2.97 centimeters, compared with the control drink.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42899516"
+          ],
+          "startSeconds": 346.053,
+          "durationSeconds": 19.286
+        },
+        {
+          "turn": 26,
+          "speaker": "cohost",
+          "text": "That's a fairly wide interval, and the overall interaction between condition and time didn't meet the study's significance standard. I'd describe a signal at that time point while resisting the idea that the entire recovery trajectory had clearly improved.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42899516"
+          ],
+          "startSeconds": 365.539,
+          "durationSeconds": 16.374
+        },
+        {
+          "turn": 27,
+          "speaker": "host",
+          "text": "Agreed, especially because agility and self-rated soreness didn't show consistent advantages. Bing, if a coach mostly needs braking and changes of direction tomorrow, how much weight would you give that better jump when deciding whether this strategy has served its purpose?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42899516"
+          ],
+          "startSeconds": 382.113,
+          "durationSeconds": 17.618
+        },
+        {
+          "turn": 28,
+          "speaker": "cohost",
+          "text": "Some weight, but I'd still need information about the movement task the coach actually plans to ask the athlete to perform.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42899516"
+          ],
+          "startSeconds": 399.971,
+          "durationSeconds": 5.962
+        },
+        {
+          "turn": 29,
+          "speaker": "host",
+          "text": "There's also a local pain finding to keep separate from soreness. The calf pressure pain threshold, meaning pressure at the first sensation of pain, was higher with beetroot juice, but that doesn't establish whole-body pain relief or repaired tissue.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42899516"
+          ],
+          "startSeconds": 406.133,
+          "durationSeconds": 18.042
+        },
+        {
+          "turn": 30,
+          "speaker": "cohost",
+          "text": "And the mechanism stays open because nitrate exposure and inflammation weren't directly measured, while the control drink wasn't necessarily inactive. Testing also followed that day's drink, leaving cumulative recovery and an acute effect difficult to separate, even before considering training changes.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42899516"
+          ],
+          "startSeconds": 424.375,
+          "durationSeconds": 16.11
+        },
+        {
+          "turn": 31,
+          "speaker": "host",
+          "text": "That caution becomes more consequential when pain follows an injury. The hip paper combines one adolescent soccer case with a review of rare iliopsoas avulsions, where the hip flexor attachment can pull away a piece of bone, mostly in adolescent males.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42925088"
+          ],
+          "startSeconds": 440.685,
+          "durationSeconds": 16.98
+        },
+        {
+          "turn": 32,
+          "speaker": "cohost",
+          "text": "So a teenager with sudden front-of-hip pain and trouble lifting the leg shouldn't simply be treated as having ordinary soreness?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42925088"
+          ],
+          "startSeconds": 457.865,
+          "durationSeconds": 7.26
+        },
+        {
+          "turn": 33,
+          "speaker": "host",
+          "text": "Correct, especially with limping or clear weakness after kicking or sprinting, that calls for clinical assessment rather than harder testing. In the reported case, painless functional recovery coexisted with a six-month scan showing incomplete bony union, which requires careful clinical interpretation.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42925088"
+          ],
+          "startSeconds": 465.364,
+          "durationSeconds": 18.064
+        },
+        {
+          "turn": 34,
+          "speaker": "cohost",
+          "text": "The literature review included 58 people, with 52 managed conservatively and six surgically, separate from the new case. Those counts can't establish which treatment works better because treatment selection differed, and case reports can't supply an individual clearance rule.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42925088"
+          ],
+          "startSeconds": 483.629,
+          "durationSeconds": 16.175
+        },
+        {
+          "turn": 35,
+          "speaker": "host",
+          "text": "Right, the clinical question survives the headline. We need similar care with the claim of an ACL epidemic in women's soccer, where this week's perspective article examined historical surveillance and found no clear upward or downward trend in the published data.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42920964"
+          ],
+          "startSeconds": 500.004,
+          "durationSeconds": 17.455
+        },
+        {
+          "turn": 36,
+          "speaker": "cohost",
+          "text": "When injuries keep appearing in the news, what comparison should we ask for before deciding the underlying rate has changed?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42920964"
+          ],
+          "startSeconds": 517.659,
+          "durationSeconds": 7.21
+        },
+        {
+          "turn": 37,
+          "speaker": "host",
+          "text": "Ask about exposure time, league and season, because injury counts alone leave out how much soccer was played. Overall ACL rates across the included studies ranged from 0.09 to 0.24 injuries per thousand hours, which is a range across studies rather than one global estimate.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42920964"
+          ],
+          "startSeconds": 525.108,
+          "durationSeconds": 24.433
+        },
+        {
+          "turn": 38,
+          "speaker": "cohost",
+          "text": "And this was a narrative perspective with uneven geographic coverage and missing years, rather than a formal global trend analysis. The absence of a clear increase doesn't make an ACL injury less consequential or tell us prevention and care already have enough resources.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42920964"
+          ],
+          "startSeconds": 549.741,
+          "durationSeconds": 16.195
+        },
+        {
+          "turn": 39,
+          "speaker": "host",
+          "text": "Care also depends on what people feel able to tell us. The cannabinoid paper used separate anonymous surveys of contact-sport athletes and medical staff, and its use figures came from 105 respondents to that question, with 56 percent reporting current use.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42902901"
+          ],
+          "startSeconds": 566.136,
+          "durationSeconds": 17.194
+        },
+        {
+          "turn": 40,
+          "speaker": "cohost",
+          "text": "So the denominator changes by question, and that percentage doesn't describe all 166 recruited athletes or contact-sport athletes generally.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42902901"
+          ],
+          "startSeconds": 583.529,
+          "durationSeconds": 9.256
+        },
+        {
+          "turn": 41,
+          "speaker": "host",
+          "text": "Exactly, and among 112 people answering the relevant communication questions, only 21.4 percent said they could discuss use comfortably. Bing, what would you change in a recovery conversation while keeping clear that reported benefits don't establish product efficacy or safety?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42902901"
+          ],
+          "startSeconds": 592.985,
+          "durationSeconds": 20.982
+        },
+        {
+          "turn": 42,
+          "speaker": "cohost",
+          "text": "I'd ask privately and without judgment about the product, purpose, timing and other medicines, then refer questions to someone with relevant expertise. That's an approach proposed in the report, while this self-selected survey itself tested neither communication effectiveness nor a treatment dose.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42902901"
+          ],
+          "startSeconds": 614.207,
+          "durationSeconds": 16.355
+        },
+        {
+          "turn": 43,
+          "speaker": "host",
+          "text": "That gives the athlete room to explain what the numbers miss. Bringing everything together, our EDGE SPORT proposal is to record the intended task, the information considered, the adjustment made and what happened afterward, with the athlete involved in reviewing the decision.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [],
+          "startSeconds": 630.762,
+          "durationSeconds": 17.324
+        },
+        {
+          "turn": 44,
+          "speaker": "cohost",
+          "text": "I'd add that this combined workflow hasn't been validated, so keeping records doesn't establish that we can predict injuries or performance.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [],
+          "startSeconds": 648.286,
+          "durationSeconds": 7.58
+        },
+        {
+          "turn": 45,
+          "speaker": "host",
+          "text": "Yes, it's a proposal for making judgment reviewable. With an unexplained morning result, we'd check measurement and context, then observe the planned task as appropriate, while new pain, limping or marked weakness would shift the question toward professional assessment.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42926133",
+            "pmid-42925088"
+          ],
+          "startSeconds": 656.066,
+          "durationSeconds": 16.084
+        },
+        {
+          "turn": 46,
+          "speaker": "cohost",
+          "text": "And what would change my decision is whether the actual work holds its expected quality, how the athlete responds and what followed comparable sessions before. That's the report's proposed review process, with no universal score or percentage that automatically authorizes more work.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [],
+          "startSeconds": 672.351,
+          "durationSeconds": 15.674
+        },
+        {
+          "turn": 47,
+          "speaker": "host",
+          "text": "Then our practical recap is to name the next task, keep feelings and functional outcomes visible separately, and write down why you maintained or changed the plan. Keep clinical decisions with the clinical team, and revisit the result with the athlete rather than defending the original prediction.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [],
+          "startSeconds": 688.224,
+          "durationSeconds": 18.527
+        },
+        {
+          "turn": 48,
+          "speaker": "cohost",
+          "text": "That's a manageable conversation to carry into tomorrow, even when the watch and the person disagree. Read the written weekly report and original sources for the methods, limitations and unresolved reporting issues, and thanks for joining Ying and me on edgeSport4Podcast.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 706.952,
+          "durationSeconds": 16.5
+        }
+      ],
+      "factCheck": [
+        {
+          "claim": "Only 2 of 43 male soccer workload studies, or 4.6 percent, used dedicated performance tests.",
+          "evidenceSourceIds": [
+            "pmid-42627171"
+          ],
+          "boundary": "Common weekly arrangements are descriptive practice patterns rather than established optimal prescriptions. Youth performance evidence is limited and includes inconsistent sample reporting."
+        },
+        {
+          "claim": "The endurance readiness review reported 14 studies and 418 participants.",
+          "evidenceSourceIds": [
+            "pmid-42926133"
+          ],
+          "boundary": "This is not a uniform adult validation sample. An adolescent swimming subgroup conflicts with adult eligibility criteria, tool counts differ within the source and the proposed framework lacks prospective validation."
+        },
+        {
+          "claim": "Caffeine-free treatments presented as caffeine had a pooled standardized effect of d = 0.49, with a 95 percent confidence interval of 0.28 to 0.69, across 17 studies and 257 participants compared with baseline.",
+          "evidenceSourceIds": [
+            "pmid-42897966"
+          ],
+          "boundary": "The effect is not a percentage improvement or a direct comparison with actual caffeine. Evidence certainty was low, no study had low risk of bias and benefits were not consistent across outcomes. The source opposes deceptive administration in practice."
+        },
+        {
+          "claim": "Twenty-one female collegiate athletes completed four pre-sleep conditions with three nights per condition, without detected differences in sleep or perceived recovery.",
+          "evidenceSourceIds": [
+            "pmid-42897977"
+          ],
+          "boundary": "The trial was not designed to establish equivalence. Short exposure, wearable sleep measurement and the supported collegiate population limit generalization. It did not establish insomnia treatment, long-term benefit or competition effects."
+        },
+        {
+          "claim": "The beetroot juice trial's main inference used 13 participants completing both periods. The estimated 72-hour countermovement jump advantage was 1.5 centimeters, with a 95 percent confidence interval of 0.05 to 2.97 centimeters.",
+          "evidenceSourceIds": [
+            "pmid-42899516"
+          ],
+          "boundary": "The time-point comparison had Holm-adjusted p = 0.033, while the overall interaction had p = 0.062. This does not establish a changed overall recovery trajectory or justify increased training."
+        },
+        {
+          "claim": "The estimated 72-hour calf pressure pain threshold advantage was 47.5 mmHg, with a 95 percent confidence interval of 11.80 to 83.28 mmHg.",
+          "evidenceSourceIds": [
+            "pmid-42899516"
+          ],
+          "boundary": "This was a local threshold outcome, not whole-body analgesia or tissue repair. Agility and self-rated soreness did not show consistent advantages. Nitrate exposure and inflammatory mechanisms were not verified, the control was potentially active and acute versus accumulated effects could not be fully separated."
+        },
+        {
+          "claim": "The hip review included 58 literature patients, with 52 managed conservatively and six surgically, separate from the new adolescent case. The new case had incomplete bony union on six-month imaging despite painless functional recovery.",
+          "evidenceSourceIds": [
+            "pmid-42925088"
+          ],
+          "boundary": "Case-level evidence is extremely uncertain and cannot establish treatment superiority, a displacement threshold or individual clearance criteria. The written report flags inconsistent injury-side reporting and an unresolved rehabilitation-to-return chronology."
+        },
+        {
+          "claim": "Across the included women's soccer surveillance studies, overall ACL incidence ranged from 0.09 to 0.24 injuries per 1,000 hours, without a clear upward or downward trend in published data.",
+          "evidenceSourceIds": [
+            "pmid-42920964"
+          ],
+          "boundary": "The range is across studies rather than a pooled global estimate. The article is a narrative perspective with geographic and temporal gaps, not a formal global trend test. It does not establish low individual risk or adequate prevention resources."
+        },
+        {
+          "claim": "Among 105 cannabinoid-use question respondents, 56 percent reported current use. Among 112 respondents to the relevant communication questions, 21.4 percent reported being comfortable discussing use.",
+          "evidenceSourceIds": [
+            "pmid-42902901"
+          ],
+          "boundary": "Question-specific denominators must be retained. Self-selected, cross-sectional, self-reported survey findings do not estimate universal prevalence or establish efficacy, safety, dosing or the effectiveness of a communication intervention."
+        },
+        {
+          "claim": "The proposed EDGE SPORT workflow records the intended task, supporting information, actual adjustment and subsequent response.",
+          "evidenceSourceIds": [
+            "pmid-42926133",
+            "pmid-42627171"
+          ],
+          "boundary": "This is an editorial operational proposal rather than a validated combined system. It supplies no universal progression percentage, readiness threshold, injury prediction or medical clearance rule."
+        }
+      ],
+      "closingTakeaways": [
+        "Define the next task before interpreting a readiness score or recovery result.",
+        "Keep subjective comfort, physiological signals and task performance separate.",
+        "Preserve the actual comparison, analysis population and exposure denominator.",
+        "Seek clinical assessment for concerning new symptoms rather than using readiness tests for clearance.",
+        "Record decisions and subsequent responses as an explicitly unvalidated EDGE SPORT proposal.",
+        "Consult the written weekly report and original sources for methods, limitations and unresolved reporting issues."
+      ],
+      "disclosure": "This episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance.",
+      "editorReview": {
+        "approvedForPublish": false,
+        "verifiedBy": "",
+        "verifiedAt": ""
+      },
+      "publicationMode": "automated",
+      "automationProvider": "codex",
+      "renderedAt": "2026-10-26T02:36:33.585Z",
+      "publishedAt": "2026-10-26T02:36:34.141Z",
+      "audio": {
+        "src": "assets/podcasts/2026-w44-fd5d28b53430.mp3",
+        "mimeType": "audio/mpeg",
+        "bytes": 8703116,
+        "bitrate": "96k",
+        "sampleRate": 24000
+      },
+      "researchSources": [
+        {
+          "recordId": "pmid-42897966",
+          "title": "Placebo effects of caffeine on sport performance: a systematic review and meta-analysis.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-20",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2747142",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42627171",
+          "title": "Impact of Weekly Workload Distribution on Performance in Male Soccer Players Across Competitive Levels-Scientific Hypothesis or Empirical Evidence: A Systematic Review.",
+          "journal": "Journal of strength and conditioning research",
+          "publicationDate": "2026-10-20",
+          "sourceUrl": "https://doi.org/10.1519/JSC.0000000000005627",
+          "contentLevel": "full-text-web"
+        },
+        {
+          "recordId": "pmid-42926133",
+          "title": "Conceptual Frameworks and Assessment of Readiness to Train in Endurance Exercise: A Systematic Review.",
+          "journal": "International journal of sports physiology and performance",
+          "publicationDate": "2026-10-24",
+          "sourceUrl": "https://doi.org/10.1123/ijspp.2025-0699",
+          "contentLevel": "full-text-web"
+        },
+        {
+          "recordId": "pmid-42925088",
+          "title": "Conservative Management of a Displaced Iliopsoas Avulsion in an Adolescent: A Case Report and Systematic Review.",
+          "journal": "Clinical journal of sport medicine : official journal of the Canadian Academy of Sport Medicine",
+          "publicationDate": "2026-10-23",
+          "sourceUrl": "https://doi.org/10.1097/JSM.0000000000001520",
+          "contentLevel": "full-text-web"
+        },
+        {
+          "recordId": "pmid-42920964",
+          "title": "'ACL epidemic in women's football': the epidemiological evidence does not support the narrative.",
+          "journal": "BMJ open sport & exercise medicine",
+          "publicationDate": "2026-10-22",
+          "sourceUrl": "https://doi.org/10.1136/bmjsem-2026-003416",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42902901",
+          "title": "Athletes and Medical Staff in Elite Contact Sports: a Quantitative Analysis of Use, Knowledge, and Attitudes Regarding Cannabinoids.",
+          "journal": "Sports health",
+          "publicationDate": "2026-10-21",
+          "sourceUrl": "https://doi.org/10.1177/19417381261495512",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42897977",
+          "title": "Pre-sleep milk-derived proteins do not impair sleep or recovery in elite female athletes.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-20",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2746899",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42899516",
+          "title": "Selective recovery effects of short-term beetroot juice supplementation after exercise-induced muscle damage in trained female volleyball players.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-20",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2751785",
+          "contentLevel": "full-text-open"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
       "id": "2026-w43",
       "status": "published",
       "publishDate": "2026-10-24",
