@@ -8,6 +8,774 @@
   "episodes": [
     {
       "schemaVersion": 1,
+      "id": "2026-w45",
+      "status": "published",
+      "publishDate": "2026-11-07",
+      "showName": "edgeSport4Podcast",
+      "title": "Does the Benefit Last?",
+      "episodeSubtitle": "Following supplements, training loads and symptoms through the whole task",
+      "summary": "Ying and Bing discuss eight studies asking whether early gains, improved sensations or better laboratory numbers translate into the outcomes people actually need. They examine repeated judo efforts, menthol and running, ketone precursors, protein, resistance training and breast injury surveillance while preserving uncertainty and practical limits.",
+      "language": "en",
+      "estimatedMinutes": 13,
+      "durationSeconds": 784.114,
+      "wordCount": 1784,
+      "hosts": [
+        {
+          "id": "host",
+          "displayName": "Ying",
+          "role": "Evidence guide · female voice"
+        },
+        {
+          "id": "cohost",
+          "displayName": "Bing",
+          "role": "Analytical partner · male voice"
+        }
+      ],
+      "sourceWeeklyReportId": "2026-w45",
+      "sourceRecordIds": [
+        "pmid-42954267",
+        "pmid-42929456",
+        "pmid-42954324",
+        "pmid-42831264",
+        "pmid-42852530",
+        "pmid-42922437",
+        "pmid-42905127",
+        "pmid-42960524"
+      ],
+      "learningGoals": [
+        "Distinguish early benefits from performance across the complete target task.",
+        "Separate sensations, biochemical exposure, physical capacity and functional outcomes.",
+        "Interpret uncertain differences without claiming equivalence or individual response.",
+        "Recognize how disclosure and follow-up affect injury surveillance.",
+        "Identify what evidence would support retaining, revising or withdrawing a strategy."
+      ],
+      "showNotes": [
+        "Brand pronunciation: edgeSport4Podcast is spoken as Edge Sport for Podcast.",
+        "All research discussion is based exclusively on the supplied weeklyReport for 2026-w45.",
+        "The integrated monitoring approach discussed at the end is an unvalidated EDGE SPORT educational proposal.",
+        "Consult the written weekly report and its original sources for full methods, confidence intervals and unresolved reporting discrepancies.",
+        "Judo supplementation: pmid-42905127. Menthol running trial: pmid-42922437. Mountain bike BDO trial: pmid-42852530.",
+        "Protein source review: pmid-42954267. Whey biomarker trial: pmid-42929456.",
+        "Older adult load prescription: pmid-42954324. Flywheel calf raises: pmid-42831264. Women's rugby breast injury surveillance: pmid-42960524."
+      ],
+      "chapters": [
+        {
+          "title": "A good start, then what?",
+          "summary": "Repeated judo efforts reveal why an early benefit cannot stand in for the whole day.",
+          "turnStart": 1,
+          "startSeconds": 1.57
+        },
+        {
+          "title": "Feeling better and measuring exposure",
+          "summary": "Menthol and BDO separate sensations and biochemical changes from the outcomes they might promise.",
+          "turnStart": 11,
+          "startSeconds": 153.226
+        },
+        {
+          "title": "Protein and the comparison that matters",
+          "summary": "Protein source uncertainty and whey biomarker results require careful comparisons.",
+          "turnStart": 21,
+          "startSeconds": 301.751
+        },
+        {
+          "title": "Choosing a load and checking transfer",
+          "summary": "Older adult training and acute flywheel responses show different kinds of task specificity.",
+          "turnStart": 29,
+          "startSeconds": 436.999
+        },
+        {
+          "title": "What the injury record misses",
+          "summary": "Breast injury surveillance highlights disclosure, denominators and follow-up.",
+          "turnStart": 39,
+          "startSeconds": 603.245
+        },
+        {
+          "title": "A decision people can revisit",
+          "summary": "The hosts assemble an explicitly unvalidated practical approach and close with actionable questions.",
+          "turnStart": 45,
+          "startSeconds": 707.541
+        }
+      ],
+      "transcript": [
+        {
+          "turn": 1,
+          "speaker": "host",
+          "text": "You know that hopeful feeling when a new strategy works in the first session? Welcome to edgeSport4Podcast. I'm Ying, and this week's question is whether that benefit survives the whole task, including the part when you're tired and nobody's watching closely.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 1.57,
+          "durationSeconds": 16.037
+        },
+        {
+          "turn": 2,
+          "speaker": "cohost",
+          "text": "And I'm Bing. Here on edgeSport4Podcast, I'd like us to stay with that tired person for a while. If the opening rounds look better but the later rounds slip, what would actually persuade us to keep the strategy?",
+          "delivery": "curious",
+          "evidenceSourceIds": [],
+          "startSeconds": 17.727,
+          "durationSeconds": 13.377
+        },
+        {
+          "turn": 3,
+          "speaker": "host",
+          "text": "The judo study makes that question concrete. Thirty-five competitive athletes completed a randomized crossover comparison of caffeine, beetroot juice, their combination and placebo during a simulated competition day. They had low habitual caffeine intake, which already narrows who this tells us about.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42905127"
+          ],
+          "startSeconds": 31.344,
+          "durationSeconds": 20.677
+        },
+        {
+          "turn": 4,
+          "speaker": "cohost",
+          "text": "And simulated competition needs unpacking. Were they fighting actual tournament matches, or repeating something more controlled across the day?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42905127"
+          ],
+          "startSeconds": 52.222,
+          "durationSeconds": 8.712
+        },
+        {
+          "turn": 5,
+          "speaker": "host",
+          "text": "They combined practice bouts with a special judo fitness test that counts throws, then added another test after recovery. Compared with placebo, caffeine produced about one extra throw in the first test. By the fifth test, it produced about half a throw fewer.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42905127"
+          ],
+          "startSeconds": 61.173,
+          "durationSeconds": 15.501
+        },
+        {
+          "turn": 6,
+          "speaker": "cohost",
+          "text": "So an opening advantage changed direction later. That's more useful than one average across the day, but half a throw is a group estimate. How confident should a coach be that it identifies what happened to one athlete?",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42905127"
+          ],
+          "startSeconds": 76.874,
+          "durationSeconds": 14.022
+        },
+        {
+          "turn": 7,
+          "speaker": "host",
+          "text": "Quite cautious. The authors said none of the condition differences exceeded their model's minimum detectable change at 95 percent confidence.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42905127"
+          ],
+          "startSeconds": 91.136,
+          "durationSeconds": 8.86
+        },
+        {
+          "turn": 8,
+          "speaker": "cohost",
+          "text": "That limits individual verdicts. Also, this wasn't one caffeine serving before breakfast and nothing else. The study gave three milligrams per kilogram twice, before exercise and after the third bout. We shouldn't accidentally describe that as the total daily amount.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42905127"
+          ],
+          "startSeconds": 100.196,
+          "durationSeconds": 19.645
+        },
+        {
+          "turn": 9,
+          "speaker": "host",
+          "text": "Exactly, and blood caffeine remained elevated later, so running out of circulating caffeine isn't a supported explanation. Beetroot alone and the combination had more favorable fifth-test throw counts than placebo. Would you call the combination the obvious winner?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42905127"
+          ],
+          "startSeconds": 120.041,
+          "durationSeconds": 17.431
+        },
+        {
+          "turn": 10,
+          "speaker": "cohost",
+          "text": "I wouldn't. Beetroot alone did better on some later fitness-index results than the combination. That index also includes heart rate, which caffeine can raise. I'd want the separate outcomes and later rounds before deciding what the apparent win actually means.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42905127"
+          ],
+          "startSeconds": 137.711,
+          "durationSeconds": 15.315
+        },
+        {
+          "turn": 11,
+          "speaker": "host",
+          "text": "That makes me think about another kind of apparent win. If running feels less uncomfortable, that matters to the runner. But what else needs to change before we say the strategy improved their breathing or their performance?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42922437"
+          ],
+          "startSeconds": 153.226,
+          "durationSeconds": 13.795
+        },
+        {
+          "turn": 12,
+          "speaker": "cohost",
+          "text": "The menthol trial separates those questions nicely. Trained runners wore a mask with a menthol preparation near the chin or a strawberry-scented comparison. At 85 percent of peak treadmill speed, average time to exhaustion was 445 seconds with menthol and 406 with the comparison.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42922437"
+          ],
+          "startSeconds": 167.262,
+          "durationSeconds": 17.822
+        },
+        {
+          "turn": 13,
+          "speaker": "host",
+          "text": "About 39 seconds longer sounds attractive. Was that everyone who entered, and was it a race against the clock?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42922437"
+          ],
+          "startSeconds": 185.284,
+          "durationSeconds": 7.841
+        },
+        {
+          "turn": 14,
+          "speaker": "cohost",
+          "text": "Neither. The analysis included 18 runners after three were excluded for outlying changes in exhaustion time. Running until you stop is also different from completing a fixed race distance, so that extra time doesn't translate directly into a race improvement.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42922437"
+          ],
+          "startSeconds": 193.364,
+          "durationSeconds": 16.146
+        },
+        {
+          "turn": 15,
+          "speaker": "host",
+          "text": "And the runners knew which sensation they were getting. Positive expectations were greater with menthol, although the difference remained after statistical adjustment. Breathlessness fell during exercise, while the main measured heart and lung responses showed no condition differences, including oxygen uptake and oxygen saturation.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42922437"
+          ],
+          "startSeconds": 209.71,
+          "durationSeconds": 19.223
+        },
+        {
+          "turn": 16,
+          "speaker": "cohost",
+          "text": "So the feeling deserves attention without becoming proof of improved oxygenation. Would the result change your advice about how to use menthol?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42922437"
+          ],
+          "startSeconds": 229.133,
+          "durationSeconds": 9.161
+        },
+        {
+          "turn": 17,
+          "speaker": "host",
+          "text": "It wouldn't justify improvising a delivery method. This was a specific mask preparation in healthy runners, without evidence here for respiratory disease or heat. Even the 42-second measurement error discussed by the authors came from another study, so it isn't a personal pass mark.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42922437"
+          ],
+          "startSeconds": 238.534,
+          "durationSeconds": 18.839
+        },
+        {
+          "turn": 18,
+          "speaker": "cohost",
+          "text": "That same separation helps with BDO, a ketone precursor tested during an eight-day mountain bike race. Among 18 finishers, post-stage blood beta-hydroxybutyrate averaged about 1.02 millimolar with BDO and 0.37 with control. The supplement clearly changed that measured exposure.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42852530"
+          ],
+          "startSeconds": 257.573,
+          "durationSeconds": 20.516
+        },
+        {
+          "turn": 19,
+          "speaker": "host",
+          "text": "But did the riders recover better, sleep better or maintain cognition better once that blood number moved?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42852530"
+          ],
+          "startSeconds": 278.289,
+          "durationSeconds": 6.233
+        },
+        {
+          "turn": 20,
+          "speaker": "cohost",
+          "text": "No advantage was confirmed for those measured outcomes or heart-rate trajectories. Only finishers were analyzed, both withdrawals were in the BDO group, and the control wasn't calorie matched. It's a useful finding about this strategy, with limited grounds for judging every ketone product.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42852530"
+          ],
+          "startSeconds": 284.762,
+          "durationSeconds": 16.789
+        },
+        {
+          "turn": 21,
+          "speaker": "host",
+          "text": "Which brings us to a quieter purchasing decision. Someone starting resistance training asks whether plant protein can replace whey. The review pooled five randomized trials, but its outcomes were lean mass and fat mass. It wasn't a comprehensive test of strength or sporting performance.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42954267"
+          ],
+          "startSeconds": 301.751,
+          "durationSeconds": 18.958
+        },
+        {
+          "turn": 22,
+          "speaker": "cohost",
+          "text": "And no clear difference in those outcomes still leaves a question. How wide was the range of plausible differences?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42954267"
+          ],
+          "startSeconds": 320.908,
+          "durationSeconds": 7.53
+        },
+        {
+          "turn": 23,
+          "speaker": "host",
+          "text": "For lean mass, plant minus whey was minus 0.35, with a confidence interval from minus 2.46 to plus 1.76. The supplied extraction doesn't clearly label the mass unit, so we won't add one. That interval leaves substantial uncertainty about the difference.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42954267"
+          ],
+          "startSeconds": 328.678,
+          "durationSeconds": 19.442
+        },
+        {
+          "turn": 24,
+          "speaker": "cohost",
+          "text": "Then calling them equivalent would outrun the design. There's also a denominator trap here. The review describes 372 participants across included studies, but the lean-mass comparison actually contained 88 receiving plant protein and 93 receiving whey. Those are different counts answering different questions.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42954267"
+          ],
+          "startSeconds": 348.32,
+          "durationSeconds": 24.647
+        },
+        {
+          "turn": 25,
+          "speaker": "host",
+          "text": "Yes, and soy, pea and chia shouldn't become one interchangeable product. Formulations varied, and chia had only one study. For a beginner choosing something sustainable, preferences and the existing diet belong in the conversation, with no promise of an identical muscle gain.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42954267"
+          ],
+          "startSeconds": 373.167,
+          "durationSeconds": 17.215
+        },
+        {
+          "turn": 26,
+          "speaker": "cohost",
+          "text": "Existing diet matters in the other whey trial too. Fifty-nine male track-and-field athletes received whey or carbohydrate control for eight weeks, but their usual protein intake wasn't quantified. The clearer intervention signals were in the enzymes ALT and AST, rather than every recovery marker.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42929456"
+          ],
+          "startSeconds": 390.582,
+          "durationSeconds": 18.545
+        },
+        {
+          "turn": 27,
+          "speaker": "host",
+          "text": "When you say clearer, do you mean the whey groups improved, or their changes differed from the control groups?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42929456"
+          ],
+          "startSeconds": 409.327,
+          "durationSeconds": 8.463
+        },
+        {
+          "turn": 28,
+          "speaker": "cohost",
+          "text": "Their changes differed from control. CK and CRP had some within-group decreases, but their treatment comparisons weren't statistically significant. Only ALT showed a significant additional difference by training type, with p equal to 0.003. Without performance testing, these results don't authorize more training.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42929456"
+          ],
+          "startSeconds": 418.03,
+          "durationSeconds": 18.769
+        },
+        {
+          "turn": 29,
+          "speaker": "host",
+          "text": "That distinction between a measured change and a useful next step follows us into load selection. In the older adult trial, researchers classified high-functioning community adults as having a velocity deficit. Does that label sound more diagnostic than the evidence allows?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42954324"
+          ],
+          "startSeconds": 436.999,
+          "durationSeconds": 17.432
+        },
+        {
+          "turn": 30,
+          "speaker": "cohost",
+          "text": "It does. This was a research classification from a force-velocity profile, estimating the relationship between force and movement speed. The theoretical endpoints are extrapolated values. The classification rule wasn't a validated diagnosis, and these participants don't represent all older adults.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42954324"
+          ],
+          "startSeconds": 454.671,
+          "durationSeconds": 19.192
+        },
+        {
+          "turn": 31,
+          "speaker": "host",
+          "text": "So did prescribing the supposedly matching load produce better function than deliberately choosing the other load?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42954324"
+          ],
+          "startSeconds": 474.063,
+          "durationSeconds": 6.801
+        },
+        {
+          "turn": 32,
+          "speaker": "cohost",
+          "text": "No extra functional benefit was confirmed after twelve weeks. The lower-load approach favored the estimated speed endpoint, while the higher-load approach favored force. Maximum power rose by about 32 watts and 36 watts respectively, but the difference between those changes remained uncertain.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42954324"
+          ],
+          "startSeconds": 481.103,
+          "durationSeconds": 18.639
+        },
+        {
+          "turn": 33,
+          "speaker": "host",
+          "text": "The estimated power difference was minus 3.7 watts, with a confidence interval from minus 20.6 to plus 13.1. So different adaptations didn't establish a better overall option. There was also no non-exercising control, which limits what those improvements alone can tell us.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42954324"
+          ],
+          "startSeconds": 499.942,
+          "durationSeconds": 19.536
+        },
+        {
+          "turn": 34,
+          "speaker": "cohost",
+          "text": "Would you still measure the profile, then? Or does this make the extra testing hard to justify?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42954324"
+          ],
+          "startSeconds": 519.678,
+          "durationSeconds": 7.656
+        },
+        {
+          "turn": 35,
+          "speaker": "host",
+          "text": "I'd ask what decision it will change. It can describe adaptation, but this trial doesn't support automatically replacing a suitable program because of one classification. Ability, preference and functional goals still matter, especially when the sample was high functioning and the analysis wasn't fully intention to treat.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42954324"
+          ],
+          "startSeconds": 527.574,
+          "durationSeconds": 20.25
+        },
+        {
+          "turn": 36,
+          "speaker": "cohost",
+          "text": "And a suitable load can depend on when you test. In 37 male national-level jumpers, researchers compared three flywheel calf-raise inertias. Four minutes after three sets of eight, medium inertia produced an average jump-height increase of 1.55 centimeters from baseline.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42831264"
+          ],
+          "startSeconds": 548.025,
+          "durationSeconds": 17.154
+        },
+        {
+          "turn": 37,
+          "speaker": "host",
+          "text": "Light inertia increased height by 0.80 centimeters, while the high-inertia change was uncertain. Medium also performed better on reactive strength index, here defined as jump height divided by ground contact time. That formula matters when comparing results from different testing systems.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42831264"
+          ],
+          "startSeconds": 565.378,
+          "durationSeconds": 21.091
+        },
+        {
+          "turn": 38,
+          "speaker": "cohost",
+          "text": "And four minutes is the only post-exercise window they measured. There was no resting control, and equal repetitions didn't mean equal mechanical work. I'd test a proposed warm-up against the actual jumping task before extending this to competition, long-term gains or injury prevention.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42831264"
+          ],
+          "startSeconds": 586.67,
+          "durationSeconds": 16.376
+        },
+        {
+          "turn": 39,
+          "speaker": "host",
+          "text": "That need to check the actual outcome also changes how we read injury records. In women's rugby, the breast injury study compared clinical surveillance with an anonymous retrospective survey. Both captured injuries that could exist while someone continued playing, which makes absence an incomplete measure.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42960524"
+          ],
+          "startSeconds": 603.245,
+          "durationSeconds": 19.429
+        },
+        {
+          "turn": 40,
+          "speaker": "cohost",
+          "text": "The clinical records contained three injuries across 1,204 match hours, or 2.5 per thousand hours. The retrospective estimate was 28.5 per thousand. That's a striking gap, but these were independently recruited groups with different observation periods and exposure estimates.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42960524"
+          ],
+          "startSeconds": 622.874,
+          "durationSeconds": 19.561
+        },
+        {
+          "turn": 41,
+          "speaker": "host",
+          "text": "So we can't say the medical system missed exactly eleven out of every twelve injuries. What else complicates that comparison?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42960524"
+          ],
+          "startSeconds": 642.635,
+          "durationSeconds": 6.972
+        },
+        {
+          "turn": 42,
+          "speaker": "cohost",
+          "text": "The retrospective numerator is described as both 144 injuries and 144 people with at least one injury. Repeated events aren't fully reconstructed. Several other counts and percentages also conflict, so the report keeps the main recording gap while resisting a precise estimate of the true burden.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42960524"
+          ],
+          "startSeconds": 649.846,
+          "durationSeconds": 19.781
+        },
+        {
+          "turn": 43,
+          "speaker": "host",
+          "text": "The follow-up gap feels just as consequential. Of the three prospectively recorded injuries, only one received a physical assessment, and none had a follow-up physical assessment. Players continued participating, but that doesn't tell us that pain or interference with performance had resolved.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42960524"
+          ],
+          "startSeconds": 669.827,
+          "durationSeconds": 16.966
+        },
+        {
+          "turn": 44,
+          "speaker": "cohost",
+          "text": "And a form can't guarantee a conversation. Education and a breast-specific reporting field were already present. Private reporting and reliable clinical follow-up are reasonable directions, but this study didn't isolate which process would improve disclosure. We should ask athletes what makes speaking up possible.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42960524"
+          ],
+          "startSeconds": 686.993,
+          "durationSeconds": 20.349
+        },
+        {
+          "turn": 45,
+          "speaker": "host",
+          "text": "Then our practical proposal needs room for both performance and conversation. Before changing anything, name the task, the time window and the outcome that would matter to the person. This integrated EDGE SPORT approach is educational and hasn't been validated as a complete decision system.",
+          "delivery": "clear",
+          "evidenceSourceIds": [],
+          "startSeconds": 707.541,
+          "durationSeconds": 19.045
+        },
+        {
+          "turn": 46,
+          "speaker": "cohost",
+          "text": "I'd add the actual exposure and a fair comparison. Record what was taken or lifted, the rest periods and the surrounding conditions. What would change your decision if the early result looked good but the later result or symptoms looked worse?",
+          "delivery": "curious",
+          "evidenceSourceIds": [],
+          "startSeconds": 726.786,
+          "durationSeconds": 16.848
+        },
+        {
+          "turn": 47,
+          "speaker": "host",
+          "text": "I'd revisit or withdraw the added strategy rather than let the opening gain settle the question. Agree on that review beforehand, include private symptom reporting and arrange appropriate assessment when needed. We aren't offering a universal dose, stopping threshold or individual medical clearance.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [],
+          "startSeconds": 743.874,
+          "durationSeconds": 18.881
+        },
+        {
+          "turn": 48,
+          "speaker": "cohost",
+          "text": "And keep the person's goal in view when deciding whether the benefit is worth the effort. Name the outcome, check the whole task and follow up on symptoms. Thanks for joining us. The written weekly report and original sources hold the methods and uncertainties behind today's conversation.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 762.955,
+          "durationSeconds": 19.429
+        }
+      ],
+      "factCheck": [
+        {
+          "claim": "In 35 judo athletes, caffeine versus placebo increased first-test throws by 1.06, with a 95% confidence interval of 0.60 to 1.52, but reduced fifth-test throws by 0.57, with an interval of -1.14 to -0.005.",
+          "evidenceSourceIds": [
+            "pmid-42905127"
+          ],
+          "boundary": "Controlled simulated competition in low habitual caffeine consumers. Caffeine was administered at 3 mg/kg twice. No condition difference exceeded the model MDC95, limiting individual interpretation. Later blood caffeine remained elevated, without establishing the mechanism of declining performance."
+        },
+        {
+          "claim": "Menthol increased modeled treadmill time to exhaustion by 39.4 seconds, with a 95% confidence interval of 12.3 to 66.4. Condition means were 445 and 406 seconds.",
+          "evidenceSourceIds": [
+            "pmid-42922437"
+          ],
+          "boundary": "Eighteen analyzed runners after three outlier exclusions. Participants were not blinded. The expectation-adjusted difference was 32.9 seconds. The task was not a race time trial, and the external 42-second typical error is not an individual benefit threshold. No improved oxygenation or disease treatment was established."
+        },
+        {
+          "claim": "Among 18 mountain bike race finishers, post-stage beta-hydroxybutyrate estimated marginal means were 1.02 mM with BDO and 0.37 mM with control, without confirmed advantages in measured recovery, cognition, sleep or heart-rate trajectories.",
+          "evidenceSourceIds": [
+            "pmid-42852530"
+          ],
+          "boundary": "BDO had eight analyzed finishers and control ten. Both withdrawals were in the BDO group. The control was not calorie matched. Findings concern this formulation, schedule and small completer sample."
+        },
+        {
+          "claim": "The plant-minus-whey lean-mass pooled mean difference was -0.35, with a 95% confidence interval of -2.46 to 1.76.",
+          "evidenceSourceIds": [
+            "pmid-42954267"
+          ],
+          "boundary": "The supplied extraction does not clearly identify the estimate's mass unit. The lean-mass forest plot compares 88 plant and 93 whey participants, rather than all 372 people described across included studies. Five trials in untrained adults do not establish equivalence, uniform effects across plant sources or competitive performance effects."
+        },
+        {
+          "claim": "In the eight-week trial of 59 male athletes, ALT and AST showed significant time-by-supplement interactions. Only ALT showed a significant time-by-supplement-by-training-type interaction, p = 0.003.",
+          "evidenceSourceIds": [
+            "pmid-42929456"
+          ],
+          "boundary": "CK and CRP time-by-supplement interactions were not significant, p = 0.082 and p = 0.090. Within-group decreases do not establish treatment superiority. Usual protein intake was not quantified, and no direct performance outcome or liver-protection effect was established."
+        },
+        {
+          "claim": "At twelve weeks, maximum power increased by 32.0 W in the matched-load group and 35.7 W in the comparison group. The between-group change difference was -3.7 W, with a 95% confidence interval of -20.6 to 13.1, p = 0.660.",
+          "evidenceSourceIds": [
+            "pmid-42954324"
+          ],
+          "boundary": "High-functioning community older adults meeting a study-specific velocity-deficit classification. Different force and velocity adaptations did not establish superior function or equivalent programs. There was no non-exercising control, and analysis was not fully intention to treat."
+        },
+        {
+          "claim": "Four minutes after flywheel calf raises, mean jump-height changes were 1.55 cm with medium inertia, 0.80 cm with light inertia and 0.38 cm with high inertia.",
+          "evidenceSourceIds": [
+            "pmid-42831264"
+          ],
+          "boundary": "Thirty-seven male national-level jumpers completed three sets of eight. Medium-inertia change had a 95% confidence interval of 1.08 to 2.02 cm. High-inertia change was uncertain. No non-exercise control, other post-exercise windows or matched mechanical work were available. RSI was jump height divided by contact time."
+        },
+        {
+          "claim": "Breast injury recording rates were 2.5 per 1,000 match hours prospectively and 28.5 retrospectively, based on three records across 1,204 hours and an author-used numerator of 144 across 5,055 hours.",
+          "evidenceSourceIds": [
+            "pmid-42960524"
+          ],
+          "boundary": "Independent cohorts, different periods and estimated retrospective exposure prevent interpreting the reported rate ratio of 11.4 as a true underreporting multiplier. The retrospective numerator mixes injured people and events. Only one prospective injury received a physical assessment and none received follow-up physical assessment."
+        },
+        {
+          "claim": "Predefining task outcomes, comparing the full time window and reviewing exposure, tolerability and symptom disclosure is an EDGE SPORT operational proposal.",
+          "evidenceSourceIds": [
+            "pmid-42905127",
+            "pmid-42922437",
+            "pmid-42852530",
+            "pmid-42954267"
+          ],
+          "boundary": "The integrated process is not validated as a complete intervention or decision system and supplies no universal doses, clinical thresholds or return-to-play clearance."
+        }
+      ],
+      "closingTakeaways": [
+        "Define the outcome and time window before adding a strategy.",
+        "Check later performance alongside early gains.",
+        "Keep sensations, biomarkers and functional outcomes distinct.",
+        "Treat uncertain differences as uncertainty rather than equivalence.",
+        "Invite private symptom disclosure and complete appropriate follow-up.",
+        "Use the written weekly report and original sources to review methods and limitations."
+      ],
+      "disclosure": "This episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance.",
+      "editorReview": {
+        "approvedForPublish": false,
+        "verifiedBy": "",
+        "verifiedAt": ""
+      },
+      "publicationMode": "automated",
+      "automationProvider": "codex",
+      "renderedAt": "2026-11-02T15:26:17.564Z",
+      "publishedAt": "2026-11-02T15:26:17.785Z",
+      "audio": {
+        "src": "assets/podcasts/2026-w45-d0759a3987fc.mp3",
+        "mimeType": "audio/mpeg",
+        "bytes": 9410444,
+        "bitrate": "96k",
+        "sampleRate": 24000
+      },
+      "researchSources": [
+        {
+          "recordId": "pmid-42954267",
+          "title": "Is plant-based protein supplementation as effective as whey protein? A systematic review and meta-analysis in untrained adults undergoing resistance training.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-10-29",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2752317",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42929456",
+          "title": "Effects of Whey Protein Supplementation on Muscle Damage, Hepatic Stress, and Inflammatory Markers in Power- and Endurance-Trained Athletes.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70279",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42954324",
+          "title": "The Effects of Force-Velocity Profile-Based Load Prescription on Muscle Power and Functional Performance in Velocity-Deficient Older Adults.",
+          "journal": "Scandinavian journal of medicine & science in sports",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1111/sms.70392",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42831264",
+          "title": "Acute Reactive Strength Responses and Peak Power-Performance Relationships After Flywheel Calf Raises in National-Level Track-and-Field Athletes: A Randomized Crossover Trial.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70264",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42852530",
+          "title": "Post-Exercise R-1,3-Butanediol did not Improve Markers of Fatigue or Recovery During a Multi-Stage Mountain Bike Race.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70260",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42922437",
+          "title": "Dyspnea Reduction With L-Menthol Inhalation Improves High-Intensity Endurance Running Performance in Healthy Trained Adults.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70262",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42905127",
+          "title": "The Effect of Acute Beetroot Juice and Caffeine Supplementation on Specific Judo Performance During a Simulated Competition Day in Judo Athletes.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70278",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42960524",
+          "title": "Breast Injuries in Women's Rugby Union: A Comparison of Prospective and Retrospective Surveillance.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70281",
+          "contentLevel": "full-text-open"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
       "id": "2026-w44",
       "status": "published",
       "publishDate": "2026-10-31",
