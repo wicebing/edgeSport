@@ -8,6 +8,752 @@
   "episodes": [
     {
       "schemaVersion": 1,
+      "id": "2026-w46",
+      "status": "published",
+      "publishDate": "2026-11-14",
+      "showName": "edgeSport4Podcast",
+      "title": "What Would Change the Next Session?",
+      "episodeSubtitle": "ACL genetics, iron deficiency anemia, and the difference between a promising result and a useful decision",
+      "summary": "Ying and Bing discuss why female ACL candidate gene findings do not support personal risk screening, then examine a small trial of supervised jumping intervals added to iron treatment. They separate blood results, muscle endurance, standing balance, and injury outcomes while considering what a team could reasonably monitor next.",
+      "language": "en",
+      "estimatedMinutes": 13,
+      "durationSeconds": 720.896,
+      "wordCount": 1744,
+      "hosts": [
+        {
+          "id": "host",
+          "displayName": "Ying",
+          "role": "Evidence guide · female voice"
+        },
+        {
+          "id": "cohost",
+          "displayName": "Bing",
+          "role": "Analytical partner · male voice"
+        }
+      ],
+      "sourceWeeklyReportId": "2026-w46",
+      "sourceRecordIds": [
+        "pmid-42990781",
+        "pmid-42970451"
+      ],
+      "learningGoals": [
+        "Distinguish genetic association from independent replication and individual injury prediction.",
+        "Interpret the anemia trial using its actual comparison and completer population.",
+        "Keep muscle endurance, condition-specific standing balance, blood measures, and injury outcomes separate.",
+        "Identify useful monitoring questions while recognizing that the EDGE SPORT decision process remains unvalidated."
+      ],
+      "showNotes": [
+        "Brand pronunciation: edgeSport4Podcast is spoken as Edge Sport for Podcast.",
+        "Research claims are based exclusively on the supplied weeklyReport. No relatedIssues research is used.",
+        "ACL genetics review: 19 publications, overlapping samples, no eligible female-stratified genome-wide association studies, and no pooled effect estimate.",
+        "Anemia trial: 45 randomized participants and 33 analyzed completers. Both groups received iron for eight weeks.",
+        "The jumping interval schedule describes the study intervention and is not an individual exercise prescription.",
+        "Unresolved reporting issues include hemoglobin confidence interval and P value consistency, differing balance P value notation, and questionable reaction-time confidence interval formatting.",
+        "Original genetics source: https://doi.org/10.1136/bmjsem-2026-003274",
+        "Original anemia trial: https://doi.org/10.1080/15502783.2026.2753371"
+      ],
+      "chapters": [
+        {
+          "title": "A tired athlete and a tempting answer",
+          "summary": "The central question is which evidence should change assessment, added training, or progression.",
+          "turnStart": 1,
+          "startSeconds": 1.57
+        },
+        {
+          "title": "Why a genetic association cannot clear a knee",
+          "summary": "Sample overlap, genotype comparisons, prospective findings, and the missing step to personal prediction.",
+          "turnStart": 5,
+          "startSeconds": 52.93
+        },
+        {
+          "title": "What four minutes actually meant",
+          "summary": "The anemia trial population, treatment comparison, supervision, and analysis denominator.",
+          "turnStart": 21,
+          "startSeconds": 284.395
+        },
+        {
+          "title": "Better at which test?",
+          "summary": "Muscle endurance, corrected balance comparisons, blood results, and limits on causal explanations.",
+          "turnStart": 29,
+          "startSeconds": 398.654
+        },
+        {
+          "title": "A next step people can review",
+          "summary": "An explicitly unvalidated monitoring proposal and a concise practical recap.",
+          "turnStart": 43,
+          "startSeconds": 590.327
+        }
+      ],
+      "transcript": [
+        {
+          "turn": 1,
+          "speaker": "host",
+          "text": "You're sitting with someone who says training feels harder lately, and you want to offer something useful before the coffee goes cold. Welcome to edgeSport4Podcast, I'm Ying, and this week's question is what evidence should actually change that person's next session?",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 1.57,
+          "durationSeconds": 14.205
+        },
+        {
+          "turn": 2,
+          "speaker": "cohost",
+          "text": "And I'm Bing, here with Ying on edgeSport4Podcast. We've got two papers that pull on that question from different directions, one about female ACL genetics and another about adding supervised training to iron treatment in young women with iron deficiency anemia.",
+          "delivery": "warm",
+          "evidenceSourceIds": [
+            "pmid-42990781",
+            "pmid-42970451"
+          ],
+          "startSeconds": 15.935,
+          "durationSeconds": 19.385
+        },
+        {
+          "turn": 3,
+          "speaker": "host",
+          "text": "I can see the appeal of both, a label that explains risk and a short session that promises improvement. But can either tell us whether someone needs medical assessment, whether to add training, or when to progress?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42990781",
+            "pmid-42970451"
+          ],
+          "startSeconds": 35.52,
+          "durationSeconds": 11.349
+        },
+        {
+          "turn": 4,
+          "speaker": "cohost",
+          "text": "Those are three different decisions, and I'd want to know which one we're trying to make before opening either paper.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [],
+          "startSeconds": 47.109,
+          "durationSeconds": 5.62
+        },
+        {
+          "turn": 5,
+          "speaker": "host",
+          "text": "Let's open the genetics review with that distinction in mind. It examined associations between genetic variants and anterior cruciate ligament rupture in female data, which asks a different question from whether a test can predict one person's future injury.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 52.93,
+          "durationSeconds": 16.21
+        },
+        {
+          "turn": 6,
+          "speaker": "cohost",
+          "text": "So what did the evidence base look like, and were these studies following people forward or comparing people already injured with controls?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 69.339,
+          "durationSeconds": 7.771
+        },
+        {
+          "turn": 7,
+          "speaker": "host",
+          "text": "Mostly the latter, small candidate gene studies comparing cases and controls. The review included nineteen publications, with one retrospective and one prospective cohort, and found no eligible female-stratified genome-wide studies through its search ending December twenty-first, twenty twenty-five.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 77.35,
+          "durationSeconds": 21.018
+        },
+        {
+          "turn": 8,
+          "speaker": "cohost",
+          "text": "Nineteen publications sounds substantial until you ask whether those papers actually represent nineteen separate groups of people.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 98.568,
+          "durationSeconds": 7.219
+        },
+        {
+          "turn": 9,
+          "speaker": "host",
+          "text": "Exactly, some participants appeared in more than one publication, so we can't add the samples into one unique total. The review used a narrative synthesis rather than a meta-analysis, and most studies had fewer than one hundred fifty female cases.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 105.988,
+          "durationSeconds": 15.025
+        },
+        {
+          "turn": 10,
+          "speaker": "cohost",
+          "text": "That makes repetition tricky, because several papers can carry the same underlying information. The recurring signal involved a variant called rs12722, but before we touch the numbers, what exactly were those studies comparing?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 121.213,
+          "durationSeconds": 14.143
+        },
+        {
+          "turn": 11,
+          "speaker": "host",
+          "text": "They compared people with the CC genotype against people with CT or TT combined, a recessive model. In three South African reports, the odds ratios were zero point fifteen, zero point seventeen, and zero point thirty-two, all pointing toward lower rupture odds for CC.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 135.596,
+          "durationSeconds": 20.69
+        },
+        {
+          "turn": 12,
+          "speaker": "cohost",
+          "text": "Those look like strong associations, but they aren't personal risk percentages, and overlapping participants prevent us from calling them three independent confirmations.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 156.486,
+          "durationSeconds": 9.117
+        },
+        {
+          "turn": 13,
+          "speaker": "host",
+          "text": "Yes, and the CC case counts were only two, four, and six in those reports. Another easy overreach is to call anyone carrying a C protected, even though this comparison doesn't establish that claim for people with CT.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 165.802,
+          "durationSeconds": 15.272
+        },
+        {
+          "turn": 14,
+          "speaker": "cohost",
+          "text": "I'd also want a forward-looking check, because a reassuring label would matter most before injury. Did the prospective study support the same variant?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 181.274,
+          "durationSeconds": 9.594
+        },
+        {
+          "turn": 15,
+          "speaker": "host",
+          "text": "It didn't support an association for rs12722. Among seven hundred ninety female elite athletes at risk at baseline, fifty-eight sustained a new ACL injury and seven hundred thirty-two didn't, with an adjusted genotype P value of zero point eight six.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 191.108,
+          "durationSeconds": 23.05
+        },
+        {
+          "turn": 16,
+          "speaker": "cohost",
+          "text": "That weakens the screening argument, although it doesn't establish that every collagen variant is irrelevant to ACL injury.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 214.358,
+          "durationSeconds": 6.747
+        },
+        {
+          "turn": 17,
+          "speaker": "host",
+          "text": "Right, another variant, rs13946, had a result that depended on the statistical model. The broader conclusion is that these findings don't establish a useful personal screening test, especially with limited independent replication and evidence drawn mainly from women of European ancestry.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 221.305,
+          "durationSeconds": 21.767
+        },
+        {
+          "turn": 18,
+          "speaker": "cohost",
+          "text": "And female data alone don't prove an effect is specific to women, do they? I'd be wary of someone turning that into a hormonal explanation or a menstrual phase training rule.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 243.272,
+          "durationSeconds": 9.565
+        },
+        {
+          "turn": 19,
+          "speaker": "host",
+          "text": "That concern fits the review, which didn't establish the relevant hormone interactions or molecular mechanisms. What would change your decision about screening, given that a plausible collagen story and several associations still leave that gap?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 253.037,
+          "durationSeconds": 16.414
+        },
+        {
+          "turn": 20,
+          "speaker": "cohost",
+          "text": "I'd want independent replication and evidence that prediction improves decisions in the people being tested. For now, I wouldn't use this variant to allocate prevention support, select athletes, or clear someone for training, which is also the weekly report's practical boundary.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "startSeconds": 269.691,
+          "durationSeconds": 14.504
+        },
+        {
+          "turn": 21,
+          "speaker": "host",
+          "text": "That brings us back to the person saying they feel tired, because a genetic label won't resolve that conversation. The second paper asks a more changeable question, whether supervised jumping intervals add benefit to iron treatment in confirmed iron deficiency anemia.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42990781",
+            "pmid-42970451"
+          ],
+          "startSeconds": 284.395,
+          "durationSeconds": 16.375
+        },
+        {
+          "turn": 22,
+          "speaker": "cohost",
+          "text": "Confirmed is doing useful work there, because feeling tired wasn't enough to qualify someone for this study.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 300.97,
+          "durationSeconds": 7.22
+        },
+        {
+          "turn": 23,
+          "speaker": "host",
+          "text": "Yes, participants were women aged eighteen to twenty-five with iron deficiency anemia, living in one Tunisian residential setting with managed meals and schedules. They weren't a specifically recruited athlete sample, so how closely does that resemble someone already carrying a full training week?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 308.39,
+          "durationSeconds": 17.435
+        },
+        {
+          "turn": 24,
+          "speaker": "cohost",
+          "text": "Not closely enough to simply stack the program on top, especially since additional structured exercise was prohibited in the trial. Both groups received iron for eight weeks, while one group also did supervised bodyweight jumping intervals four times a week.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 326.065,
+          "durationSeconds": 15.747
+        },
+        {
+          "turn": 25,
+          "speaker": "host",
+          "text": "The main interval block lasted four minutes, using eight rounds of twenty seconds of exercise and ten seconds of rest. But there was also a warmup and cooldown, with coaching and physician guidance, so four minutes doesn't describe the whole exposure.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 342.012,
+          "durationSeconds": 14.41
+        },
+        {
+          "turn": 26,
+          "speaker": "cohost",
+          "text": "Nor does short automatically mean easy, particularly when the movements include squat jumps, split jumps, skater jumps, and burpees.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 356.621,
+          "durationSeconds": 8.477
+        },
+        {
+          "turn": 27,
+          "speaker": "host",
+          "text": "And the analysis needs its own pause, because forty-five women were randomized but thirty-three completed and were analyzed. There were sixteen in the training plus iron group and seventeen receiving iron alone, after seven and five dropouts respectively.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 365.298,
+          "durationSeconds": 16.568
+        },
+        {
+          "turn": 28,
+          "speaker": "cohost",
+          "text": "So the denominator changes, and the findings describe completers rather than everyone randomized. Evaluators and analysts were blinded, but it wasn't placebo controlled, and losing twelve participants leaves uncertainty about how well the results represent the original group.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 382.066,
+          "durationSeconds": 16.388
+        },
+        {
+          "turn": 29,
+          "speaker": "host",
+          "text": "With that in view, the clearest functional difference was muscle endurance measured by the Killy test. That's holding a wall sit with hips and knees around ninety degrees, timing how long the thighs remain horizontal, with follow-up about seventy-two hours after the final session.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 398.654,
+          "durationSeconds": 17.081
+        },
+        {
+          "turn": 30,
+          "speaker": "cohost",
+          "text": "That's a recognizable task, but what were the starting values before we compare how long each group held it afterward?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 415.935,
+          "durationSeconds": 6.763
+        },
+        {
+          "turn": 31,
+          "speaker": "host",
+          "text": "The training plus iron group started at an average of thirty-four point two one seconds, compared with thirty-one point six eight for iron alone. After eight weeks, the averages were seventy-nine point two one and forty point zero seven seconds respectively.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 422.938,
+          "durationSeconds": 15.489
+        },
+        {
+          "turn": 32,
+          "speaker": "cohost",
+          "text": "That's a substantial difference in this test, with a reported post-treatment gap of thirty-nine point one four seconds. Its ninety-five percent confidence interval ran from thirty point four nine to forty-seven point seven eight seconds, but none of those numbers is an individual's required improvement.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 438.626,
+          "durationSeconds": 17.386
+        },
+        {
+          "turn": 33,
+          "speaker": "host",
+          "text": "Agreed, and holding a wall sit longer doesn't tell us someone can safely cut or land in sport. What about the standing balance results, since those could sound much closer to an injury prevention claim?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 456.212,
+          "durationSeconds": 11.901
+        },
+        {
+          "turn": 34,
+          "speaker": "cohost",
+          "text": "They measured how quickly the center of pressure moved while standing, with lower values interpreted as better control. There were eight combinations of stance, vision, and surface, so each result belongs to a particular condition rather than one universal balance score.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 468.353,
+          "durationSeconds": 14.852
+        },
+        {
+          "turn": 35,
+          "speaker": "host",
+          "text": "And eight comparisons create more opportunities for an apparently positive result, which is why the correction matters here.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 483.405,
+          "durationSeconds": 7.209
+        },
+        {
+          "turn": 36,
+          "speaker": "cohost",
+          "text": "Yes, the corrected significance threshold was zero point zero zero six two five, and two conditions retained between-group differences. Those were standing with both feet on foam with eyes open, and a partly staggered stance on foam with eyes closed.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 490.814,
+          "durationSeconds": 16.546
+        },
+        {
+          "turn": 37,
+          "speaker": "host",
+          "text": "So there's a specific signal worth investigating, but no measured reduction in falls or ACL injuries. I also wouldn't want to tell someone that their blood recovery, balance, and endurance should all move together, because the other outcomes didn't line up that neatly.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 507.559,
+          "durationSeconds": 15.592
+        },
+        {
+          "turn": 38,
+          "speaker": "cohost",
+          "text": "They didn't, both groups improved in hemoglobin and ferritin, while post-treatment hemoglobin was higher in the combined group. Ferritin and simple reaction time had no significant post-treatment between-group advantage, and the hemoglobin confidence interval and P value need editorial checking.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 523.352,
+          "durationSeconds": 17.238
+        },
+        {
+          "turn": 39,
+          "speaker": "host",
+          "text": "Does that leave us able to explain the better balance through improved blood measures, or is that another step too far?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 540.789,
+          "durationSeconds": 5.921
+        },
+        {
+          "turn": 40,
+          "speaker": "cohost",
+          "text": "It's a step too far, because the proposed blood and neuromuscular explanations weren't tested as causal pathways. Without a training-only group or an untreated group, we also can't separate every contribution or attribute all the changes over time to iron.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 546.95,
+          "durationSeconds": 14.573
+        },
+        {
+          "turn": 41,
+          "speaker": "host",
+          "text": "And we can't resolve safety by assuming an unreported problem never happened. This was a small study without sufficient long-term adverse-event or injury results, and several clinical situations were excluded, so its selection rules don't become a complete safety checklist.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 561.723,
+          "durationSeconds": 22.11
+        },
+        {
+          "turn": 42,
+          "speaker": "cohost",
+          "text": "Then what would make you consider the approach with a team, rather than leave it as an interesting small trial?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 584.033,
+          "durationSeconds": 6.054
+        },
+        {
+          "turn": 43,
+          "speaker": "host",
+          "text": "For discussion, I'd want confirmed anemia, medical agreement that exercise is appropriate, and a specific functional goal with supervision available. That's the EDGE SPORT operational proposal, and its staged decision process hasn't been validated by this trial or the genetics review.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42990781",
+            "pmid-42970451"
+          ],
+          "startSeconds": 590.327,
+          "durationSeconds": 18.944
+        },
+        {
+          "turn": 44,
+          "speaker": "cohost",
+          "text": "I'd add the person's existing workload and what they actually want to regain, because the added sessions have to fit somewhere. Our proposal is to record completed work, perceived effort, symptoms, and recovery, then review whether the arrangement remains tolerable.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 609.471,
+          "durationSeconds": 13.558
+        },
+        {
+          "turn": 45,
+          "speaker": "host",
+          "text": "That makes the next conversation concrete, without inventing a progression score. In that proposed process, worsening symptoms or deteriorating movement would prompt adjustment or reassessment, while improved test performance would support reviewing the plan rather than automatically increasing it.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 623.229,
+          "durationSeconds": 17.465
+        },
+        {
+          "turn": 46,
+          "speaker": "cohost",
+          "text": "And I'd keep the measurements separate during that review, blood results with the medical team and function under consistent test conditions. This week's evidence provides no universal starting dose, weekly increase, recovery deadline, or return-to-sport threshold.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 640.894,
+          "durationSeconds": 13.499
+        },
+        {
+          "turn": 47,
+          "speaker": "host",
+          "text": "Which also answers our opening question, because neither a reassuring genotype nor one better test settles the next session. We can still offer a useful next step by naming the unresolved question and agreeing who will assess it with the person.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [
+            "pmid-42990781",
+            "pmid-42970451"
+          ],
+          "startSeconds": 654.593,
+          "durationSeconds": 15.594
+        },
+        {
+          "turn": 48,
+          "speaker": "cohost",
+          "text": "For the genetics paper, keep prevention support and training decisions independent of an unvalidated risk label. For the anemia trial, remember the actual comparison was supervised jumping intervals plus iron against iron alone, with results analyzed in thirty-three completers.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42990781",
+            "pmid-42970451"
+          ],
+          "startSeconds": 670.387,
+          "durationSeconds": 17.625
+        },
+        {
+          "turn": 49,
+          "speaker": "host",
+          "text": "And keep the promising result attached to its task, better muscle endurance and two corrected standing conditions don't establish fewer injuries. If fatigue or function is troubling someone, start with appropriate assessment and a shared goal rather than copying the study schedule.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "startSeconds": 688.212,
+          "durationSeconds": 18.38
+        },
+        {
+          "turn": 50,
+          "speaker": "cohost",
+          "text": "You can find the methods, uncertainties, and reporting questions in the written weekly report and original sources. Thanks for joining us, and when you sit down with your team, ask what you need to learn before changing the next session.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 706.792,
+          "durationSeconds": 12.374
+        }
+      ],
+      "factCheck": [
+        {
+          "claim": "The genetics review included 19 publications and found no eligible female-stratified genome-wide association studies through December 21, 2025.",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "boundary": "Publications are not independent cohorts. Samples overlap, no unique combined sample can be calculated, and the review did not pool effects."
+        },
+        {
+          "claim": "Three South African reports gave rs12722 CC versus CT and TT combined odds ratios of 0.15, 0.17, and 0.32.",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "boundary": "Respective 95% confidence intervals were 0.03–0.67, 0.06–0.53, and 0.12–0.83. CC case counts were 2 of 37, 4 of 59, and 6 of 62 genotyped cases. Participant reuse prevents treating these as independent replications. Odds ratios are not individual risk percentages and do not establish protection for CT."
+        },
+        {
+          "claim": "The prospective cohort included 790 female athletes at risk at baseline, with 58 new ACL injuries and 732 without new injury. The adjusted rs12722 genotype P value was 0.86.",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "boundary": "This did not support the rs12722 association. It does not establish that every collagen variant is unrelated to injury. The separate rs13946 result depended on the model."
+        },
+        {
+          "claim": "Current female ACL candidate gene evidence does not support individual screening, selection, prevention allocation, or training clearance.",
+          "evidenceSourceIds": [
+            "pmid-42990781"
+          ],
+          "boundary": "Association does not establish personal prediction. Predominantly European ancestry samples, small studies, overlapping participants, and limited independent replication restrict interpretation. Female-stratified findings do not establish sex-specific effects or hormone interactions."
+        },
+        {
+          "claim": "The anemia trial randomized 45 women aged 18–25 and analyzed 33 completers, with 16 receiving training plus iron and 17 receiving iron alone.",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "boundary": "Seven training-group and five comparison-group participants dropped out. Analysis was per protocol among completers, not all randomized participants. The single residential setting and non-athlete-specific sample limit generalization."
+        },
+        {
+          "claim": "Both groups received iron for eight weeks. Added training occurred four times weekly with eight rounds of 20 seconds of exercise and 10 seconds of rest.",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "boundary": "The four-minute main block excluded warmup and cooldown. Training was supervised with physician guidance. This is a study description, not a universal starting prescription, and cannot simply be added to an existing high workload."
+        },
+        {
+          "claim": "Killy endurance means changed from 34.21 to 79.21 seconds with training plus iron and from 31.68 to 40.07 seconds with iron alone.",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "boundary": "The post-treatment difference was 39.14 seconds, with a 95% confidence interval of 30.49–47.78 seconds. Group by time interaction P was below 0.001. These are completer group results assessed about 72 hours after the final session, not individual targets or injury outcomes."
+        },
+        {
+          "claim": "Two of eight standing conditions retained post-treatment between-group differences after correction at alpha 0.00625.",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "boundary": "Conditions were double-leg standing on foam with eyes open and semi-tandem standing on foam with eyes closed. Lower center-of-pressure mean velocity was interpreted as better control. This does not establish improved dynamic landing or reduced falls or ACL injuries."
+        },
+        {
+          "claim": "Both groups improved hemoglobin and ferritin. Post-treatment hemoglobin was higher with combined training, while ferritin and simple reaction time had no significant post-treatment between-group advantage.",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "boundary": "Hemoglobin confidence interval and P value consistency needs checking. Reaction-time confidence interval formatting is questionable. The dialogue avoids disputed precision and does not treat a nonsignificant difference as equivalence."
+        },
+        {
+          "claim": "The study does not establish causal mediation, long-term safety, injury prevention, or universal progression criteria.",
+          "evidenceSourceIds": [
+            "pmid-42970451"
+          ],
+          "boundary": "There was no training-only or untreated group. Proposed blood and neuromuscular mechanisms were not causally tested. Absence of sufficient adverse-event reporting cannot establish safety. EDGE SPORT monitoring and progression processes are explicitly unvalidated editorial proposals."
+        }
+      ],
+      "closingTakeaways": [
+        "Do not use current ACL candidate gene findings for personal risk screening or training clearance.",
+        "Interpret the anemia trial as supervised training added to iron treatment in a small completer sample.",
+        "Keep blood measures, muscle endurance, standing balance, and injury outcomes separate.",
+        "Discuss medical suitability, a specific functional goal, existing workload, and supervision before considering added training.",
+        "Treat the EDGE SPORT monitoring process as an unvalidated proposal without universal progression thresholds.",
+        "Consult the written weekly report and original sources for methods, limitations, and unresolved reporting issues."
+      ],
+      "disclosure": "This episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance.",
+      "editorReview": {
+        "approvedForPublish": false,
+        "verifiedBy": "",
+        "verifiedAt": ""
+      },
+      "publicationMode": "automated",
+      "automationProvider": "codex",
+      "renderedAt": "2026-11-08T14:31:26.507Z",
+      "publishedAt": "2026-11-08T14:31:26.866Z",
+      "audio": {
+        "src": "assets/podcasts/2026-w46-025fde39b961.mp3",
+        "mimeType": "audio/mpeg",
+        "bytes": 8651852,
+        "bitrate": "96k",
+        "sampleRate": 24000
+      },
+      "researchSources": [
+        {
+          "recordId": "pmid-42990781",
+          "title": "Genetic susceptibility to anterior cruciate ligament rupture in females: a systematic review of female-stratified candidate-gene evidence and the absence of genome-wide studies.",
+          "journal": "BMJ open sport & exercise medicine",
+          "publicationDate": "2026-11-02",
+          "sourceUrl": "https://doi.org/10.1136/bmjsem-2026-003274",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42970451",
+          "title": "Effects of extremely low-volume high-intensity interval training combined with iron supplementation versus iron supplementation alone on postural control in young women with iron deficiency anemia: a randomized controlled trial.",
+          "journal": "Journal of the International Society of Sports Nutrition",
+          "publicationDate": "2026-11-02",
+          "sourceUrl": "https://doi.org/10.1080/15502783.2026.2753371",
+          "contentLevel": "full-text-web"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
       "id": "2026-w45",
       "status": "published",
       "publishDate": "2026-11-07",
