@@ -8,6 +8,802 @@
   "episodes": [
     {
       "schemaVersion": 1,
+      "id": "2026-w47",
+      "status": "published",
+      "publishDate": "2026-11-21",
+      "showName": "edgeSport4Podcast",
+      "title": "Still Jumping, Still Tired?",
+      "episodeSubtitle": "What steady numbers can tell us before the next increase in training.",
+      "summary": "Ying and Bing discuss eight sources on strength, jumping, wearable monitoring, running shoes, nutrition and sleep. They ask whether reassuring measurements actually cover the demands of the next task, while separating research findings from an unvalidated EDGE SPORT decision process.",
+      "language": "en",
+      "estimatedMinutes": 13,
+      "durationSeconds": 733.725,
+      "wordCount": 1685,
+      "hosts": [
+        {
+          "id": "host",
+          "displayName": "Ying",
+          "role": "Evidence guide · female voice"
+        },
+        {
+          "id": "cohost",
+          "displayName": "Bing",
+          "role": "Analytical partner · male voice"
+        }
+      ],
+      "sourceWeeklyReportId": "2026-w47",
+      "sourceRecordIds": [
+        "pmid-42870382",
+        "pmid-42981220",
+        "pmid-42961009",
+        "pmid-42904819",
+        "pmid-42863837",
+        "pmid-42886162",
+        "pmid-42831286",
+        "pmid-42897874"
+      ],
+      "learningGoals": [
+        "Explain why maintained jump performance can coexist with reduced local strength.",
+        "Distinguish correlation, agreement, classification and individual prediction.",
+        "Interpret wearable measurements with their task, intensity, timing and processing conditions.",
+        "Recognize the limits of group nutrition, sleep and footwear findings.",
+        "Describe an explicitly unvalidated process for reviewing a proposed load change."
+      ],
+      "showNotes": [
+        "The conversation draws exclusively on the supplied weeklyReport. No relatedIssues research is used.",
+        "Padel: https://doi.org/10.1002/ejsc.70263",
+        "ACL reconstruction: https://doi.org/10.1177/19417381261486269",
+        "Pressure insoles: https://doi.org/10.1111/sms.70391",
+        "Constant-load cycling: https://doi.org/10.1002/ejsc.70271",
+        "Running durability: https://doi.org/10.1002/ejsc.70275",
+        "Advanced footwear: https://doi.org/10.1002/ejsc.70266",
+        "Food photography: https://doi.org/10.1002/ejsc.70250 actionable intake estimates require familiar foods and complete records that include added oils and leftovers."
+      ],
+      "chapters": [
+        {
+          "title": "The reassuring number",
+          "summary": "A maintained jump does not describe every capacity needed for the next task.",
+          "turnStart": 1,
+          "startSeconds": 1.57
+        },
+        {
+          "title": "Jumping and local strength",
+          "summary": "Padel and ACL findings show why complementary tests matter.",
+          "turnStart": 3,
+          "startSeconds": 31.706
+        },
+        {
+          "title": "What an insole estimates",
+          "summary": "Laboratory knee moment estimates have promising performance and important deployment limits.",
+          "turnStart": 15,
+          "startSeconds": 200.255
+        },
+        {
+          "title": "The same work later",
+          "summary": "Cycling and running measurements change with intensity, duration and speed.",
+          "turnStart": 21,
+          "startSeconds": 290.497
+        },
+        {
+          "title": "Shoes and individual benefit",
+          "summary": "Average running economy benefits do not establish personal performance or injury outcomes.",
+          "turnStart": 31,
+          "startSeconds": 445.297
+        },
+        {
+          "title": "Recovery data need context",
+          "summary": "Food photography and AFLW observations raise practical questions about error, missingness and daily life.",
+          "turnStart": 36,
+          "startSeconds": 525.942
+        },
+        {
+          "title": "What would change the plan?",
+          "summary": "A practical recap separates editorial proposals from validated thresholds and clinical decisions.",
+          "turnStart": 45,
+          "startSeconds": 664.755
+        }
+      ],
+      "transcript": [
+        {
+          "turn": 1,
+          "speaker": "host",
+          "text": "You've finished a long session and your jump looks normal, but your legs don't feel normal at all. Welcome to edgeSport4Podcast. I'm Ying, and this week we're asking what a reassuring number actually tells us before we add more work.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 1.57,
+          "durationSeconds": 14.724
+        },
+        {
+          "turn": 2,
+          "speaker": "cohost",
+          "text": "I'm Bing. Here on edgeSport4Podcast, spoken as Edge Sport for Podcast, I'd like to stay with that uncomfortable moment. If the athlete and the measurement seem to disagree, what should make us reconsider the next session?",
+          "delivery": "curious",
+          "evidenceSourceIds": [],
+          "startSeconds": 16.414,
+          "durationSeconds": 15.052
+        },
+        {
+          "turn": 3,
+          "speaker": "host",
+          "text": "The padel study gives us a concrete example. Sixteen regional players completed 135 minutes of simulated doubles, with testing between three blocks of play. Their jump results didn't show a significant change, but maximum knee extension strength did.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42831286"
+          ],
+          "startSeconds": 31.706,
+          "durationSeconds": 15.041
+        },
+        {
+          "turn": 4,
+          "speaker": "cohost",
+          "text": "So the jump stayed available while another capacity changed. How large was the strength difference, and who actually contributed data?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42831286"
+          ],
+          "startSeconds": 46.946,
+          "durationSeconds": 12.171
+        },
+        {
+          "turn": 5,
+          "speaker": "host",
+          "text": "For the thirteen players with usable maximum strength measurements, average knee extension torque went from about 200 to 178 newton metres. That's the rotational force measured at the knee, with significant reductions reported at 90 and 135 minutes.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42831286"
+          ],
+          "startSeconds": 59.358,
+          "durationSeconds": 16.596
+        },
+        {
+          "turn": 6,
+          "speaker": "cohost",
+          "text": "That makes a normal jump less reassuring about maximum knee strength. But it doesn't make the jump useless, does it?",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42831286"
+          ],
+          "startSeconds": 76.153,
+          "durationSeconds": 10.176
+        },
+        {
+          "turn": 7,
+          "speaker": "host",
+          "text": "No, it still describes that jumping task. Rapid torque development also showed no significant change, which makes me ask which capacity the next task needs. We shouldn't turn these different responses into a proven explanation about how players compensated.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42831286"
+          ],
+          "startSeconds": 86.569,
+          "durationSeconds": 16.289
+        },
+        {
+          "turn": 8,
+          "speaker": "cohost",
+          "text": "And their reported effort rose while average heart rate fell across the match. I'd want to understand the play and pauses before calling that better recovery, especially because this simulation removed changeover rests and didn't follow recovery afterward.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42831286"
+          ],
+          "startSeconds": 103.058,
+          "durationSeconds": 13.33
+        },
+        {
+          "turn": 9,
+          "speaker": "host",
+          "text": "That restraint matters. Would you apply the same reasoning when a person after ACL reconstruction has a reassuring hop distance?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42981220"
+          ],
+          "startSeconds": 116.589,
+          "durationSeconds": 8.957
+        },
+        {
+          "turn": 10,
+          "speaker": "cohost",
+          "text": "I'd ask for the strength measurements too. This week's ACL study tested 51 recreationally active men six to eight months after reconstruction, all with hamstring tendon grafts. Their forward hop distance was related to measured knee extension strength.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42981220"
+          ],
+          "startSeconds": 125.786,
+          "durationSeconds": 15.728
+        },
+        {
+          "turn": 11,
+          "speaker": "host",
+          "text": "For the operated leg, the single forward hop explained about 52 percent of variation in low speed knee extension torque in a single predictor model. That's a meaningful relationship, but how would you stop someone treating the two measurements as interchangeable?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42981220"
+          ],
+          "startSeconds": 141.714,
+          "durationSeconds": 15.459
+        },
+        {
+          "turn": 12,
+          "speaker": "cohost",
+          "text": "I'd point to their symmetry classifications. A relationship across people doesn't guarantee that both tests give the same answer for one person.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42981220"
+          ],
+          "startSeconds": 157.413,
+          "durationSeconds": 9.694
+        },
+        {
+          "turn": 13,
+          "speaker": "host",
+          "text": "Exactly. Their limb symmetry index divided the operated side by the other side and multiplied by one hundred. Using an 85 percent classification, only the triple forward hop showed a significant classification relationship with low speed knee extension symmetry.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42981220"
+          ],
+          "startSeconds": 167.307,
+          "durationSeconds": 18.552
+        },
+        {
+          "turn": 14,
+          "speaker": "cohost",
+          "text": "And 85 percent wasn't validated as permission to return to sport. There was no reinjury follow-up, so I'd keep both legs' actual strength and hop distances alongside the ratios, without using this male graft sample to clear a different patient.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42981220"
+          ],
+          "startSeconds": 186.059,
+          "durationSeconds": 13.996
+        },
+        {
+          "turn": 15,
+          "speaker": "host",
+          "text": "Keeping the actual measurements brings us to pressure insoles. Researchers used foot pressure and movement type to estimate knee joint moments in 31 rugby players, across 590 trials of four planned movements. Could this make useful mechanics easier to capture?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42961009"
+          ],
+          "startSeconds": 200.255,
+          "durationSeconds": 17.137
+        },
+        {
+          "turn": 16,
+          "speaker": "cohost",
+          "text": "Potentially. They compared estimates with motion capture and force plate calculations, and kept participants separate between model training and testing. That matters because estimating someone the model hasn't seen is a stronger test than revisiting that person's training data.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42961009"
+          ],
+          "startSeconds": 217.633,
+          "durationSeconds": 16.438
+        },
+        {
+          "turn": 17,
+          "speaker": "host",
+          "text": "The pooled estimate had an R squared of about 0.80. Does that tell us whether a small change in one player is real?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42961009"
+          ],
+          "startSeconds": 234.271,
+          "durationSeconds": 8.658
+        },
+        {
+          "turn": 18,
+          "speaker": "cohost",
+          "text": "It doesn't establish that sensitivity. The pooled result combined held out frames, and performance differed by direction of rotation. The model also underestimated some differences between players, particularly during sprinting, so individual tracking remains a separate validation question.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42961009"
+          ],
+          "startSeconds": 243.169,
+          "durationSeconds": 18.956
+        },
+        {
+          "turn": 19,
+          "speaker": "host",
+          "text": "There's also a practical catch. Processing used the complete period when the foot was on the ground, with offline filtering and normalization. A live alert on a sideline would need further validation, including a fixed sensor arrangement and different shoes or surfaces.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42961009"
+          ],
+          "startSeconds": 262.325,
+          "durationSeconds": 17.405
+        },
+        {
+          "turn": 20,
+          "speaker": "cohost",
+          "text": "And estimated joint moment describes rotational demand. It doesn't directly give ligament load, tissue contact force or an individual's injury probability.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42961009"
+          ],
+          "startSeconds": 279.93,
+          "durationSeconds": 10.367
+        },
+        {
+          "turn": 21,
+          "speaker": "host",
+          "text": "That's a useful boundary. Time creates another one in the cycling study, where sixteen untrained adults did constant workload sessions at different intensities. The researchers examined DFA alpha one, a measure describing patterns in the intervals between heartbeats.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42886162"
+          ],
+          "startSeconds": 290.497,
+          "durationSeconds": 15.72
+        },
+        {
+          "turn": 22,
+          "speaker": "cohost",
+          "text": "If the workload stayed fixed, did that heartbeat measure settle into one intensity zone and remain there throughout the session?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42886162"
+          ],
+          "startSeconds": 306.418,
+          "durationSeconds": 7.522
+        },
+        {
+          "turn": 23,
+          "speaker": "host",
+          "text": "At moderate intensity it stayed relatively stable. At the higher intensities it declined with time, and early responses were delayed. In the heavy session, classification using the absolute measure placed only 22.6 percent of time in the intended zone.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42886162"
+          ],
+          "startSeconds": 314.18,
+          "durationSeconds": 18.978
+        },
+        {
+          "turn": 24,
+          "speaker": "cohost",
+          "text": "So chasing the displayed zone early could mislead the prescription. The corresponding heart rate method put 26.7 percent of heavy session time in that zone, which also doesn't support treating the classification as a dependable description throughout the effort.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42886162"
+          ],
+          "startSeconds": 333.358,
+          "durationSeconds": 14.269
+        },
+        {
+          "turn": 25,
+          "speaker": "host",
+          "text": "Right, and they used laboratory ECG recordings. I'd want signal quality and calculation methods checked before applying this with a consumer device. What would you keep beside the number when deciding whether the work is still appropriate?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42886162"
+          ],
+          "startSeconds": 347.827,
+          "durationSeconds": 14.181
+        },
+        {
+          "turn": 26,
+          "speaker": "cohost",
+          "text": "Power, heart rate, perceived effort and elapsed time. The running study makes that combination feel especially relevant because a steady task concealed several changing responses. It involved twelve trained trail runners, six women and six men, in a long treadmill protocol.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42886162",
+            "pmid-42897874"
+          ],
+          "startSeconds": 362.247,
+          "durationSeconds": 18.239
+        },
+        {
+          "turn": 27,
+          "speaker": "host",
+          "text": "During the fixed speed running, metabolic cost showed no significant time effect, while heart rate and perceived effort rose. Duty factor also increased from 71.3 to 72.7 percent between 60 and 180 accumulated minutes of that running.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42897874"
+          ],
+          "startSeconds": 380.686,
+          "durationSeconds": 21.615
+        },
+        {
+          "turn": 28,
+          "speaker": "cohost",
+          "text": "Duty factor here means ground contact time divided by contact plus flight time. Does that small rise establish a warning threshold?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42897874"
+          ],
+          "startSeconds": 402.501,
+          "durationSeconds": 9.439
+        },
+        {
+          "turn": 29,
+          "speaker": "host",
+          "text": "No individual warning threshold was established. In separate maximum effort uphill tests, speed and wearable power declined from fresh to the final test, but power differences weren't significant after adjusting for speed. Some mechanical differences remained in that adjusted comparison.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42897874"
+          ],
+          "startSeconds": 412.18,
+          "durationSeconds": 18.904
+        },
+        {
+          "turn": 30,
+          "speaker": "cohost",
+          "text": "Then I'd preserve speed and slope alongside power, and ask which task changed. Maintaining the cost of a submaximal run didn't mean maintaining maximum uphill performance, and these small treadmill data don't establish a personal fatigue alarm outdoors.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42897874"
+          ],
+          "startSeconds": 431.285,
+          "durationSeconds": 13.812
+        },
+        {
+          "turn": 31,
+          "speaker": "host",
+          "text": "Shoes add another condition to preserve. The advanced footwear statement describes shoes combining responsive foam, stiffening elements and curved geometry. Across the evidence it discusses, average metabolic cost savings were about two to four percent, though runners and conditions varied.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42863837"
+          ],
+          "startSeconds": 445.297,
+          "durationSeconds": 19.255
+        },
+        {
+          "turn": 32,
+          "speaker": "cohost",
+          "text": "That's attractive, but would you promise the same percentage improvement in race time to the person trying a pair tomorrow?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42863837"
+          ],
+          "startSeconds": 464.751,
+          "durationSeconds": 6.932
+        },
+        {
+          "turn": 33,
+          "speaker": "host",
+          "text": "I wouldn't. Metabolic cost and race performance are different outcomes, and the statement's ranges don't share one pooled sample or confidence interval. Single test responses also include measurement and biological variation, so a repeated comparison is more informative than one exciting run.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42863837"
+          ],
+          "startSeconds": 471.923,
+          "durationSeconds": 17.488
+        },
+        {
+          "turn": 34,
+          "speaker": "cohost",
+          "text": "I'd also resist calling an easier feeling shoe protective. The statement describes possible redistribution of loads around the leg and foot, while direct injury evidence and long term adaptation data remain limited. A lower energy cost doesn't settle those questions.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42863837"
+          ],
+          "startSeconds": 489.611,
+          "durationSeconds": 16.893
+        },
+        {
+          "turn": 35,
+          "speaker": "host",
+          "text": "Agreed. Recording the shoe, accumulated use, speed, surface and symptom location gives a comparison some context. The statement doesn't establish a universal introduction schedule or replacement distance, and it's a narrative expert synthesis with some authors reporting footwear research funding.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42863837"
+          ],
+          "startSeconds": 506.704,
+          "durationSeconds": 19.037
+        },
+        {
+          "turn": 36,
+          "speaker": "cohost",
+          "text": "Those records take effort. Could meal photographs make nutrition monitoring easier without creating another reassuring number that we trust too much?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42870382"
+          ],
+          "startSeconds": 525.942,
+          "durationSeconds": 10.032
+        },
+        {
+          "turn": 37,
+          "speaker": "host",
+          "text": "They could help in a familiar setting. In one Serie A team, researchers compared photograph estimates with weighed food intake across 100 lunches from twenty players, using a dietitian who knew the recipes, menu and tableware.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42870382"
+          ],
+          "startSeconds": 536.214,
+          "durationSeconds": 15.414
+        },
+        {
+          "turn": 38,
+          "speaker": "cohost",
+          "text": "Energy estimates tracked the weighed measurements fairly closely, with a correlation of 0.85. But correlation tells us how values move together, so I'd still want to know how far an individual lunch estimate might be from the reference.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42870382"
+          ],
+          "startSeconds": 551.828,
+          "durationSeconds": 14.15
+        },
+        {
+          "turn": 39,
+          "speaker": "host",
+          "text": "The reported average difference was about seventeen calories, but agreement limits extended from roughly minus 160 to plus 195 calories. That wider range matters for an individual meal, and the report flags uncertainty about the wording of the bias direction.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42870382"
+          ],
+          "startSeconds": 566.177,
+          "durationSeconds": 18.834
+        },
+        {
+          "turn": 40,
+          "speaker": "cohost",
+          "text": "So a small average difference can sit beside appreciable meal error. Photos also miss things like added oil or an unrecorded serving, and this study didn't validate whole day intake or eating away from the team setting.",
+          "delivery": "reflective",
+          "evidenceSourceIds": [
+            "pmid-42870382"
+          ],
+          "startSeconds": 585.211,
+          "durationSeconds": 13.623
+        },
+        {
+          "turn": 41,
+          "speaker": "host",
+          "text": "Exactly. The AFLW study widens that conversation to daily recovery conditions. Twenty-two players from one team recorded diet and wore sleep rings during five preseason days and five in-season days, but only 67 percent of sleep data and 80 percent of diet data were obtained.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42904819"
+          ],
+          "startSeconds": 599.034,
+          "durationSeconds": 19.66
+        },
+        {
+          "turn": 42,
+          "speaker": "cohost",
+          "text": "That's a substantial amount missing. Among the available records, what changed, and what could we reasonably ask an athlete about it?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42904819"
+          ],
+          "startSeconds": 618.894,
+          "durationSeconds": 9.535
+        },
+        {
+          "turn": 43,
+          "speaker": "host",
+          "text": "Average protein intake was about 126 grams daily before the season and 115 during it, with a modeled reduction of about eleven grams. Fat intake also fell, but average protein remained within the authors' cited targets, so the reduction alone doesn't establish inadequacy.",
+          "delivery": "clear",
+          "evidenceSourceIds": [
+            "pmid-42904819"
+          ],
+          "startSeconds": 628.669,
+          "durationSeconds": 19.267
+        },
+        {
+          "turn": 44,
+          "speaker": "cohost",
+          "text": "I'd ask about complete records and individual needs before suggesting more food. Sleep showed no significant seasonal difference, while older age was associated with shorter sleep, but the age coefficient was reported inconsistently and work or family explanations weren't directly measured.",
+          "delivery": "cautious",
+          "evidenceSourceIds": [
+            "pmid-42904819"
+          ],
+          "startSeconds": 648.136,
+          "durationSeconds": 16.419
+        },
+        {
+          "turn": 45,
+          "speaker": "host",
+          "text": "That leaves room for a humane conversation about schedules and recovery without diagnosing someone from a group average. Bringing this back to tomorrow's training, what would you actually write down before deciding to increase the load?",
+          "delivery": "curious",
+          "evidenceSourceIds": [
+            "pmid-42904819"
+          ],
+          "startSeconds": 664.755,
+          "durationSeconds": 13.749
+        },
+        {
+          "turn": 46,
+          "speaker": "cohost",
+          "text": "I'd name the next task, check whether the records are comparable, and identify any capacity the reassuring test leaves unanswered. That's the EDGE SPORT proposal in this report, an unvalidated decision process whose combined tests haven't demonstrated injury reduction.",
+          "delivery": "clear",
+          "evidenceSourceIds": [],
+          "startSeconds": 678.744,
+          "durationSeconds": 14.378
+        },
+        {
+          "turn": 47,
+          "speaker": "host",
+          "text": "And the proposal is to agree on one main exposure change and review the response afterward and before the next session. Unexplained strength loss, worsening symptoms or declining function would prompt reassessment, with individual medical restrictions handled by the responsible clinical team.",
+          "delivery": "encouraging",
+          "evidenceSourceIds": [],
+          "startSeconds": 693.322,
+          "durationSeconds": 21.293
+        },
+        {
+          "turn": 48,
+          "speaker": "cohost",
+          "text": "That gives the athlete a voice alongside the measurements. Define the task, check the data and ask what would change the plan, then consult the written weekly report and original sources for methods, limitations and the reporting discrepancies still awaiting editorial review.",
+          "delivery": "warm",
+          "evidenceSourceIds": [],
+          "startSeconds": 714.815,
+          "durationSeconds": 17.18
+        }
+      ],
+      "factCheck": [
+        {
+          "claim": "In simulated padel, maximum knee extension torque averaged 199.6 N·m before play and 178.0 N·m after 135 minutes, with significant reductions at 90 and 135 minutes.",
+          "evidenceSourceIds": [
+            "pmid-42831286"
+          ],
+          "boundary": "Maximum strength analysis included 13 players from 16 participants. Jump and rapid torque outcomes showed no significant change, which does not establish equivalence. No rest control or subsequent recovery follow-up was included. Earlier decline and peripheral fatigue statements conflict internally, so the dialogue follows the results section."
+        },
+        {
+          "claim": "Single forward hop distance explained approximately 52 percent of operated-leg knee extension torque variation at 60 degrees per second.",
+          "evidenceSourceIds": [
+            "pmid-42981220"
+          ],
+          "boundary": "Adjusted R squared was 0.523 in a single predictor cross-sectional model involving 51 men with hamstring tendon grafts at six to eight postoperative months. Association does not establish interchangeability, future outcomes or individual clearance."
+        },
+        {
+          "claim": "At the study's 85 percent symmetry classification, only triple forward hop classification was significantly related to knee extension classification at 60 degrees per second.",
+          "evidenceSourceIds": [
+            "pmid-42981220"
+          ],
+          "boundary": "The limb symmetry index was operated divided by nonoperated performance multiplied by 100. The classification value was not validated against reinjury or safe return to sport."
+        },
+        {
+          "claim": "The insole model achieved pooled R squared 0.795 across held out frames from 31 rugby players and 590 movement trials.",
+          "evidenceSourceIds": [
+            "pmid-42961009"
+          ],
+          "boundary": "Participant-grouped nested cross-validation supports estimation in unseen participants under the tested laboratory conditions. It does not validate individual change detection, real-time use or injury prediction. Only left-foot data from four planned movements were studied, with offline processing and varying sensor configurations."
+        },
+        {
+          "claim": "Heavy cycling time classified in the target zone was 22.6 percent using absolute DFA-a1 and 26.7 percent using its corresponding heart rate method.",
+          "evidenceSourceIds": [
+            "pmid-42886162"
+          ],
+          "boundary": "Sixteen untrained adults underwent laboratory testing using ECG. Higher-intensity responses depended on elapsed time and included early delays. These concrete main-text results should not be replaced with broader abstract claims, and consumer-device field performance remains unvalidated here."
+        },
+        {
+          "claim": "Fixed speed running duty factor increased from 71.3 to 72.7 percent between 60 and 180 accumulated minutes.",
+          "evidenceSourceIds": [
+            "pmid-42897874"
+          ],
+          "boundary": "Twelve trained trail runners completed a treadmill protocol. Duty factor was contact time divided by contact plus flight time. Heart rate and perceived effort increased, while running cost had no significant time effect. No individual warning threshold was established."
+        },
+        {
+          "claim": "Maximum uphill test speed and wearable power declined from fresh to the last test, but adjusted power differences were not significant after accounting for speed.",
+          "evidenceSourceIds": [
+            "pmid-42897874"
+          ],
+          "boundary": "Some mechanical differences remained in the common speed-adjusted model. Speed may mediate fatigue effects, so adjustment does not establish a speed-independent causal mechanism. Outdoor validity and wearable validation in fatigued near-maximal conditions remain limited."
+        },
+        {
+          "claim": "The advanced footwear statement describes average metabolic savings of approximately 2 to 4 percent.",
+          "evidenceSourceIds": [
+            "pmid-42863837"
+          ],
+          "boundary": "This narrative expert synthesis provides no common pooled denominator or confidence interval for the range. It does not promise equivalent race-time gains or individual benefit. Injury and long-term adaptation evidence are limited, and some authors reported relevant research funding."
+        },
+        {
+          "claim": "Food photography energy estimates correlated 0.85 with weighed intake across 100 lunches from 20 players.",
+          "evidenceSourceIds": [
+            "pmid-42870382"
+          ],
+          "boundary": "One Serie A team was studied over two weeks with a dietitian familiar with recipes and tableware. Mean energy difference was 17.27 kcal, with agreement limits from −160.41 to 194.95 kcal. Bias direction wording requires checking. Whole-day intake, outside meals and inter-rater reliability were not validated."
+        },
+        {
+          "claim": "The AFLW cohort obtained 67 percent of sleep data and 80 percent of diet data across two five-day windows in 22 players.",
+          "evidenceSourceIds": [
+            "pmid-42904819"
+          ],
+          "boundary": "A single team, missing observations, self-reported diet and wearable sleep estimates limit individual and population inference. Missingness should not be interpreted as random without evidence."
+        },
+        {
+          "claim": "AFLW protein intake averaged 126.48 g/day preseason and 115.15 g/day in season, with a modeled reduction of 11.26 g/day.",
+          "evidenceSourceIds": [
+            "pmid-42904819"
+          ],
+          "boundary": "The modeled difference had a 95 percent confidence interval from −21.16 to −1.36 g/day. Average protein remained within the authors' cited targets. Seasonal causation, individual inadequacy and RED-S were not established."
+        },
+        {
+          "claim": "The AFLW study detected no significant seasonal sleep difference and associated older age with shorter sleep.",
+          "evidenceSourceIds": [
+            "pmid-42904819"
+          ],
+          "boundary": "The age coefficient is inconsistent between the table and prose, so no precise age-related decrement is spoken. Work and family explanations were not directly measured, and absence of significance does not establish equivalence."
+        }
+      ],
+      "closingTakeaways": [
+        "Define the next task before interpreting a reassuring measurement.",
+        "Read local strength, multi-joint performance and perceived effort together.",
+        "Keep intensity, elapsed time, speed, shoes and data quality attached to wearable results.",
+        "Use group nutrition, sleep and footwear findings to guide questions about individual needs.",
+        "Treat the EDGE SPORT progression process as an unvalidated proposal without universal thresholds.",
+        "Consult the written report and original sources for methods, limitations and unresolved reporting discrepancies."
+      ],
+      "disclosure": "This episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance.",
+      "editorReview": {
+        "approvedForPublish": false,
+        "verifiedBy": "",
+        "verifiedAt": ""
+      },
+      "publicationMode": "automated",
+      "automationProvider": "codex",
+      "renderedAt": "2026-11-17T13:48:35.053Z",
+      "publishedAt": "2026-11-17T13:48:35.230Z",
+      "audio": {
+        "src": "assets/podcasts/2026-w47-1b18c7aa0d9b.mp3",
+        "mimeType": "audio/mpeg",
+        "bytes": 8805644,
+        "bitrate": "96k",
+        "sampleRate": 24000
+      },
+      "researchSources": [
+        {
+          "recordId": "pmid-42870382",
+          "title": "The Remote Food Photography Method Is Valid for Assessing Dietary Intake of Serie A Football Players.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70250",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42981220",
+          "title": "Horizontal and Multidirectional Single-Leg Hop Tests Predict Isokinetic Quadriceps and Hamstring Strengths After Anterior Cruciate Ligament Reconstruction.",
+          "journal": "Sports health",
+          "publicationDate": "2026-11-04",
+          "sourceUrl": "https://doi.org/10.1177/19417381261486269",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42961009",
+          "title": "Wearable Sensor-Based Prediction of Knee Joint Moments in Competitive Rugby Players During Multidirectional Movements.",
+          "journal": "Scandinavian journal of medicine & science in sports",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1111/sms.70391",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42904819",
+          "title": "The Sleep and Diet of Elite Female Australian Rules Football Athletes Differ With Age and Season Phase.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70274",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42863837",
+          "title": "Advanced Footwear Technology in Distance Running: What We Know, What We Don't Know, and Future Directions.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70266",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42886162",
+          "title": "Correlation Properties of Heart Rate Variability for Exercise Intensity Monitoring and Prescription During Constant-Load Cycling: A Comparison With Traditional Physiological Variables.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70271",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42831286",
+          "title": "Neuromuscular Alterations of Knee Extensors During Padel Match Play.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70263",
+          "contentLevel": "full-text-open"
+        },
+        {
+          "recordId": "pmid-42897874",
+          "title": "Power-Based Running Durability in Trained Runners: Preliminary Evidence of Speed-Adjusted Mechanical Drift as a Marker of Fatigue.",
+          "journal": "European journal of sport science",
+          "publicationDate": "2026-11-01",
+          "sourceUrl": "https://doi.org/10.1002/ejsc.70275",
+          "contentLevel": "full-text-open"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
       "id": "2026-w46",
       "status": "published",
       "publishDate": "2026-11-14",

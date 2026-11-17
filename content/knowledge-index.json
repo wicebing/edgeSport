@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T13:28:32.975Z",
+  "generatedAt": "2026-11-17T13:48:35.230Z",
   "retentionPolicy": {
     "mode": "cumulative",
     "statement": "Published issues, weekly reports, podcast episodes and harvested research metadata remain indexed. Existing IDs may be revised in place, but are not removed by routine generation.",
     "privateMaterial": "Licensed full text, source captures and private Codex packets remain in the local research-library and are not deployed to GitHub Pages."
   },
   "stats": {
-    "total": 855,
+    "total": 856,
     "monthlyTopics": 3,
     "knowledgeTopics": 4,
-    "podcastEpisodes": 9,
+    "podcastEpisodes": 10,
     "weeklyReports": 10,
     "researchArticles": 829,
     "reviewedArticles": 0,
@@ -50,6 +50,88 @@
         "referencedBy": []
       },
       "searchText": "研究題錄 \n營養與水合 \n技擊運動 \npmid-42702994 \ndiscovered \njournal-article \njissn \nJournal of the International Society of Sports Nutrition \nJ Int Soc Sports Nutr \nProbiotic supplementation improves body composition, lipid profiles, and fatty acid metabolism in combat sports athletes during the weight reduction phase. \n2026-12-30 \nYang S \nCheng Z \nShen W \nWang J \nLai M \nYu X \nZuo Q \nJournal Article \nRandomized Controlled Trial \n10.1080/15502783.2026.2726522 \n42702994 \nPMC13552284 \npmc-record-available \n2026-09-12T16:46:37.358Z"
+    },
+    {
+      "id": "podcast:2026-w47",
+      "sourceId": "2026-w47",
+      "type": "podcast-episode",
+      "typeLabel": "English Podcast",
+      "publishDate": "2026-11-21",
+      "updatedAt": "2026-11-17T13:48:35.230Z",
+      "year": "2026",
+      "title": "Still Jumping, Still Tired?",
+      "summary": "Ying and Bing discuss eight sources on strength, jumping, wearable monitoring, running shoes, nutrition and sleep. They ask whether reassuring measurements actually cover the demands of the next task, while separating research findings from an unvalidated EDGE SPORT decision process.",
+      "topicIds": [
+        "monitoring",
+        "assessment",
+        "training",
+        "nutrition",
+        "performance",
+        "sport-medicine"
+      ],
+      "topicLabels": [
+        "監測與科技",
+        "身體評估",
+        "訓練設計",
+        "營養與恢復",
+        "運動表現",
+        "運動醫學"
+      ],
+      "sportTags": [
+        "足球",
+        "ACL 重建後運動族群",
+        "橄欖球",
+        "女性澳式足球",
+        "自行車",
+        "Padel",
+        "越野跑與長跑"
+      ],
+      "tags": [
+        "監測與科技",
+        "身體評估",
+        "訓練設計",
+        "營養與恢復",
+        "運動表現",
+        "運動醫學",
+        "足球",
+        "ACL 重建後運動族群",
+        "橄欖球",
+        "女性澳式足球",
+        "自行車",
+        "Padel",
+        "越野跑與長跑",
+        "Podcast",
+        "English"
+      ],
+      "href": "?podcast=2026-w47#podcast",
+      "sourceUrl": null,
+      "journal": null,
+      "detail": "12 min listen · 8 篇研究",
+      "reviewed": false,
+      "related": {
+        "researchIds": [
+          "pmid-42870382",
+          "pmid-42981220",
+          "pmid-42961009",
+          "pmid-42904819",
+          "pmid-42863837",
+          "pmid-42886162",
+          "pmid-42831286",
+          "pmid-42897874"
+        ],
+        "courseIds": [
+          "course-3508b0d2cc8ec57d",
+          "course-4c7247f87374194d",
+          "course-c07b3c2920b5562e",
+          "course-8dbff6b0b0a9f68e",
+          "course-997f13621b460b4a"
+        ],
+        "priorIds": [
+          "2026-w47"
+        ],
+        "referencedBy": []
+      },
+      "searchText": "English Podcast \n監測與科技 \n身體評估 \n訓練設計 \n營養與恢復 \n運動表現 \n運動醫學 \n足球 \nACL 重建後運動族群 \n橄欖球 \n女性澳式足球 \n自行車 \nPadel \n越野跑與長跑 \nPodcast \nEnglish \n2026-w47 \npublished \n2026-11-21 \nedgeSport4Podcast \nStill Jumping, Still Tired? \nWhat steady numbers can tell us before the next increase in training. \nYing and Bing discuss eight sources on strength, jumping, wearable monitoring, running shoes, nutrition and sleep. They ask whether reassuring measurements actually cover the demands of the next task, while separating research findings from an unvalidated EDGE SPORT decision process. \nen \nhost \nYing \nEvidence guide · female voice \ncohost \nBing \nAnalytical partner · male voice \npmid-42870382 \npmid-42981220 \npmid-42961009 \npmid-42904819 \npmid-42863837 \npmid-42886162 \npmid-42831286 \npmid-42897874 \nExplain why maintained jump performance can coexist with reduced local strength. \nDistinguish correlation, agreement, classification and individual prediction. \nInterpret wearable measurements with their task, intensity, timing and processing conditions. \nRecognize the limits of group nutrition, sleep and footwear findings. \nDescribe an explicitly unvalidated process for reviewing a proposed load change. \nThe conversation draws exclusively on the supplied weeklyReport. No relatedIssues research is used. \nPadel: https://doi.org/10.1002/ejsc.70263 \nACL reconstruction: https://doi.org/10.1177/19417381261486269 \nPressure insoles: https://doi.org/10.1111/sms.70391 \nConstant-load cycling: https://doi.org/10.1002/ejsc.70271 \nRunning durability: https://doi.org/10.1002/ejsc.70275 \nAdvanced footwear: https://doi.org/10.1002/ejsc.70266 \nFood photography: https://doi.org/10.1002/ejsc.70250 actionable intake estimates require familiar foods and complete records that include added oils and leftovers. \nThe reassuring number \nA maintained jump does not describe every capacity needed for the next task. \nJumping and local strength \nPadel and ACL findings show why complementary tests matter. \nWhat an insole estimates \nLaboratory knee moment estimates have promising performance and important deployment limits. \nThe same work later \nCycling and running measurements change with intensity, duration and speed. \nShoes and individual benefit \nAverage running economy benefits do not establish personal performance or injury outcomes. \nRecovery data need context \nFood photography and AFLW observations raise practical questions about error, missingness and daily life. \nWhat would change the plan? \nA practical recap separates editorial proposals from validated thresholds and clinical decisions. \nYou've finished a long session and your jump looks normal, but your legs don't feel normal at all. Welcome to edgeSport4Podcast. I'm Ying, and this week we're asking what a reassuring number actually tells us before we add more work. \nwarm \nI'm Bing. Here on edgeSport4Podcast, spoken as Edge Sport for Podcast, I'd like to stay with that uncomfortable moment. If the athlete and the measurement seem to disagree, what should make us reconsider the next session? \ncurious \nThe padel study gives us a concrete example. Sixteen regional players completed 135 minutes of simulated doubles, with testing between three blocks of play. Their jump results didn't show a significant change, but maximum knee extension strength did. \nclear \nSo the jump stayed available while another capacity changed. How large was the strength difference, and who actually contributed data? \nFor the thirteen players with usable maximum strength measurements, average knee extension torque went from about 200 to 178 newton metres. That's the rotational force measured at the knee, with significant reductions reported at 90 and 135 minutes. \nThat makes a normal jump less reassuring about maximum knee strength. But it doesn't make the jump useless, does it? \nreflective \nNo, it still describes that jumping task. Rapid torque development also showed no significant change, which makes me ask which capacity the next task needs. We shouldn't turn these different responses into a proven explanation about how players compensated. \ncautious \nAnd their reported effort rose while average heart rate fell across the match. I'd want to understand the play and pauses before calling that better recovery, especially because this simulation removed changeover rests and didn't follow recovery afterward. \nThat restraint matters. Would you apply the same reasoning when a person after ACL reconstruction has a reassuring hop distance? \nI'd ask for the strength measurements too. This week's ACL study tested 51 recreationally active men six to eight months after reconstruction, all with hamstring tendon grafts. Their forward hop distance was related to measured knee extension strength. \nFor the operated leg, the single forward hop explained about 52 percent of variation in low speed knee extension torque in a single predictor model. That's a meaningful relationship, but how would you stop someone treating the two measurements as interchangeable? \nI'd point to their symmetry classifications. A relationship across people doesn't guarantee that both tests give the same answer for one person. \nExactly. Their limb symmetry index divided the operated side by the other side and multiplied by one hundred. Using an 85 percent classification, only the triple forward hop showed a significant classification relationship with low speed knee extension symmetry. \nAnd 85 percent wasn't validated as permission to return to sport. There was no reinjury follow-up, so I'd keep both legs' actual strength and hop distances alongside the ratios, without using this male graft sample to clear a different patient. \nKeeping the actual measurements brings us to pressure insoles. Researchers used foot pressure and movement type to estimate knee joint moments in 31 rugby players, across 590 trials of four planned movements. Could this make useful mechanics easier to capture? \nPotentially. They compared estimates with motion capture and force plate calculations, and kept participants separate between model training and testing. That matters because estimating someone the model hasn't seen is a stronger test than revisiting that person's training data. \nThe pooled estimate had an R squared of about 0.80. Does that tell us whether a small change in one player is real? \nIt doesn't establish that sensitivity. The pooled result combined held out frames, and performance differed by direction of rotation. The model also underestimated some differences between players, particularly during sprinting, so individual tracking remains a separate validation question. \nThere's also a practical catch. Processing used the complete period when the foot was on the ground, with offline filtering and normalization. A live alert on a sideline would need further validation, including a fixed sensor arrangement and different shoes or surfaces. \nAnd estimated joint moment describes rotational demand. It doesn't directly give ligament load, tissue contact force or an individual's injury probability. \nThat's a useful boundary. Time creates another one in the cycling study, where sixteen untrained adults did constant workload sessions at different intensities. The researchers examined DFA alpha one, a measure describing patterns in the intervals between heartbeats. \nIf the workload stayed fixed, did that heartbeat measure settle into one intensity zone and remain there throughout the session? \nAt moderate intensity it stayed relatively stable. At the higher intensities it declined with time, and early responses were delayed. In the heavy session, classification using the absolute measure placed only 22.6 percent of time in the intended zone. \nSo chasing the displayed zone early could mislead the prescription. The corresponding heart rate method put 26.7 percent of heavy session time in that zone, which also doesn't support treating the classification as a dependable description throughout the effort. \nRight, and they used laboratory ECG recordings. I'd want signal quality and calculation methods checked before applying this with a consumer device. What would you keep beside the number when deciding whether the work is still appropriate? \nPower, heart rate, perceived effort and elapsed time. The running study makes that combination feel especially relevant because a steady task concealed several changing responses. It involved twelve trained trail runners, six women and six men, in a long treadmill protocol. \nDuring the fixed speed running, metabolic cost showed no significant time effect, while heart rate and perceived effort rose. Duty factor also increased from 71.3 to 72.7 percent between 60 and 180 accumulated minutes of that running. \nDuty factor here means ground contact time divided by contact plus flight time. Does that small rise establish a warning threshold? \nNo individual warning threshold was established. In separate maximum effort uphill tests, speed and wearable power declined from fresh to the final test, but power differences weren't significant after adjusting for speed. Some mechanical differences remained in that adjusted comparison. \nThen I'd preserve speed and slope alongside power, and ask which task changed. Maintaining the cost of a submaximal run didn't mean maintaining maximum uphill performance, and these small treadmill data don't establish a personal fatigue alarm outdoors. \nShoes add another condition to preserve. The advanced footwear statement describes shoes combining responsive foam, stiffening elements and curved geometry. Across the evidence it discusses, average metabolic cost savings were about two to four percent, though runners and conditions varied. \nThat's attractive, but would you promise the same percentage improvement in race time to the person trying a pair tomorrow? \nI wouldn't. Metabolic cost and race performance are different outcomes, and the statement's ranges don't share one pooled sample or confidence interval. Single test responses also include measurement and biological variation, so a repeated comparison is more informative than one exciting run. \nI'd also resist calling an easier feeling shoe protective. The statement describes possible redistribution of loads around the leg and foot, while direct injury evidence and long term adaptation data remain limited. A lower energy cost doesn't settle those questions. \nAgreed. Recording the shoe, accumulated use, speed, surface and symptom location gives a comparison some context. The statement doesn't establish a universal introduction schedule or replacement distance, and it's a narrative expert synthesis with some authors reporting footwear research funding. \nThose records take effort. Could meal photographs make nutrition monitoring easier without creating another reassuring number that we trust too much? \nThey could help in a familiar setting. In one Serie A team, researchers compared photograph estimates with weighed food intake across 100 lunches from twenty players, using a dietitian who knew the recipes, menu and tableware. \nEnergy estimates tracked the weighed measurements fairly closely, with a correlation of 0.85. But correlation tells us how values move together, so I'd still want to know how far an individual lunch estimate might be from the reference. \nThe reported average difference was about seventeen calories, but agreement limits extended from roughly minus 160 to plus 195 calories. That wider range matters for an individual meal, and the report flags uncertainty about the wording of the bias direction. \nSo a small average difference can sit beside appreciable meal error. Photos also miss things like added oil or an unrecorded serving, and this study didn't validate whole day intake or eating away from the team setting. \nExactly. The AFLW study widens that conversation to daily recovery conditions. Twenty-two players from one team recorded diet and wore sleep rings during five preseason days and five in-season days, but only 67 percent of sleep data and 80 percent of diet data were obtained. \nThat's a substantial amount missing. Among the available records, what changed, and what could we reasonably ask an athlete about it? \nAverage protein intake was about 126 grams daily before the season and 115 during it, with a modeled reduction of about eleven grams. Fat intake also fell, but average protein remained within the authors' cited targets, so the reduction alone doesn't establish inadequacy. \nI'd ask about complete records and individual needs before suggesting more food. Sleep showed no significant seasonal difference, while older age was associated with shorter sleep, but the age coefficient was reported inconsistently and work or family explanations weren't directly measured. \nThat leaves room for a humane conversation about schedules and recovery without diagnosing someone from a group average. Bringing this back to tomorrow's training, what would you actually write down before deciding to increase the load? \nI'd name the next task, check whether the records are comparable, and identify any capacity the reassuring test leaves unanswered. That's the EDGE SPORT proposal in this report, an unvalidated decision process whose combined tests haven't demonstrated injury reduction. \nAnd the proposal is to agree on one main exposure change and review the response afterward and before the next session. Unexplained strength loss, worsening symptoms or declining function would prompt reassessment, with individual medical restrictions handled by the responsible clinical team. \nencouraging \nThat gives the athlete a voice alongside the measurements. Define the task, check the data and ask what would change the plan, then consult the written weekly report and original sources for methods, limitations and the reporting discrepancies still awaiting editorial review. \nIn simulated padel, maximum knee extension torque averaged 199.6 N·m before play and 178.0 N·m after 135 minutes, with significant reductions at 90 and 135 minutes. \nMaximum strength analysis included 13 players from 16 participants. Jump and rapid torque outcomes showed no significant change, which does not establish equivalence. No rest control or subsequent recovery follow-up was included. Earlier decline and peripheral fatigue statements conflict internally, so the dialogue follows the results section. \nSingle forward hop distance explained approximately 52 percent of operated-leg knee extension torque variation at 60 degrees per second. \nAdjusted R squared was 0.523 in a single predictor cross-sectional model involving 51 men with hamstring tendon grafts at six to eight postoperative months. Association does not establish interchangeability, future outcomes or individual clearance. \nAt the study's 85 percent symmetry classification, only triple forward hop classification was significantly related to knee extension classification at 60 degrees per second. \nThe limb symmetry index was operated divided by nonoperated performance multiplied by 100. The classification value was not validated against reinjury or safe return to sport. \nThe insole model achieved pooled R squared 0.795 across held out frames from 31 rugby players and 590 movement trials. \nParticipant-grouped nested cross-validation supports estimation in unseen participants under the tested laboratory conditions. It does not validate individual change detection, real-time use or injury prediction. Only left-foot data from four planned movements were studied, with offline processing and varying sensor configurations. \nHeavy cycling time classified in the target zone was 22.6 percent using absolute DFA-a1 and 26.7 percent using its corresponding heart rate method. \nSixteen untrained adults underwent laboratory testing using ECG. Higher-intensity responses depended on elapsed time and included early delays. These concrete main-text results should not be replaced with broader abstract claims, and consumer-device field performance remains unvalidated here. \nFixed speed running duty factor increased from 71.3 to 72.7 percent between 60 and 180 accumulated minutes. \nTwelve trained trail runners completed a treadmill protocol. Duty factor was contact time divided by contact plus flight time. Heart rate and perceived effort increased, while running cost had no significant time effect. No individual warning threshold was established. \nMaximum uphill test speed and wearable power declined from fresh to the last test, but adjusted power differences were not significant after accounting for speed. \nSome mechanical differences remained in the common speed-adjusted model. Speed may mediate fatigue effects, so adjustment does not establish a speed-independent causal mechanism. Outdoor validity and wearable validation in fatigued near-maximal conditions remain limited. \nThe advanced footwear statement describes average metabolic savings of approximately 2 to 4 percent. \nThis narrative expert synthesis provides no common pooled denominator or confidence interval for the range. It does not promise equivalent race-time gains or individual benefit. Injury and long-term adaptation evidence are limited, and some authors reported relevant research funding. \nFood photography energy estimates correlated 0.85 with weighed intake across 100 lunches from 20 players. \nOne Serie A team was studied over two weeks with a dietitian familiar with recipes and tableware. Mean energy difference was 17.27 kcal, with agreement limits from −160.41 to 194.95 kcal. Bias direction wording requires checking. Whole-day intake, outside meals and inter-rater reliability were not validated. \nThe AFLW cohort obtained 67 percent of sleep data and 80 percent of diet data across two five-day windows in 22 players. \nA single team, missing observations, self-reported diet and wearable sleep estimates limit individual and population inference. Missingness should not be interpreted as random without evidence. \nAFLW protein intake averaged 126.48 g/day preseason and 115.15 g/day in season, with a modeled reduction of 11.26 g/day. \nThe modeled difference had a 95 percent confidence interval from −21.16 to −1.36 g/day. Average protein remained within the authors' cited targets. Seasonal causation, individual inadequacy and RED-S were not established. \nThe AFLW study detected no significant seasonal sleep difference and associated older age with shorter sleep. \nThe age coefficient is inconsistent between the table and prose, so no precise age-related decrement is spoken. Work and family explanations were not directly measured, and absence of significance does not establish equivalence. \nDefine the next task before interpreting a reassuring measurement. \nRead local strength, multi-joint performance and perceived effort together. \nKeep intensity, elapsed time, speed, shoes and data quality attached to wearable results. \nUse group nutrition, sleep and footwear findings to guide questions about individual needs. \nTreat the EDGE SPORT progression process as an unvalidated proposal without universal thresholds. \nConsult the written report and original sources for methods, limitations and unresolved reporting discrepancies. \nThis episode uses synthetic speech. Ying is locally generated from the supplied female-voice sample, and Bing is locally generated from the supplied male-voice sample. The script is prepared by Codex. The episode is educational and does not provide individualized medical advice or return-to-play clearance. \nautomated \ncodex \n2026-11-17T13:48:35.053Z \n2026-11-17T13:48:35.230Z \nassets/podcasts/2026-w47-1b18c7aa0d9b.mp3 \naudio/mpeg \n96k \nThe Remote Food Photography Method Is Valid for Assessing Dietary Intake of Serie A Football Players. \nEuropean journal of sport science \n2026-11-01 \nfull-text-open \nHorizontal and Multidirectional Single-Leg Hop Tests Predict Isokinetic Quadriceps and Hamstring Strengths After Anterior Cruciate Ligament Reconstruction. \nSports health \n2026-11-04 \nWearable Sensor-Based Prediction of Knee Joint Moments in Competitive Rugby Players During Multidirectional Movements. \nScandinavian journal of medicine & science in sports \nThe Sleep and Diet of Elite Female Australian Rules Football Athletes Differ With Age and Season Phase. \nAdvanced Footwear Technology in Distance Running: What We Know, What We Don't Know, and Future Directions. \nCorrelation Properties of Heart Rate Variability for Exercise Intensity Monitoring and Prescription During Constant-Load Cycling: A Comparison With Traditional Physiological Variables. \nNeuromuscular Alterations of Knee Extensors During Padel Match Play. \nPower-Based Running Durability in Trained Runners: Preliminary Evidence of Speed-Adjusted Mechanical Drift as a Marker of Fatigue."
     },
     {
       "id": "report:2026-w47",
@@ -3653,7 +3735,7 @@
       "href": "?radar=pmid-42981220#research-radar",
       "sourceUrl": "https://doi.org/10.1177/19417381261486269",
       "journal": "Sports health",
-      "detail": "Sports health · PMID 42981220 · 被 1 份整理引用",
+      "detail": "Sports health · PMID 42981220 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -3665,6 +3747,12 @@
             "type": "weekly-report",
             "title": "跳得一樣、功率穩定，仍有疲勞？加量前的量測核對",
             "href": "?report=2026-w47#weekly-reports"
+          },
+          {
+            "id": "2026-w47",
+            "type": "podcast-episode",
+            "title": "Still Jumping, Still Tired?",
+            "href": "?podcast=2026-w47#podcast"
           }
         ]
       },
@@ -5284,7 +5372,7 @@
       "href": "?radar=pmid-42863837#research-radar",
       "sourceUrl": "https://doi.org/10.1002/ejsc.70266",
       "journal": "European journal of sport science",
-      "detail": "European journal of sport science · PMID 42863837 · 被 1 份整理引用",
+      "detail": "European journal of sport science · PMID 42863837 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -5296,6 +5384,12 @@
             "type": "weekly-report",
             "title": "跳得一樣、功率穩定，仍有疲勞？加量前的量測核對",
             "href": "?report=2026-w47#weekly-reports"
+          },
+          {
+            "id": "2026-w47",
+            "type": "podcast-episode",
+            "title": "Still Jumping, Still Tired?",
+            "href": "?podcast=2026-w47#podcast"
           }
         ]
       },
@@ -5664,7 +5758,7 @@
       "href": "?radar=pmid-42886162#research-radar",
       "sourceUrl": "https://doi.org/10.1002/ejsc.70271",
       "journal": "European journal of sport science",
-      "detail": "European journal of sport science · PMID 42886162 · 被 1 份整理引用",
+      "detail": "European journal of sport science · PMID 42886162 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -5676,6 +5770,12 @@
             "type": "weekly-report",
             "title": "跳得一樣、功率穩定，仍有疲勞？加量前的量測核對",
             "href": "?report=2026-w47#weekly-reports"
+          },
+          {
+            "id": "2026-w47",
+            "type": "podcast-episode",
+            "title": "Still Jumping, Still Tired?",
+            "href": "?podcast=2026-w47#podcast"
           }
         ]
       },
@@ -6219,7 +6319,7 @@
       "href": "?radar=pmid-42831286#research-radar",
       "sourceUrl": "https://doi.org/10.1002/ejsc.70263",
       "journal": "European journal of sport science",
-      "detail": "European journal of sport science · PMID 42831286 · 被 1 份整理引用",
+      "detail": "European journal of sport science · PMID 42831286 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -6231,6 +6331,12 @@
             "type": "weekly-report",
             "title": "跳得一樣、功率穩定，仍有疲勞？加量前的量測核對",
             "href": "?report=2026-w47#weekly-reports"
+          },
+          {
+            "id": "2026-w47",
+            "type": "podcast-episode",
+            "title": "Still Jumping, Still Tired?",
+            "href": "?podcast=2026-w47#podcast"
           }
         ]
       },
@@ -6391,7 +6497,7 @@
       "href": "?radar=pmid-42897874#research-radar",
       "sourceUrl": "https://doi.org/10.1002/ejsc.70275",
       "journal": "European journal of sport science",
-      "detail": "European journal of sport science · PMID 42897874 · 被 1 份整理引用",
+      "detail": "European journal of sport science · PMID 42897874 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -6403,6 +6509,12 @@
             "type": "weekly-report",
             "title": "跳得一樣、功率穩定，仍有疲勞？加量前的量測核對",
             "href": "?report=2026-w47#weekly-reports"
+          },
+          {
+            "id": "2026-w47",
+            "type": "podcast-episode",
+            "title": "Still Jumping, Still Tired?",
+            "href": "?podcast=2026-w47#podcast"
           }
         ]
       },
@@ -6638,7 +6750,7 @@
       "href": "?radar=pmid-42870382#research-radar",
       "sourceUrl": "https://doi.org/10.1002/ejsc.70250",
       "journal": "European journal of sport science",
-      "detail": "European journal of sport science · PMID 42870382 · 被 1 份整理引用",
+      "detail": "European journal of sport science · PMID 42870382 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -6650,6 +6762,12 @@
             "type": "weekly-report",
             "title": "跳得一樣、功率穩定，仍有疲勞？加量前的量測核對",
             "href": "?report=2026-w47#weekly-reports"
+          },
+          {
+            "id": "2026-w47",
+            "type": "podcast-episode",
+            "title": "Still Jumping, Still Tired?",
+            "href": "?podcast=2026-w47#podcast"
           }
         ]
       },
@@ -6703,7 +6821,7 @@
       "href": "?radar=pmid-42904819#research-radar",
       "sourceUrl": "https://doi.org/10.1002/ejsc.70274",
       "journal": "European journal of sport science",
-      "detail": "European journal of sport science · PMID 42904819 · 被 1 份整理引用",
+      "detail": "European journal of sport science · PMID 42904819 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -6715,6 +6833,12 @@
             "type": "weekly-report",
             "title": "跳得一樣、功率穩定，仍有疲勞？加量前的量測核對",
             "href": "?report=2026-w47#weekly-reports"
+          },
+          {
+            "id": "2026-w47",
+            "type": "podcast-episode",
+            "title": "Still Jumping, Still Tired?",
+            "href": "?podcast=2026-w47#podcast"
           }
         ]
       },
@@ -6743,7 +6867,7 @@
       "href": "?radar=pmid-42961009#research-radar",
       "sourceUrl": "https://doi.org/10.1111/sms.70391",
       "journal": "Scandinavian journal of medicine & science in sports",
-      "detail": "Scandinavian journal of medicine & science in sports · PMID 42961009 · 被 1 份整理引用",
+      "detail": "Scandinavian journal of medicine & science in sports · PMID 42961009 · 被 2 份整理引用",
       "reviewed": false,
       "related": {
         "researchIds": [],
@@ -6755,6 +6879,12 @@
             "type": "weekly-report",
             "title": "跳得一樣、功率穩定，仍有疲勞？加量前的量測核對",
             "href": "?report=2026-w47#weekly-reports"
+          },
+          {
+            "id": "2026-w47",
+            "type": "podcast-episode",
+            "title": "Still Jumping, Still Tired?",
+            "href": "?podcast=2026-w47#podcast"
           }
         ]
       },
