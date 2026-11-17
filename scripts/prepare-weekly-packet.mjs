@@ -3,6 +3,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { XMLParser } from "fast-xml-parser";
 import { extractRelevantExcerpt, normaliseWhitespace, rankKnowledgeMatches } from "./lib/knowledge-matching.mjs";
+import { buildResearchCandidatePool, isWithinDateCoverage } from "./lib/research-candidate-selection.mjs";
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const radarPath = resolve(rootDirectory, "content", "research-radar.json");
@@ -20,6 +21,7 @@ const outputDirectory = resolve(rootDirectory, argumentsByName.get("output-dir")
 const requestedRecordIds = parseCommaSeparatedValues(argumentsByName.get("articles"));
 const requestedTheme = argumentsByName.get("theme")?.trim() ?? "";
 const fullTextOnly = argumentsByName.has("full-text-only");
+const fullTextLookbackDays = parsePositiveInteger(argumentsByName.get("full-text-lookback-days") ?? "28", "--full-text-lookback-days", 7, 90);
 
 if (!reportId || !/^\d{4}-w\d{2}$/.test(reportId)) {
   throw new Error("--id must use YYYY-wNN, for example 2026-w38.");
@@ -67,8 +69,13 @@ const packet = {
     requestedTheme: requestedTheme || null,
     selectedRecordIds: packetBuild.selectedArticles.map((article) => article.record.id),
     unavailableRecordIds: packetBuild.unavailableArticles.map((article) => article.record.id),
+    fallbackRecordIds: packetBuild.selectedArticles
+      .map((article) => article.record)
+      .filter((record) => !isWithinDateCoverage(record.publicationDate, radar.coverage))
+      .map((record) => record.id),
     maxArticles: maximumArticles,
-    fullTextOnly
+    fullTextOnly,
+    fullTextLookbackDays: fullTextOnly ? fullTextLookbackDays : null
   },
   selectedArticles: packetBuild.selectedArticles,
   unavailableArticles: packetBuild.unavailableArticles,
@@ -99,6 +106,9 @@ console.log(`LLM-readable packet: ${packetMarkdownPath}`);
 if (packet.unavailableArticles.length > 0) {
   console.log(`${packet.unavailableArticles.length} selected records were retained as metadata-only and excluded from synthesis.`);
 }
+if (packet.selection.fallbackRecordIds.length > 0) {
+  console.log(`Filled ${packet.selection.fallbackRecordIds.length} source slots with verified, unreported full text from the previous ${fullTextLookbackDays} days.`);
+}
 
 async function selectResearchRecords(records) {
   const recordsById = new Map(records.map((record) => [record.id, record]));
@@ -110,12 +120,14 @@ async function selectResearchRecords(records) {
     }
     candidates = requestedRecordIds.map((recordId) => recordsById.get(recordId));
   } else {
-    const normalizedTheme = requestedTheme.toLocaleLowerCase("zh-Hant");
-    candidates = [...records]
-      .filter((record) => isWithinCoverage(record.publicationDate, radar.coverage))
-      .filter((record) => !previouslyReportedRecordIds.has(record.id))
-      .filter((record) => !requestedTheme || (record.themes ?? []).some((theme) => theme.toLocaleLowerCase("zh-Hant").includes(normalizedTheme)))
-      .filter((record) => !isLowValueEditorialRecord(record));
+    candidates = buildResearchCandidatePool(records, {
+      coverage: radar.coverage,
+      previouslyReportedRecordIds,
+      requestedTheme,
+      fullTextOnly,
+      fullTextLookbackDays,
+      isLowValueRecord: isLowValueEditorialRecord
+    });
   }
 
   const scoredCandidates = [];
@@ -655,11 +667,6 @@ function isDate(value) {
 
 function formatIsoDate(date) {
   return date.toISOString().slice(0, 10);
-}
-
-function isWithinCoverage(value, coverage) {
-  if (!isDate(value) || !isDate(coverage?.from) || !isDate(coverage?.to)) return false;
-  return value >= coverage.from && value <= coverage.to;
 }
 
 function formatWeekLabel(reportId) {
